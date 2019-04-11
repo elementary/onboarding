@@ -1,0 +1,5 @@
+src/Application.vala
+src/MainWindow.vala
+src/Utils.vala
+src/Views/AbstractInstallerView.vala
+src/Views/LocationServicesView.vala

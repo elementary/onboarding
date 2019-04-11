@@ -1,0 +1,44 @@
+# Punjabi translations for io.elementary.onboarding package.
+# Copyright (C) 2019 THE io.elementary.onboarding'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.elementary.onboarding package.
+# Automatically generated, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: io.elementary.onboarding\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-11 16:53-0700\n"
+"PO-Revision-Date: 2019-04-11 16:53-0700\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. height_request: 700,
+#. resizable: false,
+#: src/MainWindow.vala:30
+#, c-format
+msgid "Set up %s"
+msgstr ""
+
+#: src/Utils.vala:26
+msgid "Operating System"
+msgstr ""
+
+#: src/Views/AbstractInstallerView.vala:47
+msgid "Cancel Installation"
+msgstr ""
+
+#: src/Views/LocationServicesView.vala:25
+msgid "Location Services"
+msgstr ""
+
+#: src/Views/LocationServicesView.vala:29
+msgid "Full Name"
+msgstr ""
+
+#: src/Views/LocationServicesView.vala:44
+msgid "Finish Setup"
+msgstr ""
