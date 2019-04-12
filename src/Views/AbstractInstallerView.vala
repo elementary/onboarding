@@ -23,7 +23,9 @@ public abstract class AbstractInstallerView : Gtk.Grid {
     public Gtk.Grid custom_bin { get; private set; }
 
     construct {
-        var image = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.DIALOG);
+        var image = new Gtk.Image ();
+        image.icon_name = icon_name;
+        image.pixel_size = 64;
 
         var title_label = new Gtk.Label (title);
         title_label.get_style_context ().add_class ("h2");

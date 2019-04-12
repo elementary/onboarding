@@ -18,8 +18,8 @@
 public class Onboarding.WelcomeView : AbstractInstallerView {
     public WelcomeView () {
         Object (
-            description: _("You can set some common settings now, or skip at any time to just start using %s. These settings and more can be changed at any time from System Settings.").printf (Utils.get_os_name ()),
-            icon_name: "preferences-desktop",
+            description: _("You can skip this at any time to start using %s. The following settings and more can always be changed from System Settings.").printf (Utils.get_os_name ()),
+            icon_name: "distributor-logo",
             title: _("Welcome!")
         );
     }
