@@ -1,6 +1,5 @@
-// -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
 /*-
- * Copyright (c) 2016-2017 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,29 +17,89 @@
  * Authored by: Corentin Noël <corentin@elementary.io>
  */
 
-public class Onboarding.MainWindow : Gtk.Dialog {
-    private Gtk.Stack stack;
-
+public class Onboarding.MainWindow : Gtk.Window {
     public MainWindow () {
         Object (
             deletable: false,
-            // height_request: 700,
             icon_name: "system-os-installer",
-            // resizable: false,
             title: _("Set up %s").printf (Utils.get_pretty_name ())
-            // width_request: 950
         );
     }
 
     construct {
+        var welcome_view = new WelcomeView ();
         var location_services_view = new LocationServicesView ();
+        var finish_view = new FinishView ();
 
-        stack = new Gtk.Stack ();
+        var stack = new Gtk.Stack ();
+        stack.expand = true;
+        stack.valign = stack.halign = Gtk.Align.CENTER;
         stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
-        stack.add (location_services_view);
+        stack.add_titled (welcome_view, "welcome", welcome_view.title);
+        stack.add_titled (location_services_view, "location", location_services_view.title);
+        stack.add_titled (finish_view, "finish", finish_view.title);
+        stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
+        stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
+        stack.child_set_property (finish_view, "icon-name", "pager-checked-symbolic");
 
-        get_content_area ().add (stack);
+        var skip_button = new Gtk.Button.with_label (_("Skip"));
+
+        var stack_switcher = new Gtk.StackSwitcher ();
+        stack_switcher.halign = Gtk.Align.CENTER;
+        stack_switcher.stack = stack;
+
+        var next_button = new Gtk.Button.with_label (_("Next"));
+        next_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
+
+        var action_area = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL);
+        action_area.expand = true;
+        action_area.spacing = 6;
+        action_area.valign = Gtk.Align.END;
+        action_area.layout_style = Gtk.ButtonBoxStyle.EDGE;
+        action_area.add (skip_button);
+        action_area.add (stack_switcher);
+        action_area.add (next_button);
+
+        var grid = new Gtk.Grid ();
+        grid.margin = 10;
+        grid.margin_top = 0;
+        grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.row_spacing = 48;
+        grid.add (stack);
+        grid.add (action_area);
+
+        var titlebar = new Gtk.HeaderBar ();
+        titlebar.get_style_context ().add_class ("default-decoration");
+        titlebar.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
+        titlebar.set_custom_title (new Gtk.Label (null));
+
+        add (grid);
+        get_style_context ().add_class ("rounded");
+        set_titlebar (titlebar);
+        show_all ();
+
+        stack.notify["visible-child-name"].connect (() => {
+            if (stack.visible_child_name == "finish") {
+                next_button.label = _("Finish Setup");
+            } else {
+                next_button.label = _("Next");
+            }
+        });
+
+        next_button.clicked.connect (() => {
+            switch (stack.visible_child_name) {
+                case "welcome":
+                    stack.visible_child_name = "location";
+                case "location":
+                    stack.visible_child_name = "finish";
+                case "finish":
+                    destroy ();
+                    break;
+            }
+        });
+
+        skip_button.clicked.connect (() => {
+            destroy ();
+        });
     }
-
-    public override void close () {}
 }

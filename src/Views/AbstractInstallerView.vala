@@ -1,6 +1,5 @@
-// -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
 /*-
- * Copyright (c) 2017 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,43 +16,40 @@
  */
 
 public abstract class AbstractInstallerView : Gtk.Grid {
-    public bool cancellable { get; construct; }
-    public unowned Gtk.Widget? previous_view { get; set; }
+    public string description { get; construct; }
+    public string icon_name { get; construct; }
+    public string title { get; construct; }
 
-    protected Gtk.Grid content_area;
-    protected Gtk.ButtonBox action_area;
+    public Gtk.Grid custom_bin { get; private set; }
 
-    protected AbstractInstallerView (bool cancellable = false) {
-        Object (
-            cancellable: cancellable,
-            row_spacing: 24
-        );
-    }
-    
     construct {
-        content_area = new Gtk.Grid ();
-        content_area.column_spacing = 12;
-        content_area.row_spacing = 12;
-        content_area.expand = true;
-        content_area.orientation = Gtk.Orientation.VERTICAL;
+        var image = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.DIALOG);
 
-        action_area = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL);
-        action_area.margin_end = 10;
-        action_area.margin_start = 10;
-        action_area.spacing = 6;
-        action_area.layout_style = Gtk.ButtonBoxStyle.END;
+        var title_label = new Gtk.Label (title);
+        title_label.get_style_context ().add_class ("h2");
+        title_label.halign = Gtk.Align.CENTER;
 
-        if (cancellable) {
-            var cancel_button = new Gtk.Button.with_label (_("Cancel Installation"));
-            cancel_button.clicked.connect (() => {
-                ((Gtk.Stack) get_parent ()).visible_child = previous_view;
-            });
+        var description_label = new Gtk.Label (description);
+        description_label.halign = Gtk.Align.CENTER;
+        description_label.justify = Gtk.Justification.CENTER;
+        description_label.wrap = true;
+        description_label.max_width_chars = 50;
 
-            action_area.add (cancel_button);
-        }
+        var header_area = new Gtk.Grid ();
+        header_area.column_spacing = 12;
+        header_area.row_spacing = 12;
+        header_area.orientation = Gtk.Orientation.VERTICAL;
+        header_area.add (image);
+        header_area.add (title_label);
+        header_area.add (description_label);
+
+        custom_bin = new Gtk.Grid ();
+        custom_bin.column_spacing = 12;
+        custom_bin.halign = Gtk.Align.CENTER;
 
         orientation = Gtk.Orientation.VERTICAL;
-        add (content_area);
-        add (action_area);
+        row_spacing = 48;
+        add (header_area);
+        add (custom_bin);
     }
 }

@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2017 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,14 +15,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-.stack-switcher button {
-    background: none;
-    border: none;
-    box-shadow: none;
-    color: #666;
-    opacity: 0.4;
-}
-
-.stack-switcher button:checked {
-    opacity: 1;
+public class Onboarding.WelcomeView : AbstractInstallerView {
+    public WelcomeView () {
+        Object (
+            description: _("There's just a few questions to answer to get started. You can also choose to skip this process."),
+            icon_name: "dialog-question",
+            title: _("Welcome!")
+        );
+    }
 }

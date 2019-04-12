@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2017 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,40 +16,23 @@
  */
 
 public class Onboarding.LocationServicesView : AbstractInstallerView {
-    private Gtk.Button finish_button;
+    public LocationServicesView () {
+        Object (
+            description: _("While Location Services are enabled, apps will be able to make requests to use this device's location."),
+            icon_name: "find-location",
+            title: _("Location Services")
+        );
+    }
 
     construct {
-        var image = new Gtk.Image.from_icon_name ("avatar-default", Gtk.IconSize.DIALOG);
-        image.valign = Gtk.Align.END;
+        var switch_label = new Gtk.Label (_("Location Services:"));
 
-        var title_label = new Gtk.Label (_("Location Services"));
-        title_label.get_style_context ().add_class ("h2");
-        title_label.valign = Gtk.Align.START;
+        var service_switch = new Gtk.Switch ();
 
-        var realname_label = new Granite.HeaderLabel (_("Full Name"));
+        var settings = new GLib.Settings ("io.elementary.desktop.agent-geoclue2");
+        settings.bind ("location-enabled", service_switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
-        var form_grid = new Gtk.Grid ();
-        form_grid.row_spacing = 3;
-        form_grid.valign = Gtk.Align.CENTER;
-        form_grid.vexpand = true;
-        form_grid.attach (realname_label, 0, 0);
-
-        content_area.column_homogeneous = true;
-        content_area.margin_end = 12;
-        content_area.margin_start = 12;
-        content_area.attach (image, 0, 0, 1, 1);
-        content_area.attach (title_label, 0, 1, 1, 1);
-        content_area.attach (form_grid, 1, 0, 1, 2);
-
-        finish_button = new Gtk.Button.with_label (_("Finish Setup"));
-        finish_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
-
-        action_area.add (finish_button);
-
-        show_all ();
-
-        finish_button.clicked.connect (() => {
-            get_toplevel ().destroy ();
-        });
+        custom_bin.add (switch_label);
+        custom_bin.add (service_switch);
     }
 }

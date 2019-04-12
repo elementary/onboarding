@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2017 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,14 +15,18 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-.stack-switcher button {
-    background: none;
-    border: none;
-    box-shadow: none;
-    color: #666;
-    opacity: 0.4;
-}
+public class Onboarding.FinishView : AbstractInstallerView {
+    public FinishView () {
+        Object (
+            description: _("These settings and more can be changed at any time from within System Settings."),
+            icon_name: "preferences-desktop",
+            title: _("All Done")
+        );
+    }
 
-.stack-switcher button:checked {
-    opacity: 1;
+    construct {
+        var link_button = new Gtk.LinkButton.with_label ("settings://", _("Open System Settings…"));
+
+        custom_bin.add (link_button);
+    }
 }
