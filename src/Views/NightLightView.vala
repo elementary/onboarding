@@ -19,7 +19,7 @@ public class Onboarding.NightLightView : AbstractOnboardingView {
     public NightLightView () {
         Object (
             description: _("Make the colors of your display warmer at night to help prevent eye strain and sleeplessness."),
-            icon_name: "night-light",
+            icon_name: "preferences-desktop-display",
             title: _("Night Light")
         );
     }
