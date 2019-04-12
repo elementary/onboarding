@@ -15,10 +15,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class Onboarding.WelcomeView : AbstractInstallerView {
+public class Onboarding.WelcomeView : AbstractOnboardingView {
     public WelcomeView () {
         Object (
-            description: _("You can skip this at any time to start using %s. The following settings and more can always be changed from System Settings.").printf (Utils.get_os_name ()),
+            description: _("You can skip this at any time to start using %s. The following settings can always be changed later.").printf (Utils.get_os_name ()),
             icon_name: "distributor-logo",
             title: _("Welcome!")
         );

@@ -3,7 +3,7 @@ vala_files = [
     'Application.vala',
     'MainWindow.vala',
     'Utils.vala',
-    'Views/AbstractInstallerView.vala',
+    'Views/AbstractOnboardingView.vala',
     'Views/FinishView.vala',
     'Views/LocationServicesView.vala',
     'Views/WelcomeView.vala'

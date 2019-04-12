@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class Onboarding.LocationServicesView : AbstractInstallerView {
+public class Onboarding.LocationServicesView : AbstractOnboardingView {
     public LocationServicesView () {
         Object (
             description: _("While Location Services are enabled, apps will be able to make requests to use this device's location."),

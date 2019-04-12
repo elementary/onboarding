@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class Onboarding.FinishView : AbstractInstallerView {
+public class Onboarding.FinishView : AbstractOnboardingView {
     public FinishView () {
         Object (
             description: _("Thanks for choosing %s!").printf (Utils.get_os_name ()),

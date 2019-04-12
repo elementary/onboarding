@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public abstract class AbstractInstallerView : Gtk.Grid {
+public abstract class AbstractOnboardingView : Gtk.Grid {
     public string description { get; construct; }
     public string icon_name { get; construct; }
     public string title { get; construct; }
