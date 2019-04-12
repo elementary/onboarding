@@ -18,7 +18,7 @@
 public class Onboarding.WelcomeView : AbstractInstallerView {
     public WelcomeView () {
         Object (
-            description: _("You can set some common settings now, or skip at any time to just start using %s. These settings and more can be changed at any time from System Settings.").printf (Utils.get_pretty_name ()),
+            description: _("You can set some common settings now, or skip at any time to just start using %s. These settings and more can be changed at any time from System Settings.").printf (Utils.get_os_name ()),
             icon_name: "preferences-desktop",
             title: _("Welcome!")
         );

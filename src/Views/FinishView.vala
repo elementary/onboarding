@@ -18,7 +18,7 @@
 public class Onboarding.FinishView : AbstractInstallerView {
     public FinishView () {
         Object (
-            description: _("Thanks for choosing %s!").printf (Utils.get_pretty_name ()),
+            description: _("Thanks for choosing %s!").printf (Utils.get_os_name ()),
             icon_name: "process-completed",
             title: _("All Done!")
         );
