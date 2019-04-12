@@ -6,6 +6,7 @@ vala_files = [
     'Views/AbstractOnboardingView.vala',
     'Views/FinishView.vala',
     'Views/LocationServicesView.vala',
+    'Views/NightLightView.vala',
     'Views/WelcomeView.vala'
 ]
 
