@@ -22,7 +22,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         Object (
             deletable: false,
             icon_name: "system-os-installer",
-            title: _("Set up %s").printf (Utils.get_os_name ()),
+            title: _("Set up %s").printf (Utils.os_name),
             width_request: 560
         );
     }
