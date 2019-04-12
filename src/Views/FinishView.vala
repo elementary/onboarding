@@ -18,35 +18,14 @@
 public class Onboarding.FinishView : AbstractOnboardingView {
     public FinishView () {
         Object (
-            description: _("Thanks for choosing %s!").printf (Utils.get_os_name ()),
+            description: _("Thanks for choosing %s!").printf (Utils.os_name),
             icon_name: "process-completed",
             title: _("All Done!")
         );
     }
 
     construct {
-        string support_url;
-
-        var file = File.new_for_path ("/etc/os-release");
-        try {
-            var osrel = new Gee.HashMap<string, string> ();
-            var dis = new DataInputStream (file.read ());
-            string line;
-            // Read lines until end of file (null) is reached
-            while ((line = dis.read_line (null)) != null) {
-                var osrel_component = line.split ("=", 2);
-                if (osrel_component.length == 2) {
-                    osrel[osrel_component[0]] = osrel_component[1].replace ("\"", "");
-                }
-            }
-
-            support_url = osrel["SUPPORT_URL"];
-        } catch (Error e) {
-            critical (e.message);
-            support_url = "https://elementary.io/support";
-        }
-
-        var support_link = new Gtk.LinkButton.with_label (support_url, _("Get Support"));
+        var support_link = new Gtk.LinkButton.with_label (Utils.support_url, _("Get Support"));
 
         custom_bin.add (support_link);
     }
