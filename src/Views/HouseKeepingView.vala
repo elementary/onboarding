@@ -26,7 +26,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
     construct {
         var settings = new GLib.Settings ("org.gnome.desktop.privacy");
 
-        description = _("Trashed and temporary files can be automatically cleaned up after a period of %u days.").printf (settings.get_uint ("old-files-age"));
+        description = _("Old files can be automatically cleaned up after %u days to save space and help protect your privacy.").printf (settings.get_uint ("old-files-age"));
 
         var temp_label = new Gtk.Label (_("Automatically delete old temporary files:"));
         temp_label.halign = Gtk.Align.END;
