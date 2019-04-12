@@ -45,6 +45,11 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         var skip_button = new Gtk.Button.with_label (_("Skip"));
 
+        var skip_revealer = new Gtk.Revealer ();
+        skip_revealer.reveal_child = true;
+        skip_revealer.transition_type = Gtk.RevealerTransitionType.CROSSFADE;
+        skip_revealer.add (skip_button);
+
         var stack_switcher = new Gtk.StackSwitcher ();
         stack_switcher.halign = Gtk.Align.CENTER;
         stack_switcher.stack = stack;
@@ -58,7 +63,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         action_area.spacing = 6;
         action_area.valign = Gtk.Align.END;
         action_area.layout_style = Gtk.ButtonBoxStyle.EDGE;
-        action_area.add (skip_button);
+        action_area.add (skip_revealer);
         action_area.add (stack_switcher);
         action_area.add (next_button);
 
@@ -82,8 +87,10 @@ public class Onboarding.MainWindow : Gtk.Window {
         stack.notify["visible-child-name"].connect (() => {
             if (stack.visible_child_name == "finish") {
                 next_button.label = _("Get Started");
+                skip_revealer.reveal_child = false;
             } else {
                 next_button.label = _("Next");
+                skip_revealer.reveal_child = true;
             }
         });
 
