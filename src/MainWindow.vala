@@ -74,6 +74,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         action_area.add (skip_revealer);
         action_area.add (stack_switcher);
         action_area.add (next_button);
+        action_area.set_child_non_homogeneous (stack_switcher, true);
 
         var grid = new Gtk.Grid ();
         grid.margin_bottom = 10;
