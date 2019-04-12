@@ -80,7 +80,7 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         stack.notify["visible-child-name"].connect (() => {
             if (stack.visible_child_name == "finish") {
-                next_button.label = _("Finish Setup");
+                next_button.label = _("Get Started");
             } else {
                 next_button.label = _("Next");
             }

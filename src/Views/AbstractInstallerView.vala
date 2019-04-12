@@ -37,6 +37,8 @@ public abstract class AbstractInstallerView : Gtk.Grid {
 
         var header_area = new Gtk.Grid ();
         header_area.column_spacing = 12;
+        header_area.halign = Gtk.Align.CENTER;
+        header_area.expand = true;
         header_area.row_spacing = 12;
         header_area.orientation = Gtk.Orientation.VERTICAL;
         header_area.add (image);

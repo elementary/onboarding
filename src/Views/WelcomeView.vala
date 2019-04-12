@@ -18,9 +18,15 @@
 public class Onboarding.WelcomeView : AbstractInstallerView {
     public WelcomeView () {
         Object (
-            description: _("There's just a few questions to answer to get started. You can also choose to skip this process."),
-            icon_name: "dialog-question",
+            description: _("There's just a few questions to answer to get started. You can also choose to skip this process. These settings and more can be changed at any time from within System Settings."),
+            icon_name: "preferences-desktop",
             title: _("Welcome!")
         );
+    }
+
+    construct {
+        var link_button = new Gtk.LinkButton.with_label ("settings://", _("Open System Settings…"));
+
+        custom_bin.add (link_button);
     }
 }

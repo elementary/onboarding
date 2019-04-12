@@ -18,15 +18,9 @@
 public class Onboarding.FinishView : AbstractInstallerView {
     public FinishView () {
         Object (
-            description: _("These settings and more can be changed at any time from within System Settings."),
-            icon_name: "preferences-desktop",
-            title: _("All Done")
+            description: _("Thanks for choosing %s!").printf (Utils.get_pretty_name ()),
+            icon_name: "process-completed",
+            title: _("All Done!")
         );
-    }
-
-    construct {
-        var link_button = new Gtk.LinkButton.with_label ("settings://", _("Open System Settings…"));
-
-        custom_bin.add (link_button);
     }
 }
