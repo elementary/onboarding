@@ -28,12 +28,12 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
 
         description = _("Old files can be automatically cleaned up after %u days to save space and help protect your privacy.").printf (settings.get_uint ("old-files-age"));
 
-        var temp_label = new Gtk.Label (_("Automatically delete old temporary files:"));
+        var temp_label = new Gtk.Label (_("Temporary files:"));
         temp_label.halign = Gtk.Align.END;
 
         var temp_switch = new Gtk.Switch ();
 
-        var trash_label = new Gtk.Label (_("Automatically delete old trashed files:"));
+        var trash_label = new Gtk.Label (_("Trashed files:"));
         trash_label.halign = Gtk.Align.END;
 
         var trash_switch = new Gtk.Switch ();
