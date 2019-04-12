@@ -52,7 +52,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         custom_bin.halign = Gtk.Align.CENTER;
 
         orientation = Gtk.Orientation.VERTICAL;
-        row_spacing = 48;
+        row_spacing = 24;
         add (header_area);
         add (custom_bin);
     }

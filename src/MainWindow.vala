@@ -64,7 +64,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         grid.margin = 10;
         grid.margin_top = 0;
         grid.orientation = Gtk.Orientation.VERTICAL;
-        grid.row_spacing = 48;
+        grid.row_spacing = 24;
         grid.add (stack);
         grid.add (action_area);
 
