@@ -23,13 +23,14 @@ public class Onboarding.MainWindow : Gtk.Window {
             deletable: false,
             icon_name: "system-os-installer",
             title: _("Set up %s").printf (Utils.os_name),
-            width_request: 400
+            width_request: 560
         );
     }
 
     construct {
         var welcome_view = new WelcomeView ();
         var location_services_view = new LocationServicesView ();
+        var housekeeping_view = new HouseKeepingView ();
         var finish_view = new FinishView ();
 
         var stack = new Gtk.Stack ();
@@ -38,9 +39,11 @@ public class Onboarding.MainWindow : Gtk.Window {
         stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
         stack.add_titled (welcome_view, "welcome", welcome_view.title);
         stack.add_titled (location_services_view, "location", location_services_view.title);
+        stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
         stack.add_titled (finish_view, "finish", finish_view.title);
         stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
         stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
+        stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
         stack.child_set_property (finish_view, "icon-name", "pager-checked-symbolic");
 
         var skip_button = new Gtk.Button.with_label (_("Skip"));
@@ -99,6 +102,8 @@ public class Onboarding.MainWindow : Gtk.Window {
                 case "welcome":
                     stack.visible_child_name = "location";
                 case "location":
+                    stack.visible_child_name = "housekeeping";
+                case "housekeeping":
                     stack.visible_child_name = "finish";
                 case "finish":
                     destroy ();
