@@ -20,7 +20,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         Object (
             description: _("You can skip this at any time to start using %s. The following settings can always be changed later.").printf (Utils.get_os_name ()),
             icon_name: "distributor-logo",
-            title: _("Welcome!")
+            title: _("Welcome to %s!").printf (Utils.get_os_name ())
         );
     }
 
