@@ -22,7 +22,8 @@ public class Onboarding.MainWindow : Gtk.Window {
         Object (
             deletable: false,
             icon_name: "system-os-installer",
-            title: _("Set up %s").printf (Utils.get_os_name ())
+            title: _("Set up %s").printf (Utils.get_os_name ()),
+            width_request: 400
         );
     }
 
@@ -52,6 +53,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         next_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
 
         var action_area = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL);
+        action_area.margin_start = action_area.margin_end = 10;
         action_area.expand = true;
         action_area.spacing = 6;
         action_area.valign = Gtk.Align.END;
@@ -61,8 +63,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         action_area.add (next_button);
 
         var grid = new Gtk.Grid ();
-        grid.margin = 10;
-        grid.margin_top = 0;
+        grid.margin_bottom = 10;
         grid.orientation = Gtk.Orientation.VERTICAL;
         grid.row_spacing = 24;
         grid.add (stack);
