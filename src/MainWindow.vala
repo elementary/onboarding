@@ -43,7 +43,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
         stack.child_set_property (finish_view, "icon-name", "pager-checked-symbolic");
 
-        var skip_button = new Gtk.Button.with_label (_("Skip"));
+        var skip_button = new Gtk.Button.with_label (_("Skip All"));
 
         var skip_revealer = new Gtk.Revealer ();
         skip_revealer.reveal_child = true;
