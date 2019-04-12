@@ -3,5 +3,6 @@ src/MainWindow.vala
 src/Utils.vala
 src/Views/AbstractOnboardingView.vala
 src/Views/FinishView.vala
+src/Views/HouseKeepingView.vala
 src/Views/LocationServicesView.vala
 src/Views/WelcomeView.vala

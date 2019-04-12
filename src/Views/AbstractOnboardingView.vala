@@ -16,7 +16,7 @@
  */
 
 public abstract class AbstractOnboardingView : Gtk.Grid {
-    public string description { get; construct; }
+    public string description { get; set; }
     public string icon_name { get; construct; }
     public string title { get; construct; }
 
@@ -49,6 +49,8 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
 
         custom_bin = new Gtk.Grid ();
         custom_bin.column_spacing = 12;
+        custom_bin.expand = true;
+        custom_bin.row_spacing = 6;
         custom_bin.halign = Gtk.Align.CENTER;
 
         margin_start = margin_end = 10;
@@ -56,5 +58,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         row_spacing = 24;
         add (header_area);
         add (custom_bin);
+
+        bind_property ("description", description_label, "label");
     }
 }
