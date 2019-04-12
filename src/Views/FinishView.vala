@@ -18,9 +18,15 @@
 public class Onboarding.FinishView : AbstractOnboardingView {
     public FinishView () {
         Object (
-            description: _("Thanks for choosing %s!").printf (Utils.get_os_name ()),
+            description: _("Thanks for choosing %s!").printf (Utils.os_name),
             icon_name: "process-completed",
             title: _("All Done!")
         );
+    }
+
+    construct {
+        var support_link = new Gtk.LinkButton.with_label (Utils.support_url, _("Get Support"));
+
+        custom_bin.add (support_link);
     }
 }

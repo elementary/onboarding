@@ -1,6 +1,5 @@
-// -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
 /*-
- * Copyright (c) 2014-2017 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2014-2019 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,28 +18,48 @@
  *              Marvin Beckers <beckersmarvin@gmail.com>
  */
 
-namespace Utils {
-    private static string os_name;
-    private static string get_os_name () {
-        if (os_name == null) {
-            os_name = _("Operating System");
-            const string ETC_OS_RELEASE = "/etc/os-release";
-
-            try {
-                var data_stream = new DataInputStream (File.new_for_path (ETC_OS_RELEASE).read ());
-
-                string line;
-                while ((line = data_stream.read_line (null)) != null) {
-                    var osrel_component = line.split ("=", 2);
-                    if (osrel_component.length == 2 && osrel_component[0] == "NAME") {
-                        os_name = osrel_component[1].replace ("\"", "");
-                        break;
-                    }
-                }
-            } catch (Error e) {
-                warning ("Couldn't read os-release file: %s", e.message);
+public class Utils {
+    private static string _support_url;
+    public static string support_url {
+        get {
+            if (_support_url == null) {
+                parse_osrelease ();
             }
+
+            return _support_url;
         }
-        return os_name;
+    }
+
+    private static string _os_name;
+    public static string os_name {
+        get {
+            if (_os_name == null) {
+                parse_osrelease ();
+            }
+
+            return _os_name;
+        }
+    }
+
+    private static void parse_osrelease () {
+        var file = File.new_for_path ("/etc/os-release");
+        try {
+            var osrel = new Gee.HashMap<string, string> ();
+            var dis = new DataInputStream (file.read ());
+            string line;
+            // Read lines until end of file (null) is reached
+            while ((line = dis.read_line (null)) != null) {
+                var osrel_component = line.split ("=", 2);
+                if (osrel_component.length == 2) {
+                    osrel[osrel_component[0]] = osrel_component[1].replace ("\"", "");
+                }
+            }
+            _os_name = osrel["NAME"];
+            _support_url = osrel["SUPPORT_URL"];
+        } catch (Error e) {
+            critical (e.message);
+            _os_name = "elementary OS";
+            _support_url = "https://elementary.io/support";
+        }
     }
 }
