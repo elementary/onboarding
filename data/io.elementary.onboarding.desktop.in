@@ -1,9 +1,10 @@
 [Desktop Entry]
-Name=Set up elementary OS
-Comment=Set up the system
+Name=Welcome
+Comment=Change common settings on first-run
 Exec=pkexec io.elementary.onboarding
 Icon=system-os-installer
 Terminal=false
 Type=Application
 StartupNotify=true
 Categories=GNOME;GTK;System;
+NoDisplay=true
