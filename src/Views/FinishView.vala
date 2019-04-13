@@ -25,19 +25,19 @@ public class Onboarding.FinishView : AbstractOnboardingView {
     }
 
     construct {
-        var thebasics_link = new FinishView.LinkButton (
+        var thebasics_link = new ImageLinkButton (
             "https://elementary.io/docs/learning-the-basics#learning-the-basics",
             _("Learning The Basics…"),
             "text-x-generic-symbolic"
         );
 
-        var support_link = new FinishView.LinkButton (
+        var support_link = new ImageLinkButton (
             Utils.support_url,
             _("Get Support…"),
             "help-contents-symbolic"
         );
 
-        var getinvolved_link = new FinishView.LinkButton (
+        var getinvolved_link = new ImageLinkButton (
             "https://elementary.io/get-involved",
             _("Get Involved…"),
             "applications-development-symbolic"
@@ -48,11 +48,11 @@ public class Onboarding.FinishView : AbstractOnboardingView {
         custom_bin.attach (getinvolved_link, 0, 2);
     }
 
-    private class LinkButton : Gtk.LinkButton {
+    private class ImageLinkButton : Gtk.LinkButton {
         public string icon_name { get; construct; }
         public string label_string { get; construct; }
 
-        public LinkButton (string uri, string label_string, string icon_name) {
+        public ImageLinkButton (string uri, string label_string, string icon_name) {
             Object (
                 uri: uri,
                 label_string: label_string,
@@ -71,7 +71,6 @@ public class Onboarding.FinishView : AbstractOnboardingView {
             grid.add (left_label);
 
             add (grid);
-            show_all ();
         }
     }
 }
