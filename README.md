@@ -4,7 +4,7 @@
 
 You'll need the following dependencies:
 * libgtk-3-dev
-* libgranite
+* libgranite-dev
 * meson
 * valac
 
