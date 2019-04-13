@@ -28,7 +28,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         image.pixel_size = 64;
 
         var title_label = new Gtk.Label (title);
-        title_label.get_style_context ().add_class ("h2");
+        title_label.get_style_context ().add_class (Granite.STYLE_CLASS_H2_LABEL);
         title_label.halign = Gtk.Align.CENTER;
 
         var description_label = new Gtk.Label (description);
