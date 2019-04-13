@@ -26,22 +26,19 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
     construct {
         var settings = new GLib.Settings ("org.gnome.desktop.privacy");
 
-        description = _("Old files can be automatically cleaned up after %u days to save space and help protect your privacy.").printf (settings.get_uint ("old-files-age"));
+        description = _("Old files can be automatically deleted after %u days to save space and help protect your privacy.").printf (settings.get_uint ("old-files-age"));
 
-        var temp_label = new Gtk.Label (_("Automatically delete old temporary files:"));
-        temp_label.halign = Gtk.Align.END;
+        var header_label = new Granite.HeaderLabel (_("Automatically Delete:"));
 
-        var temp_switch = new Gtk.Switch ();
+        var temp_switch = new Gtk.CheckButton.with_label (_("Temporary files"));
+        temp_switch.margin_start = 12;
 
-        var trash_label = new Gtk.Label (_("Automatically delete old trashed files:"));
-        trash_label.halign = Gtk.Align.END;
+        var trash_switch = new Gtk.CheckButton.with_label (_("Trashed files"));
+        trash_switch.margin_start = 12;
 
-        var trash_switch = new Gtk.Switch ();
-
-        custom_bin.attach (temp_label, 0, 0);
-        custom_bin.attach (temp_switch, 1, 0);
-        custom_bin.attach (trash_label, 0, 1);
-        custom_bin.attach (trash_switch, 1, 1);
+        custom_bin.attach (header_label, 0, 0);
+        custom_bin.attach (temp_switch, 0, 1);
+        custom_bin.attach (trash_switch, 0, 2);
 
         settings.bind ("remove-old-temp-files", temp_switch, "active", GLib.SettingsBindFlags.DEFAULT);
         settings.bind ("remove-old-trash-files", trash_switch, "active", GLib.SettingsBindFlags.DEFAULT);
