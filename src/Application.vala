@@ -19,6 +19,8 @@
  */
 
 public class Onboarding.App : Gtk.Application {
+    public static GLib.Settings settings;
+
     construct {
         application_id = "io.elementary.installer";
         flags = ApplicationFlags.FLAGS_NONE;
@@ -26,6 +28,11 @@ public class Onboarding.App : Gtk.Application {
     }
 
     public override void activate () {
+        settings = new GLib.Settings ("io.elementary.onboarding");
+        if (!settings.get_boolean ("first-run")) {
+            quit ();
+        }
+
         var window = new MainWindow ();
         window.show_all ();
         this.add_window (window);

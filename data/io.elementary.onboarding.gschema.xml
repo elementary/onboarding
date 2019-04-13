@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema path="/io/elementary/onboarding/" id="io.elementary.onboarding">
+        <key type="b" name="first-run">
+            <default>true</default>
+            <summary>If this app should run at startup.</summary>
+        </key>
+    </schema>
+</schemalist>
