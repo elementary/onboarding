@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Welcome
 Comment=Change common settings on first-run
-Exec=pkexec io.elementary.onboarding
+Exec=io.elementary.onboarding
 Icon=system-os-installer
 Terminal=false
 Type=Application
