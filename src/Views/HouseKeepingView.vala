@@ -18,7 +18,7 @@
 public class Onboarding.HouseKeepingView : AbstractOnboardingView {
     public HouseKeepingView () {
         Object (
-            icon_name: "edit-clear",
+            icon_name: "preferences-system-privacy-housekeeping",
             title: _("Housekeeping")
         );
     }
