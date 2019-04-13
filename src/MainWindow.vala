@@ -120,7 +120,7 @@ public class Onboarding.MainWindow : Gtk.Window {
                 case "night-light":
                     stack.visible_child_name = "housekeeping";
                 case "housekeeping":
-                    if (appcenter_installed ()) {
+                    if (is_appcenter_installed ()) {
                         stack.visible_child_name = "appcenter";
                     } else {
                         stack.visible_child_name = "finish";
