@@ -18,21 +18,15 @@
 public class Onboarding.FinishView : AbstractOnboardingView {
     public FinishView () {
         Object (
-            description: _("Thanks for choosing %s!").printf (Utils.os_name),
+            description: _("You can change all %s settings and preferences any time from System Settings.").printf (Utils.os_name),
             icon_name: "process-completed",
-            title: _("All Done!")
+            title: _("Enjoy %s").printf (Utils.os_name)
         );
     }
 
     construct {
-        var thebasics_link = new Gtk.LinkButton.with_label ("https://elementary.io/docs/learning-the-basics#learning-the-basics", _("Learning The Basics"));
+        var link_button = new Gtk.LinkButton.with_label ("settings://", _("Open System Settings…"));
 
-        var support_link = new Gtk.LinkButton.with_label (Utils.support_url, _("Get Support"));
-
-        var getinvolved_link = new Gtk.LinkButton.with_label ("https://elementary.io/get-involved", _("Get Involved"));
-
-        custom_bin.attach (thebasics_link, 0, 0);
-        custom_bin.attach (support_link, 0, 1);
-        custom_bin.attach (getinvolved_link, 0, 2);
+        custom_bin.add (link_button);
     }
 }
