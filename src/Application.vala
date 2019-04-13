@@ -47,4 +47,3 @@ public static int main (string[] args) {
     var application = new Onboarding.App ();
     return application.run (args);
 }
-

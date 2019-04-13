@@ -32,6 +32,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         var location_services_view = new LocationServicesView ();
         var night_light_view = new NightLightView ();
         var housekeeping_view = new HouseKeepingView ();
+        var appcenter_view = new AppCenterView ();
         var finish_view = new FinishView ();
 
         var stack = new Gtk.Stack ();
@@ -43,12 +44,14 @@ public class Onboarding.MainWindow : Gtk.Window {
         stack.add_titled (location_services_view, "location", location_services_view.title);
         stack.add_titled (night_light_view, "night-light", night_light_view.title);
         stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
+        stack.add_titled (appcenter_view, "appcenter", appcenter_view.title);
         stack.add_titled (finish_view, "finish", finish_view.title);
 
         stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
         stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
         stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
         stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
+        stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
         stack.child_set_property (finish_view, "icon-name", "pager-checked-symbolic");
 
         var skip_button = new Gtk.Button.with_label (_("Skip All"));
@@ -112,6 +115,8 @@ public class Onboarding.MainWindow : Gtk.Window {
                 case "night-light":
                     stack.visible_child_name = "housekeeping";
                 case "housekeeping":
+                    stack.visible_child_name = "appcenter";
+                case "appcenter":
                     stack.visible_child_name = "finish";
                 case "finish":
                     finish ();
