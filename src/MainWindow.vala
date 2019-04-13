@@ -114,14 +114,19 @@ public class Onboarding.MainWindow : Gtk.Window {
                 case "housekeeping":
                     stack.visible_child_name = "finish";
                 case "finish":
-                    destroy ();
+                    finish ();
                     break;
             }
         });
 
         skip_button.clicked.connect (() => {
-            destroy ();
+            finish ();
         });
+    }
+
+    private void finish () {
+        Onboarding.App.settings.set_boolean ("first-run", false);
+        destroy ();
     }
 }
 

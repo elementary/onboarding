@@ -7,6 +7,11 @@ i18n.merge_file(
     install: true
 )
 
+install_data(
+    'io.elementary.onboarding.gschema.xml',
+    install_dir: join_paths(get_option('datadir'), 'glib-2.0', 'schemas')
+)
+
 # Test the desktop file
 validate_desktop_exe = find_program('desktop-file-validate')
 test ('Validate desktop file', validate_desktop_exe,
