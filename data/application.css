@@ -26,11 +26,3 @@
 .stack-switcher button:checked {
     opacity: 1;
 }
-
-.appcenter {
-    font-family: Raleway;
-    font-size: 1.25em;
-    font-weight: 900;
-    padding: 0.5em 1em;
-}
-
