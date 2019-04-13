@@ -18,7 +18,7 @@
 public class Onboarding.FinishView : AbstractOnboardingView {
     public FinishView () {
         Object (
-            description: _("You can change all %s settings and preferences any time from System Settings.").printf (Utils.os_name),
+            description: _("You can visit System Settings any time."),
             icon_name: "process-completed",
             title: _("Enjoy %s").printf (Utils.os_name)
         );
