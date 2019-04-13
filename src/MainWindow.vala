@@ -28,32 +28,35 @@ public class Onboarding.MainWindow : Gtk.Window {
     }
 
     construct {
-        var welcome_view = new WelcomeView ();
-        var location_services_view = new LocationServicesView ();
-        var night_light_view = new NightLightView ();
-        var housekeeping_view = new HouseKeepingView ();
-        var appcenter_view = new AppCenterView ();
-        var finish_view = new FinishView ();
-
         var stack = new Gtk.Stack ();
         stack.expand = true;
         stack.valign = stack.halign = Gtk.Align.CENTER;
         stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
 
+        var welcome_view = new WelcomeView ();
         stack.add_titled (welcome_view, "welcome", welcome_view.title);
+        stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
+
+        var location_services_view = new LocationServicesView ();
         stack.add_titled (location_services_view, "location", location_services_view.title);
+        stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
+
+        var night_light_view = new NightLightView ();
         stack.add_titled (night_light_view, "night-light", night_light_view.title);
+        stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
+
+        var housekeeping_view = new HouseKeepingView ();
         stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
+        stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
+
         if (appcenter_installed ()) {
+            var appcenter_view = new AppCenterView ();
             stack.add_titled (appcenter_view, "appcenter", appcenter_view.title);
             stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
         }
-        stack.add_titled (finish_view, "finish", finish_view.title);
 
-        stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
-        stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
-        stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
-        stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
+        var finish_view = new FinishView ();
+        stack.add_titled (finish_view, "finish", finish_view.title);
         stack.child_set_property (finish_view, "icon-name", "pager-checked-symbolic");
 
         var skip_button = new Gtk.Button.with_label (_("Skip All"));
