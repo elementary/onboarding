@@ -18,15 +18,18 @@
 public class Onboarding.AppCenterView : AbstractOnboardingView {
     public AppCenterView () {
         Object (
-            description: _("Visit AppCenter to install any apps you need."),
+            description: _("Get the apps you need on AppCenter. Curated apps are made for %s and reviewed by elementary.").printf (Utils.os_name),
             icon_name: "system-software-install",
             title: _("Get Some Apps")
         );
     }
 
     construct {
-        var appcenter_button = new Gtk.Button.with_label ("Browse AppCenter");
-        appcenter_button.get_style_context ().add_class ("appcenter");
+        var appcenter_button = new Gtk.Button.with_label ("Browse AppCenter…");
+
+        var appcenter_button_context = appcenter_button.get_style_context ();
+        appcenter_button_context.add_class (Gtk.STYLE_CLASS_FLAT);
+        appcenter_button_context.add_class ("link");
 
         custom_bin.add (appcenter_button);
 
