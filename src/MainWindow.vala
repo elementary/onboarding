@@ -49,7 +49,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
         stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
 
-        if (appcenter_installed ()) {
+        if (is_appcenter_installed ()) {
             var appcenter_view = new AppCenterView ();
             stack.add_titled (appcenter_view, "appcenter", appcenter_view.title);
             stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
@@ -143,7 +143,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         destroy ();
     }
 
-    private bool appcenter_installed () {
+    private static bool is_appcenter_installed () {
         return Environment.find_program_in_path ("io.elementary.appcenter") != null;
     }
 }
