@@ -28,8 +28,10 @@ public class Onboarding.App : Gtk.Application {
     }
 
     public override void activate () {
+        bool is_terminal = Posix.isatty (Posix.STDIN_FILENO);
+
         settings = new GLib.Settings ("io.elementary.onboarding");
-        if (!settings.get_boolean ("first-run")) {
+        if (!is_terminal && !settings.get_boolean ("first-run")) {
             quit ();
         }
 
