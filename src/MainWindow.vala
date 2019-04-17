@@ -64,7 +64,7 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         var skip_revealer = new Gtk.Revealer ();
         skip_revealer.reveal_child = true;
-        skip_revealer.transition_type = Gtk.RevealerTransitionType.CROSSFADE;
+        skip_revealer.transition_type = Gtk.RevealerTransitionType.NONE;
         skip_revealer.add (skip_button);
 
         var stack_switcher = new Gtk.StackSwitcher ();
