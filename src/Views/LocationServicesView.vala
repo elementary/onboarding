@@ -22,7 +22,7 @@ public class Onboarding.LocationServicesView : AbstractOnboardingView {
             icon_name: "find-location",
             title: _("Location Services"),
             setting_path: "privacy/location",
-            setting_navigation: {_("Security & Privacy"), _("Location Services")}
+            setting_tooltip: _("Security & Privacy → Location Services")
         );
     }
 

@@ -22,7 +22,7 @@ public class Onboarding.NightLightView : AbstractOnboardingView {
             icon_name: "night-light",
             title: _("Night Light"),
             setting_path: "display/night-light",
-            setting_navigation: {_("Displays"), _("Night Light")}
+            setting_tooltip: _("Displays → Night Light")
         );
     }
 
