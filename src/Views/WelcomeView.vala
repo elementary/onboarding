@@ -18,15 +18,21 @@
 public class Onboarding.WelcomeView : AbstractOnboardingView {
     public WelcomeView () {
         Object (
-            description: _("You can skip this at any time to start using %s. The following settings can always be changed later.").printf (Utils.os_name),
+            description: _("Continue to set up some useful features. Visit the links below for more information about %s.").printf (Utils.os_name),
             icon_name: "distributor-logo",
             title: _("Welcome to %s!").printf (Utils.os_name)
         );
     }
 
     construct {
-        var link_button = new Gtk.LinkButton.with_label ("settings://", _("Open System Settings…"));
+        var thebasics_link = new Gtk.LinkButton.with_label ("https://elementary.io/docs/learning-the-basics#learning-the-basics", _("Learning The Basics"));
 
-        custom_bin.add (link_button);
+        var support_link = new Gtk.LinkButton.with_label (Utils.support_url, _("Get Support"));
+
+        var getinvolved_link = new Gtk.LinkButton.with_label ("https://elementary.io/get-involved", _("Get Involved"));
+
+        custom_bin.attach (thebasics_link, 0, 0);
+        custom_bin.attach (support_link, 0, 1);
+        custom_bin.attach (getinvolved_link, 0, 2);
     }
 }
