@@ -20,7 +20,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
     public string icon_name { get; construct; }
     public string title { get; construct; }
     public string? setting_path { get; construct; }
-    public string? setting_title { get; construct; }
+    public string[]? setting_navigation { get; set; }
 
     public Gtk.Grid custom_bin { get; private set; }
 
@@ -61,12 +61,16 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         add (header_area);
         add (custom_bin);
 
-        if (setting_path != null && setting_title != null) {
+        if (setting_path != null && setting_navigation != null) {
+            // TRANSLATORS: A symbol to separate each element in the navigation, i.e. for "System Settings → Displays"
+            var setting_tooltip = string.joinv (_(" → "), setting_navigation);
+
             var setting_link = new Gtk.LinkButton.with_label (
                 "settings://%s".printf (setting_path),
-                _("System Settings → %s…").printf (setting_title)
+                setting_navigation[setting_navigation.length]
             );
             setting_link.halign = Gtk.Align.CENTER;
+            setting_link.tooltip_text = setting_tooltip;
             add (setting_link);
         }
 
