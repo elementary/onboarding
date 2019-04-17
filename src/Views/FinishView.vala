@@ -18,59 +18,15 @@
 public class Onboarding.FinishView : AbstractOnboardingView {
     public FinishView () {
         Object (
-            description: _("Thanks for choosing %s!").printf (Utils.os_name),
+            description: _("You can visit System Settings any time."),
             icon_name: "process-completed",
-            title: _("All Done!")
+            title: _("Enjoy %s").printf (Utils.os_name)
         );
     }
 
     construct {
-        var thebasics_link = new ImageLinkButton (
-            "https://elementary.io/docs/learning-the-basics#learning-the-basics",
-            _("Learning The Basics…"),
-            "text-x-generic-symbolic"
-        );
+        var link_button = new Gtk.LinkButton.with_label ("settings://", _("Open System Settings…"));
 
-        var support_link = new ImageLinkButton (
-            Utils.support_url,
-            _("Get Support…"),
-            "help-contents-symbolic"
-        );
-
-        var getinvolved_link = new ImageLinkButton (
-            "https://elementary.io/get-involved",
-            _("Get Involved…"),
-            "applications-development-symbolic"
-        );
-
-        custom_bin.attach (thebasics_link, 0, 0);
-        custom_bin.attach (support_link, 0, 1);
-        custom_bin.attach (getinvolved_link, 0, 2);
-    }
-
-    private class ImageLinkButton : Gtk.LinkButton {
-        public string icon_name { get; construct; }
-        public string label_string { get; construct; }
-
-        public ImageLinkButton (string uri, string label_string, string icon_name) {
-            Object (
-                uri: uri,
-                label_string: label_string,
-                icon_name: icon_name
-            );
-        }
-
-        construct {
-            var image = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.MENU);
-
-            var left_label = new Gtk.Label (label_string);
-            left_label.xalign = 0;
-
-            var grid = new Gtk.Grid ();
-            grid.add (image);
-            grid.add (left_label);
-
-            add (grid);
-        }
+        custom_bin.add (link_button);
     }
 }
