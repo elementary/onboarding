@@ -10,13 +10,15 @@ glib_dep = dependency('glib-2.0')
 gobject_dep = dependency('gobject-2.0')
 granite_dep = dependency('granite')
 gtk_dep = dependency('gtk+-3.0')
+posix_dep = meson.get_compiler('vala').find_library('posix')
 
 dependencies = [
     gee_dep,
     glib_dep,
     gobject_dep,
     granite_dep,
-    gtk_dep
+    gtk_dep,
+    posix_dep,
 ]
 
 asresources = gnome.compile_resources(
