@@ -25,7 +25,7 @@ public class Onboarding.FinishView : AbstractOnboardingView {
     }
 
     construct {
-        var link_button = new Gtk.LinkButton.with_label ("settings://", _("Open System Settings…"));
+        var link_button = new Gtk.LinkButton.with_label ("settings://", _("System Settings…"));
 
         custom_bin.add (link_button);
     }
