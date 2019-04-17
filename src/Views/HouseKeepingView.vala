@@ -19,7 +19,9 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
     public HouseKeepingView () {
         Object (
             icon_name: "preferences-system-privacy-housekeeping",
-            title: _("Housekeeping")
+            title: _("Housekeeping"),
+            setting_path: "privacy/trash",
+            setting_title: _("Security & Privacy → Housekeeping")
         );
     }
 
