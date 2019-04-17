@@ -102,6 +102,8 @@ public class Onboarding.MainWindow : Gtk.Window {
         set_titlebar (titlebar);
         show_all ();
 
+        next_button.grab_focus ();
+
         stack.notify["visible-child-name"].connect (() => {
             if (stack.visible_child_name == "finish") {
                 next_button.label = _("Get Started");
