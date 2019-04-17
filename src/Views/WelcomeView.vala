@@ -27,13 +27,13 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
     construct {
         var thebasics_link = new ImageLinkButton (
             "https://elementary.io/docs/learning-the-basics#learning-the-basics",
-            _("Learning The Basics…"),
+            _("Basics Guide…"),
             "text-x-generic-symbolic"
         );
 
         var support_link = new ImageLinkButton (
             Utils.support_url,
-            _("Get Support…"),
+            _("Community Support…"),
             "help-contents-symbolic"
         );
 
