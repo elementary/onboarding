@@ -20,9 +20,7 @@ public class Onboarding.LocationServicesView : AbstractOnboardingView {
         Object (
             description: _("While Location Services are enabled, apps will be able to make requests to use this device's location."),
             icon_name: "find-location",
-            title: _("Location Services"),
-            setting_path: "privacy/location",
-            setting_title: _("Security & Privacy → Location Services")
+            title: _("Location Services")
         );
     }
 

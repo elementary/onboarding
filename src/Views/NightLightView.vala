@@ -20,9 +20,7 @@ public class Onboarding.NightLightView : AbstractOnboardingView {
         Object (
             description: _("Make the colors of your display warmer at night to help prevent eye strain and sleeplessness."),
             icon_name: "night-light",
-            title: _("Night Light"),
-            setting_path: "display/night-light",
-            setting_title: _("Displays → Night Light")
+            title: _("Night Light")
         );
     }
 

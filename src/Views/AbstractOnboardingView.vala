@@ -19,8 +19,6 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
     public string description { get; set; }
     public string icon_name { get; construct; }
     public string title { get; construct; }
-    public string? setting_path { get; construct; }
-    public string? setting_title { get; construct; }
 
     public Gtk.Grid custom_bin { get; private set; }
 
@@ -60,15 +58,6 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         row_spacing = 24;
         add (header_area);
         add (custom_bin);
-
-        if (setting_path != null && setting_title != null) {
-            var setting_link = new Gtk.LinkButton.with_label (
-                "settings://%s".printf (setting_path),
-                _("System Settings → %s…").printf (setting_title)
-            );
-            setting_link.halign = Gtk.Align.CENTER;
-            add (setting_link);
-        }
 
         bind_property ("description", description_label, "label");
     }
