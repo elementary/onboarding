@@ -49,8 +49,9 @@ public class Onboarding.MainWindow : Gtk.Window {
         stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
         stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
 
-        if (is_appcenter_installed ()) {
-            var appcenter_view = new AppCenterView ();
+        AppCenterView? appcenter_view = null;
+        if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
+            appcenter_view = new AppCenterView ();
             stack.add_titled (appcenter_view, "appcenter", appcenter_view.title);
             stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
         }
@@ -120,7 +121,7 @@ public class Onboarding.MainWindow : Gtk.Window {
                 case "night-light":
                     stack.visible_child_name = "housekeeping";
                 case "housekeeping":
-                    if (is_appcenter_installed ()) {
+                    if (appcenter_view != null) {
                         stack.visible_child_name = "appcenter";
                     } else {
                         stack.visible_child_name = "finish";
@@ -141,10 +142,6 @@ public class Onboarding.MainWindow : Gtk.Window {
     private void finish () {
         Onboarding.App.settings.set_boolean ("first-run", false);
         destroy ();
-    }
-
-    private static bool is_appcenter_installed () {
-        return Environment.find_program_in_path ("io.elementary.appcenter") != null;
     }
 }
 
