@@ -4,6 +4,7 @@ vala_files = [
     'MainWindow.vala',
     'Utils.vala',
     'Views/AbstractOnboardingView.vala',
+    'Views/AppCenterView.vala',
     'Views/FinishView.vala',
     'Views/HouseKeepingView.vala',
     'Views/LocationServicesView.vala',
