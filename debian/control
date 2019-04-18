@@ -1,0 +1,16 @@
+Source: io.elementary.onboarding
+Section: x11
+Priority: extra
+Maintainer: elementary, Inc. <builds@elementary.io>
+Build-Depends: debhelper (>= 10.5.1),
+               libgranite-dev,
+               libgtk-3-dev,
+               meson,
+               valac
+Standards-Version: 4.1.1
+
+Package: io.elementary.onboarding
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Change common settings on first-run
+ Onboarding assists users during their first log in to elementary OS.
