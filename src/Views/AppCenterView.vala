@@ -25,7 +25,7 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
     }
 
     construct {
-        var appcenter_button = new Gtk.Button.with_label ("Browse AppCenter…");
+        var appcenter_button = new Gtk.Button.with_label (_("Browse AppCenter…"));
 
         var appcenter_button_context = appcenter_button.get_style_context ();
         appcenter_button_context.add_class (Gtk.STYLE_CLASS_FLAT);
