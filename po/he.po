@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-19 13:55-0700\n"
-"PO-Revision-Date: 2019-04-21 17:44+0000\n"
+"PO-Revision-Date: 2019-04-22 23:31+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -50,7 +50,7 @@ msgstr "התקנת יישומים"
 
 #: src/Views/AppCenterView.vala:28
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "סיור במרכז היישומים…"
 
 #: src/Views/FinishView.vala:21
 #, c-format
@@ -84,43 +84,47 @@ msgstr ""
 
 #: src/Views/HouseKeepingView.vala:31
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "למחיקה אוטומטית:"
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Temporary files"
-msgstr ""
+msgstr "קבצים זמניים"
 
 #: src/Views/HouseKeepingView.vala:36
 msgid "Trashed files"
-msgstr ""
+msgstr "קבצים באשפה"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
 "While Location Services are enabled, apps will be able to make requests to "
 "use this device's location."
 msgstr ""
+"בזמן ששירותי המיקום פעילים, יישומים יכולים להגיש בקשות להשתמש במיקום של "
+"המכשיר הזה."
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
-msgstr ""
+msgstr "שירותי מיקום"
 
 #: src/Views/LocationServicesView.vala:28
 msgid "Location Services:"
-msgstr ""
+msgstr "שירותי מיקום:"
 
 #: src/Views/NightLightView.vala:21
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"שינוי צבעי התצוגה שלך לצבעים חמים יותר כדי לסייע בעומס על העין ולהקל בתחושת "
+"העייפות."
 
 #: src/Views/NightLightView.vala:23
 msgid "Night Light"
-msgstr ""
+msgstr "תאורת לילה"
 
 #: src/Views/NightLightView.vala:28
 msgid "Night Light:"
-msgstr ""
+msgstr "תאורת לילה:"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format
@@ -128,20 +132,21 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"ניתן להמשיך כדי להגדיר תכונות שימושיות. בקישורים שלהלן יש מידע נוסף על %s."
 
 #: src/Views/WelcomeView.vala:23
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "ברוך בואך אל %s!"
 
 #: src/Views/WelcomeView.vala:30
 msgid "Basics Guide…"
-msgstr ""
+msgstr "מדריך יסודות…"
 
 #: src/Views/WelcomeView.vala:36
 msgid "Community Support…"
-msgstr ""
+msgstr "תמיכה קהילתית…"
 
 #: src/Views/WelcomeView.vala:42
 msgid "Get Involved…"
-msgstr ""
+msgstr "השתתפות במיזם…"
