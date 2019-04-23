@@ -8,23 +8,25 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-11 16:54-0700\n"
-"PO-Revision-Date: 2019-04-11 16:54-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-04-24 00:30+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
+"installer/onboarding-extra/nb/>\n"
 "Language: nb\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 msgid "Set up elementary OS"
-msgstr ""
+msgstr "Sett opp elementary OS"
 
 #: data/io.elementary.onboarding.desktop.in:4
 msgid "Set up the system"
-msgstr ""
+msgstr "Sett opp systemet"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "system-os-installer"
-msgstr ""
+msgstr "system-os-installer"
