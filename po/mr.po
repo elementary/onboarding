@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-19 13:55-0700\n"
-"PO-Revision-Date: 2019-04-21 17:44+0000\n"
+"PO-Revision-Date: 2019-05-07 02:33+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
 "onboarding/mr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: src/MainWindow.vala:25
 #, c-format
@@ -50,7 +50,7 @@ msgstr "काही अॅप्स मिळवा"
 
 #: src/Views/AppCenterView.vala:28
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "AppCenter ब्राउझ करा…"
 
 #: src/Views/FinishView.vala:21
 #, c-format
@@ -79,46 +79,52 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
+"जागा जतन करण्यासाठी आणि आपल्या गोपनीयतेस संरक्षित करण्यात मदत करण्यासाठी %u "
+"दिवसांनंतर जुनी फायली स्वयंचलितपणे हटविली जाऊ शकतात."
 
 #: src/Views/HouseKeepingView.vala:31
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "स्वयंचलितपणे हटवा:"
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Temporary files"
-msgstr ""
+msgstr "तात्पुरत्या फाइल्स"
 
 #: src/Views/HouseKeepingView.vala:36
 msgid "Trashed files"
-msgstr ""
+msgstr "ट्रॅश केलेल्या फायली"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
 "While Location Services are enabled, apps will be able to make requests to "
 "use this device's location."
 msgstr ""
+"स्थान सेवा सक्षम असताना, अॅप्स या डिव्हाइसच्या स्थानासाठी विनंत्या करण्यात "
+"सक्षम होतील."
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
-msgstr ""
+msgstr "स्थान सेवा"
 
 #: src/Views/LocationServicesView.vala:28
 msgid "Location Services:"
-msgstr ""
+msgstr "स्थान सेवा:"
 
 #: src/Views/NightLightView.vala:21
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"डोळ्यातील ताण आणि निर्दयता रोखण्यासाठी आपल्या प्रदर्शनाचे रंग रात्री उबदार "
+"करा."
 
 #: src/Views/NightLightView.vala:23
 msgid "Night Light"
-msgstr ""
+msgstr "रात्रीचा प्रकाश"
 
 #: src/Views/NightLightView.vala:28
 msgid "Night Light:"
-msgstr ""
+msgstr "रात्रीचा प्रकाश:"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format
@@ -126,20 +132,22 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"काही उपयुक्त वैशिष्ट्ये सेट करणे सुरू ठेवा. %s बद्दल अधिक माहितीसाठी खालील "
+"दुव्यांवर भेट द्या."
 
 #: src/Views/WelcomeView.vala:23
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "%s वर आपले स्वागत आहे!"
 
 #: src/Views/WelcomeView.vala:30
 msgid "Basics Guide…"
-msgstr ""
+msgstr "मूलभूत मार्गदर्शक…"
 
 #: src/Views/WelcomeView.vala:36
 msgid "Community Support…"
-msgstr ""
+msgstr "समुदाय समर्थन…"
 
 #: src/Views/WelcomeView.vala:42
 msgid "Get Involved…"
-msgstr ""
+msgstr "सहभागी व्हा…"

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-19 13:55-0700\n"
-"PO-Revision-Date: 2019-04-21 17:44+0000\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
+"PO-Revision-Date: 2019-05-07 12:32+0000\n"
+"Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: src/MainWindow.vala:25
 #, c-format
@@ -41,6 +41,8 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"Obtenha as aplicações de que precisa no Centro de Aplicações. As aplicações "
+"curadas são feitas para o elementary OS e revistas pela elementary."
 
 #: src/Views/AppCenterView.vala:23
 msgid "Get Some Apps"
@@ -48,7 +50,7 @@ msgstr "Obter algumas aplicações"
 
 #: src/Views/AppCenterView.vala:28
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "Explorar o Centro de Aplicações…"
 
 #: src/Views/FinishView.vala:21
 #, c-format
@@ -56,6 +58,8 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Desfrute de %s! Pode sempre ir às Configurações do Sistema para configurar "
+"hardware ou mudar as suas preferências."
 
 #: src/Views/FinishView.vala:23
 msgid "Ready to Go"
@@ -75,46 +79,52 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
+"Os ficheiros antigos podem ser apagados automaticamente depois de %u dias "
+"para poupar espaço e ajudar a proteger a sua privazcidade."
 
 #: src/Views/HouseKeepingView.vala:31
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Apagar automaticamente:"
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Temporary files"
-msgstr ""
+msgstr "Ficheiros temporários"
 
 #: src/Views/HouseKeepingView.vala:36
 msgid "Trashed files"
-msgstr ""
+msgstr "Ficheiros no lixo"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
 "While Location Services are enabled, apps will be able to make requests to "
 "use this device's location."
 msgstr ""
+"Enquanto os Serviços de Localização estão ativos, as aplicações serão "
+"capazes de pedir para usar a localização deste dispositivo."
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
-msgstr ""
+msgstr "Serviços de Localização"
 
 #: src/Views/LocationServicesView.vala:28
 msgid "Location Services:"
-msgstr ""
+msgstr "Serviços de Localização:"
 
 #: src/Views/NightLightView.vala:21
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Tornar as cores do seu ecrã mais quentes durante a noite para ajudar a "
+"prevenir o cansaço dos olhos e a insónia."
 
 #: src/Views/NightLightView.vala:23
 msgid "Night Light"
-msgstr ""
+msgstr "Luz Noturna"
 
 #: src/Views/NightLightView.vala:28
 msgid "Night Light:"
-msgstr ""
+msgstr "Luz Noturna:"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format
@@ -122,19 +132,21 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Continuar a configurar algumas funcionalidades úteis. Visitar as ligações "
+"abaixo para mais informação sobre %s."
 
 #: src/Views/WelcomeView.vala:23
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Bem-vindo a %s!"
 
 #: src/Views/WelcomeView.vala:30
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Guia Básico…"
 
 #: src/Views/WelcomeView.vala:36
 msgid "Community Support…"
-msgstr ""
+msgstr "Suporte da Comunidade…"
 
 #: src/Views/WelcomeView.vala:42
 msgid "Get Involved…"

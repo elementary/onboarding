@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-19 13:55-0700\n"
-"PO-Revision-Date: 2019-04-22 23:31+0000\n"
+"PO-Revision-Date: 2019-05-06 11:32+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: src/MainWindow.vala:25
 #, c-format
@@ -71,7 +71,7 @@ msgstr "פתיחת הגדרות המערכת…"
 
 #: src/Views/HouseKeepingView.vala:22
 msgid "Housekeeping"
-msgstr "תחזוקה"
+msgstr "טיפול שוטף"
 
 #: src/Views/HouseKeepingView.vala:29
 #, c-format

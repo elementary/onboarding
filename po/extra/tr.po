@@ -8,23 +8,25 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-23 17:28-0700\n"
-"PO-Revision-Date: 2019-04-11 16:54-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-05-07 15:32+0000\n"
+"Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
+"Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
+"onboarding-extra/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 msgid "Welcome"
-msgstr ""
+msgstr "Hoş Geldiniz"
 
 #: data/io.elementary.onboarding.desktop.in:4
 msgid "Change common settings on first-run"
-msgstr ""
+msgstr "İlk çalıştırmada genel ayarları değiştirin"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "system-os-installer"
-msgstr ""
+msgstr "system-os-installer"
