@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-21 10:18-0700\n"
-"PO-Revision-Date: 2019-05-27 04:39+0000\n"
+"PO-Revision-Date: 2019-05-27 04:40+0000\n"
 "Last-Translator: ricardomaciel17 <ricardopmaciel@hotmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
@@ -115,12 +115,12 @@ msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
-"Deixe as luzes do seu monitor mais quentes à noite para ajudar a prevenir "
+"Faça as cores do seu monitor mais quentes à noite para ajudar a prevenir "
 "tensão ocular e falta de sono"
 
 #: src/Views/NightLightView.vala:23
 msgid "Night Light"
-msgstr ""
+msgstr "Luz noturna"
 
 #: src/Views/NightLightView.vala:28
 msgid "Night Light:"
@@ -132,6 +132,8 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Continue para configurar algumas coisas incríveis. Visite os links abaixo "
+"para mais informação sobre%s."
 
 #: src/Views/WelcomeView.vala:23
 #, c-format
