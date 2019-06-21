@@ -5,6 +5,4 @@ Exec=io.elementary.onboarding
 Icon=system-os-installer
 Terminal=false
 Type=Application
-StartupNotify=true
-NoDisplay=true
 Categories=GNOME;GTK;System;
