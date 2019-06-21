@@ -8,42 +8,51 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-19 13:55-0700\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-04-23 23:16+0000\n"
+"Last-Translator: Moo <hazap@hotmail.com>\n"
+"Language-Team: Lithuanian <https://l10n.elementary.io/projects/installer/"
+"onboarding/lt/>\n"
 "Language: lt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 3.5.1\n"
 
 #: src/MainWindow.vala:25
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "Nusistatykite %s"
 
 #: src/MainWindow.vala:63
 msgid "Skip All"
-msgstr ""
+msgstr "Praleisti viską"
 
 #: src/MainWindow.vala:74 src/MainWindow.vala:112
 msgid "Next"
-msgstr ""
+msgstr "Kitas"
 
 #: src/MainWindow.vala:109
 msgid "Get Started"
-msgstr ""
+msgstr "Darbo pradžia"
 
 #: src/Views/AppCenterView.vala:21
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"Gaukite jums reikiamas programas Programų centre. Kuruojamos programos yra "
+"sukurtos elementary OS ir peržiūrimos elementary."
 
 #: src/Views/AppCenterView.vala:23
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Gauti programas"
+
+#: src/Views/AppCenterView.vala:28
+msgid "Browse AppCenter…"
+msgstr "Naršyti Programų centre…"
 
 #: src/Views/FinishView.vala:21
 #, c-format
@@ -51,18 +60,20 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Mėgaukitės naudodamiesi %s! Visada galite apsilankyti Sistemos nustatymuose, "
+"kad nustatymėte aparatinę įrangą ar pasikeistumėte nuostatas."
 
 #: src/Views/FinishView.vala:23
 msgid "Ready to Go"
-msgstr ""
+msgstr "Pasiruošę judėti toliau"
 
 #: src/Views/FinishView.vala:28
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Atverti sistemos nustatymus…"
 
 #: src/Views/HouseKeepingView.vala:22
 msgid "Housekeeping"
-msgstr ""
+msgstr "Namų ūkis"
 
 #: src/Views/HouseKeepingView.vala:29
 #, c-format
@@ -70,46 +81,52 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
+"Siekiant padėti apsaugoti jūsų privatumą ir taupyti vietą diske, seni failai "
+"gali būti automatiškai ištrinami po %u dienų."
 
 #: src/Views/HouseKeepingView.vala:31
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Automatiškai ištrinti:"
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Temporary files"
-msgstr ""
+msgstr "Laikinuosius failus"
 
 #: src/Views/HouseKeepingView.vala:36
 msgid "Trashed files"
-msgstr ""
+msgstr "Failus šiukšlinėje"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
 "While Location Services are enabled, apps will be able to make requests to "
 "use this device's location."
 msgstr ""
+"Tol, kol buvimo vietos tarnybos yra įjungtos, programos galės teikti "
+"užklausas naudoti šio įrenginio buvimo vietą."
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
-msgstr ""
+msgstr "Buvimo vietos tarnybos"
 
 #: src/Views/LocationServicesView.vala:28
 msgid "Location Services:"
-msgstr ""
+msgstr "Buvimo vietos tarnybos:"
 
 #: src/Views/NightLightView.vala:21
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Padarykite naktį savo ekrano spalvas šiltesnes, kad galėtumėte išvengti akių "
+"įtampos ir nemigos."
 
 #: src/Views/NightLightView.vala:23
 msgid "Night Light"
-msgstr ""
+msgstr "Naktinis apšvietimas"
 
 #: src/Views/NightLightView.vala:28
 msgid "Night Light:"
-msgstr ""
+msgstr "Naktinis apšvietimas:"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format
@@ -117,20 +134,22 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Tęskite naudingų ypatybių nustatymą. Išsamesnei informacijai apie %s, "
+"aplankykite žemiau esančias nuorodas."
 
 #: src/Views/WelcomeView.vala:23
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Sveiki atvykę į %s!"
 
 #: src/Views/WelcomeView.vala:30
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Susipažinimas su pagrindais…"
 
 #: src/Views/WelcomeView.vala:36
 msgid "Community Support…"
-msgstr ""
+msgstr "Bendruomenės palaikymas…"
 
 #: src/Views/WelcomeView.vala:42
 msgid "Get Involved…"
-msgstr ""
+msgstr "Įsitraukite…"

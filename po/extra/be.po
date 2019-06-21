@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-11 16:54-0700\n"
+"POT-Creation-Date: 2019-04-23 17:28-0700\n"
 "PO-Revision-Date: 2019-04-11 16:54-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,11 +19,11 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
-msgid "Set up elementary OS"
+msgid "Welcome"
 msgstr ""
 
 #: data/io.elementary.onboarding.desktop.in:4
-msgid "Set up the system"
+msgid "Change common settings on first-run"
 msgstr ""
 
 #: data/io.elementary.onboarding.desktop.in:6

@@ -1,4 +1,5 @@
 # Onboarding
+[![Translation status](https://l10n.elementary.io/widgets/installer/-/onboarding/svg-badge.svg)](https://l10n.elementary.io/engage/installer/?utm_source=widget)
 
 ![Screenshot](data/screenshot.png?raw=true)
 
