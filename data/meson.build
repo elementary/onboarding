@@ -3,8 +3,14 @@ i18n.merge_file(
     output: meson.project_name() + '.desktop',
     po_dir: join_paths(meson.source_root (), 'po', 'extra'),
     type: 'desktop',
-    install_dir: join_paths(get_option('sysconfdir'), 'xdg', 'autostart'),
+    install_dir: join_paths(get_option('datadir'), 'applications'),
     install: true
+)
+
+install_data(
+    'autostart.desktop',
+    rename: meson.project_name() + '.desktop',
+    install_dir: join_paths(get_option('sysconfdir'), 'xdg', 'autostart')
 )
 
 install_data(
