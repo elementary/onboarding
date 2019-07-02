@@ -18,9 +18,9 @@
 public class Onboarding.UpdatesView : AbstractOnboardingView {
     public UpdatesView () {
         Object (
-            description: _("Firmware updates from device manufacturers can improve performance and fix critical security issues."),
+            description: _("Firmware updates provided by device manufacturers can improve performance and fix critical security issues."),
             icon_name: "application-x-firmware",
-            title: _("Stay Secure")
+            title: _("Manufacturer Updates")
         );
     }
 
@@ -31,11 +31,11 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
         var fwupd_switch = new Gtk.Switch ();
         fwupd_switch.halign = Gtk.Align.START;
 
-        string privacy_disclaimer = _("Updates are delivered via a third-party service. Diagnostics may be sent to device manufacturers according to the <a href='https://fwupd.org/privacy'>privacy policy</a>.");
+        string privacy_disclaimer = _("Diagnostics may be sent to device manufacturers according to the <a href='https://fwupd.org/privacy'>LVFS privacy policy</a>.");
 
         var privacy_label = new Gtk.Label ("<small>%s</small>".printf (privacy_disclaimer));
         privacy_label.justify = Gtk.Justification.CENTER;
-        privacy_label.max_width_chars = 50;
+        privacy_label.max_width_chars = 45;
         privacy_label.use_markup = true;
         privacy_label.wrap = true;
         privacy_label.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
