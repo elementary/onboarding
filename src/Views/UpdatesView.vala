@@ -18,20 +18,31 @@
 public class Onboarding.UpdatesView : AbstractOnboardingView {
     public UpdatesView () {
         Object (
-            description: _("Keep device firmware up to date. Updates come from a secure third-party service and diagnostic data may be sent to the manufacturer."),
+            description: _("Firmware updates from device manufacturers can improve performance and fix critical security issues."),
             icon_name: "application-x-firmware",
             title: _("Stay Secure")
         );
     }
 
     construct {
-        var switch_label = new Gtk.Label (_("Firmware updates:"));
-        var service_switch = new Gtk.Switch ();
-        var privacy_button = new Gtk.LinkButton.with_label ("https://fwupd.org/privacy", _("Privacy Policy…"));
+        var fwupd_label = new Gtk.Label (_("Firmware updates:"));
+        fwupd_label.halign = Gtk.Align.END;
 
-        custom_bin.attach (switch_label, 0, 0);
-        custom_bin.attach (service_switch, 1, 0);
-        custom_bin.attach (privacy_button, 0, 1, 2);
+        var fwupd_switch = new Gtk.Switch ();
+        fwupd_switch.halign = Gtk.Align.START;
+
+        string privacy_disclaimer = _("Updates are delivered via a third-party service. Diagnostics may be sent to device manufacturers according to the <a href='https://fwupd.org/privacy'>privacy policy</a>.");
+
+        var privacy_label = new Gtk.Label ("<small>%s</small>".printf (privacy_disclaimer));
+        privacy_label.justify = Gtk.Justification.CENTER;
+        privacy_label.margin_top = privacy_label.margin_bottom = 12;
+        privacy_label.max_width_chars = 50;
+        privacy_label.use_markup = true;
+        privacy_label.wrap = true;
+
+        custom_bin.attach (fwupd_label, 0, 0);
+        custom_bin.attach (fwupd_switch, 1, 0);
+        custom_bin.attach (privacy_label, 0, 1, 2);
     }
 }
 
