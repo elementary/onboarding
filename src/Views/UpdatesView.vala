@@ -35,7 +35,6 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
 
         var privacy_label = new Gtk.Label ("<small>%s</small>".printf (privacy_disclaimer));
         privacy_label.justify = Gtk.Justification.CENTER;
-        privacy_label.margin_top = privacy_label.margin_bottom = 12;
         privacy_label.max_width_chars = 50;
         privacy_label.use_markup = true;
         privacy_label.wrap = true;
