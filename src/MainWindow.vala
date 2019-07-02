@@ -33,24 +33,40 @@ public class Onboarding.MainWindow : Gtk.Window {
         stack.valign = stack.halign = Gtk.Align.CENTER;
         stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
 
+        var viewed = Onboarding.App.settings.get_strv ("viewed");
+
         var welcome_view = new WelcomeView ();
-        stack.add_titled (welcome_view, "welcome", welcome_view.title);
-        stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
+        var update_view = new WelcomeView ();
+        if (!strv_contains (viewed, "welcome")) {
+            stack.add_titled (welcome_view, "welcome", welcome_view.title);
+            stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
+        } else {
+            
+        }
 
         var location_services_view = new LocationServicesView ();
-        stack.add_titled (location_services_view, "location", location_services_view.title);
-        stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
+        if (!strv_contains (viewed, "location")) {
+            stack.add_titled (location_services_view, "location", location_services_view.title);
+            stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
+        }
 
         var night_light_view = new NightLightView ();
-        stack.add_titled (night_light_view, "night-light", night_light_view.title);
-        stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
+        if (!strv_contains (viewed, "night-light")) {
+            stack.add_titled (night_light_view, "night-light", night_light_view.title);
+            stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
+        }
 
         var housekeeping_view = new HouseKeepingView ();
-        stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
-        stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
+        if (!strv_contains (viewed, "housekeeping")) {
+            stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
+            stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
+        }
 
         AppCenterView? appcenter_view = null;
-        if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
+        if (
+            !strv_contains (viewed, "appcenter") &&
+            Environment.find_program_in_path ("io.elementary.appcenter") != null
+        ) {
             appcenter_view = new AppCenterView ();
             stack.add_titled (appcenter_view, "appcenter", appcenter_view.title);
             stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
@@ -114,6 +130,7 @@ public class Onboarding.MainWindow : Gtk.Window {
             }
         });
 
+        // TODO: automate this with `get_children` and `@foreach`
         next_button.clicked.connect (() => {
             switch (stack.visible_child_name) {
                 case "welcome":

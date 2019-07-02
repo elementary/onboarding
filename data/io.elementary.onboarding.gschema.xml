@@ -3,7 +3,11 @@
     <schema path="/io/elementary/onboarding/" id="io.elementary.onboarding">
         <key type="b" name="first-run">
             <default>true</default>
-            <summary>If this app should run at startup.</summary>
+            <summary>True if this app has never been run, for example on a brand new user account.</summary>
+        </key>
+        <key type="as" name="viewed">
+            <default>[]</default>
+            <summary>Screens that have already been viewed. If there are major updates, new screens may be added and will be shown to the user unless they are noted here.</summary>
         </key>
     </schema>
 </schemalist>
