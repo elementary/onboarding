@@ -49,9 +49,9 @@ public class Onboarding.MainWindow : Gtk.Window {
         stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
         stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
 
-        var updates_view = new UpdatesView ();
-        stack.add_titled (updates_view, "updates", updates_view.title);
-        stack.child_set_property (updates_view, "icon-name", "pager-checked-symbolic");
+        var fwupd_view = new FwupdView ();
+        stack.add_titled (fwupd_view, "fwupd", fwupd_view.title);
+        stack.child_set_property (fwupd_view, "icon-name", "pager-checked-symbolic");
 
         AppCenterView? appcenter_view = null;
         if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
@@ -127,8 +127,8 @@ public class Onboarding.MainWindow : Gtk.Window {
                 case "night-light":
                     stack.visible_child_name = "housekeeping";
                 case "housekeeping":
-                    stack.visible_child_name = "updates";
-                case "updates":
+                    stack.visible_child_name = "fwupd";
+                case "fwupd":
                     if (appcenter_view != null) {
                         stack.visible_child_name = "appcenter";
                     } else {
