@@ -30,6 +30,12 @@ public class Onboarding.MainWindow : Gtk.Window {
     }
 
     construct {
+        const string[] FEATURE_VIEWS = {
+            "location",
+            "night-light",
+            "housekeeping"
+        };
+
         var stack = new Gtk.Stack ();
         stack.expand = true;
         stack.valign = stack.halign = Gtk.Align.CENTER;
@@ -39,7 +45,7 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         var welcome_view = new WelcomeView ();
         var update_view = new UpdateView ();
-        if (!strv_contains (viewed, "welcome")) {
+        if (!("welcome" in viewed)) {
             stack.add_titled (welcome_view, "welcome", welcome_view.title);
             stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
         } else {
@@ -48,26 +54,26 @@ public class Onboarding.MainWindow : Gtk.Window {
         }
 
         var location_services_view = new LocationServicesView ();
-        if (!strv_contains (viewed, "location")) {
+        if (!("location" in viewed)) {
             stack.add_titled (location_services_view, "location", location_services_view.title);
             stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
         }
 
         var night_light_view = new NightLightView ();
-        if (!strv_contains (viewed, "night-light")) {
+        if (!("night-light" in viewed)) {
             stack.add_titled (night_light_view, "night-light", night_light_view.title);
             stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
         }
 
         var housekeeping_view = new HouseKeepingView ();
-        if (!strv_contains (viewed, "housekeeping")) {
+        if (!("housekeeping" in viewed)) {
             stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
             stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
         }
 
         AppCenterView? appcenter_view = null;
         if (
-            !strv_contains (viewed, "appcenter") &&
+            !("appcenter" in viewed) &&
             Environment.find_program_in_path ("io.elementary.appcenter") != null
         ) {
             appcenter_view = new AppCenterView ();
@@ -179,4 +185,3 @@ public class Onboarding.MainWindow : Gtk.Window {
         }
     }
 }
-
