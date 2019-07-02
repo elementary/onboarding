@@ -9,7 +9,8 @@ vala_files = [
     'Views/HouseKeepingView.vala',
     'Views/LocationServicesView.vala',
     'Views/NightLightView.vala',
-    'Views/WelcomeView.vala'
+    'Views/UpdatesView.vala',
+    'Views/WelcomeView.vala',
 ]
 
 executable(meson.project_name(), vala_files,
