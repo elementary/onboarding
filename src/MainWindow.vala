@@ -18,6 +18,8 @@
  */
 
 public class Onboarding.MainWindow : Gtk.Window {
+    public string[] viewed { get; set; }
+
     public MainWindow () {
         Object (
             deletable: false,
@@ -33,15 +35,16 @@ public class Onboarding.MainWindow : Gtk.Window {
         stack.valign = stack.halign = Gtk.Align.CENTER;
         stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
 
-        var viewed = Onboarding.App.settings.get_strv ("viewed");
+        viewed = Onboarding.App.settings.get_strv ("viewed");
 
         var welcome_view = new WelcomeView ();
-        var update_view = new WelcomeView ();
+        var update_view = new UpdateView ();
         if (!strv_contains (viewed, "welcome")) {
             stack.add_titled (welcome_view, "welcome", welcome_view.title);
             stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
         } else {
-            
+            stack.add_titled (update_view, "update", update_view.title);
+            stack.child_set_property (update_view, "icon-name", "pager-checked-symbolic");
         }
 
         var location_services_view = new LocationServicesView ();
@@ -134,18 +137,25 @@ public class Onboarding.MainWindow : Gtk.Window {
         next_button.clicked.connect (() => {
             switch (stack.visible_child_name) {
                 case "welcome":
+                    mark_viewed ("welcome");
+                    stack.visible_child_name = "location";
+                case "update":
                     stack.visible_child_name = "location";
                 case "location":
+                    mark_viewed ("location");
                     stack.visible_child_name = "night-light";
                 case "night-light":
+                    mark_viewed ("night-light");
                     stack.visible_child_name = "housekeeping";
                 case "housekeeping":
+                    mark_viewed ("housekeeping");
                     if (appcenter_view != null) {
                         stack.visible_child_name = "appcenter";
                     } else {
                         stack.visible_child_name = "finish";
                     }
                 case "appcenter":
+                    mark_viewed ("appcenter");
                     stack.visible_child_name = "finish";
                 case "finish":
                     Onboarding.App.settings.set_boolean ("first-run", false);
@@ -157,6 +167,16 @@ public class Onboarding.MainWindow : Gtk.Window {
         skip_button.clicked.connect (() => {
             stack.visible_child_name = "finish";
         });
+    }
+
+    private void mark_viewed (string name) {
+        if (!(name in viewed)) {
+            var viewed_copy = viewed;
+            viewed_copy += name;
+            viewed = viewed_copy;
+
+            Onboarding.App.settings.set_strv ("viewed", viewed);
+        }
     }
 }
 
