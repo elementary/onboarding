@@ -43,12 +43,12 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         viewed = Onboarding.App.settings.get_strv ("viewed");
 
-        var welcome_view = new WelcomeView ();
-        var update_view = new UpdateView ();
-        if (!("welcome" in viewed)) {
+        if (Onboarding.App.settings.get_boolean ("first-run")) {
+            var welcome_view = new WelcomeView ();
             stack.add_titled (welcome_view, "welcome", welcome_view.title);
             stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
         } else {
+            var update_view = new UpdateView ();
             stack.add_titled (update_view, "update", update_view.title);
             stack.child_set_property (update_view, "icon-name", "pager-checked-symbolic");
         }
@@ -175,10 +175,10 @@ public class Onboarding.MainWindow : Gtk.Window {
         });
     }
 
-    private void mark_viewed (string name) {
+    private void mark_viewed (string view_name) {
         if (!(name in viewed)) {
             var viewed_copy = viewed;
-            viewed_copy += name;
+            viewed_copy += view_name;
             viewed = viewed_copy;
 
             Onboarding.App.settings.set_strv ("viewed", viewed);
