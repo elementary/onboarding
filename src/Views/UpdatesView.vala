@@ -38,6 +38,7 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
         privacy_label.max_width_chars = 50;
         privacy_label.use_markup = true;
         privacy_label.wrap = true;
+        privacy_label.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
         custom_bin.attach (fwupd_label, 0, 0);
         custom_bin.attach (fwupd_switch, 1, 0);
