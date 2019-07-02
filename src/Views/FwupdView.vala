@@ -15,8 +15,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public class Onboarding.UpdatesView : AbstractOnboardingView {
-    public UpdatesView () {
+public class Onboarding.FwupdView : AbstractOnboardingView {
+    public FwupdView () {
         Object (
             description: _("Firmware updates provided by device manufacturers can improve performance and fix critical security issues."),
             icon_name: "application-x-firmware",
