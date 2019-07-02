@@ -53,20 +53,20 @@ public class Onboarding.MainWindow : Gtk.Window {
             stack.child_set_property (update_view, "icon-name", "pager-checked-symbolic");
         }
 
-        var location_services_view = new LocationServicesView ();
         if (!("location" in viewed)) {
+            var location_services_view = new LocationServicesView ();
             stack.add_titled (location_services_view, "location", location_services_view.title);
             stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
         }
 
-        var night_light_view = new NightLightView ();
         if (!("night-light" in viewed)) {
+            var night_light_view = new NightLightView ();
             stack.add_titled (night_light_view, "night-light", night_light_view.title);
             stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
         }
 
-        var housekeeping_view = new HouseKeepingView ();
         if (!("housekeeping" in viewed)) {
+            var housekeeping_view = new HouseKeepingView ();
             stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
             stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
         }
