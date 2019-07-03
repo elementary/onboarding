@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
+"POT-Creation-Date: 2019-07-03 13:56-0700\n"
 "PO-Revision-Date: 2019-05-28 08:29+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.6.1\n"
 
-#: src/MainWindow.vala:25
+#: src/MainWindow.vala:28
 #, c-format
 msgid "Set up %s"
 msgstr "Configurando %s"
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:95
 msgid "Skip All"
 msgstr "Pular tudo"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:112
+#: src/MainWindow.vala:106 src/MainWindow.vala:146
 msgid "Next"
 msgstr "Próximo"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:143
 msgid "Get Started"
 msgstr "Iniciando"
 
@@ -125,6 +125,17 @@ msgstr "Luz noturna"
 #: src/Views/NightLightView.vala:28
 msgid "Night Light:"
 msgstr "Luz Noturna:"
+
+#: src/Views/UpdateView.vala:21
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://medium.com/elementaryos/tagged/"
+"updates'>our blog</a>."
+msgstr ""
+
+#: src/Views/UpdateView.vala:23
+msgid "What’s New"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:21
 #, c-format

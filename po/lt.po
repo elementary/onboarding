@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
+"POT-Creation-Date: 2019-07-03 13:56-0700\n"
 "PO-Revision-Date: 2019-04-23 23:16+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/installer/"
@@ -21,20 +21,20 @@ msgstr ""
 "1 : 2);\n"
 "X-Generator: Weblate 3.5.1\n"
 
-#: src/MainWindow.vala:25
+#: src/MainWindow.vala:28
 #, c-format
 msgid "Set up %s"
 msgstr "Nusistatykite %s"
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:95
 msgid "Skip All"
 msgstr "Praleisti viską"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:112
+#: src/MainWindow.vala:106 src/MainWindow.vala:146
 msgid "Next"
 msgstr "Kitas"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:143
 msgid "Get Started"
 msgstr "Darbo pradžia"
 
@@ -127,6 +127,17 @@ msgstr "Naktinis apšvietimas"
 #: src/Views/NightLightView.vala:28
 msgid "Night Light:"
 msgstr "Naktinis apšvietimas:"
+
+#: src/Views/UpdateView.vala:21
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://medium.com/elementaryos/tagged/"
+"updates'>our blog</a>."
+msgstr ""
+
+#: src/Views/UpdateView.vala:23
+msgid "What’s New"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:21
 #, c-format
