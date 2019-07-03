@@ -9,7 +9,8 @@ vala_files = [
     'Views/HouseKeepingView.vala',
     'Views/LocationServicesView.vala',
     'Views/NightLightView.vala',
-    'Views/WelcomeView.vala'
+    'Views/UpdateView.vala',
+    'Views/WelcomeView.vala',
 ]
 
 config_data = configuration_data()

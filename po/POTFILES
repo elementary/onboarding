@@ -7,4 +7,5 @@ src/Views/FinishView.vala
 src/Views/HouseKeepingView.vala
 src/Views/LocationServicesView.vala
 src/Views/NightLightView.vala
+src/Views/UpdateView.vala
 src/Views/WelcomeView.vala

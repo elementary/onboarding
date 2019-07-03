@@ -19,8 +19,6 @@
  */
 
 public class Onboarding.App : Gtk.Application {
-    public static GLib.Settings settings;
-
     construct {
         application_id = "io.elementary.installer";
         flags = ApplicationFlags.FLAGS_NONE;
@@ -28,14 +26,7 @@ public class Onboarding.App : Gtk.Application {
     }
 
     public override void activate () {
-        bool is_terminal = Posix.isatty (Posix.STDIN_FILENO);
-
-        var uid = Posix.getuid ();
-        if (uid < MIN_UID)
-            quit ();
-
-        settings = new GLib.Settings ("io.elementary.onboarding");
-        if (!is_terminal && !settings.get_boolean ("first-run")) {
+        if (Posix.getuid () < MIN_UID) {
             quit ();
         }
 
