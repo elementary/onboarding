@@ -30,13 +30,6 @@ public class Onboarding.MainWindow : Gtk.Window {
     }
 
     construct {
-        // const string[] FEATURE_VIEWS = {
-        //     "location",
-        //     "night-light",
-        //     "housekeeping",
-        //     "appcenter"
-        // };
-
         var stack = new Gtk.Stack ();
         stack.expand = true;
         stack.valign = stack.halign = Gtk.Align.CENTER;
@@ -73,6 +66,7 @@ public class Onboarding.MainWindow : Gtk.Window {
             stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
         }
 
+        int view_index = 0;
         GLib.List<unowned Gtk.Widget> views = stack.get_children ();
         foreach (Gtk.Widget view in views) {
             var view_name_value = GLib.Value (typeof (string));
@@ -81,8 +75,14 @@ public class Onboarding.MainWindow : Gtk.Window {
             string view_name = view_name_value.get_string ();
 
             if (view_name in viewed) {
-                stack.get_child_by_name (view_name).destroy ();
+                view.destroy ();
             }
+        }
+
+        // Bail if there are no feature views
+        if (stack.get_children ().length () < 2) {
+            // FIXME: Okay, this isn't quitting…
+            Onboarding.App.instance.quit ();
         }
 
         var finish_view = new FinishView ();
