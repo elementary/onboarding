@@ -13,7 +13,19 @@ vala_files = [
     'Views/WelcomeView.vala',
 ]
 
-executable(meson.project_name(), vala_files,
-           asresources,
-           dependencies : dependencies,
-           install: true)
+config_data = configuration_data()
+config_data.set('MIN_UID', get_option('min_uid'))
+config_file = configure_file(
+  input: 'config.vala.in',
+  output: 'config.vala',
+  configuration: config_data
+)
+
+executable(
+    meson.project_name(),
+    vala_files,
+    asresources,
+    config_file,
+    dependencies : dependencies,
+    install: true
+)

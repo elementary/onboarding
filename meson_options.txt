@@ -1,0 +1,1 @@
+option('min_uid', type : 'integer', value : 1000, description: 'Minimum user id that normal users can have (UID_MIN in /etc/login.defs)')
