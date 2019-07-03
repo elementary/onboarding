@@ -33,7 +33,8 @@ public class Onboarding.MainWindow : Gtk.Window {
         const string[] FEATURE_VIEWS = {
             "location",
             "night-light",
-            "housekeeping"
+            "housekeeping",
+            "appcenter"
         };
 
         var stack = new Gtk.Stack ();
@@ -53,32 +54,29 @@ public class Onboarding.MainWindow : Gtk.Window {
             stack.child_set_property (update_view, "icon-name", "pager-checked-symbolic");
         }
 
-        if (!("location" in viewed)) {
-            var location_services_view = new LocationServicesView ();
-            stack.add_titled (location_services_view, "location", location_services_view.title);
-            stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
-        }
+        var location_services_view = new LocationServicesView ();
+        stack.add_titled (location_services_view, "location", location_services_view.title);
+        stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
 
-        if (!("night-light" in viewed)) {
-            var night_light_view = new NightLightView ();
-            stack.add_titled (night_light_view, "night-light", night_light_view.title);
-            stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
-        }
+        var night_light_view = new NightLightView ();
+        stack.add_titled (night_light_view, "night-light", night_light_view.title);
+        stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
 
-        if (!("housekeeping" in viewed)) {
-            var housekeeping_view = new HouseKeepingView ();
-            stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
-            stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
-        }
+        var housekeeping_view = new HouseKeepingView ();
+        stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
+        stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
 
         AppCenterView? appcenter_view = null;
-        if (
-            !("appcenter" in viewed) &&
-            Environment.find_program_in_path ("io.elementary.appcenter") != null
-        ) {
+        if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
             appcenter_view = new AppCenterView ();
             stack.add_titled (appcenter_view, "appcenter", appcenter_view.title);
             stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
+        }
+
+        foreach (string view_name in FEATURE_VIEWS) {
+            if (view_name in viewed) {
+                stack.get_child_by_name (view_name).destroy ();
+            }
         }
 
         var finish_view = new FinishView ();
