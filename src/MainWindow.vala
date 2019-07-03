@@ -133,7 +133,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         });
 
         string[] views;
-        foreach (var view in stack.get_children ()) {
+        foreach (unowned Gtk.Widget view in stack.get_children ()) {
             var name = GLib.Value (typeof (string));
             stack.child_get_property (view, "name", ref name);
             views += name.get_string ();
