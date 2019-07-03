@@ -116,12 +116,12 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         next_button.clicked.connect (() => {
             GLib.List<unowned Gtk.Widget> views = stack.get_children ();
-            if (stack.visible_child == finish_view) {
+            var index = views.index (stack.visible_child);
+            if (index < views.length () - 1) {
+                stack.visible_child = views.nth_data (index + 1);
+            } else {
                 Onboarding.App.settings.set_boolean ("first-run", false);
                 destroy ();
-            } else {
-                var index = views.index (stack.visible_child);
-                stack.visible_child = views.nth_data (index + 1);
             }
         });
 
