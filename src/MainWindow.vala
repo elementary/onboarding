@@ -157,7 +157,7 @@ public class Onboarding.MainWindow : Gtk.Window {
     }
 
     private void mark_viewed (string view_name) {
-        if (!(name in viewed)) {
+        if (!(view_name in viewed)) {
             var viewed_copy = viewed;
             viewed_copy += view_name;
             viewed = viewed_copy;
