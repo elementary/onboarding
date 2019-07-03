@@ -24,6 +24,14 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         );
     }
 
+    public WelcomeView.with_updates () {
+        Object (
+            description: _("Continue to set up some useful new features. Visit the links below for more information about %s.").printf (Utils.os_name),
+            icon_name: "distributor-logo",
+            title: _("What’s New")
+        );
+    }
+
     construct {
         var thebasics_link = new ImageLinkButton (
             "https://elementary.io/docs/learning-the-basics#learning-the-basics",
