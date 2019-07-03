@@ -139,34 +139,15 @@ public class Onboarding.MainWindow : Gtk.Window {
             }
         });
 
-        // TODO: automate this with `get_children` and `@foreach`
         next_button.clicked.connect (() => {
-            switch (stack.visible_child_name) {
-                case "welcome":
-                    mark_viewed ("welcome");
-                    stack.visible_child_name = "location";
-                case "update":
-                    stack.visible_child_name = "location";
-                case "location":
-                    mark_viewed ("location");
-                    stack.visible_child_name = "night-light";
-                case "night-light":
-                    mark_viewed ("night-light");
-                    stack.visible_child_name = "housekeeping";
-                case "housekeeping":
-                    mark_viewed ("housekeeping");
-                    if (appcenter_view != null) {
-                        stack.visible_child_name = "appcenter";
-                    } else {
-                        stack.visible_child_name = "finish";
-                    }
-                case "appcenter":
-                    mark_viewed ("appcenter");
-                    stack.visible_child_name = "finish";
-                case "finish":
-                    Onboarding.App.settings.set_boolean ("first-run", false);
-                    destroy ();
-                    break;
+            GLib.List<unowned Gtk.Widget> views = stack.get_children ();
+            var index = views.index (stack.visible_child);
+            if (index < views.length () - 1) {
+                stack.visible_child = views.nth_data (index + 1);
+                mark_viewed (stack.visible_child_name);
+            } else {
+                Onboarding.App.settings.set_boolean ("first-run", false);
+                destroy ();
             }
         });
 
