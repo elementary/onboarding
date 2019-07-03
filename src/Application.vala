@@ -28,6 +28,8 @@ public class Onboarding.App : Gtk.Application {
     }
 
     public override void activate () {
+        settings = new GLib.Settings ("io.elementary.onboarding");
+
         if (Posix.getuid () < MIN_UID) {
             quit ();
         }
