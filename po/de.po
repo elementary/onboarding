@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-03 13:56-0700\n"
 "PO-Revision-Date: 2019-07-03 21:52+0000\n"
-"Last-Translator: Uwe S <saabisto@gmx.de>\n"
+"Last-Translator: Jason  B <jason.bilevitz.webseiten@aikq.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
 "onboarding/de/>\n"
 "Language: de\n"
@@ -92,7 +92,7 @@ msgstr "Temporäre Dateien"
 
 #: src/Views/HouseKeepingView.vala:36
 msgid "Trashed files"
-msgstr ""
+msgstr "Gelöschte Datein"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
