@@ -30,12 +30,12 @@ public class Onboarding.MainWindow : Gtk.Window {
     }
 
     construct {
-        const string[] FEATURE_VIEWS = {
-            "location",
-            "night-light",
-            "housekeeping",
-            "appcenter"
-        };
+        // const string[] FEATURE_VIEWS = {
+        //     "location",
+        //     "night-light",
+        //     "housekeeping",
+        //     "appcenter"
+        // };
 
         var stack = new Gtk.Stack ();
         stack.expand = true;
@@ -73,7 +73,13 @@ public class Onboarding.MainWindow : Gtk.Window {
             stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
         }
 
-        foreach (string view_name in FEATURE_VIEWS) {
+        GLib.List<unowned Gtk.Widget> views = stack.get_children ();
+        foreach (Gtk.Widget view in views) {
+            var view_name_value = GLib.Value (typeof (string));
+            stack.child_get_property (view, "name", ref view_name_value);
+
+            string view_name = view_name_value.get_string ();
+
             if (view_name in viewed) {
                 stack.get_child_by_name (view_name).destroy ();
             }
@@ -138,7 +144,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         });
 
         next_button.clicked.connect (() => {
-            GLib.List<unowned Gtk.Widget> views = stack.get_children ();
+            // GLib.List<unowned Gtk.Widget> views = stack.get_children ();
             var index = views.index (stack.visible_child);
             if (index < views.length () - 1) {
                 stack.visible_child = views.nth_data (index + 1);
