@@ -114,8 +114,8 @@ public class Onboarding.MainWindow : Gtk.Window {
             }
         });
 
-        GLib.List<unowned Gtk.Widget> views = stack.get_children ();
         next_button.clicked.connect (() => {
+            GLib.List<unowned Gtk.Widget> views = stack.get_children ();
             if (stack.visible_child == finish_view) {
                 Onboarding.App.settings.set_boolean ("first-run", false);
                 destroy ();
