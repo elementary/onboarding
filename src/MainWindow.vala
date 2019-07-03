@@ -135,6 +135,8 @@ public class Onboarding.MainWindow : Gtk.Window {
         next_button.grab_focus ();
 
         stack.notify["visible-child-name"].connect (() => {
+            mark_viewed (stack.visible_child_name);
+
             if (stack.visible_child_name == "finish") {
                 next_button.label = _("Get Started");
                 skip_revealer.reveal_child = false;
@@ -149,7 +151,6 @@ public class Onboarding.MainWindow : Gtk.Window {
             var index = current_views.index (stack.visible_child);
             if (index < current_views.length () - 1) {
                 stack.visible_child = current_views.nth_data (index + 1);
-                mark_viewed (stack.visible_child_name);
             } else {
                 settings.set_boolean ("first-run", false);
                 destroy ();
