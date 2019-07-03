@@ -66,7 +66,6 @@ public class Onboarding.MainWindow : Gtk.Window {
             stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
         }
 
-        int view_index = 0;
         GLib.List<unowned Gtk.Widget> views = stack.get_children ();
         foreach (Gtk.Widget view in views) {
             var view_name_value = GLib.Value (typeof (string));
