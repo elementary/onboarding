@@ -30,9 +30,11 @@ public class Onboarding.MainWindow : Gtk.Window {
         );
     }
 
-    construct {
+    static construct {
         settings = new GLib.Settings ("io.elementary.onboarding");
+    }
 
+    construct {
         var stack = new Gtk.Stack ();
         stack.expand = true;
         stack.valign = stack.halign = Gtk.Align.CENTER;
