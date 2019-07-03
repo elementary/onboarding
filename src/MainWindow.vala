@@ -114,11 +114,7 @@ public class Onboarding.MainWindow : Gtk.Window {
             }
         });
 
-        GLib.List<unowned Gtk.Widget> views;
-        foreach (unowned Gtk.Widget view in stack.get_children ()) {
-            views.append (view);
-        }
-
+        GLib.List<unowned Gtk.Widget> views = stack.get_children ();
         next_button.clicked.connect (() => {
             if (stack.visible_child_name != "finish") {
                 var index = views.index (stack.visible_child);
