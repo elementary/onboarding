@@ -19,6 +19,7 @@
 
 public class Onboarding.MainWindow : Gtk.Window {
     public string[] viewed { get; set; }
+    private static GLib.Settings settings;
 
     public MainWindow () {
         Object (
@@ -30,14 +31,16 @@ public class Onboarding.MainWindow : Gtk.Window {
     }
 
     construct {
+        settings = new GLib.Settings ("io.elementary.onboarding");
+
         var stack = new Gtk.Stack ();
         stack.expand = true;
         stack.valign = stack.halign = Gtk.Align.CENTER;
         stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
 
-        viewed = Onboarding.App.settings.get_strv ("viewed");
+        viewed = settings.get_strv ("viewed");
 
-        if (Onboarding.App.settings.get_boolean ("first-run")) {
+        if (settings.get_boolean ("first-run")) {
             var welcome_view = new WelcomeView ();
             stack.add_titled (welcome_view, "welcome", welcome_view.title);
             stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
@@ -148,7 +151,7 @@ public class Onboarding.MainWindow : Gtk.Window {
                 stack.visible_child = current_views.nth_data (index + 1);
                 mark_viewed (stack.visible_child_name);
             } else {
-                Onboarding.App.settings.set_boolean ("first-run", false);
+                settings.set_boolean ("first-run", false);
                 destroy ();
             }
         });
@@ -164,7 +167,7 @@ public class Onboarding.MainWindow : Gtk.Window {
             viewed_copy += view_name;
             viewed = viewed_copy;
 
-            Onboarding.App.settings.set_strv ("viewed", viewed);
+            settings.set_strv ("viewed", viewed);
         }
     }
 }
