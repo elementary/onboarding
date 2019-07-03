@@ -159,6 +159,15 @@ public class Onboarding.MainWindow : Gtk.Window {
         });
 
         skip_button.clicked.connect (() => {
+            foreach (Gtk.Widget view in views) {
+            var view_name_value = GLib.Value (typeof (string));
+            stack.child_get_property (view, "name", ref view_name_value);
+
+            string view_name = view_name_value.get_string ();
+
+            mark_viewed (view_name);
+        }
+
             stack.visible_child_name = "finish";
         });
     }
