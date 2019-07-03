@@ -30,8 +30,6 @@ public class Onboarding.MainWindow : Gtk.Window {
     }
 
     construct {
-        string[] views;
-
         var stack = new Gtk.Stack ();
         stack.expand = true;
         stack.valign = stack.halign = Gtk.Align.CENTER;
@@ -48,30 +46,22 @@ public class Onboarding.MainWindow : Gtk.Window {
         stack.add_titled (welcome_view, "welcome", welcome_view.title);
         stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
 
-        views += "welcome";
-
         if (!("location" in viewed)) {
             var location_services_view = new LocationServicesView ();
             stack.add_titled (location_services_view, "location", location_services_view.title);
             stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
-
-            views += "location";
         }
 
         if (!("night-light" in viewed)) {
             var night_light_view = new NightLightView ();
             stack.add_titled (night_light_view, "night-light", night_light_view.title);
             stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
-
-            views += "night-light";
         }
 
         if (!("housekeeping" in viewed)) {
             var housekeeping_view = new HouseKeepingView ();
             stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
             stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
-
-            views += "housekeeping";
         }
 
         AppCenterView? appcenter_view = null;
@@ -82,15 +72,11 @@ public class Onboarding.MainWindow : Gtk.Window {
             appcenter_view = new AppCenterView ();
             stack.add_titled (appcenter_view, "appcenter", appcenter_view.title);
             stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
-
-            views += "appcenter";
         }
 
         var finish_view = new FinishView ();
         stack.add_titled (finish_view, "finish", finish_view.title);
         stack.child_set_property (finish_view, "icon-name", "pager-checked-symbolic");
-
-        views += "finish";
 
         var skip_button = new Gtk.Button.with_label (_("Skip All"));
 
@@ -145,6 +131,13 @@ public class Onboarding.MainWindow : Gtk.Window {
                 skip_revealer.reveal_child = true;
             }
         });
+
+        string[] views;
+        foreach (var view in stack.get_children ()) {
+            var name = GLib.Value (typeof (string));
+            stack.child_get_property (view, "name", ref name);
+            views += name.get_string ();
+        }
 
         next_button.clicked.connect (() => {
             if (stack.visible_child_name != "finish") {
