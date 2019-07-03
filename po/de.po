@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-03 13:56-0700\n"
-"PO-Revision-Date: 2019-07-03 21:52+0000\n"
-"Last-Translator: Jason  B <jason.bilevitz.webseiten@aikq.de>\n"
+"PO-Revision-Date: 2019-07-03 21:53+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
 "onboarding/de/>\n"
 "Language: de\n"
@@ -50,7 +50,7 @@ msgstr "Hol dir Apps"
 
 #: src/Views/AppCenterView.vala:28
 msgid "Browse AppCenter…"
-msgstr "Durchsuche AppCenter..."
+msgstr "Durchsuche AppCenter…"
 
 #: src/Views/FinishView.vala:21
 #, c-format
@@ -149,12 +149,12 @@ msgstr ""
 
 #: src/Views/WelcomeView.vala:30
 msgid "Basics Guide…"
-msgstr "Grundlagen..."
+msgstr "Grundlagen…"
 
 #: src/Views/WelcomeView.vala:36
 msgid "Community Support…"
-msgstr "Community-Hilfe..."
+msgstr "Community-Hilfe…"
 
 #: src/Views/WelcomeView.vala:42
 msgid "Get Involved…"
-msgstr "Mach mit..."
+msgstr "Mach mit…"
