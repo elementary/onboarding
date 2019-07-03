@@ -43,15 +43,14 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         viewed = Onboarding.App.settings.get_strv ("viewed");
 
+        WelcomeView welcome_view;
         if (Onboarding.App.settings.get_boolean ("first-run")) {
-            var welcome_view = new WelcomeView ();
-            stack.add_titled (welcome_view, "welcome", welcome_view.title);
-            stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
+            welcome_view = new WelcomeView ();
         } else {
-            var update_view = new UpdateView ();
-            stack.add_titled (update_view, "update", update_view.title);
-            stack.child_set_property (update_view, "icon-name", "pager-checked-symbolic");
+            welcome_view = new WelcomeView.with_updates ();
         }
+        stack.add_titled (welcome_view, "welcome", welcome_view.title);
+        stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
 
         if (!("location" in viewed)) {
             var location_services_view = new LocationServicesView ();
