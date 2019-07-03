@@ -80,8 +80,7 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         // Bail if there are no feature views
         if (stack.get_children ().length () < 2) {
-            // FIXME: Okay, this isn't quitting…
-            Onboarding.App.instance.quit ();
+            GLib.Application.get_default ().quit ();
         }
 
         var finish_view = new FinishView ();

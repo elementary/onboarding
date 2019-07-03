@@ -27,16 +27,6 @@ public class Onboarding.App : Gtk.Application {
         Intl.setlocale (LocaleCategory.ALL, "");
     }
 
-    public static Onboarding.App _instance = null;
-    public static Onboarding.App instance {
-        get {
-            if (_instance == null) {
-                _instance = new Onboarding.App ();
-            }
-            return _instance;
-        }
-    }
-
     public override void activate () {
         bool is_terminal = Posix.isatty (Posix.STDIN_FILENO);
 
