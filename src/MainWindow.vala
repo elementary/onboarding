@@ -132,24 +132,17 @@ public class Onboarding.MainWindow : Gtk.Window {
             }
         });
 
-        string[] views;
+        GLib.List<unowned Gtk.Widget> views;
         foreach (unowned Gtk.Widget view in stack.get_children ()) {
-            var name = GLib.Value (typeof (string));
-            stack.child_get_property (view, "name", ref name);
-            views += name.get_string ();
+            views.append (view);
         }
 
         next_button.clicked.connect (() => {
             if (stack.visible_child_name != "finish") {
                 mark_viewed (stack.visible_child_name);
-                int index;
-                for (int i = 0; i < views.length; i++) {
-                    if (views[i] == stack.visible_child_name) {
-                        index = i;
-                        break;
-                    }
-                }
-                stack.visible_child_name = views[index + 1];
+
+                var index = views.index (stack.visible_child);
+                stack.visible_child = views.nth_data (index + 1);
             } else {
                 Onboarding.App.settings.set_boolean ("first-run", false);
                 destroy ();
