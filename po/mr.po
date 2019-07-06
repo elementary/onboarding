@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-03 13:56-0700\n"
-"PO-Revision-Date: 2019-05-07 02:33+0000\n"
+"PO-Revision-Date: 2019-07-07 22:28+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
 "onboarding/mr/>\n"
@@ -129,10 +129,13 @@ msgid ""
 "about updates, check out <a href='https://medium.com/elementaryos/tagged/"
 "updates'>our blog</a>."
 msgstr ""
+"काही उपयुक्त नवीन वैशिष्ट्ये सेट करणे सुरू ठेवा. अपडेट्सबद्दल अधिक तपशीलवार "
+"माहितीसाठी, आमच्या <a href='https://medium.com/elementaryos/tagged/"
+"updates'>ब्लॉग </a> ला भेट द्या."
 
 #: src/Views/UpdateView.vala:23
 msgid "What’s New"
-msgstr ""
+msgstr "नवीन काय आहे"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format
