@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-03 13:56-0700\n"
-"PO-Revision-Date: 2019-05-28 08:29+0000\n"
+"PO-Revision-Date: 2019-07-07 22:28+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
@@ -132,10 +132,13 @@ msgid ""
 "about updates, check out <a href='https://medium.com/elementaryos/tagged/"
 "updates'>our blog</a>."
 msgstr ""
+"</a>Continue a configurar alguns novos recursos úteis. Para informações mais "
+"detalhadas sobre atualizações, confira\n"
+"<a href='https://medium.com/elementaryos/tagged/updates'>nosso blog</a>"
 
 #: src/Views/UpdateView.vala:23
 msgid "What’s New"
-msgstr ""
+msgstr "O que há de novo"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format
