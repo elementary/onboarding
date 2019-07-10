@@ -1,4 +1,8 @@
-project('io.elementary.onboarding', 'vala', 'c')
+project(
+    'io.elementary.onboarding',
+    'vala', 'c',
+    version: '1.0'
+)
 
 add_global_arguments('-DGETTEXT_PACKAGE="' + meson.project_name() + '"', language:'c')
 
