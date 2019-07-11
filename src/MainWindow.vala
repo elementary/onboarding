@@ -54,7 +54,6 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         const string GEOCLUE_SCHEMA = "io.elementary.desktop.agent-geoclue2";
 
-
         var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, false);
 
         LocationServicesView? location_services_view = null;
