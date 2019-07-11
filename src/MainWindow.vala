@@ -52,9 +52,17 @@ public class Onboarding.MainWindow : Gtk.Window {
             stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
         }
 
-        var location_services_view = new LocationServicesView ();
-        stack.add_titled (location_services_view, "location", location_services_view.title);
-        stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
+        const string GEOCLUE_SCHEMA = "io.elementary.desktop.agent-geoclue2";
+
+
+        var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, false);
+
+        LocationServicesView? location_services_view = null;
+        if (lookup != null) {
+            location_services_view = new LocationServicesView ();
+            stack.add_titled (location_services_view, "location", location_services_view.title);
+            stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
+        }
 
         var night_light_view = new NightLightView ();
         stack.add_titled (night_light_view, "night-light", night_light_view.title);
