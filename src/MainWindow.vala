@@ -18,6 +18,7 @@
  */
 
 public class Onboarding.MainWindow : Gtk.Window {
+    public const string GEOCLUE_SCHEMA = "io.elementary.desktop.agent-geoclue2";
     public string[] viewed { get; set; }
     private static GLib.Settings settings;
 
@@ -52,13 +53,9 @@ public class Onboarding.MainWindow : Gtk.Window {
             stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
         }
 
-        const string GEOCLUE_SCHEMA = "io.elementary.desktop.agent-geoclue2";
-
         var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, false);
-
-        LocationServicesView? location_services_view = null;
         if (lookup != null) {
-            location_services_view = new LocationServicesView ();
+            var location_services_view = new LocationServicesView ();
             stack.add_titled (location_services_view, "location", location_services_view.title);
             stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
         }
