@@ -29,7 +29,7 @@ public class Onboarding.LocationServicesView : AbstractOnboardingView {
 
         var service_switch = new Gtk.Switch ();
 
-        var settings = new GLib.Settings ("io.elementary.desktop.agent-geoclue2");
+        var settings = new GLib.Settings (Onboarding.MainWindow.GEOCLUE_SCHEMA);
         settings.bind ("location-enabled", service_switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
         custom_bin.add (switch_label);
