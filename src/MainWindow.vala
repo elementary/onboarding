@@ -18,6 +18,10 @@
  */
 
 public class Onboarding.MainWindow : Gtk.Window {
+    public const string GEOCLUE_SCHEMA = "io.elementary.desktop.agent-geoclue2";
+    public string[] viewed { get; set; }
+    private static GLib.Settings settings;
+
     public MainWindow () {
         Object (
             deletable: false,
@@ -27,19 +31,34 @@ public class Onboarding.MainWindow : Gtk.Window {
         );
     }
 
+    static construct {
+        settings = new GLib.Settings ("io.elementary.onboarding");
+    }
+
     construct {
         var stack = new Gtk.Stack ();
         stack.expand = true;
         stack.valign = stack.halign = Gtk.Align.CENTER;
         stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
 
-        var welcome_view = new WelcomeView ();
-        stack.add_titled (welcome_view, "welcome", welcome_view.title);
-        stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
+        viewed = settings.get_strv ("viewed");
 
-        var location_services_view = new LocationServicesView ();
-        stack.add_titled (location_services_view, "location", location_services_view.title);
-        stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
+        if ("finish" in viewed) {
+            var update_view = new UpdateView ();
+            stack.add_titled (update_view, "update", update_view.title);
+            stack.child_set_property (update_view, "icon-name", "pager-checked-symbolic");
+        } else {
+            var welcome_view = new WelcomeView ();
+            stack.add_titled (welcome_view, "welcome", welcome_view.title);
+            stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
+        }
+
+        var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, false);
+        if (lookup != null) {
+            var location_services_view = new LocationServicesView ();
+            stack.add_titled (location_services_view, "location", location_services_view.title);
+            stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
+        }
 
         var night_light_view = new NightLightView ();
         stack.add_titled (night_light_view, "night-light", night_light_view.title);
@@ -49,11 +68,27 @@ public class Onboarding.MainWindow : Gtk.Window {
         stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
         stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
 
-        AppCenterView? appcenter_view = null;
         if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
-            appcenter_view = new AppCenterView ();
+            var appcenter_view = new AppCenterView ();
             stack.add_titled (appcenter_view, "appcenter", appcenter_view.title);
             stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
+        }
+
+        GLib.List<unowned Gtk.Widget> views = stack.get_children ();
+        foreach (Gtk.Widget view in views) {
+            var view_name_value = GLib.Value (typeof (string));
+            stack.child_get_property (view, "name", ref view_name_value);
+
+            string view_name = view_name_value.get_string ();
+
+            if (view_name in viewed) {
+                view.destroy ();
+            }
+        }
+
+        // Bail if there are no feature views
+        if (stack.get_children ().length () < 2) {
+            GLib.Application.get_default ().quit ();
         }
 
         var finish_view = new FinishView ();
@@ -105,6 +140,8 @@ public class Onboarding.MainWindow : Gtk.Window {
         next_button.grab_focus ();
 
         stack.notify["visible-child-name"].connect (() => {
+            mark_viewed (stack.visible_child_name);
+
             if (stack.visible_child_name == "finish") {
                 next_button.label = _("Get Started");
                 skip_revealer.reveal_child = false;
@@ -115,31 +152,36 @@ public class Onboarding.MainWindow : Gtk.Window {
         });
 
         next_button.clicked.connect (() => {
-            switch (stack.visible_child_name) {
-                case "welcome":
-                    stack.visible_child_name = "location";
-                case "location":
-                    stack.visible_child_name = "night-light";
-                case "night-light":
-                    stack.visible_child_name = "housekeeping";
-                case "housekeeping":
-                    if (appcenter_view != null) {
-                        stack.visible_child_name = "appcenter";
-                    } else {
-                        stack.visible_child_name = "finish";
-                    }
-                case "appcenter":
-                    stack.visible_child_name = "finish";
-                case "finish":
-                    Onboarding.App.settings.set_boolean ("first-run", false);
-                    destroy ();
-                    break;
+            GLib.List<unowned Gtk.Widget> current_views = stack.get_children ();
+            var index = current_views.index (stack.visible_child);
+            if (index < current_views.length () - 1) {
+                stack.visible_child = current_views.nth_data (index + 1);
+            } else {
+                destroy ();
             }
         });
 
         skip_button.clicked.connect (() => {
+            foreach (Gtk.Widget view in views) {
+                var view_name_value = GLib.Value (typeof (string));
+                stack.child_get_property (view, "name", ref view_name_value);
+
+                string view_name = view_name_value.get_string ();
+
+                mark_viewed (view_name);
+            }
+
             stack.visible_child_name = "finish";
         });
     }
-}
 
+    private void mark_viewed (string view_name) {
+        if (!(view_name in viewed)) {
+            var viewed_copy = viewed;
+            viewed_copy += view_name;
+            viewed = viewed_copy;
+
+            settings.set_strv ("viewed", viewed);
+        }
+    }
+}

@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-23 17:28-0700\n"
-"PO-Revision-Date: 2019-04-26 21:31+0000\n"
-"Last-Translator: Nuno Alexandre MS Ribeiro <nuno.anarresti@gmail.com>\n"
+"POT-Creation-Date: 2019-06-26 22:43+0200\n"
+"PO-Revision-Date: 2019-07-10 21:28+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/pt/>\n"
 "Language: pt\n"
@@ -17,16 +17,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6\n"
+"X-Generator: Weblate 3.6.1\n"
 
-#: data/io.elementary.onboarding.desktop.in:3
+#: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
 msgstr "Bem-vindo"
 
-#: data/io.elementary.onboarding.desktop.in:4
+#: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
 msgstr "Alterar configurações mais comuns na primeira execução"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "system-os-installer"
 msgstr "system-os-installer"
+
+#: data/onboarding.appdata.xml.in:46
+msgid "elementary, Inc."
+msgstr "elementary, Inc."

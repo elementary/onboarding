@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-21 10:18-0700\n"
-"PO-Revision-Date: 2019-04-26 08:11+0000\n"
+"POT-Creation-Date: 2019-07-03 13:56-0700\n"
+"PO-Revision-Date: 2019-07-07 22:28+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
 "onboarding/ca/>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6\n"
+"X-Generator: Weblate 3.6.1\n"
 
-#: src/MainWindow.vala:25
+#: src/MainWindow.vala:28
 #, c-format
 msgid "Set up %s"
 msgstr "Configureu %s"
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:95
 msgid "Skip All"
 msgstr "Omet-ho tot"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:112
+#: src/MainWindow.vala:106 src/MainWindow.vala:146
 msgid "Next"
 msgstr "Següent"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:143
 msgid "Get Started"
 msgstr "Comenceu"
 
@@ -42,7 +42,7 @@ msgid ""
 "and reviewed by elementary."
 msgstr ""
 "Obtingueu les aplicacions que us calen al Centre d'aplicacions. Es fan "
-"aplicacions ajustades a l'elementary OS i són revisades per l'equip de "
+"aplicacions ajustades a l'elementary OS i revisades per l'equip de "
 "l'elementary."
 
 #: src/Views/AppCenterView.vala:23
@@ -126,6 +126,20 @@ msgstr "Llum de nit"
 #: src/Views/NightLightView.vala:28
 msgid "Night Light:"
 msgstr "Llum de nit:"
+
+#: src/Views/UpdateView.vala:21
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://medium.com/elementaryos/tagged/"
+"updates'>our blog</a>."
+msgstr ""
+"Continueu configurant algunes funcions noves útils. Per obtenir informació "
+"més detallada sobre les actualitzacions, consulteu <a href='https://medium."
+"com/elementaryos/tagged/updates'>el nostre blog</a>."
+
+#: src/Views/UpdateView.vala:23
+msgid "What’s New"
+msgstr "Què hi ha de nou?"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format

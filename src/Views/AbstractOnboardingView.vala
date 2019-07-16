@@ -38,6 +38,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         description_label.justify = Gtk.Justification.CENTER;
         description_label.wrap = true;
         description_label.max_width_chars = 50;
+        description_label.use_markup = true;
 
         var header_area = new Gtk.Grid ();
         header_area.column_spacing = 12;

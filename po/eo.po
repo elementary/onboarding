@@ -7,46 +7,50 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-21 10:18-0700\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2019-07-03 13:56-0700\n"
+"PO-Revision-Date: 2019-07-10 21:28+0000\n"
+"Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
+"Language-Team: Esperanto <https://l10n.elementary.io/projects/installer/"
+"onboarding/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
-#: src/MainWindow.vala:25
+#: src/MainWindow.vala:28
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "Agordi %s"
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:95
 msgid "Skip All"
-msgstr ""
+msgstr "Preterlasi ĉion"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:112
+#: src/MainWindow.vala:106 src/MainWindow.vala:146
 msgid "Next"
-msgstr ""
+msgstr "Sekva"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:143
 msgid "Get Started"
-msgstr ""
+msgstr "Komenci"
 
 #: src/Views/AppCenterView.vala:21
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"Akiri aplikaĵojn bezonataj en la Aplikaĵa Centro. Kontrolitaj aplikaĵoj "
+"estas tajloritaj por la operaciumo elementary kaj inspektitaj de elementary."
 
 #: src/Views/AppCenterView.vala:23
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Akiri aplikaĵojn"
 
 #: src/Views/AppCenterView.vala:28
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "Foliumi la Aplikaĵan Centron…"
 
 #: src/Views/FinishView.vala:21
 #, c-format
@@ -54,18 +58,20 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Ĝuu uzadon de %s! Eblas ĉiam viziti la Sistemajn Agordojn por starigi "
+"aparataron aŭ ŝanĝi preferojn."
 
 #: src/Views/FinishView.vala:23
 msgid "Ready to Go"
-msgstr ""
+msgstr "Ek"
 
 #: src/Views/FinishView.vala:28
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Malfermi Sistemajn Agordojn…"
 
 #: src/Views/HouseKeepingView.vala:22
 msgid "Housekeeping"
-msgstr ""
+msgstr "Mastrumado"
 
 #: src/Views/HouseKeepingView.vala:29
 #, c-format
@@ -73,46 +79,66 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
+"Eblas aŭtomate forigi malnovajn dosierojn post %u tagoj por konservi memoron "
+"kaj helpi protekti privatecon."
 
 #: src/Views/HouseKeepingView.vala:31
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Aŭtomate forigi:"
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Temporary files"
-msgstr ""
+msgstr "Portempaj dosieroj"
 
 #: src/Views/HouseKeepingView.vala:36
 msgid "Trashed files"
-msgstr ""
+msgstr "Rubujigitaĵoj"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
 "While Location Services are enabled, apps will be able to make requests to "
 "use this device's location."
 msgstr ""
+"Dum la Lokigaj Servoj funkcias, eblas al aplikaĵoj peti uzon de la aparata "
+"lokigo."
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
-msgstr ""
+msgstr "Lokigaj Servoj"
 
 #: src/Views/LocationServicesView.vala:28
 msgid "Location Services:"
-msgstr ""
+msgstr "Lokigaj Servoj:"
 
 #: src/Views/NightLightView.vala:21
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Varmigi la ekranajn kolorojn nokte, por antaŭmalhelpi okulan lacigon kaj "
+"sendormecon."
 
 #: src/Views/NightLightView.vala:23
 msgid "Night Light"
-msgstr ""
+msgstr "Nokta lumigo"
 
 #: src/Views/NightLightView.vala:28
 msgid "Night Light:"
+msgstr "Nokta lumigo:"
+
+#: src/Views/UpdateView.vala:21
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://medium.com/elementaryos/tagged/"
+"updates'>our blog</a>."
 msgstr ""
+"Daŭrigi agordadon de utilaj novaj funkcioj. Pliajn detalajn informojn pri "
+"ĝisdatigoj ĉe <a href='https://medium.com/elementaryos/tagged/updates'>nia "
+"blogo</a>."
+
+#: src/Views/UpdateView.vala:23
+msgid "What’s New"
+msgstr "Kio novas"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format
@@ -120,20 +146,22 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Daŭrigi agordadon de utilaj funkcioj. Vizitu la ligilojn malsupre por pliaj "
+"informoj pri %s."
 
 #: src/Views/WelcomeView.vala:23
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Bonvenon ĉe %s!"
 
 #: src/Views/WelcomeView.vala:30
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Enkonduka Gvidilo…"
 
 #: src/Views/WelcomeView.vala:36
 msgid "Community Support…"
-msgstr ""
+msgstr "Komunuma subteno…"
 
 #: src/Views/WelcomeView.vala:42
 msgid "Get Involved…"
-msgstr ""
+msgstr "Engaĝiĝu…"
