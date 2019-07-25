@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56-0700\n"
+"POT-Creation-Date: 2019-07-25 07:51-0700\n"
 "PO-Revision-Date: 2019-04-22 23:31+0000\n"
 "Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 3.5.1\n"
 
-#: src/MainWindow.vala:28
+#: src/MainWindow.vala:29
 #, c-format
 msgid "Set up %s"
 msgstr "Nastavit %s"
 
-#: src/MainWindow.vala:95
+#: src/MainWindow.vala:98
 msgid "Skip All"
 msgstr "Přeskočit vše"
 
-#: src/MainWindow.vala:106 src/MainWindow.vala:146
+#: src/MainWindow.vala:109 src/MainWindow.vala:149
 msgid "Next"
 msgstr "Další"
 
-#: src/MainWindow.vala:143
+#: src/MainWindow.vala:146
 msgid "Get Started"
 msgstr ""
 
@@ -94,8 +94,8 @@ msgstr "Soubory v koši"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
-"While Location Services are enabled, apps will be able to make requests to "
-"use this device's location."
+"Receive a prompt when an app requests this device’s location. If disabled, "
+"all location requests will be denied."
 msgstr ""
 
 #: src/Views/LocationServicesView.vala:23
