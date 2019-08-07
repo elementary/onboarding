@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
-"PO-Revision-Date: 2019-07-07 22:28+0000\n"
+"PO-Revision-Date: 2019-08-14 17:22+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/MainWindow.vala:29
 #, c-format
@@ -41,12 +41,12 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"Baixe os aplicativos que você precisa no AppCenter. Aplicativos curados são "
+"Baixe os aplicativos que você precisar no AppCenter. Aplicativos curados são "
 "feitos para o elementary OS e analisados pelo elementary."
 
 #: src/Views/AppCenterView.vala:23
 msgid "Get Some Apps"
-msgstr "Baixe Alguns Apps"
+msgstr "Baixe alguns Apps"
 
 #: src/Views/AppCenterView.vala:28
 msgid "Browse AppCenter…"
@@ -58,8 +58,8 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"Aproveite usando %s Você pode visitar sempre as configurações do sistema "
-"para configurar seu equipamento ou mudar suas preferências"
+"Aproveite usando %s! Você pode visitar sempre as configurações do sistema "
+"para configurar seu equipamento ou mudar suas preferências."
 
 #: src/Views/FinishView.vala:23
 msgid "Ready to Go"
@@ -92,7 +92,7 @@ msgstr "Arquivos temporários"
 
 #: src/Views/HouseKeepingView.vala:36
 msgid "Trashed files"
-msgstr "Arquivos deletados"
+msgstr "Arquivos na Lixeira"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
@@ -102,11 +102,11 @@ msgstr ""
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
-msgstr "Serviços de localização"
+msgstr "Serviços de Localização"
 
 #: src/Views/LocationServicesView.vala:28
 msgid "Location Services:"
-msgstr "Serviços de localização:"
+msgstr "Serviços de Localização:"
 
 #: src/Views/NightLightView.vala:21
 msgid ""
@@ -130,8 +130,8 @@ msgid ""
 "about updates, check out <a href='https://medium.com/elementaryos/tagged/"
 "updates'>our blog</a>."
 msgstr ""
-"</a>Continue a configurar alguns novos recursos úteis. Para informações mais "
-"detalhadas sobre atualizações, confira\n"
+"</a>Continue para configurar alguns novos recursos úteis. Para informações "
+"mais detalhadas sobre atualizações, confira\n"
 "<a href='https://medium.com/elementaryos/tagged/updates'>nosso blog</a>"
 
 #: src/Views/UpdateView.vala:23
