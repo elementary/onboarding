@@ -1,3 +1,9 @@
+io.elementary.onboarding (1.0.1) bionic; urgency=medium
+
+  * New upstream release.
+
+ -- Cody Garver <codygarver@gmail.com>  Sat, 24 Aug 2019 04:40:22 +0000
+
 io.elementary.onboarding (1.0.0) bionic; urgency=medium
 
   * Initial release
