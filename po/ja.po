@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
-"PO-Revision-Date: 2019-07-07 22:28+0000\n"
+"PO-Revision-Date: 2019-08-26 21:22+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/MainWindow.vala:29
 #, c-format
@@ -98,7 +98,7 @@ msgstr "ゴミ箱に移動したファイル"
 msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
-msgstr ""
+msgstr "アプリがこのデバイスの位置情報を要求した場合に確認します。無効にすると、すべての位置情報の要求は拒否されます。"
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
