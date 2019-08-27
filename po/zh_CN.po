@@ -8,30 +8,33 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2019-08-28 10:22+0000\n"
+"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
+"installer/onboarding/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/MainWindow.vala:29
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "配置 %s"
 
 #: src/MainWindow.vala:98
 msgid "Skip All"
-msgstr ""
+msgstr "跳过所有"
 
 #: src/MainWindow.vala:109 src/MainWindow.vala:149
 msgid "Next"
-msgstr ""
+msgstr "下一个"
 
 #: src/MainWindow.vala:146
 msgid "Get Started"
-msgstr ""
+msgstr "开始"
 
 #: src/Views/AppCenterView.vala:21
 msgid ""
