@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-09-01 12:04+0000\n"
-"Last-Translator: CodingSpiderFox <sunrisechain@gmail.com>\n"
+"PO-Revision-Date: 2019-09-02 12:22+0000\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/de/>\n"
 "Language: de\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
-msgstr "Herzlich Willkommen"
+msgstr "Willkommen"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
-msgstr ""
+msgstr "Beim ersten Start übliche Einstellungen vornehmen"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "system-os-installer"
