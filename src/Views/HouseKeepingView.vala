@@ -26,7 +26,9 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
     construct {
         var settings = new GLib.Settings ("org.gnome.desktop.privacy");
 
-        description = _("Old files can be automatically deleted after %u days to save space and help protect your privacy.").printf (settings.get_uint ("old-files-age"));
+        description = _(
+            "Old files can be automatically deleted after %u days to save space and help protect your privacy."
+        ).printf (settings.get_uint ("old-files-age"));
 
         var header_label = new Granite.HeaderLabel (_("Automatically Delete:"));
 

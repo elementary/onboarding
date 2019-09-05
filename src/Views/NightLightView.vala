@@ -18,7 +18,9 @@
 public class Onboarding.NightLightView : AbstractOnboardingView {
     public NightLightView () {
         Object (
-            description: _("Make the colors of your display warmer at night to help prevent eye strain and sleeplessness."),
+            description: _(
+                "Make the colors of your display warmer at night to help prevent eye strain and sleeplessness."
+            ),
             icon_name: "night-light",
             title: _("Night Light")
         );
@@ -36,4 +38,3 @@ public class Onboarding.NightLightView : AbstractOnboardingView {
         custom_bin.add (service_switch);
     }
 }
-

@@ -18,7 +18,9 @@
 public class Onboarding.WelcomeView : AbstractOnboardingView {
     public WelcomeView () {
         Object (
-            description: _("Continue to set up some useful features. Visit the links below for more information about %s.").printf (Utils.os_name),
+            description: _(
+                "Continue to set up some useful features. Visit the links below for more information about %s."
+            ).printf (Utils.os_name),
             icon_name: "distributor-logo",
             title: _("Welcome to %s!").printf (Utils.os_name)
         );

@@ -36,7 +36,11 @@ public class Onboarding.App : Gtk.Application {
 
         var css_provider = new Gtk.CssProvider ();
         css_provider.load_from_resource ("io/elementary/onboarding/application.css");
-        Gtk.StyleContext.add_provider_for_screen (Gdk.Screen.get_default (), css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        Gtk.StyleContext.add_provider_for_screen (
+            Gdk.Screen.get_default (),
+            css_provider,
+            Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+        );
     }
 }
 
@@ -44,4 +48,3 @@ public static int main (string[] args) {
     var application = new Onboarding.App ();
     return application.run (args);
 }
-

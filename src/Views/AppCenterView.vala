@@ -18,7 +18,7 @@
 public class Onboarding.AppCenterView : AbstractOnboardingView {
     public AppCenterView () {
         Object (
-            description: _("Get the apps you need on AppCenter. Curated apps are made for elementary OS and reviewed by elementary."),
+            description: _("Get the apps you need on AppCenter. Curated apps are made for elementary OS and reviewed by elementary."), // vala-lint=line-length
             icon_name: "system-software-install",
             title: _("Get Some Apps")
         );
@@ -47,4 +47,3 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
         });
     }
 }
-
