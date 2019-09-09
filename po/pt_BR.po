@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
-"PO-Revision-Date: 2019-08-14 17:22+0000\n"
-"Last-Translator: ricardomaciel17 <ricardopmaciel@hotmail.com>\n"
+"PO-Revision-Date: 2019-09-10 00:29+0000\n"
+"Last-Translator: Michael Leocádio <leocadiomichael@outlook.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -22,11 +22,11 @@ msgstr ""
 #: src/MainWindow.vala:29
 #, c-format
 msgid "Set up %s"
-msgstr "Configurando %s"
+msgstr "Configurar %s"
 
 #: src/MainWindow.vala:98
 msgid "Skip All"
-msgstr "Pular tudo"
+msgstr "Pular Todos"
 
 #: src/MainWindow.vala:109 src/MainWindow.vala:149
 msgid "Next"
@@ -34,7 +34,7 @@ msgstr "Próximo"
 
 #: src/MainWindow.vala:146
 msgid "Get Started"
-msgstr "Iniciando"
+msgstr "Iniciar"
 
 #: src/Views/AppCenterView.vala:21
 msgid ""
@@ -46,11 +46,11 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:23
 msgid "Get Some Apps"
-msgstr "Baixe alguns Apps"
+msgstr "Baixe Alguns Apps"
 
 #: src/Views/AppCenterView.vala:28
 msgid "Browse AppCenter…"
-msgstr "Explorar o Central de Aplicações…"
+msgstr "Explore o AppCenter…"
 
 #: src/Views/FinishView.vala:21
 #, c-format
@@ -58,12 +58,12 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"Aproveite usando %s! Você pode visitar sempre as configurações do sistema "
-"para configurar seu equipamento ou mudar suas preferências."
+"Aproveite usando %s! Você pode sempre visitar as Configurações do Sistema "
+"para ajustar seu equipamento ou alterar suas preferências."
 
 #: src/Views/FinishView.vala:23
 msgid "Ready to Go"
-msgstr "Pronto para começar"
+msgstr "Pronto para Começar"
 
 #: src/Views/FinishView.vala:28
 msgid "Open System Settings…"
@@ -92,7 +92,7 @@ msgstr "Arquivos temporários"
 
 #: src/Views/HouseKeepingView.vala:36
 msgid "Trashed files"
-msgstr "Arquivos na Lixeira"
+msgstr "Arquivos na lixeira"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
@@ -113,8 +113,8 @@ msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
-"Faça as cores do seu monitor mais quentes à noite para ajudar a prevenir "
-"tensão ocular e falta de sono."
+"Deixe as cores do seu monitor mais quentes à noite para ajudar a prevenir "
+"tensão ocular e insônia."
 
 #: src/Views/NightLightView.vala:23
 msgid "Night Light"
@@ -122,7 +122,7 @@ msgstr "Luz Noturna"
 
 #: src/Views/NightLightView.vala:28
 msgid "Night Light:"
-msgstr "Luz noturna:"
+msgstr "Luz Noturna:"
 
 #: src/Views/UpdateView.vala:21
 msgid ""
@@ -130,13 +130,13 @@ msgid ""
 "about updates, check out <a href='https://medium.com/elementaryos/tagged/"
 "updates'>our blog</a>."
 msgstr ""
-"</a>Continue para configurar alguns novos recursos úteis. Para informações "
-"mais detalhadas sobre atualizações, confira\n"
-"<a href='https://medium.com/elementaryos/tagged/updates'>nosso blog</a>"
+"Continue para configurar alguns novos recursos úteis. Para informações mais "
+"detalhadas sobre atualizações, confira\n"
+"<a href='https://medium.com/elementaryos/tagged/updates'>nosso blog</a>."
 
 #: src/Views/UpdateView.vala:23
 msgid "What’s New"
-msgstr "O que há de novo"
+msgstr "O que há de Novo"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format
@@ -144,13 +144,13 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
-"Continue para configurar algumas funcionalidades úteis. Visite os links "
-"abaixo para mais informação sobre %s."
+"Continue para configurar alguns recursos úteis. Visite os links abaixo para "
+"mais informação sobre %s."
 
 #: src/Views/WelcomeView.vala:23
 #, c-format
 msgid "Welcome to %s!"
-msgstr "Bem-vindo a %s!"
+msgstr "Bem-Vindo ao %s!"
 
 #: src/Views/WelcomeView.vala:30
 msgid "Basics Guide…"
