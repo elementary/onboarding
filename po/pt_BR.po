@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
-"PO-Revision-Date: 2019-09-10 00:29+0000\n"
-"Last-Translator: ricardomaciel17 <ricardopmaciel@hotmail.com>\n"
+"PO-Revision-Date: 2019-09-10 20:23+0000\n"
+"Last-Translator: Michael Leocádio <leocadiomichael@outlook.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -154,7 +154,7 @@ msgstr "Bem-Vindo ao %s!"
 
 #: src/Views/WelcomeView.vala:30
 msgid "Basics Guide…"
-msgstr "Guia Básico..."
+msgstr "Guia Básico…"
 
 #: src/Views/WelcomeView.vala:36
 msgid "Community Support…"
