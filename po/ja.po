@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56-0700\n"
-"PO-Revision-Date: 2019-07-07 22:28+0000\n"
+"POT-Creation-Date: 2019-07-25 07:51-0700\n"
+"PO-Revision-Date: 2019-08-26 21:22+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
-#: src/MainWindow.vala:28
+#: src/MainWindow.vala:29
 #, c-format
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/MainWindow.vala:95
+#: src/MainWindow.vala:98
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/MainWindow.vala:106 src/MainWindow.vala:146
+#: src/MainWindow.vala:109 src/MainWindow.vala:149
 msgid "Next"
 msgstr "次へ"
 
-#: src/MainWindow.vala:143
+#: src/MainWindow.vala:146
 msgid "Get Started"
 msgstr "始めましょう"
 
@@ -96,11 +96,9 @@ msgstr "ゴミ箱に移動したファイル"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
-"While Location Services are enabled, apps will be able to make requests to "
-"use this device's location."
-msgstr ""
-"位置情報サービスを有効にすると、アプリはこのデバイスの現在地を利用するための"
-"要求を出せるようになります。"
+"Receive a prompt when an app requests this device’s location. If disabled, "
+"all location requests will be denied."
+msgstr "アプリがこのデバイスの位置情報を要求した場合に確認します。無効にすると、すべての位置情報の要求は拒否されます。"
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
@@ -132,8 +130,9 @@ msgid ""
 "about updates, check out <a href='https://medium.com/elementaryos/tagged/"
 "updates'>our blog</a>."
 msgstr ""
-"続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な情報は、<a href='https://medium.com/"
-"elementaryos/tagged/updates'>ブログ</a>で確認できます。"
+"続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な情"
+"報は、<a href='https://medium.com/elementaryos/tagged/updates'>ブログ</a>で確"
+"認できます。"
 
 #: src/Views/UpdateView.vala:23
 msgid "What’s New"
@@ -164,3 +163,10 @@ msgstr "コミュニティーサポート…"
 #: src/Views/WelcomeView.vala:42
 msgid "Get Involved…"
 msgstr "開発に参加…"
+
+#~ msgid ""
+#~ "While Location Services are enabled, apps will be able to make requests "
+#~ "to use this device's location."
+#~ msgstr ""
+#~ "位置情報サービスを有効にすると、アプリはこのデバイスの現在地を利用するため"
+#~ "の要求を出せるようになります。"

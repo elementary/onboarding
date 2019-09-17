@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56-0700\n"
-"PO-Revision-Date: 2019-07-07 22:28+0000\n"
+"POT-Creation-Date: 2019-07-25 07:51-0700\n"
+"PO-Revision-Date: 2019-08-26 21:22+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/installer/"
 "onboarding/lt/>\n"
@@ -19,22 +19,22 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
-#: src/MainWindow.vala:28
+#: src/MainWindow.vala:29
 #, c-format
 msgid "Set up %s"
 msgstr "Nusistatykite %s"
 
-#: src/MainWindow.vala:95
+#: src/MainWindow.vala:98
 msgid "Skip All"
 msgstr "Praleisti viską"
 
-#: src/MainWindow.vala:106 src/MainWindow.vala:146
+#: src/MainWindow.vala:109 src/MainWindow.vala:149
 msgid "Next"
 msgstr "Kitas"
 
-#: src/MainWindow.vala:143
+#: src/MainWindow.vala:146
 msgid "Get Started"
 msgstr "Darbo pradžia"
 
@@ -98,11 +98,11 @@ msgstr "Failus šiukšlinėje"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
-"While Location Services are enabled, apps will be able to make requests to "
-"use this device's location."
+"Receive a prompt when an app requests this device’s location. If disabled, "
+"all location requests will be denied."
 msgstr ""
-"Tol, kol buvimo vietos tarnybos yra įjungtos, programos galės teikti "
-"užklausas naudoti šio įrenginio buvimo vietą."
+"Rodyti, kai programa užklausia apie šio įrenginio buvimo vietą. Jei "
+"išjungta, visos buvimo vietos užklausos bus atmetamos."
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
@@ -167,3 +167,10 @@ msgstr "Bendruomenės palaikymas…"
 #: src/Views/WelcomeView.vala:42
 msgid "Get Involved…"
 msgstr "Įsitraukite…"
+
+#~ msgid ""
+#~ "While Location Services are enabled, apps will be able to make requests "
+#~ "to use this device's location."
+#~ msgstr ""
+#~ "Tol, kol buvimo vietos tarnybos yra įjungtos, programos galės teikti "
+#~ "užklausas naudoti šio įrenginio buvimo vietą."

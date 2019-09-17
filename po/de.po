@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-03 13:56-0700\n"
-"PO-Revision-Date: 2019-07-07 22:28+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"POT-Creation-Date: 2019-07-25 07:51-0700\n"
+"PO-Revision-Date: 2019-09-02 12:22+0000\n"
+"Last-Translator: Nicolas <emailchecker000@gmail.com>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
 "onboarding/de/>\n"
 "Language: de\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
-#: src/MainWindow.vala:28
+#: src/MainWindow.vala:29
 #, c-format
 msgid "Set up %s"
 msgstr "%s einrichten"
 
-#: src/MainWindow.vala:95
+#: src/MainWindow.vala:98
 msgid "Skip All"
 msgstr "Alles überspringen"
 
-#: src/MainWindow.vala:106 src/MainWindow.vala:146
+#: src/MainWindow.vala:109 src/MainWindow.vala:149
 msgid "Next"
-msgstr ""
+msgstr "Weiter"
 
-#: src/MainWindow.vala:143
+#: src/MainWindow.vala:146
 msgid "Get Started"
 msgstr "Beginnen"
 
@@ -41,16 +41,16 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"Hol dir die Apps die du brauchst im AppCenter. Ausgewählte Apps wurden für "
-"elementary OS erstellt und getestet."
+"Lade dir die Apps, die du benötigst. im AppCenter herunter. Ausgewählte Apps "
+"wurden für elementary OS erstellt und getestet."
 
 #: src/Views/AppCenterView.vala:23
 msgid "Get Some Apps"
-msgstr "Hol dir Apps"
+msgstr "Apps herunterladen"
 
 #: src/Views/AppCenterView.vala:28
 msgid "Browse AppCenter…"
-msgstr "Durchsuche AppCenter…"
+msgstr "AppCenter durchsuchen …"
 
 #: src/Views/FinishView.vala:21
 #, c-format
@@ -67,7 +67,7 @@ msgstr "Fertig"
 
 #: src/Views/FinishView.vala:28
 msgid "Open System Settings…"
-msgstr "Öffne Systemsteuerung…"
+msgstr "Systemeinstellungen öffnen …"
 
 #: src/Views/HouseKeepingView.vala:22
 msgid "Housekeeping"
@@ -92,15 +92,15 @@ msgstr "Temporäre Dateien"
 
 #: src/Views/HouseKeepingView.vala:36
 msgid "Trashed files"
-msgstr "Gelöschte Datein"
+msgstr "Gelöschte Dateien"
 
 #: src/Views/LocationServicesView.vala:21
 msgid ""
-"While Location Services are enabled, apps will be able to make requests to "
-"use this device's location."
+"Receive a prompt when an app requests this device’s location. If disabled, "
+"all location requests will be denied."
 msgstr ""
-"Sind Ortungsdienste aktiviert, können Apps anfragen, den Standort dieses "
-"Gerätes zu nutzen."
+"Meldung anzeigen, sobald eine App den Standort dieses Geräts abfragt. Wenn "
+"diese Option nicht gewählt ist, werden alle Standortabfragen abgelehnt."
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
@@ -115,6 +115,8 @@ msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Bildschirm nachts in wärmeren Farben anzeigen; so wird dazu beigetragen, "
+"eine Überanstrengung der Augen und Schlaflosigkeit zu vermeiden."
 
 #: src/Views/NightLightView.vala:23
 msgid "Night Light"
@@ -122,7 +124,7 @@ msgstr "Nachtlicht"
 
 #: src/Views/NightLightView.vala:28
 msgid "Night Light:"
-msgstr "Nachtlicht:"
+msgstr "Nachtmodus:"
 
 #: src/Views/UpdateView.vala:21
 msgid ""
@@ -130,10 +132,13 @@ msgid ""
 "about updates, check out <a href='https://medium.com/elementaryos/tagged/"
 "updates'>our blog</a>."
 msgstr ""
+"Fahren Sie damit fort, nützliche neue Funktionen einzurichten. "
+"Detailliertere Informationen finden Sie in <a href='https://medium.com/"
+"elementaryos/tagged/updates'>unserem Blog</a>."
 
 #: src/Views/UpdateView.vala:23
 msgid "What’s New"
-msgstr ""
+msgstr "Das ist neu"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format
@@ -141,20 +146,29 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Fahren Sie damit fort, nützliche Funktionen einzurichten. Weitere "
+"Informationen zu %s finden Sie in den Verweisen unten."
 
 #: src/Views/WelcomeView.vala:23
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Willkommen zu %s!"
 
 #: src/Views/WelcomeView.vala:30
 msgid "Basics Guide…"
-msgstr "Grundlagen…"
+msgstr "Grundlagen …"
 
 #: src/Views/WelcomeView.vala:36
 msgid "Community Support…"
-msgstr "Community-Hilfe…"
+msgstr "Community-Hilfe …"
 
 #: src/Views/WelcomeView.vala:42
 msgid "Get Involved…"
-msgstr "Mach mit…"
+msgstr "Mitmachen …"
+
+#~ msgid ""
+#~ "While Location Services are enabled, apps will be able to make requests "
+#~ "to use this device's location."
+#~ msgstr ""
+#~ "Sind Ortungsdienste aktiviert, können Apps anfragen, den Standort dieses "
+#~ "Gerätes zu nutzen."

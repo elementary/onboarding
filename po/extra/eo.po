@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-07-07 22:28+0000\n"
+"PO-Revision-Date: 2019-08-26 21:22+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/eo/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -29,7 +29,7 @@ msgstr "Ŝanĝi komunajn agordojn ĉe unua lanĉo"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "system-os-installer"
-msgstr "sistem-operaciumo-instalilo"
+msgstr "system-os-installer"
 
 #: data/onboarding.appdata.xml.in:46
 msgid "elementary, Inc."
