@@ -41,6 +41,18 @@ public class Utils {
         }
     }
 
+    private static string _logo_icon_name;
+    public static string logo_icon_name {
+        get {
+            if (_logo_icon_name == null) {
+                parse_osrelease ();
+            }
+
+            return _logo_icon_name;
+        }
+    }
+
+
     private static void parse_osrelease () {
         var file = File.new_for_path ("/etc/os-release");
         try {
@@ -56,10 +68,12 @@ public class Utils {
             }
             _os_name = osrel["NAME"];
             _support_url = osrel["SUPPORT_URL"];
+            _logo_icon_name = osrel["LOGO"];
         } catch (Error e) {
             critical (e.message);
             _os_name = "elementary OS";
             _support_url = "https://elementary.io/support";
+            _logo_icon_name = "distributor-logo";
         }
     }
 }
