@@ -46,6 +46,11 @@ public class Utils {
         get {
             if (_logo_icon_name == null) {
                 parse_osrelease ();
+
+                // If it's still null, fall back
+                if (_logo_icon_name == null) {
+                    _logo_icon_name = "distributor-logo";
+                }
             }
 
             return _logo_icon_name;
