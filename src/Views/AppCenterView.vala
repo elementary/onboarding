@@ -47,4 +47,3 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
         });
     }
 }
-
