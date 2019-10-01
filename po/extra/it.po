@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-07-02 09:46+0000\n"
-"Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
+"PO-Revision-Date: 2019-09-07 18:23+0000\n"
+"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -29,7 +29,7 @@ msgstr "Cambia le impostazioni comuni al primo avvio"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "system-os-installer"
-msgstr ""
+msgstr "system-os-installer"
 
 #: data/onboarding.appdata.xml.in:46
 msgid "elementary, Inc."
