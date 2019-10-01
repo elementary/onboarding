@@ -36,4 +36,3 @@ public class Onboarding.NightLightView : AbstractOnboardingView {
         custom_bin.add (service_switch);
     }
 }
-

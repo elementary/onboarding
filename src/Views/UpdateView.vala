@@ -24,4 +24,3 @@ public class Onboarding.UpdateView : AbstractOnboardingView {
         );
     }
 }
-
