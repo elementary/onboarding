@@ -19,7 +19,8 @@ public class Onboarding.UpdateView : AbstractOnboardingView {
     public UpdateView () {
         Object (
             description: _("Continue to set up some useful new features. For more detailed information about updates, check out <a href='https://blog.elementary.io'>our blog</a>."),
-            icon_name: "system-software-update",
+            icon_name: Utils.logo_icon_name,
+            badge_name: "system-software-update",
             title: _("What’s New")
         );
     }
