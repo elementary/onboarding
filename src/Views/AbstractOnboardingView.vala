@@ -18,6 +18,7 @@
 public abstract class AbstractOnboardingView : Gtk.Grid {
     public string description { get; set; }
     public string icon_name { get; construct; }
+    public string? badge_name { get; construct; }
     public string title { get; construct; }
 
     public Gtk.Grid custom_bin { get; private set; }
@@ -26,6 +27,16 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         var image = new Gtk.Image ();
         image.icon_name = icon_name;
         image.pixel_size = 64;
+
+        var badge = new Gtk.Image ();
+        badge.halign = badge.valign = Gtk.Align.END;
+        badge.icon_name = badge_name;
+        badge.pixel_size = 32;
+
+        var overlay = new Gtk.Overlay ();
+        overlay.halign = Gtk.Align.CENTER;
+        overlay.add (image);
+        overlay.add_overlay (badge);
 
         var title_label = new Gtk.Label (title);
         title_label.get_style_context ().add_class (Granite.STYLE_CLASS_H2_LABEL);
@@ -44,7 +55,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         header_area.expand = true;
         header_area.row_spacing = 12;
         header_area.orientation = Gtk.Orientation.VERTICAL;
-        header_area.add (image);
+        header_area.add (overlay);
         header_area.add (title_label);
         header_area.add (description_label);
 
