@@ -23,6 +23,7 @@ public class Onboarding.MainWindow : Gtk.Window {
     private static GLib.Settings settings;
 
     private Hdy.Paginator paginator;
+    private Gtk.SizeGroup buttons_group;
 
     public MainWindow () {
         Object (
@@ -99,8 +100,20 @@ public class Onboarding.MainWindow : Gtk.Window {
         var switcher = new Switcher (paginator);
         switcher.halign = Gtk.Align.CENTER;
 
+        var next_finish_overlay = new Gtk.Overlay ();
+
+        var finish_button = new Gtk.Button.with_label (_("Get Started"));
+        finish_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
+        next_finish_overlay.add (finish_button);
+
         var next_button = new Gtk.Button.with_label (_("Next"));
         next_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
+        next_finish_overlay.add_overlay (next_button);
+
+        buttons_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.BOTH);
+        buttons_group.add_widget (skip_revealer);
+        buttons_group.add_widget (next_button);
+        buttons_group.add_widget (finish_button);
 
         var action_area = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL);
         action_area.margin_start = action_area.margin_end = 10;
@@ -110,7 +123,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         action_area.layout_style = Gtk.ButtonBoxStyle.EDGE;
         action_area.add (skip_revealer);
         action_area.add (switcher);
-        action_area.add (next_button);
+        action_area.add (next_finish_overlay);
         action_area.set_child_non_homogeneous (switcher, true);
 
         var grid = new Gtk.Grid ();
@@ -140,13 +153,13 @@ public class Onboarding.MainWindow : Gtk.Window {
 
             mark_viewed (visible_view.view_name);
 
-            if (visible_view.view_name == "finish") {
-                next_button.label = _("Get Started");
-                skip_revealer.reveal_child = false;
-            } else {
-                next_button.label = _("Next");
-                skip_revealer.reveal_child = true;
-            }
+            var opacity = double.min (1, paginator.n_pages - paginator.position - 1);
+
+            skip_button.opacity = opacity;
+            skip_revealer.reveal_child = opacity > 0;
+
+            next_button.opacity = opacity;
+            next_button.visible = opacity > 0;
         });
 
         next_button.clicked.connect (() => {
@@ -154,9 +167,11 @@ public class Onboarding.MainWindow : Gtk.Window {
             int index = (int) Math.round (paginator.position);
             if (index < current_views.length () - 1) {
                 paginator.scroll_to (current_views.nth_data (index + 1));
-            } else {
-                destroy ();
             }
+        });
+
+        finish_button.clicked.connect (() => {
+            destroy ();
         });
 
         skip_button.clicked.connect (() => {
