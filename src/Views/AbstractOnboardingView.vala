@@ -16,6 +16,7 @@
  */
 
 public abstract class AbstractOnboardingView : Gtk.Grid {
+    public string view_name { get; construct; }
     public string description { get; set; }
     public string icon_name { get; construct; }
     public string? badge_name { get; construct; }

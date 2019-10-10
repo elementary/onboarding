@@ -45,41 +45,40 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         if ("finish" in viewed) {
             var update_view = new UpdateView ();
-            stack.add_titled (update_view, "update", update_view.title);
+            stack.add (update_view);
             stack.child_set_property (update_view, "icon-name", "pager-checked-symbolic");
         } else {
             var welcome_view = new WelcomeView ();
-            stack.add_titled (welcome_view, "welcome", welcome_view.title);
+            stack.add (welcome_view);
             stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
         }
 
         var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, false);
         if (lookup != null) {
             var location_services_view = new LocationServicesView ();
-            stack.add_titled (location_services_view, "location", location_services_view.title);
+            stack.add (location_services_view);
             stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
         }
 
         var night_light_view = new NightLightView ();
-        stack.add_titled (night_light_view, "night-light", night_light_view.title);
+        stack.add (night_light_view);
         stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
 
         var housekeeping_view = new HouseKeepingView ();
-        stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
+        stack.add (housekeeping_view);
         stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
 
         if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
             var appcenter_view = new AppCenterView ();
-            stack.add_titled (appcenter_view, "appcenter", appcenter_view.title);
+            stack.add (appcenter_view);
             stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
         }
 
         GLib.List<unowned Gtk.Widget> views = stack.get_children ();
         foreach (Gtk.Widget view in views) {
-            var view_name_value = GLib.Value (typeof (string));
-            stack.child_get_property (view, "name", ref view_name_value);
+            assert (view is AbstractOnboardingView);
 
-            string view_name = view_name_value.get_string ();
+            var view_name = ((AbstractOnboardingView) view).view_name;
 
             if (view_name in viewed) {
                 stack.remove (view);
@@ -93,7 +92,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         }
 
         var finish_view = new FinishView ();
-        stack.add_titled (finish_view, "finish", finish_view.title);
+        stack.add (finish_view);
         stack.child_set_property (finish_view, "icon-name", "pager-checked-symbolic");
 
         var skip_button = new Gtk.Button.with_label (_("Skip All"));
@@ -140,10 +139,11 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         next_button.grab_focus ();
 
-        stack.notify["visible-child-name"].connect (() => {
-            mark_viewed (stack.visible_child_name);
+        stack.notify["visible-child"].connect (() => {
+            var visible_view = (AbstractOnboardingView) stack.visible_child;
+            mark_viewed (visible_view.view_name);
 
-            if (stack.visible_child_name == "finish") {
+            if (visible_view.view_name == "finish") {
                 next_button.label = _("Get Started");
                 skip_revealer.reveal_child = false;
             } else {
@@ -164,15 +164,14 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         skip_button.clicked.connect (() => {
             foreach (Gtk.Widget view in stack.get_children ()) {
-                var view_name_value = GLib.Value (typeof (string));
-                stack.child_get_property (view, "name", ref view_name_value);
+                assert (view is AbstractOnboardingView);
 
-                string view_name = view_name_value.get_string ();
+                var view_name = ((AbstractOnboardingView) view).view_name;
 
                 mark_viewed (view_name);
             }
 
-            stack.visible_child_name = "finish";
+            stack.visible_child = finish_view;
         });
     }
 
