@@ -15,14 +15,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-.stack-switcher button {
+button.switcher {
     background: none;
     border: none;
     box-shadow: none;
     color: #666;
-    opacity: 0.4;
 }
 
-.stack-switcher button:checked {
-    opacity: 1;
-}

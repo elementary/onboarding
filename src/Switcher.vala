@@ -42,7 +42,6 @@ public class Onboarding.Switcher : Gtk.Grid {
             paginator: paginator,
             halign: Gtk.Align.CENTER,
             orientation: Gtk.Orientation.HORIZONTAL,
-            column_spacing: 3,
             can_focus: false
         );
     }
