@@ -23,11 +23,11 @@ public class Onboarding.PageChecker : Gtk.Button {
     public const double MIN_OPACITY = 0.4;
 
     public unowned Hdy.Paginator paginator { get; construct; }
-    public unowned Gtk.Widget page { get; construct; }
+    public unowned AbstractOnboardingView page { get; construct; }
 
     private int page_number;
 
-    public PageChecker (Hdy.Paginator paginator, Gtk.Widget page) {
+    public PageChecker (Hdy.Paginator paginator, AbstractOnboardingView page) {
         Object (paginator: paginator, page: page);
     }
 
@@ -44,6 +44,7 @@ public class Onboarding.PageChecker : Gtk.Button {
 
         add (new Gtk.Image.from_icon_name ("pager-checked-symbolic", Gtk.IconSize.MENU));
 
+        tooltip_text = page.title;
         page_number = paginator.get_children ().index (page);
         update_opacity ();
 

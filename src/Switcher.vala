@@ -47,7 +47,9 @@ public class Onboarding.Switcher : Gtk.Grid {
     }
 
     private void add_child (Gtk.Widget widget) {
-        var button = new PageChecker (paginator, widget);
+        assert (widget is AbstractOnboardingView);
+
+        var button = new PageChecker (paginator, (AbstractOnboardingView) widget);
         add (button);
     }
 
