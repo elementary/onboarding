@@ -82,6 +82,7 @@ public class Onboarding.MainWindow : Gtk.Window {
             string view_name = view_name_value.get_string ();
 
             if (view_name in viewed) {
+                stack.remove (view);
                 view.destroy ();
             }
         }
@@ -162,7 +163,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         });
 
         skip_button.clicked.connect (() => {
-            foreach (Gtk.Widget view in views) {
+            foreach (Gtk.Widget view in stack.get_children ()) {
                 var view_name_value = GLib.Value (typeof (string));
                 stack.child_get_property (view, "name", ref view_name_value);
 
