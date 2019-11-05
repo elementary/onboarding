@@ -18,6 +18,7 @@
 public class Onboarding.LocationServicesView : AbstractOnboardingView {
     public LocationServicesView () {
         Object (
+            view_name: "location",
             description: _("Receive a prompt when an app requests this device’s location. If disabled, all location requests will be denied."),
             icon_name: "find-location",
             title: _("Location Services")

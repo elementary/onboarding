@@ -16,6 +16,7 @@
  */
 
 public abstract class AbstractOnboardingView : Gtk.Grid {
+    public string view_name { get; construct; }
     public string description { get; set; }
     public string icon_name { get; construct; }
     public string? badge_name { get; construct; }
@@ -68,6 +69,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         margin_start = margin_end = 10;
         orientation = Gtk.Orientation.VERTICAL;
         row_spacing = 24;
+        expand = true;
         add (header_area);
         add (custom_bin);
 

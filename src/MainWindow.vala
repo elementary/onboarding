@@ -22,6 +22,9 @@ public class Onboarding.MainWindow : Gtk.Window {
     public string[] viewed { get; set; }
     private static GLib.Settings settings;
 
+    private Hdy.Paginator paginator;
+    private Gtk.SizeGroup buttons_group;
+
     public MainWindow () {
         Object (
             deletable: false,
@@ -36,65 +39,56 @@ public class Onboarding.MainWindow : Gtk.Window {
     }
 
     construct {
-        var stack = new Gtk.Stack ();
-        stack.expand = true;
-        stack.valign = stack.halign = Gtk.Align.CENTER;
-        stack.transition_type = Gtk.StackTransitionType.SLIDE_LEFT_RIGHT;
+        paginator = new Hdy.Paginator ();
+        paginator.expand = true;
+        paginator.valign = Gtk.Align.CENTER;
 
         viewed = settings.get_strv ("viewed");
 
         if ("finish" in viewed) {
             var update_view = new UpdateView ();
-            stack.add_titled (update_view, "update", update_view.title);
-            stack.child_set_property (update_view, "icon-name", "pager-checked-symbolic");
+            paginator.add (update_view);
         } else {
             var welcome_view = new WelcomeView ();
-            stack.add_titled (welcome_view, "welcome", welcome_view.title);
-            stack.child_set_property (welcome_view, "icon-name", "pager-checked-symbolic");
+            paginator.add (welcome_view);
         }
 
         var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, false);
         if (lookup != null) {
             var location_services_view = new LocationServicesView ();
-            stack.add_titled (location_services_view, "location", location_services_view.title);
-            stack.child_set_property (location_services_view, "icon-name", "pager-checked-symbolic");
+            paginator.add (location_services_view);
         }
 
         var night_light_view = new NightLightView ();
-        stack.add_titled (night_light_view, "night-light", night_light_view.title);
-        stack.child_set_property (night_light_view, "icon-name", "pager-checked-symbolic");
+        paginator.add (night_light_view);
 
         var housekeeping_view = new HouseKeepingView ();
-        stack.add_titled (housekeeping_view, "housekeeping", housekeeping_view.title);
-        stack.child_set_property (housekeeping_view, "icon-name", "pager-checked-symbolic");
+        paginator.add (housekeeping_view);
 
         if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
             var appcenter_view = new AppCenterView ();
-            stack.add_titled (appcenter_view, "appcenter", appcenter_view.title);
-            stack.child_set_property (appcenter_view, "icon-name", "pager-checked-symbolic");
+            paginator.add (appcenter_view);
         }
 
-        GLib.List<unowned Gtk.Widget> views = stack.get_children ();
+        GLib.List<unowned Gtk.Widget> views = paginator.get_children ();
         foreach (Gtk.Widget view in views) {
-            var view_name_value = GLib.Value (typeof (string));
-            stack.child_get_property (view, "name", ref view_name_value);
+            assert (view is AbstractOnboardingView);
 
-            string view_name = view_name_value.get_string ();
+            var view_name = ((AbstractOnboardingView) view).view_name;
 
             if (view_name in viewed) {
-                stack.remove (view);
+                paginator.remove (view);
                 view.destroy ();
             }
         }
 
         // Bail if there are no feature views
-        if (stack.get_children ().length () < 2) {
+        if (paginator.get_children ().length () < 2) {
             GLib.Application.get_default ().quit ();
         }
 
         var finish_view = new FinishView ();
-        stack.add_titled (finish_view, "finish", finish_view.title);
-        stack.child_set_property (finish_view, "icon-name", "pager-checked-symbolic");
+        paginator.add (finish_view);
 
         var skip_button = new Gtk.Button.with_label (_("Skip All"));
 
@@ -103,12 +97,23 @@ public class Onboarding.MainWindow : Gtk.Window {
         skip_revealer.transition_type = Gtk.RevealerTransitionType.NONE;
         skip_revealer.add (skip_button);
 
-        var stack_switcher = new Gtk.StackSwitcher ();
-        stack_switcher.halign = Gtk.Align.CENTER;
-        stack_switcher.stack = stack;
+        var switcher = new Switcher (paginator);
+        switcher.halign = Gtk.Align.CENTER;
+
+        var next_finish_overlay = new Gtk.Overlay ();
+
+        var finish_button = new Gtk.Button.with_label (_("Get Started"));
+        finish_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
+        next_finish_overlay.add (finish_button);
 
         var next_button = new Gtk.Button.with_label (_("Next"));
         next_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
+        next_finish_overlay.add_overlay (next_button);
+
+        buttons_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.BOTH);
+        buttons_group.add_widget (skip_revealer);
+        buttons_group.add_widget (next_button);
+        buttons_group.add_widget (finish_button);
 
         var action_area = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL);
         action_area.margin_start = action_area.margin_end = 10;
@@ -117,15 +122,15 @@ public class Onboarding.MainWindow : Gtk.Window {
         action_area.valign = Gtk.Align.END;
         action_area.layout_style = Gtk.ButtonBoxStyle.EDGE;
         action_area.add (skip_revealer);
-        action_area.add (stack_switcher);
-        action_area.add (next_button);
-        action_area.set_child_non_homogeneous (stack_switcher, true);
+        action_area.add (switcher);
+        action_area.add (next_finish_overlay);
+        action_area.set_child_non_homogeneous (switcher, true);
 
         var grid = new Gtk.Grid ();
         grid.margin_bottom = 10;
         grid.orientation = Gtk.Orientation.VERTICAL;
         grid.row_spacing = 24;
-        grid.add (stack);
+        grid.add (paginator);
         grid.add (action_area);
 
         var titlebar = new Gtk.HeaderBar ();
@@ -140,40 +145,58 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         next_button.grab_focus ();
 
-        stack.notify["visible-child-name"].connect (() => {
-            mark_viewed (stack.visible_child_name);
-
-            if (stack.visible_child_name == "finish") {
-                next_button.label = _("Get Started");
-                skip_revealer.reveal_child = false;
-            } else {
-                next_button.label = _("Next");
-                skip_revealer.reveal_child = true;
+        paginator.notify["position"].connect (() => {
+            var visible_view = get_visible_view ();
+            if (visible_view == null) {
+                return;
             }
+
+            mark_viewed (visible_view.view_name);
+
+            var opacity = double.min (1, paginator.n_pages - paginator.position - 1);
+
+            skip_button.opacity = opacity;
+            skip_revealer.reveal_child = opacity > 0;
+
+            next_button.opacity = opacity;
+            next_button.visible = opacity > 0;
         });
 
         next_button.clicked.connect (() => {
-            GLib.List<unowned Gtk.Widget> current_views = stack.get_children ();
-            var index = current_views.index (stack.visible_child);
+            GLib.List<unowned Gtk.Widget> current_views = paginator.get_children ();
+            int index = (int) Math.round (paginator.position);
             if (index < current_views.length () - 1) {
-                stack.visible_child = current_views.nth_data (index + 1);
-            } else {
-                destroy ();
+                paginator.scroll_to (current_views.nth_data (index + 1));
             }
         });
 
-        skip_button.clicked.connect (() => {
-            foreach (Gtk.Widget view in stack.get_children ()) {
-                var view_name_value = GLib.Value (typeof (string));
-                stack.child_get_property (view, "name", ref view_name_value);
+        finish_button.clicked.connect (() => {
+            destroy ();
+        });
 
-                string view_name = view_name_value.get_string ();
+        skip_button.clicked.connect (() => {
+            foreach (Gtk.Widget view in paginator.get_children ()) {
+                assert (view is AbstractOnboardingView);
+
+                var view_name = ((AbstractOnboardingView) view).view_name;
 
                 mark_viewed (view_name);
             }
 
-            stack.visible_child_name = "finish";
+            paginator.scroll_to (finish_view);
         });
+    }
+
+    private AbstractOnboardingView? get_visible_view () {
+        var index = (int) Math.round (paginator.position);
+
+        var widget = paginator.get_children ().nth_data (index);
+
+        if (!(widget is AbstractOnboardingView)) {
+            return null;
+        }
+
+        return (AbstractOnboardingView) widget;
     }
 
     private void mark_viewed (string view_name) {

@@ -2,6 +2,8 @@
 vala_files = [
     'Application.vala',
     'MainWindow.vala',
+    'PageChecker.vala',
+    'Switcher.vala',
     'Utils.vala',
     'Views/AbstractOnboardingView.vala',
     'Views/AppCenterView.vala',
