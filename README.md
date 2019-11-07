@@ -8,6 +8,7 @@
 You'll need the following dependencies:
 * libgtk-3-dev
 * libgranite-dev
+* libhandy-0.0-dev >=0.0.11
 * meson
 * valac
 
