@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
-"PO-Revision-Date: 2019-10-02 11:23+0000\n"
+"PO-Revision-Date: 2019-11-11 08:24+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
 "onboarding/fr/>\n"
@@ -41,9 +41,9 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"Obtenez les applications dont vous avez besoin sur l'AppCenter. Les "
-"applications proposées sont conçues pour elementary OS et sont vérifiées par "
-"elementary."
+"Obtenez les applications dont vous avez besoin dans le Centre "
+"d'Applications. Les applications proposées sont conçues pour elementary OS "
+"et sont vérifiées par elementary."
 
 #: src/Views/AppCenterView.vala:23
 msgid "Get Some Apps"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: src/Views/FinishView.vala:23
 msgid "Ready to Go"
-msgstr "Prêt"
+msgstr "Vous êtes fin prêt"
 
 #: src/Views/FinishView.vala:28
 msgid "Open System Settings…"
@@ -117,7 +117,7 @@ msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
-"Rendre les couleurs de l'écran plus chaudes la nuit afin d’éviter toute "
+"Rend les couleurs de l'écran plus chaudes la nuit afin d’éviter toute "
 "fatigue visuelle et toute insomnie."
 
 #: src/Views/NightLightView.vala:23
@@ -148,7 +148,7 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
-"Poursuivre la configuration de certaines fonctionnalités utiles. Voir les "
+"Poursuivez la configuration de certaines fonctionnalités utiles. Voir les "
 "liens ci-dessous pour plus d'informations sur %s."
 
 #: src/Views/WelcomeView.vala:23
