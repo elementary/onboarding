@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
-"PO-Revision-Date: 2019-04-22 23:31+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"PO-Revision-Date: 2019-11-15 22:24+0000\n"
+"Last-Translator: Nils K <slx@nilsk.net>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding/nb/>\n"
 "Language: nb\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/MainWindow.vala:29
 #, c-format
@@ -37,12 +37,11 @@ msgid "Get Started"
 msgstr "Kom i gang"
 
 #: src/Views/AppCenterView.vala:21
-#, fuzzy
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"Hent programmene du trenger i AppSenter. Vurderte programmet er laget for "
+"Hent programmene du trenger i AppSenter. Vurderte programmer er laget for "
 "elementary OS, og vurdert av elementary."
 
 #: src/Views/AppCenterView.vala:23
@@ -71,9 +70,8 @@ msgid "Open System Settings…"
 msgstr "Åpne systeminnstillinger…"
 
 #: src/Views/HouseKeepingView.vala:22
-#, fuzzy
 msgid "Housekeeping"
-msgstr "Husreingjøring"
+msgstr "Husrengjøring"
 
 #: src/Views/HouseKeepingView.vala:29
 #, c-format
@@ -101,6 +99,8 @@ msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"Få et varsel når en app spør etter din plassering. Om den er slått av vil "
+"alle forespørsler bli avvist."
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
@@ -132,10 +132,13 @@ msgid ""
 "about updates, check out <a href='https://medium.com/elementaryos/tagged/"
 "updates'>our blog</a>."
 msgstr ""
+"Fortsett å sette opp noen nyttige funksjoner. Besøk <a href='https://medium."
+"com/elementaryos/tagged/updates'>vår blogg</a> for mer informasjon om "
+"oppdateringer."
 
 #: src/Views/UpdateView.vala:23
 msgid "What’s New"
-msgstr ""
+msgstr "Hva er nytt"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format
@@ -149,7 +152,7 @@ msgstr ""
 #: src/Views/WelcomeView.vala:23
 #, c-format
 msgid "Welcome to %s!"
-msgstr "Velkommen til %s."
+msgstr "Velkommen til %s!"
 
 #: src/Views/WelcomeView.vala:30
 msgid "Basics Guide…"
