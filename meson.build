@@ -4,10 +4,16 @@ project(
     version: '1.0.1'
 )
 
-add_global_arguments('-DGETTEXT_PACKAGE="' + meson.project_name() + '"', language:'c')
+add_global_arguments(
+    '-DGETTEXT_PACKAGE="' + meson.project_name() + '"',
+    '-DHANDY_USE_UNSTABLE_API',
+    language:'c'
+)
 
 gnome = import('gnome')
 i18n = import('i18n')
+
+cc = meson.get_compiler('c')
 
 gee_dep = dependency('gee-0.8')
 glib_dep = dependency('glib-2.0')
@@ -15,6 +21,8 @@ gobject_dep = dependency('gobject-2.0')
 granite_dep = dependency('granite')
 gtk_dep = dependency('gtk+-3.0')
 posix_dep = meson.get_compiler('vala').find_library('posix')
+handy_dep = dependency('libhandy-0.0', version: '>=0.0.11')
+m_dep = cc.find_library('m', required : false)
 
 dependencies = [
     gee_dep,
@@ -23,6 +31,8 @@ dependencies = [
     granite_dep,
     gtk_dep,
     posix_dep,
+    handy_dep,
+    m_dep
 ]
 
 asresources = gnome.compile_resources(

@@ -18,6 +18,7 @@
 public class Onboarding.FinishView : AbstractOnboardingView {
     public FinishView () {
         Object (
+            view_name: "finish",
             description: _("Enjoy using %s! You can always visit System Settings to set up hardware or change your preferences.").printf (Utils.os_name),
             icon_name: "process-completed",
             title: _("Ready to Go")

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
-"PO-Revision-Date: 2019-05-06 11:32+0000\n"
+"PO-Revision-Date: 2019-10-27 19:24+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.7.1\n"
 
 #: src/MainWindow.vala:29
 #, c-format
@@ -99,6 +99,8 @@ msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"להציג חלונית בקשה כאשר תכנית מבקשת את המיקום של המכשיר הזה. אם האפשרות "
+"כבויה, כל הבקשות לקבלת המיקום תידחנה."
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
@@ -130,10 +132,13 @@ msgid ""
 "about updates, check out <a href='https://medium.com/elementaryos/tagged/"
 "updates'>our blog</a>."
 msgstr ""
+"ניתן להמשיך ולהגדיר כל מיני תכונות חדשות ושימושיות. למידע מפורט יותר על "
+"עדכונים, ניתן לבקר ב<a href='https://medium.com/elementaryos/tagged/updates'>"
+"בלוג שלנו</a>."
 
 #: src/Views/UpdateView.vala:23
 msgid "What’s New"
-msgstr ""
+msgstr "מה חדש"
 
 #: src/Views/WelcomeView.vala:21
 #, c-format

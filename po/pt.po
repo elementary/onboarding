@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
-"PO-Revision-Date: 2019-08-21 23:22+0000\n"
+"PO-Revision-Date: 2019-11-08 11:24+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -58,7 +58,7 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"Desfrute de %s! Pode sempre ir às Configurações do Sistema para configurar "
+"Desfrute de %s! Pode sempre ir às Definições do Sistema para configurar "
 "hardware ou mudar as suas preferências."
 
 #: src/Views/FinishView.vala:23
@@ -79,12 +79,12 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
-"Os ficheiros antigos podem ser apagados automaticamente depois de %u dias "
-"para poupar espaço e ajudar a proteger a sua privazcidade."
+"Os ficheiros antigos podem ser eliminados automaticamente depois de %u dias "
+"para poupar espaço e ajudar a proteger a sua privacidade."
 
 #: src/Views/HouseKeepingView.vala:31
 msgid "Automatically Delete:"
-msgstr "Apagar automaticamente:"
+msgstr "Eliminar automaticamente:"
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Temporary files"
@@ -130,8 +130,8 @@ msgid ""
 "about updates, check out <a href='https://medium.com/elementaryos/tagged/"
 "updates'>our blog</a>."
 msgstr ""
-"Continue a configurar alguns novos recursos úteis. Para informações mais "
-"detalhadas sobre atualizações, confira<a href='https://medium.com/"
+"Continue a configurar algumas novas funcionalidades úteis. Para informações "
+"mais detalhadas sobre atualizações, confira o<a href='https://medium.com/"
 "elementaryos/tagged/updates'>nosso blog</a>."
 
 #: src/Views/UpdateView.vala:23
@@ -144,13 +144,13 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
-"Continuar a configurar algumas funcionalidades úteis. Visitar as ligações "
-"abaixo para mais informação sobre %s."
+"Continuar a configurar algumas funcionalidades úteis. Visite as ligações "
+"abaixo para mais informação sobre o %s."
 
 #: src/Views/WelcomeView.vala:23
 #, c-format
 msgid "Welcome to %s!"
-msgstr "Bem-vindo a %s!"
+msgstr "Bem-vindo ao %s!"
 
 #: src/Views/WelcomeView.vala:30
 msgid "Basics Guide…"
