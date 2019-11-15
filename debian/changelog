@@ -1,3 +1,27 @@
+io.elementary.onboarding (1.1.0) bionic; urgency=medium
+
+  * Release 1.1.0 (#80)
+  * README: Add handy dep
+  * meson: specify libhandy minimal version (#77)
+  * Add translation templates (#76)
+  * AppData: Add handy to release data
+  * Use HdyPaginator (#71)
+  * AppData: Add release data (#75)
+  * Travis: Downgrade node to 10
+  * Add Gettext to Actions
+  * Add Release to Actions
+  * MainWindow: Don't access removed views (#72)
+  * UpdateView: Overlay update icon on logo (#70)
+  * UpdateView: Use new blog URL (#69)
+  * Add Lint to CI (#67)
+  * lint src files with vala-lint (#68)
+  * Delete CODE_OF_CONDUCT.md
+  * Fallback in logo_icon_name utility method (#66)
+  * Delete FUNDING.yml
+  * Get OS logo from os-release (#64)
+
+ -- elementary, Inc. <builds@elementary.io>  Fri, 15 Nov 2019 20:57:24 +0000
+
 io.elementary.onboarding (1.0.1) bionic; urgency=medium
 
   * New upstream release.
