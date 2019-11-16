@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
 "PO-Revision-Date: 2019-11-16 20:12+0000\n"
-"Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
+"Last-Translator: Adrian Widerski <awiderski@outlook.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
 "Language: pl\n"
@@ -49,7 +49,7 @@ msgstr "Pozyskaj programy"
 
 #: src/Views/AppCenterView.vala:28
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "Przeglądaj AppCenter..."
 
 #: src/Views/FinishView.vala:21
 #, c-format
@@ -57,6 +57,8 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Ciesz się używając %s! Możesz w każdej chwili odwiedzić Ustawienia systemowe "
+"by zmienić ustawienia sprzętu lub inne preferencje."
 
 #: src/Views/FinishView.vala:23
 msgid "Ready to Go"
