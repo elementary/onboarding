@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
 "PO-Revision-Date: 2019-11-16 20:13+0000\n"
-"Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
+"Last-Translator: Adrian Widerski <awiderski@outlook.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
 "Language: pl\n"
@@ -62,11 +62,11 @@ msgstr ""
 
 #: src/Views/FinishView.vala:23
 msgid "Ready to Go"
-msgstr ""
+msgstr "Gotów do działania"
 
 #: src/Views/FinishView.vala:28
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Otwórz Ustawienia Systemu..."
 
 #: src/Views/HouseKeepingView.vala:22
 msgid "Housekeeping"
