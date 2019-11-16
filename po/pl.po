@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
-"PO-Revision-Date: 2019-11-16 20:13+0000\n"
-"Last-Translator: Adrian Widerski <awiderski@outlook.com>\n"
+"PO-Revision-Date: 2019-11-17 20:24+0000\n"
+"Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
 "Language: pl\n"
@@ -42,6 +42,8 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"Pobieraj potrzebne programy poprzez AppCenter. Wyselekcjonowane programy są "
+"tworzone dla systemu operacyjnego elementary i sprawdzone przez elementary."
 
 #: src/Views/AppCenterView.vala:23
 msgid "Get Some Apps"
@@ -49,7 +51,7 @@ msgstr "Pozyskaj programy"
 
 #: src/Views/AppCenterView.vala:28
 msgid "Browse AppCenter…"
-msgstr "Przeglądaj AppCenter..."
+msgstr "Przeglądaj AppCenter…"
 
 #: src/Views/FinishView.vala:21
 #, c-format
@@ -70,7 +72,7 @@ msgstr "Otwórz Ustawienia systemu…"
 
 #: src/Views/HouseKeepingView.vala:22
 msgid "Housekeeping"
-msgstr ""
+msgstr "Gospodarowanie"
 
 #: src/Views/HouseKeepingView.vala:29
 #, c-format
@@ -78,7 +80,7 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
-"Stare pliki zostaną automatycznie usunięte po %s dniach, by oszczędzić "
+"Stare pliki zostaną automatycznie usunięte po %s dniach, aby oszczędzić "
 "miejsce na dysku i pomóc chronić Twoją prywatność."
 
 #: src/Views/HouseKeepingView.vala:31
@@ -98,6 +100,8 @@ msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"Otrzymuj monit, gdy program zażąda uzyskania lokalizacji tego urządzenia. "
+"Jeśli wyłączone, wszystkie żądania lokalizacji będą odrzucane."
 
 #: src/Views/LocationServicesView.vala:23
 msgid "Location Services"
@@ -112,6 +116,8 @@ msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Uczyń bardziej ciepłymi kolory wyświetlacza w nocy, aby zapobiec zmęczeniu "
+"oczu i bezsenności."
 
 #: src/Views/NightLightView.vala:23
 msgid "Night Light"
@@ -150,7 +156,7 @@ msgstr ""
 
 #: src/Views/WelcomeView.vala:36
 msgid "Community Support…"
-msgstr ""
+msgstr "Wsparcie społeczności…"
 
 #: src/Views/WelcomeView.vala:42
 msgid "Get Involved…"
