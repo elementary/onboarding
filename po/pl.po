@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 07:51-0700\n"
 "PO-Revision-Date: 2019-11-16 20:11+0000\n"
-"Last-Translator: DokiDokiMagikku <jakubekbugajski@gmail.com>\n"
+"Last-Translator: Adrian Widerski <awiderski@outlook.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
 "Language: pl\n"
@@ -27,11 +27,11 @@ msgstr "Konfiguracja %s"
 
 #: src/MainWindow.vala:98
 msgid "Skip All"
-msgstr ""
+msgstr "Pomiń wszystko"
 
 #: src/MainWindow.vala:109 src/MainWindow.vala:149
 msgid "Next"
-msgstr ""
+msgstr "Dalej"
 
 #: src/MainWindow.vala:146
 msgid "Get Started"
