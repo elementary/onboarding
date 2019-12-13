@@ -10,6 +10,14 @@
     <p></p>
   </description>
   <releases>
+    <release version="1.2.0" date="2019-12-13" urgency="medium">
+      <description>
+        <ul>
+          <li>New app icon</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.1.0" date="2019-11-15" urgency="medium">
       <description>
         <ul>
