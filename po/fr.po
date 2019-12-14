@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-25 07:51-0700\n"
+"POT-Creation-Date: 2019-12-14 17:51+0000\n"
 "PO-Revision-Date: 2019-11-11 08:24+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
@@ -19,24 +19,24 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.7.1\n"
 
-#: src/MainWindow.vala:29
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Configurer %s"
 
-#: src/MainWindow.vala:98
+#: src/MainWindow.vala:93
 msgid "Skip All"
 msgstr "Ignorer tout"
 
-#: src/MainWindow.vala:109 src/MainWindow.vala:149
-msgid "Next"
-msgstr "Suivant"
-
-#: src/MainWindow.vala:146
+#: src/MainWindow.vala:105
 msgid "Get Started"
 msgstr "Commencer"
 
-#: src/Views/AppCenterView.vala:21
+#: src/MainWindow.vala:109
+msgid "Next"
+msgstr "Suivant"
+
+#: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
@@ -45,15 +45,15 @@ msgstr ""
 "d'Applications. Les applications proposées sont conçues pour elementary OS "
 "et sont vérifiées par elementary."
 
-#: src/Views/AppCenterView.vala:23
+#: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Obtenez des applications"
 
-#: src/Views/AppCenterView.vala:28
+#: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
 msgstr "Parcourir le centre d'applications…"
 
-#: src/Views/FinishView.vala:21
+#: src/Views/FinishView.vala:22
 #, c-format
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
@@ -62,19 +62,19 @@ msgstr ""
 "Profitez de %s ! Vous pouvez ouvrir les paramètres système pour configurer "
 "le matériel ou modifier vos préférences."
 
-#: src/Views/FinishView.vala:23
+#: src/Views/FinishView.vala:24
 msgid "Ready to Go"
 msgstr "Vous êtes fin prêt"
 
-#: src/Views/FinishView.vala:28
+#: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Ouvrir les paramètres système…"
 
-#: src/Views/HouseKeepingView.vala:22
+#: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
 msgstr "Nettoyage"
 
-#: src/Views/HouseKeepingView.vala:29
+#: src/Views/HouseKeepingView.vala:30
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -83,19 +83,19 @@ msgstr ""
 "Les anciens fichiers peuvent être automatiquement supprimés après %u jours "
 "pour libérer de l'espace disque et protéger votre vie privée."
 
-#: src/Views/HouseKeepingView.vala:31
+#: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
 msgstr "Suppression automatique :"
 
-#: src/Views/HouseKeepingView.vala:33
+#: src/Views/HouseKeepingView.vala:34
 msgid "Temporary files"
 msgstr "Fichiers temporaires"
 
-#: src/Views/HouseKeepingView.vala:36
+#: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Fichiers supprimés"
 
-#: src/Views/LocationServicesView.vala:21
+#: src/Views/LocationServicesView.vala:22
 msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
@@ -104,15 +104,15 @@ msgstr ""
 "appareil. Si cette option est désactivée, toutes les demandes de "
 "localisation seront refusées."
 
-#: src/Views/LocationServicesView.vala:23
+#: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
 msgstr "Services de géolocalisation"
 
-#: src/Views/LocationServicesView.vala:28
+#: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
 msgstr "Services de géolocalisation :"
 
-#: src/Views/NightLightView.vala:21
+#: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
@@ -120,29 +120,29 @@ msgstr ""
 "Rend les couleurs de l'écran plus chaudes la nuit afin d’éviter toute "
 "fatigue visuelle et toute insomnie."
 
-#: src/Views/NightLightView.vala:23
+#: src/Views/NightLightView.vala:24
 msgid "Night Light"
 msgstr "Mode nuit"
 
-#: src/Views/NightLightView.vala:28
+#: src/Views/NightLightView.vala:29
 msgid "Night Light:"
 msgstr "Mode nuit :"
 
-#: src/Views/UpdateView.vala:21
+#: src/Views/UpdateView.vala:22
+#, fuzzy
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://medium.com/elementaryos/tagged/"
-"updates'>our blog</a>."
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "Nous continuons à mettre en place de nouvelles fonctionnalités utiles. Pour "
 "plus d'informations sur les mises à jour, consultez <a href='https://medium."
 "com/elementaryos/tagged/updates'>notre blog</a>."
 
-#: src/Views/UpdateView.vala:23
+#: src/Views/UpdateView.vala:25
 msgid "What’s New"
 msgstr "Quoi de neuf"
 
-#: src/Views/WelcomeView.vala:21
+#: src/Views/WelcomeView.vala:22
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -151,20 +151,20 @@ msgstr ""
 "Poursuivez la configuration de certaines fonctionnalités utiles. Voir les "
 "liens ci-dessous pour plus d'informations sur %s."
 
-#: src/Views/WelcomeView.vala:23
+#: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
 msgstr "Bienvenue %s !"
 
-#: src/Views/WelcomeView.vala:30
+#: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
 msgstr "Guide d'introduction…"
 
-#: src/Views/WelcomeView.vala:36
+#: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
 msgstr "Aide de la communauté…"
 
-#: src/Views/WelcomeView.vala:42
+#: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Participer…"
 
