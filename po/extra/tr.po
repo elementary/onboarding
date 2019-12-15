@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-08-21 23:22+0000\n"
+"PO-Revision-Date: 2019-12-16 21:02+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -29,7 +29,7 @@ msgstr "İlk çalıştırmada genel ayarları değiştirin"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "io.elementary.onboarding"
-msgstr ""
+msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "New app icon"
