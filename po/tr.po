@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-08-21 23:22+0000\n"
+"PO-Revision-Date: 2019-12-16 21:02+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -99,6 +99,8 @@ msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"Bir uygulama bu cihazın yerini talep ettiğinde bir ileti alırsınız. Devre "
+"dışı bırakılırsa, tüm konum istekleri reddedilir."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
@@ -125,14 +127,13 @@ msgid "Night Light:"
 msgstr "Gece Işığı:"
 
 #: src/Views/UpdateView.vala:22
-#, fuzzy
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "Bazı faydalı ve yeni özellikleri kurmaya devam edin. Güncellemeler hakkında "
-"daha ayrıntılı bilgi için <a href='https://medium.com/elementaryos/tagged/"
-"updates'>blog sayfamıza</a> göz atın."
+"daha ayrıntılı bilgi için <a href='https://blog.elementary.io'>blog "
+"sayfamıza</a> göz atın."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
