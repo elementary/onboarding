@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the extra package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: extra\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-14 17:51+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
+msgid "Welcome"
+msgstr ""
+
+#: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
+msgid "Change common settings on first-run"
+msgstr ""
+
+#: data/io.elementary.onboarding.desktop.in:6
+msgid "io.elementary.onboarding"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:16
+msgid "New app icon"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:27
+msgid "Updated translations"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:24
+msgid "Navigate with (multi-)touch gestures"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:25
+msgid "Use new blog URL"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:26
+msgid "Fix errors when pressing the Skip button"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:66
+msgid "elementary, Inc."
+msgstr ""
