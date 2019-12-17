@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-08-26 21:22+0000\n"
+"PO-Revision-Date: 2019-12-18 20:07+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
 "onboarding/mr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -125,14 +125,13 @@ msgid "Night Light:"
 msgstr "रात्रीचा प्रकाश:"
 
 #: src/Views/UpdateView.vala:22
-#, fuzzy
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
-"काही उपयुक्त नवीन वैशिष्ट्ये सेट करणे सुरू ठेवा. अपडेट्सबद्दल अधिक तपशीलवार माहितीसाठी, "
-"आमच्या <a href='https://medium.com/elementaryos/tagged/updates'>ब्लॉग </a> ला "
-"भेट द्या."
+"काही उपयुक्त नवीन वैशिष्ट्ये सेट करणे सुरू ठेवा. अपडेट्सबद्दल अधिक तपशीलवार "
+"माहितीसाठी, आमच्या  <a href='https://blog.elementary.io'>ब्लॉग </a> ला भेट "
+"द्या."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
