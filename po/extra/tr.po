@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-12-16 21:02+0000\n"
+"PO-Revision-Date: 2019-12-18 20:07+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/tr/>\n"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:27
 msgid "Updated translations"
-msgstr ""
+msgstr "Çeviriler güncellendi"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Navigate with (multi-)touch gestures"
