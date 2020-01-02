@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-12-30 06:47+0000\n"
+"PO-Revision-Date: 2020-01-03 19:07+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding/nl/>\n"
@@ -22,15 +22,15 @@ msgstr ""
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "%s instellen"
 
 #: src/MainWindow.vala:93
 msgid "Skip All"
-msgstr ""
+msgstr "Alles overslaan"
 
 #: src/MainWindow.vala:105
 msgid "Get Started"
-msgstr ""
+msgstr "Aan de slag"
 
 #: src/MainWindow.vala:109
 msgid "Next"
@@ -41,14 +41,17 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"Download de toepassingen die u nodig heeft via AppCenter. Beheerde apps zijn "
+"gemaakt voor het elementary besturingssysteem en zijn beoordeeld door het "
+"team van elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Ik wil toepassingen"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "AppCenter doorbladeren…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -56,18 +59,20 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Veel plezier met %s! U kunt altijd hardware instellen of voorkeuren wijzigen "
+"in Systeem Instellingen."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "Klaar om te starten"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Open Systeem instellingen…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr ""
+msgstr "Schoonmaken"
 
 #: src/Views/HouseKeepingView.vala:30
 #, c-format
@@ -75,56 +80,65 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
+"Oude bestanden kunnen automatisch na %u dagen verwijderd worden om "
+"opslagruimte te besparen en uw privacy te helpen beschermen."
 
 #: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Automatisch verwijderen:"
 
 #: src/Views/HouseKeepingView.vala:34
 msgid "Temporary files"
-msgstr ""
+msgstr "Tijdelijke bestanden"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr ""
+msgstr "Bestanden in de prullenbak"
 
 #: src/Views/LocationServicesView.vala:22
 msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"Als een toepassing toegang wil tot de locatie van dit apparaat, dan wordt "
+"daar toestemming voor gevraagd. Als locatievoorzieningen is uitgeschakeld, "
+"dan zullen alle verzoeken om uw locatie worden geweigerd."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
-msgstr ""
+msgstr "Locatievoorzieningen"
 
 #: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
-msgstr ""
+msgstr "Locatievoorzieningen:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Maakt de kleuren van het beeld ‘s nachts warmer om vermoeide ogen en "
+"slapeloosheid te voorkomen."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Nacht modus"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr ""
+msgstr "Nacht modus:"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
+"Ga door met het instellen van nieuwe handige functies. Voor meer informatie "
+"over updates, bekijk <a href='https://blog.elementary.io'>onze blog</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr ""
+msgstr "Wat is er nieuw"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -132,20 +146,22 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Ga door met het instellen van handige functies. Bezoek de links beneden voor "
+"meer informatie over %s."
 
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Welkom bij %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Basis handleiding…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr ""
+msgstr "Hulp uit de gebruikersgemeenschap…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "Betrokken worden…"
