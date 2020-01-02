@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-12-30 06:47+0000\n"
+"PO-Revision-Date: 2020-01-03 19:07+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/nl/>\n"
@@ -21,35 +21,35 @@ msgstr ""
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
-msgstr ""
+msgstr "Welkom"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
-msgstr ""
+msgstr "Wijzig algemene instellingen bij het eerste gebruik"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "io.elementary.onboarding"
-msgstr ""
+msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "New app icon"
-msgstr ""
+msgstr "Nieuw app icoon"
 
 #: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:27
 msgid "Updated translations"
-msgstr ""
+msgstr "Bijgewerkte vertalingen"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Navigate with (multi-)touch gestures"
-msgstr ""
+msgstr "Navigeer met (multi-)touch gebaren"
 
 #: data/onboarding.appdata.xml.in:25
 msgid "Use new blog URL"
-msgstr ""
+msgstr "Een nieuwe blog URL"
 
 #: data/onboarding.appdata.xml.in:26
 msgid "Fix errors when pressing the Skip button"
-msgstr ""
+msgstr "Problemen opgelost met de Overslaan knop"
 
 #: data/onboarding.appdata.xml.in:66
 msgid "elementary, Inc."
