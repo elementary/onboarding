@@ -65,6 +65,10 @@ public class Onboarding.MainWindow : Gtk.Window {
         var housekeeping_view = new HouseKeepingView ();
         paginator.add (housekeeping_view);
 
+        // TODO: Only add if DPI is 156–191 to start (based on my research w/Dippi)
+        var scaling_factor_view = new ScalingFactorView ();
+        paginator.add (scaling_factor_view);
+
         if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
             var appcenter_view = new AppCenterView ();
             paginator.add (appcenter_view);
