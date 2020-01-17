@@ -53,6 +53,30 @@ public class Onboarding.MainWindow : Gtk.Window {
             paginator.add (welcome_view);
         }
 
+        var monitor = Gdk.Display.get_default ().get_primary_monitor ();
+
+        // We want inches not mm
+        var width_inches = monitor.width_mm / 25.4;
+        var height_inches = monitor.height_mm / 25.4;
+        var diagonal_inches = Math.sqrt (Math.pow (width_inches, 2) + Math.pow (height_inches, 2));
+
+        // Gdk.Monitor.geometry doesn't account for scale factor
+        var width_px = monitor.geometry.width * scale_factor;
+        var height_px = monitor.geometry.height * scale_factor;
+        var diagonal_px = Math.sqrt (Math.pow (width_px, 2) + Math.pow (height_px, 2));
+
+        // TODO: Figure out if I need the diagonals at all, or if just width or just height is fine
+        double dpi = diagonal_px / diagonal_inches;
+
+        if (
+            dpi < 90 ||        // super low DPI
+            156 < dpi < 192 || // too high for loDPI but not quite 2×
+            dpi > 312          // too high for 2×
+        ) {
+            var scaling_factor_view = new ScalingFactorView ();
+            paginator.add (scaling_factor_view);
+        }
+
         var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, false);
         if (lookup != null) {
             var location_services_view = new LocationServicesView ();
