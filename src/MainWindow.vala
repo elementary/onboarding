@@ -64,7 +64,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         // Gdk.Monitor.geometry doesn't account for scale factor
         var width_px = monitor.geometry.width * scale_factor;
         var height_px = monitor.geometry.height * scale_factor;
-        var diagonal_px = Math.sqrt(Math.pow (width_px, 2) + Math.pow (height_px, 2));
+        var diagonal_px = Math.sqrt (Math.pow (width_px, 2) + Math.pow (height_px, 2));
 
         // TODO: Figure out if I need the diagonals at all, or if just width or just height is fine
         double dpi = diagonal_px / diagonal_inches;
