@@ -53,7 +53,6 @@ public class Onboarding.MainWindow : Gtk.Window {
             paginator.add (welcome_view);
         }
 
-        // TODO: Only add if DPI is 156–191 to start (based on my research w/Dippi)
         var monitor = Gdk.Display.get_default ().get_primary_monitor ();
 
         // We want inches not mm
@@ -77,14 +76,6 @@ public class Onboarding.MainWindow : Gtk.Window {
             var scaling_factor_view = new ScalingFactorView ();
             paginator.add (scaling_factor_view);
         }
-
-        critical ("Width inches: %f", width_inches);
-        critical ("Height inches: %f", height_inches);
-
-        critical ("Width px: %i", width_px);
-        critical ("Height px: %i", height_px);
-
-        critical ("DPI: %f", dpi);
 
         var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, false);
         if (lookup != null) {
