@@ -19,7 +19,7 @@ public class Onboarding.ScalingFactorView : AbstractOnboardingView {
     public ScalingFactorView () {
         Object (
             view_name: "scaling-factor",
-            description: _("This device’s display size and resolution are in a tricky range. These settings may help make things look the right physical size."),
+            description: _("This device’s scaling factor couldn’t be set automatically. These settings may help make things look right."),
             icon_name: "preferences-desktop-display",
             title: _("Display Scaling")
         );
