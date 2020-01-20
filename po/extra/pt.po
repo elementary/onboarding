@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2020-01-11 16:07+0000\n"
+"PO-Revision-Date: 2020-01-21 16:08+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/pt/>\n"
@@ -33,23 +33,23 @@ msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "New app icon"
-msgstr ""
+msgstr "Novo ícone da aplicação"
 
 #: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:27
 msgid "Updated translations"
-msgstr ""
+msgstr "Traduções atualizadas"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Navigate with (multi-)touch gestures"
-msgstr ""
+msgstr "Navegar com gestos (multi-)tácteis"
 
 #: data/onboarding.appdata.xml.in:25
 msgid "Use new blog URL"
-msgstr ""
+msgstr "Use o novo URL do blog"
 
 #: data/onboarding.appdata.xml.in:26
 msgid "Fix errors when pressing the Skip button"
-msgstr ""
+msgstr "Corrige erros ao pressionar o botão Ignorar"
 
 #: data/onboarding.appdata.xml.in:66
 msgid "elementary, Inc."
