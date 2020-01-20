@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-12-04 22:25+0000\n"
+"PO-Revision-Date: 2020-01-21 16:08+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -99,6 +99,8 @@ msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"Receba uma mensagem quando uma aplicação solicitar a localização deste "
+"dispositivo. Se desativado, todos os pedidos de localização serão negados."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
@@ -125,14 +127,13 @@ msgid "Night Light:"
 msgstr "Luz Noturna:"
 
 #: src/Views/UpdateView.vala:22
-#, fuzzy
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "Continue a configurar algumas novas funcionalidades úteis. Para informações "
-"mais detalhadas sobre atualizações, confira o<a href='https://medium.com/"
-"elementaryos/tagged/updates'>nosso blog</a>."
+"mais detalhadas sobre atualizações, confira o <a "
+"href='https://blog.elementary.io'>nosso blog</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
