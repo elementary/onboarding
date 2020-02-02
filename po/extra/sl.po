@@ -8,53 +8,53 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-09-07 18:23+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-02-03 21:08+0000\n"
+"Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
-"%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 3.7.1\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
+"n%100==4 ? 2 : 3;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
-msgstr ""
+msgstr "Dobrodošli"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
-msgstr ""
+msgstr "Spremenite pogoste nastavitve ob prvem zagonu"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "io.elementary.onboarding"
-msgstr ""
+msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "New app icon"
-msgstr ""
+msgstr "Nova ikona"
 
 #: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:27
 msgid "Updated translations"
-msgstr ""
+msgstr "Posodobljeni prevodi"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Navigate with (multi-)touch gestures"
-msgstr ""
+msgstr "Navigacija z (več)dotičnimi gibi"
 
 #: data/onboarding.appdata.xml.in:25
 msgid "Use new blog URL"
-msgstr ""
+msgstr "Uporabljen nov URL naslov bloga"
 
 #: data/onboarding.appdata.xml.in:26
 msgid "Fix errors when pressing the Skip button"
-msgstr ""
+msgstr "Popravljene napake ob pritisku gumba Preskoči"
 
 #: data/onboarding.appdata.xml.in:66
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #~ msgid "system-os-installer"
 #~ msgstr "system-os-installer"
