@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2020-01-08 00:07+0000\n"
-"Last-Translator: Jernej Virag <jernej@virag.si>\n"
+"PO-Revision-Date: 2020-02-03 21:08+0000\n"
+"Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/installer/"
 "onboarding/sl/>\n"
 "Language: sl\n"
@@ -23,33 +23,36 @@ msgstr ""
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "Nastavite %s"
 
 #: src/MainWindow.vala:93
 msgid "Skip All"
-msgstr ""
+msgstr "Preskoči vse"
 
 #: src/MainWindow.vala:105
 msgid "Get Started"
-msgstr ""
+msgstr "Pričnite"
 
 #: src/MainWindow.vala:109
 msgid "Next"
 msgstr "Naprej"
 
 #: src/Views/AppCenterView.vala:22
+#, fuzzy
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"Pridobite aplikacije, ki jih potrebujete v AppCentru. Kurirane aplikacije so "
+"narejene za elementary OS in pregledane."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Pridobite nekaj aplikacij"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "Prebrskajte AppCenter…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -57,18 +60,20 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Uživajte ob uporabi %s! Vedno lahko obiščete sistemske nastavitve da uredite "
+"strojno opremo ali spremenite vaše preference."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "Pripravljeno za pričetek"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Odpri sistemske nastavitve…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr ""
+msgstr "Gospodinjenje"
 
 #: src/Views/HouseKeepingView.vala:30
 #, c-format
@@ -76,56 +81,65 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
+"Stare datoteke se lahko pobrišejo samodejno po %u dneh, s čimer privarčujete "
+"s prostorom in zaščitite svojo zasebnost."
 
 #: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Samodejno izbriši:"
 
 #: src/Views/HouseKeepingView.vala:34
 msgid "Temporary files"
-msgstr ""
+msgstr "Začasne datoteke"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr ""
+msgstr "Datoteke v košu"
 
 #: src/Views/LocationServicesView.vala:22
 msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"Prejmite poziv, ko aplikacija zahteva lokacijo te naprave. Če je nastavitev "
+"onemogočena, bodo vsi lokacijski zahtevki zavrnjeni."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
-msgstr ""
+msgstr "Lokacijske storitve"
 
 #: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
-msgstr ""
+msgstr "Lokacijske storitve:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Med nočjo spremeni barve vašega zaslona na toplejše za pomoč pri preprečitvi "
+"naprezanja oči in neprespanosti."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Nočna luč"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr ""
+msgstr "Nočna luč:"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
+"Nadaljujte za nastavitev nekaterih novih uporabnih sposobnosti. Za podrobne "
+"informacije o posodobitvah preverite <a href='https://blog.elementary.io'>"
+"naš blog</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr ""
+msgstr "Kaj je novega"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -133,20 +147,22 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Nadaljujte za nastavitev nekaterih uporabnih sposobnosti. Za več informacij "
+"o %s obiščite spodnje povezave."
 
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Dobrodošli v %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Vodič po osnovah…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr ""
+msgstr "Pomoč od skupnosti…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "Sodelujte z nami…"
