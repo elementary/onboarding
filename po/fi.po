@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-11-05 13:24+0000\n"
+"PO-Revision-Date: 2020-02-22 14:09+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
 "onboarding/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -127,14 +127,13 @@ msgid "Night Light:"
 msgstr "Yövalo:"
 
 #: src/Views/UpdateView.vala:22
-#, fuzzy
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "Jatka ottaaksesi käyttöön uusia hyödyllisiä ominaisuuksia. Lisätietoja "
-"päivityksistä on tarjolla <a href='https://medium.com/elementaryos/tagged/"
-"updates'>blogissamme</a>."
+"päivityksistä on tarjolla <a "
+"href='https://blog.elementary.io'>blogissamme</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
