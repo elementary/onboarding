@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-10-27 19:24+0000\n"
+"PO-Revision-Date: 2020-03-01 13:09+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -127,14 +127,12 @@ msgid "Night Light:"
 msgstr "תאורת לילה:"
 
 #: src/Views/UpdateView.vala:22
-#, fuzzy
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "ניתן להמשיך ולהגדיר כל מיני תכונות חדשות ושימושיות. למידע מפורט יותר על "
-"עדכונים, ניתן לבקר ב<a href='https://medium.com/elementaryos/tagged/"
-"updates'>בלוג שלנו</a>."
+"עדכונים, ניתן לבקר ב<a href='https://blog.elementary.io'>בלוג שלנו</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
