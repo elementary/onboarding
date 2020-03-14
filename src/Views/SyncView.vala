@@ -55,6 +55,7 @@ public class Onboarding.SyncView : AbstractOnboardingView {
         instructions_grid.column_spacing = 6;
         instructions_grid.add (instructions_spinner);
         instructions_grid.add (new Gtk.Label (_("Check your email for a link to finish logging in.")));
+        // TODO: Add a "use different email address"/back button?
 
         var success_grid = new Gtk.Grid ();
         success_grid.column_spacing = 6;
