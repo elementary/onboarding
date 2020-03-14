@@ -21,7 +21,6 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
     public string? icon_name { get; construct; }
     public string? badge_name { get; construct; }
     public string title { get; construct; }
-    public string? url { get; construct; }
 
     public Gtk.Grid custom_bin { get; private set; }
 
@@ -31,36 +30,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         row_spacing = 24;
         expand = true;
 
-        if (url != null) {
-            var css = new WebKit.UserStyleSheet (
-                """
-                html,
-                body {
-                    background-color: #f5f5f5;
-                    color: #333;
-                    font-family: Inter, "Open Sans", sans-serif;
-                }
-                """,
-                WebKit.UserContentInjectedFrames.TOP_FRAME,
-                WebKit.UserStyleLevel.USER,
-                null,
-                null
-            );
-
-            var user_content_manager = new WebKit.UserContentManager ();
-            user_content_manager.add_style_sheet (css);
-
-            var settings = new WebKit.Settings ();
-            settings.default_font_family = Gtk.Settings.get_default ().gtk_font_name;
-
-            var web_view = new WebKit.WebView.with_user_content_manager (user_content_manager);
-            web_view.expand = true;
-            web_view.settings = settings;
-
-            web_view.load_uri (url);
-
-            add (web_view);
-        } else {
+        if (icon_name != null) {
             var image = new Gtk.Image ();
             image.icon_name = icon_name;
             image.pixel_size = 64;
@@ -90,7 +60,6 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
             header_area.column_spacing = 12;
             header_area.halign = Gtk.Align.CENTER;
             header_area.expand = true;
-            header_area.margin_top = 6; // Give us some breathing room to match this in web views
             header_area.row_spacing = 12;
             header_area.orientation = Gtk.Orientation.VERTICAL;
             header_area.add (overlay);
