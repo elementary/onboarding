@@ -20,7 +20,7 @@ public class Onboarding.SyncView : AbstractOnboardingView {
         Object (
             view_name: "sync",
             title: _("elementary Sync"),
-            url: "https://accounts.elementary.io"
+            url: "https://accounts.elementary.io/auth/v1"
         );
     }
 }

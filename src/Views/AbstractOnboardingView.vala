@@ -90,6 +90,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
             header_area.column_spacing = 12;
             header_area.halign = Gtk.Align.CENTER;
             header_area.expand = true;
+            header_area.margin_top = 6; // Give us some breathing room to match this in web views
             header_area.row_spacing = 12;
             header_area.orientation = Gtk.Orientation.VERTICAL;
             header_area.add (overlay);
