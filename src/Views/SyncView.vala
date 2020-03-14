@@ -26,35 +26,36 @@ public class Onboarding.SyncView : AbstractOnboardingView {
     }
 
     construct {
-        // var css = new WebKit.UserStyleSheet (
-        //     """
-        //     :root {
-        //       --background-color: #f5f5f5;
-        //       --color: #333;
-        //     }
+        var css = new WebKit.UserStyleSheet (
+            """
+            :root {
+              --background-color: #f5f5f5;
+              --color: #333;
+            }
 
-        //     * {
-        //         color: pink;
-        //     }
-        //     """,
-        //     WebKit.UserContentInjectedFrames.TOP_FRAME,
-        //     WebKit.UserStyleLevel.AUTHOR,
-        //     null,
-        //     null
-        // );
+            * {
+                color: pink;
+            }
+            """,
+            WebKit.UserContentInjectedFrames.TOP_FRAME,
+            WebKit.UserStyleLevel.AUTHOR,
+            null,
+            null
+        );
 
-        // var user_content_manager = new WebKit.UserContentManager ();
-        // user_content_manager.add_style_sheet (css);
+        var user_content_manager = new WebKit.UserContentManager ();
+        user_content_manager.add_style_sheet (css);
 
         var settings = new WebKit.Settings ();
         settings.default_font_family = Gtk.Settings.get_default ().gtk_font_name;
 
-        var web_context = new WebKit.WebContext.ephemeral ();
-
-        // var web_view = new WebKit.WebView.with_user_content_manager (user_content_manager);
-        var web_view = new WebKit.WebView.with_context (web_context);
+        var web_view = new WebKit.WebView.with_user_content_manager (user_content_manager);
         web_view.expand = true;
         web_view.settings = settings;
+
+        // FIXME: Needs to be set before construction
+        var web_context = new WebKit.WebContext.ephemeral ();
+        web_view.web_context = web_context;
 
         web_view.load_uri (OAUTH_URL);
 
