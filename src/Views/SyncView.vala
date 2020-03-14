@@ -16,6 +16,8 @@
  */
 
 public class Onboarding.SyncView : AbstractOnboardingView {
+    private const string OAUTH_URL = "https://elementary.github.io/accounts-prototype/oauth";
+
     public SyncView () {
         Object (
             view_name: "sync",
@@ -54,7 +56,7 @@ public class Onboarding.SyncView : AbstractOnboardingView {
         web_view.expand = true;
         web_view.settings = settings;
 
-        web_view.load_uri ("https://accounts.elementary.io/auth/v1");
+        web_view.load_uri (OAUTH_URL);
 
         add (web_view);
 
