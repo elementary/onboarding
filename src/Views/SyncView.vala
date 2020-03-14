@@ -19,7 +19,7 @@ public class Onboarding.SyncView : AbstractOnboardingView {
     public SyncView () {
         Object (
             view_name: "sync",
-            description: _("Securely share app purchases and payment methods between your elementary OS devices."),
+            description: _("Securely share app purchases and payment methods between your elementary OS devices. Enter an email address to log in or sign up."),
             icon_name: Utils.logo_icon_name,
             badge_name: "emblem-synchronized",
             title: _("elementary Sync")
@@ -28,7 +28,8 @@ public class Onboarding.SyncView : AbstractOnboardingView {
 
     construct {
         var email_entry = new Gtk.Entry ();
-        email_entry.placeholder_text = "Email address";
+        email_entry.placeholder_text = _("Email address");
+        email_entry.width_request = 200;
 
         var login_button = new Gtk.Button.with_label ("Log In");
         login_button.halign = Gtk.Align.END;
