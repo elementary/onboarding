@@ -32,6 +32,7 @@ public class Onboarding.SyncView : AbstractOnboardingView {
             body {
               --background-color: #f5f5f5;
               --color: #333;
+              --accent-color: #3689e6;
             }
             """,
             WebKit.UserContentInjectedFrames.TOP_FRAME,
