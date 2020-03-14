@@ -16,69 +16,62 @@
  */
 
 public class Onboarding.SyncView : AbstractOnboardingView {
-    // private const string OAUTH_URL = "https://elementary.github.io/accounts-prototype/oauth";
-    private const string OAUTH_URL = "http://0.0.0.0:4000/oauth";
-    private WebKit.UserContentManager user_content_manager;
-
     public SyncView () {
         Object (
             view_name: "sync",
+            description: _("Securely share app purchases and payment methods between your elementary OS devices."),
+            icon_name: Utils.logo_icon_name,
+            badge_name: "emblem-synchronized",
             title: _("elementary Sync")
         );
     }
 
     construct {
-        var dialog_style_context = new Gtk.Dialog ().get_style_context ();
-        var background_color = (Gdk.RGBA) dialog_style_context.get_property ("background-color", Gtk.StateFlags.NORMAL);
-        var color = (Gdk.RGBA) dialog_style_context.get_property ("color", Gtk.StateFlags.NORMAL);
+        var email_entry = new Gtk.Entry ();
+        email_entry.placeholder_text = "Email address";
 
-        var css = new WebKit.UserStyleSheet (
-            """
-            body {
-                --background-color: %s;
-                --color: %s;
-                --accent-color: #3689e6;
-                --padding: 0;
-            }
-            """.printf (
-                background_color.to_string (),
-                color.to_string ()
-            ),
-            WebKit.UserContentInjectedFrames.TOP_FRAME,
-            WebKit.UserStyleLevel.USER,
-            null,
-            null
+        var login_button = new Gtk.Button.with_label ("Log In");
+        login_button.halign = Gtk.Align.END;
+        login_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
+
+        var privacy_link = new Gtk.LinkButton.with_label (
+            "https://elementary.io/privacy",
+            _("Privacy…")
         );
+        privacy_link.halign = Gtk.Align.START;
 
-        user_content_manager = new WebKit.UserContentManager ();
-        user_content_manager.add_style_sheet (css);
+        var email_grid = new Gtk.Grid ();
+        email_grid.halign = Gtk.Align.CENTER;
+        email_grid.row_spacing = 6;
+        email_grid.attach (email_entry, 0, 0, 2);
+        email_grid.attach (privacy_link, 0, 1);
+        email_grid.attach (login_button, 1, 1);
 
-        var settings = new WebKit.Settings ();
-        settings.default_font_family = Gtk.Settings.get_default ().gtk_font_name;
+        var instructions_spinner = new Gtk.Spinner ();
+        instructions_spinner.start ();
 
-        var web_view = new WebKit.WebView.with_user_content_manager (user_content_manager);
-        web_view.expand = true;
-        web_view.settings = settings;
+        var instructions_grid = new Gtk.Grid ();
+        instructions_grid.column_spacing = 6;
+        instructions_grid.add (instructions_spinner);
+        instructions_grid.add (new Gtk.Label (_("Check your email for a link to finish logging in.")));
 
-        // FIXME: Needs to be set before construction
-        var web_context = new WebKit.WebContext.ephemeral ();
-        web_view.web_context = web_context;
+        var success_grid = new Gtk.Grid ();
+        success_grid.column_spacing = 6;
+        success_grid.add (new Gtk.Label (_("You’re logged in!")));
+        success_grid.add (new Gtk.Image.from_icon_name ("process-completed", Gtk.IconSize.BUTTON));
 
-        web_view.load_uri (OAUTH_URL);
+        // TODO: Add a failure state
 
-        add (web_view);
+        var stack = new Gtk.Stack ();
+        stack.transition_type = Gtk.StackTransitionType.CROSSFADE;
+        stack.transition_duration = 150;
+        stack.add_named (email_grid, "email");
+        stack.add_named (instructions_grid, "instructions");
 
-        web_view.create.connect ((action) => { return on_new_window_requested (action); });
-    }
+        custom_bin.add (stack);
 
-    private Gtk.Widget? on_new_window_requested (WebKit.NavigationAction action) {
-        var uri = action.get_request ().get_uri ();
-        try {
-            AppInfo.launch_default_for_uri (uri, null);
-        } catch (Error e) {
-            warning ("Error launching browser for external link: %s", e.message);
-        }
-
-        return null;
+        login_button.clicked.connect (() => {
+            stack.visible_child = instructions_grid;
+        });
     }
 }
