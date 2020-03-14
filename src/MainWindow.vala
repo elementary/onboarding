@@ -1,5 +1,5 @@
-/*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+/*
+ * Copyright © 2019–2020 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -53,6 +53,7 @@ public class Onboarding.MainWindow : Gtk.Window {
             paginator.add (welcome_view);
         }
 
+        // TODO: Only add if we have Internet
         var sync_view = new SyncView ();
         paginator.add (sync_view);
 

@@ -1,5 +1,5 @@
-/*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+/*
+ * Copyright © 2019–2020 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -33,6 +33,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         if (icon_name != null) {
             var image = new Gtk.Image ();
             image.icon_name = icon_name;
+            image.margin_top = 6; // Match the inside of the web view
             image.pixel_size = 64;
 
             var badge = new Gtk.Image ();
