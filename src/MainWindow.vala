@@ -109,9 +109,6 @@ public class Onboarding.MainWindow : Gtk.Window {
         finish_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
         next_finish_overlay.add (finish_button);
 
-        var skip_sync_button = new Gtk.Button.with_label (_("Not Now"));
-        next_finish_overlay.add_overlay (skip_sync_button);
-
         var next_button = new Gtk.Button.with_label (_("Next"));
         next_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
         next_finish_overlay.add_overlay (next_button);
@@ -155,6 +152,10 @@ public class Onboarding.MainWindow : Gtk.Window {
             var visible_view = get_visible_view ();
             if (visible_view == null) {
                 return;
+            } else if (visible_view.view_name == "sync") {
+                next_button.get_style_context ().remove_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
+            } else {
+                next_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
             }
 
             mark_viewed (visible_view.view_name);
@@ -166,6 +167,8 @@ public class Onboarding.MainWindow : Gtk.Window {
 
             next_button.opacity = opacity;
             next_button.visible = opacity > 0;
+
+            finish_button.opacity = 1 - opacity;
         });
 
         next_button.clicked.connect (() => {
