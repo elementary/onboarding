@@ -153,8 +153,10 @@ public class Onboarding.MainWindow : Gtk.Window {
             if (visible_view == null) {
                 return;
             } else if (visible_view.view_name == "sync") {
+                next_button.label = _("Not Now");
                 next_button.get_style_context ().remove_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
             } else {
+                next_button.label = _("Next");
                 next_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
             }
 
