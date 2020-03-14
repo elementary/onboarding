@@ -52,5 +52,18 @@ public class Onboarding.SyncView : AbstractOnboardingView {
         web_view.load_uri ("https://accounts.elementary.io/auth/v1");
 
         add (web_view);
+
+        web_view.create.connect ((action) => { return on_new_window_requested (action); });
+    }
+
+    private Gtk.Widget? on_new_window_requested (WebKit.NavigationAction action) {
+        var uri = action.get_request ().get_uri ();
+        try {
+            AppInfo.launch_default_for_uri (uri, null);
+        } catch (Error e) {
+            warning ("Error launching browser for external link: %s", e.message);
+        }
+
+        return null;
     }
 }
