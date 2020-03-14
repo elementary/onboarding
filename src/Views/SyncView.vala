@@ -16,7 +16,8 @@
  */
 
 public class Onboarding.SyncView : AbstractOnboardingView {
-    private const string OAUTH_URL = "https://elementary.github.io/accounts-prototype/oauth";
+    // private const string OAUTH_URL = "https://elementary.github.io/accounts-prototype/oauth";
+    private const string OAUTH_URL = "http://0.0.0.0:4000/oauth";
 
     public SyncView () {
         Object (
@@ -28,13 +29,13 @@ public class Onboarding.SyncView : AbstractOnboardingView {
     construct {
         var css = new WebKit.UserStyleSheet (
             """
-            :root {
+            body {
               --background-color: #f5f5f5;
               --color: #333;
             }
             """,
             WebKit.UserContentInjectedFrames.TOP_FRAME,
-            WebKit.UserStyleLevel.AUTHOR,
+            WebKit.UserStyleLevel.USER,
             null,
             null
         );
