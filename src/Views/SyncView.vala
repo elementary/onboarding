@@ -18,6 +18,7 @@
 public class Onboarding.SyncView : AbstractOnboardingView {
     // private const string OAUTH_URL = "https://elementary.github.io/accounts-prototype/oauth";
     private const string OAUTH_URL = "http://0.0.0.0:4000/oauth";
+    private WebKit.UserContentManager user_content_manager;
 
     public SyncView () {
         Object (
@@ -27,21 +28,28 @@ public class Onboarding.SyncView : AbstractOnboardingView {
     }
 
     construct {
+        var dialog_style_context = new Gtk.Dialog ().get_style_context ();
+        var background_color = (Gdk.RGBA) dialog_style_context.get_property ("background-color", Gtk.StateFlags.NORMAL);
+        var color = (Gdk.RGBA) dialog_style_context.get_property ("color", Gtk.StateFlags.NORMAL);
+
         var css = new WebKit.UserStyleSheet (
             """
             body {
-              --background-color: #f5f5f5;
-              --color: #333;
-              --accent-color: #3689e6;
+                --background-color: %s;
+                --color: %s;
+                --accent-color: #3689e6;
             }
-            """,
+            """.printf (
+                background_color.to_string (),
+                color.to_string ()
+            ),
             WebKit.UserContentInjectedFrames.TOP_FRAME,
             WebKit.UserStyleLevel.USER,
             null,
             null
         );
 
-        var user_content_manager = new WebKit.UserContentManager ();
+        user_content_manager = new WebKit.UserContentManager ();
         user_content_manager.add_style_sheet (css);
 
         var settings = new WebKit.Settings ();
