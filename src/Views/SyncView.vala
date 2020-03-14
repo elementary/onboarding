@@ -38,6 +38,7 @@ public class Onboarding.SyncView : AbstractOnboardingView {
                 --background-color: %s;
                 --color: %s;
                 --accent-color: #3689e6;
+                --margin: 0;
             }
             """.printf (
                 background_color.to_string (),
