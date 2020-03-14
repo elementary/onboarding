@@ -23,6 +23,7 @@ gtk_dep = dependency('gtk+-3.0')
 posix_dep = meson.get_compiler('vala').find_library('posix')
 handy_dep = dependency('libhandy-0.0', version: '>=0.0.11')
 m_dep = cc.find_library('m', required : false)
+webkit_dep = dependency('webkit2gtk-4.0')
 
 dependencies = [
     gee_dep,
@@ -32,7 +33,8 @@ dependencies = [
     gtk_dep,
     posix_dep,
     handy_dep,
-    m_dep
+    m_dep,
+    webkit_dep,
 ]
 
 asresources = gnome.compile_resources(

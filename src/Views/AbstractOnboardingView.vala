@@ -16,11 +16,13 @@
  */
 
 public abstract class AbstractOnboardingView : Gtk.Grid {
+    private const string OAUTH_URL = "https://flatpak-auth.elementary.io/register";
     public string view_name { get; construct; }
-    public string description { get; set; }
-    public string icon_name { get; construct; }
+    public string? description { get; set; }
+    public string? icon_name { get; construct; }
     public string? badge_name { get; construct; }
     public string title { get; construct; }
+    public string? url { get; construct; }
 
     public Gtk.Grid custom_bin { get; private set; }
 
@@ -50,28 +52,37 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         description_label.max_width_chars = 50;
         description_label.use_markup = true;
 
-        var header_area = new Gtk.Grid ();
-        header_area.column_spacing = 12;
-        header_area.halign = Gtk.Align.CENTER;
-        header_area.expand = true;
-        header_area.row_spacing = 12;
-        header_area.orientation = Gtk.Orientation.VERTICAL;
-        header_area.add (overlay);
-        header_area.add (title_label);
-        header_area.add (description_label);
-
-        custom_bin = new Gtk.Grid ();
-        custom_bin.column_spacing = 12;
-        custom_bin.expand = true;
-        custom_bin.row_spacing = 6;
-        custom_bin.halign = Gtk.Align.CENTER;
-
         margin_start = margin_end = 10;
         orientation = Gtk.Orientation.VERTICAL;
         row_spacing = 24;
         expand = true;
-        add (header_area);
-        add (custom_bin);
+
+        if (url != null) {
+            var web_view = new WebKit.WebView ();
+            web_view.expand = true;
+            web_view.load_uri (OAUTH_URL);
+
+            add (web_view);
+        } else {
+            var header_area = new Gtk.Grid ();
+            header_area.column_spacing = 12;
+            header_area.halign = Gtk.Align.CENTER;
+            header_area.expand = true;
+            header_area.row_spacing = 12;
+            header_area.orientation = Gtk.Orientation.VERTICAL;
+            header_area.add (overlay);
+            header_area.add (title_label);
+            header_area.add (description_label);
+
+            custom_bin = new Gtk.Grid ();
+            custom_bin.column_spacing = 12;
+            custom_bin.expand = true;
+            custom_bin.row_spacing = 6;
+            custom_bin.halign = Gtk.Align.CENTER;
+
+            add (header_area);
+            add (custom_bin);
+        }
 
         bind_property ("description", description_label, "label");
     }
