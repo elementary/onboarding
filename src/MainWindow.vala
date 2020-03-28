@@ -1,5 +1,5 @@
-/*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+/*
+ * Copyright © 2019–2020 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -53,6 +53,10 @@ public class Onboarding.MainWindow : Gtk.Window {
             paginator.add (welcome_view);
         }
 
+        // TODO: Only add if we have Internet
+        var sync_view = new SyncView ();
+        paginator.add (sync_view);
+
         var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, false);
         if (lookup != null) {
             var location_services_view = new LocationServicesView ();
@@ -90,12 +94,12 @@ public class Onboarding.MainWindow : Gtk.Window {
         var finish_view = new FinishView ();
         paginator.add (finish_view);
 
-        var skip_button = new Gtk.Button.with_label (_("Skip All"));
+        var skip_all_button = new Gtk.Button.with_label (_("Skip All"));
 
-        var skip_revealer = new Gtk.Revealer ();
-        skip_revealer.reveal_child = true;
-        skip_revealer.transition_type = Gtk.RevealerTransitionType.NONE;
-        skip_revealer.add (skip_button);
+        var skip_all_revealer = new Gtk.Revealer ();
+        skip_all_revealer.reveal_child = true;
+        skip_all_revealer.transition_type = Gtk.RevealerTransitionType.NONE;
+        skip_all_revealer.add (skip_all_button);
 
         var switcher = new Switcher (paginator);
         switcher.halign = Gtk.Align.CENTER;
@@ -111,7 +115,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         next_finish_overlay.add_overlay (next_button);
 
         buttons_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.BOTH);
-        buttons_group.add_widget (skip_revealer);
+        buttons_group.add_widget (skip_all_revealer);
         buttons_group.add_widget (next_button);
         buttons_group.add_widget (finish_button);
 
@@ -121,7 +125,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         action_area.spacing = 6;
         action_area.valign = Gtk.Align.END;
         action_area.layout_style = Gtk.ButtonBoxStyle.EDGE;
-        action_area.add (skip_revealer);
+        action_area.add (skip_all_revealer);
         action_area.add (switcher);
         action_area.add (next_finish_overlay);
         action_area.set_child_non_homogeneous (switcher, true);
@@ -149,17 +153,25 @@ public class Onboarding.MainWindow : Gtk.Window {
             var visible_view = get_visible_view ();
             if (visible_view == null) {
                 return;
+            } else if (visible_view.view_name == "sync") {
+                next_button.label = _("Not Now");
+                next_button.get_style_context ().remove_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
+            } else {
+                next_button.label = _("Next");
+                next_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
             }
 
             mark_viewed (visible_view.view_name);
 
             var opacity = double.min (1, paginator.n_pages - paginator.position - 1);
 
-            skip_button.opacity = opacity;
-            skip_revealer.reveal_child = opacity > 0;
+            skip_all_button.opacity = opacity;
+            skip_all_revealer.reveal_child = opacity > 0;
 
             next_button.opacity = opacity;
             next_button.visible = opacity > 0;
+
+            finish_button.opacity = 1 - opacity;
         });
 
         next_button.clicked.connect (() => {
@@ -174,7 +186,7 @@ public class Onboarding.MainWindow : Gtk.Window {
             destroy ();
         });
 
-        skip_button.clicked.connect (() => {
+        skip_all_button.clicked.connect (() => {
             foreach (Gtk.Widget view in paginator.get_children ()) {
                 assert (view is AbstractOnboardingView);
 
