@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-08-21 23:22+0000\n"
+"PO-Revision-Date: 2020-03-19 18:09+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@posteo.net>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/en_GB/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -29,27 +29,27 @@ msgstr "Change common settings on first-run"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "io.elementary.onboarding"
-msgstr ""
+msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "New app icon"
-msgstr ""
+msgstr "New app icon"
 
 #: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:27
 msgid "Updated translations"
-msgstr ""
+msgstr "Updated translations"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Navigate with (multi-)touch gestures"
-msgstr ""
+msgstr "Navigate with (multi-)touch gestures"
 
 #: data/onboarding.appdata.xml.in:25
 msgid "Use new blog URL"
-msgstr ""
+msgstr "Use new blog URL"
 
 #: data/onboarding.appdata.xml.in:26
 msgid "Fix errors when pressing the Skip button"
-msgstr ""
+msgstr "Fix errors when pressing the Skip button"
 
 #: data/onboarding.appdata.xml.in:66
 msgid "elementary, Inc."
