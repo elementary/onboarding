@@ -1,3 +1,13 @@
+io.elementary.onboarding (1.2.0) bionic; urgency=medium
+
+  * Release 1.2.0 (#90)
+  * Travis: hardcode node 10.17.0
+  * Update translation files
+  * Update translation template
+  * Add a unique icon (#82)
+
+ -- elementary, Inc. <builds@elementary.io>  Wed, 01 Apr 2020 23:58:15 +0000
+
 io.elementary.onboarding (1.1.0) bionic; urgency=medium
 
   * Release 1.1.0 (#80)
