@@ -53,7 +53,7 @@ public class Onboarding.MainWindow : Gtk.Window {
             paginator.add (welcome_view);
         }
 
-        var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, false);
+        var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, true);
         if (lookup != null) {
             var location_services_view = new LocationServicesView ();
             paginator.add (location_services_view);
