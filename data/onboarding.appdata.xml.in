@@ -10,6 +10,14 @@
     <p></p>
   </description>
   <releases>
+    <release version="1.2.1" date="2020-04-16" urgency="medium">
+      <description>
+        <ul>
+          <li>Fix blurry icon in AppCenter</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.2.0" date="2020-04-01" urgency="medium">
       <description>
         <ul>
