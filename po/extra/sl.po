@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-14 17:51+0000\n"
+"POT-Creation-Date: 2020-04-17 18:15+0000\n"
 "PO-Revision-Date: 2020-02-03 21:08+0000\n"
 "Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/installer/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
@@ -33,26 +33,31 @@ msgid "io.elementary.onboarding"
 msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
-msgid "New app icon"
-msgstr "Nova ikona"
+msgid "Fix blurry icon in AppCenter"
+msgstr ""
 
-#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:27
+#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
+#: data/onboarding.appdata.xml.in:35
 msgid "Updated translations"
 msgstr "Posodobljeni prevodi"
 
 #: data/onboarding.appdata.xml.in:24
+msgid "New app icon"
+msgstr "Nova ikona"
+
+#: data/onboarding.appdata.xml.in:32
 msgid "Navigate with (multi-)touch gestures"
 msgstr "Navigacija z (več)dotičnimi gibi"
 
-#: data/onboarding.appdata.xml.in:25
+#: data/onboarding.appdata.xml.in:33
 msgid "Use new blog URL"
 msgstr "Uporabljen nov URL naslov bloga"
 
-#: data/onboarding.appdata.xml.in:26
+#: data/onboarding.appdata.xml.in:34
 msgid "Fix errors when pressing the Skip button"
 msgstr "Popravljene napake ob pritisku gumba Preskoči"
 
-#: data/onboarding.appdata.xml.in:66
+#: data/onboarding.appdata.xml.in:74
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

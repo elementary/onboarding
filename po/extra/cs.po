@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-14 17:51+0000\n"
+"POT-Creation-Date: 2020-04-17 18:15+0000\n"
 "PO-Revision-Date: 2019-09-07 18:23+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
@@ -32,26 +32,31 @@ msgid "io.elementary.onboarding"
 msgstr ""
 
 #: data/onboarding.appdata.xml.in:16
-msgid "New app icon"
+msgid "Fix blurry icon in AppCenter"
 msgstr ""
 
-#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:27
+#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
+#: data/onboarding.appdata.xml.in:35
 msgid "Updated translations"
 msgstr ""
 
 #: data/onboarding.appdata.xml.in:24
+msgid "New app icon"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:32
 msgid "Navigate with (multi-)touch gestures"
 msgstr ""
 
-#: data/onboarding.appdata.xml.in:25
+#: data/onboarding.appdata.xml.in:33
 msgid "Use new blog URL"
 msgstr ""
 
-#: data/onboarding.appdata.xml.in:26
+#: data/onboarding.appdata.xml.in:34
 msgid "Fix errors when pressing the Skip button"
 msgstr ""
 
-#: data/onboarding.appdata.xml.in:66
+#: data/onboarding.appdata.xml.in:74
 msgid "elementary, Inc."
 msgstr ""
 
