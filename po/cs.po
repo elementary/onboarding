@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2020-05-08 10:10+0000\n"
+"PO-Revision-Date: 2020-05-12 16:10+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
 "onboarding/cs/>\n"
@@ -41,8 +41,8 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"V AppCentru získejte aplikace, které potřebujete. Schválené aplikace jsou "
-"postaveny pro elementary OS a zkontrolované týmem elementary."
+"Potřebné aplikace je možné získat Centru aplikací. Prověřené aplikace jsou "
+"vytvořeny pro elementary OS a zkontrolované týmem elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -58,8 +58,8 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"Užijte si %s! Kdykoliv můžete navštívit nastavení systému pro nastavení "
-"hardwaru nebo změnu uživatelských preferencí."
+"Užijte si používání %s! Kdykoliv můžete navštívit Nastavení systému a "
+"nastavovat hardware a měnit předvolby."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
@@ -99,23 +99,24 @@ msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
-"Dostaňte upozornění, pokud se aplikace snaží zjistit polohu tohoto zařízení. "
-"Pokud vypnuto, všechny žádosti o polohu budou zamítnuty."
+"Obdržte upozornění, pokud se aplikace snaží zjistit polohu tohoto počítače. "
+"Pokud je vypnuto, všechny žádosti o polohu budou zamítány."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
-msgstr "Polohové služby"
+msgstr "Služby určování polohy"
 
 #: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
-msgstr "Polohové služby:"
+msgstr "Služby určování polohy:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
-"V noci změní barvy displeje na teplejší, aby zamezil únavě očí a nespavosti."
+"V noci změní barvy displeje na teplejší, aby se zamezilo únavě očí a "
+"nespavosti."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
@@ -130,6 +131,9 @@ msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
+"Pokračujte nastavením užitečných nových funkcí. Podrobnější informace o "
+"aktualizacích jsou k dispozici na <a href='https://blog.elementary.io'>našem "
+"blogu</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
@@ -141,8 +145,8 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
-"Pokračujte pro nastavení nových užitečných funkcí. Navštivte odkazy níže pro "
-"více informací o %s."
+"Pokračujte pro nastavení nových užitečných funkcí. Další informace o %s "
+"obdržíte navštívením níže uvedených odkazů."
 
 #: src/Views/WelcomeView.vala:24
 #, c-format
@@ -151,11 +155,11 @@ msgstr "Vítejte v %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr "Základní průvodce…"
+msgstr "Průvodce základy…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr "Podpora komunity…"
+msgstr "Komunitní podpora…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
