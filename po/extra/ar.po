@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 18:15+0000\n"
-"PO-Revision-Date: 2020-03-19 18:09+0000\n"
+"PO-Revision-Date: 2020-05-16 03:10+0000\n"
 "Last-Translator: nasserbinlaboun <nasser1990com@gmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ar/>\n"
@@ -30,32 +30,32 @@ msgstr "تغيير الإعدادات الشائعة عند التشغيل لأ�
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "io.elementary.onboarding"
-msgstr ""
+msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Fix blurry icon in AppCenter"
-msgstr ""
+msgstr "اصلاح ايقونة مركز التطبيقات الضبابية"
 
 #: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
 #: data/onboarding.appdata.xml.in:35
 msgid "Updated translations"
-msgstr ""
+msgstr "ترجمات محدثة"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "New app icon"
-msgstr ""
+msgstr "ايقونة تطبيق جديدة"
 
 #: data/onboarding.appdata.xml.in:32
 msgid "Navigate with (multi-)touch gestures"
-msgstr ""
+msgstr "تنقل مع خاصية اللمس المتعدد"
 
 #: data/onboarding.appdata.xml.in:33
 msgid "Use new blog URL"
-msgstr ""
+msgstr "استخدم رابط المدونة الجديد"
 
 #: data/onboarding.appdata.xml.in:34
 msgid "Fix errors when pressing the Skip button"
-msgstr ""
+msgstr "اصلاح بعض الاخطاء بعد ضغط زر تخطي"
 
 #: data/onboarding.appdata.xml.in:74
 msgid "elementary, Inc."
