@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-08-26 21:22+0000\n"
+"PO-Revision-Date: 2020-05-16 03:10+0000\n"
 "Last-Translator: nasserbinlaboun <nasser1990com@gmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/installer/"
 "onboarding/ar/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -72,7 +72,7 @@ msgstr "افتح اعدادات النظام…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr ""
+msgstr "تنظيف القرص بشكل دوري (housekeeping)"
 
 #: src/Views/HouseKeepingView.vala:30
 #, c-format
@@ -100,38 +100,42 @@ msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"استقبل تنبيها عندما يطلب أحد التطبيقات موقع الجهاز. إذا تم الغاء الخيار, كل "
+"طلبات الموقع سيتم رفضها."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
-msgstr ""
+msgstr "خدمات الموقع"
 
 #: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
-msgstr ""
+msgstr "خدمات الموقع:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
-msgstr ""
+msgstr "اجعل ألوان الشاشة أكثر دفئا في الليل لحماية العين وتجنب الأرق."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "الضوء الليلي"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr ""
+msgstr "الضوء الليلي:"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
+"اكمال تجهيز بعض المميزات المفيدة، لتفاصيل اضافية عن التحديثات اذهب الى <a "
+"href='https://blog.elementary.io'> مدونتنا</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr ""
+msgstr "ما الجديد"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -139,20 +143,21 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"اكمل تجهيز بعض الميزات المفيدة، زر المواقع في الأسفل للمزيد من المعلومات %s."
 
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "مرحبا بك إلى %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr ""
+msgstr "تعليمات بسيطة…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr ""
+msgstr "دعم من المجتمع…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "كن مشاركا…"
