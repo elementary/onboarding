@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 18:15+0000\n"
-"PO-Revision-Date: 2020-01-06 15:07+0000\n"
+"PO-Revision-Date: 2020-05-18 19:11+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/tr/>\n"
@@ -33,7 +33,7 @@ msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Fix blurry icon in AppCenter"
-msgstr ""
+msgstr "Uygulama Merkezindeki bulanık olan simge düzeltildi"
 
 #: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
 #: data/onboarding.appdata.xml.in:35
