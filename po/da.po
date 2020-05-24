@@ -8,45 +8,49 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-14 17:51+0000\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-05-26 11:11+0000\n"
+"Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
+"Language-Team: Danish <https://l10n.elementary.io/projects/installer/"
+"onboarding/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "Indstil %s"
 
 #: src/MainWindow.vala:93
 msgid "Skip All"
-msgstr ""
+msgstr "Spring Alle Over"
 
 #: src/MainWindow.vala:105
 msgid "Get Started"
-msgstr ""
+msgstr "Kom Igang"
 
 #: src/MainWindow.vala:109
 msgid "Next"
-msgstr ""
+msgstr "Næste"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"Få de applikationer du behøver i AppCenteret. Kuraterede applikationer er "
+"lavet til elementary OS og revideret af elementary teamet."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Hent Nogle Applikationer"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "Gennemse AppCenteret…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -54,18 +58,20 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Nyd dit brug af %s! Du kan altid besøge Systemindstillinger for, at sætte "
+"dit hardware op, og ændre præferencer."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "Klar til at komme igang"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Åbn Systemindstillinger…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr ""
+msgstr "Rengøring"
 
 #: src/Views/HouseKeepingView.vala:30
 #, c-format
@@ -73,56 +79,65 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
+"Gamle filer kan slettes automatisk efter %u dage for at spare plads og "
+"beskytte dit privatliv."
 
 #: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Automatisk Slet:"
 
 #: src/Views/HouseKeepingView.vala:34
 msgid "Temporary files"
-msgstr ""
+msgstr "Midlertidige filer"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr ""
+msgstr "Slettede filer"
 
 #: src/Views/LocationServicesView.vala:22
 msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"Modtag en besked når en applikation prøver at tilgå denne enheds lokalitet. "
+"Hvis deaktiveret vil alle lokalitets anmodninger blive afvist."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
-msgstr ""
+msgstr "Lokalitets Tjenester"
 
 #: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
-msgstr ""
+msgstr "Lokalitets Tjenester:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Gør din skærms farver varmere om aftenen for at modhjælpe øjenbelastning og "
+"søvnløshed."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Nattelys"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr ""
+msgstr "Nattelys:"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
+"Fortsæt med at opsætte nogle nyttige nye funktioner. For mere information "
+"omkring opdatering, besøg <a href='https://blog.elementary.io'>vores "
+"blog</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr ""
+msgstr "Nyheder"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -130,20 +145,22 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Fortsæt med at opsætte nogle nyttige nye funktioner. Besøg nedenstående "
+"links for mere information omkring %s."
 
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Velkommen til %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Basisvejledning…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr ""
+msgstr "Hjælp fra fællesskabet…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "Bliv Involveret…"
