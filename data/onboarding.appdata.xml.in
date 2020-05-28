@@ -10,7 +10,7 @@
     <p></p>
   </description>
   <releases>
-    <release version="1.2.1" date="2020-04-16" urgency="medium">
+    <release version="1.2.1" date="2020-05-28" urgency="medium">
       <description>
         <ul>
           <li>Fix blurry icon in AppCenter</li>
