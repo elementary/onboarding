@@ -1,3 +1,13 @@
+io.elementary.onboarding (1.2.1) bionic; urgency=medium
+
+  * Release 1.2.1 (#94)
+  * Update translation files
+  * Update translation template
+  * Add 128px icon (#93)
+  * MainWindow: lookup schemas recursive (#91)
+
+ -- elementary, Inc. <builds@elementary.io>  Thu, 28 May 2020 18:56:34 +0000
+
 io.elementary.onboarding (1.2.0) bionic; urgency=medium
 
   * Release 1.2.0 (#90)
