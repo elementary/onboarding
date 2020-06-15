@@ -65,6 +65,9 @@ public class Onboarding.MainWindow : Gtk.Window {
         var housekeeping_view = new HouseKeepingView ();
         paginator.add (housekeeping_view);
 
+        var search_engine_view = new SearchEngineView ();
+        paginator.add (search_engine_view);
+
         if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
             var appcenter_view = new AppCenterView ();
             paginator.add (appcenter_view);
