@@ -64,21 +64,18 @@ public class Onboarding.SearchEngineView : AbstractOnboardingView {
     private class SearchEngineGrid : Gtk.Grid {
         public string search_engine_name { get; construct; }
         public string search_engine_icon_name { get; construct; }
-        // public string search_engine_description { get; construct; }
         public string search_engine_url { get; construct; }
         public Gtk.RadioButton? group_member { get; construct; }
 
         public SearchEngineGrid (
             string _search_engine_name,
             string _search_engine_icon_name,
-            // string _search_engine_description,
             string _search_engine_url,
             Gtk.RadioButton? _group_member = null
         ) {
             Object (
                 column_spacing: 6,
                 group_member: _group_member,
-                // search_engine_description: _search_engine_description,
                 search_engine_icon_name: _search_engine_icon_name,
                 search_engine_name: _search_engine_name,
                 search_engine_url: _search_engine_url
@@ -90,21 +87,13 @@ public class Onboarding.SearchEngineView : AbstractOnboardingView {
 
             var label = new Gtk.Label (search_engine_name);
             label.halign = Gtk.Align.START;
-            // label.hexpand = true;
             label.get_style_context ().add_class (Granite.STYLE_CLASS_H3_LABEL);
-
-            // var description = new Gtk.Label (search_engine_description);
-            // description.max_width_chars = 48;
-            // description.wrap = true;
-            // description.xalign = 0;
-            // description.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
             var link = new Gtk.LinkButton.with_label (search_engine_url, _("Learn more…"));
 
             var radio_grid = new Gtk.Grid ();
             radio_grid.add (icon);
             radio_grid.add (label);
-            // radio_grid.attach (description, 1, 2);
 
             var radio = new Gtk.RadioButton.from_widget (group_member);
             radio.add (radio_grid);
