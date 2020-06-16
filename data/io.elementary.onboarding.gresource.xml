@@ -2,5 +2,8 @@
 <gresources>
   <gresource prefix="/io/elementary/onboarding">
     <file compressed="true">application.css</file>
+    <file alias="internet-search-duckduckgo.png">icons/internet-search-duckduckgo.png</file>
+    <file alias="internet-search-google.png">icons/internet-search-google.png</file>
+    <file alias="internet-search-startpage.png">icons/internet-search-startpage.png</file>
   </gresource>
 </gresources>
