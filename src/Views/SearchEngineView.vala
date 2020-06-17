@@ -74,8 +74,8 @@ public class Onboarding.SearchEngineView : AbstractOnboardingView {
             Gtk.RadioButton? _group_member = null
         ) {
             Object (
-                column_spacing: 6,
                 group_member: _group_member,
+                orientation: Gtk.Orientation.VERTICAL,
                 search_engine_icon_name: _search_engine_icon_name,
                 search_engine_name: _search_engine_name,
                 search_engine_url: _search_engine_url
@@ -83,23 +83,27 @@ public class Onboarding.SearchEngineView : AbstractOnboardingView {
         }
 
         construct {
-            var icon = new Gtk.Image.from_icon_name (search_engine_icon_name, Gtk.IconSize.MENU);
+            var icon = new Gtk.Image.from_icon_name (search_engine_icon_name, Gtk.IconSize.DND);
+            icon.margin_start = icon.margin_end = 3;
 
             var label = new Gtk.Label (search_engine_name);
             label.halign = Gtk.Align.START;
             label.get_style_context ().add_class (Granite.STYLE_CLASS_H3_LABEL);
 
+            // FIXME: Not clickable since it's inside the radio. Gonna need to
+            // rethink this a little if we end up pursuing this
             var link = new Gtk.LinkButton.with_label (search_engine_url, _("Learn more…"));
+            link.halign = Gtk.Align.START;
 
             var radio_grid = new Gtk.Grid ();
-            radio_grid.add (icon);
-            radio_grid.add (label);
+            radio_grid.attach (icon, 0, 0, 1, 2);
+            radio_grid.attach (label, 1, 0);
+            radio_grid.attach (link, 1, 1);
 
             var radio = new Gtk.RadioButton.from_widget (group_member);
             radio.add (radio_grid);
 
             add (radio);
-            add (link);
         }
     }
 }
