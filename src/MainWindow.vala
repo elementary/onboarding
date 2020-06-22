@@ -22,7 +22,7 @@ public class Onboarding.MainWindow : Gtk.Window {
     public string[] viewed { get; set; }
     private static GLib.Settings settings;
 
-    private Hdy.Paginator paginator;
+    private Hdy.Carousel carousel;
     private Gtk.SizeGroup buttons_group;
 
     public MainWindow () {
@@ -39,56 +39,56 @@ public class Onboarding.MainWindow : Gtk.Window {
     }
 
     construct {
-        paginator = new Hdy.Paginator ();
-        paginator.expand = true;
-        paginator.valign = Gtk.Align.CENTER;
+        carousel = new Hdy.Carousel ();
+        carousel.expand = true;
+        carousel.valign = Gtk.Align.CENTER;
 
         viewed = settings.get_strv ("viewed");
 
         if ("finish" in viewed) {
             var update_view = new UpdateView ();
-            paginator.add (update_view);
+            carousel.add (update_view);
         } else {
             var welcome_view = new WelcomeView ();
-            paginator.add (welcome_view);
+            carousel.add (welcome_view);
         }
 
         var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, true);
         if (lookup != null) {
             var location_services_view = new LocationServicesView ();
-            paginator.add (location_services_view);
+            carousel.add (location_services_view);
         }
 
         var night_light_view = new NightLightView ();
-        paginator.add (night_light_view);
+        carousel.add (night_light_view);
 
         var housekeeping_view = new HouseKeepingView ();
-        paginator.add (housekeeping_view);
+        carousel.add (housekeeping_view);
 
         if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
             var appcenter_view = new AppCenterView ();
-            paginator.add (appcenter_view);
+            carousel.add (appcenter_view);
         }
 
-        GLib.List<unowned Gtk.Widget> views = paginator.get_children ();
+        GLib.List<unowned Gtk.Widget> views = carousel.get_children ();
         foreach (Gtk.Widget view in views) {
             assert (view is AbstractOnboardingView);
 
             var view_name = ((AbstractOnboardingView) view).view_name;
 
             if (view_name in viewed) {
-                paginator.remove (view);
+                carousel.remove (view);
                 view.destroy ();
             }
         }
 
         // Bail if there are no feature views
-        if (paginator.get_children ().length () < 2) {
+        if (carousel.get_children ().length () < 2) {
             GLib.Application.get_default ().quit ();
         }
 
         var finish_view = new FinishView ();
-        paginator.add (finish_view);
+        carousel.add (finish_view);
 
         var skip_button = new Gtk.Button.with_label (_("Skip All"));
 
@@ -97,7 +97,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         skip_revealer.transition_type = Gtk.RevealerTransitionType.NONE;
         skip_revealer.add (skip_button);
 
-        var switcher = new Switcher (paginator);
+        var switcher = new Switcher (carousel);
         switcher.halign = Gtk.Align.CENTER;
 
         var next_finish_overlay = new Gtk.Overlay ();
@@ -130,7 +130,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         grid.margin_bottom = 10;
         grid.orientation = Gtk.Orientation.VERTICAL;
         grid.row_spacing = 24;
-        grid.add (paginator);
+        grid.add (carousel);
         grid.add (action_area);
 
         var titlebar = new Gtk.HeaderBar ();
@@ -145,7 +145,7 @@ public class Onboarding.MainWindow : Gtk.Window {
 
         next_button.grab_focus ();
 
-        paginator.notify["position"].connect (() => {
+        carousel.notify["position"].connect (() => {
             var visible_view = get_visible_view ();
             if (visible_view == null) {
                 return;
@@ -153,7 +153,7 @@ public class Onboarding.MainWindow : Gtk.Window {
 
             mark_viewed (visible_view.view_name);
 
-            var opacity = double.min (1, paginator.n_pages - paginator.position - 1);
+            var opacity = double.min (1, carousel.n_pages - carousel.position - 1);
 
             skip_button.opacity = opacity;
             skip_revealer.reveal_child = opacity > 0;
@@ -163,10 +163,10 @@ public class Onboarding.MainWindow : Gtk.Window {
         });
 
         next_button.clicked.connect (() => {
-            GLib.List<unowned Gtk.Widget> current_views = paginator.get_children ();
-            int index = (int) Math.round (paginator.position);
+            GLib.List<unowned Gtk.Widget> current_views = carousel.get_children ();
+            int index = (int) Math.round (carousel.position);
             if (index < current_views.length () - 1) {
-                paginator.scroll_to (current_views.nth_data (index + 1));
+                carousel.scroll_to (current_views.nth_data (index + 1));
             }
         });
 
@@ -175,7 +175,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         });
 
         skip_button.clicked.connect (() => {
-            foreach (Gtk.Widget view in paginator.get_children ()) {
+            foreach (Gtk.Widget view in carousel.get_children ()) {
                 assert (view is AbstractOnboardingView);
 
                 var view_name = ((AbstractOnboardingView) view).view_name;
@@ -183,14 +183,14 @@ public class Onboarding.MainWindow : Gtk.Window {
                 mark_viewed (view_name);
             }
 
-            paginator.scroll_to (finish_view);
+            carousel.scroll_to (finish_view);
         });
     }
 
     private AbstractOnboardingView? get_visible_view () {
-        var index = (int) Math.round (paginator.position);
+        var index = (int) Math.round (carousel.position);
 
-        var widget = paginator.get_children ().nth_data (index);
+        var widget = carousel.get_children ().nth_data (index);
 
         if (!(widget is AbstractOnboardingView)) {
             return null;

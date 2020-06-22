@@ -18,28 +18,28 @@
 //
 
 public class Onboarding.Switcher : Gtk.Grid {
-    public Hdy.Paginator paginator { get; construct; }
+    public Hdy.Carousel carousel { get; construct; }
     private bool has_enough_children {
         get {
             return get_children ().length () > 1;
         }
     }
 
-    public signal void on_paginator_changed ();
+    public signal void on_carousel_changed ();
 
     construct {
         show_all ();
 
-        foreach (var child in paginator.get_children ()) {
+        foreach (var child in carousel.get_children ()) {
             add_child (child);
         }
 
-        paginator.add.connect_after (add_child);
+        carousel.add.connect_after (add_child);
     }
 
-    public Switcher (Hdy.Paginator paginator) {
+    public Switcher (Hdy.Carousel carousel) {
         Object (
-            paginator: paginator,
+            carousel: carousel,
             halign: Gtk.Align.CENTER,
             orientation: Gtk.Orientation.HORIZONTAL,
             can_focus: false
@@ -49,7 +49,7 @@ public class Onboarding.Switcher : Gtk.Grid {
     private void add_child (Gtk.Widget widget) {
         assert (widget is AbstractOnboardingView);
 
-        var button = new PageChecker (paginator, (AbstractOnboardingView) widget);
+        var button = new PageChecker (carousel, (AbstractOnboardingView) widget);
         add (button);
     }
 
