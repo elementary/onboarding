@@ -26,7 +26,7 @@ public class Utils {
                 _documentation_url = Environment.get_os_info (GLib.OsInfoKey.DOCUMENTATION_URL);
 
                 if (_documentation_url == null) {
-                    _documentation_url = "https://elementary.io/docs/learning-the-basics#learning-the-basics";
+                    _documentation_url = "https://elementary.io/docs/learning-the-basics";
                 }
             }
 
