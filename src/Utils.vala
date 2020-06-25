@@ -23,7 +23,11 @@ public class Utils {
     public static string support_url {
         get {
             if (_support_url == null) {
-                parse_osrelease ();
+                _support_url = GLib.get_os_info (GLib.OS_INFO_KEY_SUPPORT_URL);
+            }
+
+            if (_support_url == null) {
+                _support_url = "https://elementary.io/support";
             }
 
             return _support_url;
@@ -34,7 +38,11 @@ public class Utils {
     public static string os_name {
         get {
             if (_os_name == null) {
-                parse_osrelease ();
+                _os_name = GLib.get_os_info (GLib.OS_INFO_KEY_SUPPORT_URL);
+            }
+
+            if (_os_name == null) {
+                _os_name = "elementary OS";
             }
 
             return _os_name;
@@ -71,13 +79,9 @@ public class Utils {
                     osrel[osrel_component[0]] = osrel_component[1].replace ("\"", "");
                 }
             }
-            _os_name = osrel["NAME"];
-            _support_url = osrel["SUPPORT_URL"];
             _logo_icon_name = osrel["LOGO"];
         } catch (Error e) {
             critical (e.message);
-            _os_name = "elementary OS";
-            _support_url = "https://elementary.io/support";
             _logo_icon_name = "distributor-logo";
         }
     }
