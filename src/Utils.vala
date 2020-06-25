@@ -19,6 +19,21 @@
  */
 
 public class Utils {
+    private static string _documentation_url;
+    public static string documentation_url {
+        get {
+            if (_documentation_url == null) {
+                _documentation_url = Environment.get_os_info (GLib.OsInfoKey.DOCUMENTATION_URL);
+
+                if (_documentation_url == null) {
+                    _documentation_url = "https://elementary.io/docs/learning-the-basics#learning-the-basics";
+                }
+            }
+
+            return _documentation_url;
+        }
+    }
+
     private static string _support_url;
     public static string support_url {
         get {
