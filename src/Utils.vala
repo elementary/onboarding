@@ -23,11 +23,11 @@ public class Utils {
     public static string support_url {
         get {
             if (_support_url == null) {
-                _support_url = GLib.get_os_info (GLib.OS_INFO_KEY_SUPPORT_URL);
-            }
+                _support_url = Environment.get_os_info (GLib.OsInfoKey.SUPPORT_URL);
 
-            if (_support_url == null) {
-                _support_url = "https://elementary.io/support";
+                if (_support_url == null) {
+                    _support_url = "https://elementary.io/support";
+                }
             }
 
             return _support_url;
@@ -38,11 +38,11 @@ public class Utils {
     public static string os_name {
         get {
             if (_os_name == null) {
-                _os_name = GLib.get_os_info (GLib.OS_INFO_KEY_SUPPORT_URL);
-            }
+                _os_name = Environment.get_os_info (GLib.OsInfoKey.NAME);
 
-            if (_os_name == null) {
-                _os_name = "elementary OS";
+                if (_os_name == null) {
+                    _os_name = "elementary OS";
+                }
             }
 
             return _os_name;
@@ -53,36 +53,14 @@ public class Utils {
     public static string logo_icon_name {
         get {
             if (_logo_icon_name == null) {
-                parse_osrelease ();
+                _logo_icon_name = Environment.get_os_info ("LOGO");
 
-                // If it's still null, fall back
                 if (_logo_icon_name == null) {
                     _logo_icon_name = "distributor-logo";
                 }
             }
 
             return _logo_icon_name;
-        }
-    }
-
-
-    private static void parse_osrelease () {
-        var file = File.new_for_path ("/etc/os-release");
-        try {
-            var osrel = new Gee.HashMap<string, string> ();
-            var dis = new DataInputStream (file.read ());
-            string line;
-            // Read lines until end of file (null) is reached
-            while ((line = dis.read_line (null)) != null) {
-                var osrel_component = line.split ("=", 2);
-                if (osrel_component.length == 2) {
-                    osrel[osrel_component[0]] = osrel_component[1].replace ("\"", "");
-                }
-            }
-            _logo_icon_name = osrel["LOGO"];
-        } catch (Error e) {
-            critical (e.message);
-            _logo_icon_name = "distributor-logo";
         }
     }
 }
