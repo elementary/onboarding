@@ -22,17 +22,17 @@
 public class Onboarding.PageChecker : Gtk.Button {
     public const double MIN_OPACITY = 0.4;
 
-    public unowned Hdy.Paginator paginator { get; construct; }
+    public unowned Hdy.Carousel carousel { get; construct; }
     public unowned AbstractOnboardingView page { get; construct; }
 
     private int page_number;
 
-    public PageChecker (Hdy.Paginator paginator, AbstractOnboardingView page) {
-        Object (paginator: paginator, page: page);
+    public PageChecker (Hdy.Carousel carousel, AbstractOnboardingView page) {
+        Object (carousel: carousel, page: page);
     }
 
     private void update_opacity () {
-        double progress = double.max (1 - (paginator.position - page_number).abs (), 0);
+        double progress = double.max (1 - (carousel.position - page_number).abs (), 0);
 
         opacity = MIN_OPACITY + (1 - MIN_OPACITY) * progress;
     }
@@ -45,14 +45,14 @@ public class Onboarding.PageChecker : Gtk.Button {
         add (new Gtk.Image.from_icon_name ("pager-checked-symbolic", Gtk.IconSize.MENU));
 
         tooltip_text = page.title;
-        page_number = paginator.get_children ().index (page);
+        page_number = carousel.get_children ().index (page);
         update_opacity ();
 
         clicked.connect (() => {
-            paginator.scroll_to (page);
+            carousel.scroll_to (page);
         });
 
-        paginator.notify["position"].connect (() => {
+        carousel.notify["position"].connect (() => {
             update_opacity ();
         });
 

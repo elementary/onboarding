@@ -21,7 +21,7 @@ gobject_dep = dependency('gobject-2.0')
 granite_dep = dependency('granite')
 gtk_dep = dependency('gtk+-3.0')
 posix_dep = meson.get_compiler('vala').find_library('posix')
-handy_dep = dependency('libhandy-0.0', version: '>=0.0.11')
+handy_dep = dependency('libhandy-1', version: '>=0.80.0')
 m_dep = cc.find_library('m', required : false)
 
 dependencies = [
