@@ -21,3 +21,7 @@ Run `meson` to configure the build environment and then `ninja` to build
 To install, use `ninja install`
 
     ninja install
+
+To test, reset the `viewed` key, then launch Onboarding:
+
+    gsettings reset io.elementary.onboarding viewed; io.elementary.onboarding
