@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-14 17:51+0000\n"
+"POT-Creation-Date: 2020-06-26 17:49+0000\n"
 "PO-Revision-Date: 2019-08-26 21:22+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/installer/"
@@ -53,6 +53,12 @@ msgstr "Gauti programas"
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
 msgstr "Naršyti Programų centre…"
+
+#: src/Views/AppCenterView.vala:35
+msgid ""
+"You can also sideload Flatpak apps i.e. from <a href='https://flathub."
+"org'>Flathub</a>"
+msgstr ""
 
 #: src/Views/FinishView.vala:22
 #, c-format

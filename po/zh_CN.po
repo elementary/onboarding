@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-14 17:51+0000\n"
+"POT-Creation-Date: 2020-06-26 17:49+0000\n"
 "PO-Revision-Date: 2020-05-16 03:10+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -40,7 +40,9 @@ msgstr "下一个"
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
-msgstr "从应用中心中获取应用。受信任的应用是为 elementary OS 量身定制并由 elementary 审核过的。"
+msgstr ""
+"从应用中心中获取应用。受信任的应用是为 elementary OS 量身定制并由 elementary "
+"审核过的。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -49,6 +51,12 @@ msgstr "获取应用"
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
 msgstr "浏览应用中心…"
+
+#: src/Views/AppCenterView.vala:35
+msgid ""
+"You can also sideload Flatpak apps i.e. from <a href='https://flathub."
+"org'>Flathub</a>"
+msgstr ""
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -92,7 +100,9 @@ msgstr "已删除的文件"
 msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
-msgstr "当应用申请使用位置权限时，您会收到通知。如果您关闭权限，所有位置请求将会被取消。"
+msgstr ""
+"当应用申请使用位置权限时，您会收到通知。如果您关闭权限，所有位置请求将会被取"
+"消。"
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
@@ -120,7 +130,9 @@ msgstr "夜灯："
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr "想了解更多实用功能？请访问我们的 <a href='https://blog.elementary.io'>博客</a>."
+msgstr ""
+"想了解更多实用功能？请访问我们的 <a href='https://blog.elementary.io'>博客</"
+"a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
