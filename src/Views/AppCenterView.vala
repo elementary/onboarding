@@ -32,7 +32,7 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
         appcenter_button_context.add_class (Gtk.STYLE_CLASS_FLAT);
         appcenter_button_context.add_class ("link");
 
-        var flatpak_note = new Gtk.Label (_("You can also sideload any Flatpak app by downloading and opening a .flatpakref, i.e. from <a href='https://flathub.org'>Flathub</a>")) {
+        var flatpak_note = new Gtk.Label (_("You can also sideload Flatpak apps i.e. from <a href='https://flathub.org'>Flathub</a>")) {
             justify = Gtk.Justification.CENTER,
             max_width_chars = 45,
             use_markup = true,
