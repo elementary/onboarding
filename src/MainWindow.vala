@@ -164,8 +164,7 @@ public class Onboarding.MainWindow : Gtk.Window {
 
             next_label.opacity = opacity;
 
-            var inverse_opacity = 1 - opacity;
-            finish_label.opacity = inverse_opacity;
+            finish_label.opacity = 1 - opacity;
         });
 
         next_button.clicked.connect (() => {
