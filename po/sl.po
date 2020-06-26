@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-14 17:51+0000\n"
+"POT-Creation-Date: 2020-06-26 17:49+0000\n"
 "PO-Revision-Date: 2020-02-03 21:08+0000\n"
 "Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/installer/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
-"n%100==4 ? 2 : 3;\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:32
@@ -53,6 +53,12 @@ msgstr "Pridobite nekaj aplikacij"
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
 msgstr "Prebrskajte AppCenter…"
+
+#: src/Views/AppCenterView.vala:35
+msgid ""
+"You can also sideload Flatpak apps i.e. from <a href='https://flathub."
+"org'>Flathub</a>"
+msgstr ""
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -134,8 +140,8 @@ msgid ""
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "Nadaljujte za nastavitev nekaterih novih uporabnih sposobnosti. Za podrobne "
-"informacije o posodobitvah preverite <a href='https://blog.elementary.io'>"
-"naš blog</a>."
+"informacije o posodobitvah preverite <a href='https://blog.elementary."
+"io'>naš blog</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"

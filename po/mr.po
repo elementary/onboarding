@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-14 17:51+0000\n"
+"POT-Creation-Date: 2020-06-26 17:49+0000\n"
 "PO-Revision-Date: 2019-12-18 20:07+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
@@ -51,6 +51,12 @@ msgstr "काही अॅप्स मिळवा"
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
 msgstr "AppCenter ब्राउझ करा…"
+
+#: src/Views/AppCenterView.vala:35
+msgid ""
+"You can also sideload Flatpak apps i.e. from <a href='https://flathub."
+"org'>Flathub</a>"
+msgstr ""
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -129,9 +135,8 @@ msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
-"काही उपयुक्त नवीन वैशिष्ट्ये सेट करणे सुरू ठेवा. अपडेट्सबद्दल अधिक तपशीलवार "
-"माहितीसाठी, आमच्या  <a href='https://blog.elementary.io'>ब्लॉग </a> ला भेट "
-"द्या."
+"काही उपयुक्त नवीन वैशिष्ट्ये सेट करणे सुरू ठेवा. अपडेट्सबद्दल अधिक तपशीलवार माहितीसाठी, "
+"आमच्या  <a href='https://blog.elementary.io'>ब्लॉग </a> ला भेट द्या."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"

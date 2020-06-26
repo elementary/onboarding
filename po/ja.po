@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-14 17:51+0000\n"
+"POT-Creation-Date: 2020-06-26 17:49+0000\n"
 "PO-Revision-Date: 2019-12-18 20:07+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
@@ -51,6 +51,12 @@ msgstr "アプリを入手"
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
 msgstr "AppCenter を閲覧…"
+
+#: src/Views/AppCenterView.vala:35
+msgid ""
+"You can also sideload Flatpak apps i.e. from <a href='https://flathub."
+"org'>Flathub</a>"
+msgstr ""
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -131,8 +137,8 @@ msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
-"続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な情報は、<a "
-"href='https://blog.elementary.io'>ブログ</a>で確認できます。"
+"続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な情"
+"報は、<a href='https://blog.elementary.io'>ブログ</a>で確認できます。"
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
