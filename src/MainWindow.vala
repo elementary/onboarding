@@ -59,6 +59,9 @@ public class Onboarding.MainWindow : Gtk.Window {
             carousel.add (location_services_view);
         }
 
+        var style_view = new StyleView ();
+        carousel.add (style_view);
+
         var night_light_view = new NightLightView ();
         carousel.add (night_light_view);
 
@@ -184,6 +187,15 @@ public class Onboarding.MainWindow : Gtk.Window {
             }
 
             carousel.scroll_to (finish_view);
+        });
+
+        var granite_settings = Granite.Settings.get_default ();
+        var gtk_settings = Gtk.Settings.get_default ();
+
+        gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
+
+        granite_settings.notify["prefers-color-scheme"].connect (() => {
+            gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
         });
     }
 
