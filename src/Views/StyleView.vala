@@ -129,7 +129,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         };
         accent_label.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-        custom_bin.row_spacing = 12;
         custom_bin.attach (prefer_default_radio, 0, 0);
         custom_bin.attach (prefer_dark_radio, 1, 0);
         custom_bin.attach (accent_grid, 0, 1, 2);
