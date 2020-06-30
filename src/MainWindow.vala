@@ -27,6 +27,7 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
 
     public MainWindow () {
         Object (
+            deletable: false,
             resizable: false,
             icon_name: "system-os-installer",
             title: _("Set up %s").printf (Utils.os_name),
