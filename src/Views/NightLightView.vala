@@ -26,7 +26,7 @@ public class Onboarding.NightLightView : AbstractOnboardingView {
     }
 
     construct {
-        var switch_label = new Gtk.Label (_("Night Light:")){
+        var switch_label = new Gtk.Label (_("Night Light:")) {
             halign = Gtk.Align.END
         };
 
