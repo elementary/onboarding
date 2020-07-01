@@ -53,14 +53,14 @@ public class Onboarding.MainWindow : Gtk.Window {
             carousel.add (welcome_view);
         }
 
+        var style_view = new StyleView ();
+        carousel.add (style_view);
+
         var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, true);
         if (lookup != null) {
             var location_services_view = new LocationServicesView ();
             carousel.add (location_services_view);
         }
-
-        var style_view = new StyleView ();
-        carousel.add (style_view);
 
         var night_light_view = new NightLightView ();
         carousel.add (night_light_view);
