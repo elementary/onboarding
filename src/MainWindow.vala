@@ -17,7 +17,7 @@
  * Authored by: Corentin Noël <corentin@elementary.io>
  */
 
-public class Onboarding.MainWindow : Gtk.Window {
+public class Onboarding.MainWindow : Hdy.ApplicationWindow {
     public const string GEOCLUE_SCHEMA = "io.elementary.desktop.agent-geoclue2";
     public string[] viewed { get; set; }
     private static GLib.Settings settings;
@@ -28,6 +28,7 @@ public class Onboarding.MainWindow : Gtk.Window {
     public MainWindow () {
         Object (
             deletable: false,
+            resizable: false,
             icon_name: "system-os-installer",
             title: _("Set up %s").printf (Utils.os_name),
             width_request: 560
@@ -136,14 +137,7 @@ public class Onboarding.MainWindow : Gtk.Window {
         grid.add (carousel);
         grid.add (action_area);
 
-        var titlebar = new Gtk.HeaderBar ();
-        titlebar.get_style_context ().add_class ("default-decoration");
-        titlebar.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
-        titlebar.set_custom_title (new Gtk.Label (null));
-
         add (grid);
-        get_style_context ().add_class ("rounded");
-        set_titlebar (titlebar);
         show_all ();
 
         next_button.grab_focus ();
