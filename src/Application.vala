@@ -31,8 +31,8 @@ public class Onboarding.App : Gtk.Application {
         }
 
         var window = new MainWindow ();
+        window.application = this;
         window.show_all ();
-        this.add_window (window);
 
         var css_provider = new Gtk.CssProvider ();
         css_provider.load_from_resource ("io/elementary/onboarding/application.css");
