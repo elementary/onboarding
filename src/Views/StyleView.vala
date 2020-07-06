@@ -203,7 +203,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         construct {
             unowned Gtk.StyleContext context = get_style_context ();
-            context.add_class ("color-button");
+            context.add_class (Granite.STYLE_CLASS_COLOR_BUTTON);
             context.add_class (color_name);
 
             realize.connect (() => {
