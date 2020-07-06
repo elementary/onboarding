@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 17:49+0000\n"
+"POT-Creation-Date: 2020-07-06 17:55+0000\n"
 "PO-Revision-Date: 2019-04-11 16:53-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,20 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: src/MainWindow.vala:32
+#: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
 msgstr ""
 
-#: src/MainWindow.vala:93
+#: src/MainWindow.vala:94
 msgid "Skip All"
 msgstr ""
 
-#: src/MainWindow.vala:105
+#: src/MainWindow.vala:106
 msgid "Get Started"
 msgstr ""
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:110
 msgid "Next"
 msgstr ""
 
@@ -119,6 +119,10 @@ msgstr ""
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
+msgstr ""
+
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
 msgstr ""
 
 #: src/Views/UpdateView.vala:22
