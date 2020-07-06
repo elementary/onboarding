@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 17:49+0000\n"
+"POT-Creation-Date: 2020-07-06 17:55+0000\n"
 "PO-Revision-Date: 2020-06-30 14:12+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:32
+#: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
 msgstr "Configureu %s"
 
-#: src/MainWindow.vala:93
+#: src/MainWindow.vala:94
 msgid "Skip All"
 msgstr "Omet-ho tot"
 
-#: src/MainWindow.vala:105
+#: src/MainWindow.vala:106
 msgid "Get Started"
 msgstr "Comenceu"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:110
 msgid "Next"
 msgstr "Següent"
 
@@ -58,8 +58,8 @@ msgid ""
 "You can also sideload Flatpak apps i.e. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
-"També podeu carregar aplicacions de Flatpak des de <a "
-"href='https://flathub.org'>Flathub</a>"
+"També podeu carregar aplicacions de Flatpak des de <a href='https://flathub."
+"org'>Flathub</a>"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -134,6 +134,10 @@ msgstr "Llum de nit"
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
 msgstr "Llum de nit:"
+
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
+msgstr ""
 
 #: src/Views/UpdateView.vala:22
 msgid ""
