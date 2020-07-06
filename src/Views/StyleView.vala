@@ -23,7 +23,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
     public StyleView () {
         Object (
             view_name: "style",
-            description: "Visual style for system components like the Dock and Panel indicators.",
+            description: _("Make it your own by choosing a visual style and accent color. Apps may override these with their own look."),
             icon_name: "preferences-desktop-wallpaper",
             title: _("Choose Your Look")
         );
@@ -130,16 +130,10 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         accent_grid.add (cocoa_button);
         accent_grid.add (slate_button);
 
-        var accent_label = new Gtk.Label ("<small>%s</small>".printf (_("Accent colors are used by default, but apps can always choose their own."))) {
-            use_markup = true,
-            wrap = true
-        };
-        accent_label.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
-
+        custom_bin.row_spacing = 12;
         custom_bin.attach (prefer_default_radio, 0, 0);
         custom_bin.attach (prefer_dark_radio, 1, 0);
         custom_bin.attach (accent_grid, 0, 1, 2);
-        custom_bin.attach (accent_label, 0, 2, 2);
 
         Pantheon.AccountsService? pantheon_act = null;
 
