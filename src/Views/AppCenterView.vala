@@ -36,12 +36,14 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
             justify = Gtk.Justification.CENTER,
             max_width_chars = 45,
             use_markup = true,
+            valign = Gtk.Align.END,
+            vexpand = true,
             wrap = true
         };
         flatpak_note.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
         custom_bin.orientation = Gtk.Orientation.VERTICAL;
-        custom_bin.row_spacing = 24;
+        custom_bin.valign = Gtk.Align.FILL;
         custom_bin.add (appcenter_button);
         custom_bin.add (flatpak_note);
 
