@@ -54,8 +54,11 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             carousel.add (welcome_view);
         }
 
-        var style_view = new StyleView ();
-        carousel.add (style_view);
+        var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
+        if (interface_settings.get_string ("gtk-theme").has_prefix ("io.elementary.stylesheet.")) {
+            var style_view = new StyleView ();
+            carousel.add (style_view);
+        }
 
         var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, true);
         if (lookup != null) {
