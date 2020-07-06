@@ -54,7 +54,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         header_area.column_spacing = 12;
         header_area.halign = Gtk.Align.CENTER;
         header_area.expand = true;
-        header_area.row_spacing = 12;
+        header_area.row_spacing = 6;
         header_area.orientation = Gtk.Orientation.VERTICAL;
         header_area.add (overlay);
         header_area.add (title_label);
