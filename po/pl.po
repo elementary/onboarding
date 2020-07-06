@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 17:49+0000\n"
+"POT-Creation-Date: 2020-07-06 17:55+0000\n"
 "PO-Revision-Date: 2019-11-17 20:24+0000\n"
 "Last-Translator: DokiDokiMagikku <jakubekbugajski@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
@@ -20,20 +20,20 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.7.1\n"
 
-#: src/MainWindow.vala:32
+#: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
 msgstr "Konfiguracja %s"
 
-#: src/MainWindow.vala:93
+#: src/MainWindow.vala:94
 msgid "Skip All"
 msgstr "Pomiń wszystko"
 
-#: src/MainWindow.vala:105
+#: src/MainWindow.vala:106
 msgid "Get Started"
 msgstr "Rozpocznij"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:110
 msgid "Next"
 msgstr "Dalej"
 
@@ -132,6 +132,10 @@ msgstr "Światło nocne"
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
 msgstr "Światło nocne:"
+
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
+msgstr ""
 
 #: src/Views/UpdateView.vala:22
 msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 17:49+0000\n"
+"POT-Creation-Date: 2020-07-06 17:55+0000\n"
 "PO-Revision-Date: 2020-06-28 11:12+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:32
+#: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/MainWindow.vala:93
+#: src/MainWindow.vala:94
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/MainWindow.vala:105
+#: src/MainWindow.vala:106
 msgid "Get Started"
 msgstr "始めましょう"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:110
 msgid "Next"
 msgstr "次へ"
 
@@ -57,8 +57,8 @@ msgid ""
 "You can also sideload Flatpak apps i.e. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
-"<a href='https://flathub.org'>Flathub</a> などから、AppCenter を経由せずに Flatpak "
-"アプリをインストールすることもできます"
+"<a href='https://flathub.org'>Flathub</a> などから、AppCenter を経由せずに "
+"Flatpak アプリをインストールすることもできます"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -133,6 +133,10 @@ msgstr "夜間モード"
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
 msgstr "夜間モード:"
+
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
+msgstr ""
 
 #: src/Views/UpdateView.vala:22
 msgid ""
