@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 17:55+0000\n"
-"PO-Revision-Date: 2020-06-28 11:12+0000\n"
+"PO-Revision-Date: 2020-07-08 10:12+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding/nl/>\n"
@@ -138,7 +138,7 @@ msgstr "Nacht modus:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Wijzig schema en temperatuur…"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
