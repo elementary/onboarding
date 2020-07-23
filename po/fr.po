@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 05:20+0000\n"
-"PO-Revision-Date: 2020-07-09 15:12+0000\n"
+"PO-Revision-Date: 2020-07-25 17:12+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
 "onboarding/fr/>\n"
@@ -54,10 +54,6 @@ msgid "Browse AppCenter…"
 msgstr "Parcourir le centre d'applications…"
 
 #: src/Views/AppCenterView.vala:35
-#, fuzzy
-#| msgid ""
-#| "You can also sideload Flatpak apps i.e. from <a href='https://flathub."
-#| "org'>Flathub</a>"
 msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
@@ -149,58 +145,60 @@ msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Appropriez-le vous en sélectionnant un style et une couleur d'accentuation. "
+"Les applications peuvent avoir leur apparence propre."
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Sélectionnez votre apparence"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr ""
+msgstr "Par défaut"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
-msgstr ""
+msgstr "Sombre"
 
 #: src/Views/StyleView.vala:89
 msgid "Blueberry"
-msgstr ""
+msgstr "Myrtille"
 
 #: src/Views/StyleView.vala:92
 msgid "Strawberry"
-msgstr ""
+msgstr "Fraise"
 
 #: src/Views/StyleView.vala:95
 msgid "Orange"
-msgstr ""
+msgstr "Orange"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
-msgstr ""
+msgstr "Banane"
 
 #: src/Views/StyleView.vala:101
 msgid "Lime"
-msgstr ""
+msgstr "Citron Vert"
 
 #: src/Views/StyleView.vala:104
 msgid "Mint"
-msgstr ""
+msgstr "Menthe"
 
 #: src/Views/StyleView.vala:107
 msgid "Grape"
-msgstr ""
+msgstr "Raisin"
 
 #: src/Views/StyleView.vala:110
 msgid "Bubblegum"
-msgstr ""
+msgstr "Chewing-gum"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"
-msgstr ""
+msgstr "Cacao"
 
 #: src/Views/StyleView.vala:116
 msgid "Slate"
-msgstr ""
+msgstr "Ardoise"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
