@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-06 17:55+0000\n"
-"PO-Revision-Date: 2020-03-19 18:09+0000\n"
+"PO-Revision-Date: 2020-07-15 23:12+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@posteo.net>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "installer/onboarding/en_GB/>\n"
@@ -57,6 +57,8 @@ msgid ""
 "You can also sideload Flatpak apps i.e. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
+"You can also sideload Flatpak apps i.e. from <a "
+"href='https://flathub.org'>Flathub</a>"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -134,7 +136,7 @@ msgstr "Night Light:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Adjust schedule and temperature…"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
