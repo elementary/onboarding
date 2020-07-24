@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 05:20+0000\n"
-"PO-Revision-Date: 2020-02-25 21:08+0000\n"
+"PO-Revision-Date: 2020-07-25 17:12+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
 "onboarding/es/>\n"
@@ -58,6 +58,8 @@ msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
+"También es posible instalar manualmente aplicaciones empaquetadas con "
+"Flatpak desde <a href='https://flathub.org'>Flathub</a>"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -136,65 +138,67 @@ msgstr "Luz nocturna:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Ajustar programación y temperatura…"
 
 #: src/Views/StyleView.vala:26
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Elija el estilo visual y el color de realce que prefiera. Algunas "
+"aplicaciones pueden utilizar su propia apariencia."
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Elija la apariencia"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr ""
+msgstr "Predeterminada"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
-msgstr ""
+msgstr "Oscura"
 
 #: src/Views/StyleView.vala:89
 msgid "Blueberry"
-msgstr ""
+msgstr "Arándano"
 
 #: src/Views/StyleView.vala:92
 msgid "Strawberry"
-msgstr ""
+msgstr "Fresa"
 
 #: src/Views/StyleView.vala:95
 msgid "Orange"
-msgstr ""
+msgstr "Naranja"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
-msgstr ""
+msgstr "Plátano"
 
 #: src/Views/StyleView.vala:101
 msgid "Lime"
-msgstr ""
+msgstr "Lima"
 
 #: src/Views/StyleView.vala:104
 msgid "Mint"
-msgstr ""
+msgstr "Menta"
 
 #: src/Views/StyleView.vala:107
 msgid "Grape"
-msgstr ""
+msgstr "Uva"
 
 #: src/Views/StyleView.vala:110
 msgid "Bubblegum"
-msgstr ""
+msgstr "Chicle"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"
-msgstr ""
+msgstr "Cacao"
 
 #: src/Views/StyleView.vala:116
 msgid "Slate"
-msgstr ""
+msgstr "Pizarra"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
