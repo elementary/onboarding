@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 05:20+0000\n"
-"PO-Revision-Date: 2020-07-15 23:12+0000\n"
+"PO-Revision-Date: 2020-07-25 17:12+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
 "onboarding/cs/>\n"
@@ -53,16 +53,12 @@ msgid "Browse AppCenter…"
 msgstr "Prohlížet Centrum aplikací…"
 
 #: src/Views/AppCenterView.vala:35
-#, fuzzy
-#| msgid ""
-#| "You can also sideload Flatpak apps i.e. from <a href='https://flathub."
-#| "org'>Flathub</a>"
 msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
-"Je také možné nahrát bokem aplikace z flatpak balíčků, t.j. z  <a "
-"href='https://flathub.org'>Flathub</a>"
+"Je také možné nahrát bokem aplikace z flatpak balíčků, např. z repozitáře  <"
+"a href='https://flathub.org'>Flathub</a>"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -147,58 +143,60 @@ msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Přizpůsobte si zvolením vizuálního stylu a barvy zvýrazňování. Aplikace toto "
+"mohou přebít vlastním vzhledem."
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Zvolte si vzhled"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr ""
+msgstr "Výchozí"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
-msgstr ""
+msgstr "Tmavý"
 
 #: src/Views/StyleView.vala:89
 msgid "Blueberry"
-msgstr ""
+msgstr "Borůvkový"
 
 #: src/Views/StyleView.vala:92
 msgid "Strawberry"
-msgstr ""
+msgstr "Jahodový"
 
 #: src/Views/StyleView.vala:95
 msgid "Orange"
-msgstr ""
+msgstr "Pomerančový"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
-msgstr ""
+msgstr "Banánový"
 
 #: src/Views/StyleView.vala:101
 msgid "Lime"
-msgstr ""
+msgstr "Limetkový"
 
 #: src/Views/StyleView.vala:104
 msgid "Mint"
-msgstr ""
+msgstr "Mátový"
 
 #: src/Views/StyleView.vala:107
 msgid "Grape"
-msgstr ""
+msgstr "Hroznový"
 
 #: src/Views/StyleView.vala:110
 msgid "Bubblegum"
-msgstr ""
+msgstr "Žvýkačkové bubliny"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakaový"
 
 #: src/Views/StyleView.vala:116
 msgid "Slate"
-msgstr ""
+msgstr "Břidlicový"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
