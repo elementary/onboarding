@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 05:20+0000\n"
-"PO-Revision-Date: 2019-12-16 21:02+0000\n"
-"Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
+"PO-Revision-Date: 2020-07-28 15:12+0000\n"
+"Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding/tr/>\n"
 "Language: tr\n"
@@ -57,6 +57,8 @@ msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
+"Flatpak uygulamalarını dışarıdan yükleyebilirsiniz. Örneğin <a "
+"href='https://flathub.org'>Flathub</a>'dan"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -134,65 +136,67 @@ msgstr "Gece Işığı:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Planı ve sıcaklığı ayarlayın…"
 
 #: src/Views/StyleView.vala:26
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Görsel bir stil ve vurgu rengi seçerek tarzınızı yansıtın. Uygulamalar kendi "
+"görünümleri için bu ayarları görmezden gelebilir."
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Görünümünüzü Seçin"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr ""
+msgstr "Varsayılan"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
-msgstr ""
+msgstr "Karanlık"
 
 #: src/Views/StyleView.vala:89
 msgid "Blueberry"
-msgstr ""
+msgstr "Yaban Mersini"
 
 #: src/Views/StyleView.vala:92
 msgid "Strawberry"
-msgstr ""
+msgstr "Çilek"
 
 #: src/Views/StyleView.vala:95
 msgid "Orange"
-msgstr ""
+msgstr "Portakal"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
-msgstr ""
+msgstr "Muz"
 
 #: src/Views/StyleView.vala:101
 msgid "Lime"
-msgstr ""
+msgstr "Misket Limonu"
 
 #: src/Views/StyleView.vala:104
 msgid "Mint"
-msgstr ""
+msgstr "Nane"
 
 #: src/Views/StyleView.vala:107
 msgid "Grape"
-msgstr ""
+msgstr "Üzüm"
 
 #: src/Views/StyleView.vala:110
 msgid "Bubblegum"
-msgstr ""
+msgstr "Balonlu Sakız"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakao"
 
 #: src/Views/StyleView.vala:116
 msgid "Slate"
-msgstr ""
+msgstr "Arduvaz"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
@@ -205,7 +209,7 @@ msgstr ""
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr "Yenilikler"
+msgstr "Neler Yeni"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -219,7 +223,7 @@ msgstr ""
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr "%s - Hoş geldiniz!"
+msgstr "%s 'e Hoş geldiniz!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
