@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 05:20+0000\n"
-"PO-Revision-Date: 2020-07-09 15:12+0000\n"
+"PO-Revision-Date: 2020-07-28 15:12+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -53,15 +53,11 @@ msgid "Browse AppCenter…"
 msgstr "Explorar o Centro de Aplicações…"
 
 #: src/Views/AppCenterView.vala:35
-#, fuzzy
-#| msgid ""
-#| "You can also sideload Flatpak apps i.e. from <a href='https://flathub."
-#| "org'>Flathub</a>"
 msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
-"Também pode carregar paralelamente aplicações Flatpak, ou seja, de <a "
+"Também pode carregar paralelamente aplicações Flatpak, por ex:  de <a "
 "href='https://flathub.org'>Flathub</a>"
 
 #: src/Views/FinishView.vala:22
@@ -147,58 +143,60 @@ msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Torne-o seu, ao escolher um estilo visual e uma cor acentuada. As aplicações "
+"podem sobrepor-se a estas com o seu próprio visual."
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Escolha a sua aparência"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr ""
+msgstr "Predefinido"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
-msgstr ""
+msgstr "Escuro"
 
 #: src/Views/StyleView.vala:89
 msgid "Blueberry"
-msgstr ""
+msgstr "Mirtilo"
 
 #: src/Views/StyleView.vala:92
 msgid "Strawberry"
-msgstr ""
+msgstr "Morango"
 
 #: src/Views/StyleView.vala:95
 msgid "Orange"
-msgstr ""
+msgstr "Laranja"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
-msgstr ""
+msgstr "Banana"
 
 #: src/Views/StyleView.vala:101
 msgid "Lime"
-msgstr ""
+msgstr "Lima"
 
 #: src/Views/StyleView.vala:104
 msgid "Mint"
-msgstr ""
+msgstr "Hortelã"
 
 #: src/Views/StyleView.vala:107
 msgid "Grape"
-msgstr ""
+msgstr "Uva"
 
 #: src/Views/StyleView.vala:110
 msgid "Bubblegum"
-msgstr ""
+msgstr "Pastilha elástica"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"
-msgstr ""
+msgstr "Cacau"
 
 #: src/Views/StyleView.vala:116
 msgid "Slate"
-msgstr ""
+msgstr "Ardósia"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
