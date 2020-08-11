@@ -16,7 +16,7 @@ i18n = import('i18n')
 cc = meson.get_compiler('c')
 
 gee_dep = dependency('gee-0.8')
-glib_dep = dependency('glib-2.0')
+glib_dep = dependency('glib-2.0', version: '>=2.64.0')
 gobject_dep = dependency('gobject-2.0')
 granite_dep = dependency('granite', version: '>=5.5.0')
 gtk_dep = dependency('gtk+-3.0')
