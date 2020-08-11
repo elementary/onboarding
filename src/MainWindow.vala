@@ -107,8 +107,9 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         var switcher = new Switcher (carousel);
         switcher.halign = Gtk.Align.CENTER;
 
-        var finish_label = new Gtk.Label (_("Get Started"));
-        finish_label.opacity = 0;
+        var finish_label = new Gtk.Label (_("Get Started")) {
+            opacity = 0
+        };
 
         var next_label = new Gtk.Label (_("Next"));
 
