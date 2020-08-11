@@ -107,20 +107,25 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         var switcher = new Switcher (carousel);
         switcher.halign = Gtk.Align.CENTER;
 
+        var finish_label = new Gtk.Label (_("Get Started")) {
+            opacity = 0
+        };
+
+        var next_label = new Gtk.Label (_("Next"));
+
         var next_finish_overlay = new Gtk.Overlay ();
+        next_finish_overlay.add (finish_label);
+        next_finish_overlay.add_overlay (next_label);
+        next_finish_overlay.set_overlay_pass_through (finish_label, true);
+        next_finish_overlay.set_overlay_pass_through (next_label, true);
 
-        var finish_button = new Gtk.Button.with_label (_("Get Started"));
-        finish_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
-        next_finish_overlay.add (finish_button);
-
-        var next_button = new Gtk.Button.with_label (_("Next"));
+        var next_button = new Gtk.Button ();
         next_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
-        next_finish_overlay.add_overlay (next_button);
+        next_button.add (next_finish_overlay);
 
         buttons_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.BOTH);
         buttons_group.add_widget (skip_revealer);
         buttons_group.add_widget (next_button);
-        buttons_group.add_widget (finish_button);
 
         var action_area = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL);
         action_area.margin_start = action_area.margin_end = 10;
@@ -130,7 +135,7 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         action_area.layout_style = Gtk.ButtonBoxStyle.EDGE;
         action_area.add (skip_revealer);
         action_area.add (switcher);
-        action_area.add (next_finish_overlay);
+        action_area.add (next_button);
         action_area.set_child_non_homogeneous (switcher, true);
 
         var grid = new Gtk.Grid ();
@@ -158,8 +163,9 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             skip_button.opacity = opacity;
             skip_revealer.reveal_child = opacity > 0;
 
-            next_button.opacity = opacity;
-            next_button.visible = opacity > 0;
+            next_label.opacity = opacity;
+
+            finish_label.opacity = 1 - opacity;
         });
 
         next_button.clicked.connect (() => {
@@ -167,11 +173,9 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             int index = (int) Math.round (carousel.position);
             if (index < current_views.length () - 1) {
                 carousel.scroll_to (current_views.nth_data (index + 1));
+            } else {
+                destroy ();
             }
-        });
-
-        finish_button.clicked.connect (() => {
-            destroy ();
         });
 
         skip_button.clicked.connect (() => {
