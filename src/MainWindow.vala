@@ -54,6 +54,12 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             carousel.add (welcome_view);
         }
 
+        var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
+        if (interface_settings.get_string ("gtk-theme").has_prefix ("io.elementary.stylesheet.")) {
+            var style_view = new StyleView ();
+            carousel.add (style_view);
+        }
+
         var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, true);
         if (lookup != null) {
             var location_services_view = new LocationServicesView ();
@@ -181,6 +187,15 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             }
 
             carousel.scroll_to (finish_view);
+        });
+
+        var granite_settings = Granite.Settings.get_default ();
+        var gtk_settings = Gtk.Settings.get_default ();
+
+        gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
+
+        granite_settings.notify["prefers-color-scheme"].connect (() => {
+            gtk_settings.gtk_application_prefer_dark_theme = granite_settings.prefers_color_scheme == Granite.Settings.ColorScheme.DARK;
         });
     }
 

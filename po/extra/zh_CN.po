@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 18:15+0000\n"
-"PO-Revision-Date: 2020-05-23 09:11+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"PO-Revision-Date: 2020-08-08 14:13+0000\n"
+"Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
-msgstr "欢迎！"
+msgstr "欢迎"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"

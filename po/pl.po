@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-26 17:49+0000\n"
+"POT-Creation-Date: 2020-07-23 05:20+0000\n"
 "PO-Revision-Date: 2019-11-17 20:24+0000\n"
 "Last-Translator: DokiDokiMagikku <jakubekbugajski@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
@@ -20,20 +20,20 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.7.1\n"
 
-#: src/MainWindow.vala:32
+#: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
 msgstr "Konfiguracja %s"
 
-#: src/MainWindow.vala:93
+#: src/MainWindow.vala:100
 msgid "Skip All"
 msgstr "Pomiń wszystko"
 
-#: src/MainWindow.vala:105
+#: src/MainWindow.vala:112
 msgid "Get Started"
 msgstr "Rozpocznij"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:116
 msgid "Next"
 msgstr "Dalej"
 
@@ -55,7 +55,7 @@ msgstr "Przeglądaj AppCenter…"
 
 #: src/Views/AppCenterView.vala:35
 msgid ""
-"You can also sideload Flatpak apps i.e. from <a href='https://flathub."
+"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
 
@@ -132,6 +132,68 @@ msgstr "Światło nocne"
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
 msgstr "Światło nocne:"
+
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
+msgstr ""
+
+#: src/Views/StyleView.vala:26
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
+msgstr ""
+
+#: src/Views/StyleView.vala:28
+msgid "Choose Your Look"
+msgstr ""
+
+#: src/Views/StyleView.vala:53
+msgid "Default"
+msgstr ""
+
+#: src/Views/StyleView.vala:79
+msgid "Dark"
+msgstr ""
+
+#: src/Views/StyleView.vala:89
+msgid "Blueberry"
+msgstr ""
+
+#: src/Views/StyleView.vala:92
+msgid "Strawberry"
+msgstr ""
+
+#: src/Views/StyleView.vala:95
+msgid "Orange"
+msgstr ""
+
+#: src/Views/StyleView.vala:98
+msgid "Banana"
+msgstr ""
+
+#: src/Views/StyleView.vala:101
+msgid "Lime"
+msgstr ""
+
+#: src/Views/StyleView.vala:104
+msgid "Mint"
+msgstr ""
+
+#: src/Views/StyleView.vala:107
+msgid "Grape"
+msgstr ""
+
+#: src/Views/StyleView.vala:110
+msgid "Bubblegum"
+msgstr ""
+
+#: src/Views/StyleView.vala:113
+msgid "Cocoa"
+msgstr ""
+
+#: src/Views/StyleView.vala:116
+msgid "Slate"
+msgstr ""
 
 #: src/Views/UpdateView.vala:22
 msgid ""

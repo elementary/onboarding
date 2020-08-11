@@ -27,7 +27,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
 
     construct {
         var thebasics_link = new ImageLinkButton (
-            "https://elementary.io/docs/learning-the-basics#learning-the-basics",
+            Utils.documentation_url,
             _("Basics Guide…"),
             "text-x-generic-symbolic"
         );
