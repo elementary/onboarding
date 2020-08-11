@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-06 17:55+0000\n"
-"PO-Revision-Date: 2020-05-16 03:10+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"POT-Creation-Date: 2020-07-23 05:20+0000\n"
+"PO-Revision-Date: 2020-08-08 14:13+0000\n"
+"Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "配置 %s"
 
-#: src/MainWindow.vala:94
+#: src/MainWindow.vala:100
 msgid "Skip All"
 msgstr "跳过所有"
 
-#: src/MainWindow.vala:106
+#: src/MainWindow.vala:112
 msgid "Get Started"
 msgstr "开始"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:116
 msgid "Next"
 msgstr "下一个"
 
@@ -54,9 +54,9 @@ msgstr "浏览应用中心…"
 
 #: src/Views/AppCenterView.vala:35
 msgid ""
-"You can also sideload Flatpak apps i.e. from <a href='https://flathub."
+"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
-msgstr ""
+msgstr "您还可以从 <a href='https://flathub.org'>Flathub</a> 等网站下载并安装 Flatpak 应用程序"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -128,6 +128,64 @@ msgstr "夜灯："
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
+msgstr "调节日程与色温…"
+
+#: src/Views/StyleView.vala:26
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
+msgstr "选择视觉风格与强调色来个性化。应用程序可能会以自己的外观来显示。"
+
+#: src/Views/StyleView.vala:28
+msgid "Choose Your Look"
+msgstr "选择你的外观"
+
+#: src/Views/StyleView.vala:53
+msgid "Default"
+msgstr "默认"
+
+#: src/Views/StyleView.vala:79
+msgid "Dark"
+msgstr "黑色"
+
+#: src/Views/StyleView.vala:89
+msgid "Blueberry"
+msgstr "蓝莓色"
+
+#: src/Views/StyleView.vala:92
+msgid "Strawberry"
+msgstr "草莓红"
+
+#: src/Views/StyleView.vala:95
+msgid "Orange"
+msgstr "橙色"
+
+#: src/Views/StyleView.vala:98
+msgid "Banana"
+msgstr "香蕉黄"
+
+#: src/Views/StyleView.vala:101
+msgid "Lime"
+msgstr "青柠色"
+
+#: src/Views/StyleView.vala:104
+msgid "Mint"
+msgstr "薄荷绿"
+
+#: src/Views/StyleView.vala:107
+msgid "Grape"
+msgstr "葡萄紫"
+
+#: src/Views/StyleView.vala:110
+msgid "Bubblegum"
+msgstr "口香糖"
+
+#: src/Views/StyleView.vala:113
+msgid "Cocoa"
+msgstr "可可色"
+
+#: src/Views/StyleView.vala:116
+msgid "Slate"
 msgstr ""
 
 #: src/Views/UpdateView.vala:22

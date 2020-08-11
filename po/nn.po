@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-06 17:55+0000\n"
-"PO-Revision-Date: 2020-07-17 13:12+0000\n"
+"POT-Creation-Date: 2020-07-23 05:20+0000\n"
+"PO-Revision-Date: 2020-07-25 17:12+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
 "installer/onboarding/nn/>\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Sett opp %s"
 
-#: src/MainWindow.vala:94
+#: src/MainWindow.vala:100
 msgid "Skip All"
 msgstr "Hopp over alt"
 
-#: src/MainWindow.vala:106
+#: src/MainWindow.vala:112
 msgid "Get Started"
 msgstr "Kom i gong"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:116
 msgid "Next"
 msgstr "Neste"
 
@@ -54,7 +54,7 @@ msgstr "Sjå gjennom AppCenter…"
 
 #: src/Views/AppCenterView.vala:35
 msgid ""
-"You can also sideload Flatpak apps i.e. from <a href='https://flathub."
+"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
 "Du kan hente inn Flatpak-appar frå til dømes <a "
@@ -107,31 +107,95 @@ msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"Få ei varsling når ein app forsøker å bruka lokalisasjonen til maskina. Om "
+"denne er skrudd av vil alle forsøk på dette bli nekta."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
-msgstr ""
+msgstr "Stadstenester"
 
 #: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
-msgstr ""
+msgstr "Stadstenester:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Gjer fargane på skjermen din varmare på kvelden for å unngå unødig "
+"belastning på augene dine."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Nattlys"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr ""
+msgstr "Nattlys:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
+msgstr "Tilpass tidsplan og temperatur…"
+
+#: src/Views/StyleView.vala:26
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
+msgstr ""
+"Tilpass det slik du ynskjer med å velga ein visuell stil og aksentfargar. "
+"Appar kan overkøyra dette med sin eigen utsjånad."
+
+#: src/Views/StyleView.vala:28
+msgid "Choose Your Look"
+msgstr "Velg din stil"
+
+#: src/Views/StyleView.vala:53
+msgid "Default"
+msgstr "Standard"
+
+#: src/Views/StyleView.vala:79
+msgid "Dark"
+msgstr "Mørk"
+
+#: src/Views/StyleView.vala:89
+msgid "Blueberry"
+msgstr "Blåbær"
+
+#: src/Views/StyleView.vala:92
+msgid "Strawberry"
+msgstr "Jordbær"
+
+#: src/Views/StyleView.vala:95
+msgid "Orange"
+msgstr "Oransje"
+
+#: src/Views/StyleView.vala:98
+msgid "Banana"
+msgstr "Banan"
+
+#: src/Views/StyleView.vala:101
+msgid "Lime"
+msgstr "Lime"
+
+#: src/Views/StyleView.vala:104
+msgid "Mint"
+msgstr ""
+
+#: src/Views/StyleView.vala:107
+msgid "Grape"
+msgstr ""
+
+#: src/Views/StyleView.vala:110
+msgid "Bubblegum"
+msgstr ""
+
+#: src/Views/StyleView.vala:113
+msgid "Cocoa"
+msgstr ""
+
+#: src/Views/StyleView.vala:116
+msgid "Slate"
 msgstr ""
 
 #: src/Views/UpdateView.vala:22

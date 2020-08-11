@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-06 17:55+0000\n"
-"PO-Revision-Date: 2020-07-09 15:12+0000\n"
+"POT-Creation-Date: 2020-07-23 05:20+0000\n"
+"PO-Revision-Date: 2020-07-28 15:12+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Configurar %s"
 
-#: src/MainWindow.vala:94
+#: src/MainWindow.vala:100
 msgid "Skip All"
 msgstr "Ignorar tudo"
 
-#: src/MainWindow.vala:106
+#: src/MainWindow.vala:112
 msgid "Get Started"
 msgstr "Iniciar"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:116
 msgid "Next"
 msgstr "Próximo"
 
@@ -54,10 +54,10 @@ msgstr "Explorar o Centro de Aplicações…"
 
 #: src/Views/AppCenterView.vala:35
 msgid ""
-"You can also sideload Flatpak apps i.e. from <a href='https://flathub."
+"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
-"Também pode carregar paralelamente aplicações Flatpak, ou seja, de <a "
+"Também pode carregar paralelamente aplicações Flatpak, por ex:  de <a "
 "href='https://flathub.org'>Flathub</a>"
 
 #: src/Views/FinishView.vala:22
@@ -137,6 +137,66 @@ msgstr "Luz Noturna:"
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
 msgstr "Ajustar o horário e a temperatura…"
+
+#: src/Views/StyleView.vala:26
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
+msgstr ""
+"Torne-o seu, ao escolher um estilo visual e uma cor acentuada. As aplicações "
+"podem sobrepor-se a estas com o seu próprio visual."
+
+#: src/Views/StyleView.vala:28
+msgid "Choose Your Look"
+msgstr "Escolha a sua aparência"
+
+#: src/Views/StyleView.vala:53
+msgid "Default"
+msgstr "Predefinido"
+
+#: src/Views/StyleView.vala:79
+msgid "Dark"
+msgstr "Escuro"
+
+#: src/Views/StyleView.vala:89
+msgid "Blueberry"
+msgstr "Mirtilo"
+
+#: src/Views/StyleView.vala:92
+msgid "Strawberry"
+msgstr "Morango"
+
+#: src/Views/StyleView.vala:95
+msgid "Orange"
+msgstr "Laranja"
+
+#: src/Views/StyleView.vala:98
+msgid "Banana"
+msgstr "Banana"
+
+#: src/Views/StyleView.vala:101
+msgid "Lime"
+msgstr "Lima"
+
+#: src/Views/StyleView.vala:104
+msgid "Mint"
+msgstr "Hortelã"
+
+#: src/Views/StyleView.vala:107
+msgid "Grape"
+msgstr "Uva"
+
+#: src/Views/StyleView.vala:110
+msgid "Bubblegum"
+msgstr "Pastilha elástica"
+
+#: src/Views/StyleView.vala:113
+msgid "Cocoa"
+msgstr "Cacau"
+
+#: src/Views/StyleView.vala:116
+msgid "Slate"
+msgstr "Ardósia"
 
 #: src/Views/UpdateView.vala:22
 msgid ""

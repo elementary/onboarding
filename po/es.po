@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-06 17:55+0000\n"
-"PO-Revision-Date: 2020-02-25 21:08+0000\n"
+"POT-Creation-Date: 2020-07-23 05:20+0000\n"
+"PO-Revision-Date: 2020-07-25 17:12+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
 "onboarding/es/>\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Configurar %s"
 
-#: src/MainWindow.vala:94
+#: src/MainWindow.vala:100
 msgid "Skip All"
 msgstr "Omitir todo"
 
-#: src/MainWindow.vala:106
+#: src/MainWindow.vala:112
 msgid "Get Started"
 msgstr "Primeros pasos"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:116
 msgid "Next"
 msgstr "Siguiente"
 
@@ -55,9 +55,11 @@ msgstr "Explorar el Centro de aplicaciones…"
 
 #: src/Views/AppCenterView.vala:35
 msgid ""
-"You can also sideload Flatpak apps i.e. from <a href='https://flathub."
+"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
+"También es posible instalar manualmente aplicaciones empaquetadas con "
+"Flatpak desde <a href='https://flathub.org'>Flathub</a>"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -136,7 +138,67 @@ msgstr "Luz nocturna:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
+msgstr "Ajustar programación y temperatura…"
+
+#: src/Views/StyleView.vala:26
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
 msgstr ""
+"Elija el estilo visual y el color de realce que prefiera. Algunas "
+"aplicaciones pueden utilizar su propia apariencia."
+
+#: src/Views/StyleView.vala:28
+msgid "Choose Your Look"
+msgstr "Elija la apariencia"
+
+#: src/Views/StyleView.vala:53
+msgid "Default"
+msgstr "Predeterminada"
+
+#: src/Views/StyleView.vala:79
+msgid "Dark"
+msgstr "Oscura"
+
+#: src/Views/StyleView.vala:89
+msgid "Blueberry"
+msgstr "Arándano"
+
+#: src/Views/StyleView.vala:92
+msgid "Strawberry"
+msgstr "Fresa"
+
+#: src/Views/StyleView.vala:95
+msgid "Orange"
+msgstr "Naranja"
+
+#: src/Views/StyleView.vala:98
+msgid "Banana"
+msgstr "Plátano"
+
+#: src/Views/StyleView.vala:101
+msgid "Lime"
+msgstr "Lima"
+
+#: src/Views/StyleView.vala:104
+msgid "Mint"
+msgstr "Menta"
+
+#: src/Views/StyleView.vala:107
+msgid "Grape"
+msgstr "Uva"
+
+#: src/Views/StyleView.vala:110
+msgid "Bubblegum"
+msgstr "Chicle"
+
+#: src/Views/StyleView.vala:113
+msgid "Cocoa"
+msgstr "Cacao"
+
+#: src/Views/StyleView.vala:116
+msgid "Slate"
+msgstr "Pizarra"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
