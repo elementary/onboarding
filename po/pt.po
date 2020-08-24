@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 05:20+0000\n"
-"PO-Revision-Date: 2020-07-28 15:12+0000\n"
+"PO-Revision-Date: 2020-08-25 14:13+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -34,7 +34,7 @@ msgstr "Iniciar"
 
 #: src/MainWindow.vala:116
 msgid "Next"
-msgstr "Próximo"
+msgstr "Seguinte"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
@@ -42,11 +42,11 @@ msgid ""
 "and reviewed by elementary."
 msgstr ""
 "Obtenha as aplicações de que precisa no Centro de Aplicações. As aplicações "
-"curadas são feitas para o elementary OS e revistas pela elementary."
+"curadas são feitas para o elementary OS e revistas pelo elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr "Obter algumas aplicações"
+msgstr "Obtenha algumas aplicações"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
@@ -235,7 +235,7 @@ msgstr "Suporte da Comunidade…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr "Envolva-se…"
+msgstr "Participe…"
 
 #~ msgid ""
 #~ "While Location Services are enabled, apps will be able to make requests "
