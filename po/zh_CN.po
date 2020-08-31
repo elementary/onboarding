@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-23 05:20+0000\n"
-"PO-Revision-Date: 2020-08-08 14:13+0000\n"
+"PO-Revision-Date: 2020-09-01 05:13+0000\n"
 "Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hans/>\n"
@@ -63,11 +63,11 @@ msgstr "您还可以从 <a href='https://flathub.org'>Flathub</a> 等网站下�
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
-msgstr "欢迎使用 %s ! 您随时可以访问系统设置应用更改硬件选项及您的偏好。"
+msgstr "开始享受 %s 吧！您随时可以访问系统设置应用更改硬件选项及您的偏好。"
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr "系统已就绪"
+msgstr "系统已准备就绪"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
@@ -75,7 +75,7 @@ msgstr "打开系统设置…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr "清理空间"
+msgstr "自动清理"
 
 #: src/Views/HouseKeepingView.vala:30
 #, c-format
@@ -134,7 +134,7 @@ msgstr "调节日程与色温…"
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
-msgstr "选择视觉风格与强调色来个性化。应用程序可能会以自己的外观来显示。"
+msgstr "选择视觉风格与强调色，个性化你的操作系统。应用程序可能会以自己的外观来显示。"
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
@@ -186,15 +186,13 @@ msgstr "可可色"
 
 #: src/Views/StyleView.vala:116
 msgid "Slate"
-msgstr ""
+msgstr "石头灰"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"想了解更多实用功能？请访问我们的 <a href='https://blog.elementary.io'>博客</"
-"a>."
+msgstr "想了解更多实用功能？请访问我们的 <a href='https://blog.elementary.io'>博客</a>。"
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
