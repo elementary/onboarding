@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-23 05:20+0000\n"
+"POT-Creation-Date: 2020-09-10 16:56+0000\n"
 "PO-Revision-Date: 2020-08-25 14:13+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
@@ -28,11 +28,11 @@ msgstr "הגדרת %s"
 msgid "Skip All"
 msgstr "לדלג על הכול"
 
-#: src/MainWindow.vala:112
+#: src/MainWindow.vala:110
 msgid "Get Started"
 msgstr "מאיפה מתחילים"
 
-#: src/MainWindow.vala:116
+#: src/MainWindow.vala:114
 msgid "Next"
 msgstr "הבא"
 
@@ -57,8 +57,8 @@ msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
-"ניתן לטעון יישומי Flatpak מהצד, למשל דרך <a "
-"href='https://flathub.org'>Flathub</a>"
+"ניתן לטעון יישומי Flatpak מהצד, למשל דרך <a href='https://flathub."
+"org'>Flathub</a>"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -95,7 +95,9 @@ msgid "Automatically Delete:"
 msgstr "למחיקה אוטומטית:"
 
 #: src/Views/HouseKeepingView.vala:34
-msgid "Temporary files"
+#, fuzzy
+#| msgid "Temporary files"
+msgid "Old temporary files"
 msgstr "קבצים זמניים"
 
 #: src/Views/HouseKeepingView.vala:37

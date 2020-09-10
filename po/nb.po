@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-23 05:20+0000\n"
+"POT-Creation-Date: 2020-09-10 16:56+0000\n"
 "PO-Revision-Date: 2019-11-15 22:24+0000\n"
 "Last-Translator: Nils K <slx@nilsk.net>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -28,11 +28,11 @@ msgstr "Sett opp %s"
 msgid "Skip All"
 msgstr "Hopp over alle"
 
-#: src/MainWindow.vala:112
+#: src/MainWindow.vala:110
 msgid "Get Started"
 msgstr "Kom i gang"
 
-#: src/MainWindow.vala:116
+#: src/MainWindow.vala:114
 msgid "Next"
 msgstr "Neste"
 
@@ -93,7 +93,9 @@ msgid "Automatically Delete:"
 msgstr "Slett automatisk:"
 
 #: src/Views/HouseKeepingView.vala:34
-msgid "Temporary files"
+#, fuzzy
+#| msgid "Temporary files"
+msgid "Old temporary files"
 msgstr "Midlertidige filer"
 
 #: src/Views/HouseKeepingView.vala:37

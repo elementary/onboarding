@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-23 05:20+0000\n"
+"POT-Creation-Date: 2020-09-10 16:56+0000\n"
 "PO-Revision-Date: 2019-09-02 12:22+0000\n"
 "Last-Translator: Nicolas <emailchecker000@gmail.com>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
@@ -28,11 +28,11 @@ msgstr "%s einrichten"
 msgid "Skip All"
 msgstr "Alles überspringen"
 
-#: src/MainWindow.vala:112
+#: src/MainWindow.vala:110
 msgid "Get Started"
 msgstr "Beginnen"
 
-#: src/MainWindow.vala:116
+#: src/MainWindow.vala:114
 msgid "Next"
 msgstr "Weiter"
 
@@ -93,7 +93,9 @@ msgid "Automatically Delete:"
 msgstr "Automatisch löschen:"
 
 #: src/Views/HouseKeepingView.vala:34
-msgid "Temporary files"
+#, fuzzy
+#| msgid "Temporary files"
+msgid "Old temporary files"
 msgstr "Temporäre Dateien"
 
 #: src/Views/HouseKeepingView.vala:37

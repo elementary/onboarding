@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-23 05:20+0000\n"
+"POT-Creation-Date: 2020-09-10 16:56+0000\n"
 "PO-Revision-Date: 2020-07-28 15:12+0000\n"
 "Last-Translator: Sinan Decron <intenfinitia@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
@@ -28,11 +28,11 @@ msgstr "%s Kurulumu"
 msgid "Skip All"
 msgstr "Tümünü Atla"
 
-#: src/MainWindow.vala:112
+#: src/MainWindow.vala:110
 msgid "Get Started"
 msgstr "Hemen Başlayın"
 
-#: src/MainWindow.vala:116
+#: src/MainWindow.vala:114
 msgid "Next"
 msgstr "İleri"
 
@@ -57,8 +57,8 @@ msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
-"Flatpak uygulamalarını dışarıdan yükleyebilirsiniz. Örneğin <a "
-"href='https://flathub.org'>Flathub</a>'dan"
+"Flatpak uygulamalarını dışarıdan yükleyebilirsiniz. Örneğin <a href='https://"
+"flathub.org'>Flathub</a>'dan"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -95,7 +95,9 @@ msgid "Automatically Delete:"
 msgstr "Otomatik Olarak Sil:"
 
 #: src/Views/HouseKeepingView.vala:34
-msgid "Temporary files"
+#, fuzzy
+#| msgid "Temporary files"
+msgid "Old temporary files"
 msgstr "Geçici dosyalar"
 
 #: src/Views/HouseKeepingView.vala:37
