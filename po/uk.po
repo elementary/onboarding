@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-10 16:56+0000\n"
-"PO-Revision-Date: 2020-09-12 23:11+0000\n"
+"PO-Revision-Date: 2020-09-15 03:14+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding/uk/>\n"
@@ -23,39 +23,43 @@ msgstr ""
 #: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "Налаштування %s"
 
 #: src/MainWindow.vala:100
 msgid "Skip All"
-msgstr ""
+msgstr "Пропустити все"
 
 #: src/MainWindow.vala:110
 msgid "Get Started"
-msgstr ""
+msgstr "Почати користуватися"
 
 #: src/MainWindow.vala:114
 msgid "Next"
-msgstr ""
+msgstr "Далі"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"Отримайте потрібні вам застосунки в центрі застосунків. Перевірені "
+"застосунки створено для elementary OS та переглянуто командою elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Отримання застосунків"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "Відкрити центр застосунків…"
 
 #: src/Views/AppCenterView.vala:35
 msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
+"Ви також можете завантажити застосунки Flatpak, наприклад з <a "
+"href='https://flathub.org'>Flathub</a>"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -63,18 +67,20 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Насолоджуйтесь користуванням %s! Ви завжди можете відвідати системні "
+"параметри, щоб налаштувати обладнання або змінити свої налаштування."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "Все готово"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Відкрити системні параметри…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr ""
+msgstr "Підтримання чистоти"
 
 #: src/Views/HouseKeepingView.vala:30
 #, c-format
@@ -82,118 +88,129 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
+"Старі файли можна видалити автоматично через %u днів, щоб заощадити простір "
+"та захистити вашу приватність."
 
 #: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Автоматично видаляти:"
 
 #: src/Views/HouseKeepingView.vala:34
 msgid "Old temporary files"
-msgstr ""
+msgstr "Старі тимчасові файли"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr ""
+msgstr "Файли зі смітника"
 
 #: src/Views/LocationServicesView.vala:22
 msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"Отримуйте запит, коли програма запитує розташування цього пристрою. Якщо "
+"вимкнути, всі запити розташування буде відхилено."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
-msgstr ""
+msgstr "Служби розташування"
 
 #: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
-msgstr ""
+msgstr "Служби розташування:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Зробіть кольори екрана теплішими вночі, щоб запобігти перенапруженню очей та "
+"безсонню."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Нічне світло"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr ""
+msgstr "Нічне світло:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Налаштувати розклад і температуру…"
 
 #: src/Views/StyleView.vala:26
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Додайте власних рис, вибравши візуальний стиль та основний колір. Застосунки "
+"можуть замінити їх власним оформленням."
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Виберіть свій стиль"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr "Типово"
+msgstr "Типовий"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
-msgstr ""
+msgstr "Темний"
 
 #: src/Views/StyleView.vala:89
 msgid "Blueberry"
-msgstr ""
+msgstr "Чорничний"
 
 #: src/Views/StyleView.vala:92
 msgid "Strawberry"
-msgstr ""
+msgstr "Полуничний"
 
 #: src/Views/StyleView.vala:95
 msgid "Orange"
-msgstr ""
+msgstr "Помаранчевий"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
-msgstr ""
+msgstr "Банановий"
 
 #: src/Views/StyleView.vala:101
 msgid "Lime"
-msgstr ""
+msgstr "Лаймовий"
 
 #: src/Views/StyleView.vala:104
 msgid "Mint"
-msgstr ""
+msgstr "М'ятний"
 
 #: src/Views/StyleView.vala:107
 msgid "Grape"
-msgstr ""
+msgstr "Виноградний"
 
 #: src/Views/StyleView.vala:110
 msgid "Bubblegum"
-msgstr ""
+msgstr "Жуйка"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"
-msgstr ""
+msgstr "Какаовий"
 
 #: src/Views/StyleView.vala:116
 msgid "Slate"
-msgstr ""
+msgstr "Кам'яно-сірий"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
+"Продовжуйте налаштовувати деякі корисні нові функції. Щоб отримати "
+"докладніші відомості про оновлення, перегляньте <a "
+"href='https://blog.elementary.io'>наш блог</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr ""
+msgstr "Що нового"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -201,20 +218,22 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Продовжуйте налаштовувати деякі корисні функції. Перейдіть за вказаними "
+"посиланнями, щоб отримати додаткові відомості про %s."
 
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Ласкаво просимо до %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Посібник з основ…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr ""
+msgstr "Підтримка спільноти…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "Долучитися…"
