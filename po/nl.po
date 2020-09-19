@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-10 16:56+0000\n"
-"PO-Revision-Date: 2020-08-19 13:13+0000\n"
-"Last-Translator: Lieven Hanssen <lhanssen@freedommail.co>\n"
+"PO-Revision-Date: 2020-09-20 09:14+0000\n"
+"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding/nl/>\n"
 "Language: nl\n"
@@ -96,10 +96,8 @@ msgid "Automatically Delete:"
 msgstr "Automatisch verwijderen:"
 
 #: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
 msgid "Old temporary files"
-msgstr "Tijdelijke bestanden"
+msgstr "Oude tijdelijke bestanden"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
