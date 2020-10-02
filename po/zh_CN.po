@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-10 16:56+0000\n"
-"PO-Revision-Date: 2020-09-01 05:13+0000\n"
+"PO-Revision-Date: 2020-10-03 11:14+0000\n"
 "Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hans/>\n"
@@ -183,7 +183,7 @@ msgstr "葡萄紫"
 
 #: src/Views/StyleView.vala:110
 msgid "Bubblegum"
-msgstr "口香糖"
+msgstr "泡泡糖粉"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"
