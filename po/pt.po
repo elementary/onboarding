@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-10 16:56+0000\n"
-"PO-Revision-Date: 2020-09-12 23:11+0000\n"
+"PO-Revision-Date: 2020-10-10 13:25+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -42,7 +42,7 @@ msgid ""
 "and reviewed by elementary."
 msgstr ""
 "Obtenha as aplicações de que precisa no Centro de Aplicações. As aplicações "
-"curadas são feitas para o elementary OS e revistas pelo elementary."
+"categorizadas são feitas para o elementary OS e revistas pelo elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -128,11 +128,11 @@ msgstr ""
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr "Luz Noturna"
+msgstr "Luz noturna"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr "Luz Noturna:"
+msgstr "Luz noturna:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
