@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-10 16:56+0000\n"
+"POT-Creation-Date: 2020-10-13 21:25+0000\n"
 "PO-Revision-Date: 2020-09-21 15:14+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
@@ -57,8 +57,7 @@ msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
-"आपण फ्लॅटपॅक अ‍ॅप्स बाजूला करू शकता उदा.<a href='https://flathub.org'> फ्लॅट "
-"हब</a> कडून"
+"आपण फ्लॅटपॅक अ‍ॅप्स बाजूला करू शकता उदा.<a href='https://flathub.org'> फ्लॅट हब</a> कडून"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -141,8 +140,8 @@ msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
-"व्हिज्युअल शैली आणि उच्चारण रंग निवडून त्यास आपले स्वत: चे बनवा. अ‍ॅप कदाचित "
-"त्यांच्या स्वत: च्या देखाव्याने ते अधिलिखित करेल."
+"व्हिज्युअल शैली आणि उच्चारण रंग निवडून त्यास आपले स्वत: चे बनवा. अ‍ॅप कदाचित त्यांच्या स्वत: "
+"च्या देखाव्याने ते अधिलिखित करेल."
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
@@ -161,32 +160,32 @@ msgid "Blueberry"
 msgstr "ब्लूबेरी"
 
 #: src/Views/StyleView.vala:92
-msgid "Strawberry"
-msgstr "स्ट्रॉबेरी"
+msgid "Mint"
+msgstr "पुदीना"
 
 #: src/Views/StyleView.vala:95
-msgid "Orange"
-msgstr "संत्रे"
+msgid "Lime"
+msgstr "लिंबू"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
 msgstr "केळी"
 
 #: src/Views/StyleView.vala:101
-msgid "Lime"
-msgstr "लिंबू"
+msgid "Orange"
+msgstr "संत्रे"
 
 #: src/Views/StyleView.vala:104
-msgid "Mint"
-msgstr "पुदीना"
+msgid "Strawberry"
+msgstr "स्ट्रॉबेरी"
 
 #: src/Views/StyleView.vala:107
-msgid "Grape"
-msgstr "द्राक्ष"
-
-#: src/Views/StyleView.vala:110
 msgid "Bubblegum"
 msgstr "बबलगम"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "द्राक्ष"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"

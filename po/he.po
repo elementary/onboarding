@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-10 16:56+0000\n"
+"POT-Creation-Date: 2020-10-13 21:25+0000\n"
 "PO-Revision-Date: 2020-10-04 13:14+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
@@ -163,32 +163,32 @@ msgid "Blueberry"
 msgstr "אוכמניה"
 
 #: src/Views/StyleView.vala:92
-msgid "Strawberry"
-msgstr "תות"
+msgid "Mint"
+msgstr "נענע"
 
 #: src/Views/StyleView.vala:95
-msgid "Orange"
-msgstr "תפוז"
+msgid "Lime"
+msgstr "ליים"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
 msgstr "בננה"
 
 #: src/Views/StyleView.vala:101
-msgid "Lime"
-msgstr "ליים"
+msgid "Orange"
+msgstr "תפוז"
 
 #: src/Views/StyleView.vala:104
-msgid "Mint"
-msgstr "נענע"
+msgid "Strawberry"
+msgstr "תות"
 
 #: src/Views/StyleView.vala:107
-msgid "Grape"
-msgstr "ענב"
-
-#: src/Views/StyleView.vala:110
 msgid "Bubblegum"
 msgstr "מסטיק"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "ענב"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-10 16:56+0000\n"
+"POT-Creation-Date: 2020-10-13 21:25+0000\n"
 "PO-Revision-Date: 2020-09-12 23:11+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
@@ -164,32 +164,32 @@ msgid "Blueberry"
 msgstr "ブルーベリー"
 
 #: src/Views/StyleView.vala:92
-msgid "Strawberry"
-msgstr "ストロベリー"
+msgid "Mint"
+msgstr "ミント"
 
 #: src/Views/StyleView.vala:95
-msgid "Orange"
-msgstr "オレンジ"
+msgid "Lime"
+msgstr "ライム"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
 msgstr "バナナ"
 
 #: src/Views/StyleView.vala:101
-msgid "Lime"
-msgstr "ライム"
+msgid "Orange"
+msgstr "オレンジ"
 
 #: src/Views/StyleView.vala:104
-msgid "Mint"
-msgstr "ミント"
+msgid "Strawberry"
+msgstr "ストロベリー"
 
 #: src/Views/StyleView.vala:107
-msgid "Grape"
-msgstr "グレープ"
-
-#: src/Views/StyleView.vala:110
 msgid "Bubblegum"
 msgstr "ピンク"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "グレープ"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"

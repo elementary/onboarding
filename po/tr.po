@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-10 16:56+0000\n"
+"POT-Creation-Date: 2020-10-13 21:25+0000\n"
 "PO-Revision-Date: 2020-09-12 23:11+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
@@ -163,32 +163,32 @@ msgid "Blueberry"
 msgstr "Yaban Mersini"
 
 #: src/Views/StyleView.vala:92
-msgid "Strawberry"
-msgstr "Çilek"
+msgid "Mint"
+msgstr "Nane"
 
 #: src/Views/StyleView.vala:95
-msgid "Orange"
-msgstr "Portakal"
+msgid "Lime"
+msgstr "Misket Limonu"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
 msgstr "Muz"
 
 #: src/Views/StyleView.vala:101
-msgid "Lime"
-msgstr "Misket Limonu"
+msgid "Orange"
+msgstr "Portakal"
 
 #: src/Views/StyleView.vala:104
-msgid "Mint"
-msgstr "Nane"
+msgid "Strawberry"
+msgstr "Çilek"
 
 #: src/Views/StyleView.vala:107
-msgid "Grape"
-msgstr "Üzüm"
-
-#: src/Views/StyleView.vala:110
 msgid "Bubblegum"
 msgstr "Balonlu Sakız"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "Üzüm"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"

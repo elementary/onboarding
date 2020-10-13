@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-10 16:56+0000\n"
+"POT-Creation-Date: 2020-10-13 21:25+0000\n"
 "PO-Revision-Date: 2020-08-17 09:13+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
@@ -165,32 +165,32 @@ msgid "Blueberry"
 msgstr "Mustikka"
 
 #: src/Views/StyleView.vala:92
-msgid "Strawberry"
-msgstr "Mansikka"
+msgid "Mint"
+msgstr "Minttu"
 
 #: src/Views/StyleView.vala:95
-msgid "Orange"
-msgstr "Appelsiini"
+msgid "Lime"
+msgstr "Lime"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
 msgstr "Banaani"
 
 #: src/Views/StyleView.vala:101
-msgid "Lime"
-msgstr "Lime"
+msgid "Orange"
+msgstr "Appelsiini"
 
 #: src/Views/StyleView.vala:104
-msgid "Mint"
-msgstr "Minttu"
+msgid "Strawberry"
+msgstr "Mansikka"
 
 #: src/Views/StyleView.vala:107
-msgid "Grape"
-msgstr "Rypäle"
-
-#: src/Views/StyleView.vala:110
 msgid "Bubblegum"
 msgstr "Purukumi"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "Rypäle"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"

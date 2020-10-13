@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-10 16:56+0000\n"
+"POT-Creation-Date: 2020-10-13 21:25+0000\n"
 "PO-Revision-Date: 2020-09-16 21:14+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
@@ -165,32 +165,32 @@ msgid "Blueberry"
 msgstr "Arándano"
 
 #: src/Views/StyleView.vala:92
-msgid "Strawberry"
-msgstr "Fresa"
+msgid "Mint"
+msgstr "Menta"
 
 #: src/Views/StyleView.vala:95
-msgid "Orange"
-msgstr "Naranja"
+msgid "Lime"
+msgstr "Lima"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
 msgstr "Plátano"
 
 #: src/Views/StyleView.vala:101
-msgid "Lime"
-msgstr "Lima"
+msgid "Orange"
+msgstr "Naranja"
 
 #: src/Views/StyleView.vala:104
-msgid "Mint"
-msgstr "Menta"
+msgid "Strawberry"
+msgstr "Fresa"
 
 #: src/Views/StyleView.vala:107
-msgid "Grape"
-msgstr "Uva"
-
-#: src/Views/StyleView.vala:110
 msgid "Bubblegum"
 msgstr "Chicle"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "Uva"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"

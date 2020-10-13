@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-10 16:56+0000\n"
+"POT-Creation-Date: 2020-10-13 21:25+0000\n"
 "PO-Revision-Date: 2019-06-26 18:53+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -142,11 +142,11 @@ msgid "Blueberry"
 msgstr ""
 
 #: src/Views/StyleView.vala:92
-msgid "Strawberry"
+msgid "Mint"
 msgstr ""
 
 #: src/Views/StyleView.vala:95
-msgid "Orange"
+msgid "Lime"
 msgstr ""
 
 #: src/Views/StyleView.vala:98
@@ -154,19 +154,19 @@ msgid "Banana"
 msgstr ""
 
 #: src/Views/StyleView.vala:101
-msgid "Lime"
+msgid "Orange"
 msgstr ""
 
 #: src/Views/StyleView.vala:104
-msgid "Mint"
+msgid "Strawberry"
 msgstr ""
 
 #: src/Views/StyleView.vala:107
-msgid "Grape"
+msgid "Bubblegum"
 msgstr ""
 
 #: src/Views/StyleView.vala:110
-msgid "Bubblegum"
+msgid "Grape"
 msgstr ""
 
 #: src/Views/StyleView.vala:113

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-10 16:56+0000\n"
+"POT-Creation-Date: 2020-10-13 21:25+0000\n"
 "PO-Revision-Date: 2020-10-03 11:14+0000\n"
 "Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -158,32 +158,32 @@ msgid "Blueberry"
 msgstr "蓝莓色"
 
 #: src/Views/StyleView.vala:92
-msgid "Strawberry"
-msgstr "草莓红"
+msgid "Mint"
+msgstr "薄荷绿"
 
 #: src/Views/StyleView.vala:95
-msgid "Orange"
-msgstr "橙色"
+msgid "Lime"
+msgstr "青柠色"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
 msgstr "香蕉黄"
 
 #: src/Views/StyleView.vala:101
-msgid "Lime"
-msgstr "青柠色"
+msgid "Orange"
+msgstr "橙色"
 
 #: src/Views/StyleView.vala:104
-msgid "Mint"
-msgstr "薄荷绿"
+msgid "Strawberry"
+msgstr "草莓红"
 
 #: src/Views/StyleView.vala:107
-msgid "Grape"
-msgstr "葡萄紫"
-
-#: src/Views/StyleView.vala:110
 msgid "Bubblegum"
 msgstr "泡泡糖粉"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "葡萄紫"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"

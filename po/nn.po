@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-10 16:56+0000\n"
+"POT-Creation-Date: 2020-10-13 21:25+0000\n"
 "PO-Revision-Date: 2020-07-25 17:12+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
@@ -165,31 +165,31 @@ msgid "Blueberry"
 msgstr "Blåbær"
 
 #: src/Views/StyleView.vala:92
-msgid "Strawberry"
-msgstr "Jordbær"
+msgid "Mint"
+msgstr ""
 
 #: src/Views/StyleView.vala:95
-msgid "Orange"
-msgstr "Oransje"
+msgid "Lime"
+msgstr "Lime"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
 msgstr "Banan"
 
 #: src/Views/StyleView.vala:101
-msgid "Lime"
-msgstr "Lime"
+msgid "Orange"
+msgstr "Oransje"
 
 #: src/Views/StyleView.vala:104
-msgid "Mint"
-msgstr ""
+msgid "Strawberry"
+msgstr "Jordbær"
 
 #: src/Views/StyleView.vala:107
-msgid "Grape"
+msgid "Bubblegum"
 msgstr ""
 
 #: src/Views/StyleView.vala:110
-msgid "Bubblegum"
+msgid "Grape"
 msgstr ""
 
 #: src/Views/StyleView.vala:113

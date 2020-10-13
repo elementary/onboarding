@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-10 16:56+0000\n"
+"POT-Creation-Date: 2020-10-13 21:25+0000\n"
 "PO-Revision-Date: 2020-07-25 17:12+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
@@ -165,32 +165,32 @@ msgid "Blueberry"
 msgstr "Borůvkový"
 
 #: src/Views/StyleView.vala:92
-msgid "Strawberry"
-msgstr "Jahodový"
+msgid "Mint"
+msgstr "Mátový"
 
 #: src/Views/StyleView.vala:95
-msgid "Orange"
-msgstr "Pomerančový"
+msgid "Lime"
+msgstr "Limetkový"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
 msgstr "Banánový"
 
 #: src/Views/StyleView.vala:101
-msgid "Lime"
-msgstr "Limetkový"
+msgid "Orange"
+msgstr "Pomerančový"
 
 #: src/Views/StyleView.vala:104
-msgid "Mint"
-msgstr "Mátový"
+msgid "Strawberry"
+msgstr "Jahodový"
 
 #: src/Views/StyleView.vala:107
-msgid "Grape"
-msgstr "Hroznový"
-
-#: src/Views/StyleView.vala:110
 msgid "Bubblegum"
 msgstr "Žvýkačkové bubliny"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "Hroznový"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"
