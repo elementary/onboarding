@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 18:15+0000\n"
-"PO-Revision-Date: 2019-09-07 18:23+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2020-10-23 19:15+0000\n"
+"Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -29,36 +29,36 @@ msgstr "Cambia le impostazioni comuni al primo avvio"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "io.elementary.onboarding"
-msgstr ""
+msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Fix blurry icon in AppCenter"
-msgstr ""
+msgstr "Corregge l'icona sfocata in AppCenter"
 
 #: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
 #: data/onboarding.appdata.xml.in:35
 msgid "Updated translations"
-msgstr ""
+msgstr "Traduzioni aggiornate"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "New app icon"
-msgstr ""
+msgstr "Nuova icona applicazione"
 
 #: data/onboarding.appdata.xml.in:32
 msgid "Navigate with (multi-)touch gestures"
-msgstr ""
+msgstr "Naviga con gesti (multi-)touch"
 
 #: data/onboarding.appdata.xml.in:33
 msgid "Use new blog URL"
-msgstr ""
+msgstr "Usa il nuovo URL del blog"
 
 #: data/onboarding.appdata.xml.in:34
 msgid "Fix errors when pressing the Skip button"
-msgstr ""
+msgstr "Corregge gli errori quando si preme il pulsante \"Salta\""
 
 #: data/onboarding.appdata.xml.in:74
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #~ msgid "system-os-installer"
 #~ msgstr "system-os-installer"
