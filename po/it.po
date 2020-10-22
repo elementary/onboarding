@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-13 21:25+0000\n"
-"PO-Revision-Date: 2019-07-01 22:01+0000\n"
+"PO-Revision-Date: 2020-10-23 19:15+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/installer/"
 "onboarding/it/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:33
 #, c-format
@@ -34,7 +34,7 @@ msgstr "Per iniziare"
 
 #: src/MainWindow.vala:114
 msgid "Next"
-msgstr "Avanti"
+msgstr "Successivo"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
@@ -57,6 +57,8 @@ msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
+"Puoi anche installare applicazioni Flatpak ad es. da <a "
+"href='https://flathub.org'> Flathub </a>"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -93,10 +95,8 @@ msgid "Automatically Delete:"
 msgstr "Elimina automaticamente:"
 
 #: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
 msgid "Old temporary files"
-msgstr "File temporanei"
+msgstr "Vecchi file temporanei"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
@@ -107,6 +107,9 @@ msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"Ricevi un messaggio quando un'applicazione richiede la posizione di questo "
+"dispositivo. Se disabilitato, tutte le richieste di posizione verranno "
+"rifiutate."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
@@ -134,75 +137,80 @@ msgstr "Luce Notturna:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Regola programmazione e temperatura…"
 
 #: src/Views/StyleView.vala:26
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Personalizzalo scegliendo lo stile e il colore che preferisci. Le "
+"applicazioni possono sovrascriverle con il proprio aspetto."
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Scegli il tuo aspetto"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr ""
+msgstr "Predefinito"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
-msgstr ""
+msgstr "Scuro"
 
 #: src/Views/StyleView.vala:89
 msgid "Blueberry"
-msgstr ""
+msgstr "Mirtillo"
 
 #: src/Views/StyleView.vala:92
 msgid "Mint"
-msgstr ""
+msgstr "Menta"
 
 #: src/Views/StyleView.vala:95
 msgid "Lime"
-msgstr ""
+msgstr "Lime"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
-msgstr ""
+msgstr "Banana"
 
 #: src/Views/StyleView.vala:101
 msgid "Orange"
-msgstr ""
+msgstr "Arancia"
 
 #: src/Views/StyleView.vala:104
 msgid "Strawberry"
-msgstr ""
+msgstr "Fragola"
 
 #: src/Views/StyleView.vala:107
 msgid "Bubblegum"
-msgstr ""
+msgstr "Gomma da masticare"
 
 #: src/Views/StyleView.vala:110
 msgid "Grape"
-msgstr ""
+msgstr "Uva"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"
-msgstr ""
+msgstr "Cacao"
 
 #: src/Views/StyleView.vala:116
 msgid "Slate"
-msgstr ""
+msgstr "Ardesia"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
+"Continua a configurare alcune nuove utili funzionalità. Per informazioni più "
+"dettagliate sugli aggiornamenti, visita il <a "
+"href='https://blog.elementary.io'>nostro blog</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr ""
+msgstr "Cosa c'è di nuovo"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
