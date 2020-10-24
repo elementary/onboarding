@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-13 21:25+0000\n"
-"PO-Revision-Date: 2020-10-03 11:14+0000\n"
+"PO-Revision-Date: 2020-10-25 04:15+0000\n"
 "Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hans/>\n"
@@ -91,14 +91,12 @@ msgid "Automatically Delete:"
 msgstr "自动删除："
 
 #: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
 msgid "Old temporary files"
-msgstr "临时文件"
+msgstr "旧的临时文件"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr "已删除的文件"
+msgstr "回收站文件"
 
 #: src/Views/LocationServicesView.vala:22
 msgid ""
@@ -151,7 +149,7 @@ msgstr "默认"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
-msgstr "黑色"
+msgstr "深色"
 
 #: src/Views/StyleView.vala:89
 msgid "Blueberry"
