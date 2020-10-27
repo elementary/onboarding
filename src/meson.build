@@ -16,6 +16,7 @@ vala_files = [
     'Views/StyleView.vala',
     'Views/UpdateView.vala',
     'Views/WelcomeView.vala',
+    'Widgets/ImageLinkButton.vala',
 ]
 
 config_data = configuration_data()

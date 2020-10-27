@@ -19,10 +19,27 @@ public class Onboarding.UpdateView : AbstractOnboardingView {
     public UpdateView () {
         Object (
             view_name: "update",
-            description: _("Continue to set up some useful new features. For more detailed information about updates, check out <a href='https://blog.elementary.io'>our blog</a>."),
+            description: _("Continue to set up some useful new features. For more detailed information about updates or how to support development, check out the links below."),
             icon_name: Utils.logo_icon_name,
             badge_name: "system-software-update",
             title: _("What’s New")
         );
+    }
+
+    construct {
+        var blog_link = new ImageLinkButton (
+            "https://blog.elementary.io",
+            _("Read our blog…"),
+            "text-x-generic-symbolic"
+        );
+
+        var getinvolved_link = new ImageLinkButton (
+            "https://elementary.io/get-involved",
+            _("Get Involved…"),
+            "applications-development-symbolic"
+        );
+
+        custom_bin.attach (blog_link, 0, 0);
+        custom_bin.attach (getinvolved_link, 0, 1);
     }
 }
