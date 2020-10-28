@@ -30,16 +30,25 @@ public class Onboarding.PreReleaseWarningView : AbstractOnboardingView {
     construct {
         custom_bin.orientation = Gtk.Orientation.VERTICAL;
 
-        var apps_label = new Gtk.Label (_("Curated apps are not available in AppCenter"));
+        var apps_label = new Gtk.Label ("• " + _("Curated apps are not available in AppCenter")) {
+            hexpand = true,
+            xalign = 0
+        };
         custom_bin.add (apps_label);
 
-        var style_label = new Gtk.Label (_("The visual style is unfinished"));
+        var style_label = new Gtk.Label ("• " + _("The visual style is unfinished")) {
+            hexpand = true,
+            xalign = 0
+        };
         custom_bin.add (style_label);
 
         var more_link = new Gtk.LinkButton.with_label (
             "https://github.com/orgs/elementary/projects/55",
-            _("More…")
-        );
+            "• " + _("More…")
+        ) {
+            hexpand = true,
+            xalign = 0
+        };
         custom_bin.add (more_link);
     }
 }
