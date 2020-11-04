@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2020 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -44,10 +44,10 @@ public class Onboarding.PreReleaseWarningView : AbstractOnboardingView {
 
         var more_link = new Gtk.LinkButton.with_label (
             "https://github.com/orgs/elementary/projects/55",
-            "• " + _("More…")
+            _("More…")
         ) {
-            hexpand = true,
-            xalign = 0
+            valign = Gtk.Align.END,
+            vexpand = true
         };
         custom_bin.add (more_link);
     }
