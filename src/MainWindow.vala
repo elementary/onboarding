@@ -77,7 +77,7 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             carousel.add (appcenter_view);
         }
 
-        // Remove all but the update view
+        // Remove any viewed pages except the update view
         GLib.List<unowned Gtk.Widget> views = carousel.get_children ();
         foreach (Gtk.Widget view in views) {
             assert (view is AbstractOnboardingView);
@@ -90,6 +90,7 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             }
         }
 
+        // Always show Early Access view on pre-release builds
         if (Environment.get_os_info (GLib.OsInfoKey.VERSION_CODENAME) == "next") {
             var early_access_view = new EarlyAccessView ();
             carousel.add (early_access_view);
