@@ -50,6 +50,11 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             var update_view = new UpdateView ();
             carousel.add (update_view);
         } else {
+            if (Environment.get_os_info (GLib.OsInfoKey.VERSION_CODENAME) == "next") {
+                var pre_release_warning_view = new PreReleaseWarningView ();
+                carousel.add (pre_release_warning_view);
+            }
+
             var welcome_view = new WelcomeView ();
             carousel.add (welcome_view);
         }
