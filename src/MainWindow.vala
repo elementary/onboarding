@@ -50,11 +50,6 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             var update_view = new UpdateView ();
             carousel.add (update_view);
         } else {
-            if (Environment.get_os_info (GLib.OsInfoKey.VERSION_CODENAME) == "next") {
-                var early_access_view = new EarlyAccessView ();
-                carousel.add (early_access_view);
-            }
-
             var welcome_view = new WelcomeView ();
             carousel.add (welcome_view);
         }
@@ -92,6 +87,11 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
                 carousel.remove (view);
                 view.destroy ();
             }
+        }
+
+        if (Environment.get_os_info (GLib.OsInfoKey.VERSION_CODENAME) == "next") {
+            var early_access_view = new EarlyAccessView ();
+            carousel.add (early_access_view);
         }
 
         // Bail if there are no feature views
