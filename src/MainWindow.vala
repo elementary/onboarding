@@ -77,13 +77,14 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             carousel.add (appcenter_view);
         }
 
+        // Remove all but the update view
         GLib.List<unowned Gtk.Widget> views = carousel.get_children ();
         foreach (Gtk.Widget view in views) {
             assert (view is AbstractOnboardingView);
 
             var view_name = ((AbstractOnboardingView) view).view_name;
 
-            if (view_name in viewed) {
+            if (view_name in viewed && view_name != "update") {
                 carousel.remove (view);
                 view.destroy ();
             }
