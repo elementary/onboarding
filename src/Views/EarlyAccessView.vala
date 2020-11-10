@@ -18,17 +18,22 @@
  *              Cassidy James Blaede <cassidy@elementary.io>
  */
 
-public class Onboarding.PreReleaseWarningView : AbstractOnboardingView {
-    public PreReleaseWarningView () {
+public class Onboarding.EarlyAccessView : AbstractOnboardingView {
+    public EarlyAccessView () {
         Object (
-            view_name: "pre-release-warning",
-            description: _("You're running a <b>pre-release</b> development build of %s. Current major known issues include:").printf (Utils.os_name),
+            view_name: "early-access",
+            description: _("This is a pre-release version of %s that should not be used in production. <b>It will not be possible to upgrade to the stable release</b> from this installation.").printf (Utils.os_name),
             icon_name: "dialog-warning",
             title: _("Early Access Build")
         );
     }
 
     construct {
+        var title_label = new Gtk.Label (_("Current major known issues include:")) {
+            margin_bottom = 12,
+            xalign = 0
+        };
+
         var apps_label = new Gtk.Label ("• " + _("Curated apps are not available in AppCenter")) {
             xalign = 0
         };
@@ -39,28 +44,23 @@ public class Onboarding.PreReleaseWarningView : AbstractOnboardingView {
 
         var list_grid = new Gtk.Grid () {
             halign = Gtk.Align.CENTER,
+            margin_bottom = 12,
             orientation = Gtk.Orientation.VERTICAL
         };
+        list_grid.add (title_label);
         list_grid.add (apps_label);
         list_grid.add (style_label);
 
-        var upgrade_label = new Gtk.Label (_("This build uses unstable daily repos and should not be used on production systems. <b>It will not be possible to upgrade to the stable release</b> from this installation.")) {
-            margin_bottom = 12,
-            margin_top = 12,
-            max_width_chars = 50,
-            use_markup = true,
-            vexpand = true,
-            wrap = true
-        };
-
         var more_link = new Gtk.LinkButton.with_label (
             "https://github.com/orgs/elementary/projects/55",
-            _("View the 6.0 Release Project")
-        );
+            _("More issues on the 6.0 Release Project")
+        ) {
+            valign = Gtk.Align.END,
+            vexpand = true
+        };
 
         custom_bin.orientation = Gtk.Orientation.VERTICAL;
         custom_bin.add (list_grid);
-        custom_bin.add (upgrade_label);
         custom_bin.add (more_link);
     }
 }
