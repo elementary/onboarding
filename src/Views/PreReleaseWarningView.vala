@@ -21,9 +21,9 @@ public class Onboarding.PreReleaseWarningView : AbstractOnboardingView {
     public PreReleaseWarningView () {
         Object (
             view_name: "pre-release-warning",
-            description: _("You're running an early daily build of %s. Things will be broken.").printf (Utils.os_name),
+            description: _("You're running a <b>pre-release</b> daily development build of %s. Things may be broken. Current major known issues include, but are not limited to:").printf (Utils.os_name),
             icon_name: "dialog-warning",
-            title: _("Pre-release version of %s").printf (Utils.os_name)
+            title: _("Early Access Build")
         );
     }
 
@@ -44,7 +44,7 @@ public class Onboarding.PreReleaseWarningView : AbstractOnboardingView {
 
         var more_link = new Gtk.LinkButton.with_label (
             "https://github.com/orgs/elementary/projects/55",
-            _("More…")
+            _("View the 6.0 Release Project")
         ) {
             valign = Gtk.Align.END,
             vexpand = true
