@@ -22,38 +22,57 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
     public EarlyAccessView () {
         Object (
             view_name: "early-access",
-            description: _("This is a pre-release version of %s that should not be used in production. <b>It will not be possible to upgrade to the stable release</b> from this installation.").printf (Utils.os_name),
-            icon_name: "dialog-warning",
+            description: _("This pre-release version of %s should not be used in production. <b>It will not be possible to upgrade to the stable release</b> from this installation.").printf (Utils.os_name),
+            icon_name: Utils.logo_icon_name,
+            badge_name: "dialog-warning",
             title: _("Early Access Build")
         );
     }
 
     construct {
-        var title_label = new Gtk.Label (_("Current major known issues include:")) {
-            margin_bottom = 12,
+        var title_label = new Granite.HeaderLabel (_("Major Known Issues"));
+
+        var apps_icon = new Gtk.Image.from_icon_name ("system-software-install-symbolic", Gtk.IconSize.BUTTON);
+        apps_icon.get_style_context ().add_class (Granite.STYLE_CLASS_ACCENT);
+        apps_icon.get_style_context ().add_class ("purple");
+
+        var apps_label = new Gtk.Label (_("Curated apps are not available in AppCenter")) {
             xalign = 0
         };
 
-        var apps_label = new Gtk.Label ("• " + _("Curated apps are not available in AppCenter")) {
+        var style_icon = new Gtk.Image.from_icon_name ("applications-graphics-symbolic", Gtk.IconSize.BUTTON);
+        style_icon.get_style_context ().add_class (Granite.STYLE_CLASS_ACCENT);
+        style_icon.get_style_context ().add_class ("pink");
+
+        var style_label = new Gtk.Label (_("The visual style is unfinished")) {
             xalign = 0
         };
 
-        var style_label = new Gtk.Label ("• " + _("The visual style is unfinished")) {
+        var feature_icon = new Gtk.Image.from_icon_name ("preferences-other-symbolic", Gtk.IconSize.BUTTON);
+        feature_icon.get_style_context ().add_class (Granite.STYLE_CLASS_ACCENT);
+        feature_icon.get_style_context ().add_class ("slate");
+
+        var feature_label = new Gtk.Label (_("Some features are missing or incomplete")) {
             xalign = 0
         };
 
         var list_grid = new Gtk.Grid () {
+            column_spacing = 6,
+            row_spacing = 6,
             halign = Gtk.Align.CENTER,
-            margin_bottom = 12,
-            orientation = Gtk.Orientation.VERTICAL
+            margin_bottom = 12
         };
-        list_grid.add (title_label);
-        list_grid.add (apps_label);
-        list_grid.add (style_label);
+        list_grid.attach (title_label, 0, 0, 2);
+        list_grid.attach (apps_icon, 0, 1);
+        list_grid.attach (apps_label, 1, 1);
+        list_grid.attach (style_icon, 0, 2);
+        list_grid.attach (style_label, 1, 2);
+        list_grid.attach (feature_icon, 0, 3);
+        list_grid.attach (feature_label, 1, 3);
 
         var more_link = new Gtk.LinkButton.with_label (
             "https://github.com/orgs/elementary/projects/55",
-            _("More issues on the 6.0 Release Project")
+            _("More issues on the 6.0 Release Project…")
         ) {
             valign = Gtk.Align.END,
             vexpand = true
