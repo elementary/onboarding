@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-13 21:25+0000\n"
-"PO-Revision-Date: 2019-09-02 12:22+0000\n"
-"Last-Translator: Nicolas <emailchecker000@gmail.com>\n"
+"PO-Revision-Date: 2020-11-12 20:15+0000\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
 "onboarding/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: src/MainWindow.vala:33
 #, c-format
@@ -41,8 +41,9 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"Lade dir die Apps, die du benötigst. im AppCenter herunter. Ausgewählte Apps "
-"wurden für elementary OS erstellt und getestet."
+"Lade dir die gewünschten Anwendungen im AppCenter herunter. Ausgewählte "
+"Anwendungen wurden speziell für elementary OS erstellt und von elementary "
+"getestet."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -57,6 +58,8 @@ msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
+"Du hast auch die Möglichkeit, Flatpak-Anwendungen etwa von <a "
+"href='https://flathub.org'>Flathub</a> zu laden"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -128,7 +131,7 @@ msgstr ""
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr "Nachtlicht"
+msgstr "Nachtmodus"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
@@ -136,65 +139,70 @@ msgstr "Nachtmodus:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Zeitpunkt und Farbtemperatur einrichten …"
 
 #: src/Views/StyleView.vala:26
+#, fuzzy
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Mach das System ganz zu deinem und wähle einen Stil und eine Akzentfarbe. "
+"Anwendungen halten sich aber möglicherweise nicht an diese Wahl und "
+"verwenden eigene. Einstellungen."
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Aussehen wählen"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr ""
+msgstr "Vorgabe"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
-msgstr ""
+msgstr "Dunkel"
 
 #: src/Views/StyleView.vala:89
 msgid "Blueberry"
-msgstr ""
+msgstr "Heidelbeere"
 
 #: src/Views/StyleView.vala:92
 msgid "Mint"
-msgstr ""
+msgstr "Minze"
 
 #: src/Views/StyleView.vala:95
 msgid "Lime"
-msgstr ""
+msgstr "Gelbgrün"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
-msgstr ""
+msgstr "Banane"
 
 #: src/Views/StyleView.vala:101
 msgid "Orange"
-msgstr ""
+msgstr "Orange"
 
 #: src/Views/StyleView.vala:104
 msgid "Strawberry"
-msgstr ""
+msgstr "Erdbeere"
 
 #: src/Views/StyleView.vala:107
 msgid "Bubblegum"
 msgstr ""
 
 #: src/Views/StyleView.vala:110
+#, fuzzy
 msgid "Grape"
-msgstr ""
+msgstr "Weinrot"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakao"
 
 #: src/Views/StyleView.vala:116
 msgid "Slate"
-msgstr ""
+msgstr "Schiefer"
 
 #: src/Views/UpdateView.vala:22
 #, fuzzy
@@ -202,7 +210,7 @@ msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
-"Fahren Sie damit fort, nützliche neue Funktionen einzurichten. "
+"Fahren Sie fort und richten Sie  nützliche neue Funktionen ein. "
 "Detailliertere Informationen finden Sie in <a href='https://medium.com/"
 "elementaryos/tagged/updates'>unserem Blog</a>."
 
