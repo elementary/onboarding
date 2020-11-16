@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-13 21:25+0000\n"
+"POT-Creation-Date: 2020-11-16 19:43+0000\n"
 "PO-Revision-Date: 2019-09-22 17:23+0000\n"
 "Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Configurar %s"
 
-#: src/MainWindow.vala:100
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Omitir todo"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:117
 msgid "Get Started"
 msgstr "Primeiros pasos"
 
-#: src/MainWindow.vala:114
+#: src/MainWindow.vala:121
 msgid "Next"
 msgstr "Seguinte"
 
@@ -56,6 +56,37 @@ msgstr "Explorar o Centro de Aplicacións…"
 msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:25
+#, c-format
+msgid ""
+"This pre-release version of %s should not be used in production. <b>It will "
+"not be possible to upgrade to the stable release</b> from this installation."
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:28
+msgid "Early Access Build"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:33
+msgid "Major Known Issues"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:39
+msgid "Curated apps are not available in AppCenter"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:47
+msgid "The visual style is unfinished"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:55
+msgid "Some features are missing or incomplete"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:75
+msgid "More issues on the 6.0 Release Project…"
 msgstr ""
 
 #: src/Views/FinishView.vala:22
