@@ -1,5 +1,5 @@
-/*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+/*
+ * Copyright 2019–2020 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -50,11 +50,6 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             var update_view = new UpdateView ();
             carousel.add (update_view);
         } else {
-            if (Environment.get_os_info (GLib.OsInfoKey.VERSION_CODENAME) == "next") {
-                var pre_release_warning_view = new PreReleaseWarningView ();
-                carousel.add (pre_release_warning_view);
-            }
-
             var welcome_view = new WelcomeView ();
             carousel.add (welcome_view);
         }
@@ -93,6 +88,12 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
                 carousel.remove (view);
                 view.destroy ();
             }
+        }
+
+        // Always show Early Access view on pre-release builds
+        if (Environment.get_os_info (GLib.OsInfoKey.VERSION_CODENAME) == "next") {
+            var early_access_view = new EarlyAccessView ();
+            carousel.add (early_access_view);
         }
 
         // Bail if there are no feature views
