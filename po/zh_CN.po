@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-13 21:25+0000\n"
-"PO-Revision-Date: 2020-10-25 04:15+0000\n"
-"Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
+"PO-Revision-Date: 2020-11-16 19:42+0000\n"
+"Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -65,7 +65,7 @@ msgstr ""
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
-msgstr "开始享受 %s 吧！您随时可以访问系统设置应用更改硬件选项及您的偏好。"
+msgstr "开始使用 %s！您随时可以访问系统设置应用更改硬件选项及您的偏好。"
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
@@ -118,7 +118,7 @@ msgstr "位置服务："
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
-msgstr "在夜间将您的显示器色温调至暖色以缓解眼部疲劳。"
+msgstr "在夜间将您的显示器色温调暖以缓解眼部疲劳。"
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
@@ -136,12 +136,11 @@ msgstr "调节日程与色温…"
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
-msgstr ""
-"选择视觉风格与强调色，个性化你的操作系统。应用程序可能会以自己的外观来显示。"
+msgstr "选择视觉风格与强调色，个性化您的操作系统。应用程序可能会以其自带的外观来显示。"
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
-msgstr "选择你的外观"
+msgstr "选择系统外观"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
@@ -169,7 +168,7 @@ msgstr "香蕉黄"
 
 #: src/Views/StyleView.vala:101
 msgid "Orange"
-msgstr "橙色"
+msgstr "阳光橙"
 
 #: src/Views/StyleView.vala:104
 msgid "Strawberry"
@@ -177,7 +176,7 @@ msgstr "草莓红"
 
 #: src/Views/StyleView.vala:107
 msgid "Bubblegum"
-msgstr "泡泡糖粉"
+msgstr "泡泡糖"
 
 #: src/Views/StyleView.vala:110
 msgid "Grape"
