@@ -78,4 +78,10 @@ public class Utils {
             return _logo_icon_name;
         }
     }
+
+    public static bool is_night_light_supported {
+        get {
+            return false;
+        }
+    }
 }

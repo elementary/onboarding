@@ -66,8 +66,10 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             carousel.add (location_services_view);
         }
 
-        var night_light_view = new NightLightView ();
-        carousel.add (night_light_view);
+        if (Utils.is_night_light_supported) {
+            var night_light_view = new NightLightView ();
+            carousel.add (night_light_view);
+        }
 
         var housekeeping_view = new HouseKeepingView ();
         carousel.add (housekeeping_view);
