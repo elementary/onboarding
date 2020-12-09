@@ -42,12 +42,12 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"Отримайте потрібні вам застосунки в центрі застосунків. Куровані застосунки "
-"створено для elementary OS та переглянуто командою elementary."
+"Отримайте потрібні вам застосунки в AppCenter. Куровані застосунки "
+"створено для elementary OS та перевірено командою elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr "Отримання застосунків"
+msgstr "Завантажити застосунки"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
@@ -67,20 +67,20 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
-"Ця попередня версія %s не повинна використовуватися основною. <b>Неможливо "
-"буде перейти на стабільний випуск</b> з цієї версії."
+"Ця передрелізна версія %s не повинна використовуватися у робочому середовищі. <b>Перейти з цієї версії "
+"на стабільну збірку буде не можливо</b>."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr "Побудовано для раннього доступу"
+msgstr "Збірка раннього доступу"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr "Основні відомі вади"
+msgstr "Відомі серйозні проблеми"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr "Куровані застосунки не достапні у центрі застосунків"
+msgstr "Куровані застосунки не доступні у центрі застосунків"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
@@ -101,7 +101,7 @@ msgid ""
 "change your preferences."
 msgstr ""
 "Насолоджуйтесь користуванням %s! Ви завжди можете відвідати системні "
-"параметри, щоб налаштувати обладнання або змінити свої налаштування."
+"параметри, щоб додати обладнання або змінити свої налаштування."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
@@ -121,7 +121,7 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
-"Старі файли можна видалити автоматично через %u днів, щоб заощадити простір "
+"Старі файли можна видалити автоматично через %u днів, щоб заощадити дисковий простір "
 "та захистити вашу приватність."
 
 #: src/Views/HouseKeepingView.vala:32
@@ -134,23 +134,23 @@ msgstr "Старі тимчасові файли"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr "Файли зі смітника"
+msgstr "Видалені файли"
 
 #: src/Views/LocationServicesView.vala:22
 msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
-"Отримуйте запит, коли програма запитує розташування цього пристрою. Якщо "
-"вимкнути, всі запити розташування буде відхилено."
+"Отримувати повідомлення, кожного разу коли програма запитує розташування цього пристрою. Якщо "
+"вимкнути, то запити розташування будуть відхилені."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
-msgstr "Служби розташування"
+msgstr "Служби локації"
 
 #: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
-msgstr "Служби розташування:"
+msgstr "Служби локації:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -162,11 +162,11 @@ msgstr ""
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr "Нічне світло"
+msgstr "Нічний режим"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr "Нічне світло:"
+msgstr "Нічний режим:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
@@ -178,15 +178,15 @@ msgid ""
 "override these with their own look."
 msgstr ""
 "Додайте власних рис, вибравши візуальний стиль та основний колір. Застосунки "
-"можуть замінити їх власним оформленням."
+"можуть замінити оформлення на власне."
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
-msgstr "Виберіть свій стиль"
+msgstr "Оберіть свій стиль"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr "Типовий"
+msgstr "По замовчуванню"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
@@ -194,11 +194,11 @@ msgstr "Темний"
 
 #: src/Views/StyleView.vala:89
 msgid "Blueberry"
-msgstr "Чорничний"
+msgstr "Синій"
 
 #: src/Views/StyleView.vala:92
 msgid "Mint"
-msgstr "М'ятний"
+msgstr "М'ятно-зелений"
 
 #: src/Views/StyleView.vala:95
 msgid "Lime"
@@ -206,7 +206,7 @@ msgstr "Лаймовий"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
-msgstr "Банановий"
+msgstr "Жовтий"
 
 #: src/Views/StyleView.vala:101
 msgid "Orange"
@@ -214,32 +214,32 @@ msgstr "Помаранчевий"
 
 #: src/Views/StyleView.vala:104
 msgid "Strawberry"
-msgstr "Полуничний"
+msgstr "Червоний"
 
 #: src/Views/StyleView.vala:107
 msgid "Bubblegum"
-msgstr "Жуйка"
+msgstr "Рожевий"
 
 #: src/Views/StyleView.vala:110
 msgid "Grape"
-msgstr "Виноградний"
+msgstr "Фіолетовий"
 
 #: src/Views/StyleView.vala:113
 msgid "Cocoa"
-msgstr "Какаовий"
+msgstr "Коричневий"
 
 #: src/Views/StyleView.vala:116
 msgid "Slate"
-msgstr "Кам'яно-сірий"
+msgstr "Сірий"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
-"Продовжуйте налаштовувати деякі корисні нові функції. Щоб отримати "
-"докладніші відомості про оновлення, перегляньте <a href='https://blog."
-"elementary.io'>наш блог</a>."
+"Продовжуйте налаштовувати функціональність. Перегляньте <a href='https://blog."
+"elementary.io'>наш блог</a> щоб отримати "
+"детальну інформацію про оновлення."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
@@ -251,7 +251,7 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
-"Продовжуйте налаштовувати деякі корисні функції. Перейдіть за вказаними "
+"Продовжуйте налаштовувати функціональність. Перейдіть за вказаними "
 "посиланнями, щоб отримати додаткові відомості про %s."
 
 #: src/Views/WelcomeView.vala:24
@@ -269,4 +269,4 @@ msgstr "Підтримка спільноти…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr "Долучитися…"
+msgstr "Долучитися до розробки…"
