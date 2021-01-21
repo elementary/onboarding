@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2021-01-19 22:39+0000\n"
+"PO-Revision-Date: 2021-01-21 19:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding/nb/>\n"
@@ -66,22 +66,26 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"Denne forhåndsutgivelsen av %s skal ikke brukes i produksjon. <b>Det vil "
+"ikke være mulig å oppgradere til en stabil utgave</b> fra denne "
+"installasjonen."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "Forhåndstilgangsbygg"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
 msgstr "Store kjente feil"
 
 #: src/Views/EarlyAccessView.vala:39
+#, fuzzy
 msgid "Curated apps are not available in AppCenter"
-msgstr ""
+msgstr "Gjennomgåtte programmer er ikke tilgjengelige i AppSenter"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "Den visuelle stilen er uferdig"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
@@ -89,7 +93,7 @@ msgstr "Noen funksjoner mangler eller er ufullstendige"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "Flere problemrapporter i 6.0-utgivelsesprosjektet …"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -169,7 +173,7 @@ msgstr "Nattlys:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Juster kjøreplan og temperatur …"
 
 #: src/Views/StyleView.vala:26
 msgid ""
@@ -179,35 +183,35 @@ msgstr ""
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Velg ditt utseende"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr ""
+msgstr "Forvalg"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
-msgstr ""
+msgstr "Mørk"
 
 #: src/Views/StyleView.vala:89
 msgid "Blueberry"
-msgstr ""
+msgstr "Blåbær"
 
 #: src/Views/StyleView.vala:92
 msgid "Mint"
-msgstr ""
+msgstr "Mint"
 
 #: src/Views/StyleView.vala:95
 msgid "Lime"
-msgstr ""
+msgstr "Lime"
 
 #: src/Views/StyleView.vala:98
 msgid "Banana"
-msgstr ""
+msgstr "Banan"
 
 #: src/Views/StyleView.vala:101
 msgid "Orange"
-msgstr ""
+msgstr "Appelsin"
 
 #: src/Views/StyleView.vala:104
 msgid "Strawberry"
