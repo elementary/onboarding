@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2020-11-16 19:42+0000\n"
+"PO-Revision-Date: 2021-01-28 19:51+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hans/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:33
 #, c-format
@@ -65,31 +65,31 @@ msgstr ""
 msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
-msgstr ""
+msgstr "此预发布版本的 %s 不能用于生产用途， 届时您将无法从此版本升级到<b>正式发行版</b>。"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "预览版"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "主要已知问题"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr ""
+msgstr "应用商店中 elementary 专属应用暂时不可用"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "视觉外观还未定型"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "某些功能暂时缺失或未完成"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "更多关于 6.0 版本的信息…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
