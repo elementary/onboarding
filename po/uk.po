@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2021-01-28 19:51+0000\n"
-"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
+"PO-Revision-Date: 2021-01-29 23:59+0000\n"
+"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding/uk/>\n"
 "Language: uk\n"
@@ -218,7 +218,7 @@ msgstr "Полуничний"
 
 #: src/Views/StyleView.vala:107
 msgid "Bubblegum"
-msgstr "Жуйка"
+msgstr "Жуйковий"
 
 #: src/Views/StyleView.vala:110
 msgid "Grape"
