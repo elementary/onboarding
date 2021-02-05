@@ -73,8 +73,8 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         carousel.add (housekeeping_view);
 
         var fwupd_view = new FwupdView ();
-        stack.add_titled (fwupd_view, "fwupd", fwupd_view.title);
-        stack.child_set_property (fwupd_view, "icon-name", "pager-checked-symbolic");
+        carousel.add (fwupd_view);
+        carousel.child_set_property (fwupd_view, "icon-name", "pager-checked-symbolic");
 
         if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
             var appcenter_view = new AppCenterView ();
