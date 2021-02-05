@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-05-02 00:39+0000\n"
+"POT-Creation-Date: 2020-11-16 19:43+0000\n"
+"PO-Revision-Date: 2020-08-17 09:13+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
 "onboarding/fi/>\n"
@@ -17,26 +17,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6\n"
+"X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:25
+#: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
 msgstr "Määritä %s"
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Ohita kaikki"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:112
-msgid "Next"
-msgstr "Seuraava"
-
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Get Started"
 msgstr "Ensitoimet"
 
-#: src/Views/AppCenterView.vala:21
+#: src/MainWindow.vala:121
+msgid "Next"
+msgstr "Seuraava"
+
+#: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
@@ -44,15 +44,54 @@ msgstr ""
 "Hanki tarvitsemasi sovellukset sovelluskeskuksesta. Valikoidut sovellukset "
 "on tehty elementary OS:lle ja ne katselmoidaan elementaryn toimesta."
 
-#: src/Views/AppCenterView.vala:23
+#: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Hanki sovelluksia"
 
-#: src/Views/AppCenterView.vala:28
+#: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
 msgstr "Selaa sovelluskeskusta…"
 
-#: src/Views/FinishView.vala:21
+#: src/Views/AppCenterView.vala:35
+msgid ""
+"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
+"org'>Flathub</a>"
+msgstr ""
+"Voit myös vieriladata Flatpak-sovelluksia esimerkiksi <a href='https://"
+"flathub.org'>Flathubista</a>"
+
+#: src/Views/EarlyAccessView.vala:25
+#, c-format
+msgid ""
+"This pre-release version of %s should not be used in production. <b>It will "
+"not be possible to upgrade to the stable release</b> from this installation."
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:28
+msgid "Early Access Build"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:33
+msgid "Major Known Issues"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:39
+msgid "Curated apps are not available in AppCenter"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:47
+msgid "The visual style is unfinished"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:55
+msgid "Some features are missing or incomplete"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:75
+msgid "More issues on the 6.0 Release Project…"
+msgstr ""
+
+#: src/Views/FinishView.vala:22
 #, c-format
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
@@ -61,19 +100,19 @@ msgstr ""
 "Toivottavasti %s on mieleesi! Voit milloin tahansa määrittää uusia laitteita "
 "tai vaihtaa asetuksia järjestelmän asetuksista."
 
-#: src/Views/FinishView.vala:23
+#: src/Views/FinishView.vala:24
 msgid "Ready to Go"
 msgstr "Kaikki valmiina"
 
-#: src/Views/FinishView.vala:28
+#: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Avaa järjestelmän asetukset…"
 
-#: src/Views/HouseKeepingView.vala:22
+#: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
 msgstr "Kodinhoitoa"
 
-#: src/Views/HouseKeepingView.vala:29
+#: src/Views/HouseKeepingView.vala:30
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -82,35 +121,37 @@ msgstr ""
 "Vanhat tiedostot on mahdollista poistaa automaattisesti %u päivän jälkeen, "
 "jolloin säästyy tilaa ja yksityisyytesi paranee."
 
-#: src/Views/HouseKeepingView.vala:31
+#: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
 msgstr "Poista automaattisesti:"
 
-#: src/Views/HouseKeepingView.vala:33
-msgid "Temporary files"
+#: src/Views/HouseKeepingView.vala:34
+#, fuzzy
+#| msgid "Temporary files"
+msgid "Old temporary files"
 msgstr "Väliaikaistiedostot"
 
-#: src/Views/HouseKeepingView.vala:36
+#: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Roskakorissa olevat tiedostot"
 
-#: src/Views/LocationServicesView.vala:21
+#: src/Views/LocationServicesView.vala:22
 msgid ""
-"While Location Services are enabled, apps will be able to make requests to "
-"use this device's location."
+"Receive a prompt when an app requests this device’s location. If disabled, "
+"all location requests will be denied."
 msgstr ""
-"Kun sijaintipalvelut ovat käytössä, sovellukset voivat kysyä lupaa käyttää "
-"laitteen sijaintia."
+"Näytä ilmoitus kun sovellus pyytää lupaa käyttää tämän laitteen "
+"sijaintitietoa. Jos ei käytössä, kaikki sijaintipyynnöt estetään."
 
-#: src/Views/LocationServicesView.vala:23
+#: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
 msgstr "Sijaintipalvelut"
 
-#: src/Views/LocationServicesView.vala:28
+#: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
 msgstr "Sijaintipalvelut:"
 
-#: src/Views/NightLightView.vala:21
+#: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
@@ -118,15 +159,92 @@ msgstr ""
 "Tee näyttösi väreistä tavanomaista lämpimämpiä yöaikaan estääksesi silmien "
 "väsymistä ja unettomuutta."
 
-#: src/Views/NightLightView.vala:23
+#: src/Views/NightLightView.vala:24
 msgid "Night Light"
 msgstr "Yövalo"
 
-#: src/Views/NightLightView.vala:28
+#: src/Views/NightLightView.vala:29
 msgid "Night Light:"
 msgstr "Yövalo:"
 
-#: src/Views/WelcomeView.vala:21
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
+msgstr "Säädä aikataulua ja lämpötilaa…"
+
+#: src/Views/StyleView.vala:26
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
+msgstr ""
+"Tee siitä omasi valitsemalla visuaalisen tyylin ja korostevärin. Sovellukset "
+"saattavat ohittaa nämä valinnat omalla ulkoasullaan."
+
+#: src/Views/StyleView.vala:28
+msgid "Choose Your Look"
+msgstr "Valitse ulkoasu"
+
+#: src/Views/StyleView.vala:53
+msgid "Default"
+msgstr "Oletus"
+
+#: src/Views/StyleView.vala:79
+msgid "Dark"
+msgstr "Tumma"
+
+#: src/Views/StyleView.vala:89
+msgid "Blueberry"
+msgstr "Mustikka"
+
+#: src/Views/StyleView.vala:92
+msgid "Mint"
+msgstr "Minttu"
+
+#: src/Views/StyleView.vala:95
+msgid "Lime"
+msgstr "Lime"
+
+#: src/Views/StyleView.vala:98
+msgid "Banana"
+msgstr "Banaani"
+
+#: src/Views/StyleView.vala:101
+msgid "Orange"
+msgstr "Appelsiini"
+
+#: src/Views/StyleView.vala:104
+msgid "Strawberry"
+msgstr "Mansikka"
+
+#: src/Views/StyleView.vala:107
+msgid "Bubblegum"
+msgstr "Purukumi"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "Rypäle"
+
+#: src/Views/StyleView.vala:113
+msgid "Cocoa"
+msgstr "Kaakao"
+
+#: src/Views/StyleView.vala:116
+msgid "Slate"
+msgstr ""
+
+#: src/Views/UpdateView.vala:22
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Jatka ottaaksesi käyttöön uusia hyödyllisiä ominaisuuksia. Lisätietoja "
+"päivityksistä on tarjolla <a href='https://blog.elementary.io'>blogissamme</"
+"a>."
+
+#: src/Views/UpdateView.vala:25
+msgid "What’s New"
+msgstr "Mitä uutta"
+
+#: src/Views/WelcomeView.vala:22
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -135,19 +253,26 @@ msgstr ""
 "Jatka hyödyllisten ominaisuuksien käyttöönottoa. Tutustu alla oleviin "
 "linkkeihin, niin saat lisätietoa siitä mikä %s on."
 
-#: src/Views/WelcomeView.vala:23
+#: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
 msgstr "Tervetuloa, tämä on %s!"
 
-#: src/Views/WelcomeView.vala:30
+#: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
 msgstr "Perusopas…"
 
-#: src/Views/WelcomeView.vala:36
+#: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
 msgstr "Yhteisön tuki…"
 
-#: src/Views/WelcomeView.vala:42
+#: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Osallistu…"
+
+#~ msgid ""
+#~ "While Location Services are enabled, apps will be able to make requests "
+#~ "to use this device's location."
+#~ msgstr ""
+#~ "Kun sijaintipalvelut ovat käytössä, sovellukset voivat kysyä lupaa "
+#~ "käyttää laitteen sijaintia."

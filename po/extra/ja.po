@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-05-06 15:33+0000\n"
+"POT-Creation-Date: 2020-04-17 18:15+0000\n"
+"PO-Revision-Date: 2020-06-07 10:11+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -28,9 +28,37 @@ msgid "Change common settings on first-run"
 msgstr "初回起動時に一般的な設定を変更します"
 
 #: data/io.elementary.onboarding.desktop.in:6
-msgid "system-os-installer"
-msgstr ""
+msgid "io.elementary.onboarding"
+msgstr "io.elementary.onboarding"
 
-#: data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:16
+msgid "Fix blurry icon in AppCenter"
+msgstr "AppCenter で表示されるアイコンが不明瞭な不具合を修正"
+
+#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
+#: data/onboarding.appdata.xml.in:35
+msgid "Updated translations"
+msgstr "翻訳の更新"
+
+#: data/onboarding.appdata.xml.in:24
+msgid "New app icon"
+msgstr "新しいアプリのアイコン"
+
+#: data/onboarding.appdata.xml.in:32
+msgid "Navigate with (multi-)touch gestures"
+msgstr "マルチタッチジェスチャーによる操作に対応"
+
+#: data/onboarding.appdata.xml.in:33
+msgid "Use new blog URL"
+msgstr "ブログの URL を新しいものに変更"
+
+#: data/onboarding.appdata.xml.in:34
+msgid "Fix errors when pressing the Skip button"
+msgstr "スキップボタン押下時のエラーを修正"
+
+#: data/onboarding.appdata.xml.in:74
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
+
+#~ msgid "system-os-installer"
+#~ msgstr "system-os-installer"

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-05-17 13:02+0000\n"
+"POT-Creation-Date: 2020-11-16 19:43+0000\n"
+"PO-Revision-Date: 2020-11-18 08:15+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -17,26 +17,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:25
+#: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:112
-msgid "Next"
-msgstr "次へ"
-
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Get Started"
 msgstr "始めましょう"
 
-#: src/Views/AppCenterView.vala:21
+#: src/MainWindow.vala:121
+msgid "Next"
+msgstr "次へ"
+
+#: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
@@ -44,15 +44,54 @@ msgstr ""
 "必要なアプリを AppCenter で入手しましょう。アプリは elementary OS 向けに作ら"
 "れており、elementary が厳選・審査しています。"
 
-#: src/Views/AppCenterView.vala:23
+#: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "アプリを入手"
 
-#: src/Views/AppCenterView.vala:28
+#: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
 msgstr "AppCenter を閲覧…"
 
-#: src/Views/FinishView.vala:21
+#: src/Views/AppCenterView.vala:35
+msgid ""
+"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
+"org'>Flathub</a>"
+msgstr ""
+"<a href='https://flathub.org'>Flathub</a> などから、AppCenter を経由せずに "
+"Flatpak アプリをインストールすることもできます"
+
+#: src/Views/EarlyAccessView.vala:25
+#, c-format
+msgid ""
+"This pre-release version of %s should not be used in production. <b>It will "
+"not be possible to upgrade to the stable release</b> from this installation."
+msgstr "この %s はプレリリース版です。メイン環境での使用は推奨されません。また、<b>安定版へのアップグレードはできません</b>。"
+
+#: src/Views/EarlyAccessView.vala:28
+msgid "Early Access Build"
+msgstr "早期アクセスビルド"
+
+#: src/Views/EarlyAccessView.vala:33
+msgid "Major Known Issues"
+msgstr "主な既知の不具合"
+
+#: src/Views/EarlyAccessView.vala:39
+msgid "Curated apps are not available in AppCenter"
+msgstr "AppCenter のキュレーションされたアプリは利用できません"
+
+#: src/Views/EarlyAccessView.vala:47
+msgid "The visual style is unfinished"
+msgstr "視覚スタイルが未完成です"
+
+#: src/Views/EarlyAccessView.vala:55
+msgid "Some features are missing or incomplete"
+msgstr "欠落・未完成の機能があります"
+
+#: src/Views/EarlyAccessView.vala:75
+msgid "More issues on the 6.0 Release Project…"
+msgstr "リリースプロジェクトのほかの不具合を確認…"
+
+#: src/Views/FinishView.vala:22
 #, c-format
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
@@ -61,19 +100,19 @@ msgstr ""
 "どうぞ %s をご利用ください！\"システム設定\" を開くと、ハードウェアをセット"
 "アップしたり、設定を変更したりできます。"
 
-#: src/Views/FinishView.vala:23
+#: src/Views/FinishView.vala:24
 msgid "Ready to Go"
 msgstr "準備が完了しました"
 
-#: src/Views/FinishView.vala:28
+#: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "\"システム設定\" を開く…"
 
-#: src/Views/HouseKeepingView.vala:22
+#: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
 msgstr "自動削除"
 
-#: src/Views/HouseKeepingView.vala:29
+#: src/Views/HouseKeepingView.vala:30
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -82,35 +121,35 @@ msgstr ""
 "古いファイルは %u 日後に自動的に削除されます。これにより、空き領域を確保で"
 "き、プライバシーの保護に役立ちます。"
 
-#: src/Views/HouseKeepingView.vala:31
+#: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
 msgstr "以下のファイルを自動的に削除:"
 
-#: src/Views/HouseKeepingView.vala:33
-msgid "Temporary files"
-msgstr "一時ファイル"
+#: src/Views/HouseKeepingView.vala:34
+msgid "Old temporary files"
+msgstr "不要な一時ファイル"
 
-#: src/Views/HouseKeepingView.vala:36
+#: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "ゴミ箱に移動したファイル"
 
-#: src/Views/LocationServicesView.vala:21
+#: src/Views/LocationServicesView.vala:22
 msgid ""
-"While Location Services are enabled, apps will be able to make requests to "
-"use this device's location."
+"Receive a prompt when an app requests this device’s location. If disabled, "
+"all location requests will be denied."
 msgstr ""
-"位置情報サービスを有効にすると、アプリはこのデバイスの現在地を利用するための"
-"要求を出せるようになります。"
+"アプリがこのデバイスの位置情報を要求した場合に確認します。無効にすると、すべ"
+"ての位置情報の要求は拒否されます。"
 
-#: src/Views/LocationServicesView.vala:23
+#: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
 msgstr "位置情報サービス"
 
-#: src/Views/LocationServicesView.vala:28
+#: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
 msgstr "位置情報サービス:"
 
-#: src/Views/NightLightView.vala:21
+#: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
@@ -118,15 +157,92 @@ msgstr ""
 "夜間にディスプレイの色を暖色にします。これは、目の疲れと不眠の防止に役立ちま"
 "す。"
 
-#: src/Views/NightLightView.vala:23
+#: src/Views/NightLightView.vala:24
 msgid "Night Light"
 msgstr "夜間モード"
 
-#: src/Views/NightLightView.vala:28
+#: src/Views/NightLightView.vala:29
 msgid "Night Light:"
 msgstr "夜間モード:"
 
-#: src/Views/WelcomeView.vala:21
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
+msgstr "スケジュールと色温度を調節…"
+
+#: src/Views/StyleView.vala:26
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
+msgstr ""
+"視覚スタイルとアクセントカラーを選んで、オリジナリティーを出しましょう。アプ"
+"リによっては、独自の視覚スタイルとアクセントカラーが使用されることもありま"
+"す。"
+
+#: src/Views/StyleView.vala:28
+msgid "Choose Your Look"
+msgstr "外観の選択"
+
+#: src/Views/StyleView.vala:53
+msgid "Default"
+msgstr "デフォルト"
+
+#: src/Views/StyleView.vala:79
+msgid "Dark"
+msgstr "ダーク"
+
+#: src/Views/StyleView.vala:89
+msgid "Blueberry"
+msgstr "ブルーベリー"
+
+#: src/Views/StyleView.vala:92
+msgid "Mint"
+msgstr "ミント"
+
+#: src/Views/StyleView.vala:95
+msgid "Lime"
+msgstr "ライム"
+
+#: src/Views/StyleView.vala:98
+msgid "Banana"
+msgstr "バナナ"
+
+#: src/Views/StyleView.vala:101
+msgid "Orange"
+msgstr "オレンジ"
+
+#: src/Views/StyleView.vala:104
+msgid "Strawberry"
+msgstr "ストロベリー"
+
+#: src/Views/StyleView.vala:107
+msgid "Bubblegum"
+msgstr "ピンク"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "グレープ"
+
+#: src/Views/StyleView.vala:113
+msgid "Cocoa"
+msgstr "ココア"
+
+#: src/Views/StyleView.vala:116
+msgid "Slate"
+msgstr "スレート"
+
+#: src/Views/UpdateView.vala:22
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な情"
+"報は、<a href='https://blog.elementary.io'>ブログ</a>で確認できます。"
+
+#: src/Views/UpdateView.vala:25
+msgid "What’s New"
+msgstr "最新情報"
+
+#: src/Views/WelcomeView.vala:22
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -135,19 +251,26 @@ msgstr ""
 "続行して、便利な機能をセットアップしましょう。%s についての詳細な情報を知るに"
 "は、以下のリンクにアクセスしてください。"
 
-#: src/Views/WelcomeView.vala:23
+#: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
 msgstr "%s へようこそ！"
 
-#: src/Views/WelcomeView.vala:30
+#: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
 msgstr "基本操作ガイド…"
 
-#: src/Views/WelcomeView.vala:36
+#: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
 msgstr "コミュニティーサポート…"
 
-#: src/Views/WelcomeView.vala:42
+#: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "開発に参加…"
+
+#~ msgid ""
+#~ "While Location Services are enabled, apps will be able to make requests "
+#~ "to use this device's location."
+#~ msgstr ""
+#~ "位置情報サービスを有効にすると、アプリはこのデバイスの現在地を利用するため"
+#~ "の要求を出せるようになります。"

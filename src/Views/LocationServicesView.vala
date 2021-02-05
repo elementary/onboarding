@@ -18,7 +18,8 @@
 public class Onboarding.LocationServicesView : AbstractOnboardingView {
     public LocationServicesView () {
         Object (
-            description: _("While Location Services are enabled, apps will be able to make requests to use this device's location."),
+            view_name: "location",
+            description: _("Receive a prompt when an app requests this device’s location. If disabled, all location requests will be denied."),
             icon_name: "find-location",
             title: _("Location Services")
         );
@@ -29,7 +30,7 @@ public class Onboarding.LocationServicesView : AbstractOnboardingView {
 
         var service_switch = new Gtk.Switch ();
 
-        var settings = new GLib.Settings ("io.elementary.desktop.agent-geoclue2");
+        var settings = new GLib.Settings (Onboarding.MainWindow.GEOCLUE_SCHEMA);
         settings.bind ("location-enabled", service_switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
         custom_bin.add (switch_label);

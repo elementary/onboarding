@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gresources>
   <gresource prefix="/io/elementary/onboarding">
-    <file compressed="true">application.css</file>
+    <file compressed="true">StyleView.css</file>
+    <file compressed="true" preprocess="xml-stripblanks">appearance-default.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">appearance-dark.svg</file>
   </gresource>
 </gresources>

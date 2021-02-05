@@ -7,28 +7,58 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-04-11 16:54-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-04-17 18:15+0000\n"
+"PO-Revision-Date: 2020-05-28 12:11+0000\n"
+"Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
+"Language-Team: Danish <https://l10n.elementary.io/projects/installer/"
+"onboarding-extra/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
-msgstr ""
+msgstr "Velkommen"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
-msgstr ""
+msgstr "Skift almindeligt brugte indstillinger under første kørsel"
 
 #: data/io.elementary.onboarding.desktop.in:6
-msgid "system-os-installer"
-msgstr ""
+msgid "io.elementary.onboarding"
+msgstr "io.elementary.onboarding"
 
-#: data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:16
+msgid "Fix blurry icon in AppCenter"
+msgstr "Ret slørede ikoner i AppCenter"
+
+#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
+#: data/onboarding.appdata.xml.in:35
+msgid "Updated translations"
+msgstr "Opdaterede oversættelser"
+
+#: data/onboarding.appdata.xml.in:24
+msgid "New app icon"
+msgstr "Nyt app ikon"
+
+#: data/onboarding.appdata.xml.in:32
+msgid "Navigate with (multi-)touch gestures"
+msgstr "Naviger med (multi-)berøringsbevægelser"
+
+#: data/onboarding.appdata.xml.in:33
+msgid "Use new blog URL"
+msgstr "Brug ny blog URL"
+
+#: data/onboarding.appdata.xml.in:34
+msgid "Fix errors when pressing the Skip button"
+msgstr "Ret fejl der opstår med Spring over knappen"
+
+#: data/onboarding.appdata.xml.in:74
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
+
+#~ msgid "system-os-installer"
+#~ msgstr "system-os-installer"

@@ -7,134 +7,267 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-11-16 19:43+0000\n"
+"PO-Revision-Date: 2020-12-19 10:16+0000\n"
+"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <https://l10n.elementary.io/projects/installer/"
+"onboarding/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:25
+#: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "Подеси „%s“"
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:107
 msgid "Skip All"
-msgstr ""
+msgstr "Прескочи све"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:112
-msgid "Next"
-msgstr ""
-
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Get Started"
-msgstr ""
+msgstr "Почнимо"
 
-#: src/Views/AppCenterView.vala:21
+#: src/MainWindow.vala:121
+msgid "Next"
+msgstr "Следеће"
+
+#: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"Добавите програме који су вам потребни у Програмском центру. Одржавани "
+"програми су направљени за елементари ОС и прегледани од стране елементари "
+"ОС-а."
 
-#: src/Views/AppCenterView.vala:23
+#: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Набавите неки програм"
 
-#: src/Views/AppCenterView.vala:28
+#: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "Разгледај Програмски центар…"
 
-#: src/Views/FinishView.vala:21
+#: src/Views/AppCenterView.vala:35
+msgid ""
+"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
+"org'>Flathub</a>"
+msgstr ""
+"Можете такође преузети са стране Флатпак програме нпр. са <a "
+"href='https://flathub.org'>Flathub</a>-а"
+
+#: src/Views/EarlyAccessView.vala:25
+#, c-format
+msgid ""
+"This pre-release version of %s should not be used in production. <b>It will "
+"not be possible to upgrade to the stable release</b> from this installation."
+msgstr ""
+"Ово предиздање верзије „%s“ не би требало да се користи у произвдњи. <b>Неће "
+"бити могуће надоградити на стабилно издање</b> са ове инсталације."
+
+#: src/Views/EarlyAccessView.vala:28
+msgid "Early Access Build"
+msgstr "Раније приступљена изградња"
+
+#: src/Views/EarlyAccessView.vala:33
+msgid "Major Known Issues"
+msgstr "Већи познати проблеми"
+
+#: src/Views/EarlyAccessView.vala:39
+msgid "Curated apps are not available in AppCenter"
+msgstr "Одржавани програми нису доступни у Програмском центру"
+
+#: src/Views/EarlyAccessView.vala:47
+msgid "The visual style is unfinished"
+msgstr "Визуелни стил је недовршен"
+
+#: src/Views/EarlyAccessView.vala:55
+msgid "Some features are missing or incomplete"
+msgstr "Неке функције недостају или су непотпуне"
+
+#: src/Views/EarlyAccessView.vala:75
+msgid "More issues on the 6.0 Release Project…"
+msgstr "Више проблема у 6.0 пројекту издања…"
+
+#: src/Views/FinishView.vala:22
 #, c-format
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Уживајте користећи „%s“! Увек можете отворити подешавања система да подесите "
+"хардвер или измените поставке."
 
-#: src/Views/FinishView.vala:23
+#: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "Спремни за полазак"
 
-#: src/Views/FinishView.vala:28
+#: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Отвори подешавања система…"
 
-#: src/Views/HouseKeepingView.vala:22
+#: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr ""
+msgstr "Редарство"
 
-#: src/Views/HouseKeepingView.vala:29
+#: src/Views/HouseKeepingView.vala:30
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
+"Старе датотеке могу бити самостално обрисане након %u дана да би се сачувао "
+"простор и заштитила ваша приватност."
 
-#: src/Views/HouseKeepingView.vala:31
+#: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Сам обриши:"
 
-#: src/Views/HouseKeepingView.vala:33
-msgid "Temporary files"
-msgstr ""
+#: src/Views/HouseKeepingView.vala:34
+msgid "Old temporary files"
+msgstr "Старе привремене датотеке"
 
-#: src/Views/HouseKeepingView.vala:36
+#: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr ""
+msgstr "Датотеке у смећу"
 
-#: src/Views/LocationServicesView.vala:21
+#: src/Views/LocationServicesView.vala:22
 msgid ""
-"While Location Services are enabled, apps will be able to make requests to "
-"use this device's location."
+"Receive a prompt when an app requests this device’s location. If disabled, "
+"all location requests will be denied."
 msgstr ""
+"Примите упит када неки програм затражи локацију овог уређаја. Ако је "
+"искључено, сви захтеви локације биће одбијени."
 
-#: src/Views/LocationServicesView.vala:23
+#: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
-msgstr ""
+msgstr "Услуге места"
 
-#: src/Views/LocationServicesView.vala:28
+#: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
-msgstr ""
+msgstr "Услуге места:"
 
-#: src/Views/NightLightView.vala:21
+#: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Учините боје вашег екрана топлијим ноћу да вам помогне да спречите замор "
+"очију и поспаност."
 
-#: src/Views/NightLightView.vala:23
+#: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Ноћно светло"
 
-#: src/Views/NightLightView.vala:28
+#: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr ""
+msgstr "Ноћно светло:"
 
-#: src/Views/WelcomeView.vala:21
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
+msgstr "Дотерајте заказивање и температуру…"
+
+#: src/Views/StyleView.vala:26
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
+msgstr ""
+"Направите ваш сопствени бирајући визуелни стил и наглашену боју. Програми "
+"могу да препишу ово својим сопственим изгледом."
+
+#: src/Views/StyleView.vala:28
+msgid "Choose Your Look"
+msgstr "Изаберите ваш изглед"
+
+#: src/Views/StyleView.vala:53
+msgid "Default"
+msgstr "Основна"
+
+#: src/Views/StyleView.vala:79
+msgid "Dark"
+msgstr "Тамна"
+
+#: src/Views/StyleView.vala:89
+msgid "Blueberry"
+msgstr "Боровница"
+
+#: src/Views/StyleView.vala:92
+msgid "Mint"
+msgstr "Нана"
+
+#: src/Views/StyleView.vala:95
+msgid "Lime"
+msgstr "Лимета"
+
+#: src/Views/StyleView.vala:98
+msgid "Banana"
+msgstr "Банана"
+
+#: src/Views/StyleView.vala:101
+msgid "Orange"
+msgstr "Наранџа"
+
+#: src/Views/StyleView.vala:104
+msgid "Strawberry"
+msgstr "Јагода"
+
+#: src/Views/StyleView.vala:107
+msgid "Bubblegum"
+msgstr "Жвакаћа гума"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "Грожђе"
+
+#: src/Views/StyleView.vala:113
+msgid "Cocoa"
+msgstr "Какао"
+
+#: src/Views/StyleView.vala:116
+msgid "Slate"
+msgstr "Шкриљац"
+
+#: src/Views/UpdateView.vala:22
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Наставите са постављањем неких корисних нових функција. За детаљније "
+"информације о освежењима, проверите <a href='https://blog.elementary.io'>наш "
+"блог</a>."
+
+#: src/Views/UpdateView.vala:25
+msgid "What’s New"
+msgstr "Шта је ново"
+
+#: src/Views/WelcomeView.vala:22
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Наставите са постављањем неких корисних функција. Посетите везу испод за "
+"више података о „%s“."
 
-#: src/Views/WelcomeView.vala:23
+#: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Добродошли у „%s“!"
 
-#: src/Views/WelcomeView.vala:30
+#: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Основни водич…"
 
-#: src/Views/WelcomeView.vala:36
+#: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr ""
+msgstr "Подршка заједнице…"
 
-#: src/Views/WelcomeView.vala:42
+#: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "Укључите се…"

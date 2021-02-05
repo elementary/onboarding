@@ -7,28 +7,58 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-04-11 16:54-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2020-04-17 18:15+0000\n"
+"PO-Revision-Date: 2020-06-07 10:11+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
+"onboarding-extra/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
-msgstr ""
+msgstr "Vítejte"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
-msgstr ""
+msgstr "Změna běžných nastavení při prvním spuštění"
 
 #: data/io.elementary.onboarding.desktop.in:6
-msgid "system-os-installer"
-msgstr ""
+msgid "io.elementary.onboarding"
+msgstr "io.elementary.onboarding"
 
-#: data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:16
+msgid "Fix blurry icon in AppCenter"
+msgstr "Oprava rozmazané ikony v Centru aplikací"
+
+#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
+#: data/onboarding.appdata.xml.in:35
+msgid "Updated translations"
+msgstr "Aktualizovány překlady"
+
+#: data/onboarding.appdata.xml.in:24
+msgid "New app icon"
+msgstr "Nová ikona aplikace"
+
+#: data/onboarding.appdata.xml.in:32
+msgid "Navigate with (multi-)touch gestures"
+msgstr "Navigace pomocí dotykových gest (včetně použití více prstů naráz)"
+
+#: data/onboarding.appdata.xml.in:33
+msgid "Use new blog URL"
+msgstr "Použití nové URL adresy blogu"
+
+#: data/onboarding.appdata.xml.in:34
+msgid "Fix errors when pressing the Skip button"
+msgstr "Oprava chyb při stisknutí tlačítka Přeskočit"
+
+#: data/onboarding.appdata.xml.in:74
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
+
+#~ msgid "system-os-installer"
+#~ msgstr "system-os-installer"

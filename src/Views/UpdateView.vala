@@ -15,14 +15,14 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-.stack-switcher button {
-    background: none;
-    border: none;
-    box-shadow: none;
-    color: #666;
-    opacity: 0.4;
-}
-
-.stack-switcher button:checked {
-    opacity: 1;
+public class Onboarding.UpdateView : AbstractOnboardingView {
+    public UpdateView () {
+        Object (
+            view_name: "update",
+            description: _("Continue to set up some useful new features. For more detailed information about updates, check out <a href='https://blog.elementary.io'>our blog</a>."),
+            icon_name: Utils.logo_icon_name,
+            badge_name: "system-software-update",
+            title: _("What’s New")
+        );
+    }
 }

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-04-26 08:12+0000\n"
+"POT-Creation-Date: 2020-04-17 18:15+0000\n"
+"PO-Revision-Date: 2020-04-21 00:10+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6\n"
+"X-Generator: Weblate 3.9.1\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -28,9 +28,37 @@ msgid "Change common settings on first-run"
 msgstr "Canvieu paràmetres usuals a la primera execució."
 
 #: data/io.elementary.onboarding.desktop.in:6
-msgid "system-os-installer"
-msgstr "system-os-installer"
+msgid "io.elementary.onboarding"
+msgstr "io.elementary.onboarding"
 
-#: data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:16
+msgid "Fix blurry icon in AppCenter"
+msgstr "Correcció de la icona borrosa del Centre d'aplicacions"
+
+#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
+#: data/onboarding.appdata.xml.in:35
+msgid "Updated translations"
+msgstr "Traduccions actualitzades"
+
+#: data/onboarding.appdata.xml.in:24
+msgid "New app icon"
+msgstr "Icona nova de l'aplicació"
+
+#: data/onboarding.appdata.xml.in:32
+msgid "Navigate with (multi-)touch gestures"
+msgstr "Navegació amb tocs múltiples"
+
+#: data/onboarding.appdata.xml.in:33
+msgid "Use new blog URL"
+msgstr "Ús de l'URL nou del blog"
+
+#: data/onboarding.appdata.xml.in:34
+msgid "Fix errors when pressing the Skip button"
+msgstr "Correcció d'errors quan es prem el botó d'ometre"
+
+#: data/onboarding.appdata.xml.in:74
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
+
+#~ msgid "system-os-installer"
+#~ msgstr "system-os-installer"

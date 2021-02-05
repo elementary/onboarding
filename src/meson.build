@@ -2,14 +2,20 @@
 vala_files = [
     'Application.vala',
     'MainWindow.vala',
+    'PageChecker.vala',
+    'PantheonAccountsServicePlugin.vala',
+    'Switcher.vala',
     'Utils.vala',
     'Views/AbstractOnboardingView.vala',
     'Views/AppCenterView.vala',
+    'Views/EarlyAccessView.vala',
     'Views/FinishView.vala',
     'Views/FwupdView.vala',
     'Views/HouseKeepingView.vala',
     'Views/LocationServicesView.vala',
     'Views/NightLightView.vala',
+    'Views/StyleView.vala',
+    'Views/UpdateView.vala',
     'Views/WelcomeView.vala',
 ]
 

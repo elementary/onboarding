@@ -18,6 +18,7 @@
 public class Onboarding.HouseKeepingView : AbstractOnboardingView {
     public HouseKeepingView () {
         Object (
+            view_name: "housekeeping",
             icon_name: "preferences-system-privacy-housekeeping",
             title: _("Housekeeping")
         );
@@ -30,7 +31,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
 
         var header_label = new Granite.HeaderLabel (_("Automatically Delete:"));
 
-        var temp_switch = new Gtk.CheckButton.with_label (_("Temporary files"));
+        var temp_switch = new Gtk.CheckButton.with_label (_("Old temporary files"));
         temp_switch.margin_start = 12;
 
         var trash_switch = new Gtk.CheckButton.with_label (_("Trashed files"));

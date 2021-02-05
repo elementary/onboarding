@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2014-2019 elementary, Inc. (https://elementary.io)
+ * Copyright 2014-2020 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,11 +19,30 @@
  */
 
 public class Utils {
+    private static string _documentation_url;
+    public static string documentation_url {
+        get {
+            if (_documentation_url == null) {
+                _documentation_url = Environment.get_os_info (GLib.OsInfoKey.DOCUMENTATION_URL);
+
+                if (_documentation_url == null) {
+                    _documentation_url = "https://elementary.io/docs/learning-the-basics";
+                }
+            }
+
+            return _documentation_url;
+        }
+    }
+
     private static string _support_url;
     public static string support_url {
         get {
             if (_support_url == null) {
-                parse_osrelease ();
+                _support_url = Environment.get_os_info (GLib.OsInfoKey.SUPPORT_URL);
+
+                if (_support_url == null) {
+                    _support_url = "https://elementary.io/support";
+                }
             }
 
             return _support_url;
@@ -34,32 +53,29 @@ public class Utils {
     public static string os_name {
         get {
             if (_os_name == null) {
-                parse_osrelease ();
+                _os_name = Environment.get_os_info (GLib.OsInfoKey.NAME);
+
+                if (_os_name == null) {
+                    _os_name = "elementary OS";
+                }
             }
 
             return _os_name;
         }
     }
 
-    private static void parse_osrelease () {
-        var file = File.new_for_path ("/etc/os-release");
-        try {
-            var osrel = new Gee.HashMap<string, string> ();
-            var dis = new DataInputStream (file.read ());
-            string line;
-            // Read lines until end of file (null) is reached
-            while ((line = dis.read_line (null)) != null) {
-                var osrel_component = line.split ("=", 2);
-                if (osrel_component.length == 2) {
-                    osrel[osrel_component[0]] = osrel_component[1].replace ("\"", "");
+    private static string _logo_icon_name;
+    public static string logo_icon_name {
+        get {
+            if (_logo_icon_name == null) {
+                _logo_icon_name = Environment.get_os_info ("LOGO");
+
+                if (_logo_icon_name == null) {
+                    _logo_icon_name = "distributor-logo";
                 }
             }
-            _os_name = osrel["NAME"];
-            _support_url = osrel["SUPPORT_URL"];
-        } catch (Error e) {
-            critical (e.message);
-            _os_name = "elementary OS";
-            _support_url = "https://elementary.io/support";
+
+            return _logo_icon_name;
         }
     }
 }

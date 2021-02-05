@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-04-22 23:31+0000\n"
+"POT-Creation-Date: 2020-11-16 19:43+0000\n"
+"PO-Revision-Date: 2021-01-21 19:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding/nb/>\n"
@@ -17,43 +17,85 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:25
+#: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
 msgstr "Sett opp %s"
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Hopp over alle"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:112
-msgid "Next"
-msgstr "Neste"
-
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Get Started"
 msgstr "Kom i gang"
 
-#: src/Views/AppCenterView.vala:21
-#, fuzzy
+#: src/MainWindow.vala:121
+msgid "Next"
+msgstr "Neste"
+
+#: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"Hent programmene du trenger i AppSenter. Vurderte programmet er laget for "
+"Hent programmene du trenger i AppSenter. Vurderte programmer er laget for "
 "elementary OS, og vurdert av elementary."
 
-#: src/Views/AppCenterView.vala:23
+#: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Hent noen programmer"
 
-#: src/Views/AppCenterView.vala:28
+#: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
 msgstr "Utforsk AppSenter…"
 
-#: src/Views/FinishView.vala:21
+#: src/Views/AppCenterView.vala:35
+msgid ""
+"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
+"org'>Flathub</a>"
+msgstr ""
+"Du kan også sideinnlaste Flatpak-programmer, f.eks. fra <a "
+"href='https://flathub.org'>Flathub</a>"
+
+#: src/Views/EarlyAccessView.vala:25
+#, c-format
+msgid ""
+"This pre-release version of %s should not be used in production. <b>It will "
+"not be possible to upgrade to the stable release</b> from this installation."
+msgstr ""
+"Denne forhåndsutgivelsen av %s skal ikke brukes i produksjon. <b>Det vil "
+"ikke være mulig å oppgradere til en stabil utgave</b> fra denne "
+"installasjonen."
+
+#: src/Views/EarlyAccessView.vala:28
+msgid "Early Access Build"
+msgstr "Forhåndstilgangsbygg"
+
+#: src/Views/EarlyAccessView.vala:33
+msgid "Major Known Issues"
+msgstr "Store kjente feil"
+
+#: src/Views/EarlyAccessView.vala:39
+#, fuzzy
+msgid "Curated apps are not available in AppCenter"
+msgstr "Gjennomgåtte programmer er ikke tilgjengelige i AppSenter"
+
+#: src/Views/EarlyAccessView.vala:47
+msgid "The visual style is unfinished"
+msgstr "Den visuelle stilen er uferdig"
+
+#: src/Views/EarlyAccessView.vala:55
+msgid "Some features are missing or incomplete"
+msgstr "Noen funksjoner mangler eller er ufullstendige"
+
+#: src/Views/EarlyAccessView.vala:75
+msgid "More issues on the 6.0 Release Project…"
+msgstr "Flere problemrapporter i 6.0-utgivelsesprosjektet …"
+
+#: src/Views/FinishView.vala:22
 #, c-format
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
@@ -62,20 +104,19 @@ msgstr ""
 "Kos deg med %s. Du kan alltid gå til systeminnstillingene og sette opp "
 "maskinvare eller endre dine innstillinger."
 
-#: src/Views/FinishView.vala:23
+#: src/Views/FinishView.vala:24
 msgid "Ready to Go"
 msgstr "Klar til bruk"
 
-#: src/Views/FinishView.vala:28
+#: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Åpne systeminnstillinger…"
 
-#: src/Views/HouseKeepingView.vala:22
-#, fuzzy
+#: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr "Husreingjøring"
+msgstr "Husrengjøring"
 
-#: src/Views/HouseKeepingView.vala:29
+#: src/Views/HouseKeepingView.vala:30
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -84,35 +125,37 @@ msgstr ""
 "Gamle filer kan slettes automatisk etter %u dager for å spare plass og som "
 "en ekstra omtanke for personvernet."
 
-#: src/Views/HouseKeepingView.vala:31
+#: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
 msgstr "Slett automatisk:"
 
-#: src/Views/HouseKeepingView.vala:33
-msgid "Temporary files"
+#: src/Views/HouseKeepingView.vala:34
+#, fuzzy
+#| msgid "Temporary files"
+msgid "Old temporary files"
 msgstr "Midlertidige filer"
 
-#: src/Views/HouseKeepingView.vala:36
+#: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Filer i papirkurven"
 
-#: src/Views/LocationServicesView.vala:21
+#: src/Views/LocationServicesView.vala:22
 msgid ""
-"While Location Services are enabled, apps will be able to make requests to "
-"use this device's location."
+"Receive a prompt when an app requests this device’s location. If disabled, "
+"all location requests will be denied."
 msgstr ""
-"Mens plasseringstjenester er påslått, vil programmer kunne forespørre denne "
-"enhetens plassering."
+"Få et varsel når en app spør etter din plassering. Om den er slått av vil "
+"alle forespørsler bli avvist."
 
-#: src/Views/LocationServicesView.vala:23
+#: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
 msgstr "Plasseringstjenester"
 
-#: src/Views/LocationServicesView.vala:28
+#: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
 msgstr "Plasseringstjenester:"
 
-#: src/Views/NightLightView.vala:21
+#: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
@@ -120,15 +163,91 @@ msgstr ""
 "Gjør skjermfargene varmere om natten for å forhindre øyetretthet og "
 "søvnløshet."
 
-#: src/Views/NightLightView.vala:23
+#: src/Views/NightLightView.vala:24
 msgid "Night Light"
 msgstr "Nattlys"
 
-#: src/Views/NightLightView.vala:28
+#: src/Views/NightLightView.vala:29
 msgid "Night Light:"
 msgstr "Nattlys:"
 
-#: src/Views/WelcomeView.vala:21
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
+msgstr "Juster kjøreplan og temperatur …"
+
+#: src/Views/StyleView.vala:26
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
+msgstr ""
+
+#: src/Views/StyleView.vala:28
+msgid "Choose Your Look"
+msgstr "Velg ditt utseende"
+
+#: src/Views/StyleView.vala:53
+msgid "Default"
+msgstr "Forvalg"
+
+#: src/Views/StyleView.vala:79
+msgid "Dark"
+msgstr "Mørk"
+
+#: src/Views/StyleView.vala:89
+msgid "Blueberry"
+msgstr "Blåbær"
+
+#: src/Views/StyleView.vala:92
+msgid "Mint"
+msgstr "Mint"
+
+#: src/Views/StyleView.vala:95
+msgid "Lime"
+msgstr "Lime"
+
+#: src/Views/StyleView.vala:98
+msgid "Banana"
+msgstr "Banan"
+
+#: src/Views/StyleView.vala:101
+msgid "Orange"
+msgstr "Appelsin"
+
+#: src/Views/StyleView.vala:104
+msgid "Strawberry"
+msgstr "Jordbær"
+
+#: src/Views/StyleView.vala:107
+msgid "Bubblegum"
+msgstr "Tyggegummi"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "Vinrød"
+
+#: src/Views/StyleView.vala:113
+msgid "Cocoa"
+msgstr "Kakao"
+
+#: src/Views/StyleView.vala:116
+msgid "Slate"
+msgstr "Skifer"
+
+#: src/Views/UpdateView.vala:22
+#, fuzzy
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Fortsett å sette opp noen nyttige funksjoner. Besøk <a href='https://medium."
+"com/elementaryos/tagged/updates'>vår blogg</a> for mer informasjon om "
+"oppdateringer."
+
+#: src/Views/UpdateView.vala:25
+msgid "What’s New"
+msgstr "Hva er nytt"
+
+#: src/Views/WelcomeView.vala:22
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -137,19 +256,26 @@ msgstr ""
 "Fortsett å sette opp noen nyttige funksjoner. Besøk lenkene nedenfor for mer "
 "info om %s."
 
-#: src/Views/WelcomeView.vala:23
+#: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr "Velkommen til %s."
+msgstr "Velkommen til %s!"
 
-#: src/Views/WelcomeView.vala:30
+#: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
 msgstr "Grunnleggende guide…"
 
-#: src/Views/WelcomeView.vala:36
+#: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
 msgstr "Gemenskapsstøtte…"
 
-#: src/Views/WelcomeView.vala:42
+#: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Involver deg…"
+
+#~ msgid ""
+#~ "While Location Services are enabled, apps will be able to make requests "
+#~ "to use this device's location."
+#~ msgstr ""
+#~ "Mens plasseringstjenester er påslått, vil programmer kunne forespørre "
+#~ "denne enhetens plassering."

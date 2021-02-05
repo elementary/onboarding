@@ -2,7 +2,8 @@
 Name=Welcome
 Comment=Change common settings on first-run
 Exec=io.elementary.onboarding
-Icon=system-os-installer
+Icon=io.elementary.onboarding
+NotShowIn=Installer;
 Terminal=false
 Type=Application
 StartupNotify=true

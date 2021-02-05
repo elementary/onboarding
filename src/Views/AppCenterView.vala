@@ -18,6 +18,7 @@
 public class Onboarding.AppCenterView : AbstractOnboardingView {
     public AppCenterView () {
         Object (
+            view_name: "appcenter",
             description: _("Get the apps you need on AppCenter. Curated apps are made for elementary OS and reviewed by elementary."),
             icon_name: "system-software-install",
             title: _("Get Some Apps")
@@ -31,7 +32,20 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
         appcenter_button_context.add_class (Gtk.STYLE_CLASS_FLAT);
         appcenter_button_context.add_class ("link");
 
+        var flatpak_note = new Gtk.Label ("<small>%s</small>".printf (_("You can also sideload Flatpak apps e.g. from <a href='https://flathub.org'>Flathub</a>"))) {
+            justify = Gtk.Justification.CENTER,
+            max_width_chars = 45,
+            use_markup = true,
+            valign = Gtk.Align.END,
+            vexpand = true,
+            wrap = true
+        };
+        flatpak_note.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+
+        custom_bin.orientation = Gtk.Orientation.VERTICAL;
+        custom_bin.valign = Gtk.Align.FILL;
         custom_bin.add (appcenter_button);
+        custom_bin.add (flatpak_note);
 
         appcenter_button.clicked.connect (() => {
             try {
@@ -47,4 +61,3 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
         });
     }
 }
-

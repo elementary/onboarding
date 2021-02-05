@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
     <schema path="/io/elementary/onboarding/" id="io.elementary.onboarding">
-        <key type="b" name="first-run">
-            <default>true</default>
-            <summary>If this app should run at startup.</summary>
+        <key type="as" name="viewed">
+            <default>[]</default>
+            <summary>Screens that have already been viewed. If there are major updates, new screens may be added and will be shown to the user unless they are noted here.</summary>
         </key>
     </schema>
 </schemalist>
+

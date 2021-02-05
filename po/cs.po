@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-04-22 23:31+0000\n"
-"Last-Translator: Jan Marek <janmarek28@gmail.com>\n"
+"POT-Creation-Date: 2020-11-16 19:43+0000\n"
+"PO-Revision-Date: 2020-07-25 17:12+0000\n"
+"Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
 "onboarding/cs/>\n"
 "Language: cs\n"
@@ -17,61 +17,102 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.5.1\n"
+"X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:25
+#: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
 msgstr "Nastavit %s"
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Přeskočit vše"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:112
+#: src/MainWindow.vala:117
+msgid "Get Started"
+msgstr "Začít"
+
+#: src/MainWindow.vala:121
 msgid "Next"
 msgstr "Další"
 
-#: src/MainWindow.vala:109
-msgid "Get Started"
-msgstr ""
-
-#: src/Views/AppCenterView.vala:21
+#: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"V AppCentru získejte aplikace, které potřebujete. Schválené aplikace jsou "
-"postaveny pro elementary OS a zkontrolované týmem elementary."
+"Potřebné aplikace je možné získat Centru aplikací. Prověřené aplikace jsou "
+"vytvořeny pro elementary OS a zkontrolované týmem elementary."
 
-#: src/Views/AppCenterView.vala:23
+#: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Získat aplikace"
 
-#: src/Views/AppCenterView.vala:28
+#: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr "Prohlédnout AppCentrum…"
+msgstr "Prohlížet Centrum aplikací…"
 
-#: src/Views/FinishView.vala:21
+#: src/Views/AppCenterView.vala:35
+msgid ""
+"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
+"org'>Flathub</a>"
+msgstr ""
+"Je také možné nahrát bokem aplikace z flatpak balíčků, např. z repozitáře  "
+"<a href='https://flathub.org'>Flathub</a>"
+
+#: src/Views/EarlyAccessView.vala:25
+#, c-format
+msgid ""
+"This pre-release version of %s should not be used in production. <b>It will "
+"not be possible to upgrade to the stable release</b> from this installation."
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:28
+msgid "Early Access Build"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:33
+msgid "Major Known Issues"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:39
+msgid "Curated apps are not available in AppCenter"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:47
+msgid "The visual style is unfinished"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:55
+msgid "Some features are missing or incomplete"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:75
+msgid "More issues on the 6.0 Release Project…"
+msgstr ""
+
+#: src/Views/FinishView.vala:22
 #, c-format
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Užijte si používání %s! Kdykoliv můžete navštívit Nastavení systému a "
+"nastavovat hardware a měnit předvolby."
 
-#: src/Views/FinishView.vala:23
+#: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "Připraveno"
 
-#: src/Views/FinishView.vala:28
+#: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Otevřít Nastavení systému…"
 
-#: src/Views/HouseKeepingView.vala:22
+#: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
 msgstr "Údržba"
 
-#: src/Views/HouseKeepingView.vala:29
+#: src/Views/HouseKeepingView.vala:30
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -80,67 +121,151 @@ msgstr ""
 "Staré soubory mohou být po %u dnech automaticky smazány, aby se uvolnilo "
 "místo a zajistilo vaše soukromí."
 
-#: src/Views/HouseKeepingView.vala:31
+#: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
 msgstr "Automaticky mazat:"
 
-#: src/Views/HouseKeepingView.vala:33
-msgid "Temporary files"
+#: src/Views/HouseKeepingView.vala:34
+#, fuzzy
+#| msgid "Temporary files"
+msgid "Old temporary files"
 msgstr "Dočasné soubory"
 
-#: src/Views/HouseKeepingView.vala:36
+#: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Soubory v koši"
 
-#: src/Views/LocationServicesView.vala:21
+#: src/Views/LocationServicesView.vala:22
 msgid ""
-"While Location Services are enabled, apps will be able to make requests to "
-"use this device's location."
+"Receive a prompt when an app requests this device’s location. If disabled, "
+"all location requests will be denied."
 msgstr ""
+"Obdržte upozornění, pokud se aplikace snaží zjistit polohu tohoto počítače. "
+"Pokud je vypnuto, všechny žádosti o polohu budou zamítány."
 
-#: src/Views/LocationServicesView.vala:23
+#: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
-msgstr ""
+msgstr "Služby určování polohy"
 
-#: src/Views/LocationServicesView.vala:28
+#: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
-msgstr ""
+msgstr "Služby určování polohy:"
 
-#: src/Views/NightLightView.vala:21
+#: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
-"Změní barvy displeje na teplejší, aby omezil vliv na únavu očí a nespavost."
+"V noci změní barvy displeje na teplejší, aby se zamezilo únavě očí a "
+"nespavosti."
 
-#: src/Views/NightLightView.vala:23
+#: src/Views/NightLightView.vala:24
 msgid "Night Light"
 msgstr "Noční světlo"
 
-#: src/Views/NightLightView.vala:28
+#: src/Views/NightLightView.vala:29
 msgid "Night Light:"
 msgstr "Noční světlo:"
 
-#: src/Views/WelcomeView.vala:21
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
+msgstr "Upravit plánování a teplotu…"
+
+#: src/Views/StyleView.vala:26
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
+msgstr ""
+"Přizpůsobte si zvolením vizuálního stylu a barvy zvýrazňování. Aplikace toto "
+"mohou přebít vlastním vzhledem."
+
+#: src/Views/StyleView.vala:28
+msgid "Choose Your Look"
+msgstr "Zvolte si vzhled"
+
+#: src/Views/StyleView.vala:53
+msgid "Default"
+msgstr "Výchozí"
+
+#: src/Views/StyleView.vala:79
+msgid "Dark"
+msgstr "Tmavý"
+
+#: src/Views/StyleView.vala:89
+msgid "Blueberry"
+msgstr "Borůvkový"
+
+#: src/Views/StyleView.vala:92
+msgid "Mint"
+msgstr "Mátový"
+
+#: src/Views/StyleView.vala:95
+msgid "Lime"
+msgstr "Limetkový"
+
+#: src/Views/StyleView.vala:98
+msgid "Banana"
+msgstr "Banánový"
+
+#: src/Views/StyleView.vala:101
+msgid "Orange"
+msgstr "Pomerančový"
+
+#: src/Views/StyleView.vala:104
+msgid "Strawberry"
+msgstr "Jahodový"
+
+#: src/Views/StyleView.vala:107
+msgid "Bubblegum"
+msgstr "Žvýkačkové bubliny"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "Hroznový"
+
+#: src/Views/StyleView.vala:113
+msgid "Cocoa"
+msgstr "Kakaový"
+
+#: src/Views/StyleView.vala:116
+msgid "Slate"
+msgstr "Břidlicový"
+
+#: src/Views/UpdateView.vala:22
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Pokračujte nastavením užitečných nových funkcí. Podrobnější informace o "
+"aktualizacích jsou k dispozici na <a href='https://blog.elementary.io'>našem "
+"blogu</a>."
+
+#: src/Views/UpdateView.vala:25
+msgid "What’s New"
+msgstr "Co je nového"
+
+#: src/Views/WelcomeView.vala:22
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Pokračujte nastavením užitečných funkcí. Další informace o %s obdržíte "
+"navštívením níže uvedených odkazů."
 
-#: src/Views/WelcomeView.vala:23
+#: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
 msgstr "Vítejte v %s!"
 
-#: src/Views/WelcomeView.vala:30
+#: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr "Základní průvodce…"
+msgstr "Průvodce základy…"
 
-#: src/Views/WelcomeView.vala:36
+#: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr "Podpora komunity…"
+msgstr "Komunitní podpora…"
 
-#: src/Views/WelcomeView.vala:42
+#: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Zapojte se…"

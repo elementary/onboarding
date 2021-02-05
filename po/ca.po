@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-26 22:43+0200\n"
-"PO-Revision-Date: 2019-04-26 08:11+0000\n"
+"POT-Creation-Date: 2020-11-16 19:43+0000\n"
+"PO-Revision-Date: 2020-11-19 12:15+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
 "onboarding/ca/>\n"
@@ -17,43 +17,86 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6\n"
+"X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:25
+#: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
 msgstr "Configureu %s"
 
-#: src/MainWindow.vala:63
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Omet-ho tot"
 
-#: src/MainWindow.vala:74 src/MainWindow.vala:112
-msgid "Next"
-msgstr "Següent"
-
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Get Started"
 msgstr "Comenceu"
 
-#: src/Views/AppCenterView.vala:21
+#: src/MainWindow.vala:121
+msgid "Next"
+msgstr "Següent"
+
+#: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
 "Obtingueu les aplicacions que us calen al Centre d'aplicacions. Es fan "
-"aplicacions ajustades a l'elementary OS i són revisades per l'equip de "
+"aplicacions ajustades a l'elementary OS i revisades per l'equip de "
 "l'elementary."
 
-#: src/Views/AppCenterView.vala:23
+#: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Obtingueu algunes aplicacions"
 
-#: src/Views/AppCenterView.vala:28
+#: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
 msgstr "Navegueu pel Centre d'aplicacions…"
 
-#: src/Views/FinishView.vala:21
+#: src/Views/AppCenterView.vala:35
+msgid ""
+"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
+"org'>Flathub</a>"
+msgstr ""
+"També podeu carregar aplicacions de Flatpak, per exemple, des de <a "
+"href='https://flathub.org'>Flathub</a>"
+
+#: src/Views/EarlyAccessView.vala:25
+#, c-format
+msgid ""
+"This pre-release version of %s should not be used in production. <b>It will "
+"not be possible to upgrade to the stable release</b> from this installation."
+msgstr ""
+"Aquesta versió de prepublicació de %s no s'hauria d'usar per a "
+"productivitat. <b>No es podrà actualitzar a la versió estable</b> des "
+"d'aquesta instal·lació."
+
+#: src/Views/EarlyAccessView.vala:28
+msgid "Early Access Build"
+msgstr "Accés primerenc a la construcció"
+
+#: src/Views/EarlyAccessView.vala:33
+msgid "Major Known Issues"
+msgstr "Principals problemes coneguts"
+
+#: src/Views/EarlyAccessView.vala:39
+msgid "Curated apps are not available in AppCenter"
+msgstr ""
+"Les aplicacions amb conservació no estan disponibles al Centre d'aplicacions."
+
+#: src/Views/EarlyAccessView.vala:47
+msgid "The visual style is unfinished"
+msgstr "L'estil visual no està acabat."
+
+#: src/Views/EarlyAccessView.vala:55
+msgid "Some features are missing or incomplete"
+msgstr "Algunes característiques no hi són o estan incompletes."
+
+#: src/Views/EarlyAccessView.vala:75
+msgid "More issues on the 6.0 Release Project…"
+msgstr "Més problemes del projecte de la versió 6.0…"
+
+#: src/Views/FinishView.vala:22
 #, c-format
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
@@ -62,19 +105,19 @@ msgstr ""
 "Divertiu-vos usant %s! Sempre podeu anar a la Configuració del sistema per "
 "configurar maquinari o canviar preferències."
 
-#: src/Views/FinishView.vala:23
+#: src/Views/FinishView.vala:24
 msgid "Ready to Go"
 msgstr "A punt"
 
-#: src/Views/FinishView.vala:28
+#: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Obre la Configuració del sistema…"
 
-#: src/Views/HouseKeepingView.vala:22
+#: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
 msgstr "Manteniment"
 
-#: src/Views/HouseKeepingView.vala:29
+#: src/Views/HouseKeepingView.vala:30
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -83,35 +126,35 @@ msgstr ""
 "Els fitxers antics es poden suprimir automàticament al cap de %u dies per "
 "estalviar espai i ajudar a protegir la vostra privadesa."
 
-#: src/Views/HouseKeepingView.vala:31
+#: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
 msgstr "Supressió automàtica:"
 
-#: src/Views/HouseKeepingView.vala:33
-msgid "Temporary files"
-msgstr "Fitxers temporals"
+#: src/Views/HouseKeepingView.vala:34
+msgid "Old temporary files"
+msgstr "Fitxers temporals antics"
 
-#: src/Views/HouseKeepingView.vala:36
+#: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Fitxers enviats a la paperera"
 
-#: src/Views/LocationServicesView.vala:21
+#: src/Views/LocationServicesView.vala:22
 msgid ""
-"While Location Services are enabled, apps will be able to make requests to "
-"use this device's location."
+"Receive a prompt when an app requests this device’s location. If disabled, "
+"all location requests will be denied."
 msgstr ""
-"Mentre els Serveis d'ubicació estiguin habilitats, les aplicacions podran "
-"demanar fer ús de la ubicació d'aquest dispositiu."
+"Rebeu una notificació quan una aplicació demani la ubicació d'aquest "
+"dispositiu. Si està inhabilitat, es denegaran totes les peticions d'ubicació."
 
-#: src/Views/LocationServicesView.vala:23
+#: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
 msgstr "Serveis d'ubicació"
 
-#: src/Views/LocationServicesView.vala:28
+#: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
 msgstr "Serveis d'ubicació:"
 
-#: src/Views/NightLightView.vala:21
+#: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
@@ -119,15 +162,92 @@ msgstr ""
 "Feu que els colors de la pantalla siguin més càlids a la nit per ajudar a "
 "prevenir la tensió i l'insomni."
 
-#: src/Views/NightLightView.vala:23
+#: src/Views/NightLightView.vala:24
 msgid "Night Light"
 msgstr "Llum de nit"
 
-#: src/Views/NightLightView.vala:28
+#: src/Views/NightLightView.vala:29
 msgid "Night Light:"
 msgstr "Llum de nit:"
 
-#: src/Views/WelcomeView.vala:21
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
+msgstr "Ajusta'n la programació i la temperatura…"
+
+#: src/Views/StyleView.vala:26
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
+msgstr ""
+"Feu-lo vostre triant un estil visual i un color d’accentuació. Les "
+"aplicacions poden substituir-ho per l'aspecte propi."
+
+#: src/Views/StyleView.vala:28
+msgid "Choose Your Look"
+msgstr "Trieu la vostra aparença"
+
+#: src/Views/StyleView.vala:53
+msgid "Default"
+msgstr "Per defecte"
+
+#: src/Views/StyleView.vala:79
+msgid "Dark"
+msgstr "Fosca"
+
+#: src/Views/StyleView.vala:89
+msgid "Blueberry"
+msgstr "Nabiu"
+
+#: src/Views/StyleView.vala:92
+msgid "Mint"
+msgstr "Menta"
+
+#: src/Views/StyleView.vala:95
+msgid "Lime"
+msgstr "Verd llimona"
+
+#: src/Views/StyleView.vala:98
+msgid "Banana"
+msgstr "Plàtan"
+
+#: src/Views/StyleView.vala:101
+msgid "Orange"
+msgstr "Taronja"
+
+#: src/Views/StyleView.vala:104
+msgid "Strawberry"
+msgstr "Maduixa"
+
+#: src/Views/StyleView.vala:107
+msgid "Bubblegum"
+msgstr "Xiclet"
+
+#: src/Views/StyleView.vala:110
+msgid "Grape"
+msgstr "Raïm"
+
+#: src/Views/StyleView.vala:113
+msgid "Cocoa"
+msgstr "Cacau"
+
+#: src/Views/StyleView.vala:116
+msgid "Slate"
+msgstr "Pissarra"
+
+#: src/Views/UpdateView.vala:22
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Continueu configurant algunes funcions noves útils. Per obtenir informació "
+"més detallada sobre les actualitzacions, consulteu <a href='https://blog."
+"elementary.io'>el nostre blog</a>."
+
+#: src/Views/UpdateView.vala:25
+msgid "What’s New"
+msgstr "Què hi ha de nou?"
+
+#: src/Views/WelcomeView.vala:22
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -136,19 +256,26 @@ msgstr ""
 "Continueu configurant algunes característiques útils. Consulteu els enllaços "
 "següents per a més informació sobre %s."
 
-#: src/Views/WelcomeView.vala:23
+#: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
 msgstr "Us donem la benvinguda a %s!"
 
-#: src/Views/WelcomeView.vala:30
+#: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
 msgstr "Guia bàsica…"
 
-#: src/Views/WelcomeView.vala:36
+#: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
 msgstr "Suport de la comunitat…"
 
-#: src/Views/WelcomeView.vala:42
+#: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Participeu-hi…"
+
+#~ msgid ""
+#~ "While Location Services are enabled, apps will be able to make requests "
+#~ "to use this device's location."
+#~ msgstr ""
+#~ "Mentre els Serveis d'ubicació estiguin habilitats, les aplicacions podran "
+#~ "demanar fer ús de la ubicació d'aquest dispositiu."

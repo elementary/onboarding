@@ -9,6 +9,34 @@
   <description>
     <p></p>
   </description>
+  <releases>
+    <release version="1.2.1" date="2020-05-28" urgency="medium">
+      <description>
+        <ul>
+          <li>Fix blurry icon in AppCenter</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.2.0" date="2020-04-01" urgency="medium">
+      <description>
+        <ul>
+          <li>New app icon</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.1.0" date="2019-11-15" urgency="medium">
+      <description>
+        <ul>
+          <li>Navigate with (multi-)touch gestures</li>
+          <li>Use new blog URL</li>
+          <li>Fix errors when pressing the Skip button</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
   <provides>
     <binary>io.elementary.onboarding</binary>
   </provides>
