@@ -91,7 +91,7 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         }
 
         // Always show Early Access view on pre-release builds
-        if (Environment.get_os_info (GLib.OsInfoKey.VERSION_CODENAME) == "next") {
+        if (Environment.get_os_info (GLib.OsInfoKey.VERSION).contains ("Early Access")) {
             var early_access_view = new EarlyAccessView ();
             carousel.add (early_access_view);
         }
