@@ -45,4 +45,3 @@ public class Onboarding.FwupdView : AbstractOnboardingView {
         custom_bin.attach (privacy_label, 0, 1, 2);
     }
 }
-
