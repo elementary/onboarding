@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2020-08-17 09:13+0000\n"
+"PO-Revision-Date: 2021-02-09 11:55+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
 "onboarding/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:33
 #, c-format
@@ -66,6 +66,8 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"Tämä on %sn esijulkaisu. Älä käytä tätä julkaisua tuotantoympäristöissä. "
+"<b>Päivitys vakaaseen versioon ei ole mahdollista</b> tästä asennuksesta."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
