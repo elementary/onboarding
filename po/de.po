@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
 "PO-Revision-Date: 2021-02-11 00:09+0000\n"
-"Last-Translator: SpartanC90 <littau.cedrik@gmail.com>\n"
+"Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
 "onboarding/de/>\n"
 "Language: de\n"
@@ -222,7 +222,7 @@ msgstr "Erdbeere"
 
 #: src/Views/StyleView.vala:107
 msgid "Bubblegum"
-msgstr ""
+msgstr "Rosa"
 
 #: src/Views/StyleView.vala:110
 msgid "Grape"
