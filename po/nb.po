@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2021-01-21 19:39+0000\n"
+"PO-Revision-Date: 2021-02-13 20:39+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding/nb/>\n"
@@ -130,10 +130,8 @@ msgid "Automatically Delete:"
 msgstr "Slett automatisk:"
 
 #: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
 msgid "Old temporary files"
-msgstr "Midlertidige filer"
+msgstr "Gamle midlertidige filer"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
@@ -180,6 +178,8 @@ msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Gjør det til ditt eget ved å velge en visuell stil og kontrastfarge. "
+"Programmer kan overstyre disse med sitt eget utseende."
 
 #: src/Views/StyleView.vala:28
 msgid "Choose Your Look"
@@ -240,8 +240,7 @@ msgid ""
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "Fortsett å sette opp noen nyttige funksjoner. Besøk <a href='https://medium."
-"com/elementaryos/tagged/updates'>vår blogg</a> for mer informasjon om "
-"oppdateringer."
+"com/elementaryos/tagged/updates'>vår blogg</a> for mer info om oppdateringer."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
