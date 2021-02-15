@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2020-08-17 09:13+0000\n"
+"PO-Revision-Date: 2021-02-09 23:23+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
 "onboarding/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:33
 #, c-format
@@ -66,30 +66,32 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"Tämä on %sn esijulkaisu. Älä käytä tätä julkaisua tuotantoympäristöissä. "
+"<b>Päivitys vakaaseen versioon ei ole mahdollista</b> tästä asennuksesta."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "Varhaisen käytön julkaisu"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "Suurimmat tunnistetut ongelmat"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr ""
+msgstr "Kuratoidut sovellukset eivät ole saatavilla Sovelluskeskuksen kautta"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "Visuaalinen tyyli on viimeistelemätön"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "Jotkin ominaisuudet puuttuvat tai ovat puutteellisia"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "Lisää ongelmia 6.0-julkaisuprojektista…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -126,10 +128,8 @@ msgid "Automatically Delete:"
 msgstr "Poista automaattisesti:"
 
 #: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
 msgid "Old temporary files"
-msgstr "Väliaikaistiedostot"
+msgstr "Vanhat väliaikaiset tiedostot"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"

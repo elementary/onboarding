@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2020-11-18 08:15+0000\n"
+"PO-Revision-Date: 2021-01-25 21:12+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:33
 #, c-format
@@ -57,7 +57,7 @@ msgid ""
 "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
 "org'>Flathub</a>"
 msgstr ""
-"Também pode carregar paralelamente aplicações Flatpak, por ex:  de <a "
+"Também pode carregar paralelamente aplicações Flatpak, por ex: de <a "
 "href='https://flathub.org'>Flathub</a>"
 
 #: src/Views/EarlyAccessView.vala:25

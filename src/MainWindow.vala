@@ -46,6 +46,12 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
 
         viewed = settings.get_strv ("viewed");
 
+        // Always show Early Access view on pre-release builds
+        if (Environment.get_os_info (GLib.OsInfoKey.VERSION).contains ("Early Access")) {
+            var early_access_view = new EarlyAccessView ();
+            carousel.add (early_access_view);
+        }
+
         if ("finish" in viewed) {
             var update_view = new UpdateView ();
             carousel.add (update_view);
@@ -79,23 +85,17 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             carousel.add (appcenter_view);
         }
 
-        // Remove any viewed pages except the update view
+        // Remove any viewed pages except the update and early access views
         GLib.List<unowned Gtk.Widget> views = carousel.get_children ();
         foreach (Gtk.Widget view in views) {
             assert (view is AbstractOnboardingView);
 
             var view_name = ((AbstractOnboardingView) view).view_name;
 
-            if (view_name in viewed && view_name != "update") {
+            if (view_name in viewed && (view_name != "update" && view_name != "early-access")) {
                 carousel.remove (view);
                 view.destroy ();
             }
-        }
-
-        // Always show Early Access view on pre-release builds
-        if (Environment.get_os_info (GLib.OsInfoKey.VERSION_CODENAME) == "next") {
-            var early_access_view = new EarlyAccessView ();
-            carousel.add (early_access_view);
         }
 
         // Bail if there are no feature views
