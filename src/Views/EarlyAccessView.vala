@@ -74,6 +74,7 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
             "https://github.com/orgs/elementary/projects/55",
             _("More issues on the 6.0 Release Project…")
         ) {
+            halign = Gtk.Align.CENTER,
             valign = Gtk.Align.END,
             vexpand = true
         };
