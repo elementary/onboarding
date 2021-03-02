@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
 "PO-Revision-Date: 2021-03-03 01:39+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"Last-Translator: Katto <1uckycat@outlook.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
 "Language: ru\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Загрузите несколько приложений"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
@@ -243,7 +243,7 @@ msgstr ""
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr ""
+msgstr "Что нового"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -257,7 +257,7 @@ msgstr ""
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Добро пожаловать в %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
