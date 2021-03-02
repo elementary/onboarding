@@ -185,7 +185,7 @@ msgstr "בחירת המראה שלך"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr "בררת מחדל"
+msgstr "ברירת־מחדל"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
