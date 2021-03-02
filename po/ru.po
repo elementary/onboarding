@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
 "PO-Revision-Date: 2021-03-03 01:39+0000\n"
-"Last-Translator: Katto <1uckycat@outlook.com>\n"
+"Last-Translator: ig-cheprasov <ig-cheprasov@yandex.ru>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
 "Language: ru\n"
@@ -109,7 +109,7 @@ msgstr "Все готово"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Открыть Параметры системы…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
