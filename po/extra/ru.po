@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 18:15+0000\n"
 "PO-Revision-Date: 2021-03-03 01:39+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"Last-Translator: Katto <1uckycat@outlook.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ru/>\n"
 "Language: ru\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
-msgstr ""
+msgstr "Добро пожаловать"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
@@ -43,7 +43,7 @@ msgstr "Обновленны переводы"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "New app icon"
-msgstr ""
+msgstr "Новая иконка приложения"
 
 #: data/onboarding.appdata.xml.in:32
 msgid "Navigate with (multi-)touch gestures"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: data/onboarding.appdata.xml.in:33
 msgid "Use new blog URL"
-msgstr ""
+msgstr "Используйте новый URL-адрес блога"
 
 #: data/onboarding.appdata.xml.in:34
 msgid "Fix errors when pressing the Skip button"
