@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
 "PO-Revision-Date: 2021-03-02 17:40+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"Last-Translator: Глеб Буваненко <glebbuvanenko@ya.ru>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
 "Language: ru\n"
@@ -178,7 +178,7 @@ msgstr "Выберите свой стиль"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr ""
+msgstr "По умолчанию"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
