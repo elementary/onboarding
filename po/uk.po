@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2021-01-30 18:23+0000\n"
+"PO-Revision-Date: 2021-03-03 01:39+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding/uk/>\n"
@@ -80,7 +80,7 @@ msgstr "Основні відомі вади"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr "Куровані застосунки не достапні у центрі застосунків"
+msgstr "Куровані застосунки не доступні у центрі застосунків"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
