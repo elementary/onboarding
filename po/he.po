@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
 "PO-Revision-Date: 2021-03-02 08:39+0000\n"
-"Last-Translator: omeritzics <omeritzicschwartz@gmail.com>\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
 "Language: he\n"
@@ -185,7 +185,7 @@ msgstr "בחירת המראה שמתאים לך"
 
 #: src/Views/StyleView.vala:53
 msgid "Default"
-msgstr "ברירת־מחדל"
+msgstr "בררת מחדל"
 
 #: src/Views/StyleView.vala:79
 msgid "Dark"
