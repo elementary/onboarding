@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
 "PO-Revision-Date: 2021-03-03 01:39+0000\n"
-"Last-Translator: ig-cheprasov <ig-cheprasov@yandex.ru>\n"
+"Last-Translator: Гарри Карин <buddy@airmail.cc>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
 "Language: ru\n"
@@ -35,7 +35,7 @@ msgstr ""
 
 #: src/MainWindow.vala:121
 msgid "Next"
-msgstr ""
+msgstr "Далее"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
