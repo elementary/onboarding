@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-04-17 18:15+0000\n"
-"PO-Revision-Date: 2019-09-07 18:23+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2021-03-03 01:39+0000\n"
+"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ru/>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -30,16 +30,16 @@ msgstr ""
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "io.elementary.onboarding"
-msgstr ""
+msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Fix blurry icon in AppCenter"
-msgstr ""
+msgstr "Исправлено размытие иконки в Центре приложений"
 
 #: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
 #: data/onboarding.appdata.xml.in:35
 msgid "Updated translations"
-msgstr ""
+msgstr "Обновленны переводы"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "New app icon"
@@ -55,11 +55,11 @@ msgstr ""
 
 #: data/onboarding.appdata.xml.in:34
 msgid "Fix errors when pressing the Skip button"
-msgstr ""
+msgstr "Исправлены ошибки при нажатии кнопки Пропустить"
 
 #: data/onboarding.appdata.xml.in:74
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #~ msgid "system-os-installer"
 #~ msgstr "system-os-installer"
