@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2021-03-03 14:07+0000\n"
+"PO-Revision-Date: 2021-03-04 02:39+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
@@ -31,7 +31,7 @@ msgstr "Пропустить все"
 
 #: src/MainWindow.vala:117
 msgid "Get Started"
-msgstr ""
+msgstr "Приступить к работе"
 
 #: src/MainWindow.vala:121
 msgid "Next"
@@ -92,7 +92,7 @@ msgstr "Некоторые функции отсутствуют или непо
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "Другие вопросы по проекту версии 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -269,4 +269,4 @@ msgstr "Поддержка сообщества…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "Принять участие…"
