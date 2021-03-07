@@ -1,5 +1,5 @@
 /*
- * Copyright 2019–2020 elementary, Inc. (https://elementary.io)
+ * Copyright 2019–2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -77,6 +77,10 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
 
         var housekeeping_view = new HouseKeepingView ();
         carousel.add (housekeeping_view);
+
+        var fwupd_view = new FwupdView ();
+        carousel.add (fwupd_view);
+        carousel.child_set_property (fwupd_view, "icon-name", "pager-checked-symbolic");
 
         if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
             var appcenter_view = new AppCenterView ();
