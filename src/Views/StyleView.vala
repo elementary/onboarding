@@ -20,6 +20,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
     private const string STYLESHEET_KEY = "gtk-theme";
     private const string STYLESHEET_PREFIX = "io.elementary.stylesheet.";
 
+    private Pantheon.AccountsService? pantheon_act = null;
+
     public StyleView () {
         Object (
             view_name: "style",
@@ -32,6 +34,32 @@ public class Onboarding.StyleView : AbstractOnboardingView {
     construct {
         var css_provider = new Gtk.CssProvider ();
         css_provider.load_from_resource ("/io/elementary/onboarding/StyleView.css");
+
+        string? user_path = null;
+        try {
+            FDO.Accounts? accounts_service = GLib.Bus.get_proxy_sync (
+                GLib.BusType.SYSTEM,
+               "org.freedesktop.Accounts",
+               "/org/freedesktop/Accounts"
+            );
+
+            user_path = accounts_service.find_user_by_name (GLib.Environment.get_user_name ());
+        } catch (Error e) {
+            critical (e.message);
+        }
+
+        if (user_path != null) {
+            try {
+                pantheon_act = GLib.Bus.get_proxy_sync (
+                    GLib.BusType.SYSTEM,
+                    "org.freedesktop.Accounts",
+                    user_path,
+                    GLib.DBusProxyFlags.GET_INVALIDATED_PROPERTIES
+                );
+            } catch (Error e) {
+                warning ("Unable to get AccountsService proxy, color scheme preference may be incorrect");
+            }
+        }
 
         var prefer_default_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-default.svg");
 
@@ -85,35 +113,38 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_dark_radio.get_style_context ().add_class ("image-button");
         prefer_dark_radio.add (prefer_dark_grid);
 
-        var blueberry_button = new ColorButton ("blueberry");
+        var blueberry_button = new PrefersAccentColorButton ("blueberry", pantheon_act, Granite.Settings.AccentColor.BLUE);
         blueberry_button.tooltip_text = _("Blueberry");
 
-        var mint_button = new ColorButton ("mint", blueberry_button);
+        var mint_button = new PrefersAccentColorButton ("mint", pantheon_act, Granite.Settings.AccentColor.MINT, blueberry_button);
         mint_button.tooltip_text = _("Mint");
 
-        var lime_button = new ColorButton ("lime", blueberry_button);
+        var lime_button = new PrefersAccentColorButton ("lime", pantheon_act, Granite.Settings.AccentColor.GREEN, blueberry_button);
         lime_button.tooltip_text = _("Lime");
 
-        var banana_button = new ColorButton ("banana", blueberry_button);
+        var banana_button = new PrefersAccentColorButton ("banana", pantheon_act, Granite.Settings.AccentColor.YELLOW, blueberry_button);
         banana_button.tooltip_text = _("Banana");
 
-        var orange_button = new ColorButton ("orange", blueberry_button);
+        var orange_button = new PrefersAccentColorButton ("orange", pantheon_act, Granite.Settings.AccentColor.ORANGE, blueberry_button);
         orange_button.tooltip_text = _("Orange");
 
-        var strawberry_button = new ColorButton ("strawberry", blueberry_button);
+        var strawberry_button = new PrefersAccentColorButton ("strawberry", pantheon_act, Granite.Settings.AccentColor.RED, blueberry_button);
         strawberry_button.tooltip_text = _("Strawberry");
 
-        var bubblegum_button = new ColorButton ("bubblegum", blueberry_button);
+        var bubblegum_button = new PrefersAccentColorButton ("bubblegum", pantheon_act, Granite.Settings.AccentColor.PINK, blueberry_button);
         bubblegum_button.tooltip_text = _("Bubblegum");
 
-        var grape_button = new ColorButton ("grape", blueberry_button);
+        var grape_button = new PrefersAccentColorButton ("grape", pantheon_act, Granite.Settings.AccentColor.PURPLE, blueberry_button);
         grape_button.tooltip_text = _("Grape");
 
-        var cocoa_button = new ColorButton ("cocoa", blueberry_button);
+        var cocoa_button = new PrefersAccentColorButton ("cocoa", pantheon_act, Granite.Settings.AccentColor.BROWN, blueberry_button);
         cocoa_button.tooltip_text = _("Cocoa");
 
-        var slate_button = new ColorButton ("slate", blueberry_button);
+        var slate_button = new PrefersAccentColorButton ("slate", pantheon_act, Granite.Settings.AccentColor.GRAY, blueberry_button);
         slate_button.tooltip_text = _("Slate");
+
+        var no_preference_button = new PrefersAccentColorButton ("no-preference", pantheon_act, Granite.Settings.AccentColor.NO_PREFERENCE, blueberry_button);
+        no_preference_button.tooltip_text = _("No Preference");
 
         var accent_grid = new Gtk.Grid () {
             column_spacing = 6,
@@ -129,39 +160,12 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         accent_grid.add (grape_button);
         accent_grid.add (cocoa_button);
         accent_grid.add (slate_button);
+        accent_grid.add (no_preference_button);
 
         custom_bin.row_spacing = 12;
         custom_bin.attach (prefer_default_radio, 0, 0);
         custom_bin.attach (prefer_dark_radio, 1, 0);
         custom_bin.attach (accent_grid, 0, 1, 2);
-
-        Pantheon.AccountsService? pantheon_act = null;
-
-        string? user_path = null;
-        try {
-            FDO.Accounts? accounts_service = GLib.Bus.get_proxy_sync (
-                GLib.BusType.SYSTEM,
-               "org.freedesktop.Accounts",
-               "/org/freedesktop/Accounts"
-            );
-
-            user_path = accounts_service.find_user_by_name (GLib.Environment.get_user_name ());
-        } catch (Error e) {
-            critical (e.message);
-        }
-
-        if (user_path != null) {
-            try {
-                pantheon_act = GLib.Bus.get_proxy_sync (
-                    GLib.BusType.SYSTEM,
-                    "org.freedesktop.Accounts",
-                    user_path,
-                    GLib.DBusProxyFlags.GET_INVALIDATED_PROPERTIES
-                );
-            } catch (Error e) {
-                warning ("Unable to get AccountsService proxy, color scheme preference may be incorrect");
-            }
-        }
 
         switch (pantheon_act.prefers_color_scheme) {
             case Granite.Settings.ColorScheme.DARK:
@@ -181,39 +185,51 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         });
     }
 
-    private class ColorButton : Gtk.RadioButton {
-        public string color_name { get; construct; }
+    private class PrefersAccentColorButton : Gtk.RadioButton {
+        public string theme { get; construct; }
+        public Granite.Settings.AccentColor preference { get; construct; }
+
+        private Pantheon.AccountsService? pantheon_act = null;
 
         private static GLib.Settings interface_settings;
-        private static string current_accent;
+        private static Granite.Settings granite_settings;
 
-        public ColorButton (string _color_name, Gtk.RadioButton? group_member = null) {
+        public PrefersAccentColorButton (string _theme, Pantheon.AccountsService? _pantheon_act, Granite.Settings.AccentColor _preference, Gtk.RadioButton? group_member = null) {
             Object (
-                color_name: _color_name,
+                theme: _theme,
+                preference: _preference,
                 group: group_member
             );
+
+            pantheon_act = _pantheon_act;
         }
 
         static construct {
+            granite_settings = Granite.Settings.get_default ();
             interface_settings = new GLib.Settings (INTERFACE_SCHEMA);
 
             var current_stylesheet = interface_settings.get_string (STYLESHEET_KEY);
-            current_accent = current_stylesheet.replace (STYLESHEET_PREFIX, "");
         }
 
         construct {
             unowned Gtk.StyleContext context = get_style_context ();
             context.add_class (Granite.STYLE_CLASS_COLOR_BUTTON);
-            context.add_class (color_name);
+            context.add_class (theme);
 
             realize.connect (() => {
-                active = current_accent == color_name;
+                active = preference == granite_settings.prefers_accent_color;
 
                 toggled.connect (() => {
-                    interface_settings.set_string (
-                        STYLESHEET_KEY,
-                        STYLESHEET_PREFIX + color_name
-                    );
+                    if (preference != Granite.Settings.AccentColor.NO_PREFERENCE) {
+                        interface_settings.set_string (
+                            STYLESHEET_KEY,
+                            STYLESHEET_PREFIX + theme
+                        );
+                    }
+
+                    if (((GLib.DBusProxy) pantheon_act).get_cached_property ("PrefersAccentColor") != null) {
+                        pantheon_act.prefers_accent_color = preference;
+                    }
                 });
             });
         }
