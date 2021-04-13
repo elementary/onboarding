@@ -33,13 +33,23 @@ public class Onboarding.App : Gtk.Application {
 
         quit_action.activate.connect (() => {
             if (window != null) {
-                /* Send a notification to let users know
-                that they have not completed onboarding. */
-                var notification = new Notification (_("Onboarding was incomplete"));
-                notification.set_body (_("You may not have tailored your system to your preferences"));
-                send_notification ("onboarding-incomplete", notification);
+                var settings = new GLib.Settings ("io.elementary.onboarding");
+                var viewed = settings.get_strv ("viewed");
 
-                window.destroy ();
+                if (!("finish" in viewed)) {
+                    /* Send a notification to let users know
+                    that they have not completed onboarding. */
+                    var notification = new Notification (_("Onboarding was incomplete"));
+                    notification.set_body (_("You may not have tailored your system to your preferences"));
+                    send_notification ("onboarding-incomplete", notification);
+                }
+
+                /* Not sure why but if the window is destroyed too quickly
+                the notification will not register. */
+                window.hide ();
+                Timeout.add (500, () => {
+                    window.destroy ();
+                });
             }
         });
     }
