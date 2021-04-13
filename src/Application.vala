@@ -19,10 +19,23 @@
  */
 
 public class Onboarding.App : Gtk.Application {
+    private MainWindow window;
+
     construct {
         application_id = "io.elementary.installer";
         flags = ApplicationFlags.FLAGS_NONE;
         Intl.setlocale (LocaleCategory.ALL, "");
+
+        var quit_action = new SimpleAction ("quit", null);
+        add_action (quit_action);
+
+        set_accels_for_action ("app.quit", {"<Control>q"});
+
+        quit_action.activate.connect (() => {
+            if (window != null) {
+                window.destroy ();
+            }
+        });
     }
 
     public override void activate () {
@@ -30,7 +43,7 @@ public class Onboarding.App : Gtk.Application {
             quit ();
         }
 
-        var window = new MainWindow ();
+        window = new MainWindow ();
         window.application = this;
         window.show_all ();
     }
