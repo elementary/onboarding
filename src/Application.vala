@@ -62,6 +62,12 @@ public class Onboarding.App : Gtk.Application {
         window = new MainWindow ();
         window.application = this;
         window.show_all ();
+
+        window.delete_event.connect (() => {
+            activate_action ("quit", null);
+
+            return true;
+        });
     }
 }
 

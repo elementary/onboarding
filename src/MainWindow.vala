@@ -27,7 +27,7 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
 
     public MainWindow () {
         Object (
-            deletable: false,
+            deletable: true,
             resizable: false,
             icon_name: "system-os-installer",
             title: _("Set up %s").printf (Utils.os_name),
@@ -145,10 +145,20 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         action_area.add (next_button);
         action_area.set_child_non_homogeneous (switcher, true);
 
+        var headerbar = new Hdy.HeaderBar () {
+            decoration_layout = "close:",
+            has_subtitle = false,
+            show_close_button = true
+        };
+
+        headerbar.get_style_context ().add_class ("default-decoration");
+        headerbar.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
+
         var grid = new Gtk.Grid ();
         grid.margin_bottom = 10;
         grid.orientation = Gtk.Orientation.VERTICAL;
         grid.row_spacing = 24;
+        grid.add (headerbar);
         grid.add (carousel);
         grid.add (action_area);
 
