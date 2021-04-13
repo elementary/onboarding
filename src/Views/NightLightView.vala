@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2019–2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,7 +21,8 @@ public class Onboarding.NightLightView : AbstractOnboardingView {
             view_name: "night-light",
             description: _("Make the colors of your display warmer at night to help prevent eye strain and sleeplessness."),
             icon_name: "night-light",
-            title: _("Night Light")
+            title: _("Night Light"),
+            is_interactive: true
         );
     }
 

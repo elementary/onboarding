@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2019–2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,7 +20,8 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         Object (
             view_name: "housekeeping",
             icon_name: "preferences-system-privacy-housekeeping",
-            title: _("Housekeeping")
+            title: _("Housekeeping"),
+            is_interactive: true
         );
     }
 

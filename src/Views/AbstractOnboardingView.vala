@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2019–2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,6 +21,7 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
     public string icon_name { get; construct; }
     public string? badge_name { get; construct; }
     public string title { get; construct; }
+    public bool is_interactive { get; construct; default = false; }
 
     public Gtk.Grid custom_bin { get; private set; }
 

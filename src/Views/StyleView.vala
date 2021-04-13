@@ -1,5 +1,5 @@
 /*-
- * Copyright 2020 elementary, Inc. (https://elementary.io)
+ * Copyright 2020–2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -25,7 +25,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             view_name: "style",
             description: _("Make it your own by choosing a visual style and accent color. Apps may override these with their own look."),
             icon_name: "preferences-desktop-wallpaper",
-            title: _("Choose Your Look")
+            title: _("Choose Your Look"),
+            is_interactive: true
         );
     }
 
