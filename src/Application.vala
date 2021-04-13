@@ -1,6 +1,6 @@
 // -*- Mode: vala; indent-tabs-mode: nil; tab-width: 4 -*-
 /*-
- * Copyright (c) 2016 elementary LLC. (https://elementary.io)
+ * Copyright (c) 2016–2021 elementary LLC. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@ public class Onboarding.App : Gtk.Application {
     private MainWindow window;
 
     construct {
-        application_id = "io.elementary.installer";
+        application_id = "io.elementary.onboarding";
         flags = ApplicationFlags.FLAGS_NONE;
         Intl.setlocale (LocaleCategory.ALL, "");
 
@@ -33,6 +33,12 @@ public class Onboarding.App : Gtk.Application {
 
         quit_action.activate.connect (() => {
             if (window != null) {
+                /* Send a notification to let users know
+                that they have not completed onboarding. */
+                var notification = new Notification (_("Onboarding was incomplete"));
+                notification.set_body (_("You may not have tailored your system to your preferences"));
+                send_notification ("onboarding-incomplete", notification);
+
                 window.destroy ();
             }
         });
