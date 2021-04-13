@@ -237,7 +237,6 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
     hardcoded pages here are only views that interactive.*/
     public void skip_to_earliest_interactive () {
         foreach (var view in carousel.get_children ()) {
-            // Cast to AbstractOnboardingView to get view_name
             var is_interactive = ((AbstractOnboardingView) view).is_interactive;
 
             if (is_interactive) {
