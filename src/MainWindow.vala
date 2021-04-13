@@ -1,5 +1,5 @@
 /*
- * Copyright 2019–2020 elementary, Inc. (https://elementary.io)
+ * Copyright 2019–2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -155,6 +155,10 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         add (grid);
         show_all ();
 
+        if (viewed.length > 0) {
+            skip_to_earliest_interactive ();
+        }
+
         next_button.grab_focus ();
 
         carousel.notify["position"].connect (() => {
@@ -226,6 +230,21 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             viewed = viewed_copy;
 
             settings.set_strv ("viewed", viewed);
+        }
+    }
+
+    /* Skip to the earliest unviewed interactive page. The list of
+    hardcoded pages here are only views that interactive.*/
+    public void skip_to_earliest_interactive () {
+        foreach (var view in carousel.get_children ()) {
+            // Cast to AbstractOnboardingView to get view_name
+            var is_interactive = ((AbstractOnboardingView) view).is_interactive;
+
+            if (is_interactive) {
+                carousel.scroll_to (view);
+
+                return;
+            }
         }
     }
 }
