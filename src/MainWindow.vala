@@ -40,9 +40,11 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
     }
 
     construct {
-        carousel = new Hdy.Carousel ();
-        carousel.expand = true;
-        carousel.valign = Gtk.Align.CENTER;
+        carousel = new Hdy.Carousel () {
+            expand = true,
+            valign = Gtk.Align.CENTER,
+            margin_bottom = 24
+        };
 
         viewed = settings.get_strv ("viewed");
 
@@ -157,7 +159,6 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         var grid = new Gtk.Grid ();
         grid.margin_bottom = 10;
         grid.orientation = Gtk.Orientation.VERTICAL;
-        grid.row_spacing = 24;
         grid.add (headerbar);
         grid.add (carousel);
         grid.add (action_area);
