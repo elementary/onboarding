@@ -28,11 +28,13 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
     construct {
         var appcenter_button = new Gtk.Button.with_label (_("Browse AppCenter…"));
 
-        var appcenter_button_context = appcenter_button.get_style_context ();
+        unowned var appcenter_button_context = appcenter_button.get_style_context ();
         appcenter_button_context.add_class (Gtk.STYLE_CLASS_FLAT);
         appcenter_button_context.add_class ("link");
 
-        var flatpak_note = new Gtk.Label ("<small>%s</small>".printf (_("You can also sideload Flatpak apps e.g. from <a href='https://flathub.org'>Flathub</a>"))) {
+        var flathub_link = "<a href='https://flathub.org'>%s</a>".printf (_("Flathub"));
+
+        var flatpak_note = new Gtk.Label (_("You can also sideload Flatpak apps e.g. from %s").printf (flathub_link)) {
             justify = Gtk.Justification.CENTER,
             max_width_chars = 45,
             use_markup = true,
@@ -40,7 +42,10 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
             vexpand = true,
             wrap = true
         };
-        flatpak_note.get_style_context ().add_class (Gtk.STYLE_CLASS_DIM_LABEL);
+
+        unowned var flatpak_note_context = flatpak_note.get_style_context ();
+        flatpak_note_context.add_class (Granite.STYLE_CLASS_SMALL_LABEL);
+        flatpak_note_context.add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
         custom_bin.orientation = Gtk.Orientation.VERTICAL;
         custom_bin.valign = Gtk.Align.FILL;
