@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-22 22:53+0000\n"
-"PO-Revision-Date: 2021-02-18 23:25+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"PO-Revision-Date: 2021-04-23 12:37+0000\n"
+"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
 "onboarding/es/>\n"
 "Language: es\n"
@@ -55,17 +55,12 @@ msgstr "Explorar el Centro de aplicaciones…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:37
-#, fuzzy, c-format
-#| msgid ""
-#| "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-#| "org'>Flathub</a>"
+#, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
-"También es posible instalar manualmente aplicaciones empaquetadas con "
-"Flatpak desde <a href='https://flathub.org'>Flathub</a>"
+msgstr "También puede descargar aplicaciones Flatpak, p. Ej. de %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
