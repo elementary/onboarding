@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 19:43+0000\n"
+"POT-Creation-Date: 2021-04-22 22:53+0000\n"
 "PO-Revision-Date: 2021-04-14 23:12+0000\n"
 "Last-Translator: Marius Meisenzahl <mariusmeisenzahl@gmail.com>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
@@ -53,9 +53,15 @@ msgid "Browse AppCenter…"
 msgstr "AppCenter durchsuchen …"
 
 #: src/Views/AppCenterView.vala:35
-msgid ""
-"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-"org'>Flathub</a>"
+msgid "Flathub"
+msgstr ""
+
+#: src/Views/AppCenterView.vala:37
+#, fuzzy, c-format
+#| msgid ""
+#| "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
+#| "org'>Flathub</a>"
+msgid "You can also sideload Flatpak apps e.g. from %s"
 msgstr ""
 "Sie haben auch die Möglichkeit, Flatpak-Anwendungen etwa von <a "
 "href='https://flathub.org'>Flathub</a> zu laden"
@@ -241,8 +247,8 @@ msgid ""
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "Sie können weitere nützliche neue Funktionen einrichten. Weitere "
-"Informationen zu Aktualisierungen finden Sie in <a href='https://"
-"blog.elementary.io'>unserem Blog</a>."
+"Informationen zu Aktualisierungen finden Sie in <a href='https://blog."
+"elementary.io'>unserem Blog</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
