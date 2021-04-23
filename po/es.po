@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 19:43+0000\n"
+"POT-Creation-Date: 2021-04-22 22:53+0000\n"
 "PO-Revision-Date: 2021-02-18 23:25+0000\n"
 "Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
@@ -54,9 +54,15 @@ msgid "Browse AppCenter…"
 msgstr "Explorar el Centro de aplicaciones…"
 
 #: src/Views/AppCenterView.vala:35
-msgid ""
-"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-"org'>Flathub</a>"
+msgid "Flathub"
+msgstr ""
+
+#: src/Views/AppCenterView.vala:37
+#, fuzzy, c-format
+#| msgid ""
+#| "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
+#| "org'>Flathub</a>"
+msgid "You can also sideload Flatpak apps e.g. from %s"
 msgstr ""
 "También es posible instalar manualmente aplicaciones empaquetadas con "
 "Flatpak desde <a href='https://flathub.org'>Flathub</a>"
