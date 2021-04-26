@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-22 22:53+0000\n"
-"PO-Revision-Date: 2021-03-15 01:08+0000\n"
+"PO-Revision-Date: 2021-04-24 17:01+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
@@ -55,17 +55,12 @@ msgstr "Открыть Центр приложений…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:37
-#, fuzzy, c-format
-#| msgid ""
-#| "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-#| "org'>Flathub</a>"
+#, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
-"Вы также можете загрузить приложения Flatpak, например с <a href='https://"
-"flathub.org'>Flathub</a>"
+msgstr "Вы также можете загрузить приложения Flatpak, например с %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
