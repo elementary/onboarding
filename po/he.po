@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 22:40+0000\n"
-"PO-Revision-Date: 2021-04-23 05:38+0000\n"
+"PO-Revision-Date: 2021-04-30 12:16+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -234,7 +234,7 @@ msgstr "צפחה"
 
 #: src/Views/StyleView.vala:147
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "אוטומטית לפי תמונת הרקע"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
