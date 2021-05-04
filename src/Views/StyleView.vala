@@ -231,7 +231,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         public Pantheon.AccountsService? pantheon_act { get; construct; default = null; }
 
         private static GLib.Settings interface_settings;
-        private static Granite.Settings granite_settings;
 
         public PrefersAccentColorButton (Pantheon.AccountsService? pantheon_act, AccentColor color, Gtk.RadioButton? group_member = null) {
             Object (
@@ -242,7 +241,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         }
 
         static construct {
-            granite_settings = Granite.Settings.get_default ();
             interface_settings = new GLib.Settings (INTERFACE_SCHEMA);
 
             var current_stylesheet = interface_settings.get_string (STYLESHEET_KEY);
