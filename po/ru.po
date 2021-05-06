@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 22:40+0000\n"
-"PO-Revision-Date: 2021-04-24 17:01+0000\n"
+"PO-Revision-Date: 2021-05-06 13:53+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
@@ -235,7 +235,7 @@ msgstr "Каменно-серый"
 
 #: src/Views/StyleView.vala:147
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Автоматически на основе обоев"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
