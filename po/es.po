@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2020-09-16 21:14+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"POT-Creation-Date: 2021-04-29 22:40+0000\n"
+"PO-Revision-Date: 2021-04-30 13:26+0000\n"
+"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
 "onboarding/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:33
 #, c-format
@@ -54,12 +54,13 @@ msgid "Browse AppCenter…"
 msgstr "Explorar el Centro de aplicaciones…"
 
 #: src/Views/AppCenterView.vala:35
-msgid ""
-"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-"org'>Flathub</a>"
-msgstr ""
-"También es posible instalar manualmente aplicaciones empaquetadas con "
-"Flatpak desde <a href='https://flathub.org'>Flathub</a>"
+msgid "Flathub"
+msgstr "Flathub"
+
+#: src/Views/AppCenterView.vala:37
+#, c-format
+msgid "You can also sideload Flatpak apps e.g. from %s"
+msgstr "También puede descargar aplicaciones Flatpak, p. Ej. de %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -67,30 +68,35 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"Esta versión preliminar de %s no debería utilizarse en entornos de "
+"producción. <b>No será posible actualizar a la versión estable</b> desde "
+"esta instalación."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "Compilación preliminar"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "Principales problemas conocidos"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
 msgstr ""
+"Las aplicaciones revisadas por los editores del Centro de aplicaciones no "
+"están disponibles"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "El estilo visual no está terminado"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "Determinadas funciones no están incluidas o están sin terminar"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "Más informes de problemas en el proyecto de la versión 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -171,7 +177,7 @@ msgstr "Luz nocturna:"
 msgid "Adjust schedule and temperature…"
 msgstr "Ajustar programación y temperatura…"
 
-#: src/Views/StyleView.vala:26
+#: src/Views/StyleView.vala:28
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -179,57 +185,61 @@ msgstr ""
 "Elija el estilo visual y el color de realce que prefiera. Algunas "
 "aplicaciones pueden utilizar su propia apariencia."
 
-#: src/Views/StyleView.vala:28
+#: src/Views/StyleView.vala:30
 msgid "Choose Your Look"
 msgstr "Elija la apariencia"
 
-#: src/Views/StyleView.vala:53
+#: src/Views/StyleView.vala:81
 msgid "Default"
 msgstr "Predeterminada"
 
-#: src/Views/StyleView.vala:79
+#: src/Views/StyleView.vala:107
 msgid "Dark"
 msgstr "Oscura"
 
-#: src/Views/StyleView.vala:89
+#: src/Views/StyleView.vala:117
 msgid "Blueberry"
 msgstr "Arándano"
 
-#: src/Views/StyleView.vala:92
+#: src/Views/StyleView.vala:120
 msgid "Mint"
 msgstr "Menta"
 
-#: src/Views/StyleView.vala:95
+#: src/Views/StyleView.vala:123
 msgid "Lime"
 msgstr "Lima"
 
-#: src/Views/StyleView.vala:98
+#: src/Views/StyleView.vala:126
 msgid "Banana"
 msgstr "Plátano"
 
-#: src/Views/StyleView.vala:101
+#: src/Views/StyleView.vala:129
 msgid "Orange"
 msgstr "Naranja"
 
-#: src/Views/StyleView.vala:104
+#: src/Views/StyleView.vala:132
 msgid "Strawberry"
 msgstr "Fresa"
 
-#: src/Views/StyleView.vala:107
+#: src/Views/StyleView.vala:135
 msgid "Bubblegum"
 msgstr "Chicle"
 
-#: src/Views/StyleView.vala:110
+#: src/Views/StyleView.vala:138
 msgid "Grape"
 msgstr "Uva"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:141
 msgid "Cocoa"
 msgstr "Cacao"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:144
 msgid "Slate"
 msgstr "Pizarra"
+
+#: src/Views/StyleView.vala:147
+msgid "Automatic based on wallpaper"
+msgstr "Automático basado en el fondo de pantalla"
 
 #: src/Views/UpdateView.vala:22
 msgid ""

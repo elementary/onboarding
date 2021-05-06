@@ -7,53 +7,60 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2021-04-29 22:40+0000\n"
+"PO-Revision-Date: 2021-04-24 17:01+0000\n"
+"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
+"onboarding/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:33
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "Настройка %s"
 
 #: src/MainWindow.vala:107
 msgid "Skip All"
-msgstr ""
+msgstr "Пропустить все"
 
 #: src/MainWindow.vala:117
 msgid "Get Started"
-msgstr ""
+msgstr "Приступить к работе"
 
 #: src/MainWindow.vala:121
 msgid "Next"
-msgstr ""
+msgstr "Далее"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"Загружайте нужные вам приложения в Центре приложений. Курированные "
+"приложения созданы для elementary OS и проверены командой elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Загрузите несколько приложений"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "Открыть Центр приложений…"
 
 #: src/Views/AppCenterView.vala:35
-msgid ""
-"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-"org'>Flathub</a>"
-msgstr ""
+msgid "Flathub"
+msgstr "Flathub"
+
+#: src/Views/AppCenterView.vala:37
+#, c-format
+msgid "You can also sideload Flatpak apps e.g. from %s"
+msgstr "Вы также можете загрузить приложения Flatpak, например с %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -61,30 +68,32 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"Эта предварительная версия %s не предназначена для широкого использования. "
+"<b>Обновление до стабильной версии будет невозможно</b> после этой установки."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "Ранний доступ"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "Основные известные проблемы"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr ""
+msgstr "Курируемые приложения не доступны в Центре приложений"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "Визуальный стиль еще не доработан"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "Некоторые функции отсутствуют или неполны"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "Другие вопросы по проекту версии 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -92,18 +101,20 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Наслаждайтесь использованием %s! Вы всегда можете посетить Параметры "
+"системы, чтобы настроить оборудование или изменить свои настройки."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "Все готово"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Открыть Параметры системы…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr ""
+msgstr "Домоводство"
 
 #: src/Views/HouseKeepingView.vala:30
 #, c-format
@@ -111,107 +122,119 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
+"Старые файлы могут быть автоматически удалены через %u дней, чтобы "
+"сэкономить место на диске и помочь защитить Вашу приватность."
 
 #: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Автоматически удалять:"
 
 #: src/Views/HouseKeepingView.vala:34
 msgid "Old temporary files"
-msgstr ""
+msgstr "Старые временные файлы"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr ""
+msgstr "Файлы в корзине"
 
 #: src/Views/LocationServicesView.vala:22
 msgid ""
 "Receive a prompt when an app requests this device’s location. If disabled, "
 "all location requests will be denied."
 msgstr ""
+"Получать уведомление, когда приложение запрашивает местоположение этого "
+"устройства. Если отключить, все запросы местоположения будут отклонены."
 
 #: src/Views/LocationServicesView.vala:24
 msgid "Location Services"
-msgstr ""
+msgstr "Службы геолокации"
 
 #: src/Views/LocationServicesView.vala:29
 msgid "Location Services:"
-msgstr ""
+msgstr "Службы геолокации:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Сделайте цвета экрана теплее ночью, чтобы предотвратить напряжение глаз и "
+"бессонницу."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Ночной свет"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr ""
+msgstr "Ночной свет:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Настроить расписание и температуру…"
 
-#: src/Views/StyleView.vala:26
+#: src/Views/StyleView.vala:28
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Добавьте собственных черт, выбрав визуальный стиль и цветовой акцент. "
+"Приложения могут заменить их собственным оформлением."
 
-#: src/Views/StyleView.vala:28
+#: src/Views/StyleView.vala:30
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Выберите свой стиль"
 
-#: src/Views/StyleView.vala:53
+#: src/Views/StyleView.vala:81
 msgid "Default"
-msgstr ""
-
-#: src/Views/StyleView.vala:79
-msgid "Dark"
-msgstr ""
-
-#: src/Views/StyleView.vala:89
-msgid "Blueberry"
-msgstr ""
-
-#: src/Views/StyleView.vala:92
-msgid "Mint"
-msgstr ""
-
-#: src/Views/StyleView.vala:95
-msgid "Lime"
-msgstr ""
-
-#: src/Views/StyleView.vala:98
-msgid "Banana"
-msgstr ""
-
-#: src/Views/StyleView.vala:101
-msgid "Orange"
-msgstr ""
-
-#: src/Views/StyleView.vala:104
-msgid "Strawberry"
-msgstr ""
+msgstr "По умолчанию"
 
 #: src/Views/StyleView.vala:107
+msgid "Dark"
+msgstr "Тёмный"
+
+#: src/Views/StyleView.vala:117
+msgid "Blueberry"
+msgstr "Черничный"
+
+#: src/Views/StyleView.vala:120
+msgid "Mint"
+msgstr "Мятный"
+
+#: src/Views/StyleView.vala:123
+msgid "Lime"
+msgstr "Лаймовый"
+
+#: src/Views/StyleView.vala:126
+msgid "Banana"
+msgstr "Банановый"
+
+#: src/Views/StyleView.vala:129
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: src/Views/StyleView.vala:132
+msgid "Strawberry"
+msgstr "Клубничный"
+
+#: src/Views/StyleView.vala:135
 msgid "Bubblegum"
-msgstr ""
+msgstr "Бубль-гумовый"
 
-#: src/Views/StyleView.vala:110
+#: src/Views/StyleView.vala:138
 msgid "Grape"
-msgstr ""
+msgstr "Виноградный"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:141
 msgid "Cocoa"
-msgstr ""
+msgstr "Какаовый"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:144
 msgid "Slate"
+msgstr "Каменно-серый"
+
+#: src/Views/StyleView.vala:147
+msgid "Automatic based on wallpaper"
 msgstr ""
 
 #: src/Views/UpdateView.vala:22
@@ -219,10 +242,13 @@ msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
+"Продолжайте настраивать некоторых полезных новых функций. Чтобы узнать "
+"больше информации об обновлениях, посетите <a href='https://blog.elementary."
+"io'>наш блог</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr ""
+msgstr "Что нового"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -230,20 +256,22 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Продолжайте настраивать некоторые полезные функции. Перейдите по указанным "
+"ссылкам, чтобы получить дополнительные сведения о %s."
 
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Добро пожаловать в %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Базовое руководство…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr ""
+msgstr "Поддержка сообщества…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "Принять участие…"

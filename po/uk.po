@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2020-11-18 08:15+0000\n"
+"POT-Creation-Date: 2021-04-29 22:40+0000\n"
+"PO-Revision-Date: 2021-04-30 00:40+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding/uk/>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:33
 #, c-format
@@ -42,24 +42,25 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"Отримайте потрібні вам застосунки в центрі застосунків. Куровані застосунки "
-"створено для elementary OS та переглянуто командою elementary."
+"Завантажуйте потрібні вам застосунки з Центру застосунків. Куровані "
+"застосунки створено для elementary OS та переглянуто командою elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr "Отримання застосунків"
+msgstr "Завантаження застосунків"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
 msgstr "Відкрити центр застосунків…"
 
 #: src/Views/AppCenterView.vala:35
-msgid ""
-"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-"org'>Flathub</a>"
-msgstr ""
-"Ви також можете завантажити застосунки Flatpak, наприклад з <a href='https://"
-"flathub.org'>Flathub</a>"
+msgid "Flathub"
+msgstr "Flathub"
+
+#: src/Views/AppCenterView.vala:37
+#, c-format
+msgid "You can also sideload Flatpak apps e.g. from %s"
+msgstr "Ви також можете завантажити застосунки Flatpak, наприклад з %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -80,7 +81,7 @@ msgstr "Основні відомі вади"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr "Куровані застосунки не достапні у центрі застосунків"
+msgstr "Куровані застосунки не доступні у центрі застосунків"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
@@ -113,7 +114,7 @@ msgstr "Відкрити системні параметри…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr "Підтримання чистоти"
+msgstr "Домоведення"
 
 #: src/Views/HouseKeepingView.vala:30
 #, c-format
@@ -172,7 +173,7 @@ msgstr "Нічне світло:"
 msgid "Adjust schedule and temperature…"
 msgstr "Налаштувати розклад і температуру…"
 
-#: src/Views/StyleView.vala:26
+#: src/Views/StyleView.vala:28
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -180,57 +181,61 @@ msgstr ""
 "Додайте власних рис, вибравши візуальний стиль та основний колір. Застосунки "
 "можуть замінити їх власним оформленням."
 
-#: src/Views/StyleView.vala:28
+#: src/Views/StyleView.vala:30
 msgid "Choose Your Look"
 msgstr "Виберіть свій стиль"
 
-#: src/Views/StyleView.vala:53
+#: src/Views/StyleView.vala:81
 msgid "Default"
 msgstr "Типовий"
 
-#: src/Views/StyleView.vala:79
+#: src/Views/StyleView.vala:107
 msgid "Dark"
 msgstr "Темний"
 
-#: src/Views/StyleView.vala:89
+#: src/Views/StyleView.vala:117
 msgid "Blueberry"
 msgstr "Чорничний"
 
-#: src/Views/StyleView.vala:92
+#: src/Views/StyleView.vala:120
 msgid "Mint"
 msgstr "М'ятний"
 
-#: src/Views/StyleView.vala:95
+#: src/Views/StyleView.vala:123
 msgid "Lime"
 msgstr "Лаймовий"
 
-#: src/Views/StyleView.vala:98
+#: src/Views/StyleView.vala:126
 msgid "Banana"
 msgstr "Банановий"
 
-#: src/Views/StyleView.vala:101
+#: src/Views/StyleView.vala:129
 msgid "Orange"
 msgstr "Помаранчевий"
 
-#: src/Views/StyleView.vala:104
+#: src/Views/StyleView.vala:132
 msgid "Strawberry"
 msgstr "Полуничний"
 
-#: src/Views/StyleView.vala:107
+#: src/Views/StyleView.vala:135
 msgid "Bubblegum"
-msgstr "Жуйка"
+msgstr "Жуйковий"
 
-#: src/Views/StyleView.vala:110
+#: src/Views/StyleView.vala:138
 msgid "Grape"
 msgstr "Виноградний"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:141
 msgid "Cocoa"
 msgstr "Какаовий"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:144
 msgid "Slate"
 msgstr "Кам'яно-сірий"
+
+#: src/Views/StyleView.vala:147
+msgid "Automatic based on wallpaper"
+msgstr "Автоматично пристосовувати до тла"
 
 #: src/Views/UpdateView.vala:22
 msgid ""

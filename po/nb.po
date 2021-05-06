@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2019-11-15 22:24+0000\n"
-"Last-Translator: Nils K <slx@nilsk.net>\n"
+"POT-Creation-Date: 2021-04-29 22:40+0000\n"
+"PO-Revision-Date: 2021-02-13 20:39+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding/nb/>\n"
 "Language: nb\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:33
 #, c-format
@@ -53,10 +53,18 @@ msgid "Browse AppCenter…"
 msgstr "Utforsk AppSenter…"
 
 #: src/Views/AppCenterView.vala:35
-msgid ""
-"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-"org'>Flathub</a>"
+msgid "Flathub"
 msgstr ""
+
+#: src/Views/AppCenterView.vala:37
+#, fuzzy, c-format
+#| msgid ""
+#| "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
+#| "org'>Flathub</a>"
+msgid "You can also sideload Flatpak apps e.g. from %s"
+msgstr ""
+"Du kan også sideinnlaste Flatpak-programmer, f.eks. fra <a href='https://"
+"flathub.org'>Flathub</a>"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -64,30 +72,34 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"Denne forhåndsutgivelsen av %s skal ikke brukes i produksjon. <b>Det vil "
+"ikke være mulig å oppgradere til en stabil utgave</b> fra denne "
+"installasjonen."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "Forhåndstilgangsbygg"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "Store kjente feil"
 
 #: src/Views/EarlyAccessView.vala:39
+#, fuzzy
 msgid "Curated apps are not available in AppCenter"
-msgstr ""
+msgstr "Gjennomgåtte programmer er ikke tilgjengelige i AppSenter"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "Den visuelle stilen er uferdig"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "Noen funksjoner mangler eller er ufullstendige"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "Flere problemrapporter i 6.0-utgivelsesprosjektet …"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -124,10 +136,8 @@ msgid "Automatically Delete:"
 msgstr "Slett automatisk:"
 
 #: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
 msgid "Old temporary files"
-msgstr "Midlertidige filer"
+msgstr "Gamle midlertidige filer"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
@@ -167,64 +177,70 @@ msgstr "Nattlys:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Juster kjøreplan og temperatur …"
 
-#: src/Views/StyleView.vala:26
+#: src/Views/StyleView.vala:28
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Gjør det til ditt eget ved å velge en visuell stil og kontrastfarge. "
+"Programmer kan overstyre disse med sitt eget utseende."
 
-#: src/Views/StyleView.vala:28
+#: src/Views/StyleView.vala:30
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Velg ditt utseende"
 
-#: src/Views/StyleView.vala:53
+#: src/Views/StyleView.vala:81
 msgid "Default"
-msgstr ""
-
-#: src/Views/StyleView.vala:79
-msgid "Dark"
-msgstr ""
-
-#: src/Views/StyleView.vala:89
-msgid "Blueberry"
-msgstr ""
-
-#: src/Views/StyleView.vala:92
-msgid "Mint"
-msgstr ""
-
-#: src/Views/StyleView.vala:95
-msgid "Lime"
-msgstr ""
-
-#: src/Views/StyleView.vala:98
-msgid "Banana"
-msgstr ""
-
-#: src/Views/StyleView.vala:101
-msgid "Orange"
-msgstr ""
-
-#: src/Views/StyleView.vala:104
-msgid "Strawberry"
-msgstr ""
+msgstr "Forvalg"
 
 #: src/Views/StyleView.vala:107
+msgid "Dark"
+msgstr "Mørk"
+
+#: src/Views/StyleView.vala:117
+msgid "Blueberry"
+msgstr "Blåbær"
+
+#: src/Views/StyleView.vala:120
+msgid "Mint"
+msgstr "Mint"
+
+#: src/Views/StyleView.vala:123
+msgid "Lime"
+msgstr "Lime"
+
+#: src/Views/StyleView.vala:126
+msgid "Banana"
+msgstr "Banan"
+
+#: src/Views/StyleView.vala:129
+msgid "Orange"
+msgstr "Appelsin"
+
+#: src/Views/StyleView.vala:132
+msgid "Strawberry"
+msgstr "Jordbær"
+
+#: src/Views/StyleView.vala:135
 msgid "Bubblegum"
-msgstr ""
+msgstr "Tyggegummi"
 
-#: src/Views/StyleView.vala:110
+#: src/Views/StyleView.vala:138
 msgid "Grape"
-msgstr ""
+msgstr "Vinrød"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:141
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakao"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:144
 msgid "Slate"
+msgstr "Skifer"
+
+#: src/Views/StyleView.vala:147
+msgid "Automatic based on wallpaper"
 msgstr ""
 
 #: src/Views/UpdateView.vala:22
@@ -234,8 +250,7 @@ msgid ""
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "Fortsett å sette opp noen nyttige funksjoner. Besøk <a href='https://medium."
-"com/elementaryos/tagged/updates'>vår blogg</a> for mer informasjon om "
-"oppdateringer."
+"com/elementaryos/tagged/updates'>vår blogg</a> for mer info om oppdateringer."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"

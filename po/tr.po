@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-16 19:43+0000\n"
-"PO-Revision-Date: 2020-09-12 23:11+0000\n"
+"POT-Creation-Date: 2021-04-29 22:40+0000\n"
+"PO-Revision-Date: 2021-05-05 15:48+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:33
 #, c-format
@@ -53,12 +53,13 @@ msgid "Browse AppCenter…"
 msgstr "Uygulama Merkezine Gözat…"
 
 #: src/Views/AppCenterView.vala:35
-msgid ""
-"You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-"org'>Flathub</a>"
-msgstr ""
-"Flatpak uygulamalarını dışarıdan yükleyebilirsiniz. Örneğin <a href='https://"
-"flathub.org'>Flathub</a>'dan"
+msgid "Flathub"
+msgstr "Flathub"
+
+#: src/Views/AppCenterView.vala:37
+#, c-format
+msgid "You can also sideload Flatpak apps e.g. from %s"
+msgstr "Ayrıca Flatpak uygulamalarını, örn. %s sitesinden yükleyebilirsiniz"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -66,30 +67,32 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"Bu %s yayın öncesi sürümü üretimde kullanılmamalıdır. <b>Bu kurulumdan "
+"kararlı sürüme yükseltmek mümkün olmayacaktır</b>."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "Erken Erişim Derlemesi"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "Bilinen Başlıca Sorunlar"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr ""
+msgstr "Seçilmiş uygulamalar Uygulama Merkezinde mevcut değildir"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "Görsel stil tamamlanmadı"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "Bazı özellikler eksik veya yok"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "6.0 Sürüm Projesi ile ilgili diğer sorunlar…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -169,7 +172,7 @@ msgstr "Gece Işığı:"
 msgid "Adjust schedule and temperature…"
 msgstr "Planı ve sıcaklığı ayarlayın…"
 
-#: src/Views/StyleView.vala:26
+#: src/Views/StyleView.vala:28
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -177,57 +180,61 @@ msgstr ""
 "Görsel bir stil ve vurgu rengi seçerek tarzınızı yansıtın. Uygulamalar kendi "
 "görünümleri için bu ayarları görmezden gelebilir."
 
-#: src/Views/StyleView.vala:28
+#: src/Views/StyleView.vala:30
 msgid "Choose Your Look"
 msgstr "Görünümünüzü Seçin"
 
-#: src/Views/StyleView.vala:53
+#: src/Views/StyleView.vala:81
 msgid "Default"
 msgstr "Varsayılan"
 
-#: src/Views/StyleView.vala:79
+#: src/Views/StyleView.vala:107
 msgid "Dark"
 msgstr "Karanlık"
 
-#: src/Views/StyleView.vala:89
+#: src/Views/StyleView.vala:117
 msgid "Blueberry"
 msgstr "Yaban Mersini"
 
-#: src/Views/StyleView.vala:92
+#: src/Views/StyleView.vala:120
 msgid "Mint"
 msgstr "Nane"
 
-#: src/Views/StyleView.vala:95
+#: src/Views/StyleView.vala:123
 msgid "Lime"
 msgstr "Misket Limonu"
 
-#: src/Views/StyleView.vala:98
+#: src/Views/StyleView.vala:126
 msgid "Banana"
 msgstr "Muz"
 
-#: src/Views/StyleView.vala:101
+#: src/Views/StyleView.vala:129
 msgid "Orange"
 msgstr "Portakal"
 
-#: src/Views/StyleView.vala:104
+#: src/Views/StyleView.vala:132
 msgid "Strawberry"
 msgstr "Çilek"
 
-#: src/Views/StyleView.vala:107
+#: src/Views/StyleView.vala:135
 msgid "Bubblegum"
 msgstr "Balonlu Sakız"
 
-#: src/Views/StyleView.vala:110
+#: src/Views/StyleView.vala:138
 msgid "Grape"
 msgstr "Üzüm"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:141
 msgid "Cocoa"
 msgstr "Kakao"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:144
 msgid "Slate"
 msgstr "Arduvaz"
+
+#: src/Views/StyleView.vala:147
+msgid "Automatic based on wallpaper"
+msgstr "Duvar kağıdına göre otomatik"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
