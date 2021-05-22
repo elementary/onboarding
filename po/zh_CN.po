@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 22:40+0000\n"
-"PO-Revision-Date: 2021-04-29 17:15+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"PO-Revision-Date: 2021-05-22 06:44+0000\n"
+"Last-Translator: Chengyu Liu <wer5lcy@live.cn>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -228,7 +228,7 @@ msgstr "石头灰"
 
 #: src/Views/StyleView.vala:147
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "根据壁纸自动设定"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
