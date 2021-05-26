@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-29 22:40+0000\n"
-"PO-Revision-Date: 2021-04-23 09:39+0000\n"
+"PO-Revision-Date: 2021-05-05 15:48+0000\n"
 "Last-Translator: Ozgur Baskin <bebeto_baskin@yahoo.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding/tr/>\n"
@@ -234,7 +234,7 @@ msgstr "Arduvaz"
 
 #: src/Views/StyleView.vala:147
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Duvar kağıdına göre otomatik"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
