@@ -21,18 +21,15 @@ public class Onboarding.OnlineAccountsView : AbstractOnboardingView {
     public OnlineAccountsView () {
         Object (
             view_name: "onlineaccounts",
-            description: _("Manage online accounts and connected applications"),
+            description: _("Use Mail, Calendar, and Tasks with an existing online account to sync emails, events, and tasks with this device."),
             icon_name: "preferences-desktop-online-accounts",
-            title: _("Connect Your Online Accounts")
+            title: _("Online Accounts")
         );
     }
 
     construct {
-        var settings_link = new Gtk.LinkButton.with_label ("settings://accounts/online", _("Setup Online Accounts…")) {
-            valign = Gtk.Align.END,
-            vexpand = true
-        };
+        var settings_link = new Gtk.LinkButton.with_label ("settings://accounts/online", _("Connect Online Accounts…"));
 
-        custom_bin.attach (settings_link, 0, 0);
+        custom_bin.add (settings_link);
     }
 }
