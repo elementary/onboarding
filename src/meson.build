@@ -13,6 +13,7 @@ vala_files = [
     'Views/HouseKeepingView.vala',
     'Views/LocationServicesView.vala',
     'Views/NightLightView.vala',
+    'Views/OnlineAccountsView.vala',
     'Views/StyleView.vala',
     'Views/UpdateView.vala',
     'Views/WelcomeView.vala',
