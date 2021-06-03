@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-02 16:44+0000\n"
-"PO-Revision-Date: 2021-02-13 20:39+0000\n"
+"PO-Revision-Date: 2021-06-03 15:57+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding/nb/>\n"
@@ -54,17 +54,12 @@ msgstr "Utforsk AppSenter…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:37
-#, fuzzy, c-format
-#| msgid ""
-#| "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-#| "org'>Flathub</a>"
+#, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
-"Du kan også sideinnlaste Flatpak-programmer, f.eks. fra <a href='https://"
-"flathub.org'>Flathub</a>"
+msgstr "Du kan også sideinnlaste Flatpak-programmer, f.eks. fra %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -180,18 +175,21 @@ msgid "Adjust schedule and temperature…"
 msgstr "Juster kjøreplan og temperatur …"
 
 #: src/Views/OnlineAccountsView.vala:24
+#, fuzzy
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Bruk E-post, Kalender, og Gjøremål med eksisterende nettkontoer for å "
+"synkronisere e-poster, hendelser, og gjøremål med denne enhten."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Nettkontoer"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Koble til nettkontoer …"
 
 #: src/Views/StyleView.vala:69
 msgid ""
@@ -255,16 +253,15 @@ msgstr "Skifer"
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Automatisk basert på bakgrunnsbilde"
 
 #: src/Views/UpdateView.vala:22
-#, fuzzy
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
-"Fortsett å sette opp noen nyttige funksjoner. Besøk <a href='https://medium."
-"com/elementaryos/tagged/updates'>vår blogg</a> for mer info om oppdateringer."
+"Fortsett å sette opp noen nyttige nye funksjoner. Besøk <a href='https://"
+"blog.elementary.io'>bloggen vår</a> for mer info om oppdateringer."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
