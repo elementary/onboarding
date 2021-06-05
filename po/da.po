@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-02 16:44+0000\n"
-"PO-Revision-Date: 2020-05-26 11:11+0000\n"
+"PO-Revision-Date: 2021-06-05 23:54+0000\n"
 "Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/installer/"
 "onboarding/da/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:33
 #, c-format
@@ -54,12 +54,12 @@ msgstr "Gennemse AppCenteret…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:37
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
+msgstr "Du kan også sideloade Flatpak applikationer fra f.eks. %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
