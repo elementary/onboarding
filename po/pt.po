@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-02 16:44+0000\n"
-"PO-Revision-Date: 2021-04-30 12:16+0000\n"
+"PO-Revision-Date: 2021-06-05 19:06+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -179,14 +179,16 @@ msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Utilizar o Correio, Calendário e Tarefas com uma conta online existente para "
+"sincronizar e-mails, eventos e tarefas com este dispositivo."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Contas Online"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Ligar contas online…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
