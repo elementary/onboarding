@@ -78,4 +78,25 @@ public class Utils {
             return _logo_icon_name;
         }
     }
+
+    public static bool is_night_light_supported {
+        get {
+            try {
+                string standard_output;
+                int exit_status;
+                Process.spawn_command_line_sync ("/usr/bin/uname -p",
+                                                 out standard_output,
+                                                 null,
+                                                 out exit_status);
+
+                if (exit_status == 0 && standard_output.strip () == "x86_64") {
+                    return true;
+                }
+            } catch (SpawnError e) {
+                warning (e.message);
+            }
+
+            return false;
+        }
+    }
 }
