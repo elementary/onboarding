@@ -8,3 +8,4 @@ Type=Application
 StartupNotify=true
 NoDisplay=true
 Categories=GNOME;GTK;System;
+X-GNOME-UsesNotifications=true

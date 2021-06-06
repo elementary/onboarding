@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+ * Copyright (c) 2019–2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,7 +21,8 @@ public class Onboarding.LocationServicesView : AbstractOnboardingView {
             view_name: "location",
             description: _("Receive a prompt when an app requests this device’s location. If disabled, all location requests will be denied."),
             icon_name: "find-location",
-            title: _("Location Services")
+            title: _("Location Services"),
+            is_interactive: true
         );
     }
 

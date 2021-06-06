@@ -1,5 +1,5 @@
 /*
- * Copyright 2019–2020 elementary, Inc. (https://elementary.io)
+ * Copyright 2019–2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -27,7 +27,7 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
 
     public MainWindow () {
         Object (
-            deletable: false,
+            deletable: true,
             resizable: false,
             icon_name: "system-os-installer",
             title: _("Set up %s").printf (Utils.os_name),
@@ -40,9 +40,11 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
     }
 
     construct {
-        carousel = new Hdy.Carousel ();
-        carousel.expand = true;
-        carousel.valign = Gtk.Align.CENTER;
+        carousel = new Hdy.Carousel () {
+            expand = true,
+            valign = Gtk.Align.CENTER,
+            margin_bottom = 24
+        };
 
         viewed = settings.get_strv ("viewed");
 
@@ -148,15 +150,28 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         action_area.add (next_button);
         action_area.set_child_non_homogeneous (switcher, true);
 
+        var headerbar = new Hdy.HeaderBar () {
+            decoration_layout = "close:",
+            has_subtitle = false,
+            show_close_button = true
+        };
+
+        headerbar.get_style_context ().add_class ("default-decoration");
+        headerbar.get_style_context ().add_class (Gtk.STYLE_CLASS_FLAT);
+
         var grid = new Gtk.Grid ();
         grid.margin_bottom = 10;
         grid.orientation = Gtk.Orientation.VERTICAL;
-        grid.row_spacing = 24;
+        grid.add (headerbar);
         grid.add (carousel);
         grid.add (action_area);
 
         add (grid);
         show_all ();
+
+        if (viewed.length > 0) {
+            skip_to_earliest_interactive ();
+        }
 
         next_button.grab_focus ();
 
@@ -229,6 +244,20 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             viewed = viewed_copy;
 
             settings.set_strv ("viewed", viewed);
+        }
+    }
+
+    /* Skip to the earliest unviewed interactive page. The list of
+    hardcoded pages here are only views that interactive.*/
+    public void skip_to_earliest_interactive () {
+        foreach (var view in carousel.get_children ()) {
+            var is_interactive = ((AbstractOnboardingView) view).is_interactive;
+
+            if (is_interactive) {
+                carousel.scroll_to (view);
+
+                return;
+            }
         }
     }
 }
