@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-29 22:40+0000\n"
-"PO-Revision-Date: 2021-04-23 12:37+0000\n"
+"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"PO-Revision-Date: 2021-05-12 16:27+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "installer/onboarding/en_GB/>\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Set up %s"
 
-#: src/MainWindow.vala:107
+#: src/MainWindow.vala:110
 msgid "Skip All"
 msgstr "Skip All"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:120
 msgid "Get Started"
 msgstr "Get Started"
 
-#: src/MainWindow.vala:121
+#: src/MainWindow.vala:124
 msgid "Next"
 msgstr "Next"
 
@@ -172,7 +172,21 @@ msgstr "Night Light:"
 msgid "Adjust schedule and temperature…"
 msgstr "Adjust schedule and temperature…"
 
-#: src/Views/StyleView.vala:28
+#: src/Views/OnlineAccountsView.vala:24
+msgid ""
+"Use Mail, Calendar, and Tasks with an existing online account to sync "
+"emails, events, and tasks with this device."
+msgstr ""
+
+#: src/Views/OnlineAccountsView.vala:26
+msgid "Online Accounts"
+msgstr ""
+
+#: src/Views/OnlineAccountsView.vala:31
+msgid "Connect Online Accounts…"
+msgstr ""
+
+#: src/Views/StyleView.vala:69
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -180,61 +194,61 @@ msgstr ""
 "Make it your own by choosing a visual style and accent colour. Apps may "
 "override these with their own look."
 
-#: src/Views/StyleView.vala:30
+#: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
 msgstr "Choose Your Look"
 
-#: src/Views/StyleView.vala:81
+#: src/Views/StyleView.vala:122
 msgid "Default"
 msgstr "Default"
 
-#: src/Views/StyleView.vala:107
+#: src/Views/StyleView.vala:148
 msgid "Dark"
 msgstr "Dark"
 
-#: src/Views/StyleView.vala:117
+#: src/Views/StyleView.vala:158
 msgid "Blueberry"
 msgstr "Blueberry"
 
-#: src/Views/StyleView.vala:120
+#: src/Views/StyleView.vala:161
 msgid "Mint"
 msgstr "Mint"
 
-#: src/Views/StyleView.vala:123
+#: src/Views/StyleView.vala:164
 msgid "Lime"
 msgstr "Lime"
 
-#: src/Views/StyleView.vala:126
+#: src/Views/StyleView.vala:167
 msgid "Banana"
 msgstr "Banana"
 
-#: src/Views/StyleView.vala:129
+#: src/Views/StyleView.vala:170
 msgid "Orange"
 msgstr "Orange"
 
-#: src/Views/StyleView.vala:132
+#: src/Views/StyleView.vala:173
 msgid "Strawberry"
 msgstr "Strawberry"
 
-#: src/Views/StyleView.vala:135
+#: src/Views/StyleView.vala:176
 msgid "Bubblegum"
 msgstr "Bubblegum"
 
-#: src/Views/StyleView.vala:138
+#: src/Views/StyleView.vala:179
 msgid "Grape"
 msgstr "Grape"
 
-#: src/Views/StyleView.vala:141
+#: src/Views/StyleView.vala:182
 msgid "Cocoa"
 msgstr "Cocoa"
 
-#: src/Views/StyleView.vala:144
+#: src/Views/StyleView.vala:185
 msgid "Slate"
 msgstr "Slate"
 
-#: src/Views/StyleView.vala:147
+#: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Automatic based on wallpaper"
 
 #: src/Views/UpdateView.vala:22
 msgid ""

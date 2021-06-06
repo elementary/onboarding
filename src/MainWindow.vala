@@ -78,6 +78,9 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         var housekeeping_view = new HouseKeepingView ();
         carousel.add (housekeeping_view);
 
+        var onlineaccounts_view = new OnlineAccountsView ();
+        carousel.add (onlineaccounts_view);
+
         if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
             var appcenter_view = new AppCenterView ();
             carousel.add (appcenter_view);
