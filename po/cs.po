@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-06-07 19:27+0000\n"
 "PO-Revision-Date: 2020-07-25 17:12+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Nastavit %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Přeskočit vše"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Začít"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Další"
 
@@ -140,22 +140,6 @@ msgstr "Dočasné soubory"
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Soubory v koši"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Obdržte upozornění, pokud se aplikace snaží zjistit polohu tohoto počítače. "
-"Pokud je vypnuto, všechny žádosti o polohu budou zamítány."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Služby určování polohy"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Služby určování polohy:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -293,3 +277,16 @@ msgstr "Komunitní podpora…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Zapojte se…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Obdržte upozornění, pokud se aplikace snaží zjistit polohu tohoto "
+#~ "počítače. Pokud je vypnuto, všechny žádosti o polohu budou zamítány."
+
+#~ msgid "Location Services"
+#~ msgstr "Služby určování polohy"
+
+#~ msgid "Location Services:"
+#~ msgstr "Služby určování polohy:"

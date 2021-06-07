@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-06-07 19:27+0000\n"
 "PO-Revision-Date: 2020-11-22 20:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "%s चे सेटअप करा"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "सर्व वगळा"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "सुरु करूया"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "पुढे"
 
@@ -139,22 +139,6 @@ msgstr "जुन्या तात्पुरत्या फायली"
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "ट्रॅश केलेल्या फायली"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"जेव्हा एखादा अ‍ॅप या डिव्हाइसच्या स्थानाची विनंती करतो तेव्हा एक सूचना प्राप्त करा. अक्षम "
-"केल्यास, सर्व स्थान विनंत्या नाकारल्या जातील."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "स्थान सेवा"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "स्थान सेवा:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -288,6 +272,19 @@ msgstr "समुदाय समर्थन…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "सहभागी व्हा…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "जेव्हा एखादा अ‍ॅप या डिव्हाइसच्या स्थानाची विनंती करतो तेव्हा एक सूचना प्राप्त करा. "
+#~ "अक्षम केल्यास, सर्व स्थान विनंत्या नाकारल्या जातील."
+
+#~ msgid "Location Services"
+#~ msgstr "स्थान सेवा"
+
+#~ msgid "Location Services:"
+#~ msgstr "स्थान सेवा:"
 
 #~ msgid ""
 #~ "While Location Services are enabled, apps will be able to make requests "

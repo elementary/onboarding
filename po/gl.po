@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-06-07 19:27+0000\n"
 "PO-Revision-Date: 2019-09-22 17:23+0000\n"
 "Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.7.1\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Configurar %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Omitir todo"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Primeiros pasos"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Seguinte"
 
@@ -135,23 +135,6 @@ msgstr "Arquivos temporais"
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Arquivos enviados ao lixo"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Reciba unha notificación cando unha aplicación solicite a localización do "
-"dispositivo. Se se desactiva, rexeitaranse todas as solicitudes de "
-"localización."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Servizos de localización"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Servizos de localización:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -288,3 +271,17 @@ msgstr "Asistencia comunitaria…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Participe…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Reciba unha notificación cando unha aplicación solicite a localización do "
+#~ "dispositivo. Se se desactiva, rexeitaranse todas as solicitudes de "
+#~ "localización."
+
+#~ msgid "Location Services"
+#~ msgstr "Servizos de localización"
+
+#~ msgid "Location Services:"
+#~ msgstr "Servizos de localización:"

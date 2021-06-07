@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-06-07 19:27+0000\n"
 "PO-Revision-Date: 2021-06-03 15:57+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "%s einrichten"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Alles überspringen"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Beginnen"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Weiter"
 
@@ -137,22 +137,6 @@ msgstr "Alte temporäre Dateien"
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Gelöschte Dateien"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Meldung anzeigen, sobald eine App den Standort dieses Geräts abfragt. Wenn "
-"diese Option nicht gewählt ist, werden alle Standortabfragen abgelehnt."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Ortungsdienste"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Ortungsdienste:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -293,6 +277,20 @@ msgstr "Community-Hilfe …"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Mitmachen …"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Meldung anzeigen, sobald eine App den Standort dieses Geräts abfragt. "
+#~ "Wenn diese Option nicht gewählt ist, werden alle Standortabfragen "
+#~ "abgelehnt."
+
+#~ msgid "Location Services"
+#~ msgstr "Ortungsdienste"
+
+#~ msgid "Location Services:"
+#~ msgstr "Ortungsdienste:"
 
 #~ msgid ""
 #~ "While Location Services are enabled, apps will be able to make requests "

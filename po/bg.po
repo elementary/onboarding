@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-06-07 19:27+0000\n"
 "PO-Revision-Date: 2019-04-11 16:53-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr ""
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr ""
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr ""
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr ""
 
@@ -124,20 +124,6 @@ msgstr ""
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr ""
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr ""
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
 msgstr ""
 
 #: src/Views/NightLightView.vala:22

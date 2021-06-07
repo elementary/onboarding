@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-06-07 19:27+0000\n"
 "PO-Revision-Date: 2020-03-17 14:09+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Agordi %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Preterlasi ĉion"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Komenci"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Sekva"
 
@@ -135,22 +135,6 @@ msgstr "Portempaj dosieroj"
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Rubujigitaĵoj"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Ricevi inviton ĉe aplikaĵa peto pri situo. Malebligo rifuzos ĉiujn situajn "
-"petojn."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Lokigaj Servoj"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Lokigaj Servoj:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -285,6 +269,19 @@ msgstr "Komunuma subteno…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Engaĝiĝu…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Ricevi inviton ĉe aplikaĵa peto pri situo. Malebligo rifuzos ĉiujn "
+#~ "situajn petojn."
+
+#~ msgid "Location Services"
+#~ msgstr "Lokigaj Servoj"
+
+#~ msgid "Location Services:"
+#~ msgstr "Lokigaj Servoj:"
 
 #~ msgid ""
 #~ "While Location Services are enabled, apps will be able to make requests "

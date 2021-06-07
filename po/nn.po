@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-06-07 19:27+0000\n"
 "PO-Revision-Date: 2020-07-25 17:12+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Sett opp %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Hopp over alt"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Kom i gong"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Neste"
 
@@ -140,22 +140,6 @@ msgstr "Midlertidige filer"
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Sletta filer"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Få ei varsling når ein app forsøker å bruka lokalisasjonen til maskina. Om "
-"denne er skrudd av vil alle forsøk på dette bli nekta."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Stadstenester"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Stadstenester:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -288,3 +272,16 @@ msgstr ""
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr ""
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Få ei varsling når ein app forsøker å bruka lokalisasjonen til maskina. "
+#~ "Om denne er skrudd av vil alle forsøk på dette bli nekta."
+
+#~ msgid "Location Services"
+#~ msgstr "Stadstenester"
+
+#~ msgid "Location Services:"
+#~ msgstr "Stadstenester:"

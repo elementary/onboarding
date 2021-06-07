@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-06-07 19:27+0000\n"
 "PO-Revision-Date: 2021-05-22 06:44+0000\n"
 "Last-Translator: Chengyu Liu <wer5lcy@live.cn>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "配置 %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "跳过所有"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "开始"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "下一个"
 
@@ -131,22 +131,6 @@ msgstr "旧的临时文件"
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "回收站文件"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"当应用申请使用位置权限时，您会收到通知。如果您关闭权限，所有位置请求将会被取"
-"消。"
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "位置服务"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "位置服务："
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -279,3 +263,16 @@ msgstr "社区支持…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "参与项目…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "当应用申请使用位置权限时，您会收到通知。如果您关闭权限，所有位置请求将会被"
+#~ "取消。"
+
+#~ msgid "Location Services"
+#~ msgstr "位置服务"
+
+#~ msgid "Location Services:"
+#~ msgstr "位置服务："

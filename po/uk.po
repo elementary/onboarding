@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-06-07 19:27+0000\n"
 "PO-Revision-Date: 2021-06-05 23:54+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -20,20 +20,20 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Налаштування %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Пропустити все"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Почати користуватися"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Далі"
 
@@ -136,22 +136,6 @@ msgstr "Старі тимчасові файли"
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Файли зі смітника"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Отримуйте запит, коли програма запитує розташування цього пристрою. Якщо "
-"вимкнути, всі запити розташування буде відхилено."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Служби розташування"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Служби розташування:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -292,3 +276,16 @@ msgstr "Підтримка спільноти…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Долучитися…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Отримуйте запит, коли програма запитує розташування цього пристрою. Якщо "
+#~ "вимкнути, всі запити розташування буде відхилено."
+
+#~ msgid "Location Services"
+#~ msgstr "Служби розташування"
+
+#~ msgid "Location Services:"
+#~ msgstr "Служби розташування:"
