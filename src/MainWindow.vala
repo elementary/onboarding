@@ -18,7 +18,6 @@
  */
 
 public class Onboarding.MainWindow : Hdy.ApplicationWindow {
-    public const string GEOCLUE_SCHEMA = "io.elementary.desktop.agent-geoclue2";
     public string[] viewed { get; set; }
     private static GLib.Settings settings;
 
@@ -64,12 +63,6 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         if (interface_settings.get_string ("gtk-theme").has_prefix ("io.elementary.stylesheet.")) {
             var style_view = new StyleView ();
             carousel.add (style_view);
-        }
-
-        var lookup = SettingsSchemaSource.get_default ().lookup (GEOCLUE_SCHEMA, true);
-        if (lookup != null) {
-            var location_services_view = new LocationServicesView ();
-            carousel.add (location_services_view);
         }
 
         var night_light_view = new NightLightView ();

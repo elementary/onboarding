@@ -6,7 +6,6 @@ src/Views/AppCenterView.vala
 src/Views/EarlyAccessView.vala
 src/Views/FinishView.vala
 src/Views/HouseKeepingView.vala
-src/Views/LocationServicesView.vala
 src/Views/NightLightView.vala
 src/Views/OnlineAccountsView.vala
 src/Views/StyleView.vala
