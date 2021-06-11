@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-07 19:27+0000\n"
-"PO-Revision-Date: 2021-05-06 13:53+0000\n"
+"PO-Revision-Date: 2021-06-12 02:23+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
@@ -162,14 +162,17 @@ msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Пользуйтесь приложениями «Почта», «Календарь» и «Задачи» с существующим "
+"сетевыми учетными записями для синхронизации электронной почты, событий и "
+"задач с этим устройством."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Сетевые учетные записи"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Подключить сетевые учетные записи…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
