@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-07 19:27+0000\n"
-"PO-Revision-Date: 2021-06-03 15:57+0000\n"
+"PO-Revision-Date: 2021-06-16 00:39+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
 "onboarding/es/>\n"
@@ -161,7 +161,6 @@ msgid "Adjust schedule and temperature…"
 msgstr "Ajustar programación y temperatura…"
 
 #: src/Views/OnlineAccountsView.vala:24
-#, fuzzy
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
