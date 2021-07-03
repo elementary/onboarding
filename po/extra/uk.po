@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-07 19:27+0000\n"
-"PO-Revision-Date: 2021-03-03 01:39+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"PO-Revision-Date: 2021-07-03 15:45+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/uk/>\n"
 "Language: uk\n"
@@ -26,7 +26,7 @@ msgstr "Вітаємо"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
-msgstr "Налаштуйте загальні параметри під час першого запуску"
+msgstr "Налаштуйте загальні налаштування під час першого запуску"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "io.elementary.onboarding"
