@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-07 19:27+0000\n"
-"PO-Revision-Date: 2021-06-26 04:17+0000\n"
+"PO-Revision-Date: 2021-07-03 15:45+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding/uk/>\n"
@@ -101,8 +101,8 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"Насолоджуйтесь користуванням %s! Ви завжди можете відвідати системні "
-"параметри, щоб налаштувати обладнання або змінити свої налаштування."
+"Насолоджуйтесь користуванням %s! Ви завжди можете встановити обладнання або "
+"змінити параметри в налаштуваннях системи."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
@@ -110,7 +110,7 @@ msgstr "Все готово"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr "Відкрити системні параметри…"
+msgstr "Відкрити налаштування системи…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
