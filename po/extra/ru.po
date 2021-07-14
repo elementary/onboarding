@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-07 19:27+0000\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-03-04 02:39+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
@@ -33,31 +33,47 @@ msgid "io.elementary.onboarding"
 msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
-msgid "Fix blurry icon in AppCenter"
-msgstr "Исправлено размытие иконки в Центре приложений"
+msgid "Add style view"
+msgstr ""
 
-#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
-#: data/onboarding.appdata.xml.in:35
+#: data/onboarding.appdata.xml.in:17
+msgid "Add Online Accounts view"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:18
+msgid "Remove location services view"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:19
+msgid "Mention Sideload and Flathub"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
+#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
 msgid "Updated translations"
 msgstr "Обновленны переводы"
 
-#: data/onboarding.appdata.xml.in:24
+#: data/onboarding.appdata.xml.in:27
+msgid "Fix blurry icon in AppCenter"
+msgstr "Исправлено размытие иконки в Центре приложений"
+
+#: data/onboarding.appdata.xml.in:35
 msgid "New app icon"
 msgstr "Новая иконка приложения"
 
-#: data/onboarding.appdata.xml.in:32
+#: data/onboarding.appdata.xml.in:43
 msgid "Navigate with (multi-)touch gestures"
 msgstr "Навигация с помощью мультитач жестов"
 
-#: data/onboarding.appdata.xml.in:33
+#: data/onboarding.appdata.xml.in:44
 msgid "Use new blog URL"
 msgstr "Используйте новый URL-адрес блога"
 
-#: data/onboarding.appdata.xml.in:34
+#: data/onboarding.appdata.xml.in:45
 msgid "Fix errors when pressing the Skip button"
 msgstr "Исправлены ошибки при нажатии кнопки Пропустить"
 
-#: data/onboarding.appdata.xml.in:74
+#: data/onboarding.appdata.xml.in:85
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
