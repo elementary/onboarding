@@ -1,3 +1,39 @@
+io.elementary.onboarding (6.0.0) bionic; urgency=medium
+
+  * Release 6.0.0 (#138)
+  * Update translation files
+  * Update translation template
+  * Remove location services (#137)
+  * Set Up Online Accounts (#135)
+  * Remove unused Granite.Settings (#132)
+  * StyleView: Reduce number of args passed to color button with
+    enum.to_string (#131)
+  * Do not use Granite.Settings (#130)
+  * Set accent color based on wallpaper (#126)
+  * AppCenterView: rework labels (#128)
+  * EarlyAccessView: Align the project link center (#125)
+  * MainWindow: Show earlyaccess view first (#124)
+  * Application: Don't try to load old CSS (#122)
+  * MainWindow: Fix Early Access detections (#121)
+  * Remove application.css (#120)
+  * LINGUAS: sort, remove en_US
+  * PreReleaseView: Rename to EarlyAccessView and always show (#112)
+  * MainWindow: Fix update view logic (#114)
+  * Add a pre-release warning (#111)
+  * StyleView: Re-order accent colors (#109)
+  * Specify that temp files are unneeded (#108)
+  * MainWindow: overlay button labels, not buttons (#102)
+  * Utils: use GLib.get_os_info (#100)
+  * Add Style View (#103)
+  * AppCenterView: You can sideload "e.g. from Flatpak" (#105)
+  * Views: Better use vertical space (#104)
+  * MainWindow: Subclass Hdy.AppWindow (#98)
+  * AppCenterView: Mention Flatpak and Flathub (#101)
+  * Port to libhandy-1 (#95)
+  * Replace Travis with GitHub CI (#97)
+
+ -- elementary, Inc. <builds@elementary.io>  Wed, 14 Jul 2021 19:20:58 +0000
+
 io.elementary.onboarding (1.2.1) bionic; urgency=medium
 
   * Release 1.2.1 (#94)
