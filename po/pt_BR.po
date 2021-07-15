@@ -9,8 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-07-15 14:30+0000\n"
-"Last-Translator: Luis Felipe Santos do Nascimento <luisfelipesdn12@gmail.com>"
-"\n"
+"Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -132,7 +131,7 @@ msgstr "Apagar automaticamente:"
 
 #: src/Views/HouseKeepingView.vala:34
 msgid "Old temporary files"
-msgstr "Antigos arquivos temporários"
+msgstr "Arquivos temporários antigos"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
@@ -163,14 +162,16 @@ msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Use Correio, Calendário e Tarefas com uma conta on-line existente para "
+"sincronizar e-mails, eventos e tarefas com este dispositivo."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Contas Online"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Conecte Contas Online…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
