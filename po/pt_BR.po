@@ -9,7 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-07-15 14:23+0000\n"
-"Last-Translator: afraneo galan <afraneo@me.com>\n"
+"Last-Translator: Luis Felipe Santos do Nascimento <luisfelipesdn12@gmail.com>"
+"\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -85,11 +86,11 @@ msgstr "Aplicativos selecionados não estão disponíveis no AppCenter"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "A identidade visual não está concluída"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "Algumas funcionalidades estão faltando ou incompletas"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
