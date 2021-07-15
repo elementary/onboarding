@@ -9,7 +9,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-07-15 14:30+0000\n"
-"Last-Translator: biguibi <simsbruno2002@gmail.com>\n"
+"Last-Translator: Luis Felipe Santos do Nascimento <luisfelipesdn12@gmail.com>"
+"\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -155,7 +156,7 @@ msgstr "Luz Noturna:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Configurar data e temperatura…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
@@ -176,10 +177,12 @@ msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Deixe do seu jeito escolhendo um estilo e uma cor predominante. As "
+"aplicações podem usar visuais próprios."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Escolha Sua Aparência"
 
 #: src/Views/StyleView.vala:122
 msgid "Default"
