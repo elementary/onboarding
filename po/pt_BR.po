@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-07-15 14:21+0000\n"
-"Last-Translator: Augusto Fritz <augusto.fritz@universo.univates.br>\n"
+"PO-Revision-Date: 2021-07-15 14:23+0000\n"
+"Last-Translator: afraneo galan <afraneo@me.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -93,7 +93,7 @@ msgstr ""
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "Mais problemas no projeto da versão 6.0 …"
 
 #: src/Views/FinishView.vala:22
 #, c-format
