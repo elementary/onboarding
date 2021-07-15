@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-07-15 14:30+0000\n"
-"Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
+"PO-Revision-Date: 2021-07-16 10:41+0000\n"
+"Last-Translator: Mário Victor Ribeiro Silva <mariovictorrs@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -235,7 +235,7 @@ msgstr ""
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Automático baseado no papel de parede"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
