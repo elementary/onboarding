@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-07-16 10:41+0000\n"
-"Last-Translator: Mário Victor Ribeiro Silva <mariovictorrs@gmail.com>\n"
+"Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -191,47 +191,52 @@ msgstr "Padrão"
 
 #: src/Views/StyleView.vala:148
 msgid "Dark"
-msgstr "Escuro"
+msgstr "Noturno"
 
 #: src/Views/StyleView.vala:158
 msgid "Blueberry"
-msgstr ""
+msgstr "Blueberry"
 
 #: src/Views/StyleView.vala:161
 msgid "Mint"
-msgstr ""
+msgstr "MInt"
 
 #: src/Views/StyleView.vala:164
 msgid "Lime"
-msgstr ""
+msgstr "Lime"
 
 #: src/Views/StyleView.vala:167
 msgid "Banana"
-msgstr ""
+msgstr "Banana"
 
 #: src/Views/StyleView.vala:170
 msgid "Orange"
-msgstr ""
+msgstr "Orange"
 
 #: src/Views/StyleView.vala:173
+#, fuzzy
 msgid "Strawberry"
-msgstr ""
+msgstr "Strawberry"
 
 #: src/Views/StyleView.vala:176
+#, fuzzy
 msgid "Bubblegum"
-msgstr ""
+msgstr "Bubblegum"
 
 #: src/Views/StyleView.vala:179
+#, fuzzy
 msgid "Grape"
-msgstr ""
+msgstr "Grape"
 
 #: src/Views/StyleView.vala:182
+#, fuzzy
 msgid "Cocoa"
-msgstr ""
+msgstr "Cocoa"
 
 #: src/Views/StyleView.vala:185
+#, fuzzy
 msgid "Slate"
-msgstr ""
+msgstr "Slate"
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
