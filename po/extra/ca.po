@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2020-04-21 00:10+0000\n"
+"PO-Revision-Date: 2021-07-16 10:41+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -33,19 +33,19 @@ msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Add style view"
-msgstr ""
+msgstr "Addició d'una vista d'estil"
 
 #: data/onboarding.appdata.xml.in:17
 msgid "Add Online Accounts view"
-msgstr ""
+msgstr "Addició d'una vista de comptes en línia"
 
 #: data/onboarding.appdata.xml.in:18
 msgid "Remove location services view"
-msgstr ""
+msgstr "Supressió de la vista dels serveis d'ubicació"
 
 #: data/onboarding.appdata.xml.in:19
 msgid "Mention Sideload and Flathub"
-msgstr ""
+msgstr "S'esmenten Sideload i Flathub"
 
 #: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
 #: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
