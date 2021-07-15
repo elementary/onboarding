@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-07-15 14:23+0000\n"
-"Last-Translator: Mário Victor Ribeiro Silva <mariovictorrs@gmail.com>\n"
+"Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -93,7 +93,7 @@ msgstr "Algumas funcionalidades estão faltando ou incompletas"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr "Mais problemas no projeto da versão 6.0 …"
+msgstr "Mais problemas no projeto versão 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
