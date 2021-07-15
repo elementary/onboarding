@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-07-15 00:13+0000\n"
+"PO-Revision-Date: 2021-07-16 10:41+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/uk/>\n"
@@ -51,7 +51,7 @@ msgstr "Згадано сторонні завантаження та Flathub"
 #: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
 #: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
 msgid "Updated translations"
-msgstr "Оновлено пееклади"
+msgstr "Оновлено переклади"
 
 #: data/onboarding.appdata.xml.in:27
 msgid "Fix blurry icon in AppCenter"
