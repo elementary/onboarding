@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-03-04 02:39+0000\n"
+"PO-Revision-Date: 2021-07-22 13:07+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ru/>\n"
@@ -34,19 +34,19 @@ msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Add style view"
-msgstr ""
+msgstr "Добавлен просмотр стилей"
 
 #: data/onboarding.appdata.xml.in:17
 msgid "Add Online Accounts view"
-msgstr ""
+msgstr "Добавлен просмотр онлайн аккаунтов"
 
 #: data/onboarding.appdata.xml.in:18
 msgid "Remove location services view"
-msgstr ""
+msgstr "Удален просмотр служб местоположения"
 
 #: data/onboarding.appdata.xml.in:19
 msgid "Mention Sideload and Flathub"
-msgstr ""
+msgstr "Упомянуты сторонние загрузки и Flathub"
 
 #: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
 #: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
