@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2019-11-17 20:24+0000\n"
 "Last-Translator: DokiDokiMagikku <jakubekbugajski@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
@@ -20,20 +20,20 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.7.1\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Konfiguracja %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Pomiń wszystko"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Rozpocznij"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Dalej"
 
@@ -136,22 +136,6 @@ msgstr "Pliki tymczasowe"
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Pliki w koszu"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Otrzymuj monit, gdy program zażąda uzyskania lokalizacji tego urządzenia. "
-"Jeśli wyłączone, wszystkie żądania lokalizacji będą odrzucane."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Usługi lokalizacji"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Usługi lokalizacji:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -282,3 +266,16 @@ msgstr "Wsparcie społeczności…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr ""
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Otrzymuj monit, gdy program zażąda uzyskania lokalizacji tego urządzenia. "
+#~ "Jeśli wyłączone, wszystkie żądania lokalizacji będą odrzucane."
+
+#~ msgid "Location Services"
+#~ msgstr "Usługi lokalizacji"
+
+#~ msgid "Location Services:"
+#~ msgstr "Usługi lokalizacji:"

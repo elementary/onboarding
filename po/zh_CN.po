@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
-"PO-Revision-Date: 2021-05-22 06:44+0000\n"
-"Last-Translator: Chengyu Liu <wer5lcy@live.cn>\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"PO-Revision-Date: 2021-06-20 22:40+0000\n"
+"Last-Translator: imgradeone Yan <imgradeone@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "配置 %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "跳过所有"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "开始"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "下一个"
 
@@ -132,22 +132,6 @@ msgstr "旧的临时文件"
 msgid "Trashed files"
 msgstr "回收站文件"
 
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"当应用申请使用位置权限时，您会收到通知。如果您关闭权限，所有位置请求将会被取"
-"消。"
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "位置服务"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "位置服务："
-
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
@@ -170,15 +154,15 @@ msgstr "调节日程与色温…"
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
-msgstr ""
+msgstr "借助网络账户同步邮件、日历事件、待办事项。"
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "网络账户"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "连接网络账户…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
@@ -279,3 +263,16 @@ msgstr "社区支持…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "参与项目…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "当应用申请使用位置权限时，您会收到通知。如果您关闭权限，所有位置请求将会被"
+#~ "取消。"
+
+#~ msgid "Location Services"
+#~ msgstr "位置服务"
+
+#~ msgid "Location Services:"
+#~ msgstr "位置服务："

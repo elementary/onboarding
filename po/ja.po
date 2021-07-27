@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-06-03 09:11+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "始めましょう"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "次へ"
 
@@ -138,22 +138,6 @@ msgstr "不要な一時ファイル"
 msgid "Trashed files"
 msgstr "ゴミ箱に移動したファイル"
 
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"アプリがこのデバイスの位置情報を要求した場合に確認します。無効にすると、すべ"
-"ての位置情報の要求は拒否されます。"
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "位置情報サービス"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "位置情報サービス:"
-
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
@@ -178,7 +162,9 @@ msgstr "スケジュールと色温度を調節…"
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
-msgstr "“メール” や “カレンダー”、“タスク” アプリに既存のオンラインアカウントを接続して、メールや予定、タスクをこのデバイスと同期しましょう。"
+msgstr ""
+"“メール” や “カレンダー”、“タスク” アプリに既存のオンラインアカウントを接続し"
+"て、メールや予定、タスクをこのデバイスと同期しましょう。"
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
@@ -290,6 +276,19 @@ msgstr "コミュニティーサポート…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "開発に参加…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "アプリがこのデバイスの位置情報を要求した場合に確認します。無効にすると、す"
+#~ "べての位置情報の要求は拒否されます。"
+
+#~ msgid "Location Services"
+#~ msgstr "位置情報サービス"
+
+#~ msgid "Location Services:"
+#~ msgstr "位置情報サービス:"
 
 #~ msgid ""
 #~ "While Location Services are enabled, apps will be able to make requests "

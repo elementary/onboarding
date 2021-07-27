@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
-"PO-Revision-Date: 2021-03-03 01:39+0000\n"
-"Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"PO-Revision-Date: 2021-07-16 10:41+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/uk/>\n"
 "Language: uk\n"
@@ -26,37 +26,53 @@ msgstr "Вітаємо"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
-msgstr "Налаштуйте загальні параметри під час першого запуску"
+msgstr "Налаштуйте загальні налаштування під час першого запуску"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "io.elementary.onboarding"
 msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
+msgid "Add style view"
+msgstr "Додано перегляд стилів"
+
+#: data/onboarding.appdata.xml.in:17
+msgid "Add Online Accounts view"
+msgstr "Додано перегляд мережних облікових записів"
+
+#: data/onboarding.appdata.xml.in:18
+msgid "Remove location services view"
+msgstr "Вилучено перегляд служб розташування"
+
+#: data/onboarding.appdata.xml.in:19
+msgid "Mention Sideload and Flathub"
+msgstr "Згадано сторонні завантаження та Flathub"
+
+#: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
+#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
+msgid "Updated translations"
+msgstr "Оновлено переклади"
+
+#: data/onboarding.appdata.xml.in:27
 msgid "Fix blurry icon in AppCenter"
 msgstr "Виправлено розмиття піктограми в Центрі застосунків"
 
-#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
 #: data/onboarding.appdata.xml.in:35
-msgid "Updated translations"
-msgstr "Оновлено пееклади"
-
-#: data/onboarding.appdata.xml.in:24
 msgid "New app icon"
 msgstr "Нова піктограма застосунку"
 
-#: data/onboarding.appdata.xml.in:32
+#: data/onboarding.appdata.xml.in:43
 msgid "Navigate with (multi-)touch gestures"
 msgstr "Переходи за допомогою (багато-)дотикових жестів"
 
-#: data/onboarding.appdata.xml.in:33
+#: data/onboarding.appdata.xml.in:44
 msgid "Use new blog URL"
 msgstr "Додано нову URL-адресу блогу"
 
-#: data/onboarding.appdata.xml.in:34
+#: data/onboarding.appdata.xml.in:45
 msgid "Fix errors when pressing the Skip button"
 msgstr "Виправлено помилки під час натискання кнопки Пропустити"
 
-#: data/onboarding.appdata.xml.in:74
+#: data/onboarding.appdata.xml.in:85
 msgid "elementary, Inc."
 msgstr "elementary, Inc."

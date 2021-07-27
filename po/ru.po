@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
-"PO-Revision-Date: 2021-05-06 13:53+0000\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"PO-Revision-Date: 2021-07-25 13:01+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
@@ -20,20 +20,20 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Настройка %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Пропустить все"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Приступить к работе"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Далее"
 
@@ -137,22 +137,6 @@ msgstr "Старые временные файлы"
 msgid "Trashed files"
 msgstr "Файлы в корзине"
 
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Получать уведомление, когда приложение запрашивает местоположение этого "
-"устройства. Если отключить, все запросы местоположения будут отклонены."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Службы геолокации"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Службы геолокации:"
-
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
@@ -178,14 +162,17 @@ msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Пользуйтесь приложениями «Почта», «Календарь» и «Задачи» с существующим "
+"сетевыми учетными записями для синхронизации электронной почты, событий и "
+"задач с этим устройством."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Сетевые учетные записи"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Подключить сетевые учетные записи…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
@@ -233,7 +220,7 @@ msgstr "Клубничный"
 
 #: src/Views/StyleView.vala:176
 msgid "Bubblegum"
-msgstr "Бубль-гумовый"
+msgstr "Бубльгумовый"
 
 #: src/Views/StyleView.vala:179
 msgid "Grape"
@@ -288,4 +275,17 @@ msgstr "Поддержка сообщества…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr "Принять участие…"
+msgstr "Приобщиться…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Получать уведомление, когда приложение запрашивает местоположение этого "
+#~ "устройства. Если отключить, все запросы местоположения будут отклонены."
+
+#~ msgid "Location Services"
+#~ msgstr "Службы геолокации"
+
+#~ msgid "Location Services:"
+#~ msgstr "Службы геолокации:"

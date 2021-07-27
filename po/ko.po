@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2019-07-07 22:28+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.6.1\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "%s 설정"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "모두 넘기기"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "시작"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "다음"
 
@@ -135,20 +135,6 @@ msgstr "임시 파일"
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "지운 파일"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "위치 서비스"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "위치 서비스:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -285,6 +271,12 @@ msgstr "커뮤니티 지원…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "참여하기…"
+
+#~ msgid "Location Services"
+#~ msgstr "위치 서비스"
+
+#~ msgid "Location Services:"
+#~ msgstr "위치 서비스:"
 
 #~ msgid ""
 #~ "While Location Services are enabled, apps will be able to make requests "

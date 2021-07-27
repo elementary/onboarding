@@ -10,6 +10,17 @@
     <p></p>
   </description>
   <releases>
+    <release version="6.0.0" date="2020-07-14" urgency="medium">
+      <description>
+        <ul>
+          <li>Add style view</li>
+          <li>Add Online Accounts view</li>
+          <li>Remove location services view</li>
+          <li>Mention Sideload and Flathub</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.2.1" date="2020-05-28" urgency="medium">
       <description>
         <ul>

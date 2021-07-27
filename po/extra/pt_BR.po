@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2020-04-27 00:10+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -32,31 +32,47 @@ msgid "io.elementary.onboarding"
 msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
-msgid "Fix blurry icon in AppCenter"
-msgstr "Corrigir ícone embaçado no Central de Aplicativos"
+msgid "Add style view"
+msgstr ""
 
-#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:25
-#: data/onboarding.appdata.xml.in:35
+#: data/onboarding.appdata.xml.in:17
+msgid "Add Online Accounts view"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:18
+msgid "Remove location services view"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:19
+msgid "Mention Sideload and Flathub"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
+#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
 msgid "Updated translations"
 msgstr "Traduções atualizadas"
 
-#: data/onboarding.appdata.xml.in:24
+#: data/onboarding.appdata.xml.in:27
+msgid "Fix blurry icon in AppCenter"
+msgstr "Corrigir ícone embaçado no Central de Aplicativos"
+
+#: data/onboarding.appdata.xml.in:35
 msgid "New app icon"
 msgstr "Novo ícone do aplicativo"
 
-#: data/onboarding.appdata.xml.in:32
+#: data/onboarding.appdata.xml.in:43
 msgid "Navigate with (multi-)touch gestures"
 msgstr "Navegar com gestos (multi) toque"
 
-#: data/onboarding.appdata.xml.in:33
+#: data/onboarding.appdata.xml.in:44
 msgid "Use new blog URL"
 msgstr "Utilizar a nova URL do blog"
 
-#: data/onboarding.appdata.xml.in:34
+#: data/onboarding.appdata.xml.in:45
 msgid "Fix errors when pressing the Skip button"
 msgstr "Corrija erros ao pressionar o botão Ignorar"
 
-#: data/onboarding.appdata.xml.in:74
+#: data/onboarding.appdata.xml.in:85
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

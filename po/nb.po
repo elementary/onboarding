@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
-"PO-Revision-Date: 2021-06-03 15:57+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"PO-Revision-Date: 2021-07-15 00:13+0000\n"
+"Last-Translator: Nils K <slx@nilsk.net>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding/nb/>\n"
 "Language: nb\n"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Sett opp %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Hopp over alle"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Kom i gang"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Neste"
 
@@ -80,7 +80,6 @@ msgid "Major Known Issues"
 msgstr "Store kjente feil"
 
 #: src/Views/EarlyAccessView.vala:39
-#, fuzzy
 msgid "Curated apps are not available in AppCenter"
 msgstr "Gjennomgåtte programmer er ikke tilgjengelige i AppSenter"
 
@@ -138,22 +137,6 @@ msgstr "Gamle midlertidige filer"
 msgid "Trashed files"
 msgstr "Filer i papirkurven"
 
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Få et varsel når en app spør etter din plassering. Om den er slått av vil "
-"alle forespørsler bli avvist."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Plasseringstjenester"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Plasseringstjenester:"
-
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
@@ -175,7 +158,6 @@ msgid "Adjust schedule and temperature…"
 msgstr "Juster kjøreplan og temperatur …"
 
 #: src/Views/OnlineAccountsView.vala:24
-#, fuzzy
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
@@ -292,6 +274,19 @@ msgstr "Gemenskapsstøtte…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Involver deg…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Få et varsel når en app spør etter din plassering. Om den er slått av vil "
+#~ "alle forespørsler bli avvist."
+
+#~ msgid "Location Services"
+#~ msgstr "Plasseringstjenester"
+
+#~ msgid "Location Services:"
+#~ msgstr "Plasseringstjenester:"
 
 #~ msgid ""
 #~ "While Location Services are enabled, apps will be able to make requests "

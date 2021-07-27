@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
-"PO-Revision-Date: 2021-06-02 22:27+0000\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"PO-Revision-Date: 2021-06-20 22:40+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding/tr/>\n"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "%s Kurulumu"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Tümünü Atla"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Hemen Başlayın"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "İleri"
 
@@ -136,22 +136,6 @@ msgstr "Eski geçici dosyalar"
 msgid "Trashed files"
 msgstr "Çöp kutusundaki dosyalar"
 
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Bir uygulama bu cihazın yerini talep ettiğinde bir ileti alırsınız. Devre "
-"dışı bırakılırsa, tüm konum istekleri reddedilir."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Konum Hizmetleri"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Konum Hizmetleri:"
-
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
@@ -170,7 +154,7 @@ msgstr "Gece Işığı:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr "Planı ve sıcaklığı ayarlayın…"
+msgstr "Zamanlama ve renk sıcaklığını ayarlayın…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
@@ -290,6 +274,19 @@ msgstr "Topluluk Desteği…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Dahil Olun…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Bir uygulama bu cihazın yerini talep ettiğinde bir ileti alırsınız. Devre "
+#~ "dışı bırakılırsa, tüm konum istekleri reddedilir."
+
+#~ msgid "Location Services"
+#~ msgstr "Konum Hizmetleri"
+
+#~ msgid "Location Services:"
+#~ msgstr "Konum Hizmetleri:"
 
 #~ msgid ""
 #~ "While Location Services are enabled, apps will be able to make requests "

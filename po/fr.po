@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
-"PO-Revision-Date: 2021-06-04 17:24+0000\n"
-"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"PO-Revision-Date: 2021-07-26 16:42+0000\n"
+"Last-Translator: Corentin Noël <tintou@noel.tf>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
 "onboarding/fr/>\n"
 "Language: fr\n"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Configurer %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Ignorer tout"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Commencer"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Suivant"
 
@@ -141,23 +141,6 @@ msgstr "Anciens fichiers temporaires"
 msgid "Trashed files"
 msgstr "Fichiers supprimés"
 
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Recevez une notification lorsqu'une application demande l'emplacement de cet "
-"appareil. Si cette option est désactivée, toutes les demandes de "
-"localisation seront refusées."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Services de géolocalisation"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Services de géolocalisation :"
-
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
@@ -184,7 +167,7 @@ msgid ""
 "emails, events, and tasks with this device."
 msgstr ""
 "Utilisez Messagerie, Calendrier et Tâches avec un compte en ligne existant "
-"pour synchroniser vos e-mails, événements et tâches avec cet appareil."
+"pour synchroniser vos e-mails, évènements et tâches avec cet appareil."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
@@ -296,6 +279,20 @@ msgstr "Aide de la communauté…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Participer…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Recevez une notification lorsqu'une application demande l'emplacement de "
+#~ "cet appareil. Si cette option est désactivée, toutes les demandes de "
+#~ "localisation seront refusées."
+
+#~ msgid "Location Services"
+#~ msgstr "Services de géolocalisation"
+
+#~ msgid "Location Services:"
+#~ msgstr "Services de géolocalisation :"
 
 #~ msgid ""
 #~ "While Location Services are enabled, apps will be able to make requests "

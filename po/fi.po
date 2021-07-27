@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-06-04 03:31+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Määritä %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Ohita kaikki"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Aloita"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Seuraava"
 
@@ -135,22 +135,6 @@ msgstr "Vanhat väliaikaiset tiedostot"
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Roskakorissa olevat tiedostot"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Näytä ilmoitus kun sovellus pyytää lupaa käyttää tämän laitteen "
-"sijaintitietoa. Jos ei käytössä, kaikki sijaintipyynnöt estetään."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Sijaintipalvelut"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Sijaintipalvelut:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -291,6 +275,19 @@ msgstr "Yhteisön tuki…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Osallistu…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Näytä ilmoitus kun sovellus pyytää lupaa käyttää tämän laitteen "
+#~ "sijaintitietoa. Jos ei käytössä, kaikki sijaintipyynnöt estetään."
+
+#~ msgid "Location Services"
+#~ msgstr "Sijaintipalvelut"
+
+#~ msgid "Location Services:"
+#~ msgstr "Sijaintipalvelut:"
 
 #~ msgid ""
 #~ "While Location Services are enabled, apps will be able to make requests "

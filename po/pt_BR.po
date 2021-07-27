@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-02 16:44+0000\n"
-"PO-Revision-Date: 2019-12-21 13:03+0000\n"
-"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"PO-Revision-Date: 2021-07-16 10:41+0000\n"
+"Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:33
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Configurar %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:103
 msgid "Skip All"
 msgstr "Pular Todos"
 
-#: src/MainWindow.vala:120
+#: src/MainWindow.vala:113
 msgid "Get Started"
 msgstr "Iniciar"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:117
 msgid "Next"
 msgstr "Próximo"
 
@@ -54,12 +54,12 @@ msgstr "Explore o AppCenter…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:37
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
+msgstr "Você também pode carregar aplicativos Flatpak, por exemplo de %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -67,30 +67,33 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"Esta é uma versão de pré-lançamento do %s e não deve ser usada em produção. "
+"<b>Não será possível atualizar para a versão estável</b> depois dessa "
+"instalação."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "Versão de acesso antecipado"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "Problemas mais comuns"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr ""
+msgstr "Aplicativos curados não estão disponíveis no AppCenter"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "A identidade visual não está concluída"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "Algumas funcionalidades estão faltando ou incompletas"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "Mais problemas no projeto versão 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -127,30 +130,12 @@ msgid "Automatically Delete:"
 msgstr "Apagar automaticamente:"
 
 #: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
 msgid "Old temporary files"
-msgstr "Arquivos temporários"
+msgstr "Arquivos temporários antigos"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
 msgstr "Arquivos na lixeira"
-
-#: src/Views/LocationServicesView.vala:22
-msgid ""
-"Receive a prompt when an app requests this device’s location. If disabled, "
-"all location requests will be denied."
-msgstr ""
-"Receba um aviso quando um aplicativo solicitar a localização deste "
-"dispositivo. Se desativado, todas as solicitações de local serão negadas."
-
-#: src/Views/LocationServicesView.vala:24
-msgid "Location Services"
-msgstr "Serviços de Localização"
-
-#: src/Views/LocationServicesView.vala:29
-msgid "Location Services:"
-msgstr "Serviços de Localização:"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -170,83 +155,92 @@ msgstr "Luz Noturna:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Configurar data e temperatura…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Use Correio, Calendário e Tarefas com uma conta on-line existente para "
+"sincronizar e-mails, eventos e tarefas com este dispositivo."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Contas Online"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Conecte Contas Online…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Deixe do seu jeito escolhendo um estilo e uma cor predominante. As "
+"aplicações podem usar visuais próprios."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Escolha Sua Aparência"
 
 #: src/Views/StyleView.vala:122
 msgid "Default"
-msgstr ""
+msgstr "Padrão"
 
 #: src/Views/StyleView.vala:148
 msgid "Dark"
-msgstr ""
+msgstr "Noturno"
 
 #: src/Views/StyleView.vala:158
 msgid "Blueberry"
-msgstr ""
+msgstr "Blueberry"
 
 #: src/Views/StyleView.vala:161
 msgid "Mint"
-msgstr ""
+msgstr "MInt"
 
 #: src/Views/StyleView.vala:164
 msgid "Lime"
-msgstr ""
+msgstr "Lime"
 
 #: src/Views/StyleView.vala:167
 msgid "Banana"
-msgstr ""
+msgstr "Banana"
 
 #: src/Views/StyleView.vala:170
 msgid "Orange"
-msgstr ""
+msgstr "Orange"
 
 #: src/Views/StyleView.vala:173
+#, fuzzy
 msgid "Strawberry"
-msgstr ""
+msgstr "Strawberry"
 
 #: src/Views/StyleView.vala:176
+#, fuzzy
 msgid "Bubblegum"
-msgstr ""
+msgstr "Bubblegum"
 
 #: src/Views/StyleView.vala:179
+#, fuzzy
 msgid "Grape"
-msgstr ""
+msgstr "Grape"
 
 #: src/Views/StyleView.vala:182
+#, fuzzy
 msgid "Cocoa"
-msgstr ""
+msgstr "Cocoa"
 
 #: src/Views/StyleView.vala:185
+#, fuzzy
 msgid "Slate"
-msgstr ""
+msgstr "Slate"
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Automático baseado no papel de parede"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
@@ -286,6 +280,19 @@ msgstr "Suporte da Comunidade…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Envolva-se…"
+
+#~ msgid ""
+#~ "Receive a prompt when an app requests this device’s location. If "
+#~ "disabled, all location requests will be denied."
+#~ msgstr ""
+#~ "Receba um aviso quando um aplicativo solicitar a localização deste "
+#~ "dispositivo. Se desativado, todas as solicitações de local serão negadas."
+
+#~ msgid "Location Services"
+#~ msgstr "Serviços de Localização"
+
+#~ msgid "Location Services:"
+#~ msgstr "Serviços de Localização:"
 
 #~ msgid ""
 #~ "While Location Services are enabled, apps will be able to make requests "
