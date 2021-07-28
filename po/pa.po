@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the io.elementary.onboarding package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: io.elementary.onboarding\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/MainWindow.vala:32
+#, c-format
+msgid "Set up %s"
+msgstr ""
+
+#: src/MainWindow.vala:103
+msgid "Skip All"
+msgstr ""
+
+#: src/MainWindow.vala:113
+msgid "Get Started"
+msgstr ""
+
+#: src/MainWindow.vala:117
+msgid "Next"
+msgstr ""
+
+#: src/Views/AppCenterView.vala:22
+msgid ""
+"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
+"and reviewed by elementary."
+msgstr ""
+
+#: src/Views/AppCenterView.vala:24
+msgid "Get Some Apps"
+msgstr ""
+
+#: src/Views/AppCenterView.vala:29
+msgid "Browse AppCenter…"
+msgstr ""
+
+#: src/Views/AppCenterView.vala:35
+msgid "Flathub"
+msgstr ""
+
+#: src/Views/AppCenterView.vala:37
+#, c-format
+msgid "You can also sideload Flatpak apps e.g. from %s"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:25
+#, c-format
+msgid ""
+"This pre-release version of %s should not be used in production. <b>It will "
+"not be possible to upgrade to the stable release</b> from this installation."
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:28
+msgid "Early Access Build"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:33
+msgid "Major Known Issues"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:39
+msgid "Curated apps are not available in AppCenter"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:47
+msgid "The visual style is unfinished"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:55
+msgid "Some features are missing or incomplete"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:75
+msgid "More issues on the 6.0 Release Project…"
+msgstr ""
+
+#: src/Views/FinishView.vala:22
+#, c-format
+msgid ""
+"Enjoy using %s! You can always visit System Settings to set up hardware or "
+"change your preferences."
+msgstr ""
+
+#: src/Views/FinishView.vala:24
+msgid "Ready to Go"
+msgstr ""
+
+#: src/Views/FinishView.vala:29
+msgid "Open System Settings…"
+msgstr ""
+
+#: src/Views/HouseKeepingView.vala:23
+msgid "Housekeeping"
+msgstr ""
+
+#: src/Views/HouseKeepingView.vala:30
+#, c-format
+msgid ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr ""
+
+#: src/Views/HouseKeepingView.vala:32
+msgid "Automatically Delete:"
+msgstr ""
+
+#: src/Views/HouseKeepingView.vala:34
+msgid "Old temporary files"
+msgstr ""
+
+#: src/Views/HouseKeepingView.vala:37
+msgid "Trashed files"
+msgstr ""
+
+#: src/Views/NightLightView.vala:22
+msgid ""
+"Make the colors of your display warmer at night to help prevent eye strain "
+"and sleeplessness."
+msgstr ""
+
+#: src/Views/NightLightView.vala:24
+msgid "Night Light"
+msgstr ""
+
+#: src/Views/NightLightView.vala:29
+msgid "Night Light:"
+msgstr ""
+
+#: src/Views/NightLightView.vala:37
+msgid "Adjust schedule and temperature…"
+msgstr ""
+
+#: src/Views/OnlineAccountsView.vala:24
+msgid ""
+"Use Mail, Calendar, and Tasks with an existing online account to sync "
+"emails, events, and tasks with this device."
+msgstr ""
+
+#: src/Views/OnlineAccountsView.vala:26
+msgid "Online Accounts"
+msgstr ""
+
+#: src/Views/OnlineAccountsView.vala:31
+msgid "Connect Online Accounts…"
+msgstr ""
+
+#: src/Views/StyleView.vala:69
+msgid ""
+"Make it your own by choosing a visual style and accent color. Apps may "
+"override these with their own look."
+msgstr ""
+
+#: src/Views/StyleView.vala:71
+msgid "Choose Your Look"
+msgstr ""
+
+#: src/Views/StyleView.vala:122
+msgid "Default"
+msgstr ""
+
+#: src/Views/StyleView.vala:148
+msgid "Dark"
+msgstr ""
+
+#: src/Views/StyleView.vala:158
+msgid "Blueberry"
+msgstr ""
+
+#: src/Views/StyleView.vala:161
+msgid "Mint"
+msgstr ""
+
+#: src/Views/StyleView.vala:164
+msgid "Lime"
+msgstr ""
+
+#: src/Views/StyleView.vala:167
+msgid "Banana"
+msgstr ""
+
+#: src/Views/StyleView.vala:170
+msgid "Orange"
+msgstr ""
+
+#: src/Views/StyleView.vala:173
+msgid "Strawberry"
+msgstr ""
+
+#: src/Views/StyleView.vala:176
+msgid "Bubblegum"
+msgstr ""
+
+#: src/Views/StyleView.vala:179
+msgid "Grape"
+msgstr ""
+
+#: src/Views/StyleView.vala:182
+msgid "Cocoa"
+msgstr ""
+
+#: src/Views/StyleView.vala:185
+msgid "Slate"
+msgstr ""
+
+#: src/Views/StyleView.vala:188
+msgid "Automatic based on wallpaper"
+msgstr ""
+
+#: src/Views/UpdateView.vala:22
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+
+#: src/Views/UpdateView.vala:25
+msgid "What’s New"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:22
+#, c-format
+msgid ""
+"Continue to set up some useful features. Visit the links below for more "
+"information about %s."
+msgstr ""
+
+#: src/Views/WelcomeView.vala:24
+#, c-format
+msgid "Welcome to %s!"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:31
+msgid "Basics Guide…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:37
+msgid "Community Support…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:43
+msgid "Get Involved…"
+msgstr ""
