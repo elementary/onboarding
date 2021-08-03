@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-07-28 09:15+0000\n"
+"PO-Revision-Date: 2021-08-02 02:45+0000\n"
 "Last-Translator: elSolus <tumbleweed@tuta.io>\n"
 "Language-Team: Punjabi <https://l10n.elementary.io/projects/installer/"
 "onboarding/pa/>\n"
@@ -22,37 +22,39 @@ msgstr ""
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "%s ਨੂੰ ਸੈੱਟ ਕਰੋ"
 
 #: src/MainWindow.vala:103
 msgid "Skip All"
-msgstr ""
+msgstr "ਸਾਰੇ ਛੱਡੋ"
 
 #: src/MainWindow.vala:113
 msgid "Get Started"
-msgstr ""
+msgstr "ਸਫ਼ਰ ਸ਼ੁਰੂ ਕਰੋ"
 
 #: src/MainWindow.vala:117
 msgid "Next"
-msgstr ""
+msgstr "ਅਗਲਾ"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"ਆਪਣੀਆਂ ਲੋੜੀਂਦੀਆਂ ਐਪਾਂ ਆਪ-ਸੈਂਟਰ ਤੋਂ ਲਓ। ਸੰਵਾਰੀਆਂ ਹੋਈਆਂ ਐਪਾਂ ਐਲੀਮੈਂਟਰੀ ਓਐੱਸ ਲਈ "
+"ਬਣਾਈਆਂ ਗਈਆਂ ਹਨ ਅਤੇ ਐਲੀਮੈਂਟਰੀ ਨੇ ਉਹਨਾਂ ਦਾ ਮੁਆਇਨਾ ਵੀ ਕੀਤਾ ਹੋਇਐ।"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "ਕੁਝ ਐਪਾਂ ਲਓ"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "ਐਪ-ਸੈਂਟਰ ਫਰੋਲੋ…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "ਫ਼ਲੈਟਹੱਬ"
 
 #: src/Views/AppCenterView.vala:37
 #, c-format
