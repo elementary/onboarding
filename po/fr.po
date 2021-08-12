@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-07-26 16:42+0000\n"
-"Last-Translator: Corentin Noël <tintou@noel.tf>\n"
+"PO-Revision-Date: 2021-08-12 08:57+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
 "onboarding/fr/>\n"
 "Language: fr\n"
@@ -51,7 +51,7 @@ msgstr "Obtenez des applications"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr "Parcourir le centre d'applications…"
+msgstr "Parcourir le Centre d'Applications…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
@@ -61,7 +61,7 @@ msgstr "Flathub"
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
 msgstr ""
-"Vous pouvez également charger des applications Flatpak par ex. depuis %s"
+"Vous pouvez également installer des applications Flatpak par ex. depuis %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -105,7 +105,7 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"Profitez de %s ! Vous pouvez ouvrir les paramètres système pour configurer "
+"Profitez d'%s ! Vous pouvez ouvrir les paramètres du système pour configurer "
 "le matériel ou modifier vos préférences."
 
 #: src/Views/FinishView.vala:24
@@ -114,7 +114,7 @@ msgstr "Vous êtes fin prêt"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr "Ouvrir les paramètres système…"
+msgstr "Ouvrir les paramètres du système…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
@@ -159,7 +159,7 @@ msgstr "Mode nuit :"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr "Ajustez l'horaire et la température…"
+msgstr "Ajuster les horaires et la température…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
@@ -278,7 +278,7 @@ msgstr "Aide de la communauté…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr "Participer…"
+msgstr "Contribuer…"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "
