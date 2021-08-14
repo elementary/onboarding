@@ -71,6 +71,11 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         var housekeeping_view = new HouseKeepingView ();
         carousel.add (housekeeping_view);
 
+        if (!NetworkMonitor.get_default ().get_network_available ()) {
+            var network_view = new NetworkView ();
+            carousel.add (network_view);
+        }
+
         var onlineaccounts_view = new OnlineAccountsView ();
         carousel.add (onlineaccounts_view);
 
