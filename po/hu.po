@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-08-26 11:44+0000\n"
-"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
+"PO-Revision-Date: 2021-08-26 11:45+0000\n"
+"Last-Translator: Dananay <Pr1m3l1ght@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
 "Language: hu\n"
@@ -189,47 +189,47 @@ msgstr "Alapbeállítás"
 
 #: src/Views/StyleView.vala:148
 msgid "Dark"
-msgstr ""
+msgstr "Sötét"
 
 #: src/Views/StyleView.vala:158
 msgid "Blueberry"
-msgstr ""
+msgstr "Áfonya"
 
 #: src/Views/StyleView.vala:161
 msgid "Mint"
-msgstr ""
+msgstr "Menta"
 
 #: src/Views/StyleView.vala:164
 msgid "Lime"
-msgstr ""
+msgstr "Lime"
 
 #: src/Views/StyleView.vala:167
 msgid "Banana"
-msgstr ""
+msgstr "Banán"
 
 #: src/Views/StyleView.vala:170
 msgid "Orange"
-msgstr ""
+msgstr "Narancs"
 
 #: src/Views/StyleView.vala:173
 msgid "Strawberry"
-msgstr ""
+msgstr "Eper"
 
 #: src/Views/StyleView.vala:176
 msgid "Bubblegum"
-msgstr ""
+msgstr "Rágógumi"
 
 #: src/Views/StyleView.vala:179
 msgid "Grape"
-msgstr ""
+msgstr "Szőlő"
 
 #: src/Views/StyleView.vala:182
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakaó"
 
 #: src/Views/StyleView.vala:185
 msgid "Slate"
-msgstr ""
+msgstr "Palakő"
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
