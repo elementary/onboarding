@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-08-26 10:10+0000\n"
-"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
+"PO-Revision-Date: 2021-08-26 10:11+0000\n"
+"Last-Translator: Dananay <Pr1m3l1ght@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
 "Language: hu\n"
@@ -85,15 +85,15 @@ msgstr "Minősített alkalmazások nem érhetők el az AppCenterben"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "A vizuális kialakítás még nem végleges"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "Egyes funkciók hiányoznak vagy befejezetlenek"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "További problémák a 6.0 kiadás projektben…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -101,6 +101,8 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Használd élvezettel a %s-t! Bármikor beléphetsz a Rendszer beállításokba a "
+"hardverek vagy egyéb személyes beállítások eléréséhez."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
