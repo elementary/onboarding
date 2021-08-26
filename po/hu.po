@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-08-26 10:07+0000\n"
-"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
+"Last-Translator: Dananay <Pr1m3l1ght@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
 "Language: hu\n"
@@ -30,7 +30,7 @@ msgstr "Mindegyik átugrása"
 
 #: src/MainWindow.vala:113
 msgid "Get Started"
-msgstr ""
+msgstr "Indulás"
 
 #: src/MainWindow.vala:117
 msgid "Next"
