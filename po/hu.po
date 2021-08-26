@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-08-26 10:12+0000\n"
-"Last-Translator: zoli111 <acszoltan111@gmail.com>\n"
+"Last-Translator: Dananay <Pr1m3l1ght@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
 "Language: hu\n"
@@ -122,6 +122,8 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
+"A régi fájlok automatikusan törölhetők %u nap után helymegtakarítási és "
+"adatvédelmi célból."
 
 #: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
@@ -129,7 +131,7 @@ msgstr "Automatikus törlés:"
 
 #: src/Views/HouseKeepingView.vala:34
 msgid "Old temporary files"
-msgstr ""
+msgstr "Régi ideiglenes fájlok"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
