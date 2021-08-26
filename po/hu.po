@@ -26,7 +26,7 @@ msgstr "% beállítása"
 
 #: src/MainWindow.vala:103
 msgid "Skip All"
-msgstr ""
+msgstr "Mindegyik átugrása"
 
 #: src/MainWindow.vala:113
 msgid "Get Started"
