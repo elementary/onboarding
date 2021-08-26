@@ -147,7 +147,7 @@ msgstr ""
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Éjszakai színek"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
