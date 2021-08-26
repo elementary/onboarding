@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-08-26 11:45+0000\n"
-"Last-Translator: Dananay <Pr1m3l1ght@gmail.com>\n"
+"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
 "Language: hu\n"
@@ -185,7 +185,7 @@ msgstr "Válasszon kinézetet"
 
 #: src/Views/StyleView.vala:122
 msgid "Default"
-msgstr "Alapbeállítás"
+msgstr "Alapértelmezett"
 
 #: src/Views/StyleView.vala:148
 msgid "Dark"
