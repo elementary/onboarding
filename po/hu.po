@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-08-26 11:48+0000\n"
+"PO-Revision-Date: 2021-08-26 12:08+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Szerezzen be alkalmazásokat"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
@@ -55,12 +55,12 @@ msgstr "Az Appközpont böngészése…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:37
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
+msgstr "Telepíthet Flatpak alkalmazásokat máshonnan is, pl.: %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -162,14 +162,16 @@ msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Használja az E-mailt, Naptárat, Feladatokat egy létező online fiókkal az e-"
+"mailek, események, feladatok szinkronizáláshoz a készülékre."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Online fiókok"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Csatlakozás online fiókokhoz…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
