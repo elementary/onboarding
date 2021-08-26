@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-08-26 10:11+0000\n"
-"Last-Translator: Dananay <Pr1m3l1ght@gmail.com>\n"
+"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
 "Language: hu\n"
@@ -81,7 +81,7 @@ msgstr "Nagyobb ismert hibák"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr "Minősített alkalmazások nem érhetők el az AppCenterben"
+msgstr "A jóváhagyott alkalmazások nem érhetők el az Appközpontban"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
