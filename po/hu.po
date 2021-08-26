@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-08-26 11:47+0000\n"
-"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
+"PO-Revision-Date: 2021-08-26 11:48+0000\n"
+"Last-Translator: Dananay <Pr1m3l1ght@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
 "Language: hu\n"
@@ -263,7 +263,7 @@ msgstr "Üdvözli a(z) %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr "Alap útmutató…"
+msgstr "Bevezetés…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
@@ -271,4 +271,4 @@ msgstr ""
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "Vegyél részt…"
