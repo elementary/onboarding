@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-08-26 10:12+0000\n"
-"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
+"Last-Translator: zoli111 <acszoltan111@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
 "Language: hu\n"
@@ -125,7 +125,7 @@ msgstr ""
 
 #: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Automatikus törlés:"
 
 #: src/Views/HouseKeepingView.vala:34
 msgid "Old temporary files"
@@ -133,13 +133,15 @@ msgstr ""
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr ""
+msgstr "Kukába helyezett fájlok"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Melegebb színeket használ a képernyője éjszaka, hogy elkerülje szeme "
+"elfáradását és az álmatlanságot."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
