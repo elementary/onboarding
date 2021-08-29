@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-08-29 14:34+0000\n"
-"Last-Translator: janko mrkvicka <6aby74rto@relay.firefox.com>\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/sk/>\n"
 "Language: sk\n"
@@ -25,7 +25,7 @@ msgstr "Vitajte"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
-msgstr "Zmeniť bežné nastavenia pri spustení"
+msgstr "Zmeňte bežné nastavenia pri prvom spustení"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "io.elementary.onboarding"
@@ -33,19 +33,19 @@ msgstr ""
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Add style view"
-msgstr ""
+msgstr "Pridané zobrazenie štýlov"
 
 #: data/onboarding.appdata.xml.in:17
 msgid "Add Online Accounts view"
-msgstr ""
+msgstr "Pridané zobrazenie Online účtov"
 
 #: data/onboarding.appdata.xml.in:18
 msgid "Remove location services view"
-msgstr ""
+msgstr "Odstránené zobrazenie Služby určovania polohy"
 
 #: data/onboarding.appdata.xml.in:19
 msgid "Mention Sideload and Flathub"
-msgstr ""
+msgstr "Spomenutie inštalácie aplikácií z iných zdrojov a Flathubu"
 
 #: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
 #: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
