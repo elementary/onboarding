@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-08-29 14:20+0000\n"
+"PO-Revision-Date: 2021-08-29 15:18+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
 "onboarding/sk/>\n"
@@ -226,25 +226,28 @@ msgstr "Hrozno"
 
 #: src/Views/StyleView.vala:182
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakao"
 
 #: src/Views/StyleView.vala:185
 msgid "Slate"
-msgstr ""
+msgstr "Bridlica"
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Automatický podľa tapety"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
+"Pokračujte nastavením nových užitočných funkcií. Podrobnejšie informácie o "
+"aktualizáciách nájdete na <a href='https://blog.elementary.io'>našom "
+"blogu</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr ""
+msgstr "Čo je nové"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -252,20 +255,22 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Pokračujte nastavením niektorých užitočných funkcií. Kliknutím na odkazy "
+"nižšie sa dozviete viac informácií o %s."
 
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "Vitajte v %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Sprievodca základmi…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr ""
+msgstr "Komunitná podpora…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "Zapojte sa…"
