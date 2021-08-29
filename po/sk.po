@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-08-29 14:13+0000\n"
-"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
+"Last-Translator: janko mrkvicka <6aby74rto@relay.firefox.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
 "onboarding/sk/>\n"
 "Language: sk\n"
@@ -22,11 +22,11 @@ msgstr ""
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "Nastaviť %"
 
 #: src/MainWindow.vala:103
 msgid "Skip All"
-msgstr ""
+msgstr "Preskočiť všetko"
 
 #: src/MainWindow.vala:113
 msgid "Get Started"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Získať aplikácie"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
