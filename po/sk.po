@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-08-29 14:13+0000\n"
-"Last-Translator: janko mrkvicka <6aby74rto@relay.firefox.com>\n"
+"PO-Revision-Date: 2021-08-29 14:20+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
 "onboarding/sk/>\n"
 "Language: sk\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr "Nastaviť %"
+msgstr "Nastaviť %s"
 
 #: src/MainWindow.vala:103
 msgid "Skip All"
@@ -154,71 +154,75 @@ msgstr "Nočné svetlo:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Upraviť rozvrh a teplotu…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Použite Poštu, Kalendár a Úlohy s existujúcim online účtom na synchronizáciu "
+"e-mailov, udalostí a úloh s týmto zariadením."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Online účty"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Pripojiť online účty…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Prispôsobte si systém zvolením vizuálneho štýlu a farebného odtieňa. "
+"Aplikácie môžu tieto nastavenia prepísať svojím vlastným vzhľadom."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Vyberte si vzhľad"
 
 #: src/Views/StyleView.vala:122
 msgid "Default"
-msgstr "Predvolené"
+msgstr "Predvolený"
 
 #: src/Views/StyleView.vala:148
 msgid "Dark"
-msgstr ""
+msgstr "Tmavý"
 
 #: src/Views/StyleView.vala:158
 msgid "Blueberry"
-msgstr ""
+msgstr "Čučoriedka"
 
 #: src/Views/StyleView.vala:161
 msgid "Mint"
-msgstr ""
+msgstr "Mäta"
 
 #: src/Views/StyleView.vala:164
 msgid "Lime"
-msgstr ""
+msgstr "Limetka"
 
 #: src/Views/StyleView.vala:167
 msgid "Banana"
-msgstr ""
+msgstr "Banán"
 
 #: src/Views/StyleView.vala:170
 msgid "Orange"
-msgstr ""
+msgstr "Pomaranč"
 
 #: src/Views/StyleView.vala:173
 msgid "Strawberry"
-msgstr ""
+msgstr "Jahoda"
 
 #: src/Views/StyleView.vala:176
 msgid "Bubblegum"
-msgstr ""
+msgstr "Žuvačka"
 
 #: src/Views/StyleView.vala:179
 msgid "Grape"
-msgstr ""
+msgstr "Hrozno"
 
 #: src/Views/StyleView.vala:182
 msgid "Cocoa"
