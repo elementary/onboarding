@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-08-29 14:34+0000\n"
+"PO-Revision-Date: 2021-08-29 15:18+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/sk/>\n"
@@ -58,19 +58,19 @@ msgstr "Opravená rozmazaná ikonka v AppCentre"
 
 #: data/onboarding.appdata.xml.in:35
 msgid "New app icon"
-msgstr "Nová ikona aplikácie"
+msgstr "Nová ikonka aplikácie"
 
 #: data/onboarding.appdata.xml.in:43
 msgid "Navigate with (multi-)touch gestures"
-msgstr ""
+msgstr "Ovládanie pomocou (multi)dotykových gest"
 
 #: data/onboarding.appdata.xml.in:44
 msgid "Use new blog URL"
-msgstr ""
+msgstr "Použitá nová URL adresa blogu"
 
 #: data/onboarding.appdata.xml.in:45
 msgid "Fix errors when pressing the Skip button"
-msgstr ""
+msgstr "Opravené chyby pri stlačení tlačidla Preskočiť"
 
 #: data/onboarding.appdata.xml.in:85
 msgid "elementary, Inc."
