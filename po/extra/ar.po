@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-08-27 17:59+0000\n"
+"PO-Revision-Date: 2021-08-31 11:36+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ar/>\n"
@@ -71,7 +71,7 @@ msgstr "استخدام رابط المدونة الجديد"
 
 #: data/onboarding.appdata.xml.in:45
 msgid "Fix errors when pressing the Skip button"
-msgstr "إصلاح بعض المشاكل عند الضغط على زر \"تخط\""
+msgstr "إصلاح بعض المشاكل عند الضغط على زر \"تخط الكل\""
 
 #: data/onboarding.appdata.xml.in:85
 msgid "elementary, Inc."
