@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-06-03 09:11+0000\n"
+"PO-Revision-Date: 2021-08-09 14:40+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -101,9 +101,7 @@ msgstr "リリースプロジェクトのほかの不具合を確認…"
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
-msgstr ""
-"どうぞ %s をご利用ください！　\"システム設定\" を開くと、ハードウェアをセット"
-"アップしたり、設定を変更したりできます。"
+msgstr "どうぞ %s をご利用ください！　“システム設定”を開くと、ハードウェアをセットアップしたり、設定を変更したりできます。"
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
@@ -111,7 +109,7 @@ msgstr "準備が完了しました"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr "\"システム設定\" を開く…"
+msgstr "“システム設定”を開く…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
@@ -162,9 +160,7 @@ msgstr "スケジュールと色温度を調節…"
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
-msgstr ""
-"“メール” や “カレンダー”、“タスク” アプリに既存のオンラインアカウントを接続し"
-"て、メールや予定、タスクをこのデバイスと同期しましょう。"
+msgstr "“メール”や“カレンダー”、“タスク”アプリに既存のオンラインアカウントを接続して、メールや予定、タスクをこのデバイスと同期しましょう。"
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"

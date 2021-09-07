@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2019-09-16 16:23+0000\n"
+"PO-Revision-Date: 2021-08-04 11:28+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -50,7 +50,7 @@ msgstr ""
 #: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
 #: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
 msgid "Updated translations"
-msgstr ""
+msgstr "Päivitetyt kielikäännökset"
 
 #: data/onboarding.appdata.xml.in:27
 msgid "Fix blurry icon in AppCenter"

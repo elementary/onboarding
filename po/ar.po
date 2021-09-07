@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2020-05-16 03:10+0000\n"
-"Last-Translator: nasserbinlaboun <nasser1990com@gmail.com>\n"
+"PO-Revision-Date: 2021-08-27 17:59+0000\n"
+"Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/installer/"
 "onboarding/ar/>\n"
 "Language: ar\n"
@@ -18,20 +18,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr "تثبيت اولي %s"
+msgstr "قم بإعداد %s"
 
 #: src/MainWindow.vala:103
 msgid "Skip All"
-msgstr "تخطى الكل"
+msgstr "تخط الكل"
 
 #: src/MainWindow.vala:113
 msgid "Get Started"
-msgstr "إبدأ"
+msgstr "ابدأ"
 
 #: src/MainWindow.vala:117
 msgid "Next"
@@ -42,25 +42,25 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"احصل على التطبيقات التي تريد من مركز التطبيقات. تطبيقات تم صنعها من اجل "
-"المنتر او اس و تم مراجعتها من المنتري."
+"احصل على التطبيقات التي تريد من آب سنتر. التطبيقات المختارة تم صنعها خصيصاً "
+"ل elementary OS و تمت مراجعتها من قبل elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr "احصل على بعض من التطبيقات"
+msgstr "احصل على بعض التطبيقات"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr "تصفح مركز التطبيقات…"
+msgstr "تصفح آب سنتر…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:37
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
+msgstr "بإمكانك أيضاً تحميل تطبيقات Flatpak بشكل متوازي، على سبيل مثال من %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -68,30 +68,32 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"هذه نسخة ما قبل الإصدار من %s لا ينبغي أن تستعمل للأغراض الجدية. <b>لن تكون "
+"هناك إمكانية لترقيته للإصدار المستقر.</b>"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "نسخة وصول مبكر"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "المشاكل الرئيسية المعروفة"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr ""
+msgstr "التطبيقات المختارة لن تكون متوفرة في آب سنتر"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "التصميم المرئي غير مكتمل"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "بعض الميزات غير متوفرة أو غير مكتملة"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "مزيد من المشاكل على مشروع إصدار نظام 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -99,20 +101,20 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"استمتع بإستخدام %s! بإمكناك دائما زيارة اعدادات النظام لتهئية العتاد أو "
-"لتغيير الاعدادات."
+"استمتع باستخدام %s! يمكنك دائما زيارة إعدادات النظام لتهيئة العتاد أو تغيير "
+"تفضيلاتك."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr "جاهز للتقدم"
+msgstr "جاهز للبدء"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr "افتح اعدادات النظام…"
+msgstr "افتح إعدادات النظام…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr "تنظيف القرص بشكل دوري (housekeeping)"
+msgstr "التنظيف"
 
 #: src/Views/HouseKeepingView.vala:30
 #, c-format
@@ -120,28 +122,26 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
-"الملفات القديمة تحذف تلقائيًا بعد %u يوم لتوفير مساحة والمساعدة في حماية "
-"خصوصيتك."
+"يمكن حذف الملفات القديمة تلقائياً بعد عدد محدد من الأيام لتوفير مساحة "
+"التخزين والمساعدة في حماية خصوصيتك."
 
 #: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
-msgstr "حذف تلقائي:"
+msgstr "احذف تلقائياً:"
 
 #: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
 msgid "Old temporary files"
-msgstr "ملفات مؤقتة"
+msgstr "الملفات المؤقتة القديمة"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr "ملفات المهملات"
+msgstr "ملفات سلة المهملات"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
-msgstr "اجعل ألوان الشاشة أكثر دفئا في الليل لحماية العين وتجنب الأرق."
+msgstr "اجعل ألوان الشاشة أكثر دفئاً في الليل لحماية العين وتجنب الأرق."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
@@ -153,95 +153,99 @@ msgstr "الضوء الليلي:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "اضبط الموعد الزمني والحرارة…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"استخدم البريد، والتقويم، والمهام مع خدمة إلكترونية خاصة بك موجودة مسبقاً "
+"لمزامنة البريد الإلكتروني، والأحداث، والمهام مع هذا الجهاز."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "الحسابات الإلكترونية"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "اتصل بالحسابات الإلكترونية…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"اجعل النظام يعبر عنك باختيار تصميم مرئي ولون مفضل. قد تقوم بعض التطبيقات "
+"باستبدال هذه الإعدادات بمنظرها الخاص."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
-msgstr ""
+msgstr "اختر مظهرك"
 
 #: src/Views/StyleView.vala:122
 msgid "Default"
-msgstr ""
+msgstr "الافتراضي"
 
 #: src/Views/StyleView.vala:148
 msgid "Dark"
-msgstr ""
+msgstr "مظلم"
 
 #: src/Views/StyleView.vala:158
 msgid "Blueberry"
-msgstr ""
+msgstr "توت أزرق"
 
 #: src/Views/StyleView.vala:161
 msgid "Mint"
-msgstr ""
+msgstr "نعناع"
 
 #: src/Views/StyleView.vala:164
 msgid "Lime"
-msgstr ""
+msgstr "حامض الليمون"
 
 #: src/Views/StyleView.vala:167
 msgid "Banana"
-msgstr ""
+msgstr "موز"
 
 #: src/Views/StyleView.vala:170
 msgid "Orange"
-msgstr ""
+msgstr "برتقال"
 
 #: src/Views/StyleView.vala:173
 msgid "Strawberry"
-msgstr ""
+msgstr "فراولة"
 
 #: src/Views/StyleView.vala:176
 msgid "Bubblegum"
-msgstr ""
+msgstr "علكة"
 
 #: src/Views/StyleView.vala:179
 msgid "Grape"
-msgstr ""
+msgstr "عنب"
 
 #: src/Views/StyleView.vala:182
 msgid "Cocoa"
-msgstr ""
+msgstr "كاكاو"
 
 #: src/Views/StyleView.vala:185
 msgid "Slate"
-msgstr ""
+msgstr "أردواز"
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "تلقائياً اعتماداً على صورة الخلفية"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
-"اكمال تجهيز بعض المميزات المفيدة، لتفاصيل اضافية عن التحديثات اذهب الى <a "
-"href='https://blog.elementary.io'> مدونتنا</a>."
+"أكمل إعداد بعض الميزات المفيدة الأخرى. لمزيد من المعلومات حول التحديثات، "
+"اطلع على <a href='https://blog.elementary.io'>مدونتنا</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr "ما الجديد"
+msgstr "ما هو الجديد"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -249,24 +253,25 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
-"اكمل تجهيز بعض الميزات المفيدة، زر المواقع في الأسفل للمزيد من المعلومات %s."
+"أكمل إعداد بعض الميزات المفيدة الأخرى. قم بزيارة الروابط أدناه لمزيد من "
+"المعلومات عن %s."
 
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr "مرحبا بك إلى %s!"
+msgstr "مرحباً بك إلى %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr "تعليمات بسيطة…"
+msgstr "دليل الأساسيات…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr "دعم من المجتمع…"
+msgstr "دعم المجتمع…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr "كن مشاركا…"
+msgstr "شارك معنا…"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

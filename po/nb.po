@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-07-15 00:13+0000\n"
-"Last-Translator: Nils K <slx@nilsk.net>\n"
+"PO-Revision-Date: 2021-08-05 01:05+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding/nb/>\n"
 "Language: nb\n"
@@ -30,7 +30,7 @@ msgstr "Hopp over alle"
 
 #: src/MainWindow.vala:113
 msgid "Get Started"
-msgstr "Kom i gang"
+msgstr "Begynn"
 
 #: src/MainWindow.vala:117
 msgid "Next"
@@ -101,8 +101,8 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"Kos deg med %s. Du kan alltid gå til systeminnstillingene og sette opp "
-"maskinvare eller endre dine innstillinger."
+"Kos deg med %s. Du kan alltid gå til systeminnstillingene for å sette opp "
+"maskinvare eller endre innstillingene dine."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"

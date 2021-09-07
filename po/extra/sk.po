@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2019-09-07 18:23+0000\n"
-"Last-Translator: Daniel Foré <daniel@elementary.io>\n"
+"PO-Revision-Date: 2021-08-29 15:18+0000\n"
+"Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/sk/>\n"
 "Language: sk\n"
@@ -17,15 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.7.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
-msgstr ""
+msgstr "Vitajte"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
-msgstr ""
+msgstr "Zmeňte bežné nastavenia pri prvom spustení"
 
 #: data/io.elementary.onboarding.desktop.in:6
 msgid "io.elementary.onboarding"
@@ -33,48 +33,48 @@ msgstr ""
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Add style view"
-msgstr ""
+msgstr "Pridané zobrazenie štýlov"
 
 #: data/onboarding.appdata.xml.in:17
 msgid "Add Online Accounts view"
-msgstr ""
+msgstr "Pridané zobrazenie Online účtov"
 
 #: data/onboarding.appdata.xml.in:18
 msgid "Remove location services view"
-msgstr ""
+msgstr "Odstránené zobrazenie Služby určovania polohy"
 
 #: data/onboarding.appdata.xml.in:19
 msgid "Mention Sideload and Flathub"
-msgstr ""
+msgstr "Spomenutie inštalácie aplikácií z iných zdrojov a Flathubu"
 
 #: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
 #: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
 msgid "Updated translations"
-msgstr ""
+msgstr "Aktualizované preklady"
 
 #: data/onboarding.appdata.xml.in:27
 msgid "Fix blurry icon in AppCenter"
-msgstr ""
+msgstr "Opravená rozmazaná ikonka v AppCentre"
 
 #: data/onboarding.appdata.xml.in:35
 msgid "New app icon"
-msgstr ""
+msgstr "Nová ikonka aplikácie"
 
 #: data/onboarding.appdata.xml.in:43
 msgid "Navigate with (multi-)touch gestures"
-msgstr ""
+msgstr "Ovládanie pomocou (multi)dotykových gest"
 
 #: data/onboarding.appdata.xml.in:44
 msgid "Use new blog URL"
-msgstr ""
+msgstr "Použitá nová URL adresa blogu"
 
 #: data/onboarding.appdata.xml.in:45
 msgid "Fix errors when pressing the Skip button"
-msgstr ""
+msgstr "Opravené chyby pri stlačení tlačidla Preskočiť"
 
 #: data/onboarding.appdata.xml.in:85
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #~ msgid "system-os-installer"
 #~ msgstr "system-os-installer"

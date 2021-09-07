@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-06-20 22:40+0000\n"
+"PO-Revision-Date: 2021-08-13 21:11+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding/tr/>\n"
@@ -41,7 +41,7 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"İhtiyacınız olan uygulamaları Uygulama Merkezinden edinin. Bazı Uygulamalar "
+"İhtiyacınız olan uygulamaları Uygulama Merkezinden edinin. Bazı uygulamalar "
 "elementary OS için yapılmış ve elementary tarafından gözden geçirilmiştir."
 
 #: src/Views/AppCenterView.vala:24
@@ -256,7 +256,7 @@ msgid ""
 "information about %s."
 msgstr ""
 "Bazı kullanışlı özellikleri ayarlamak için devam edin. %s hakkında daha "
-"fazla bilgi için aşağıdaki bağlantıları ziyaret edin."
+"fazla bilgi almak için aşağıdaki bağlantıları ziyaret edin."
 
 #: src/Views/WelcomeView.vala:24
 #, c-format
