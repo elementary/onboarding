@@ -8,48 +8,52 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-10-05 13:59+0000\n"
+"Last-Translator: Tommy Chiang <ty1208chiang@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
+"installer/onboarding/zh_Hant/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "設定 %s"
 
 #: src/MainWindow.vala:103
 msgid "Skip All"
-msgstr ""
+msgstr "全部略過"
 
 #: src/MainWindow.vala:113
 msgid "Get Started"
-msgstr ""
+msgstr "開始"
 
 #: src/MainWindow.vala:117
 msgid "Next"
-msgstr ""
+msgstr "繼續"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
+"在 AppCenter 上獲得您需要的應用程式。精選的應用程式是專為 elementary OS 製作的，並已由 elementary 團隊審查過。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "取得應用程式"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "瀏覽 AppCenter…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:37
 #, c-format
@@ -69,11 +73,11 @@ msgstr ""
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "主要已知問題"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr ""
+msgstr "無法於 AppCenter 取得精選應用程式"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
@@ -169,7 +173,7 @@ msgstr ""
 
 #: src/Views/StyleView.vala:122
 msgid "Default"
-msgstr ""
+msgstr "預設"
 
 #: src/Views/StyleView.vala:148
 msgid "Dark"
