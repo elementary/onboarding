@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
 "PO-Revision-Date: 2021-10-30 15:16+0000\n"
-"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
+"Last-Translator: DarkKnightComes <darkknightcomes@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
 "Language: pl\n"
@@ -130,10 +130,8 @@ msgid "Automatically Delete:"
 msgstr "Automatycznie usuń:"
 
 #: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
 msgid "Old temporary files"
-msgstr "Pliki tymczasowe"
+msgstr "Stare pliki tymczasowe"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
@@ -157,89 +155,96 @@ msgstr "Światło nocne:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Dostosuj harmonogram i temperaturę…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Używaj Poczty, Kalendarza i Zadań z istniejącym kontem online, aby "
+"synchronizować maile, zdarzenia i zadania z tym urządzeniem."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Konta online"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Połącz konta online…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Dostosuj go do siebie, wybierając styl wizualny i kolor akcentowy. Aplikacje "
+"mogą je nadpisywać swoim wyglądem."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Wybierz swój wygląd"
 
 #: src/Views/StyleView.vala:122
 msgid "Default"
-msgstr ""
+msgstr "Domyślny"
 
 #: src/Views/StyleView.vala:148
 msgid "Dark"
-msgstr ""
+msgstr "Ciemny"
 
 #: src/Views/StyleView.vala:158
 msgid "Blueberry"
-msgstr ""
+msgstr "Jagoda"
 
 #: src/Views/StyleView.vala:161
 msgid "Mint"
-msgstr ""
+msgstr "Mięta"
 
 #: src/Views/StyleView.vala:164
 msgid "Lime"
-msgstr ""
+msgstr "Limonka"
 
 #: src/Views/StyleView.vala:167
 msgid "Banana"
-msgstr ""
+msgstr "Banan"
 
 #: src/Views/StyleView.vala:170
 msgid "Orange"
-msgstr ""
+msgstr "Pomarańcza"
 
 #: src/Views/StyleView.vala:173
 msgid "Strawberry"
-msgstr ""
+msgstr "Truskawka"
 
 #: src/Views/StyleView.vala:176
 msgid "Bubblegum"
-msgstr ""
+msgstr "Guma balonowa"
 
 #: src/Views/StyleView.vala:179
 msgid "Grape"
-msgstr ""
+msgstr "Winogrono"
 
 #: src/Views/StyleView.vala:182
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakao"
 
 #: src/Views/StyleView.vala:185
 msgid "Slate"
-msgstr ""
+msgstr "Ciemnoszary"
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Automatyczny, dostosowany do tapety"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
+"Kontynuuj konfigurowanie nowych przydatnych funkcji. Po bardziej szczegółowe "
+"informacje o aktualizacjach możesz odwiedzić <a href='https://"
+"blog.elementary.io'>nasz blog</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
@@ -251,6 +256,8 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Kontynuuj konfigurowanie nowych przydatnych funkcji. Odwiedź linki poniżej, "
+"aby uzyskać więcej informacji na temat %s."
 
 #: src/Views/WelcomeView.vala:24
 #, c-format
@@ -259,7 +266,7 @@ msgstr "Witaj w %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Poradnik podstaw…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
