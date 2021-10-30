@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-09-08 10:29+0000\n"
-"Last-Translator: Jeremy Wootten <jeremy@elementaryos.org>\n"
+"PO-Revision-Date: 2021-10-30 14:30+0000\n"
+"Last-Translator: DarkKnightComes <darkknightcomes@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
 "Language: pl\n"
@@ -60,7 +60,7 @@ msgstr ""
 #: src/Views/AppCenterView.vala:37
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
+msgstr "Możesz także instalować aplikacje Flatpak np. z %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -68,10 +68,12 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"Ta przedpremierowa wersja %s nie powinna być używana w produkcji. <b>Nie "
+"będzie możliwe zaktualizowanie do stabilnego</b> wydania z tej instalacji."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "Kompilacja wczesnego dostępu"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
@@ -79,19 +81,19 @@ msgstr ""
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr ""
+msgstr "Wyselekcjonowane aplikacje nie są dostępne w AppCenter"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "Styl wizualny jest nieukończony"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "Niektóre funkcje są niedostępne lub niekompletne"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "Więcej problemów w Projekcie wydania 6.0"
 
 #: src/Views/FinishView.vala:22
 #, c-format
