@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-10-30 14:30+0000\n"
+"PO-Revision-Date: 2021-10-30 15:16+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
@@ -93,7 +93,7 @@ msgstr "Niektóre funkcje są niedostępne lub niekompletne"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr "Więcej problemów w Projekcie wydania 6.0"
+msgstr "Więcej problemów w Projekcie wydania 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -267,7 +267,7 @@ msgstr "Wsparcie społeczności…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "Zaangażuj się…"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "
