@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-14 19:21+0000\n"
-"PO-Revision-Date: 2021-09-02 14:52+0000\n"
+"PO-Revision-Date: 2021-11-01 08:19+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese <https://l10n.elementary.io/projects/installer/"
 "onboarding/zh/>\n"
@@ -22,111 +22,111 @@ msgstr ""
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "配置 %s"
 
 #: src/MainWindow.vala:103
 msgid "Skip All"
-msgstr ""
+msgstr "忽略全部"
 
 #: src/MainWindow.vala:113
 msgid "Get Started"
-msgstr ""
+msgstr "开始"
 
 #: src/MainWindow.vala:117
 msgid "Next"
-msgstr ""
+msgstr "下一步"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
-msgstr ""
+msgstr "从应用中心中获取应用。受信任的应用是为 elementary OS 量身定制并由 elementary 审核过的。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "获取应用"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr ""
+msgstr "浏览应用中心…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:37
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
+msgstr "您还可以从 %s 等网站加载 Flatpak 应用程序"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
 msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
-msgstr ""
+msgstr "此预发布版本的 %s 不能用于生产用途， 届时您将无法从此版本升级到<b>正式发行版</b>。"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "预览版"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "主要已知问题"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Curated apps are not available in AppCenter"
-msgstr ""
+msgstr "应用商店中 elementary 专属应用暂时不可用"
 
 #: src/Views/EarlyAccessView.vala:47
 msgid "The visual style is unfinished"
-msgstr ""
+msgstr "视觉外观还未定型"
 
 #: src/Views/EarlyAccessView.vala:55
 msgid "Some features are missing or incomplete"
-msgstr ""
+msgstr "某些功能暂时缺失或未完成"
 
 #: src/Views/EarlyAccessView.vala:75
 msgid "More issues on the 6.0 Release Project…"
-msgstr ""
+msgstr "更多关于 6.0 版本的信息…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
-msgstr ""
+msgstr "开始使用 %s！您随时可以访问系统设置应用更改硬件选项及您的偏好。"
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "系统已准备就绪"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "打开系统设置…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr ""
+msgstr "自动清理"
 
 #: src/Views/HouseKeepingView.vala:30
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
-msgstr ""
+msgstr "您可以将旧文件设置为在 %u 天后自动删除，以节省硬盘空间和保护隐私。"
 
 #: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "自动删除："
 
 #: src/Views/HouseKeepingView.vala:34
 msgid "Old temporary files"
-msgstr ""
+msgstr "旧的临时文件"
 
 #: src/Views/HouseKeepingView.vala:37
 msgid "Trashed files"
-msgstr ""
+msgstr "回收站文件"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -172,7 +172,7 @@ msgstr ""
 
 #: src/Views/StyleView.vala:122
 msgid "Default"
-msgstr ""
+msgstr "默认"
 
 #: src/Views/StyleView.vala:148
 msgid "Dark"
