@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2020 elementary, Inc. (https://elementary.io)
+ * Copyright 2020-2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -32,27 +32,11 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
     construct {
         var title_label = new Granite.HeaderLabel (_("Major Known Issues"));
 
-        var apps_icon = new Gtk.Image.from_icon_name ("system-software-install-symbolic", Gtk.IconSize.BUTTON);
-        apps_icon.get_style_context ().add_class (Granite.STYLE_CLASS_ACCENT);
-        apps_icon.get_style_context ().add_class ("purple");
-
-        var apps_label = new Gtk.Label (_("Curated apps are not available in AppCenter")) {
-            xalign = 0
-        };
-
-        var style_icon = new Gtk.Image.from_icon_name ("applications-graphics-symbolic", Gtk.IconSize.BUTTON);
-        style_icon.get_style_context ().add_class (Granite.STYLE_CLASS_ACCENT);
-        style_icon.get_style_context ().add_class ("pink");
-
-        var style_label = new Gtk.Label (_("The visual style is unfinished")) {
-            xalign = 0
-        };
-
         var feature_icon = new Gtk.Image.from_icon_name ("preferences-other-symbolic", Gtk.IconSize.BUTTON);
         feature_icon.get_style_context ().add_class (Granite.STYLE_CLASS_ACCENT);
         feature_icon.get_style_context ().add_class ("slate");
 
-        var feature_label = new Gtk.Label (_("Some features are missing or incomplete")) {
+        var feature_label = new Gtk.Label (_("Some features may be missing or incomplete")) {
             xalign = 0
         };
 
@@ -63,24 +47,10 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
             margin_bottom = 12
         };
         list_grid.attach (title_label, 0, 0, 2);
-        list_grid.attach (apps_icon, 0, 1);
-        list_grid.attach (apps_label, 1, 1);
-        list_grid.attach (style_icon, 0, 2);
-        list_grid.attach (style_label, 1, 2);
         list_grid.attach (feature_icon, 0, 3);
         list_grid.attach (feature_label, 1, 3);
 
-        var more_link = new Gtk.LinkButton.with_label (
-            "https://github.com/orgs/elementary/projects/55",
-            _("More issues on the 6.0 Release Project…")
-        ) {
-            halign = Gtk.Align.CENTER,
-            valign = Gtk.Align.END,
-            vexpand = true
-        };
-
         custom_bin.orientation = Gtk.Orientation.VERTICAL;
         custom_bin.add (list_grid);
-        custom_bin.add (more_link);
     }
 }
