@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-08-27 17:59+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/installer/"
@@ -42,8 +42,8 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"احصل على التطبيقات التي تريد من آب سنتر. التطبيقات المختارة تم صنعها خصيصاً "
-"ل elementary OS و تمت مراجعتها من قبل elementary."
+"احصل على التطبيقات التي تريد من آب سنتر. التطبيقات المختارة تم صنعها خصيصاً ل "
+"elementary OS و تمت مراجعتها من قبل elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -80,20 +80,10 @@ msgid "Major Known Issues"
 msgstr "المشاكل الرئيسية المعروفة"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr "التطبيقات المختارة لن تكون متوفرة في آب سنتر"
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr "التصميم المرئي غير مكتمل"
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
+#, fuzzy
+#| msgid "Some features are missing or incomplete"
+msgid "Some features may be missing or incomplete"
 msgstr "بعض الميزات غير متوفرة أو غير مكتملة"
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
-msgstr "مزيد من المشاكل على مشروع إصدار نظام 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -122,8 +112,8 @@ msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr ""
-"يمكن حذف الملفات القديمة تلقائياً بعد عدد محدد من الأيام لتوفير مساحة "
-"التخزين والمساعدة في حماية خصوصيتك."
+"يمكن حذف الملفات القديمة تلقائياً بعد عدد محدد من الأيام لتوفير مساحة التخزين "
+"والمساعدة في حماية خصوصيتك."
 
 #: src/Views/HouseKeepingView.vala:32
 msgid "Automatically Delete:"
@@ -272,6 +262,15 @@ msgstr "دعم المجتمع…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "شارك معنا…"
+
+#~ msgid "Curated apps are not available in AppCenter"
+#~ msgstr "التطبيقات المختارة لن تكون متوفرة في آب سنتر"
+
+#~ msgid "The visual style is unfinished"
+#~ msgstr "التصميم المرئي غير مكتمل"
+
+#~ msgid "More issues on the 6.0 Release Project…"
+#~ msgstr "مزيد من المشاكل على مشروع إصدار نظام 6.0…"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

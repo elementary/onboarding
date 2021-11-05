@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-06-03 09:11+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
@@ -79,20 +79,10 @@ msgid "Major Known Issues"
 msgstr "תקלות משמעותיות ידועות"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr "היישומים שנאספו אינם זמינים במרכז היישומים"
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr "הסגנון החזותי אינו מוגמר"
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
+#, fuzzy
+#| msgid "Some features are missing or incomplete"
+msgid "Some features may be missing or incomplete"
 msgstr "חלק מהתכונות חסרות או חלקיות"
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
-msgstr "תקלות נוספות במיזם מהדורה 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -272,6 +262,15 @@ msgstr "תמיכה קהילתית…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "השתתפות במיזם…"
+
+#~ msgid "Curated apps are not available in AppCenter"
+#~ msgstr "היישומים שנאספו אינם זמינים במרכז היישומים"
+
+#~ msgid "The visual style is unfinished"
+#~ msgstr "הסגנון החזותי אינו מוגמר"
+
+#~ msgid "More issues on the 6.0 Release Project…"
+#~ msgstr "תקלות נוספות במיזם מהדורה 6.0…"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

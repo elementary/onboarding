@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-10-05 13:59+0000\n"
 "Last-Translator: Tommy Chiang <ty1208chiang@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -41,7 +41,8 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"在 AppCenter 上獲得您需要的應用程式。精選的應用程式是專為 elementary OS 製作的，並已由 elementary 團隊審查過。"
+"在 AppCenter 上獲得您需要的應用程式。精選的應用程式是專為 elementary OS 製作"
+"的，並已由 elementary 團隊審查過。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -76,19 +77,7 @@ msgid "Major Known Issues"
 msgstr "主要已知問題"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr "無法於 AppCenter 取得精選應用程式"
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr ""
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
-msgstr ""
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
+msgid "Some features may be missing or incomplete"
 msgstr ""
 
 #: src/Views/FinishView.vala:22
@@ -256,3 +245,6 @@ msgstr ""
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr ""
+
+#~ msgid "Curated apps are not available in AppCenter"
+#~ msgstr "無法於 AppCenter 取得精選應用程式"

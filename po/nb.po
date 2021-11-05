@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-08-05 01:05+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -80,20 +80,10 @@ msgid "Major Known Issues"
 msgstr "Store kjente feil"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr "Gjennomgåtte programmer er ikke tilgjengelige i AppSenter"
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr "Den visuelle stilen er uferdig"
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
+#, fuzzy
+#| msgid "Some features are missing or incomplete"
+msgid "Some features may be missing or incomplete"
 msgstr "Noen funksjoner mangler eller er ufullstendige"
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
-msgstr "Flere problemrapporter i 6.0-utgivelsesprosjektet …"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -274,6 +264,15 @@ msgstr "Gemenskapsstøtte…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Involver deg…"
+
+#~ msgid "Curated apps are not available in AppCenter"
+#~ msgstr "Gjennomgåtte programmer er ikke tilgjengelige i AppSenter"
+
+#~ msgid "The visual style is unfinished"
+#~ msgstr "Den visuelle stilen er uferdig"
+
+#~ msgid "More issues on the 6.0 Release Project…"
+#~ msgstr "Flere problemrapporter i 6.0-utgivelsesprosjektet …"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

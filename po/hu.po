@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-08-26 12:08+0000\n"
 "Last-Translator: zoli111 <acszoltan111@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
@@ -80,20 +80,10 @@ msgid "Major Known Issues"
 msgstr "Nagyobb ismert hibák"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr "A jóváhagyott alkalmazások nem érhetők el az Appközpontban"
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr "A vizuális kialakítás még nem végleges"
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
+#, fuzzy
+#| msgid "Some features are missing or incomplete"
+msgid "Some features may be missing or incomplete"
 msgstr "Egyes funkciók hiányoznak vagy befejezetlenek"
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
-msgstr "További problémák a 6.0 kiadás projektben…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -274,3 +264,12 @@ msgstr "Közösségi támogatás…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Vegyen részt…"
+
+#~ msgid "Curated apps are not available in AppCenter"
+#~ msgstr "A jóváhagyott alkalmazások nem érhetők el az Appközpontban"
+
+#~ msgid "The visual style is unfinished"
+#~ msgstr "A vizuális kialakítás még nem végleges"
+
+#~ msgid "More issues on the 6.0 Release Project…"
+#~ msgstr "További problémák a 6.0 kiadás projektben…"

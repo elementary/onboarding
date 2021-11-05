@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-06-16 00:39+0000\n"
 "Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
@@ -81,22 +81,10 @@ msgid "Major Known Issues"
 msgstr "Principales problemas conocidos"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr ""
-"Las aplicaciones revisadas por los editores del Centro de aplicaciones no "
-"están disponibles"
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr "El estilo visual no está terminado"
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
+#, fuzzy
+#| msgid "Some features are missing or incomplete"
+msgid "Some features may be missing or incomplete"
 msgstr "Determinadas funciones no están incluidas o están sin terminar"
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
-msgstr "Más informes de problemas en el proyecto de la versión 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -278,6 +266,17 @@ msgstr "Asistencia comunitaria…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Participe…"
+
+#~ msgid "Curated apps are not available in AppCenter"
+#~ msgstr ""
+#~ "Las aplicaciones revisadas por los editores del Centro de aplicaciones no "
+#~ "están disponibles"
+
+#~ msgid "The visual style is unfinished"
+#~ msgstr "El estilo visual no está terminado"
+
+#~ msgid "More issues on the 6.0 Release Project…"
+#~ msgstr "Más informes de problemas en el proyecto de la versión 6.0…"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

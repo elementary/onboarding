@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-08-29 15:18+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
@@ -59,7 +59,8 @@ msgstr "Flathub"
 #: src/Views/AppCenterView.vala:37
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr "Môžete tiež inštalovať Flatpak aplikácie z iného zdroja, napríklad z %s"
+msgstr ""
+"Môžete tiež inštalovať Flatpak aplikácie z iného zdroja, napríklad z %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -79,20 +80,10 @@ msgid "Major Known Issues"
 msgstr "Dôležité známe problémy"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr "Overené aplikácie nie sú dostupné v AppCentre"
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr "Vizuálny štýl nie je dokončený"
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
+#, fuzzy
+#| msgid "Some features are missing or incomplete"
+msgid "Some features may be missing or incomplete"
 msgstr "Niektoré funkcie chýbajú alebo nie sú dokončené"
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
-msgstr "Viac problémov s Projektom vydania 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -242,8 +233,8 @@ msgid ""
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "Pokračujte nastavením nových užitočných funkcií. Podrobnejšie informácie o "
-"aktualizáciách nájdete na <a href='https://blog.elementary.io'>našom "
-"blogu</a>."
+"aktualizáciách nájdete na <a href='https://blog.elementary.io'>našom blogu</"
+"a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
@@ -274,3 +265,12 @@ msgstr "Komunitná podpora…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Zapojte sa…"
+
+#~ msgid "Curated apps are not available in AppCenter"
+#~ msgstr "Overené aplikácie nie sú dostupné v AppCentre"
+
+#~ msgid "The visual style is unfinished"
+#~ msgstr "Vizuálny štýl nie je dokončený"
+
+#~ msgid "More issues on the 6.0 Release Project…"
+#~ msgstr "Viac problémov s Projektom vydania 6.0…"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-11-01 08:19+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese <https://l10n.elementary.io/projects/installer/"
@@ -40,7 +40,9 @@ msgstr "下一步"
 msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
-msgstr "从应用中心中获取应用。受信任的应用是为 elementary OS 量身定制并由 elementary 审核过的。"
+msgstr ""
+"从应用中心中获取应用。受信任的应用是为 elementary OS 量身定制并由 elementary "
+"审核过的。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -64,7 +66,9 @@ msgstr "您还可以从 %s 等网站加载 Flatpak 应用程序"
 msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
-msgstr "此预发布版本的 %s 不能用于生产用途， 届时您将无法从此版本升级到<b>正式发行版</b>。"
+msgstr ""
+"此预发布版本的 %s 不能用于生产用途， 届时您将无法从此版本升级到<b>正式发行版"
+"</b>。"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
@@ -75,20 +79,10 @@ msgid "Major Known Issues"
 msgstr "主要已知问题"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr "应用商店中 elementary 专属应用暂时不可用"
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr "视觉外观还未定型"
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
+#, fuzzy
+#| msgid "Some features are missing or incomplete"
+msgid "Some features may be missing or incomplete"
 msgstr "某些功能暂时缺失或未完成"
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
-msgstr "更多关于 6.0 版本的信息…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -255,3 +249,12 @@ msgstr ""
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr ""
+
+#~ msgid "Curated apps are not available in AppCenter"
+#~ msgstr "应用商店中 elementary 专属应用暂时不可用"
+
+#~ msgid "The visual style is unfinished"
+#~ msgstr "视觉外观还未定型"
+
+#~ msgid "More issues on the 6.0 Release Project…"
+#~ msgstr "更多关于 6.0 版本的信息…"

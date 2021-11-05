@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-08-03 09:06+0000\n"
 "Last-Translator: elSolus <tumbleweed@tuta.io>\n"
 "Language-Team: Punjabi <https://l10n.elementary.io/projects/installer/"
@@ -41,8 +41,8 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"ਆਪਣੀਆਂ ਲੋੜੀਂਦੀਆਂ ਐਪਾਂ ਆਪ-ਸੈਂਟਰ ਤੋਂ ਲਓ। ਸੰਵਾਰੀਆਂ ਹੋਈਆਂ ਐਪਾਂ ਐਲੀਮੈਂਟਰੀ ਓਐੱਸ ਲਈ "
-"ਬਣਾਈਆਂ ਗਈਆਂ ਹਨ ਅਤੇ ਐਲੀਮੈਂਟਰੀ ਨੇ ਉਹਨਾਂ ਦਾ ਮੁਆਇਨਾ ਵੀ ਕੀਤਾ ਹੋਇਐ।"
+"ਆਪਣੀਆਂ ਲੋੜੀਂਦੀਆਂ ਐਪਾਂ ਆਪ-ਸੈਂਟਰ ਤੋਂ ਲਓ। ਸੰਵਾਰੀਆਂ ਹੋਈਆਂ ਐਪਾਂ ਐਲੀਮੈਂਟਰੀ ਓਐੱਸ ਲਈ ਬਣਾਈਆਂ ਗਈਆਂ ਹਨ ਅਤੇ "
+"ਐਲੀਮੈਂਟਰੀ ਨੇ ਉਹਨਾਂ ਦਾ ਮੁਆਇਨਾ ਵੀ ਕੀਤਾ ਹੋਇਐ।"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -67,8 +67,8 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
-"%s ਦਾ ਇਹ ਪ੍ਰੀ-ਰਿਲੀਜ਼ ਦਾ ਵਰਜਨ ਹੈ, ਇਸਨੂੰ ਪ੍ਰੋਡਕਸ਼ਨ ਵਿੱਚ ਨਹੀਂ ਵਰਤਣਾ ਚਾਹੀਦਾ। "
-"<b>ਇਸਦੇ ਇਸ ਸਥਾਪਨ ਨੂੰ ਸਟੇਬਲ ਰਿਲੀਜ਼ ’ਤੇ ਅਪਡੇਟ ਕਰਨਾ ਮੁਮਕਿਨ ਨਹੀਂ ਹੋਵੇਗਾ।</b>"
+"%s ਦਾ ਇਹ ਪ੍ਰੀ-ਰਿਲੀਜ਼ ਦਾ ਵਰਜਨ ਹੈ, ਇਸਨੂੰ ਪ੍ਰੋਡਕਸ਼ਨ ਵਿੱਚ ਨਹੀਂ ਵਰਤਣਾ ਚਾਹੀਦਾ। <b>ਇਸਦੇ ਇਸ "
+"ਸਥਾਪਨ ਨੂੰ ਸਟੇਬਲ ਰਿਲੀਜ਼ ’ਤੇ ਅਪਡੇਟ ਕਰਨਾ ਮੁਮਕਿਨ ਨਹੀਂ ਹੋਵੇਗਾ।</b>"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
@@ -79,19 +79,7 @@ msgid "Major Known Issues"
 msgstr "ਜਾਣਕਾਰੀ ਵਿਚਲੇ ਵੱਡੇ ਮਸਲੇ"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr ""
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr ""
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
-msgstr ""
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
+msgid "Some features may be missing or incomplete"
 msgstr ""
 
 #: src/Views/FinishView.vala:22

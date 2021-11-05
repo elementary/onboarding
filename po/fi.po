@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-06-04 03:31+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
@@ -79,20 +79,10 @@ msgid "Major Known Issues"
 msgstr "Suurimmat tunnistetut ongelmat"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr "Kuratoidut sovellukset eivät ole saatavilla Sovelluskeskuksen kautta"
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr "Visuaalinen tyyli on viimeistelemätön"
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
+#, fuzzy
+#| msgid "Some features are missing or incomplete"
+msgid "Some features may be missing or incomplete"
 msgstr "Jotkin ominaisuudet puuttuvat tai ovat puutteellisia"
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
-msgstr "Lisää ongelmia 6.0-julkaisuprojektista…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -275,6 +265,16 @@ msgstr "Yhteisön tuki…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Osallistu…"
+
+#~ msgid "Curated apps are not available in AppCenter"
+#~ msgstr ""
+#~ "Kuratoidut sovellukset eivät ole saatavilla Sovelluskeskuksen kautta"
+
+#~ msgid "The visual style is unfinished"
+#~ msgstr "Visuaalinen tyyli on viimeistelemätön"
+
+#~ msgid "More issues on the 6.0 Release Project…"
+#~ msgstr "Lisää ongelmia 6.0-julkaisuprojektista…"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

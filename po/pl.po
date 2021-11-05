@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-10-30 15:16+0000\n"
 "Last-Translator: DarkKnightComes <darkknightcomes@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
@@ -80,20 +80,10 @@ msgid "Major Known Issues"
 msgstr "Znane większe problemy"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr "Wyselekcjonowane aplikacje nie są dostępne w AppCenter"
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr "Styl wizualny jest nieukończony"
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
+#, fuzzy
+#| msgid "Some features are missing or incomplete"
+msgid "Some features may be missing or incomplete"
 msgstr "Niektóre funkcje są niedostępne lub niekompletne"
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
-msgstr "Więcej problemów w Projekcie wydania 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -243,8 +233,8 @@ msgid ""
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "Kontynuuj konfigurowanie nowych przydatnych funkcji. Po bardziej szczegółowe "
-"informacje o aktualizacjach możesz odwiedzić <a href='https://"
-"blog.elementary.io'>nasz blog</a>."
+"informacje o aktualizacjach możesz odwiedzić <a href='https://blog."
+"elementary.io'>nasz blog</a>."
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
@@ -275,6 +265,15 @@ msgstr "Wsparcie społeczności…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Zaangażuj się…"
+
+#~ msgid "Curated apps are not available in AppCenter"
+#~ msgstr "Wyselekcjonowane aplikacje nie są dostępne w AppCenter"
+
+#~ msgid "The visual style is unfinished"
+#~ msgstr "Styl wizualny jest nieukończony"
+
+#~ msgid "More issues on the 6.0 Release Project…"
+#~ msgstr "Więcej problemów w Projekcie wydania 6.0…"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 19:21+0000\n"
+"POT-Creation-Date: 2021-11-05 21:31+0000\n"
 "PO-Revision-Date: 2021-07-03 15:45+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -80,20 +80,10 @@ msgid "Major Known Issues"
 msgstr "Основні відомі вади"
 
 #: src/Views/EarlyAccessView.vala:39
-msgid "Curated apps are not available in AppCenter"
-msgstr "Куровані застосунки не доступні у центрі застосунків"
-
-#: src/Views/EarlyAccessView.vala:47
-msgid "The visual style is unfinished"
-msgstr "Загальний вигляд не завершено"
-
-#: src/Views/EarlyAccessView.vala:55
-msgid "Some features are missing or incomplete"
+#, fuzzy
+#| msgid "Some features are missing or incomplete"
+msgid "Some features may be missing or incomplete"
 msgstr "Деякі функції відсутні або незавершені"
-
-#: src/Views/EarlyAccessView.vala:75
-msgid "More issues on the 6.0 Release Project…"
-msgstr "Більше питань про проєкт випуску 6.0…"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -276,6 +266,15 @@ msgstr "Підтримка спільноти…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Долучитися…"
+
+#~ msgid "Curated apps are not available in AppCenter"
+#~ msgstr "Куровані застосунки не доступні у центрі застосунків"
+
+#~ msgid "The visual style is unfinished"
+#~ msgstr "Загальний вигляд не завершено"
+
+#~ msgid "More issues on the 6.0 Release Project…"
+#~ msgstr "Більше питань про проєкт випуску 6.0…"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "
