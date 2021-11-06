@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 21:31+0000\n"
-"PO-Revision-Date: 2021-07-03 15:45+0000\n"
+"PO-Revision-Date: 2021-11-06 20:04+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding/uk/>\n"
@@ -80,10 +80,8 @@ msgid "Major Known Issues"
 msgstr "Основні відомі вади"
 
 #: src/Views/EarlyAccessView.vala:39
-#, fuzzy
-#| msgid "Some features are missing or incomplete"
 msgid "Some features may be missing or incomplete"
-msgstr "Деякі функції відсутні або незавершені"
+msgstr "Деякі функції можуть відсутні або незавершені"
 
 #: src/Views/FinishView.vala:22
 #, c-format
