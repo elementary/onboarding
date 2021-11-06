@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 21:31+0000\n"
-"PO-Revision-Date: 2021-08-26 12:08+0000\n"
-"Last-Translator: zoli111 <acszoltan111@gmail.com>\n"
+"PO-Revision-Date: 2021-11-06 15:56+0000\n"
+"Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
 "Language: hu\n"
@@ -80,10 +80,8 @@ msgid "Major Known Issues"
 msgstr "Nagyobb ismert hibák"
 
 #: src/Views/EarlyAccessView.vala:39
-#, fuzzy
-#| msgid "Some features are missing or incomplete"
 msgid "Some features may be missing or incomplete"
-msgstr "Egyes funkciók hiányoznak vagy befejezetlenek"
+msgstr "Egyes funkciók hiányozhatnak vagy befejezetlenek lehetnek"
 
 #: src/Views/FinishView.vala:22
 #, c-format
