@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-05 21:31+0000\n"
-"PO-Revision-Date: 2021-07-15 12:48+0000\n"
+"PO-Revision-Date: 2021-11-16 08:42+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/tr/>\n"
@@ -66,7 +66,7 @@ msgstr "Çok noktalı dokunma hareketleriyle gezinme"
 
 #: data/onboarding.appdata.xml.in:44
 msgid "Use new blog URL"
-msgstr "Yeni blog URL'si kullan"
+msgstr "Yeni web günlüğü URL'si kullan"
 
 #: data/onboarding.appdata.xml.in:45
 msgid "Fix errors when pressing the Skip button"
