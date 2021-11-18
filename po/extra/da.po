@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
+"POT-Creation-Date: 2021-11-18 18:39+0000\n"
 "PO-Revision-Date: 2020-05-28 12:11+0000\n"
 "Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/installer/"
@@ -31,48 +31,49 @@ msgstr "Skift almindeligt brugte indstillinger under første kørsel"
 msgid "io.elementary.onboarding"
 msgstr "io.elementary.onboarding"
 
-#: data/onboarding.appdata.xml.in:16
-msgid "Add style view"
-msgstr ""
-
-#: data/onboarding.appdata.xml.in:17
-msgid "Add Online Accounts view"
-msgstr ""
-
-#: data/onboarding.appdata.xml.in:18
-msgid "Remove location services view"
-msgstr ""
-
-#: data/onboarding.appdata.xml.in:19
-msgid "Mention Sideload and Flathub"
-msgstr ""
-
-#: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
-#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:16 data/onboarding.appdata.xml.in:27
+#: data/onboarding.appdata.xml.in:35 data/onboarding.appdata.xml.in:43
+#: data/onboarding.appdata.xml.in:53
 msgid "Updated translations"
 msgstr "Opdaterede oversættelser"
 
-#: data/onboarding.appdata.xml.in:27
+#: data/onboarding.appdata.xml.in:23
+msgid "Add style view"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:24
+msgid "Add Online Accounts view"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:25
+msgid "Remove location services view"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:26
+msgid "Mention Sideload and Flathub"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:34
 msgid "Fix blurry icon in AppCenter"
 msgstr "Ret slørede ikoner i AppCenter"
 
-#: data/onboarding.appdata.xml.in:35
+#: data/onboarding.appdata.xml.in:42
 msgid "New app icon"
 msgstr "Nyt app ikon"
 
-#: data/onboarding.appdata.xml.in:43
+#: data/onboarding.appdata.xml.in:50
 msgid "Navigate with (multi-)touch gestures"
 msgstr "Naviger med (multi-)berøringsbevægelser"
 
-#: data/onboarding.appdata.xml.in:44
+#: data/onboarding.appdata.xml.in:51
 msgid "Use new blog URL"
 msgstr "Brug ny blog URL"
 
-#: data/onboarding.appdata.xml.in:45
+#: data/onboarding.appdata.xml.in:52
 msgid "Fix errors when pressing the Skip button"
 msgstr "Ret fejl der opstår med Spring over knappen"
 
-#: data/onboarding.appdata.xml.in:85
+#: data/onboarding.appdata.xml.in:92
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

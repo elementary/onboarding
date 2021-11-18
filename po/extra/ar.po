@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
+"POT-Creation-Date: 2021-11-18 18:39+0000\n"
 "PO-Revision-Date: 2021-08-31 11:36+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/installer/"
@@ -32,48 +32,49 @@ msgstr "تغيير الإعدادات الشائعة عند التشغيل لأ�
 msgid "io.elementary.onboarding"
 msgstr "io.elementary.onboarding"
 
-#: data/onboarding.appdata.xml.in:16
-msgid "Add style view"
-msgstr "إضافة منظور المظهر"
-
-#: data/onboarding.appdata.xml.in:17
-msgid "Add Online Accounts view"
-msgstr "إضافة منظور الحسابات الإلكترونية"
-
-#: data/onboarding.appdata.xml.in:18
-msgid "Remove location services view"
-msgstr "إزالة منظور خدمات الموقع"
-
-#: data/onboarding.appdata.xml.in:19
-msgid "Mention Sideload and Flathub"
-msgstr "ذكر التحميل المتوازي وFlathub"
-
-#: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
-#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:16 data/onboarding.appdata.xml.in:27
+#: data/onboarding.appdata.xml.in:35 data/onboarding.appdata.xml.in:43
+#: data/onboarding.appdata.xml.in:53
 msgid "Updated translations"
 msgstr "تحديثات على الترجمة"
 
-#: data/onboarding.appdata.xml.in:27
+#: data/onboarding.appdata.xml.in:23
+msgid "Add style view"
+msgstr "إضافة منظور المظهر"
+
+#: data/onboarding.appdata.xml.in:24
+msgid "Add Online Accounts view"
+msgstr "إضافة منظور الحسابات الإلكترونية"
+
+#: data/onboarding.appdata.xml.in:25
+msgid "Remove location services view"
+msgstr "إزالة منظور خدمات الموقع"
+
+#: data/onboarding.appdata.xml.in:26
+msgid "Mention Sideload and Flathub"
+msgstr "ذكر التحميل المتوازي وFlathub"
+
+#: data/onboarding.appdata.xml.in:34
 msgid "Fix blurry icon in AppCenter"
 msgstr "إصلاح الأيقونة غير الواضحة في آب سنتر"
 
-#: data/onboarding.appdata.xml.in:35
+#: data/onboarding.appdata.xml.in:42
 msgid "New app icon"
 msgstr "أيقونة تطبيق جديدة"
 
-#: data/onboarding.appdata.xml.in:43
+#: data/onboarding.appdata.xml.in:50
 msgid "Navigate with (multi-)touch gestures"
 msgstr "التنقل مع حركات اللمس المتعدد"
 
-#: data/onboarding.appdata.xml.in:44
+#: data/onboarding.appdata.xml.in:51
 msgid "Use new blog URL"
 msgstr "استخدام رابط المدونة الجديد"
 
-#: data/onboarding.appdata.xml.in:45
+#: data/onboarding.appdata.xml.in:52
 msgid "Fix errors when pressing the Skip button"
 msgstr "إصلاح بعض المشاكل عند الضغط على زر \"تخط الكل\""
 
-#: data/onboarding.appdata.xml.in:85
+#: data/onboarding.appdata.xml.in:92
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
