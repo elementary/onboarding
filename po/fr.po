@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 16:02+0000\n"
-"PO-Revision-Date: 2021-11-06 18:39+0000\n"
+"PO-Revision-Date: 2021-11-19 20:20+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
 "onboarding/fr/>\n"
@@ -115,10 +115,8 @@ msgid "Old temporary files"
 msgstr "Anciens fichiers temporaires"
 
 #: src/Views/HouseKeepingView.vala:42
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Downloaded files"
-msgstr "Fichiers supprimés"
+msgstr "Fichiers téléchargés"
 
 #: src/Views/HouseKeepingView.vala:52
 msgid "Trashed files"
