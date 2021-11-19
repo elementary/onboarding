@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-18 18:39+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
 "PO-Revision-Date: 2020-03-17 14:09+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/installer/"
@@ -101,7 +101,27 @@ msgstr "Malfermi Sistemajn Agordojn…"
 msgid "Housekeeping"
 msgstr "Mastrumado"
 
-#: src/Views/HouseKeepingView.vala:30
+#: src/Views/HouseKeepingView.vala:28
+msgid "Automatically Delete:"
+msgstr "Aŭtomate forigi:"
+
+#: src/Views/HouseKeepingView.vala:32
+#, fuzzy
+#| msgid "Temporary files"
+msgid "Old temporary files"
+msgstr "Portempaj dosieroj"
+
+#: src/Views/HouseKeepingView.vala:42
+#, fuzzy
+#| msgid "Trashed files"
+msgid "Downloaded files"
+msgstr "Rubujigitaĵoj"
+
+#: src/Views/HouseKeepingView.vala:52
+msgid "Trashed files"
+msgstr "Rubujigitaĵoj"
+
+#: src/Views/HouseKeepingView.vala:70
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -109,20 +129,6 @@ msgid ""
 msgstr ""
 "Eblas aŭtomate forigi malnovajn dosierojn post %u tagoj por konservi memoron "
 "kaj helpi protekti privatecon."
-
-#: src/Views/HouseKeepingView.vala:32
-msgid "Automatically Delete:"
-msgstr "Aŭtomate forigi:"
-
-#: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
-msgid "Old temporary files"
-msgstr "Portempaj dosieroj"
-
-#: src/Views/HouseKeepingView.vala:37
-msgid "Trashed files"
-msgstr "Rubujigitaĵoj"
 
 #: src/Views/NightLightView.vala:22
 msgid ""

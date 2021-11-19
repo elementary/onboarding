@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-18 18:39+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
 "PO-Revision-Date: 2020-11-22 20:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
@@ -109,7 +109,25 @@ msgstr "सिस्टम सेटिंग्ज उघडा…"
 msgid "Housekeeping"
 msgstr "हाऊसकीपिंग"
 
-#: src/Views/HouseKeepingView.vala:30
+#: src/Views/HouseKeepingView.vala:28
+msgid "Automatically Delete:"
+msgstr "स्वयंचलितपणे हटवा:"
+
+#: src/Views/HouseKeepingView.vala:32
+msgid "Old temporary files"
+msgstr "जुन्या तात्पुरत्या फायली"
+
+#: src/Views/HouseKeepingView.vala:42
+#, fuzzy
+#| msgid "Trashed files"
+msgid "Downloaded files"
+msgstr "ट्रॅश केलेल्या फायली"
+
+#: src/Views/HouseKeepingView.vala:52
+msgid "Trashed files"
+msgstr "ट्रॅश केलेल्या फायली"
+
+#: src/Views/HouseKeepingView.vala:70
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -117,18 +135,6 @@ msgid ""
 msgstr ""
 "जागा जतन करण्यासाठी आणि आपल्या गोपनीयतेस संरक्षित करण्यात मदत करण्यासाठी %u "
 "दिवसांनंतर जुनी फायली स्वयंचलितपणे हटविली जाऊ शकतात."
-
-#: src/Views/HouseKeepingView.vala:32
-msgid "Automatically Delete:"
-msgstr "स्वयंचलितपणे हटवा:"
-
-#: src/Views/HouseKeepingView.vala:34
-msgid "Old temporary files"
-msgstr "जुन्या तात्पुरत्या फायली"
-
-#: src/Views/HouseKeepingView.vala:37
-msgid "Trashed files"
-msgstr "ट्रॅश केलेल्या फायली"
 
 #: src/Views/NightLightView.vala:22
 msgid ""

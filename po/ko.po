@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-18 18:39+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
 "PO-Revision-Date: 2019-07-07 22:28+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/installer/"
@@ -101,7 +101,27 @@ msgstr "시스템 설정 열기…"
 msgid "Housekeeping"
 msgstr "관리"
 
-#: src/Views/HouseKeepingView.vala:30
+#: src/Views/HouseKeepingView.vala:28
+msgid "Automatically Delete:"
+msgstr "자동 삭제:"
+
+#: src/Views/HouseKeepingView.vala:32
+#, fuzzy
+#| msgid "Temporary files"
+msgid "Old temporary files"
+msgstr "임시 파일"
+
+#: src/Views/HouseKeepingView.vala:42
+#, fuzzy
+#| msgid "Trashed files"
+msgid "Downloaded files"
+msgstr "지운 파일"
+
+#: src/Views/HouseKeepingView.vala:52
+msgid "Trashed files"
+msgstr "지운 파일"
+
+#: src/Views/HouseKeepingView.vala:70
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -109,20 +129,6 @@ msgid ""
 msgstr ""
 "저장장치 공간을 확보하고 프라이버시를 보호하기 위해서 오래된 파일은 %u일 후"
 "에 자동으로 지워집니다."
-
-#: src/Views/HouseKeepingView.vala:32
-msgid "Automatically Delete:"
-msgstr "자동 삭제:"
-
-#: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
-msgid "Old temporary files"
-msgstr "임시 파일"
-
-#: src/Views/HouseKeepingView.vala:37
-msgid "Trashed files"
-msgstr "지운 파일"
 
 #: src/Views/NightLightView.vala:22
 msgid ""

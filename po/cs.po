@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-18 18:39+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
 "PO-Revision-Date: 2020-07-25 17:12+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
@@ -106,7 +106,27 @@ msgstr "Otevřít Nastavení systému…"
 msgid "Housekeeping"
 msgstr "Údržba"
 
-#: src/Views/HouseKeepingView.vala:30
+#: src/Views/HouseKeepingView.vala:28
+msgid "Automatically Delete:"
+msgstr "Automaticky mazat:"
+
+#: src/Views/HouseKeepingView.vala:32
+#, fuzzy
+#| msgid "Temporary files"
+msgid "Old temporary files"
+msgstr "Dočasné soubory"
+
+#: src/Views/HouseKeepingView.vala:42
+#, fuzzy
+#| msgid "Trashed files"
+msgid "Downloaded files"
+msgstr "Soubory v koši"
+
+#: src/Views/HouseKeepingView.vala:52
+msgid "Trashed files"
+msgstr "Soubory v koši"
+
+#: src/Views/HouseKeepingView.vala:70
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -114,20 +134,6 @@ msgid ""
 msgstr ""
 "Staré soubory mohou být po %u dnech automaticky smazány, aby se uvolnilo "
 "místo a zajistilo vaše soukromí."
-
-#: src/Views/HouseKeepingView.vala:32
-msgid "Automatically Delete:"
-msgstr "Automaticky mazat:"
-
-#: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
-msgid "Old temporary files"
-msgstr "Dočasné soubory"
-
-#: src/Views/HouseKeepingView.vala:37
-msgid "Trashed files"
-msgstr "Soubory v koši"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
