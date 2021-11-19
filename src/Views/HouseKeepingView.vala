@@ -25,23 +25,51 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
     }
 
     construct {
-        var settings = new GLib.Settings ("org.gnome.desktop.privacy");
-
-        description = _("Old files can be automatically deleted after %u days to save space and help protect your privacy.").printf (settings.get_uint ("old-files-age"));
-
         var header_label = new Granite.HeaderLabel (_("Automatically Delete:"));
 
-        var temp_switch = new Gtk.CheckButton.with_label (_("Old temporary files"));
-        temp_switch.margin_start = 12;
+        var temp_grid = new Gtk.Grid ();
+        temp_grid.add (new Gtk.Image.from_icon_name ("folder", Gtk.IconSize.LARGE_TOOLBAR));
+        temp_grid.add (new Gtk.Label (_("Old temporary files")));
 
-        var trash_switch = new Gtk.CheckButton.with_label (_("Trashed files"));
-        trash_switch.margin_start = 12;
+        var temp_check = new Gtk.CheckButton () {
+            halign = Gtk.Align.START,
+            margin_start = 12
+        };
+        temp_check.add (temp_grid);
+
+        var download_grid = new Gtk.Grid ();
+        download_grid.add (new Gtk.Image.from_icon_name ("folder-download", Gtk.IconSize.LARGE_TOOLBAR));
+        download_grid.add (new Gtk.Label (_("Downloaded files")));
+
+        var download_check = new Gtk.CheckButton () {
+            halign = Gtk.Align.START,
+            margin_start = 12
+        };
+        download_check.add (download_grid);
+
+        var trash_grid = new Gtk.Grid ();
+        trash_grid.add (new Gtk.Image.from_icon_name ("user-trash-full", Gtk.IconSize.LARGE_TOOLBAR));
+        trash_grid.add (new Gtk.Label (_("Trashed files")));
+
+        var trash_check = new Gtk.CheckButton () {
+            halign = Gtk.Align.START,
+            margin_start = 12,
+            margin_bottom = 18
+        };
+        trash_check.add (trash_grid);
 
         custom_bin.attach (header_label, 0, 0);
-        custom_bin.attach (temp_switch, 0, 1);
-        custom_bin.attach (trash_switch, 0, 2);
+        custom_bin.attach (download_check, 0, 1);
+        custom_bin.attach (temp_check, 0, 2);
+        custom_bin.attach (trash_check, 0, 3);
 
-        settings.bind ("remove-old-temp-files", temp_switch, "active", GLib.SettingsBindFlags.DEFAULT);
-        settings.bind ("remove-old-trash-files", trash_switch, "active", GLib.SettingsBindFlags.DEFAULT);
+        var privacy_settings = new GLib.Settings ("org.gnome.desktop.privacy");
+        privacy_settings.bind ("remove-old-temp-files", temp_check, "active", GLib.SettingsBindFlags.DEFAULT);
+        privacy_settings.bind ("remove-old-trash-files", trash_check, "active", GLib.SettingsBindFlags.DEFAULT);
+
+        description = _("Old files can be automatically deleted after %u days to save space and help protect your privacy.").printf (privacy_settings.get_uint ("old-files-age"));
+
+        var housekeeping_settings = new Settings ("io.elementary.settings-daemon.housekeeping");
+        housekeeping_settings.bind ("cleanup-downloads-folder", download_check, "active", GLib.SettingsBindFlags.DEFAULT);
     }
 }
