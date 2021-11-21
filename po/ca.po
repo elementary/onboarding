@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 16:02+0000\n"
-"PO-Revision-Date: 2021-11-07 14:56+0000\n"
+"PO-Revision-Date: 2021-11-21 15:05+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
 "onboarding/ca/>\n"
@@ -116,10 +116,8 @@ msgid "Old temporary files"
 msgstr "Fitxers temporals antics"
 
 #: src/Views/HouseKeepingView.vala:42
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Downloaded files"
-msgstr "Fitxers enviats a la paperera"
+msgstr "Fitxers baixats"
 
 #: src/Views/HouseKeepingView.vala:52
 msgid "Trashed files"
