@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
-"PO-Revision-Date: 2021-11-07 14:56+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"PO-Revision-Date: 2021-11-21 15:05+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
 "onboarding/ca/>\n"
@@ -107,7 +107,23 @@ msgstr "Obre la Configuració del sistema…"
 msgid "Housekeeping"
 msgstr "Manteniment"
 
-#: src/Views/HouseKeepingView.vala:30
+#: src/Views/HouseKeepingView.vala:28
+msgid "Automatically Delete:"
+msgstr "Supressió automàtica:"
+
+#: src/Views/HouseKeepingView.vala:32
+msgid "Old temporary files"
+msgstr "Fitxers temporals antics"
+
+#: src/Views/HouseKeepingView.vala:42
+msgid "Downloaded files"
+msgstr "Fitxers baixats"
+
+#: src/Views/HouseKeepingView.vala:52
+msgid "Trashed files"
+msgstr "Fitxers enviats a la paperera"
+
+#: src/Views/HouseKeepingView.vala:70
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -115,18 +131,6 @@ msgid ""
 msgstr ""
 "Els fitxers antics es poden suprimir automàticament al cap de %u dies per "
 "estalviar espai i ajudar a protegir la vostra privadesa."
-
-#: src/Views/HouseKeepingView.vala:32
-msgid "Automatically Delete:"
-msgstr "Supressió automàtica:"
-
-#: src/Views/HouseKeepingView.vala:34
-msgid "Old temporary files"
-msgstr "Fitxers temporals antics"
-
-#: src/Views/HouseKeepingView.vala:37
-msgid "Trashed files"
-msgstr "Fitxers enviats a la paperera"
 
 #: src/Views/NightLightView.vala:22
 msgid ""

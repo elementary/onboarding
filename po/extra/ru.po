@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
 "PO-Revision-Date: 2021-08-06 20:34+0000\n"
 "Last-Translator: DartDeaDia <jorydit@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
@@ -33,47 +33,52 @@ msgid "io.elementary.onboarding"
 msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
-msgid "Add style view"
-msgstr "Добавлен просмотр стилей"
+msgid "Redesign Housekeeping and add Downloads option"
+msgstr ""
 
-#: data/onboarding.appdata.xml.in:17
-msgid "Add Online Accounts view"
-msgstr "Добавлен просмотр онлайн аккаунтов"
-
-#: data/onboarding.appdata.xml.in:18
-msgid "Remove location services view"
-msgstr "Удален просмотр служб местоположения"
-
-#: data/onboarding.appdata.xml.in:19
-msgid "Mention Sideload and Flathub"
-msgstr "Упомянуты сторонние загрузки и Flathub"
-
-#: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
-#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:28
+#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:44
+#: data/onboarding.appdata.xml.in:54
 msgid "Updated translations"
 msgstr "Обновлены переводы"
 
+#: data/onboarding.appdata.xml.in:24
+msgid "Add style view"
+msgstr "Добавлен просмотр стилей"
+
+#: data/onboarding.appdata.xml.in:25
+msgid "Add Online Accounts view"
+msgstr "Добавлен просмотр онлайн аккаунтов"
+
+#: data/onboarding.appdata.xml.in:26
+msgid "Remove location services view"
+msgstr "Удален просмотр служб местоположения"
+
 #: data/onboarding.appdata.xml.in:27
+msgid "Mention Sideload and Flathub"
+msgstr "Упомянуты сторонние загрузки и Flathub"
+
+#: data/onboarding.appdata.xml.in:35
 msgid "Fix blurry icon in AppCenter"
 msgstr "Исправлено размытие иконки в Центре приложений"
 
-#: data/onboarding.appdata.xml.in:35
+#: data/onboarding.appdata.xml.in:43
 msgid "New app icon"
 msgstr "Новая иконка приложения"
 
-#: data/onboarding.appdata.xml.in:43
+#: data/onboarding.appdata.xml.in:51
 msgid "Navigate with (multi-)touch gestures"
 msgstr "Навигация с помощью мультитач жестов"
 
-#: data/onboarding.appdata.xml.in:44
+#: data/onboarding.appdata.xml.in:52
 msgid "Use new blog URL"
 msgstr "Используйте новый URL-адрес блога"
 
-#: data/onboarding.appdata.xml.in:45
+#: data/onboarding.appdata.xml.in:53
 msgid "Fix errors when pressing the Skip button"
 msgstr "Исправлены ошибки при нажатии кнопки Пропустить"
 
-#: data/onboarding.appdata.xml.in:85
+#: data/onboarding.appdata.xml.in:93
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

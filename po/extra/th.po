@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
 "PO-Revision-Date: 2019-09-07 18:23+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Thai <https://l10n.elementary.io/projects/installer/"
@@ -32,47 +32,52 @@ msgid "io.elementary.onboarding"
 msgstr ""
 
 #: data/onboarding.appdata.xml.in:16
-msgid "Add style view"
+msgid "Redesign Housekeeping and add Downloads option"
 msgstr ""
 
-#: data/onboarding.appdata.xml.in:17
-msgid "Add Online Accounts view"
-msgstr ""
-
-#: data/onboarding.appdata.xml.in:18
-msgid "Remove location services view"
-msgstr ""
-
-#: data/onboarding.appdata.xml.in:19
-msgid "Mention Sideload and Flathub"
-msgstr ""
-
-#: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
-#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:28
+#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:44
+#: data/onboarding.appdata.xml.in:54
 msgid "Updated translations"
 msgstr ""
 
+#: data/onboarding.appdata.xml.in:24
+msgid "Add style view"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:25
+msgid "Add Online Accounts view"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:26
+msgid "Remove location services view"
+msgstr ""
+
 #: data/onboarding.appdata.xml.in:27
-msgid "Fix blurry icon in AppCenter"
+msgid "Mention Sideload and Flathub"
 msgstr ""
 
 #: data/onboarding.appdata.xml.in:35
-msgid "New app icon"
+msgid "Fix blurry icon in AppCenter"
 msgstr ""
 
 #: data/onboarding.appdata.xml.in:43
+msgid "New app icon"
+msgstr ""
+
+#: data/onboarding.appdata.xml.in:51
 msgid "Navigate with (multi-)touch gestures"
 msgstr ""
 
-#: data/onboarding.appdata.xml.in:44
+#: data/onboarding.appdata.xml.in:52
 msgid "Use new blog URL"
 msgstr ""
 
-#: data/onboarding.appdata.xml.in:45
+#: data/onboarding.appdata.xml.in:53
 msgid "Fix errors when pressing the Skip button"
 msgstr ""
 
-#: data/onboarding.appdata.xml.in:85
+#: data/onboarding.appdata.xml.in:93
 msgid "elementary, Inc."
 msgstr ""
 

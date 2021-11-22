@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
 "PO-Revision-Date: 2020-09-20 09:14+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
@@ -107,7 +107,25 @@ msgstr "Open Systeem instellingen…"
 msgid "Housekeeping"
 msgstr "Schoonmaken"
 
-#: src/Views/HouseKeepingView.vala:30
+#: src/Views/HouseKeepingView.vala:28
+msgid "Automatically Delete:"
+msgstr "Automatisch verwijderen:"
+
+#: src/Views/HouseKeepingView.vala:32
+msgid "Old temporary files"
+msgstr "Oude tijdelijke bestanden"
+
+#: src/Views/HouseKeepingView.vala:42
+#, fuzzy
+#| msgid "Trashed files"
+msgid "Downloaded files"
+msgstr "Bestanden in de prullenbak"
+
+#: src/Views/HouseKeepingView.vala:52
+msgid "Trashed files"
+msgstr "Bestanden in de prullenbak"
+
+#: src/Views/HouseKeepingView.vala:70
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -115,18 +133,6 @@ msgid ""
 msgstr ""
 "Oude bestanden kunnen automatisch na %u dagen verwijderd worden om "
 "opslagruimte te besparen en uw privacy te helpen beschermen."
-
-#: src/Views/HouseKeepingView.vala:32
-msgid "Automatically Delete:"
-msgstr "Automatisch verwijderen:"
-
-#: src/Views/HouseKeepingView.vala:34
-msgid "Old temporary files"
-msgstr "Oude tijdelijke bestanden"
-
-#: src/Views/HouseKeepingView.vala:37
-msgid "Trashed files"
-msgstr "Bestanden in de prullenbak"
 
 #: src/Views/NightLightView.vala:22
 msgid ""

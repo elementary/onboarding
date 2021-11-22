@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
-"PO-Revision-Date: 2021-11-05 22:23+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"PO-Revision-Date: 2021-11-20 01:51+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -103,7 +103,23 @@ msgstr "פתיחת הגדרות המערכת…"
 msgid "Housekeeping"
 msgstr "טיפול שוטף"
 
-#: src/Views/HouseKeepingView.vala:30
+#: src/Views/HouseKeepingView.vala:28
+msgid "Automatically Delete:"
+msgstr "למחיקה אוטומטית:"
+
+#: src/Views/HouseKeepingView.vala:32
+msgid "Old temporary files"
+msgstr "קבצים זמניים ישנים"
+
+#: src/Views/HouseKeepingView.vala:42
+msgid "Downloaded files"
+msgstr "קבצים שהתקבלו"
+
+#: src/Views/HouseKeepingView.vala:52
+msgid "Trashed files"
+msgstr "קבצים באשפה"
+
+#: src/Views/HouseKeepingView.vala:70
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -111,18 +127,6 @@ msgid ""
 msgstr ""
 "ניתן למחוק אוטומטית קבצים ישנים לאחר %u ימים כדי לחסוך במקום ולסייע להגן על "
 "הפרטיות שלך."
-
-#: src/Views/HouseKeepingView.vala:32
-msgid "Automatically Delete:"
-msgstr "למחיקה אוטומטית:"
-
-#: src/Views/HouseKeepingView.vala:34
-msgid "Old temporary files"
-msgstr "קבצים זמניים ישנים"
-
-#: src/Views/HouseKeepingView.vala:37
-msgid "Trashed files"
-msgstr "קבצים באשפה"
 
 #: src/Views/NightLightView.vala:22
 msgid ""

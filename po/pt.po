@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
 "PO-Revision-Date: 2021-11-17 16:19+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
@@ -104,7 +104,25 @@ msgstr "Abrir as Definições do Sistema…"
 msgid "Housekeeping"
 msgstr "Limpeza"
 
-#: src/Views/HouseKeepingView.vala:30
+#: src/Views/HouseKeepingView.vala:28
+msgid "Automatically Delete:"
+msgstr "Eliminar automaticamente:"
+
+#: src/Views/HouseKeepingView.vala:32
+msgid "Old temporary files"
+msgstr "Ficheiros temporários antigos"
+
+#: src/Views/HouseKeepingView.vala:42
+#, fuzzy
+#| msgid "Trashed files"
+msgid "Downloaded files"
+msgstr "Ficheiros no lixo"
+
+#: src/Views/HouseKeepingView.vala:52
+msgid "Trashed files"
+msgstr "Ficheiros no lixo"
+
+#: src/Views/HouseKeepingView.vala:70
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -112,18 +130,6 @@ msgid ""
 msgstr ""
 "Os ficheiros antigos podem ser eliminados automaticamente depois de %u dias "
 "para poupar espaço e ajudar a proteger a sua privacidade."
-
-#: src/Views/HouseKeepingView.vala:32
-msgid "Automatically Delete:"
-msgstr "Eliminar automaticamente:"
-
-#: src/Views/HouseKeepingView.vala:34
-msgid "Old temporary files"
-msgstr "Ficheiros temporários antigos"
-
-#: src/Views/HouseKeepingView.vala:37
-msgid "Trashed files"
-msgstr "Ficheiros no lixo"
 
 #: src/Views/NightLightView.vala:22
 msgid ""

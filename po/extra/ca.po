@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
-"PO-Revision-Date: 2021-07-16 10:41+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"PO-Revision-Date: 2021-11-21 15:05+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ca/>\n"
@@ -32,47 +32,52 @@ msgid "io.elementary.onboarding"
 msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
-msgid "Add style view"
-msgstr "Addició d'una vista d'estil"
+msgid "Redesign Housekeeping and add Downloads option"
+msgstr "Redisseny del manteniment i addició de l'opció de descàrregues"
 
-#: data/onboarding.appdata.xml.in:17
-msgid "Add Online Accounts view"
-msgstr "Addició d'una vista de comptes en línia"
-
-#: data/onboarding.appdata.xml.in:18
-msgid "Remove location services view"
-msgstr "Supressió de la vista dels serveis d'ubicació"
-
-#: data/onboarding.appdata.xml.in:19
-msgid "Mention Sideload and Flathub"
-msgstr "S'esmenten Sideload i Flathub"
-
-#: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
-#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:28
+#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:44
+#: data/onboarding.appdata.xml.in:54
 msgid "Updated translations"
 msgstr "Traduccions actualitzades"
 
+#: data/onboarding.appdata.xml.in:24
+msgid "Add style view"
+msgstr "Addició d'una vista d'estil"
+
+#: data/onboarding.appdata.xml.in:25
+msgid "Add Online Accounts view"
+msgstr "Addició d'una vista de comptes en línia"
+
+#: data/onboarding.appdata.xml.in:26
+msgid "Remove location services view"
+msgstr "Supressió de la vista dels serveis d'ubicació"
+
 #: data/onboarding.appdata.xml.in:27
+msgid "Mention Sideload and Flathub"
+msgstr "S'esmenten Sideload i Flathub"
+
+#: data/onboarding.appdata.xml.in:35
 msgid "Fix blurry icon in AppCenter"
 msgstr "Correcció de la icona borrosa del Centre d'aplicacions"
 
-#: data/onboarding.appdata.xml.in:35
+#: data/onboarding.appdata.xml.in:43
 msgid "New app icon"
 msgstr "Icona nova de l'aplicació"
 
-#: data/onboarding.appdata.xml.in:43
+#: data/onboarding.appdata.xml.in:51
 msgid "Navigate with (multi-)touch gestures"
 msgstr "Navegació amb tocs múltiples"
 
-#: data/onboarding.appdata.xml.in:44
+#: data/onboarding.appdata.xml.in:52
 msgid "Use new blog URL"
 msgstr "Ús de l'URL nou del blog"
 
-#: data/onboarding.appdata.xml.in:45
+#: data/onboarding.appdata.xml.in:53
 msgid "Fix errors when pressing the Skip button"
 msgstr "Correcció d'errors quan es prem el botó d'ometre"
 
-#: data/onboarding.appdata.xml.in:85
+#: data/onboarding.appdata.xml.in:93
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

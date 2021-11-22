@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
-"PO-Revision-Date: 2021-08-05 01:05+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"PO-Revision-Date: 2021-11-19 20:20+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding/nb/>\n"
@@ -80,10 +80,8 @@ msgid "Major Known Issues"
 msgstr "Store kjente feil"
 
 #: src/Views/EarlyAccessView.vala:39
-#, fuzzy
-#| msgid "Some features are missing or incomplete"
 msgid "Some features may be missing or incomplete"
-msgstr "Noen funksjoner mangler eller er ufullstendige"
+msgstr "Noen funksjoner kan mangle eller være ufullstendige"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -106,7 +104,23 @@ msgstr "Åpne systeminnstillinger…"
 msgid "Housekeeping"
 msgstr "Husrengjøring"
 
-#: src/Views/HouseKeepingView.vala:30
+#: src/Views/HouseKeepingView.vala:28
+msgid "Automatically Delete:"
+msgstr "Slett automatisk:"
+
+#: src/Views/HouseKeepingView.vala:32
+msgid "Old temporary files"
+msgstr "Gamle midlertidige filer"
+
+#: src/Views/HouseKeepingView.vala:42
+msgid "Downloaded files"
+msgstr "Nedlastede filer"
+
+#: src/Views/HouseKeepingView.vala:52
+msgid "Trashed files"
+msgstr "Filer i papirkurven"
+
+#: src/Views/HouseKeepingView.vala:70
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -114,18 +128,6 @@ msgid ""
 msgstr ""
 "Gamle filer kan slettes automatisk etter %u dager for å spare plass og som "
 "en ekstra omtanke for personvernet."
-
-#: src/Views/HouseKeepingView.vala:32
-msgid "Automatically Delete:"
-msgstr "Slett automatisk:"
-
-#: src/Views/HouseKeepingView.vala:34
-msgid "Old temporary files"
-msgstr "Gamle midlertidige filer"
-
-#: src/Views/HouseKeepingView.vala:37
-msgid "Trashed files"
-msgstr "Filer i papirkurven"
 
 #: src/Views/NightLightView.vala:22
 msgid ""

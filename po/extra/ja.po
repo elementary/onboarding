@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
-"PO-Revision-Date: 2021-07-15 12:48+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"PO-Revision-Date: 2021-11-21 05:58+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ja/>\n"
@@ -32,47 +32,52 @@ msgid "io.elementary.onboarding"
 msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
-msgid "Add style view"
-msgstr "視覚スタイルを設定できるように変更"
+msgid "Redesign Housekeeping and add Downloads option"
+msgstr "“自動削除”のデザインを変更し、“ダウンロード”フォルダーを削除できるオプションを追加"
 
-#: data/onboarding.appdata.xml.in:17
-msgid "Add Online Accounts view"
-msgstr "オンラインアカウントを追加できるように変更"
-
-#: data/onboarding.appdata.xml.in:18
-msgid "Remove location services view"
-msgstr "位置情報サービスを設定できるビューを削除"
-
-#: data/onboarding.appdata.xml.in:19
-msgid "Mention Sideload and Flathub"
-msgstr "アプリのインストール方法として、サイドロードと Flathub への言及を追加"
-
-#: data/onboarding.appdata.xml.in:20 data/onboarding.appdata.xml.in:28
-#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:28
+#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:44
+#: data/onboarding.appdata.xml.in:54
 msgid "Updated translations"
 msgstr "翻訳の更新"
 
+#: data/onboarding.appdata.xml.in:24
+msgid "Add style view"
+msgstr "視覚スタイルを設定できるように変更"
+
+#: data/onboarding.appdata.xml.in:25
+msgid "Add Online Accounts view"
+msgstr "オンラインアカウントを追加できるように変更"
+
+#: data/onboarding.appdata.xml.in:26
+msgid "Remove location services view"
+msgstr "位置情報サービスを設定できるビューを削除"
+
 #: data/onboarding.appdata.xml.in:27
+msgid "Mention Sideload and Flathub"
+msgstr "アプリのインストール方法として、サイドロードと Flathub への言及を追加"
+
+#: data/onboarding.appdata.xml.in:35
 msgid "Fix blurry icon in AppCenter"
 msgstr "AppCenter で表示されるアイコンが不明瞭な不具合を修正"
 
-#: data/onboarding.appdata.xml.in:35
+#: data/onboarding.appdata.xml.in:43
 msgid "New app icon"
 msgstr "新しいアプリのアイコン"
 
-#: data/onboarding.appdata.xml.in:43
+#: data/onboarding.appdata.xml.in:51
 msgid "Navigate with (multi-)touch gestures"
 msgstr "マルチタッチジェスチャーによる操作に対応"
 
-#: data/onboarding.appdata.xml.in:44
+#: data/onboarding.appdata.xml.in:52
 msgid "Use new blog URL"
 msgstr "ブログの URL を新しいものに変更"
 
-#: data/onboarding.appdata.xml.in:45
+#: data/onboarding.appdata.xml.in:53
 msgid "Fix errors when pressing the Skip button"
 msgstr "スキップボタン押下時のエラーを修正"
 
-#: data/onboarding.appdata.xml.in:85
+#: data/onboarding.appdata.xml.in:93
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

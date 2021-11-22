@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 21:31+0000\n"
+"POT-Creation-Date: 2021-11-19 16:02+0000\n"
 "PO-Revision-Date: 2019-08-26 21:22+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/installer/"
@@ -103,7 +103,27 @@ msgstr "Atverti sistemos nustatymus…"
 msgid "Housekeeping"
 msgstr "Namų ūkis"
 
-#: src/Views/HouseKeepingView.vala:30
+#: src/Views/HouseKeepingView.vala:28
+msgid "Automatically Delete:"
+msgstr "Automatiškai ištrinti:"
+
+#: src/Views/HouseKeepingView.vala:32
+#, fuzzy
+#| msgid "Temporary files"
+msgid "Old temporary files"
+msgstr "Laikinuosius failus"
+
+#: src/Views/HouseKeepingView.vala:42
+#, fuzzy
+#| msgid "Trashed files"
+msgid "Downloaded files"
+msgstr "Failus šiukšlinėje"
+
+#: src/Views/HouseKeepingView.vala:52
+msgid "Trashed files"
+msgstr "Failus šiukšlinėje"
+
+#: src/Views/HouseKeepingView.vala:70
 #, c-format
 msgid ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -111,20 +131,6 @@ msgid ""
 msgstr ""
 "Siekiant padėti apsaugoti jūsų privatumą ir taupyti vietą diske, seni failai "
 "gali būti automatiškai ištrinami po %u dienų."
-
-#: src/Views/HouseKeepingView.vala:32
-msgid "Automatically Delete:"
-msgstr "Automatiškai ištrinti:"
-
-#: src/Views/HouseKeepingView.vala:34
-#, fuzzy
-#| msgid "Temporary files"
-msgid "Old temporary files"
-msgstr "Laikinuosius failus"
-
-#: src/Views/HouseKeepingView.vala:37
-msgid "Trashed files"
-msgstr "Failus šiukšlinėje"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
