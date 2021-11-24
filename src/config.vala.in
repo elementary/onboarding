@@ -1,3 +1,5 @@
 namespace Onboarding {
     public const int MIN_UID = @MIN_UID@;
+    public const string GETTEXT_PACKAGE = @GETTEXT_PACKAGE@;
+    public const string LOCALEDIR = @LOCALEDIR@;
 }
