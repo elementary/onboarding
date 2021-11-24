@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 16:02+0000\n"
-"PO-Revision-Date: 2021-11-08 11:35+0000\n"
+"PO-Revision-Date: 2021-11-24 07:57+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
 "onboarding/fi/>\n"
@@ -112,10 +112,8 @@ msgid "Old temporary files"
 msgstr "Vanhat väliaikaiset tiedostot"
 
 #: src/Views/HouseKeepingView.vala:42
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Downloaded files"
-msgstr "Roskakorissa olevat tiedostot"
+msgstr "Ladatut tiedostot"
 
 #: src/Views/HouseKeepingView.vala:52
 msgid "Trashed files"
