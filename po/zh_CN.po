@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 16:02+0000\n"
-"PO-Revision-Date: 2021-11-01 08:19+0000\n"
+"PO-Revision-Date: 2021-11-26 04:57+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hans/>\n"
@@ -79,8 +79,6 @@ msgid "Major Known Issues"
 msgstr "主要已知问题"
 
 #: src/Views/EarlyAccessView.vala:39
-#, fuzzy
-#| msgid "Some features are missing or incomplete"
 msgid "Some features may be missing or incomplete"
 msgstr "某些功能暂时缺失或未完成"
 
@@ -112,10 +110,8 @@ msgid "Old temporary files"
 msgstr "旧的临时文件"
 
 #: src/Views/HouseKeepingView.vala:42
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Downloaded files"
-msgstr "回收站文件"
+msgstr "下载的文件"
 
 #: src/Views/HouseKeepingView.vala:52
 msgid "Trashed files"
