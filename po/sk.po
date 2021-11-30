@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 16:02+0000\n"
-"PO-Revision-Date: 2021-08-29 15:18+0000\n"
+"PO-Revision-Date: 2021-11-30 21:42+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
 "onboarding/sk/>\n"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr "Získať aplikácie"
+msgstr "Získajte aplikácie"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
@@ -80,10 +80,8 @@ msgid "Major Known Issues"
 msgstr "Dôležité známe problémy"
 
 #: src/Views/EarlyAccessView.vala:39
-#, fuzzy
-#| msgid "Some features are missing or incomplete"
 msgid "Some features may be missing or incomplete"
-msgstr "Niektoré funkcie chýbajú alebo nie sú dokončené"
+msgstr "Niektoré funkcie môžu chýbať alebo nie sú dokončené"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -115,10 +113,8 @@ msgid "Old temporary files"
 msgstr "Staré dočasné súbory"
 
 #: src/Views/HouseKeepingView.vala:42
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Downloaded files"
-msgstr "Súbory v koši"
+msgstr "Stiahnuté súbory"
 
 #: src/Views/HouseKeepingView.vala:52
 msgid "Trashed files"
@@ -191,43 +187,43 @@ msgstr "Tmavý"
 
 #: src/Views/StyleView.vala:158
 msgid "Blueberry"
-msgstr "Čučoriedka"
+msgstr "Čučoriedkový"
 
 #: src/Views/StyleView.vala:161
 msgid "Mint"
-msgstr "Mäta"
+msgstr "Mätový"
 
 #: src/Views/StyleView.vala:164
 msgid "Lime"
-msgstr "Limetka"
+msgstr "Limetkový"
 
 #: src/Views/StyleView.vala:167
 msgid "Banana"
-msgstr "Banán"
+msgstr "Banánový"
 
 #: src/Views/StyleView.vala:170
 msgid "Orange"
-msgstr "Pomaranč"
+msgstr "Pomarančový"
 
 #: src/Views/StyleView.vala:173
 msgid "Strawberry"
-msgstr "Jahoda"
+msgstr "Jahodový"
 
 #: src/Views/StyleView.vala:176
 msgid "Bubblegum"
-msgstr "Žuvačka"
+msgstr "Žuvačkový"
 
 #: src/Views/StyleView.vala:179
 msgid "Grape"
-msgstr "Hrozno"
+msgstr "Hroznový"
 
 #: src/Views/StyleView.vala:182
 msgid "Cocoa"
-msgstr "Kakao"
+msgstr "Kakaový"
 
 #: src/Views/StyleView.vala:185
 msgid "Slate"
-msgstr "Bridlica"
+msgstr "Bridlicový"
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
