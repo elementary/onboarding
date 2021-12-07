@@ -1,5 +1,5 @@
 /*-
- * Copyright 2014-2020 elementary, Inc. (https://elementary.io)
+ * Copyright 2014-2021 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,6 +16,7 @@
  *
  * Authored by: Corentin Noël <corentin@elementary.io>
  *              Marvin Beckers <beckersmarvin@gmail.com>
+ *              Marius Meisenzahl <mariusmeisenzahl@gmail.com>
  */
 
 public class Utils {
@@ -76,6 +77,22 @@ public class Utils {
             }
 
             return _logo_icon_name;
+        }
+    }
+
+    public static bool is_running_in_virtual_machine {
+        get {
+            try {
+                string contents;
+                if (FileUtils.get_contents ("/proc/cpuinfo", out contents)) {
+                    var regex = new Regex ("flags\\s*:.*(hypervisor)");
+                    return regex.match (contents);
+                }
+            } catch (Error e) {
+                warning ("Could not detect if running in Virtual Machine: %s", e.message);
+            }
+
+            return false;
         }
     }
 }
