@@ -51,6 +51,12 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
             carousel.add (early_access_view);
         }
 
+        // Always show Virtual Machine view in virtual environments
+        if (Utils.is_running_in_virtual_machine) {
+            var virtual_machine_view = new VirtualMachineView ();
+            carousel.add (virtual_machine_view);
+        }
+
         if ("finish" in viewed) {
             var update_view = new UpdateView ();
             carousel.add (update_view);
@@ -86,7 +92,7 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
 
             var view_name = ((AbstractOnboardingView) view).view_name;
 
-            if (view_name in viewed && (view_name != "update" && view_name != "early-access")) {
+            if (view_name in viewed && (view_name != "update" && view_name != "early-access" && view_name != "virtual-machine")) {
                 carousel.remove (view);
                 view.destroy ();
             }
