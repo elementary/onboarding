@@ -10,4 +10,5 @@ src/Views/NightLightView.vala
 src/Views/OnlineAccountsView.vala
 src/Views/StyleView.vala
 src/Views/UpdateView.vala
+src/Views/VirtualMachineView.vala
 src/Views/WelcomeView.vala
