@@ -15,6 +15,7 @@ vala_files = [
     'Views/OnlineAccountsView.vala',
     'Views/StyleView.vala',
     'Views/UpdateView.vala',
+    'Views/VirtualMachineView.vala',
     'Views/WelcomeView.vala',
 ]
 
