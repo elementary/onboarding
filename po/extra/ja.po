@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 16:02+0000\n"
-"PO-Revision-Date: 2021-11-21 05:58+0000\n"
+"PO-Revision-Date: 2021-12-20 15:45+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ja/>\n"
@@ -67,7 +67,7 @@ msgstr "新しいアプリのアイコン"
 
 #: data/onboarding.appdata.xml.in:51
 msgid "Navigate with (multi-)touch gestures"
-msgstr "マルチタッチジェスチャーによる操作に対応"
+msgstr "マルチタッチジェスチャーやタッチジェスチャーによる操作に対応"
 
 #: data/onboarding.appdata.xml.in:52
 msgid "Use new blog URL"
