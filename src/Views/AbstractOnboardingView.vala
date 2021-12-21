@@ -31,7 +31,8 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         };
 
         var badge = new Gtk.Image () {
-            halign = valign = Gtk.Align.END,
+            halign = Gtk.Align.END,
+            valign = Gtk.Align.END,
             icon_name = badge_name,
             pixel_size = 32
         };
