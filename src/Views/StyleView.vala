@@ -226,13 +226,13 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         });
     }
 
-    private class PrefersAccentColorButton : Gtk.RadioButton {
+    private class PrefersAccentColorButton : Gtk.CheckButton {
         public AccentColor color { get; construct; }
         public Pantheon.AccountsService? pantheon_act { get; construct; default = null; }
 
         private static GLib.Settings interface_settings;
 
-        public PrefersAccentColorButton (Pantheon.AccountsService? pantheon_act, AccentColor color, Gtk.RadioButton? group_member = null) {
+        public PrefersAccentColorButton (Pantheon.AccountsService? pantheon_act, AccentColor color, Gtk.CheckButton? group_member = null) {
             Object (
                 pantheon_act: pantheon_act,
                 color: color,

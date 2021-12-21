@@ -22,12 +22,12 @@
 public class Onboarding.PageChecker : Gtk.Button {
     public const double MIN_OPACITY = 0.4;
 
-    public unowned Hdy.Carousel carousel { get; construct; }
+    public unowned Adw.Carousel carousel { get; construct; }
     public unowned AbstractOnboardingView page { get; construct; }
 
     private int page_number;
 
-    public PageChecker (Hdy.Carousel carousel, AbstractOnboardingView page) {
+    public PageChecker (Adw.Carousel carousel, AbstractOnboardingView page) {
         Object (carousel: carousel, page: page);
     }
 

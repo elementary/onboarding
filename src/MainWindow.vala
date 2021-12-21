@@ -17,11 +17,11 @@
  * Authored by: Corentin Noël <corentin@elementary.io>
  */
 
-public class Onboarding.MainWindow : Hdy.ApplicationWindow {
+public class Onboarding.MainWindow : Adw.ApplicationWindow {
     public string[] viewed { get; set; }
     private static GLib.Settings settings;
 
-    private Hdy.Carousel carousel;
+    private Adw.Carousel carousel;
     private Gtk.SizeGroup buttons_group;
 
     public MainWindow () {
@@ -39,7 +39,7 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
     }
 
     construct {
-        carousel = new Hdy.Carousel ();
+        carousel = new Adw.Carousel ();
         carousel.expand = true;
         carousel.valign = Gtk.Align.CENTER;
 

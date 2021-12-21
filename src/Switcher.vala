@@ -18,7 +18,7 @@
 //
 
 public class Onboarding.Switcher : Gtk.Grid {
-    public Hdy.Carousel carousel { get; construct; }
+    public Adw.Carousel carousel { get; construct; }
     private bool has_enough_children {
         get {
             return get_children ().length () > 1;
@@ -37,7 +37,7 @@ public class Onboarding.Switcher : Gtk.Grid {
         carousel.add.connect_after (add_child);
     }
 
-    public Switcher (Hdy.Carousel carousel) {
+    public Switcher (Adw.Carousel carousel) {
         Object (
             carousel: carousel,
             halign: Gtk.Align.CENTER,
