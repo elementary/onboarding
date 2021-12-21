@@ -39,9 +39,10 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
     }
 
     construct {
-        carousel = new Hdy.Carousel ();
-        carousel.expand = true;
-        carousel.valign = Gtk.Align.CENTER;
+        carousel = new Hdy.Carousel () {
+            expand = true,
+            valign = Gtk.Align.CENTER
+        };
 
         viewed = settings.get_strv ("viewed");
 
@@ -102,13 +103,15 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
 
         var skip_button = new Gtk.Button.with_label (_("Skip All"));
 
-        var skip_revealer = new Gtk.Revealer ();
-        skip_revealer.reveal_child = true;
-        skip_revealer.transition_type = Gtk.RevealerTransitionType.NONE;
+        var skip_revealer = new Gtk.Revealer () {
+            reveal_child = true,
+            transition_type = Gtk.RevealerTransitionType.NONE
+        };
         skip_revealer.add (skip_button);
 
-        var switcher = new Switcher (carousel);
-        switcher.halign = Gtk.Align.CENTER;
+        var switcher = new Switcher (carousel) {
+            halign = Gtk.Align.CENTER
+        };
 
         var finish_label = new Gtk.Label (_("Get Started")) {
             opacity = 0
@@ -130,21 +133,23 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         buttons_group.add_widget (skip_revealer);
         buttons_group.add_widget (next_button);
 
-        var action_area = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL);
-        action_area.margin_start = action_area.margin_end = 10;
-        action_area.expand = true;
-        action_area.spacing = 6;
-        action_area.valign = Gtk.Align.END;
-        action_area.layout_style = Gtk.ButtonBoxStyle.EDGE;
+        var action_area = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL) {
+            margin_start = margin_end = 10,
+            expand = true,
+            spacing = 6,
+            valign = Gtk.Align.END,
+            layout_style = Gtk.ButtonBoxStyle.EDGE
+        };
         action_area.add (skip_revealer);
         action_area.add (switcher);
         action_area.add (next_button);
         action_area.set_child_non_homogeneous (switcher, true);
 
-        var grid = new Gtk.Grid ();
-        grid.margin_bottom = 10;
-        grid.orientation = Gtk.Orientation.VERTICAL;
-        grid.row_spacing = 24;
+        var grid = new Gtk.Grid () {
+            margin_bottom = 10,
+            orientation = Gtk.Orientation.VERTICAL,
+            row_spacing = 24
+        };
         grid.add (carousel);
         grid.add (action_area);
 
