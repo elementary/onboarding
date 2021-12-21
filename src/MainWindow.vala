@@ -134,7 +134,8 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         buttons_group.add_widget (next_button);
 
         var action_area = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL) {
-            margin_start = margin_end = 10,
+            margin_start = 10,
+            margin_end = 10,
             expand = true,
             spacing = 6,
             valign = Gtk.Align.END,
