@@ -60,8 +60,8 @@ public class Onboarding.Switcher : Gtk.Grid {
         }
     }
 
-    public override void show_all () {
-        base.show_all ();
+    public override void present () {
+        base.present ();
         if (!has_enough_children) {
             hide ();
         }

@@ -50,7 +50,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
     }
 
     private class ImageLinkButton : Gtk.LinkButton {
-        public string icon_name { get; construct; }
+        // public string icon_name { get; construct; }
         public string label_string { get; construct; }
 
         public ImageLinkButton (string uri, string label_string, string icon_name) {

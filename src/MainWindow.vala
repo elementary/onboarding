@@ -149,7 +149,7 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
         grid.add (action_area);
 
         add (grid);
-        show_all ();
+        present ();
 
         next_button.grab_focus ();
 
