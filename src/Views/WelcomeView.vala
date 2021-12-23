@@ -64,8 +64,9 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         construct {
             var image = new Gtk.Image.from_icon_name (icon_name, Gtk.IconSize.MENU);
 
-            var left_label = new Gtk.Label (label_string);
-            left_label.xalign = 0;
+            var left_label = new Gtk.Label (label_string) {
+                xalign = 0
+            };
 
             var grid = new Gtk.Grid ();
             grid.add (image);
