@@ -27,9 +27,9 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
     construct {
         var header_label = new Granite.HeaderLabel (_("Automatically Delete:"));
 
-        var temp_grid = new Gtk.Grid ();
-        temp_grid.add (new Gtk.Image.from_icon_name ("folder", Gtk.IconSize.LARGE_TOOLBAR));
-        temp_grid.add (new Gtk.Label (_("Old temporary files")));
+        var temp_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
+        temp_grid.pack_start (new Gtk.Image.from_icon_name ("folder", Gtk.IconSize.LARGE_TOOLBAR));
+        temp_grid.pack_start (new Gtk.Label (_("Old temporary files")));
 
         var temp_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
@@ -37,9 +37,9 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         };
         temp_check.add (temp_grid);
 
-        var download_grid = new Gtk.Grid ();
-        download_grid.add (new Gtk.Image.from_icon_name ("folder-download", Gtk.IconSize.LARGE_TOOLBAR));
-        download_grid.add (new Gtk.Label (_("Downloaded files")));
+        var download_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
+        download_grid.pack_start (new Gtk.Image.from_icon_name ("folder-download", Gtk.IconSize.LARGE_TOOLBAR));
+        download_grid.pack_start (new Gtk.Label (_("Downloaded files")));
 
         var download_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
@@ -47,9 +47,9 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         };
         download_check.add (download_grid);
 
-        var trash_grid = new Gtk.Grid ();
-        trash_grid.add (new Gtk.Image.from_icon_name ("user-trash-full", Gtk.IconSize.LARGE_TOOLBAR));
-        trash_grid.add (new Gtk.Label (_("Trashed files")));
+        var trash_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
+        trash_grid.pack_start (new Gtk.Image.from_icon_name ("user-trash-full", Gtk.IconSize.LARGE_TOOLBAR));
+        trash_grid.pack_start (new Gtk.Label (_("Trashed files")));
 
         var trash_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,

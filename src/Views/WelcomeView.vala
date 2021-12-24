@@ -68,9 +68,9 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
                 xalign = 0
             };
 
-            var grid = new Gtk.Grid ();
-            grid.add (image);
-            grid.add (left_label);
+            var grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
+            grid.pack_start (image);
+            grid.pack_start (left_label);
 
             add (grid);
         }

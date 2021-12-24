@@ -104,12 +104,12 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         var prefer_default_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-default.svg");
 
-        var prefer_default_card = new Gtk.Grid () {
+        var prefer_default_card = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
             margin = 6,
             margin_start = 12,
             margin_top = 0
         };
-        prefer_default_card.add (prefer_default_image);
+        prefer_default_card.pack_start (prefer_default_image);
 
         unowned Gtk.StyleContext prefer_default_card_context = prefer_default_card.get_style_context ();
         prefer_default_card_context.add_class (Granite.STYLE_CLASS_CARD);
@@ -130,12 +130,12 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         var prefer_dark_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-dark.svg");
 
-        var prefer_dark_card = new Gtk.Grid () {
+        var prefer_dark_card = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
             margin = 6,
             margin_start = 12,
             margin_top = 0
         };
-        prefer_dark_card.add (prefer_dark_image);
+        prefer_dark_card.pack_start (prefer_dark_image);
 
         unowned Gtk.StyleContext prefer_dark_card_context = prefer_dark_card.get_style_context ();
         prefer_dark_card_context.add_class (Granite.STYLE_CLASS_CARD);

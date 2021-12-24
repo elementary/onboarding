@@ -146,13 +146,11 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         action_area.add (next_button);
         action_area.set_child_non_homogeneous (switcher, true);
 
-        var grid = new Gtk.Grid () {
-            margin_bottom = 10,
-            orientation = Gtk.Orientation.VERTICAL,
-            row_spacing = 24
+        var grid = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {
+            margin_bottom = 10
         };
-        grid.add (carousel);
-        grid.add (action_area);
+        grid.pack_start (carousel);
+        grid.pack_start (action_area);
 
         add (grid);
         show_all ();
