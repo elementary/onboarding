@@ -59,7 +59,8 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         var header_area = new Gtk.Grid () {
             column_spacing = 12,
             halign = Gtk.Align.CENTER,
-            expand = true,
+            vexpand = true,
+            hexpand = true,
             row_spacing = 6,
             orientation = Gtk.Orientation.VERTICAL
         };
@@ -69,16 +70,19 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
 
         custom_bin = new Gtk.Grid () {
             column_spacing = 12,
-            expand = true,
+            vexpand = true,
+            hexpand = true,
             row_spacing = 6,
             halign = Gtk.Align.CENTER
         };
 
-        margin_start = margin_end = 10;
+        margin_start = 10;
+        margin_end = 10;
         margin_top = 22;
         orientation = Gtk.Orientation.VERTICAL;
         row_spacing = 24;
-        expand = true;
+        hexpand = true;
+        vexpand = true;
         add (header_area);
         add (custom_bin);
 
