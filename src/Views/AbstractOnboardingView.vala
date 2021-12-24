@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public abstract class AbstractOnboardingView : Gtk.Grid {
+public abstract class AbstractOnboardingView : Gtk.Box {
     public string view_name { get; construct; }
     public string description { get; set; }
     public string icon_name { get; construct; }
@@ -77,10 +77,10 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         margin_start = margin_end = 10;
         margin_top = 22;
         orientation = Gtk.Orientation.VERTICAL;
-        row_spacing = 24;
+        spacing = 24;
         expand = true;
-        add (header_area);
-        add (custom_bin);
+        pack_start (header_area);
+        pack_start (custom_bin);
 
         bind_property ("description", description_label, "label");
     }
