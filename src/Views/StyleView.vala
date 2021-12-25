@@ -116,17 +116,16 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_default_card_context.add_class (Granite.STYLE_CLASS_ROUNDED);
         prefer_default_card_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        var prefer_default_grid = new Gtk.Grid ();
-        prefer_default_grid.row_spacing = 6;
-        prefer_default_grid.attach (prefer_default_card, 0, 0);
-        prefer_default_grid.attach (new Gtk.Label (_("Default")), 0, 1);
+        var prefer_default_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 6);
+        prefer_default_box.pack_start (prefer_default_card);
+        prefer_default_box.pack_start (new Gtk.Label (_("Default")));
 
         var prefer_default_radio = new Gtk.RadioButton (null) {
             halign = Gtk.Align.END,
             hexpand = true
         };
         prefer_default_radio.get_style_context ().add_class ("image-button");
-        prefer_default_radio.add (prefer_default_grid);
+        prefer_default_radio.add (prefer_default_box);
 
         var prefer_dark_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-dark.svg");
 
@@ -187,26 +186,25 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         var auto_button = new PrefersAccentColorButton (pantheon_act, AccentColor.NO_PREFERENCE, blueberry_button);
         auto_button.tooltip_text = _("Automatic based on wallpaper");
 
-        var accent_grid = new Gtk.Grid () {
-            column_spacing = 6,
+        var accent_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
             halign = Gtk.Align.CENTER
         };
-        accent_grid.add (blueberry_button);
-        accent_grid.add (mint_button);
-        accent_grid.add (lime_button);
-        accent_grid.add (banana_button);
-        accent_grid.add (orange_button);
-        accent_grid.add (strawberry_button);
-        accent_grid.add (bubblegum_button);
-        accent_grid.add (grape_button);
-        accent_grid.add (cocoa_button);
-        accent_grid.add (slate_button);
-        accent_grid.add (auto_button);
+        accent_box.pack_start (blueberry_button);
+        accent_box.pack_start (mint_button);
+        accent_box.pack_start (lime_button);
+        accent_box.pack_start (banana_button);
+        accent_box.pack_start (orange_button);
+        accent_box.pack_start (strawberry_button);
+        accent_box.pack_start (bubblegum_button);
+        accent_box.pack_start (grape_button);
+        accent_box.pack_start (cocoa_button);
+        accent_box.pack_start (slate_button);
+        accent_box.pack_start (auto_button);
 
         custom_bin.row_spacing = 12;
         custom_bin.attach (prefer_default_radio, 0, 0);
         custom_bin.attach (prefer_dark_radio, 1, 0);
-        custom_bin.attach (accent_grid, 0, 1, 2);
+        custom_bin.attach (accent_box, 0, 1, 2);
 
         switch (pantheon_act.prefers_color_scheme) {
             case Granite.Settings.ColorScheme.DARK:
