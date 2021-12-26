@@ -40,7 +40,8 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
 
     construct {
         carousel = new Hdy.Carousel () {
-            expand = true,
+            hexpand = true,
+            vexpand = true,
             valign = Gtk.Align.CENTER
         };
 
@@ -133,18 +134,16 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
         buttons_group.add_widget (skip_revealer);
         buttons_group.add_widget (next_button);
 
-        var action_area = new Gtk.ButtonBox (Gtk.Orientation.HORIZONTAL) {
+        var action_area = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
             margin_start = 10,
             margin_end = 10,
-            expand = true,
-            spacing = 6,
-            valign = Gtk.Align.END,
-            layout_style = Gtk.ButtonBoxStyle.EDGE
+            hexpand = true,
+            vexpand = true,
+            valign = Gtk.Align.END
         };
-        action_area.add (skip_revealer);
-        action_area.add (switcher);
-        action_area.add (next_button);
-        action_area.set_child_non_homogeneous (switcher, true);
+        action_area.pack_start (skip_revealer, false);
+        action_area.pack_start (switcher);
+        action_area.pack_start (next_button, false);
 
         var grid = new Gtk.Grid () {
             margin_bottom = 10,
