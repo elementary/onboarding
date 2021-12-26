@@ -106,7 +106,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         var prefer_default_card = new Gtk.Grid () {
             margin_start = 12,
-            margin_top = 0,
             margin_end = 6,
             margin_bottom = 6
         };
@@ -133,7 +132,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         var prefer_dark_card = new Gtk.Grid () {
             margin_start = 12,
-            margin_top = 0,
             margin_end = 6,
             margin_bottom = 6
         };
