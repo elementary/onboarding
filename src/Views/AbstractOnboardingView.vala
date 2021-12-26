@@ -58,7 +58,8 @@ public abstract class AbstractOnboardingView : Gtk.Box {
 
         var header_area = new Gtk.Box (Gtk.Orientation.VERTICAL, 6) {
             halign = Gtk.Align.CENTER,
-            expand = true
+            vexpand = true,
+            hexpand = true
         };
         header_area.pack_start (overlay);
         header_area.pack_start (title_label);
@@ -66,16 +67,19 @@ public abstract class AbstractOnboardingView : Gtk.Box {
 
         custom_bin = new Gtk.Grid () {
             column_spacing = 12,
-            expand = true,
+            vexpand = true,
+            hexpand = true,
             row_spacing = 6,
             halign = Gtk.Align.CENTER
         };
 
-        margin_start = margin_end = 10;
+        margin_start = 10;
+        margin_end = 10;
         margin_top = 22;
         orientation = Gtk.Orientation.VERTICAL;
         spacing = 24;
-        expand = true;
+        hexpand = true;
+        vexpand = true;
         pack_start (header_area);
         pack_start (custom_bin);
 

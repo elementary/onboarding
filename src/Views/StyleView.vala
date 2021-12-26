@@ -105,9 +105,9 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         var prefer_default_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-default.svg");
 
         var prefer_default_card = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
-            margin = 6,
             margin_start = 12,
-            margin_top = 0
+            margin_end = 6,
+            margin_bottom = 6
         };
         prefer_default_card.pack_start (prefer_default_image);
 
@@ -130,9 +130,9 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         var prefer_dark_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-dark.svg");
 
         var prefer_dark_card = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
-            margin = 6,
             margin_start = 12,
-            margin_top = 0
+            margin_end = 6,
+            margin_bottom = 6
         };
         prefer_dark_card.pack_start (prefer_dark_image);
 
