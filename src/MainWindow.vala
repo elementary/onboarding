@@ -40,7 +40,8 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
 
     construct {
         carousel = new Hdy.Carousel () {
-            expand = true,
+            hexpand = true,
+            vexpand = true,
             valign = Gtk.Align.CENTER
         };
 
@@ -136,7 +137,8 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         var action_area = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
             margin_start = 10,
             margin_end = 10,
-            expand = true,
+            hexpand = true,
+            vexpand = true,
             valign = Gtk.Align.END
         };
         action_area.pack_start (skip_revealer, false);
