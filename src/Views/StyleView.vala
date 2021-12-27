@@ -102,14 +102,15 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             }
         }
 
-        var prefer_default_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-default.svg");
+        var prefer_default_image = new Gtk.Image.from_resource (
+            "/io/elementary/onboarding/appearance-default.svg");
 
         var prefer_default_card = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
             margin_start = 12,
             margin_end = 6,
             margin_bottom = 6
         };
-        prefer_default_card.pack_start (prefer_default_image);
+        prefer_default_card.pack_start (prefer_default_image, false);
 
         unowned Gtk.StyleContext prefer_default_card_context = prefer_default_card.get_style_context ();
         prefer_default_card_context.add_class (Granite.STYLE_CLASS_CARD);
@@ -117,8 +118,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_default_card_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_default_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 6);
-        prefer_default_box.pack_start (prefer_default_card);
-        prefer_default_box.pack_start (new Gtk.Label (_("Default")));
+        prefer_default_box.pack_start (prefer_default_card, false);
+        prefer_default_box.pack_start (new Gtk.Label (_("Default")), false);
 
         var prefer_default_radio = new Gtk.RadioButton (null) {
             halign = Gtk.Align.END,
@@ -134,7 +135,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             margin_end = 6,
             margin_bottom = 6
         };
-        prefer_dark_card.pack_start (prefer_dark_image);
+        prefer_dark_card.pack_start (prefer_dark_image, false);
 
         unowned Gtk.StyleContext prefer_dark_card_context = prefer_dark_card.get_style_context ();
         prefer_dark_card_context.add_class (Granite.STYLE_CLASS_CARD);
@@ -189,17 +190,17 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         var accent_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
             halign = Gtk.Align.CENTER
         };
-        accent_box.pack_start (blueberry_button);
-        accent_box.pack_start (mint_button);
-        accent_box.pack_start (lime_button);
-        accent_box.pack_start (banana_button);
-        accent_box.pack_start (orange_button);
-        accent_box.pack_start (strawberry_button);
-        accent_box.pack_start (bubblegum_button);
-        accent_box.pack_start (grape_button);
-        accent_box.pack_start (cocoa_button);
-        accent_box.pack_start (slate_button);
-        accent_box.pack_start (auto_button);
+        accent_box.pack_start (blueberry_button, false);
+        accent_box.pack_start (mint_button, false);
+        accent_box.pack_start (lime_button, false);
+        accent_box.pack_start (banana_button, false);
+        accent_box.pack_start (orange_button, false);
+        accent_box.pack_start (strawberry_button, false);
+        accent_box.pack_start (bubblegum_button, false);
+        accent_box.pack_start (grape_button, false);
+        accent_box.pack_start (cocoa_button, false);
+        accent_box.pack_start (slate_button, false);
+        accent_box.pack_start (auto_button, false);
 
         custom_bin.row_spacing = 12;
         custom_bin.attach (prefer_default_radio, 0, 0);

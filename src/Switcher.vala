@@ -51,7 +51,7 @@ public class Onboarding.Switcher : Gtk.Box {
         assert (widget is AbstractOnboardingView);
 
         var button = new PageChecker (carousel, (AbstractOnboardingView) widget);
-        pack_start (button);
+        pack_start (button, false);
     }
 
     public override void show () {

@@ -69,9 +69,10 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             };
 
             var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
-            box.pack_start (image);
-            box.pack_start (left_label);
+            box.pack_start (image, false);
+            box.pack_start (left_label, false);
 
+            halign = Gtk.Align.START;
             add (box);
         }
     }

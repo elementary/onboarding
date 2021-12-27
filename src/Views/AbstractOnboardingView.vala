@@ -61,9 +61,9 @@ public abstract class AbstractOnboardingView : Gtk.Box {
             vexpand = true,
             hexpand = true
         };
-        header_area.pack_start (overlay);
-        header_area.pack_start (title_label);
-        header_area.pack_start (description_label);
+        header_area.pack_start (overlay, false);
+        header_area.pack_start (title_label, false);
+        header_area.pack_start (description_label, false);
 
         custom_bin = new Gtk.Grid () {
             column_spacing = 12,
@@ -80,8 +80,8 @@ public abstract class AbstractOnboardingView : Gtk.Box {
         spacing = 24;
         hexpand = true;
         vexpand = true;
-        pack_start (header_area);
-        pack_start (custom_bin);
+        pack_start (header_area, false);
+        pack_start (custom_bin, false);
 
         bind_property ("description", description_label, "label");
     }

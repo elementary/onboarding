@@ -28,8 +28,8 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         var header_label = new Granite.HeaderLabel (_("Automatically Delete:"));
 
         var temp_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
-        temp_grid.pack_start (new Gtk.Image.from_icon_name ("folder", Gtk.IconSize.LARGE_TOOLBAR));
-        temp_grid.pack_start (new Gtk.Label (_("Old temporary files")));
+        temp_grid.pack_start (new Gtk.Image.from_icon_name ("folder", Gtk.IconSize.LARGE_TOOLBAR), false);
+        temp_grid.pack_start (new Gtk.Label (_("Old temporary files")), false);
 
         var temp_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
@@ -38,8 +38,9 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         temp_check.add (temp_grid);
 
         var download_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
-        download_grid.pack_start (new Gtk.Image.from_icon_name ("folder-download", Gtk.IconSize.LARGE_TOOLBAR));
-        download_grid.pack_start (new Gtk.Label (_("Downloaded files")));
+        download_grid.pack_start (new Gtk.Image.from_icon_name ("folder-download",
+            Gtk.IconSize.LARGE_TOOLBAR), false);
+        download_grid.pack_start (new Gtk.Label (_("Downloaded files")), false);
 
         var download_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
@@ -48,8 +49,9 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         download_check.add (download_grid);
 
         var trash_grid = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
-        trash_grid.pack_start (new Gtk.Image.from_icon_name ("user-trash-full", Gtk.IconSize.LARGE_TOOLBAR));
-        trash_grid.pack_start (new Gtk.Label (_("Trashed files")));
+        trash_grid.pack_start (new Gtk.Image.from_icon_name ("user-trash-full",
+            Gtk.IconSize.LARGE_TOOLBAR), false);
+        trash_grid.pack_start (new Gtk.Label (_("Trashed files")), false);
 
         var trash_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,

@@ -148,8 +148,8 @@ public class Onboarding.MainWindow : Hdy.ApplicationWindow {
         var grid = new Gtk.Box (Gtk.Orientation.VERTICAL, 24) {
             margin_bottom = 10
         };
-        grid.pack_start (carousel);
-        grid.pack_start (action_area);
+        grid.pack_start (carousel, false);
+        grid.pack_start (action_area, false);
 
         add (grid);
         show_all ();
