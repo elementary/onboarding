@@ -25,52 +25,64 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
     public Gtk.Grid custom_bin { get; private set; }
 
     construct {
-        var image = new Gtk.Image ();
-        image.icon_name = icon_name;
-        image.pixel_size = 64;
+        var image = new Gtk.Image () {
+            icon_name = icon_name,
+            pixel_size = 64
+        };
 
-        var badge = new Gtk.Image ();
-        badge.halign = badge.valign = Gtk.Align.END;
-        badge.icon_name = badge_name;
-        badge.pixel_size = 32;
+        var badge = new Gtk.Image () {
+            halign = Gtk.Align.END,
+            valign = Gtk.Align.END,
+            icon_name = badge_name,
+            pixel_size = 32
+        };
 
-        var overlay = new Gtk.Overlay ();
-        overlay.halign = Gtk.Align.CENTER;
+        var overlay = new Gtk.Overlay () {
+            halign = Gtk.Align.CENTER,
+        };
         overlay.add (image);
         overlay.add_overlay (badge);
 
-        var title_label = new Gtk.Label (title);
+        var title_label = new Gtk.Label (title) {
+            halign = Gtk.Align.CENTER
+        };
         title_label.get_style_context ().add_class (Granite.STYLE_CLASS_H2_LABEL);
-        title_label.halign = Gtk.Align.CENTER;
 
-        var description_label = new Gtk.Label (description);
-        description_label.halign = Gtk.Align.CENTER;
-        description_label.justify = Gtk.Justification.CENTER;
-        description_label.wrap = true;
-        description_label.max_width_chars = 50;
-        description_label.use_markup = true;
+        var description_label = new Gtk.Label (description) {
+            halign = Gtk.Align.CENTER,
+            justify = Gtk.Justification.CENTER,
+            wrap = true,
+            max_width_chars = 50,
+            use_markup = true
+        };
 
-        var header_area = new Gtk.Grid ();
-        header_area.column_spacing = 12;
-        header_area.halign = Gtk.Align.CENTER;
-        header_area.expand = true;
-        header_area.row_spacing = 6;
-        header_area.orientation = Gtk.Orientation.VERTICAL;
+        var header_area = new Gtk.Grid () {
+            column_spacing = 12,
+            halign = Gtk.Align.CENTER,
+            vexpand = true,
+            hexpand = true,
+            row_spacing = 6,
+            orientation = Gtk.Orientation.VERTICAL
+        };
         header_area.add (overlay);
         header_area.add (title_label);
         header_area.add (description_label);
 
-        custom_bin = new Gtk.Grid ();
-        custom_bin.column_spacing = 12;
-        custom_bin.expand = true;
-        custom_bin.row_spacing = 6;
-        custom_bin.halign = Gtk.Align.CENTER;
+        custom_bin = new Gtk.Grid () {
+            column_spacing = 12,
+            vexpand = true,
+            hexpand = true,
+            row_spacing = 6,
+            halign = Gtk.Align.CENTER
+        };
 
-        margin_start = margin_end = 10;
+        margin_start = 10;
+        margin_end = 10;
         margin_top = 22;
         orientation = Gtk.Orientation.VERTICAL;
         row_spacing = 24;
-        expand = true;
+        hexpand = true;
+        vexpand = true;
         add (header_area);
         add (custom_bin);
 
