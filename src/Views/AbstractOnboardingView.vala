@@ -64,9 +64,9 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
             row_spacing = 6,
             orientation = Gtk.Orientation.VERTICAL
         };
-        header_area.add (overlay);
-        header_area.add (title_label);
-        header_area.add (description_label);
+        header_area.attach (overlay, 0, 0);
+        header_area.attach (title_label, 0, 1);
+        header_area.attach (description_label, 0, 2);
 
         custom_bin = new Gtk.Grid () {
             column_spacing = 12,
@@ -79,12 +79,11 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         margin_start = 10;
         margin_end = 10;
         margin_top = 22;
-        orientation = Gtk.Orientation.VERTICAL;
         row_spacing = 24;
         hexpand = true;
         vexpand = true;
-        add (header_area);
-        add (custom_bin);
+        attach (header_area, 0, 0);
+        attach (custom_bin, 0, 1);
 
         bind_property ("description", description_label, "label");
     }

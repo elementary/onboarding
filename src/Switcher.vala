@@ -41,7 +41,6 @@ public class Onboarding.Switcher : Gtk.Grid {
         Object (
             carousel: carousel,
             halign: Gtk.Align.CENTER,
-            orientation: Gtk.Orientation.HORIZONTAL,
             can_focus: false
         );
     }
@@ -50,7 +49,7 @@ public class Onboarding.Switcher : Gtk.Grid {
         assert (widget is AbstractOnboardingView);
 
         var button = new PageChecker (carousel, (AbstractOnboardingView) widget);
-        add (button);
+        attach_next_to (button, null, Gtk.PositionType.RIGHT);
     }
 
     public override void show () {
