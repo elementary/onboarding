@@ -47,10 +47,9 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
         flatpak_note_context.add_class (Granite.STYLE_CLASS_SMALL_LABEL);
         flatpak_note_context.add_class (Gtk.STYLE_CLASS_DIM_LABEL);
 
-        custom_bin.orientation = Gtk.Orientation.VERTICAL;
         custom_bin.valign = Gtk.Align.FILL;
-        custom_bin.add (appcenter_button);
-        custom_bin.add (flatpak_note);
+        custom_bin.attach (appcenter_button, 0, 0);
+        custom_bin.attach (flatpak_note, 0, 1);
 
         appcenter_button.clicked.connect (() => {
             try {
