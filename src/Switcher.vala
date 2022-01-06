@@ -25,8 +25,6 @@ public class Onboarding.Switcher : Gtk.Grid {
         }
     }
 
-    public signal void on_carousel_changed ();
-
     construct {
         show_all ();
 
