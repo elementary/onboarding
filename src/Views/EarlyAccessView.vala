@@ -32,7 +32,9 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
     construct {
         var title_label = new Granite.HeaderLabel (_("Major Known Issues"));
 
-        var feature_icon = new Gtk.Image.from_icon_name ("preferences-other-symbolic", Gtk.IconSize.BUTTON);
+        var feature_icon = new Gtk.Image.from_icon_name ("preferences-other-symbolic") {
+            pixel_size = 16
+        };
         feature_icon.get_style_context ().add_class (Granite.STYLE_CLASS_ACCENT);
         feature_icon.get_style_context ().add_class ("slate");
 

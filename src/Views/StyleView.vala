@@ -121,7 +121,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_default_grid.attach (prefer_default_card, 0, 0);
         prefer_default_grid.attach (new Gtk.Label (_("Default")), 0, 1);
 
-        var prefer_default_radio = new Gtk.RadioButton (null) {
+        var prefer_default_radio = new Gtk.CheckButton () {
             halign = Gtk.Align.END,
             hexpand = true
         };
@@ -147,9 +147,10 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_dark_grid.attach (prefer_dark_card, 0, 0);
         prefer_dark_grid.attach (new Gtk.Label (_("Dark")), 0, 1);
 
-        var prefer_dark_radio = new Gtk.RadioButton.from_widget (prefer_default_radio) {
+        var prefer_dark_radio = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
-            hexpand = true
+            hexpand = true,
+            group = prefer_default_radio
         };
         prefer_dark_radio.get_style_context ().add_class ("image-button");
         prefer_dark_radio.add (prefer_dark_grid);

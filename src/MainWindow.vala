@@ -39,7 +39,7 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
     }
 
     construct {
-        carousel = new Hdy.Carousel () {
+        carousel = new Adw.Carousel () {
             hexpand = true,
             vexpand = true,
             valign = Gtk.Align.CENTER
@@ -50,40 +50,41 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
         // Always show Early Access view on pre-release builds
         if (Environment.get_os_info (GLib.OsInfoKey.VERSION).contains ("Early Access")) {
             var early_access_view = new EarlyAccessView ();
-            carousel.add (early_access_view);
+            carousel.append (early_access_view);
         }
 
         if ("finish" in viewed) {
             var update_view = new UpdateView ();
-            carousel.add (update_view);
+            carousel.append (update_view);
         } else {
             var welcome_view = new WelcomeView ();
-            carousel.add (welcome_view);
+            carousel.append (welcome_view);
         }
 
         var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
         if (interface_settings.get_string ("gtk-theme").has_prefix ("io.elementary.stylesheet.")) {
             var style_view = new StyleView ();
-            carousel.add (style_view);
+            carousel.append (style_view);
         }
 
         var night_light_view = new NightLightView ();
-        carousel.add (night_light_view);
+        carousel.append (night_light_view);
 
         var housekeeping_view = new HouseKeepingView ();
-        carousel.add (housekeeping_view);
+        carousel.append (housekeeping_view);
 
         var onlineaccounts_view = new OnlineAccountsView ();
-        carousel.add (onlineaccounts_view);
+        carousel.append (onlineaccounts_view);
 
         if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
             var appcenter_view = new AppCenterView ();
-            carousel.add (appcenter_view);
+            carousel.append (appcenter_view);
         }
 
         // Remove any viewed pages except the update and early access views
-        GLib.List<unowned Gtk.Widget> views = carousel.get_children ();
-        foreach (Gtk.Widget view in views) {
+        // GLib.List<unowned Gtk.Widget> views = carousel.get_children ();
+        for (var view_num = 0; view_num < carousel.get_n_pages (); view_num++) {
+            var view = carousel.get_nth_page (view_num);
             assert (view is AbstractOnboardingView);
 
             var view_name = ((AbstractOnboardingView) view).view_name;
@@ -95,20 +96,20 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
         }
 
         // Bail if there are no feature views
-        if (carousel.get_children ().length () < 2) {
+        if (carousel.get_n_pages () < 2) {
             GLib.Application.get_default ().quit ();
         }
 
         var finish_view = new FinishView ();
-        carousel.add (finish_view);
+        carousel.append (finish_view);
 
         var skip_button = new Gtk.Button.with_label (_("Skip All"));
 
         var skip_revealer = new Gtk.Revealer () {
             reveal_child = true,
-            transition_type = Gtk.RevealerTransitionType.NONE
+            transition_type = Gtk.RevealerTransitionType.NONE,
+            child = skip_button
         };
-        skip_revealer.add (skip_button);
 
         var switcher = new Switcher (carousel) {
             halign = Gtk.Align.CENTER
@@ -120,15 +121,16 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
 
         var next_label = new Gtk.Label (_("Next"));
 
-        var next_finish_overlay = new Gtk.Overlay ();
-        next_finish_overlay.add (finish_label);
+        var next_finish_overlay = new Gtk.Overlay () {
+            child = finish_label
+        };
         next_finish_overlay.add_overlay (next_label);
-        next_finish_overlay.set_overlay_pass_through (finish_label, true);
-        next_finish_overlay.set_overlay_pass_through (next_label, true);
+        // next_finish_overlay.set_overlay_pass_through (finish_label, true);
+        // next_finish_overlay.set_overlay_pass_through (next_label, true);
 
         var next_button = new Gtk.Button ();
-        next_button.get_style_context ().add_class (Gtk.STYLE_CLASS_SUGGESTED_ACTION);
-        next_button.add (next_finish_overlay);
+        next_button.get_style_context ().add_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+        next_finish_overlay.set_parent (next_button);
 
         buttons_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.BOTH);
         buttons_group.add_widget (skip_revealer);
@@ -141,9 +143,9 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
             vexpand = true,
             valign = Gtk.Align.END
         };
-        action_area.pack_start (skip_revealer, false);
-        action_area.pack_start (switcher);
-        action_area.pack_start (next_button, false);
+        action_area.append (skip_revealer);
+        action_area.append (switcher); // expand?
+        action_area.append (next_button);
 
         var grid = new Gtk.Grid () {
             margin_bottom = 10,
@@ -153,7 +155,7 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
         grid.add (carousel);
         grid.add (action_area);
 
-        add (grid);
+        child = grid;
         present ();
 
         next_button.grab_focus ();
@@ -177,17 +179,17 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
         });
 
         next_button.clicked.connect (() => {
-            GLib.List<unowned Gtk.Widget> current_views = carousel.get_children ();
             int index = (int) Math.round (carousel.position);
-            if (index < current_views.length () - 1) {
-                carousel.scroll_to (current_views.nth_data (index + 1));
+            if (index < carousel.get_n_pages () - 1) {
+                carousel.scroll_to (carousel.get_nth_page (index + 1));
             } else {
                 destroy ();
             }
         });
 
         skip_button.clicked.connect (() => {
-            foreach (Gtk.Widget view in carousel.get_children ()) {
+            for (var view_count = 0; view_count < carousel.get_n_pages (); view_count++) {
+                var view = carousel.get_nth_page (view_count);
                 assert (view is AbstractOnboardingView);
 
                 var view_name = ((AbstractOnboardingView) view).view_name;
@@ -211,7 +213,7 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
     private AbstractOnboardingView? get_visible_view () {
         var index = (int) Math.round (carousel.position);
 
-        var widget = carousel.get_children ().nth_data (index);
+        var widget = carousel.get_nth_page (index);
 
         if (!(widget is AbstractOnboardingView)) {
             return null;

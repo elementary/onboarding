@@ -39,8 +39,8 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
 
         var overlay = new Gtk.Overlay () {
             halign = Gtk.Align.CENTER,
+            child = image
         };
-        overlay.add (image);
         overlay.add_overlay (badge);
 
         var title_label = new Gtk.Label (title) {

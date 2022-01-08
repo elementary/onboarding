@@ -6,9 +6,9 @@
 ## Building, Testing, and Installation
 
 You'll need the following dependencies:
-* libgtk-3-dev
-* libgranite-dev
-* libhandy-1-dev >=0.80.0
+* libgtk-4-dev
+* libgranite-7-dev
+* libadwaita-1-dev
 * meson
 * valac
 

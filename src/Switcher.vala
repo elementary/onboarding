@@ -21,18 +21,19 @@ public class Onboarding.Switcher : Gtk.Grid {
     public Adw.Carousel carousel { get; construct; }
     private bool has_enough_children {
         get {
-            return get_children ().length () > 1;
+            return observe_children.get_n_items () > 1;
         }
     }
 
     construct {
         show_all ();
 
-        foreach (var child in carousel.get_children ()) {
+        for (var child_index = 0; child_index < carousel.get_n_pages (); child_index++) {
+            var child = carousel.get_nth_page (child_index);
             add_child (child);
         }
 
-        carousel.add.connect_after (add_child);
+        // carousel.add.connect_after (add_child);
     }
 
     public Switcher (Adw.Carousel carousel) {

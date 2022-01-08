@@ -35,7 +35,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
             halign = Gtk.Align.START,
             margin_start = 12
         };
-        temp_check.add (temp_grid);
+        temp_grid.set_parent (temp_check);
 
         var download_grid = new Gtk.Grid ();
         download_grid.add (new Gtk.Image.from_icon_name ("folder-download", Gtk.IconSize.LARGE_TOOLBAR));
@@ -45,7 +45,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
             halign = Gtk.Align.START,
             margin_start = 12
         };
-        download_check.add (download_grid);
+        download_grid.set_parent (download_check);
 
         var trash_grid = new Gtk.Grid ();
         trash_grid.add (new Gtk.Image.from_icon_name ("user-trash-full", Gtk.IconSize.LARGE_TOOLBAR));
@@ -56,7 +56,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
             margin_start = 12,
             margin_bottom = 18
         };
-        trash_check.add (trash_grid);
+        trash_grid.set_parent (trash_check);
 
         custom_bin.attach (header_label, 0, 0);
         custom_bin.attach (download_check, 0, 1);

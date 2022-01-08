@@ -18,7 +18,7 @@ cc = meson.get_compiler('c')
 gee_dep = dependency('gee-0.8')
 glib_dep = dependency('glib-2.0', version: '>=2.64.0')
 gobject_dep = dependency('gobject-2.0')
-# granite_dep = dependency('granite', version: '>=5.5.0')
+granite_dep = dependency('granite-7')
 gtk_dep = dependency('gtk4')
 posix_dep = meson.get_compiler('vala').find_library('posix')
 handy_dep = dependency('libadwaita-1')
@@ -28,7 +28,7 @@ dependencies = [
     gee_dep,
     glib_dep,
     gobject_dep,
-    # granite_dep,
+    granite_dep,
     gtk_dep,
     posix_dep,
     handy_dep,
