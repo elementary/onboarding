@@ -48,8 +48,14 @@ public class Onboarding.PageChecker : Gtk.Button {
         child = page_checked_image;
 
         tooltip_text = page.title;
-        // page_number = carousel.get_nth_page (page);
         update_opacity ();
+
+        for (var item_count = 0; item_count < carousel.observe_children ().get_n_items (); item_count++) {
+            if (carousel.get_nth_page (item_count) == page) {
+                page_number = item_count;
+                break;
+            }
+        }
 
         clicked.connect (() => {
             carousel.scroll_to (page);
