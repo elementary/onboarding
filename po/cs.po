@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 16:02+0000\n"
-"PO-Revision-Date: 2020-07-25 17:12+0000\n"
+"PO-Revision-Date: 2022-01-09 20:32+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
 "onboarding/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -54,17 +54,13 @@ msgstr "Prohlížet Centrum aplikací…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:37
-#, fuzzy, c-format
-#| msgid ""
-#| "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-#| "org'>Flathub</a>"
+#, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
 msgstr ""
-"Je také možné nahrát bokem aplikace z flatpak balíčků, např. z repozitáře  "
-"<a href='https://flathub.org'>Flathub</a>"
+"Je také možné nahrát bokem aplikace z flatpak balíčků, např. z repozitáře %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -72,18 +68,20 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"Tato testovací verze %s by neměla být využívána v produkci. Z této instalace "
+"pak <b>nebude možné přejít na stabilní vydání</b>."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "Sestavení pro raný přístup"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "Hlavní známé problémy"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Some features may be missing or incomplete"
-msgstr ""
+msgstr "Některé funkce mohou chybět nebo být neúplné"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -111,16 +109,12 @@ msgid "Automatically Delete:"
 msgstr "Automaticky mazat:"
 
 #: src/Views/HouseKeepingView.vala:32
-#, fuzzy
-#| msgid "Temporary files"
 msgid "Old temporary files"
-msgstr "Dočasné soubory"
+msgstr "Staré dočasné soubory"
 
 #: src/Views/HouseKeepingView.vala:42
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Downloaded files"
-msgstr "Soubory v koši"
+msgstr "Stažené soubory"
 
 #: src/Views/HouseKeepingView.vala:52
 msgid "Trashed files"
@@ -160,14 +154,16 @@ msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Použijte E-mail, Kalendář a Úkoly s existujícími online účty a "
+"synchronizujte e-maily, události a úkoly s tímto zařízením."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Online účty"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Připojit online účty…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
@@ -231,7 +227,7 @@ msgstr "Břidlicový"
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Automatické v závislosti na pozadí plochy"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
