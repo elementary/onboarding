@@ -17,7 +17,7 @@
  * Authored by: Corentin Noël <corentin@elementary.io>
  */
 
-public class Onboarding.MainWindow : Adw.ApplicationWindow {
+public class Onboarding.MainWindow : Gtk.ApplicationWindow {
     public string[] viewed { get; set; }
     private static GLib.Settings settings;
 
