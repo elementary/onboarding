@@ -110,11 +110,9 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             margin_bottom = 6
         };
         prefer_default_card.attach (prefer_default_image, 0, 0);
-
-        unowned Gtk.StyleContext prefer_default_card_context = prefer_default_card.get_style_context ();
-        prefer_default_card_context.add_class (Granite.STYLE_CLASS_CARD);
-        prefer_default_card_context.add_class (Granite.STYLE_CLASS_ROUNDED);
-        prefer_default_card_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        prefer_default_card.add_css_class (Granite.STYLE_CLASS_CARD);
+        prefer_default_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
+        prefer_default_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_default_grid = new Gtk.Grid ();
         prefer_default_grid.row_spacing = 6;
@@ -125,8 +123,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             halign = Gtk.Align.END,
             hexpand = true
         };
-        prefer_default_radio.get_style_context ().add_class ("image-button");
-        prefer_default_radio.add (prefer_default_grid);
+        prefer_default_radio.add_css_class ("image-button");
+        prefer_default_grid.set_parent (prefer_default_radio);
 
         var prefer_dark_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-dark.svg");
 
@@ -136,11 +134,9 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             margin_bottom = 6
         };
         prefer_dark_card.attach (prefer_dark_image, 0, 0);
-
-        unowned Gtk.StyleContext prefer_dark_card_context = prefer_dark_card.get_style_context ();
-        prefer_dark_card_context.add_class (Granite.STYLE_CLASS_CARD);
-        prefer_dark_card_context.add_class (Granite.STYLE_CLASS_ROUNDED);
-        prefer_dark_card_context.add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+        prefer_dark_card.add_css_class (Granite.STYLE_CLASS_CARD);
+        prefer_dark_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
+        prefer_dark_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_dark_grid = new Gtk.Grid ();
         prefer_dark_grid.row_spacing = 6;
@@ -152,8 +148,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             hexpand = true,
             group = prefer_default_radio
         };
-        prefer_dark_radio.get_style_context ().add_class ("image-button");
-        prefer_dark_radio.add (prefer_dark_grid);
+        prefer_dark_radio.add_css_class ("image-button");
+        prefer_dark_grid.set_parent (prefer_dark_radio);
 
         var blueberry_button = new PrefersAccentColorButton (pantheon_act, AccentColor.BLUE);
         blueberry_button.tooltip_text = _("Blueberry");
@@ -248,9 +244,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         }
 
         construct {
-            unowned Gtk.StyleContext context = get_style_context ();
-            context.add_class (Granite.STYLE_CLASS_COLOR_BUTTON);
-            context.add_class (color.to_string ());
+            add_css_class (Granite.STYLE_CLASS_COLOR_BUTTON);
+            add_css_class (color.to_string ());
 
             realize.connect (() => {
                 active = color == pantheon_act.prefers_accent_color;

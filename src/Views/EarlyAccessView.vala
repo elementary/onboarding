@@ -35,8 +35,8 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
         var feature_icon = new Gtk.Image.from_icon_name ("preferences-other-symbolic") {
             pixel_size = 16
         };
-        feature_icon.get_style_context ().add_class (Granite.STYLE_CLASS_ACCENT);
-        feature_icon.get_style_context ().add_class ("slate");
+        feature_icon.add_css_class (Granite.STYLE_CLASS_ACCENT);
+        feature_icon.add_css_class ("slate");
 
         var feature_label = new Gtk.Label (_("Some features may be missing or incomplete")) {
             xalign = 0

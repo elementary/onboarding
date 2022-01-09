@@ -49,9 +49,11 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         custom_bin.attach (getinvolved_link, 0, 2);
     }
 
-    private class ImageLinkButton : Gtk.LinkButton {
-        // public string icon_name { get; construct; }
+    private class ImageLinkButton : Gtk.Widget {
+        public string uri { get; construct; }
+        public string icon_name { get; construct; }
         public string label_string { get; construct; }
+        public Gtk.LinkButton link_button_widget { get; set; }
 
         public ImageLinkButton (string uri, string label_string, string icon_name) {
             Object (
@@ -59,6 +61,10 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
                 label_string: label_string,
                 icon_name: icon_name
             );
+        }
+
+        static construct {
+            set_layout_manager_type (typeof (Gtk.BinLayout));
         }
 
         construct {
@@ -74,7 +80,16 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             grid.attach (image, 0, 0);
             grid.attach (left_label, 1, 0);
 
-            child = grid;
+            link_button_widget = new Gtk.LinkButton.with_label (uri, label_string) {
+                icon_name = icon_name,
+                child = grid
+            };
+        }
+
+        ~ImageLinkButton () {
+            while (get_last_child () != null) {
+                get_last_child ().unparent ();
+            }
         }
     }
 }

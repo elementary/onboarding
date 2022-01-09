@@ -28,17 +28,17 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         var header_label = new Granite.HeaderLabel (_("Automatically Delete:"));
 
         var temp_grid = new Gtk.Grid ();
-        temp_grid.attach (new Gtk.Image.from_icon_name ("folder", Gtk.IconSize.LARGE_TOOLBAR), 0, 0);
+        temp_grid.attach (new Gtk.Image.from_icon_name ("folder") { pixel_size = 24}, 0, 0);
         temp_grid.attach (new Gtk.Label (_("Old temporary files")), 1, 0);
 
         var temp_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
-            margin_start = 12
+            margin_start = 12,
         };
         temp_grid.set_parent (temp_check);
 
         var download_grid = new Gtk.Grid ();
-        download_grid.attach (new Gtk.Image.from_icon_name ("folder-download", Gtk.IconSize.LARGE_TOOLBAR), 0, 0);
+        download_grid.attach (new Gtk.Image.from_icon_name ("folder-download") { pixel_size = 24}, 0, 0);
         download_grid.attach (new Gtk.Label (_("Downloaded files")), 1, 0);
 
         var download_check = new Gtk.CheckButton () {
@@ -48,7 +48,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         download_grid.set_parent (download_check);
 
         var trash_grid = new Gtk.Grid ();
-        trash_grid.attach (new Gtk.Image.from_icon_name ("user-trash-full", Gtk.IconSize.LARGE_TOOLBAR), 0, 0);
+        trash_grid.attach (new Gtk.Image.from_icon_name ("user-trash-full") { pixel_size = 24}, 0, 0);
         trash_grid.attach (new Gtk.Label (_("Trashed files")), 1, 0);
 
         var trash_check = new Gtk.CheckButton () {

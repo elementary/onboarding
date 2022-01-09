@@ -112,7 +112,8 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         };
 
         var switcher = new Switcher (carousel) {
-            halign = Gtk.Align.CENTER
+            halign = Gtk.Align.CENTER,
+            hexpand = true
         };
 
         var finish_label = new Gtk.Label (_("Get Started")) {
@@ -128,9 +129,10 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         // next_finish_overlay.set_overlay_pass_through (finish_label, true);
         // next_finish_overlay.set_overlay_pass_through (next_label, true);
 
-        var next_button = new Gtk.Button ();
-        next_button.get_style_context ().add_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
-        next_finish_overlay.set_parent (next_button);
+        var next_button = new Gtk.Button () {
+            child = next_finish_overlay
+        };
+        next_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
 
         buttons_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.BOTH);
         buttons_group.add_widget (skip_revealer);
@@ -155,6 +157,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         grid.attach (action_area, 0, 1);
 
         child = grid;
+        decorated = false;
         present ();
 
         next_button.grab_focus ();

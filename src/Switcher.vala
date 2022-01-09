@@ -22,12 +22,12 @@ public class Onboarding.Switcher : Gtk.Box {
     public Adw.Carousel carousel { get; construct; }
     private bool has_enough_children {
         get {
-            return observe_children.get_n_items () > 1;
+            return observe_children ().get_n_items () > 1;
         }
     }
 
     construct {
-        show_all ();
+        show ();
 
         for (var child_index = 0; child_index < carousel.get_n_pages (); child_index++) {
             var child = carousel.get_nth_page (child_index);
@@ -35,6 +35,10 @@ public class Onboarding.Switcher : Gtk.Box {
         }
 
         // carousel.add.connect_after (add_child);
+        var children_list = carousel.observe_children ();
+        children_list.items_changed.connect_after ((position) => {
+            add_child (carousel.get_nth_page (position));
+        });
     }
 
     public Switcher (Adw.Carousel carousel) {
@@ -51,21 +55,14 @@ public class Onboarding.Switcher : Gtk.Box {
         assert (widget is AbstractOnboardingView);
 
         var button = new PageChecker (carousel, (AbstractOnboardingView) widget);
-        pack_start (button, false, false);
+        append (button);
     }
 
     public override void show () {
-        base.show ();
         if (!has_enough_children) {
             hide ();
+        } else {
+            base.show ();
         }
-    }
-
-    public override void present () {
-        if (!has_enough_children) {
-            hide ();
-        }
-
-        base.present ();
     }
 }

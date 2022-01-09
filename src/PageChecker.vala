@@ -45,10 +45,10 @@ public class Onboarding.PageChecker : Gtk.Button {
         var page_checked_image = new Gtk.Image.from_icon_name ("pager-checked-symbolic") {
             pixel_size = 16
         };
-        page_checked_image.set_parent (this);
+        child = page_checked_image;
 
         tooltip_text = page.title;
-        page_number = carousel.get_nth_page (page);
+        // page_number = carousel.get_nth_page (page);
         update_opacity ();
 
         clicked.connect (() => {
