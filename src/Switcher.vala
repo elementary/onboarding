@@ -17,7 +17,8 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 
-public class Onboarding.Switcher : Gtk.Grid {
+
+public class Onboarding.Switcher : Gtk.Box {
     public Adw.Carousel carousel { get; construct; }
     private bool has_enough_children {
         get {
@@ -40,8 +41,9 @@ public class Onboarding.Switcher : Gtk.Grid {
         Object (
             carousel: carousel,
             halign: Gtk.Align.CENTER,
+            can_focus: false,
             orientation: Gtk.Orientation.HORIZONTAL,
-            can_focus: false
+            spacing: 0
         );
     }
 
@@ -49,7 +51,7 @@ public class Onboarding.Switcher : Gtk.Grid {
         assert (widget is AbstractOnboardingView);
 
         var button = new PageChecker (carousel, (AbstractOnboardingView) widget);
-        add (button);
+        pack_start (button, false, false);
     }
 
     public override void show () {

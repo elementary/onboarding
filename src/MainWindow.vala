@@ -149,11 +149,10 @@ public class Onboarding.MainWindow : Adw.ApplicationWindow {
 
         var grid = new Gtk.Grid () {
             margin_bottom = 10,
-            orientation = Gtk.Orientation.VERTICAL,
             row_spacing = 24
         };
-        grid.add (carousel);
-        grid.add (action_area);
+        grid.attach (carousel, 0, 0);
+        grid.attach (action_area, 0, 1);
 
         child = grid;
         present ();

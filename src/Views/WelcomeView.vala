@@ -71,8 +71,8 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             };
 
             var grid = new Gtk.Grid ();
-            grid.add (image);
-            grid.add (left_label);
+            grid.attach (image, 0, 0);
+            grid.attach (left_label, 1, 0);
 
             child = grid;
         }

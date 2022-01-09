@@ -109,7 +109,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             margin_end = 6,
             margin_bottom = 6
         };
-        prefer_default_card.add (prefer_default_image);
+        prefer_default_card.attach (prefer_default_image, 0, 0);
 
         unowned Gtk.StyleContext prefer_default_card_context = prefer_default_card.get_style_context ();
         prefer_default_card_context.add_class (Granite.STYLE_CLASS_CARD);
@@ -135,7 +135,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             margin_end = 6,
             margin_bottom = 6
         };
-        prefer_dark_card.add (prefer_dark_image);
+        prefer_dark_card.attach (prefer_dark_image, 0, 0);
 
         unowned Gtk.StyleContext prefer_dark_card_context = prefer_dark_card.get_style_context ();
         prefer_dark_card_context.add_class (Granite.STYLE_CLASS_CARD);
@@ -192,17 +192,17 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             column_spacing = 6,
             halign = Gtk.Align.CENTER
         };
-        accent_grid.add (blueberry_button);
-        accent_grid.add (mint_button);
-        accent_grid.add (lime_button);
-        accent_grid.add (banana_button);
-        accent_grid.add (orange_button);
-        accent_grid.add (strawberry_button);
-        accent_grid.add (bubblegum_button);
-        accent_grid.add (grape_button);
-        accent_grid.add (cocoa_button);
-        accent_grid.add (slate_button);
-        accent_grid.add (auto_button);
+        accent_grid.attach (blueberry_button, 0, 0);
+        accent_grid.attach (mint_button, 1, 0);
+        accent_grid.attach (lime_button, 2, 0);
+        accent_grid.attach (banana_button, 3, 0);
+        accent_grid.attach (orange_button, 4, 0);
+        accent_grid.attach (strawberry_button, 5, 0);
+        accent_grid.attach (bubblegum_button, 6, 0);
+        accent_grid.attach (grape_button, 7, 0);
+        accent_grid.attach (cocoa_button, 8, 0);
+        accent_grid.attach (slate_button, 9, 0);
+        accent_grid.attach (auto_button, 10, 0);
 
         custom_bin.row_spacing = 12;
         custom_bin.attach (prefer_default_radio, 0, 0);

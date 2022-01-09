@@ -53,6 +53,6 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
         list_grid.attach (feature_label, 1, 3);
 
         custom_bin.orientation = Gtk.Orientation.VERTICAL;
-        custom_bin.add (list_grid);
+        custom_bin.attach (list_grid, 0, 0);
     }
 }
