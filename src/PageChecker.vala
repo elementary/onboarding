@@ -38,9 +38,8 @@ public class Onboarding.PageChecker : Gtk.Button {
     }
 
     construct {
-        unowned Gtk.StyleContext style_context = get_style_context ();
-        style_context.add_class (Granite.STYLE_CLASS_FLAT);
-        style_context.add_class ("switcher");
+        add_css_class (Granite.STYLE_CLASS_FLAT);
+        add_css_class ("switcher");
 
         var page_checked_image = new Gtk.Image.from_icon_name ("pager-checked-symbolic") {
             pixel_size = 16
@@ -50,7 +49,7 @@ public class Onboarding.PageChecker : Gtk.Button {
         tooltip_text = page.title;
         update_opacity ();
 
-        for (var item_count = 0; item_count < carousel.observe_children ().get_n_items (); item_count++) {
+        for (var item_count = 0; item_count < carousel.get_n_pages (); item_count++) {
             if (carousel.get_nth_page (item_count) == page) {
                 page_number = item_count;
                 break;

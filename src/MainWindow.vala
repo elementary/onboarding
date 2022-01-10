@@ -112,8 +112,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         };
 
         var switcher = new Switcher (carousel) {
-            halign = Gtk.Align.CENTER,
-            hexpand = true
+            halign = Gtk.Align.CENTER
         };
 
         var finish_label = new Gtk.Label (_("Get Started")) {
@@ -146,7 +145,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             valign = Gtk.Align.END
         };
         action_area.append (skip_revealer);
-        action_area.append (switcher); // expand?
+        action_area.append (switcher);
         action_area.append (next_button);
 
         var grid = new Gtk.Grid () {

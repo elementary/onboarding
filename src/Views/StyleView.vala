@@ -114,16 +114,16 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_default_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
         prefer_default_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        var prefer_default_grid = new Gtk.Grid ();
-        prefer_default_grid.row_spacing = 6;
-        prefer_default_grid.attach (prefer_default_card, 0, 0);
-        prefer_default_grid.attach (new Gtk.Label (_("Default")), 0, 1);
-
         var prefer_default_radio = new Gtk.CheckButton () {
             halign = Gtk.Align.END,
             hexpand = true
         };
         prefer_default_radio.add_css_class ("image-button");
+
+        var prefer_default_grid = new Gtk.Grid ();
+        prefer_default_grid.row_spacing = 6;
+        prefer_default_grid.attach (prefer_default_card, 0, 0);
+        prefer_default_grid.attach (new Gtk.Label (_("Default")), 0, 1);
         prefer_default_grid.set_parent (prefer_default_radio);
 
         var prefer_dark_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-dark.svg");
@@ -138,17 +138,17 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_dark_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
         prefer_dark_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        var prefer_dark_grid = new Gtk.Grid ();
-        prefer_dark_grid.row_spacing = 6;
-        prefer_dark_grid.attach (prefer_dark_card, 0, 0);
-        prefer_dark_grid.attach (new Gtk.Label (_("Dark")), 0, 1);
-
         var prefer_dark_radio = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
             hexpand = true,
             group = prefer_default_radio
         };
         prefer_dark_radio.add_css_class ("image-button");
+
+        var prefer_dark_grid = new Gtk.Grid ();
+        prefer_dark_grid.row_spacing = 6;
+        prefer_dark_grid.attach (prefer_dark_card, 0, 0);
+        prefer_dark_grid.attach (new Gtk.Label (_("Dark")), 0, 1);
         prefer_dark_grid.set_parent (prefer_dark_radio);
 
         var blueberry_button = new PrefersAccentColorButton (pantheon_act, AccentColor.BLUE);
