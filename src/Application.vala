@@ -19,9 +19,14 @@
  */
 
 public class Onboarding.App : Gtk.Application {
+    public App () {
+        Object (
+            application_id: "io.elementary.installer",
+            flags: ApplicationFlags.FLAGS_NONE
+        );
+    }
+
     construct {
-        application_id = "io.elementary.installer";
-        flags = ApplicationFlags.FLAGS_NONE;
         Intl.setlocale (LocaleCategory.ALL, "");
         Intl.bindtextdomain (Onboarding.GETTEXT_PACKAGE, Onboarding.LOCALEDIR);
         Intl.bind_textdomain_codeset (Onboarding.GETTEXT_PACKAGE, "UTF-8");
