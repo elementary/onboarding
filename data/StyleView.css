@@ -17,11 +17,11 @@
 * Boston, MA 02110-1301 USA.
 */
 
-radiobutton .card {
+checkbutton .card {
     background-image:
         linear-gradient(
             to bottom,
-            alpha (@accent_color_300, 0.1),
-            alpha (@accent_color_500, 0.1)
+            alpha(@accent_color_300, 0.1),
+            alpha(@accent_color_500, 0.1)
         );
 }
