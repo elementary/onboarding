@@ -102,16 +102,10 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             }
         }
 
-        var prefer_default_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-default.svg");
-
-        var prefer_default_card = new Gtk.Grid () {
-            margin_start = 12,
-            margin_end = 6,
-            margin_bottom = 6
-        };
-        prefer_default_card.attach (prefer_default_image, 0, 0);
+        var prefer_default_card = new Gtk.Grid ();
         prefer_default_card.add_css_class (Granite.STYLE_CLASS_CARD);
         prefer_default_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
+        prefer_default_card.add_css_class ("prefer-default");
         prefer_default_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_default_radio = new Gtk.CheckButton () {
@@ -121,21 +115,14 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_default_radio.add_css_class ("image-button");
 
         var prefer_default_grid = new Gtk.Grid ();
-        prefer_default_grid.row_spacing = 6;
         prefer_default_grid.attach (prefer_default_card, 0, 0);
         prefer_default_grid.attach (new Gtk.Label (_("Default")), 0, 1);
         prefer_default_grid.set_parent (prefer_default_radio);
 
-        var prefer_dark_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-dark.svg");
-
-        var prefer_dark_card = new Gtk.Grid () {
-            margin_start = 12,
-            margin_end = 6,
-            margin_bottom = 6
-        };
-        prefer_dark_card.attach (prefer_dark_image, 0, 0);
+        var prefer_dark_card = new Gtk.Grid ();
         prefer_dark_card.add_css_class (Granite.STYLE_CLASS_CARD);
         prefer_dark_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
+        prefer_dark_card.add_css_class ("prefer-dark");
         prefer_dark_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_dark_radio = new Gtk.CheckButton () {
@@ -146,7 +133,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_dark_radio.add_css_class ("image-button");
 
         var prefer_dark_grid = new Gtk.Grid ();
-        prefer_dark_grid.row_spacing = 6;
         prefer_dark_grid.attach (prefer_dark_card, 0, 0);
         prefer_dark_grid.attach (new Gtk.Label (_("Dark")), 0, 1);
         prefer_dark_grid.set_parent (prefer_dark_radio);
