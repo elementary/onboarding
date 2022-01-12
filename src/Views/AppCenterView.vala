@@ -40,7 +40,6 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
             vexpand = true,
             wrap = true
         };
-        flatpak_note.remove_css_class ("link");
         flatpak_note.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
         flatpak_note.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
