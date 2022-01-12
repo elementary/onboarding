@@ -106,6 +106,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         var skip_button = new Gtk.Button.with_label (_("Skip All"));
 
         var skip_revealer = new Gtk.Revealer () {
+            overflow = Gtk.Overflow.VISIBLE,
             reveal_child = true,
             transition_type = Gtk.RevealerTransitionType.NONE,
             child = skip_button
