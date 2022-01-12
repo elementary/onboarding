@@ -27,16 +27,14 @@ public class Onboarding.Switcher : Gtk.Box {
     }
 
     construct {
-        show ();
 
         for (var child_index = 0; child_index < carousel.get_n_pages (); child_index++) {
             var child = carousel.get_nth_page (child_index);
             add_child (child);
         }
 
-        // carousel.add.connect_after (add_child);
-        var children_list = carousel.observe_children ();
-        children_list.items_changed.connect_after ((position) => {
+        var carousel_children_list = carousel.observe_children ();
+        carousel_children_list.items_changed.connect_after ((position) => {
             add_child (carousel.get_nth_page (position));
         });
     }
