@@ -113,7 +113,8 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         };
 
         var switcher = new Switcher (carousel) {
-            halign = Gtk.Align.CENTER
+            halign = Gtk.Align.CENTER,
+            hexpand = true
         };
 
         var finish_label = new Gtk.Label (_("Get Started")) {
