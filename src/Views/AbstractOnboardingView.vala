@@ -69,9 +69,9 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
 
         custom_bin = new Gtk.Grid () {
             column_spacing = 12,
-            vexpand = true,
             hexpand = true,
             row_spacing = 6,
+            vexpand = true,
             halign = Gtk.Align.CENTER
         };
 

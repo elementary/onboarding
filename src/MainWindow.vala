@@ -28,9 +28,9 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         Object (
             deletable: false,
             resizable: false,
-            icon_name: "system-os-installer",
+            icon_name: "io.elementary.onboarding",
             title: _("Set up %s").printf (Utils.os_name),
-            width_request: 560
+            width_request: 486
         );
     }
 
@@ -140,19 +140,16 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         buttons_group.add_widget (next_button);
 
         var action_area = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
-            margin_start = 10,
-            margin_end = 10,
-            hexpand = true,
             vexpand = true,
             valign = Gtk.Align.END
         };
+        action_area.add_css_class ("dialog-action-area");
         action_area.append (skip_revealer);
         action_area.append (switcher);
         action_area.append (next_button);
 
         var grid = new Gtk.Grid () {
-            margin_bottom = 10,
-            row_spacing = 24
+            row_spacing = 12
         };
         grid.attach (carousel, 0, 0);
         grid.attach (action_area, 0, 1);
@@ -162,6 +159,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             visible = false
         };
         set_titlebar (fake_title);
+        add_css_class ("dialog");
 
         next_button.grab_focus ();
 

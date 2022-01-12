@@ -38,13 +38,7 @@ public class Onboarding.PageChecker : Gtk.Button {
     }
 
     construct {
-        add_css_class (Granite.STYLE_CLASS_FLAT);
-        add_css_class ("switcher");
-
-        var page_checked_image = new Gtk.Image.from_icon_name ("pager-checked-symbolic") {
-            pixel_size = 16
-        };
-        child = page_checked_image;
+        icon_name = "pager-checked-symbolic";
 
         tooltip_text = page.title;
         for (var item_count = 0; item_count < carousel.get_n_pages (); item_count++) {

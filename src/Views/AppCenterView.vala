@@ -40,20 +40,16 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
             vexpand = true,
             wrap = true
         };
+        flatpak_note.remove_css_class ("link");
         flatpak_note.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
         flatpak_note.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
-        custom_bin.valign = Gtk.Align.FILL;
         custom_bin.attach (appcenter_button, 0, 0);
         custom_bin.attach (flatpak_note, 0, 1);
 
         appcenter_button.clicked.connect (() => {
             try {
-                var appcenter = AppInfo.create_from_commandline (
-                    "io.elementary.appcenter",
-                    "AppCenter",
-                    AppInfoCreateFlags.SUPPORTS_STARTUP_NOTIFICATION
-                );
+                var appcenter = new DesktopAppInfo ("io.elementary.appcenter");
                 appcenter.launch (null, null);
             } catch (Error e) {
                 critical (e.message);
