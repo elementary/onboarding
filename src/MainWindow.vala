@@ -83,8 +83,8 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
 
         // Remove any viewed pages except the update and early access views
         // GLib.List<unowned Gtk.Widget> views = carousel.get_children ();
-        for (var view_num = 0; view_num < carousel.get_n_pages (); view_num++) {
-            var view = carousel.get_nth_page (view_num);
+        for (var page_index = 0; page_index < carousel.get_n_pages (); page_index++) {
+            var view = carousel.get_nth_page (page_index);
             assert (view is AbstractOnboardingView);
 
             var view_name = ((AbstractOnboardingView) view).view_name;
