@@ -156,8 +156,10 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         grid.attach (action_area, 0, 1);
 
         child = grid;
-        decorated = false;
-        present ();
+        var fake_title = new Gtk.Label ("") {
+            visible = false
+        };
+        set_titlebar (fake_title);
 
         next_button.grab_focus ();
 
