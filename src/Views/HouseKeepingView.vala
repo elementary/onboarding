@@ -25,8 +25,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
     }
 
     construct {
-        // var header_label = new Granite.HeaderLabel (_("Automatically Delete:"));
-        var header_label = new Gtk.Label (_("Automatically Delete:"));
+        var header_label = new Granite.HeaderLabel (_("Automatically Delete:"));
 
         var temp_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,

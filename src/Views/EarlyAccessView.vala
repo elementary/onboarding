@@ -30,8 +30,7 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
     }
 
     construct {
-        // var title_label = new Granite.HeaderLabel (_("Major Known Issues"));
-        var title_label = new Gtk.Label (_("Major Known Issues"));
+        var title_label = new Granite.HeaderLabel (_("Major Known Issues"));
 
         var feature_icon = new Gtk.Image.from_icon_name ("preferences-other-symbolic") {
             pixel_size = 16
