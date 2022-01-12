@@ -61,38 +61,32 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             carousel.append (welcome_view);
         }
 
-        var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
-        if (interface_settings.get_string ("gtk-theme").has_prefix ("io.elementary.stylesheet.")) {
-            var style_view = new StyleView ();
-            carousel.append (style_view);
+        if (!("style" in viewed)) {
+            var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
+            if (interface_settings.get_string ("gtk-theme").has_prefix ("io.elementary.stylesheet.")) {
+                var style_view = new StyleView ();
+                carousel.append (style_view);
+            }
         }
 
-        var night_light_view = new NightLightView ();
-        carousel.append (night_light_view);
+        if (!("night-light" in viewed)) {
+            var night_light_view = new NightLightView ();
+            carousel.append (night_light_view);
+        }
 
-        var housekeeping_view = new HouseKeepingView ();
-        carousel.append (housekeeping_view);
+        if (!("housekeeping" in viewed)) {
+            var housekeeping_view = new HouseKeepingView ();
+            carousel.append (housekeeping_view);
+        }
 
-        var onlineaccounts_view = new OnlineAccountsView ();
-        carousel.append (onlineaccounts_view);
+        if (!("onlineaccounts" in viewed)) {
+            var onlineaccounts_view = new OnlineAccountsView ();
+            carousel.append (onlineaccounts_view);
+        }
 
-        if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
+        if (!("appcenter" in viewed) && Environment.find_program_in_path ("io.elementary.appcenter") != null) {
             var appcenter_view = new AppCenterView ();
             carousel.append (appcenter_view);
-        }
-
-        // Remove any viewed pages except the update and early access views
-        // GLib.List<unowned Gtk.Widget> views = carousel.get_children ();
-        for (var page_index = 0; page_index < carousel.get_n_pages (); page_index++) {
-            var view = carousel.get_nth_page (page_index);
-            assert (view is AbstractOnboardingView);
-
-            var view_name = ((AbstractOnboardingView) view).view_name;
-
-            if (view_name in viewed && (view_name != "update" && view_name != "early-access")) {
-                carousel.remove (view);
-                view.destroy ();
-            }
         }
 
         // Bail if there are no feature views

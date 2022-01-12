@@ -85,5 +85,9 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
         attach (custom_bin, 0, 1);
 
         bind_property ("description", description_label, "label");
+
+        realize.connect (() => {
+            description_label.remove_css_class ("link");
+        });
     }
 }
