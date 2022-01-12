@@ -102,7 +102,10 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             }
         }
 
-        var prefer_default_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-default.svg");
+        var prefer_default_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-default.svg") {
+            width_request = 86,
+            height_request = 64
+        };
 
         var prefer_default_card = new Gtk.Grid () {
             margin_start = 12,
@@ -126,7 +129,10 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_default_grid.attach (new Gtk.Label (_("Default")), 0, 1);
         prefer_default_grid.set_parent (prefer_default_radio);
 
-        var prefer_dark_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-dark.svg");
+        var prefer_dark_image = new Gtk.Image.from_resource ("/io/elementary/onboarding/appearance-dark.svg") {
+            width_request = 86,
+            height_request = 64
+        };
 
         var prefer_dark_card = new Gtk.Grid () {
             margin_start = 12,

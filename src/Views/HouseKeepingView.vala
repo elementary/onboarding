@@ -33,7 +33,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         };
 
         var temp_grid = new Gtk.Grid ();
-        temp_grid.attach (new Gtk.Image.from_icon_name ("folder") { pixel_size = 24}, 0, 0);
+        temp_grid.attach (new Gtk.Image.from_icon_name ("folder") { pixel_size = 24 }, 0, 0);
         temp_grid.attach (new Gtk.Label (_("Old temporary files")), 1, 0);
         temp_grid.set_parent (temp_check);
 
@@ -43,7 +43,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         };
 
         var download_grid = new Gtk.Grid ();
-        download_grid.attach (new Gtk.Image.from_icon_name ("folder-download") { pixel_size = 24}, 0, 0);
+        download_grid.attach (new Gtk.Image.from_icon_name ("folder-download") { pixel_size = 24 }, 0, 0);
         download_grid.attach (new Gtk.Label (_("Downloaded files")), 1, 0);
         download_grid.set_parent (download_check);
 
@@ -54,7 +54,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         };
 
         var trash_grid = new Gtk.Grid ();
-        trash_grid.attach (new Gtk.Image.from_icon_name ("user-trash-full") { pixel_size = 24}, 0, 0);
+        trash_grid.attach (new Gtk.Image.from_icon_name ("user-trash-full") { pixel_size = 24 }, 0, 0);
         trash_grid.attach (new Gtk.Label (_("Trashed files")), 1, 0);
         trash_grid.set_parent (trash_check);
 

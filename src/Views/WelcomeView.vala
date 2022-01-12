@@ -84,6 +84,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
                 icon_name = icon_name,
                 child = grid
             };
+            link_button_widget.set_parent (this);
         }
 
         ~ImageLinkButton () {
