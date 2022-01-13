@@ -48,7 +48,7 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
 
         appcenter_button.clicked.connect (() => {
             try {
-                var appcenter = new DesktopAppInfo ("io.elementary.appcenter");
+                var appcenter = new DesktopAppInfo ("io.elementary.appcenter.desktop");
                 appcenter.launch (null, null);
             } catch (Error e) {
                 critical (e.message);
