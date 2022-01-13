@@ -121,8 +121,6 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             child = finish_label
         };
         next_finish_overlay.add_overlay (next_label);
-        // next_finish_overlay.set_overlay_pass_through (finish_label, true);
-        // next_finish_overlay.set_overlay_pass_through (next_label, true);
 
         var next_button = new Gtk.Button () {
             child = next_finish_overlay

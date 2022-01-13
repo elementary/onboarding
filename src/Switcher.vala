@@ -55,12 +55,4 @@ public class Onboarding.Switcher : Gtk.Box {
         var button = new PageChecker (carousel, (AbstractOnboardingView) widget);
         append (button);
     }
-
-    public override void show () {
-        if (!has_enough_children) {
-            hide ();
-        } else {
-            base.show ();
-        }
-    }
 }
