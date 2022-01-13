@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 16:02+0000\n"
-"PO-Revision-Date: 2020-09-20 09:14+0000\n"
-"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
+"PO-Revision-Date: 2022-01-14 00:24+0000\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding/nl/>\n"
 "Language: nl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -41,9 +41,9 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"Download de toepassingen die u nodig heeft via AppCenter. Beheerde apps zijn "
-"gemaakt voor het elementary besturingssysteem en zijn beoordeeld door het "
-"team van elementary."
+"Download de toepassingen die u nodig heeft via AppCenter. Gecureerde apps "
+"zijn gemaakt voor het elementary besturingssysteem en zijn beoordeeld door "
+"het team van elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -55,17 +55,12 @@ msgstr "AppCenter doorbladeren…"
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:37
-#, fuzzy, c-format
-#| msgid ""
-#| "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-#| "org'>Flathub</a>"
+#, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
-"U kunt ook Flatpaktoepassingen  installeren, bijvoorbeeld via <a "
-"href='https://flathub.org'>Flathub</a>"
+msgstr "U kunt ook Flatpak-applicaties installeren bijvoorbeeld vanaf %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -73,18 +68,21 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"Deze pre-release versie van %s is niet geschikt voor gebruik in een "
+"productie omgeving. <b>Het zal niet mogelijk zijn om naar de toekomstige "
+"stabiele uitgave te upgraden</b> vanaf deze installatie."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "Vroegtijdige Toegang"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "Significante Bekende Problemen"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Some features may be missing or incomplete"
-msgstr ""
+msgstr "Sommige functionaliteit zou kunnen missen of is misschien incompleet"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -116,10 +114,8 @@ msgid "Old temporary files"
 msgstr "Oude tijdelijke bestanden"
 
 #: src/Views/HouseKeepingView.vala:42
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Downloaded files"
-msgstr "Bestanden in de prullenbak"
+msgstr "Gedownloade bestanden"
 
 #: src/Views/HouseKeepingView.vala:52
 msgid "Trashed files"
@@ -159,14 +155,16 @@ msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Gebruik Mail, Kalender, en Taken in combinatie met een online account om "
+"mail, gebeurtenissen, en taken te synchroniseren met dit apparaat."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Online Accounts"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Verbind Online Accounts…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
@@ -230,7 +228,7 @@ msgstr "Leisteen"
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Automatisch gebaseerd op achtergrond"
 
 #: src/Views/UpdateView.vala:22
 msgid ""
