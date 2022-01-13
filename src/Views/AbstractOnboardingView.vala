@@ -39,14 +39,14 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
 
         var overlay = new Gtk.Overlay () {
             halign = Gtk.Align.CENTER,
+            child = image
         };
-        overlay.add (image);
         overlay.add_overlay (badge);
 
         var title_label = new Gtk.Label (title) {
             halign = Gtk.Align.CENTER
         };
-        title_label.get_style_context ().add_class (Granite.STYLE_CLASS_H2_LABEL);
+        title_label.add_css_class (Granite.STYLE_CLASS_H2_LABEL);
 
         var description_label = new Gtk.Label (description) {
             halign = Gtk.Align.CENTER,
@@ -69,9 +69,9 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
 
         custom_bin = new Gtk.Grid () {
             column_spacing = 12,
-            vexpand = true,
             hexpand = true,
             row_spacing = 6,
+            vexpand = true,
             halign = Gtk.Align.CENTER
         };
 

@@ -36,7 +36,7 @@ public class Onboarding.App : Gtk.Application {
         var window = new MainWindow () {
             application = this
         };
-        window.show_all ();
+        window.present ();
     }
 }
 

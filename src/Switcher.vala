@@ -17,25 +17,29 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //
 
+
 public class Onboarding.Switcher : Gtk.Box {
-    public Hdy.Carousel carousel { get; construct; }
+    public Adw.Carousel carousel { get; construct; }
     private bool has_enough_children {
         get {
-            return get_children ().length () > 1;
+            return observe_children ().get_n_items () > 1;
         }
     }
 
     construct {
-        show_all ();
 
-        foreach (var child in carousel.get_children ()) {
+        for (var child_index = 0; child_index < carousel.get_n_pages (); child_index++) {
+            var child = carousel.get_nth_page (child_index);
             add_child (child);
         }
 
-        carousel.add.connect_after (add_child);
+        var carousel_children_list = carousel.observe_children ();
+        carousel_children_list.items_changed.connect_after ((position) => {
+            add_child (carousel.get_nth_page (position));
+        });
     }
 
-    public Switcher (Hdy.Carousel carousel) {
+    public Switcher (Adw.Carousel carousel) {
         Object (
             carousel: carousel,
             halign: Gtk.Align.CENTER,
@@ -49,20 +53,6 @@ public class Onboarding.Switcher : Gtk.Box {
         assert (widget is AbstractOnboardingView);
 
         var button = new PageChecker (carousel, (AbstractOnboardingView) widget);
-        pack_start (button, false, false);
-    }
-
-    public override void show () {
-        base.show ();
-        if (!has_enough_children) {
-            hide ();
-        }
-    }
-
-    public override void show_all () {
-        base.show_all ();
-        if (!has_enough_children) {
-            hide ();
-        }
+        append (button);
     }
 }

@@ -22,12 +22,12 @@
 public class Onboarding.PageChecker : Gtk.Button {
     public const double MIN_OPACITY = 0.4;
 
-    public unowned Hdy.Carousel carousel { get; construct; }
+    public unowned Adw.Carousel carousel { get; construct; }
     public unowned AbstractOnboardingView page { get; construct; }
 
     private int page_number;
 
-    public PageChecker (Hdy.Carousel carousel, AbstractOnboardingView page) {
+    public PageChecker (Adw.Carousel carousel, AbstractOnboardingView page) {
         Object (carousel: carousel, page: page);
     }
 
@@ -38,14 +38,16 @@ public class Onboarding.PageChecker : Gtk.Button {
     }
 
     construct {
-        unowned Gtk.StyleContext style_context = get_style_context ();
-        style_context.add_class (Gtk.STYLE_CLASS_FLAT);
-        style_context.add_class ("switcher");
-
-        add (new Gtk.Image.from_icon_name ("pager-checked-symbolic", Gtk.IconSize.MENU));
+        icon_name = "pager-checked-symbolic";
 
         tooltip_text = page.title;
-        page_number = carousel.get_children ().index (page);
+        for (var item_count = 0; item_count < carousel.get_n_pages (); item_count++) {
+            if (carousel.get_nth_page (item_count) == page) {
+                page_number = item_count;
+                break;
+            }
+        }
+
         update_opacity ();
 
         clicked.connect (() => {
