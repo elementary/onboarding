@@ -31,7 +31,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             icon_name: "io.elementary.onboarding",
             title: _("Set up %s").printf (Utils.os_name),
             width_request: 486,
-            default_height: 393
+            height_request: 393
         );
     }
 
