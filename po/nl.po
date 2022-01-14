@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 16:02+0000\n"
-"PO-Revision-Date: 2022-01-14 00:24+0000\n"
+"PO-Revision-Date: 2022-01-14 20:16+0000\n"
 "Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding/nl/>\n"
@@ -74,11 +74,11 @@ msgstr ""
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr "Vroegtijdige Toegang"
+msgstr "Vroegtijdige toegang"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr "Significante Bekende Problemen"
+msgstr "Significante bekende problemen"
 
 #: src/Views/EarlyAccessView.vala:39
 msgid "Some features may be missing or incomplete"
@@ -99,7 +99,7 @@ msgstr "Klaar om te starten"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr "Open Systeem instellingen…"
+msgstr "Open Systeeminstellingen…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
@@ -160,11 +160,11 @@ msgstr ""
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr "Online Accounts"
+msgstr "Online accounts"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr "Verbind Online Accounts…"
+msgstr "Verbind online accounts…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
@@ -212,7 +212,7 @@ msgstr "Aardbei"
 
 #: src/Views/StyleView.vala:176
 msgid "Bubblegum"
-msgstr "Kauwgum"
+msgstr "Kauwgom"
 
 #: src/Views/StyleView.vala:179
 msgid "Grape"
