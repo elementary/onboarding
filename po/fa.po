@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-11-19 16:02+0000\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-14 23:02+0000\n"
+"Last-Translator: Pikhosh <pikhosh@gmail.com>\n"
+"Language-Team: Persian <https://l10n.elementary.io/projects/installer/"
+"onboarding/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -31,7 +34,7 @@ msgstr ""
 
 #: src/MainWindow.vala:117
 msgid "Next"
-msgstr ""
+msgstr "بعدی"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
@@ -49,7 +52,7 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:35
 msgid "Flathub"
-msgstr ""
+msgstr "فلت هاب"
 
 #: src/Views/AppCenterView.vala:37
 #, c-format
@@ -88,7 +91,7 @@ msgstr ""
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "باز کردن تنظیمات سیستم…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
@@ -104,7 +107,7 @@ msgstr ""
 
 #: src/Views/HouseKeepingView.vala:42
 msgid "Downloaded files"
-msgstr ""
+msgstr "فایل های دانلود شده"
 
 #: src/Views/HouseKeepingView.vala:52
 msgid "Trashed files"
@@ -143,11 +146,11 @@ msgstr ""
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "حساب های آنلاین"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "اتصال حساب های آنلاین…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
@@ -161,51 +164,51 @@ msgstr ""
 
 #: src/Views/StyleView.vala:122
 msgid "Default"
-msgstr ""
+msgstr "پیشفرض"
 
 #: src/Views/StyleView.vala:148
 msgid "Dark"
-msgstr ""
+msgstr "تاریک"
 
 #: src/Views/StyleView.vala:158
 msgid "Blueberry"
-msgstr ""
+msgstr "زغال اخته آبی"
 
 #: src/Views/StyleView.vala:161
 msgid "Mint"
-msgstr ""
+msgstr "نعناع"
 
 #: src/Views/StyleView.vala:164
 msgid "Lime"
-msgstr ""
+msgstr "لیمو ترش"
 
 #: src/Views/StyleView.vala:167
 msgid "Banana"
-msgstr ""
+msgstr "موز"
 
 #: src/Views/StyleView.vala:170
 msgid "Orange"
-msgstr ""
+msgstr "پرتقال"
 
 #: src/Views/StyleView.vala:173
 msgid "Strawberry"
-msgstr ""
+msgstr "توت فرنگی"
 
 #: src/Views/StyleView.vala:176
 msgid "Bubblegum"
-msgstr ""
+msgstr "آدامس بادکنکی"
 
 #: src/Views/StyleView.vala:179
 msgid "Grape"
-msgstr ""
+msgstr "انگور"
 
 #: src/Views/StyleView.vala:182
 msgid "Cocoa"
-msgstr ""
+msgstr "کاکائو"
 
 #: src/Views/StyleView.vala:185
 msgid "Slate"
-msgstr ""
+msgstr "سنگ لوح"
 
 #: src/Views/StyleView.vala:188
 msgid "Automatic based on wallpaper"
@@ -219,7 +222,7 @@ msgstr ""
 
 #: src/Views/UpdateView.vala:25
 msgid "What’s New"
-msgstr ""
+msgstr "موارد جدید"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -231,7 +234,7 @@ msgstr ""
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "خوش آمدید به %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
