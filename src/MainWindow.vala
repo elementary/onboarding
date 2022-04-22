@@ -176,7 +176,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         next_button.clicked.connect (() => {
             int index = (int) Math.round (carousel.position);
             if (index < carousel.get_n_pages () - 1) {
-                carousel.scroll_to (carousel.get_nth_page (index + 1));
+                carousel.scroll_to (carousel.get_nth_page (index + 1), true);
             } else {
                 destroy ();
             }
@@ -192,7 +192,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
                 mark_viewed (view_name);
             }
 
-            carousel.scroll_to (finish_view);
+            carousel.scroll_to (finish_view, true);
         });
 
         var granite_settings = Granite.Settings.get_default ();
