@@ -51,7 +51,7 @@ public class Onboarding.PageChecker : Gtk.Button {
         update_opacity ();
 
         clicked.connect (() => {
-            carousel.scroll_to (page);
+            carousel.scroll_to (page, true);
         });
 
         carousel.notify["position"].connect (() => {
