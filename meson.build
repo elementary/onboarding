@@ -35,10 +35,10 @@ dependencies = [
     m_dep
 ]
 
-asresources = gnome.compile_resources(
-    'as-resources', 'data/' + meson.project_name() + '.gresource.xml',
-    source_dir: 'data',
-    c_name: 'as'
+gresource = gnome.compile_resources(
+    'onboarding-resources',
+    'data' / 'onboarding.gresource.xml',
+    source_dir: 'data'
 )
 
 subdir('po')

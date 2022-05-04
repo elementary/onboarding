@@ -31,7 +31,7 @@ config_file = configure_file(
 executable(
     meson.project_name(),
     vala_files,
-    asresources,
+    gresource,
     config_file,
     dependencies : dependencies,
     install: true
