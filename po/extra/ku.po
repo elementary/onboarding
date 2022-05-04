@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"POT-Creation-Date: 2022-05-04 15:18-0700\n"
 "PO-Revision-Date: 2019-09-07 18:23+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Kurdish <https://l10n.elementary.io/projects/installer/"
@@ -25,10 +25,6 @@ msgstr ""
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
-msgstr ""
-
-#: data/io.elementary.onboarding.desktop.in:6
-msgid "io.elementary.onboarding"
 msgstr ""
 
 #: data/onboarding.appdata.xml.in:16
@@ -77,7 +73,7 @@ msgstr ""
 msgid "Fix errors when pressing the Skip button"
 msgstr ""
 
-#: data/onboarding.appdata.xml.in:93
+#: data/onboarding.appdata.xml.in:65
 msgid "elementary, Inc."
 msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"POT-Creation-Date: 2022-05-04 15:18-0700\n"
 "PO-Revision-Date: 2021-02-18 03:09+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -26,11 +26,6 @@ msgstr "Velkommen"
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
 msgstr "Endre grunnleggende innstillinger ved første oppstart"
-
-#: data/io.elementary.onboarding.desktop.in:6
-#, fuzzy
-msgid "io.elementary.onboarding"
-msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Redesign Housekeeping and add Downloads option"
@@ -78,9 +73,13 @@ msgstr "Bruk av ny nettadresse for bloggen"
 msgid "Fix errors when pressing the Skip button"
 msgstr "Fikset feil ved trykking på «Hopp over»-knapp"
 
-#: data/onboarding.appdata.xml.in:93
+#: data/onboarding.appdata.xml.in:65
 msgid "elementary, Inc."
 msgstr "elementary, Inc"
+
+#, fuzzy
+#~ msgid "io.elementary.onboarding"
+#~ msgstr "io.elementary.onboarding"
 
 #~ msgid "system-os-installer"
 #~ msgstr "system-os-installer"

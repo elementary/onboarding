@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"POT-Creation-Date: 2022-05-04 15:18-0700\n"
 "PO-Revision-Date: 2019-08-26 21:22+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/installer/"
@@ -26,10 +26,6 @@ msgstr "Bonvenon"
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
 msgstr "Ŝanĝi komunajn agordojn ĉe unua lanĉo"
-
-#: data/io.elementary.onboarding.desktop.in:6
-msgid "io.elementary.onboarding"
-msgstr ""
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Redesign Housekeeping and add Downloads option"
@@ -77,7 +73,7 @@ msgstr ""
 msgid "Fix errors when pressing the Skip button"
 msgstr ""
 
-#: data/onboarding.appdata.xml.in:93
+#: data/onboarding.appdata.xml.in:65
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 

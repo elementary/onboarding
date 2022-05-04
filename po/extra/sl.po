@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"POT-Creation-Date: 2022-05-04 15:18-0700\n"
 "PO-Revision-Date: 2020-02-03 21:08+0000\n"
 "Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/installer/"
@@ -27,10 +27,6 @@ msgstr "Dobrodošli"
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
 msgstr "Spremenite pogoste nastavitve ob prvem zagonu"
-
-#: data/io.elementary.onboarding.desktop.in:6
-msgid "io.elementary.onboarding"
-msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Redesign Housekeeping and add Downloads option"
@@ -78,9 +74,12 @@ msgstr "Uporabljen nov URL naslov bloga"
 msgid "Fix errors when pressing the Skip button"
 msgstr "Popravljene napake ob pritisku gumba Preskoči"
 
-#: data/onboarding.appdata.xml.in:93
+#: data/onboarding.appdata.xml.in:65
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
+
+#~ msgid "io.elementary.onboarding"
+#~ msgstr "io.elementary.onboarding"
 
 #~ msgid "system-os-installer"
 #~ msgstr "system-os-installer"

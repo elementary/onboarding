@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"POT-Creation-Date: 2022-05-04 15:18-0700\n"
 "PO-Revision-Date: 2020-05-08 10:10+0000\n"
 "Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
@@ -26,10 +26,6 @@ msgstr "Welkom"
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
 msgstr "Wijzig algemene instellingen bij het eerste gebruik"
-
-#: data/io.elementary.onboarding.desktop.in:6
-msgid "io.elementary.onboarding"
-msgstr "io.elementary.onboarding"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Redesign Housekeeping and add Downloads option"
@@ -77,9 +73,12 @@ msgstr "Een nieuwe blog URL"
 msgid "Fix errors when pressing the Skip button"
 msgstr "Problemen opgelost met de Overslaan knop"
 
-#: data/onboarding.appdata.xml.in:93
+#: data/onboarding.appdata.xml.in:65
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
+
+#~ msgid "io.elementary.onboarding"
+#~ msgstr "io.elementary.onboarding"
 
 #~ msgid "system-os-installer"
 #~ msgstr "system-os-installer"
