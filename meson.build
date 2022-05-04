@@ -35,14 +35,8 @@ dependencies = [
     m_dep
 ]
 
-gresource = gnome.compile_resources(
-    'onboarding-resources',
-    'data' / 'onboarding.gresource.xml',
-    source_dir: 'data'
-)
-
+subdir('data')
 subdir('po')
 subdir('src')
-subdir('data')
 
 meson.add_install_script('meson/post_install.py')
