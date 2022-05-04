@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"POT-Creation-Date: 2022-05-04 15:18-0700\n"
 "PO-Revision-Date: 2021-12-18 21:27+0000\n"
 "Last-Translator: DartDeaDia <dartdeadia@protonmail.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Налаштування %s"
 
-#: src/MainWindow.vala:103
+#: src/MainWindow.vala:100
 msgid "Skip All"
 msgstr "Пропустити все"
 
-#: src/MainWindow.vala:113
+#: src/MainWindow.vala:114
 msgid "Get Started"
 msgstr "Почати користуватися"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:118
 msgid "Next"
 msgstr "Далі"
 
@@ -53,11 +53,11 @@ msgstr "Завантаження застосунків"
 msgid "Browse AppCenter…"
 msgstr "Відкрити центр застосунків…"
 
-#: src/Views/AppCenterView.vala:35
+#: src/Views/AppCenterView.vala:33
 msgid "Flathub"
 msgstr "Flathub"
 
-#: src/Views/AppCenterView.vala:37
+#: src/Views/AppCenterView.vala:35
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
 msgstr "Ви також можете завантажити застосунки Flatpak, наприклад з %s"
@@ -79,7 +79,7 @@ msgstr "Побудовано для раннього доступу"
 msgid "Major Known Issues"
 msgstr "Основні відомі вади"
 
-#: src/Views/EarlyAccessView.vala:39
+#: src/Views/EarlyAccessView.vala:41
 msgid "Some features may be missing or incomplete"
 msgstr "Деякі функції можуть відсутні або незавершені"
 
@@ -108,15 +108,15 @@ msgstr "Домоведення"
 msgid "Automatically Delete:"
 msgstr "Автоматично видаляти:"
 
-#: src/Views/HouseKeepingView.vala:32
+#: src/Views/HouseKeepingView.vala:37
 msgid "Old temporary files"
 msgstr "Старі тимчасові файли"
 
-#: src/Views/HouseKeepingView.vala:42
+#: src/Views/HouseKeepingView.vala:47
 msgid "Downloaded files"
 msgstr "Завантажені файли"
 
-#: src/Views/HouseKeepingView.vala:52
+#: src/Views/HouseKeepingView.vala:58
 msgid "Trashed files"
 msgstr "Файли зі смітника"
 
@@ -178,47 +178,47 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "Виберіть свій стиль"
 
-#: src/Views/StyleView.vala:122
+#: src/Views/StyleView.vala:119
 msgid "Default"
 msgstr "Типовий"
 
-#: src/Views/StyleView.vala:148
+#: src/Views/StyleView.vala:137
 msgid "Dark"
 msgstr "Темний"
 
-#: src/Views/StyleView.vala:158
+#: src/Views/StyleView.vala:141
 msgid "Blueberry"
 msgstr "Чорничний"
 
-#: src/Views/StyleView.vala:161
+#: src/Views/StyleView.vala:145
 msgid "Mint"
 msgstr "М'ятний"
 
-#: src/Views/StyleView.vala:164
+#: src/Views/StyleView.vala:150
 msgid "Lime"
 msgstr "Лаймовий"
 
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:155
 msgid "Banana"
 msgstr "Банановий"
 
-#: src/Views/StyleView.vala:170
+#: src/Views/StyleView.vala:160
 msgid "Orange"
 msgstr "Апельсиновий"
 
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:165
 msgid "Strawberry"
 msgstr "Полуничний"
 
-#: src/Views/StyleView.vala:176
+#: src/Views/StyleView.vala:170
 msgid "Bubblegum"
 msgstr "Жуйковий"
 
-#: src/Views/StyleView.vala:179
+#: src/Views/StyleView.vala:175
 msgid "Grape"
 msgstr "Виноградний"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:180
 msgid "Cocoa"
 msgstr "Какаовий"
 
@@ -226,7 +226,7 @@ msgstr "Какаовий"
 msgid "Slate"
 msgstr "Кам'яно-сірий"
 
-#: src/Views/StyleView.vala:188
+#: src/Views/StyleView.vala:190
 msgid "Automatic based on wallpaper"
 msgstr "Автоматично пристосовувати до тла"
 

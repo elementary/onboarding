@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"POT-Creation-Date: 2022-05-04 15:18-0700\n"
 "PO-Revision-Date: 2021-11-30 21:42+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Nastaviť %s"
 
-#: src/MainWindow.vala:103
+#: src/MainWindow.vala:100
 msgid "Skip All"
 msgstr "Preskočiť všetko"
 
-#: src/MainWindow.vala:113
+#: src/MainWindow.vala:114
 msgid "Get Started"
 msgstr "Začať"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:118
 msgid "Next"
 msgstr "Ďalej"
 
@@ -52,11 +52,11 @@ msgstr "Získajte aplikácie"
 msgid "Browse AppCenter…"
 msgstr "Prehliadať AppCentrum…"
 
-#: src/Views/AppCenterView.vala:35
+#: src/Views/AppCenterView.vala:33
 msgid "Flathub"
 msgstr "Flathub"
 
-#: src/Views/AppCenterView.vala:37
+#: src/Views/AppCenterView.vala:35
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
 msgstr ""
@@ -79,7 +79,7 @@ msgstr "Verzia predbežného prístupu"
 msgid "Major Known Issues"
 msgstr "Dôležité známe problémy"
 
-#: src/Views/EarlyAccessView.vala:39
+#: src/Views/EarlyAccessView.vala:41
 msgid "Some features may be missing or incomplete"
 msgstr "Niektoré funkcie môžu chýbať alebo nie sú dokončené"
 
@@ -108,15 +108,15 @@ msgstr "Upratovanie"
 msgid "Automatically Delete:"
 msgstr "Automaticky vymazávať:"
 
-#: src/Views/HouseKeepingView.vala:32
+#: src/Views/HouseKeepingView.vala:37
 msgid "Old temporary files"
 msgstr "Staré dočasné súbory"
 
-#: src/Views/HouseKeepingView.vala:42
+#: src/Views/HouseKeepingView.vala:47
 msgid "Downloaded files"
 msgstr "Stiahnuté súbory"
 
-#: src/Views/HouseKeepingView.vala:52
+#: src/Views/HouseKeepingView.vala:58
 msgid "Trashed files"
 msgstr "Súbory v koši"
 
@@ -177,47 +177,47 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "Vyberte si vzhľad"
 
-#: src/Views/StyleView.vala:122
+#: src/Views/StyleView.vala:119
 msgid "Default"
 msgstr "Predvolený"
 
-#: src/Views/StyleView.vala:148
+#: src/Views/StyleView.vala:137
 msgid "Dark"
 msgstr "Tmavý"
 
-#: src/Views/StyleView.vala:158
+#: src/Views/StyleView.vala:141
 msgid "Blueberry"
 msgstr "Čučoriedkový"
 
-#: src/Views/StyleView.vala:161
+#: src/Views/StyleView.vala:145
 msgid "Mint"
 msgstr "Mätový"
 
-#: src/Views/StyleView.vala:164
+#: src/Views/StyleView.vala:150
 msgid "Lime"
 msgstr "Limetkový"
 
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:155
 msgid "Banana"
 msgstr "Banánový"
 
-#: src/Views/StyleView.vala:170
+#: src/Views/StyleView.vala:160
 msgid "Orange"
 msgstr "Pomarančový"
 
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:165
 msgid "Strawberry"
 msgstr "Jahodový"
 
-#: src/Views/StyleView.vala:176
+#: src/Views/StyleView.vala:170
 msgid "Bubblegum"
 msgstr "Žuvačkový"
 
-#: src/Views/StyleView.vala:179
+#: src/Views/StyleView.vala:175
 msgid "Grape"
 msgstr "Hroznový"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:180
 msgid "Cocoa"
 msgstr "Kakaový"
 
@@ -225,7 +225,7 @@ msgstr "Kakaový"
 msgid "Slate"
 msgstr "Bridlicový"
 
-#: src/Views/StyleView.vala:188
+#: src/Views/StyleView.vala:190
 msgid "Automatic based on wallpaper"
 msgstr "Automatický podľa tapety"
 

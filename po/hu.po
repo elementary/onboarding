@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"POT-Creation-Date: 2022-05-04 15:18-0700\n"
 "PO-Revision-Date: 2021-11-22 12:38+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s beállítása"
 
-#: src/MainWindow.vala:103
+#: src/MainWindow.vala:100
 msgid "Skip All"
 msgstr "Összes kihagyása"
 
-#: src/MainWindow.vala:113
+#: src/MainWindow.vala:114
 msgid "Get Started"
 msgstr "Kezdjen hozzá"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:118
 msgid "Next"
 msgstr "Következő"
 
@@ -53,11 +53,11 @@ msgstr "Szerezzen be alkalmazásokat"
 msgid "Browse AppCenter…"
 msgstr "Az Appközpont böngészése…"
 
-#: src/Views/AppCenterView.vala:35
+#: src/Views/AppCenterView.vala:33
 msgid "Flathub"
 msgstr "Flathub"
 
-#: src/Views/AppCenterView.vala:37
+#: src/Views/AppCenterView.vala:35
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
 msgstr "Telepíthet Flatpak alkalmazásokat máshonnan is, pl.: %s"
@@ -79,7 +79,7 @@ msgstr "Tesztelői verzió"
 msgid "Major Known Issues"
 msgstr "Nagyobb ismert hibák"
 
-#: src/Views/EarlyAccessView.vala:39
+#: src/Views/EarlyAccessView.vala:41
 msgid "Some features may be missing or incomplete"
 msgstr "Egyes funkciók hiányozhatnak vagy befejezetlenek lehetnek"
 
@@ -108,15 +108,15 @@ msgstr "Takarítás"
 msgid "Automatically Delete:"
 msgstr "Automatikus törlés:"
 
-#: src/Views/HouseKeepingView.vala:32
+#: src/Views/HouseKeepingView.vala:37
 msgid "Old temporary files"
 msgstr "Régi ideiglenes fájlok"
 
-#: src/Views/HouseKeepingView.vala:42
+#: src/Views/HouseKeepingView.vala:47
 msgid "Downloaded files"
 msgstr "Letöltött fájlok"
 
-#: src/Views/HouseKeepingView.vala:52
+#: src/Views/HouseKeepingView.vala:58
 msgid "Trashed files"
 msgstr "Kukába helyezett fájlok"
 
@@ -177,47 +177,47 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "Válasszon kinézetet"
 
-#: src/Views/StyleView.vala:122
+#: src/Views/StyleView.vala:119
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: src/Views/StyleView.vala:148
+#: src/Views/StyleView.vala:137
 msgid "Dark"
 msgstr "Sötét"
 
-#: src/Views/StyleView.vala:158
+#: src/Views/StyleView.vala:141
 msgid "Blueberry"
 msgstr "Áfonya"
 
-#: src/Views/StyleView.vala:161
+#: src/Views/StyleView.vala:145
 msgid "Mint"
 msgstr "Menta"
 
-#: src/Views/StyleView.vala:164
+#: src/Views/StyleView.vala:150
 msgid "Lime"
 msgstr "Lime"
 
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:155
 msgid "Banana"
 msgstr "Banán"
 
-#: src/Views/StyleView.vala:170
+#: src/Views/StyleView.vala:160
 msgid "Orange"
 msgstr "Narancs"
 
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:165
 msgid "Strawberry"
 msgstr "Eper"
 
-#: src/Views/StyleView.vala:176
+#: src/Views/StyleView.vala:170
 msgid "Bubblegum"
 msgstr "Rágógumi"
 
-#: src/Views/StyleView.vala:179
+#: src/Views/StyleView.vala:175
 msgid "Grape"
 msgstr "Szőlő"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:180
 msgid "Cocoa"
 msgstr "Kakaó"
 
@@ -225,7 +225,7 @@ msgstr "Kakaó"
 msgid "Slate"
 msgstr "Pala"
 
-#: src/Views/StyleView.vala:188
+#: src/Views/StyleView.vala:190
 msgid "Automatic based on wallpaper"
 msgstr "Automatikus a háttérkép alapján"
 

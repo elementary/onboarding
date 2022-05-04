@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-19 16:02+0000\n"
+"POT-Creation-Date: 2022-05-04 15:18-0700\n"
 "PO-Revision-Date: 2021-11-20 11:07+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Konfiguracja %s"
 
-#: src/MainWindow.vala:103
+#: src/MainWindow.vala:100
 msgid "Skip All"
 msgstr "Pomiń wszystko"
 
-#: src/MainWindow.vala:113
+#: src/MainWindow.vala:114
 msgid "Get Started"
 msgstr "Rozpocznij"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:118
 msgid "Next"
 msgstr "Dalej"
 
@@ -53,11 +53,11 @@ msgstr "Pozyskaj programy"
 msgid "Browse AppCenter…"
 msgstr "Przeglądaj AppCenter…"
 
-#: src/Views/AppCenterView.vala:35
+#: src/Views/AppCenterView.vala:33
 msgid "Flathub"
 msgstr "Flathub"
 
-#: src/Views/AppCenterView.vala:37
+#: src/Views/AppCenterView.vala:35
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
 msgstr "Możesz także instalować aplikacje Flatpak np. z %s"
@@ -79,7 +79,7 @@ msgstr "Kompilacja wczesnego dostępu"
 msgid "Major Known Issues"
 msgstr "Znane większe problemy"
 
-#: src/Views/EarlyAccessView.vala:39
+#: src/Views/EarlyAccessView.vala:41
 msgid "Some features may be missing or incomplete"
 msgstr "Niektóre funkcje mogą być niedostępne lub niekompletne"
 
@@ -108,15 +108,15 @@ msgstr "Gospodarowanie"
 msgid "Automatically Delete:"
 msgstr "Automatycznie usuń:"
 
-#: src/Views/HouseKeepingView.vala:32
+#: src/Views/HouseKeepingView.vala:37
 msgid "Old temporary files"
 msgstr "Stare pliki tymczasowe"
 
-#: src/Views/HouseKeepingView.vala:42
+#: src/Views/HouseKeepingView.vala:47
 msgid "Downloaded files"
 msgstr "Pobrane pliki"
 
-#: src/Views/HouseKeepingView.vala:52
+#: src/Views/HouseKeepingView.vala:58
 msgid "Trashed files"
 msgstr "Pliki w koszu"
 
@@ -177,47 +177,47 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "Wybierz swój wygląd"
 
-#: src/Views/StyleView.vala:122
+#: src/Views/StyleView.vala:119
 msgid "Default"
 msgstr "Domyślny"
 
-#: src/Views/StyleView.vala:148
+#: src/Views/StyleView.vala:137
 msgid "Dark"
 msgstr "Ciemny"
 
-#: src/Views/StyleView.vala:158
+#: src/Views/StyleView.vala:141
 msgid "Blueberry"
 msgstr "Jagoda"
 
-#: src/Views/StyleView.vala:161
+#: src/Views/StyleView.vala:145
 msgid "Mint"
 msgstr "Mięta"
 
-#: src/Views/StyleView.vala:164
+#: src/Views/StyleView.vala:150
 msgid "Lime"
 msgstr "Limonka"
 
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:155
 msgid "Banana"
 msgstr "Banan"
 
-#: src/Views/StyleView.vala:170
+#: src/Views/StyleView.vala:160
 msgid "Orange"
 msgstr "Pomarańcza"
 
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:165
 msgid "Strawberry"
 msgstr "Truskawka"
 
-#: src/Views/StyleView.vala:176
+#: src/Views/StyleView.vala:170
 msgid "Bubblegum"
 msgstr "Guma balonowa"
 
-#: src/Views/StyleView.vala:179
+#: src/Views/StyleView.vala:175
 msgid "Grape"
 msgstr "Winogrono"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:180
 msgid "Cocoa"
 msgstr "Kakao"
 
@@ -225,7 +225,7 @@ msgstr "Kakao"
 msgid "Slate"
 msgstr "Ciemnoszary"
 
-#: src/Views/StyleView.vala:188
+#: src/Views/StyleView.vala:190
 msgid "Automatic based on wallpaper"
 msgstr "Automatyczny, dostosowany do tapety"
 
