@@ -54,8 +54,8 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         }
 
         if ("finish" in viewed) {
-            var update_view = new UpdateView ();
-            carousel.append (update_view);
+            var whats_new_view = new WhatsNewView ();
+            carousel.append (whats_new_view);
         } else {
             var welcome_view = new WelcomeView ();
             carousel.append (welcome_view);
@@ -84,9 +84,16 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             carousel.append (onlineaccounts_view);
         }
 
-        if (!("appcenter" in viewed) && Environment.find_program_in_path ("io.elementary.appcenter") != null) {
-            var appcenter_view = new AppCenterView ();
-            carousel.append (appcenter_view);
+        if (Environment.find_program_in_path ("io.elementary.appcenter") != null) {
+          if (!("appcenter" in viewed)) {
+              var appcenter_view = new AppCenterView ();
+              carousel.append (appcenter_view);
+          }
+
+          if (!("updates" in viewed)) {
+              var updates_view = new UpdatesView ();
+              carousel.append (updates_view);
+          }
         }
 
         // Bail if there are no feature views

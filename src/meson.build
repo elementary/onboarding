@@ -14,8 +14,9 @@ vala_files = [
     'Views/NightLightView.vala',
     'Views/OnlineAccountsView.vala',
     'Views/StyleView.vala',
-    'Views/UpdateView.vala',
+    'Views/UpdatesView.vala',
     'Views/WelcomeView.vala',
+    'Views/WhatsNewView.vala',
 ]
 
 config_data = configuration_data()
