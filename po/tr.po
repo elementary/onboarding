@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:18-0700\n"
+"POT-Creation-Date: 2022-05-10 09:53-0700\n"
 "PO-Revision-Date: 2021-11-23 20:58+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s Kurulumu"
 
-#: src/MainWindow.vala:100
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Tümünü Atla"
 
-#: src/MainWindow.vala:114
+#: src/MainWindow.vala:121
 msgid "Get Started"
 msgstr "Hemen Başlayın"
 
-#: src/MainWindow.vala:118
+#: src/MainWindow.vala:125
 msgid "Next"
 msgstr "İleri"
 
@@ -228,18 +228,21 @@ msgstr "Arduvaz"
 msgid "Automatic based on wallpaper"
 msgstr "Duvar kağıdına göre otomatik"
 
-#: src/Views/UpdateView.vala:22
+#: src/Views/UpdatesView.vala:10
 msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"Updates can be automatically installed when your device is connected to the "
+"Internet."
 msgstr ""
-"Bazı faydalı ve yeni özellikleri kurmaya devam edin. Güncellemeler hakkında "
-"daha ayrıntılı bilgi için <a href='https://blog.elementary.io'>web günlüğü "
-"sayfamıza</a> göz atın."
 
-#: src/Views/UpdateView.vala:25
-msgid "What’s New"
-msgstr "Neler Yeni"
+#: src/Views/UpdatesView.vala:12
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatic Updates"
+msgstr "Otomatik Olarak Sil:"
+
+#: src/Views/UpdatesView.vala:17
+msgid "Free & Paid Apps:"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -266,6 +269,19 @@ msgstr "Topluluk Desteği…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Dahil Olun…"
+
+#: src/Views/WhatsNewView.vala:10
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Bazı faydalı ve yeni özellikleri kurmaya devam edin. Güncellemeler hakkında "
+"daha ayrıntılı bilgi için <a href='https://blog.elementary.io'>web günlüğü "
+"sayfamıza</a> göz atın."
+
+#: src/Views/WhatsNewView.vala:13
+msgid "What’s New"
+msgstr "Neler Yeni"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "Seçilmiş uygulamalar Uygulama Merkezinde mevcut değildir"

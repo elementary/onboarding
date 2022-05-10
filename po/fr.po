@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:18-0700\n"
+"POT-Creation-Date: 2022-05-10 09:53-0700\n"
 "PO-Revision-Date: 2021-12-07 17:32+0000\n"
 "Last-Translator: Farouk Ben Ali <faroukbenali2@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Configurer %s"
 
-#: src/MainWindow.vala:100
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Ignorer tout"
 
-#: src/MainWindow.vala:114
+#: src/MainWindow.vala:121
 msgid "Get Started"
 msgstr "Commencer"
 
-#: src/MainWindow.vala:118
+#: src/MainWindow.vala:125
 msgid "Next"
 msgstr "Suivant"
 
@@ -231,18 +231,21 @@ msgstr "Ardoise"
 msgid "Automatic based on wallpaper"
 msgstr "Automatique à partir du fond d'écran"
 
-#: src/Views/UpdateView.vala:22
+#: src/Views/UpdatesView.vala:10
 msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"Updates can be automatically installed when your device is connected to the "
+"Internet."
 msgstr ""
-"Nous continuons à mettre en place de nouvelles fonctionnalités utiles. Pour "
-"plus d'informations sur les mises à jour, consultez <a href='https://blog."
-"elementary.io'>notre blog</a>."
 
-#: src/Views/UpdateView.vala:25
-msgid "What’s New"
-msgstr "Quoi de neuf"
+#: src/Views/UpdatesView.vala:12
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatic Updates"
+msgstr "Suppression automatique :"
+
+#: src/Views/UpdatesView.vala:17
+msgid "Free & Paid Apps:"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -269,6 +272,19 @@ msgstr "Aide de la communauté…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Contribuer…"
+
+#: src/Views/WhatsNewView.vala:10
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Nous continuons à mettre en place de nouvelles fonctionnalités utiles. Pour "
+"plus d'informations sur les mises à jour, consultez <a href='https://blog."
+"elementary.io'>notre blog</a>."
+
+#: src/Views/WhatsNewView.vala:13
+msgid "What’s New"
+msgstr "Quoi de neuf"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr ""

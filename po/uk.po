@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:18-0700\n"
+"POT-Creation-Date: 2022-05-10 09:53-0700\n"
 "PO-Revision-Date: 2021-12-18 21:27+0000\n"
 "Last-Translator: DartDeaDia <dartdeadia@protonmail.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Налаштування %s"
 
-#: src/MainWindow.vala:100
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Пропустити все"
 
-#: src/MainWindow.vala:114
+#: src/MainWindow.vala:121
 msgid "Get Started"
 msgstr "Почати користуватися"
 
-#: src/MainWindow.vala:118
+#: src/MainWindow.vala:125
 msgid "Next"
 msgstr "Далі"
 
@@ -230,18 +230,21 @@ msgstr "Кам'яно-сірий"
 msgid "Automatic based on wallpaper"
 msgstr "Автоматично пристосовувати до тла"
 
-#: src/Views/UpdateView.vala:22
+#: src/Views/UpdatesView.vala:10
 msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"Updates can be automatically installed when your device is connected to the "
+"Internet."
 msgstr ""
-"Продовжуйте налаштовувати корисні нові функції. Перегляньте докладніші "
-"відомості про оновлення у <a href='https://blog.elementary.io'>нашому блозі</"
-"a>."
 
-#: src/Views/UpdateView.vala:25
-msgid "What’s New"
-msgstr "Що нового"
+#: src/Views/UpdatesView.vala:12
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatic Updates"
+msgstr "Автоматично видаляти:"
+
+#: src/Views/UpdatesView.vala:17
+msgid "Free & Paid Apps:"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -268,6 +271,19 @@ msgstr "Підтримка спільноти…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Долучитися…"
+
+#: src/Views/WhatsNewView.vala:10
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Продовжуйте налаштовувати корисні нові функції. Перегляньте докладніші "
+"відомості про оновлення у <a href='https://blog.elementary.io'>нашому блозі</"
+"a>."
+
+#: src/Views/WhatsNewView.vala:13
+msgid "What’s New"
+msgstr "Що нового"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "Куровані застосунки не доступні у центрі застосунків"

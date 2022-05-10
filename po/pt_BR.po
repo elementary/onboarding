@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:18-0700\n"
+"POT-Creation-Date: 2022-05-10 09:53-0700\n"
 "PO-Revision-Date: 2021-07-16 10:41+0000\n"
 "Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Configurar %s"
 
-#: src/MainWindow.vala:100
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Pular Todos"
 
-#: src/MainWindow.vala:114
+#: src/MainWindow.vala:121
 msgid "Get Started"
 msgstr "Iniciar"
 
-#: src/MainWindow.vala:118
+#: src/MainWindow.vala:125
 msgid "Next"
 msgstr "Próximo"
 
@@ -238,18 +238,21 @@ msgstr "Slate"
 msgid "Automatic based on wallpaper"
 msgstr "Automático baseado no papel de parede"
 
-#: src/Views/UpdateView.vala:22
+#: src/Views/UpdatesView.vala:10
 msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"Updates can be automatically installed when your device is connected to the "
+"Internet."
 msgstr ""
-"Continue para configurar alguns novos recursos úteis. Para informações mais "
-"detalhadas sobre atualizações, confira <a href='https://blog.elementary."
-"io'>nosso blog</a>."
 
-#: src/Views/UpdateView.vala:25
-msgid "What’s New"
-msgstr "O que há de Novo"
+#: src/Views/UpdatesView.vala:12
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatic Updates"
+msgstr "Apagar automaticamente:"
+
+#: src/Views/UpdatesView.vala:17
+msgid "Free & Paid Apps:"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -276,6 +279,19 @@ msgstr "Suporte da Comunidade…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Envolva-se…"
+
+#: src/Views/WhatsNewView.vala:10
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Continue para configurar alguns novos recursos úteis. Para informações mais "
+"detalhadas sobre atualizações, confira <a href='https://blog.elementary."
+"io'>nosso blog</a>."
+
+#: src/Views/WhatsNewView.vala:13
+msgid "What’s New"
+msgstr "O que há de Novo"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "Aplicativos curados não estão disponíveis no AppCenter"

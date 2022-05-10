@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:18-0700\n"
+"POT-Creation-Date: 2022-05-10 09:53-0700\n"
 "PO-Revision-Date: 2020-11-22 20:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s चे सेटअप करा"
 
-#: src/MainWindow.vala:100
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "सर्व वगळा"
 
-#: src/MainWindow.vala:114
+#: src/MainWindow.vala:121
 msgid "Get Started"
 msgstr "सुरु करूया"
 
-#: src/MainWindow.vala:118
+#: src/MainWindow.vala:125
 msgid "Next"
 msgstr "पुढे"
 
@@ -232,17 +232,21 @@ msgstr "स्लेट"
 msgid "Automatic based on wallpaper"
 msgstr ""
 
-#: src/Views/UpdateView.vala:22
+#: src/Views/UpdatesView.vala:10
 msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"Updates can be automatically installed when your device is connected to the "
+"Internet."
 msgstr ""
-"काही उपयुक्त नवीन वैशिष्ट्ये सेट करणे सुरू ठेवा. अपडेट्सबद्दल अधिक तपशीलवार माहितीसाठी, "
-"आमच्या  <a href='https://blog.elementary.io'>ब्लॉग </a> ला भेट द्या."
 
-#: src/Views/UpdateView.vala:25
-msgid "What’s New"
-msgstr "नवीन काय आहे"
+#: src/Views/UpdatesView.vala:12
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatic Updates"
+msgstr "स्वयंचलितपणे हटवा:"
+
+#: src/Views/UpdatesView.vala:17
+msgid "Free & Paid Apps:"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -268,6 +272,18 @@ msgstr "समुदाय समर्थन…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "सहभागी व्हा…"
+
+#: src/Views/WhatsNewView.vala:10
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"काही उपयुक्त नवीन वैशिष्ट्ये सेट करणे सुरू ठेवा. अपडेट्सबद्दल अधिक तपशीलवार माहितीसाठी, "
+"आमच्या  <a href='https://blog.elementary.io'>ब्लॉग </a> ला भेट द्या."
+
+#: src/Views/WhatsNewView.vala:13
+msgid "What’s New"
+msgstr "नवीन काय आहे"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "अ‍ॅप सेंटरमध्ये क्युरेट केलेले अ‍ॅप्स उपलब्ध नाहीत"

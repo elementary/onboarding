@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:18-0700\n"
+"POT-Creation-Date: 2022-05-10 09:53-0700\n"
 "PO-Revision-Date: 2019-08-26 21:22+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/installer/"
@@ -26,15 +26,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Nusistatykite %s"
 
-#: src/MainWindow.vala:100
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Praleisti viską"
 
-#: src/MainWindow.vala:114
+#: src/MainWindow.vala:121
 msgid "Get Started"
 msgstr "Darbo pradžia"
 
-#: src/MainWindow.vala:118
+#: src/MainWindow.vala:125
 msgid "Next"
 msgstr "Kitas"
 
@@ -228,19 +228,21 @@ msgstr ""
 msgid "Automatic based on wallpaper"
 msgstr ""
 
-#: src/Views/UpdateView.vala:22
-#, fuzzy
+#: src/Views/UpdatesView.vala:10
 msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"Updates can be automatically installed when your device is connected to the "
+"Internet."
 msgstr ""
-"Tęskite nustatinėti naudingas naujas ypatybes. Išsamesnei informacijai apie "
-"atnaujinimus, apsilankykite <a href='https://medium.com/elementaryos/tagged/"
-"updates'>mūsų tinklaraštyje</a>."
 
-#: src/Views/UpdateView.vala:25
-msgid "What’s New"
-msgstr "Kas naujo"
+#: src/Views/UpdatesView.vala:12
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatic Updates"
+msgstr "Automatiškai ištrinti:"
+
+#: src/Views/UpdatesView.vala:17
+msgid "Free & Paid Apps:"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -267,6 +269,20 @@ msgstr "Bendruomenės palaikymas…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Įsitraukite…"
+
+#: src/Views/WhatsNewView.vala:10
+#, fuzzy
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Tęskite nustatinėti naudingas naujas ypatybes. Išsamesnei informacijai apie "
+"atnaujinimus, apsilankykite <a href='https://medium.com/elementaryos/tagged/"
+"updates'>mūsų tinklaraštyje</a>."
+
+#: src/Views/WhatsNewView.vala:13
+msgid "What’s New"
+msgstr "Kas naujo"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

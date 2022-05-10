@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:18-0700\n"
+"POT-Creation-Date: 2022-05-10 09:53-0700\n"
 "PO-Revision-Date: 2021-11-26 04:57+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "配置 %s"
 
-#: src/MainWindow.vala:100
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "跳过所有"
 
-#: src/MainWindow.vala:114
+#: src/MainWindow.vala:121
 msgid "Get Started"
 msgstr "开始"
 
-#: src/MainWindow.vala:118
+#: src/MainWindow.vala:125
 msgid "Next"
 msgstr "下一个"
 
@@ -220,17 +220,21 @@ msgstr "石头灰"
 msgid "Automatic based on wallpaper"
 msgstr "根据壁纸自动设定"
 
-#: src/Views/UpdateView.vala:22
+#: src/Views/UpdatesView.vala:10
 msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"Updates can be automatically installed when your device is connected to the "
+"Internet."
 msgstr ""
-"想了解更多实用功能？请访问我们的 <a href='https://blog.elementary.io'>博客</"
-"a>。"
 
-#: src/Views/UpdateView.vala:25
-msgid "What’s New"
-msgstr "新特性"
+#: src/Views/UpdatesView.vala:12
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatic Updates"
+msgstr "自动删除："
+
+#: src/Views/UpdatesView.vala:17
+msgid "Free & Paid Apps:"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -255,6 +259,18 @@ msgstr "社区支持…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "参与项目…"
+
+#: src/Views/WhatsNewView.vala:10
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"想了解更多实用功能？请访问我们的 <a href='https://blog.elementary.io'>博客</"
+"a>。"
+
+#: src/Views/WhatsNewView.vala:13
+msgid "What’s New"
+msgstr "新特性"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "应用商店中 elementary 专属应用暂时不可用"

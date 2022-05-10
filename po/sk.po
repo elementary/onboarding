@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:18-0700\n"
+"POT-Creation-Date: 2022-05-10 09:53-0700\n"
 "PO-Revision-Date: 2021-11-30 21:42+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Nastaviť %s"
 
-#: src/MainWindow.vala:100
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Preskočiť všetko"
 
-#: src/MainWindow.vala:114
+#: src/MainWindow.vala:121
 msgid "Get Started"
 msgstr "Začať"
 
-#: src/MainWindow.vala:118
+#: src/MainWindow.vala:125
 msgid "Next"
 msgstr "Ďalej"
 
@@ -229,18 +229,21 @@ msgstr "Bridlicový"
 msgid "Automatic based on wallpaper"
 msgstr "Automatický podľa tapety"
 
-#: src/Views/UpdateView.vala:22
+#: src/Views/UpdatesView.vala:10
 msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"Updates can be automatically installed when your device is connected to the "
+"Internet."
 msgstr ""
-"Pokračujte nastavením nových užitočných funkcií. Podrobnejšie informácie o "
-"aktualizáciách nájdete na <a href='https://blog.elementary.io'>našom blogu</"
-"a>."
 
-#: src/Views/UpdateView.vala:25
-msgid "What’s New"
-msgstr "Čo je nové"
+#: src/Views/UpdatesView.vala:12
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatic Updates"
+msgstr "Automaticky vymazávať:"
+
+#: src/Views/UpdatesView.vala:17
+msgid "Free & Paid Apps:"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -267,6 +270,19 @@ msgstr "Komunitná podpora…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Zapojte sa…"
+
+#: src/Views/WhatsNewView.vala:10
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Pokračujte nastavením nových užitočných funkcií. Podrobnejšie informácie o "
+"aktualizáciách nájdete na <a href='https://blog.elementary.io'>našom blogu</"
+"a>."
+
+#: src/Views/WhatsNewView.vala:13
+msgid "What’s New"
+msgstr "Čo je nové"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "Overené aplikácie nie sú dostupné v AppCentre"

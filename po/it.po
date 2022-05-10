@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:18-0700\n"
+"POT-Creation-Date: 2022-05-10 09:53-0700\n"
 "PO-Revision-Date: 2020-10-23 19:15+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Configura %s"
 
-#: src/MainWindow.vala:100
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "Salta tutto"
 
-#: src/MainWindow.vala:114
+#: src/MainWindow.vala:121
 msgid "Get Started"
 msgstr "Per iniziare"
 
-#: src/MainWindow.vala:118
+#: src/MainWindow.vala:125
 msgid "Next"
 msgstr "Successivo"
 
@@ -231,18 +231,21 @@ msgstr "Ardesia"
 msgid "Automatic based on wallpaper"
 msgstr ""
 
-#: src/Views/UpdateView.vala:22
+#: src/Views/UpdatesView.vala:10
 msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"Updates can be automatically installed when your device is connected to the "
+"Internet."
 msgstr ""
-"Continua a configurare alcune nuove utili funzionalità. Per informazioni più "
-"dettagliate sugli aggiornamenti, visita il <a href='https://blog.elementary."
-"io'>nostro blog</a>."
 
-#: src/Views/UpdateView.vala:25
-msgid "What’s New"
-msgstr "Cosa c'è di nuovo"
+#: src/Views/UpdatesView.vala:12
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatic Updates"
+msgstr "Elimina automaticamente:"
+
+#: src/Views/UpdatesView.vala:17
+msgid "Free & Paid Apps:"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -269,6 +272,19 @@ msgstr "Supporto della comunità…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "Partecipa…"
+
+#: src/Views/WhatsNewView.vala:10
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"Continua a configurare alcune nuove utili funzionalità. Per informazioni più "
+"dettagliate sugli aggiornamenti, visita il <a href='https://blog.elementary."
+"io'>nostro blog</a>."
+
+#: src/Views/WhatsNewView.vala:13
+msgid "What’s New"
+msgstr "Cosa c'è di nuovo"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

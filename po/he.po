@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:18-0700\n"
+"POT-Creation-Date: 2022-05-10 09:53-0700\n"
 "PO-Revision-Date: 2021-11-20 01:51+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "הגדרת %s"
 
-#: src/MainWindow.vala:100
+#: src/MainWindow.vala:107
 msgid "Skip All"
 msgstr "לדלג על הכול"
 
-#: src/MainWindow.vala:114
+#: src/MainWindow.vala:121
 msgid "Get Started"
 msgstr "מאיפה מתחילים"
 
-#: src/MainWindow.vala:118
+#: src/MainWindow.vala:125
 msgid "Next"
 msgstr "הבא"
 
@@ -228,17 +228,21 @@ msgstr "צפחה"
 msgid "Automatic based on wallpaper"
 msgstr "אוטומטית לפי תמונת הרקע"
 
-#: src/Views/UpdateView.vala:22
+#: src/Views/UpdatesView.vala:10
 msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+"Updates can be automatically installed when your device is connected to the "
+"Internet."
 msgstr ""
-"ניתן להמשיך ולהגדיר כל מיני תכונות חדשות ושימושיות. למידע מפורט יותר על "
-"עדכונים, ניתן לבקר ב<a href='https://blog.elementary.io'>בלוג שלנו</a>."
 
-#: src/Views/UpdateView.vala:25
-msgid "What’s New"
-msgstr "מה חדש"
+#: src/Views/UpdatesView.vala:12
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatic Updates"
+msgstr "למחיקה אוטומטית:"
+
+#: src/Views/UpdatesView.vala:17
+msgid "Free & Paid Apps:"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -264,6 +268,18 @@ msgstr "תמיכה קהילתית…"
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
 msgstr "השתתפות במיזם…"
+
+#: src/Views/WhatsNewView.vala:10
+msgid ""
+"Continue to set up some useful new features. For more detailed information "
+"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
+msgstr ""
+"ניתן להמשיך ולהגדיר כל מיני תכונות חדשות ושימושיות. למידע מפורט יותר על "
+"עדכונים, ניתן לבקר ב<a href='https://blog.elementary.io'>בלוג שלנו</a>."
+
+#: src/Views/WhatsNewView.vala:13
+msgid "What’s New"
+msgstr "מה חדש"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "היישומים שנאספו אינם זמינים במרכז היישומים"
