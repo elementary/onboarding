@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-10 09:53-0700\n"
-"PO-Revision-Date: 2021-11-20 01:51+0000\n"
+"PO-Revision-Date: 2022-05-11 05:20+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -232,17 +232,15 @@ msgstr "אוטומטית לפי תמונת הרקע"
 msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
-msgstr ""
+msgstr "אפשר להתקין עדכונים אוטומטית כאשר המכשיר שלך מחובר לאינטרנט."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "למחיקה אוטומטית:"
+msgstr "עדכונים אוטומטיים"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "יישומונים בחינם ובתשלום:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
