@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-10 09:53-0700\n"
-"PO-Revision-Date: 2021-12-07 17:32+0000\n"
-"Last-Translator: Farouk Ben Ali <faroukbenali2@gmail.com>\n"
+"PO-Revision-Date: 2022-05-11 10:32+0000\n"
+"Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
 "onboarding/fr/>\n"
 "Language: fr\n"
@@ -236,16 +236,16 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Des mises à jour peuvent s'installer automatiquement lorsque votre appareil "
+"est connecté à Internet."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Suppression automatique :"
+msgstr "Mises à jour automatiques"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Applications gratuites et payantes :"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
