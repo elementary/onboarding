@@ -10,7 +10,7 @@
     <p></p>
   </description>
   <releases>
-    <release version="7.0.0" date="2022-05-11" urgency="medium">
+    <release version="7.0.0" date="2022-05-12" urgency="medium">
       <description>
         <ul>
           <li>Add Automatic Updates view</li>
