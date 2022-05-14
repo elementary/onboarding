@@ -137,6 +137,24 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_dark_grid.attach (new Gtk.Label (_("Dark")), 0, 1);
         prefer_dark_grid.set_parent (prefer_dark_radio);
 
+        var prefer_no_dark_schedule = new Gtk.ToggleButton.with_label ("No Dark Schedule") {
+            halign = Gtk.Align.END,
+            hexpand = true,
+            can_focus = false,
+            active = true,
+        };
+
+        var prefer_scheduled_dark = new Gtk.ToggleButton.with_label ("Sunset to Sunrise") {
+            halign = Gtk.Align.START,
+            hexpand = true,
+            can_focus = false,
+            group = prefer_no_dark_schedule
+        };
+
+        var dark_preference_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
+        dark_preference_size_group.add_widget (prefer_no_dark_schedule);
+        dark_preference_size_group.add_widget (prefer_scheduled_dark);
+
         var blueberry_button = new PrefersAccentColorButton (pantheon_act, AccentColor.BLUE);
         blueberry_button.tooltip_text = _("Blueberry");
 
@@ -208,7 +226,9 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         custom_bin.row_spacing = 12;
         custom_bin.attach (prefer_default_radio, 0, 0);
         custom_bin.attach (prefer_dark_radio, 1, 0);
-        custom_bin.attach (accent_box, 0, 1, 2);
+        custom_bin.attach (prefer_no_dark_schedule, 0, 1);
+        custom_bin.attach (prefer_scheduled_dark, 1, 1);
+        custom_bin.attach (accent_box, 0, 2, 2);
 
         switch (pantheon_act.prefers_color_scheme) {
             case Granite.Settings.ColorScheme.DARK:
