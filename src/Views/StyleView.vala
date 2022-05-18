@@ -57,7 +57,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
                     return "cocoa";
                 case GRAY:
                     return "slate";
-                case NO_PREFERENCE:
                 default:
                     return "auto";
             }
