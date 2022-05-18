@@ -49,12 +49,17 @@ checkbutton .card.prefer-dark {
 }
 
 checkbutton .card.prefer-scheduled {
-    background-color: white;
+    background-size: 86px 64px, cover, cover;
     background-image:
         url("resource:///io/elementary/onboarding/appearance-scheduled.svg"),
         linear-gradient(
             to bottom,
             alpha(@accent_color_300, 0.1),
             alpha(@accent_color_500, 0.1)
+        ),
+        linear-gradient(
+            120deg,
+            white 50%,
+            mix(@BLACK_300, @BLACK_500, 0.25) 51%
         );
 }
