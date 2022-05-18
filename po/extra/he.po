@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2021-11-20 01:51+0000\n"
+"PO-Revision-Date: 2022-05-18 21:46+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/he/>\n"
@@ -29,15 +29,15 @@ msgstr "עריכת הגדרות נפוצות בהפעלה הראשונה"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "נוספה תצוגת עדכונים אוטומטיים"
 
 #: data/onboarding.appdata.xml.in:17
 msgid "Add Sunset to Sunrise to Style View"
-msgstr ""
+msgstr "נוספה תצוגת שקיעה לזריחה"
 
 #: data/onboarding.appdata.xml.in:18
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "עדכון ל־OS 7 ול־Gtk 4"
 
 #: data/onboarding.appdata.xml.in:19 data/onboarding.appdata.xml.in:27
 #: data/onboarding.appdata.xml.in:38 data/onboarding.appdata.xml.in:46
