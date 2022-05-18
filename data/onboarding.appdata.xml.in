@@ -14,6 +14,7 @@
       <description>
         <ul>
           <li>Add Automatic Updates view</li>
+          <li>Add Sunset to Sunrise to Style View</li>
           <li>Update for OS 7 and Gtk 4</li>
           <li>Updated translations</li>
         </ul>
