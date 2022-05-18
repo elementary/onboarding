@@ -67,7 +67,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         Object (
             view_name: "style",
             description: _("Make it your own by choosing a visual style and accent color. Apps may override these with their own look."),
-            icon_name: "preferences-desktop-wallpaper",
+            icon_name: "preferences-desktop-theme",
             title: _("Choose Your Look")
         );
     }
