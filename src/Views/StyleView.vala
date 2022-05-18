@@ -137,23 +137,23 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_dark_grid.attach (new Gtk.Label (_("Dark")), 0, 1);
         prefer_dark_grid.set_parent (prefer_dark_radio);
 
-        var prefer_no_dark_schedule = new Gtk.ToggleButton.with_label ("No Dark Schedule") {
-            halign = Gtk.Align.END,
-            hexpand = true,
-            can_focus = false,
-            active = true,
-        };
+        var prefer_scheduled_card = new Gtk.Grid ();
+        prefer_scheduled_card.add_css_class (Granite.STYLE_CLASS_CARD);
+        prefer_scheduled_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
+        prefer_scheduled_card.add_css_class ("prefer-scheduled");
+        prefer_scheduled_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        var prefer_scheduled_dark = new Gtk.ToggleButton.with_label ("Sunset to Sunrise") {
+        var prefer_scheduled_radio = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
             hexpand = true,
-            can_focus = false,
-            group = prefer_no_dark_schedule
+            group = prefer_default_radio
         };
+        prefer_scheduled_radio.add_css_class ("image-button");
 
-        var dark_preference_size_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.HORIZONTAL);
-        dark_preference_size_group.add_widget (prefer_no_dark_schedule);
-        dark_preference_size_group.add_widget (prefer_scheduled_dark);
+        var prefer_scheduled_grid = new Gtk.Grid ();
+        prefer_scheduled_grid.attach (prefer_scheduled_card, 0, 0);
+        prefer_scheduled_grid.attach (new Gtk.Label (_("Sunset to Sunrise")), 0, 1);
+        prefer_scheduled_grid.set_parent (prefer_scheduled_radio);
 
         var blueberry_button = new PrefersAccentColorButton (pantheon_act, AccentColor.BLUE);
         blueberry_button.tooltip_text = _("Blueberry");
@@ -226,9 +226,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         custom_bin.row_spacing = 12;
         custom_bin.attach (prefer_default_radio, 0, 0);
         custom_bin.attach (prefer_dark_radio, 1, 0);
-        custom_bin.attach (prefer_no_dark_schedule, 0, 1);
-        custom_bin.attach (prefer_scheduled_dark, 1, 1);
-        custom_bin.attach (accent_box, 0, 2, 2);
+        custom_bin.attach (prefer_scheduled_radio, 2, 0);
+        custom_bin.attach (accent_box, 0, 1, 3);
 
         switch (pantheon_act.prefers_color_scheme) {
             case Granite.Settings.ColorScheme.DARK:

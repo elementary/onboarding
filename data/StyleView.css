@@ -47,3 +47,14 @@ checkbutton .card.prefer-dark {
             alpha(@accent_color_500, 0.1)
         );
 }
+
+checkbutton .card.prefer-scheduled {
+    background-color: white;
+    background-image:
+        url("resource:///io/elementary/onboarding/appearance-scheduled.svg"),
+        linear-gradient(
+            to bottom,
+            alpha(@accent_color_300, 0.1),
+            alpha(@accent_color_500, 0.1)
+        );
+}
