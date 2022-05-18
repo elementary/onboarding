@@ -229,21 +229,32 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         custom_bin.attach (prefer_scheduled_radio, 2, 0);
         custom_bin.attach (accent_box, 0, 1, 3);
 
-        switch (pantheon_act.prefers_color_scheme) {
-            case Granite.Settings.ColorScheme.DARK:
-                prefer_dark_radio.active = true;
-                break;
-            default:
-                prefer_default_radio.active = true;
-                break;
+        var settings = new GLib.Settings ("io.elementary.settings-daemon.prefers-color-scheme");
+        var schedule = settings.get_string ("prefer-dark-schedule");
+
+        if (schedule == "sunset-to-sunrise") {
+            prefer_scheduled_radio.active = true;
+        } else if (pantheon_act.prefers_color_scheme == Granite.Settings.ColorScheme.DARK) {
+            prefer_dark_radio.active = true;
+        } else {
+            prefer_default_radio.active = true;
         }
 
         prefer_default_radio.toggled.connect (() => {
             pantheon_act.prefers_color_scheme = Granite.Settings.ColorScheme.NO_PREFERENCE;
+            schedule = "disabled";
+            settings.set_string ("prefer-dark-schedule", schedule);
         });
 
         prefer_dark_radio.toggled.connect (() => {
             pantheon_act.prefers_color_scheme = Granite.Settings.ColorScheme.DARK;
+            schedule = "disabled";
+            settings.set_string ("prefer-dark-schedule", schedule);
+        });
+
+        prefer_scheduled_radio.toggled.connect (() => {
+            schedule = "sunset-to-sunrise";
+            settings.set_string ("prefer-dark-schedule", schedule);
         });
     }
 
