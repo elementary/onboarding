@@ -45,7 +45,9 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             valign = Gtk.Align.CENTER
         };
 
-        viewed = settings.get_strv ("viewed");
+        if (Posix.isatty (Posix.STDIN_FILENO) == false) {
+            viewed = settings.get_strv ("viewed");
+        }
 
         // Always show Early Access view on pre-release builds
         if (Environment.get_os_info (GLib.OsInfoKey.VERSION).contains ("Early Access")) {
