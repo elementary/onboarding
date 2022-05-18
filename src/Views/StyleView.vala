@@ -57,9 +57,9 @@ public class Onboarding.StyleView : AbstractOnboardingView {
                     return "cocoa";
                 case GRAY:
                     return "slate";
+                default:
+                    return "auto";
             }
-
-            return "auto";
         }
     }
 
@@ -263,8 +263,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         static construct {
             interface_settings = new GLib.Settings (INTERFACE_SCHEMA);
-
-            var current_stylesheet = interface_settings.get_string (STYLESHEET_KEY);
         }
 
         construct {
