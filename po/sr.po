@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-10 09:53-0700\n"
+"POT-Creation-Date: 2022-05-18 10:49-0700\n"
 "PO-Revision-Date: 2020-12-19 10:16+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <https://l10n.elementary.io/projects/installer/"
@@ -193,47 +193,51 @@ msgstr "Основна"
 msgid "Dark"
 msgstr "Тамна"
 
-#: src/Views/StyleView.vala:141
+#: src/Views/StyleView.vala:155
+msgid "Sunset to Sunrise"
+msgstr ""
+
+#: src/Views/StyleView.vala:159
 msgid "Blueberry"
 msgstr "Боровница"
 
-#: src/Views/StyleView.vala:145
+#: src/Views/StyleView.vala:163
 msgid "Mint"
 msgstr "Нана"
 
-#: src/Views/StyleView.vala:150
+#: src/Views/StyleView.vala:168
 msgid "Lime"
 msgstr "Лимета"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:173
 msgid "Banana"
 msgstr "Банана"
 
-#: src/Views/StyleView.vala:160
+#: src/Views/StyleView.vala:178
 msgid "Orange"
 msgstr "Наранџа"
 
-#: src/Views/StyleView.vala:165
+#: src/Views/StyleView.vala:183
 msgid "Strawberry"
 msgstr "Јагода"
 
-#: src/Views/StyleView.vala:170
+#: src/Views/StyleView.vala:188
 msgid "Bubblegum"
 msgstr "Жвакаћа гума"
 
-#: src/Views/StyleView.vala:175
+#: src/Views/StyleView.vala:193
 msgid "Grape"
 msgstr "Грожђе"
 
-#: src/Views/StyleView.vala:180
+#: src/Views/StyleView.vala:198
 msgid "Cocoa"
 msgstr "Какао"
 
-#: src/Views/StyleView.vala:185
+#: src/Views/StyleView.vala:203
 msgid "Slate"
 msgstr "Шкриљац"
 
-#: src/Views/StyleView.vala:190
+#: src/Views/StyleView.vala:208
 msgid "Automatic based on wallpaper"
 msgstr ""
 
