@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-10 09:53-0700\n"
-"PO-Revision-Date: 2021-11-21 05:58+0000\n"
+"PO-Revision-Date: 2022-05-18 14:38+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -235,17 +235,15 @@ msgstr "壁紙に基づいて自動的に設定"
 msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
-msgstr ""
+msgstr "お使いのデバイスがインターネットに接続している際に、アップデートを自動的にインストールするよう設定できます。"
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "以下のファイルを自動的に削除:"
+msgstr "自動アップデート"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "無料アプリと購入済みアプリ:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
