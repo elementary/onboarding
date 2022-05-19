@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2021-12-21 17:32+0000\n"
+"PO-Revision-Date: 2022-05-19 15:12+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -187,7 +187,7 @@ msgstr "Escuro"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Pôr do sol ao Nascer do sol"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
@@ -238,16 +238,16 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"As atualizações podem ser automaticamente instaladas quando o seu "
+"dispositivo está ligado à Internet."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Eliminar automaticamente:"
+msgstr "Atualizações automáticas"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Aplicações pagas e gratuitas:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
