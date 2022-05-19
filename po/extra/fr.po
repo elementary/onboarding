@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2021-11-19 20:20+0000\n"
+"PO-Revision-Date: 2022-05-19 08:51+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/fr/>\n"
@@ -29,15 +29,16 @@ msgstr "Personnaliser les paramètres lors de la première utilisation"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "Ajout d'une page « Mises à jour automatiques »"
 
 #: data/onboarding.appdata.xml.in:17
 msgid "Add Sunset to Sunrise to Style View"
 msgstr ""
+"Ajout de l'option « Du coucher au lever du soleil » sur la page « Apparence »"
 
 #: data/onboarding.appdata.xml.in:18
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "Mise à jour pour OS 7 et Gtk 4"
 
 #: data/onboarding.appdata.xml.in:19 data/onboarding.appdata.xml.in:27
 #: data/onboarding.appdata.xml.in:38 data/onboarding.appdata.xml.in:46
