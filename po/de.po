@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-05-11 13:35+0000\n"
+"PO-Revision-Date: 2022-05-19 13:19+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
 "onboarding/de/>\n"
@@ -189,7 +189,7 @@ msgstr "Dunkel"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Sonnenuntergang bis Sonnenaufgang"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
