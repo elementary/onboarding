@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2021-11-22 12:38+0000\n"
+"PO-Revision-Date: 2022-05-19 13:19+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
@@ -187,7 +187,7 @@ msgstr "Sötét"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Napnyugtától napkeltéig"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
@@ -238,16 +238,16 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"A frissítések automatikusan települhetnek, ha a készülék csatlakozva van az "
+"internetre."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Automatikus törlés:"
+msgstr "Automatikus frissítések"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Ingyenes és fizetős alkalmazások:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
