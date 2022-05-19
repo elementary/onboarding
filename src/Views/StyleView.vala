@@ -57,9 +57,9 @@ public class Onboarding.StyleView : AbstractOnboardingView {
                     return "cocoa";
                 case GRAY:
                     return "slate";
+                default:
+                    return "auto";
             }
-
-            return "auto";
         }
     }
 
@@ -137,6 +137,24 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_dark_grid.attach (new Gtk.Label (_("Dark")), 0, 1);
         prefer_dark_grid.set_parent (prefer_dark_radio);
 
+        var prefer_scheduled_card = new Gtk.Grid ();
+        prefer_scheduled_card.add_css_class (Granite.STYLE_CLASS_CARD);
+        prefer_scheduled_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
+        prefer_scheduled_card.add_css_class ("prefer-scheduled");
+        prefer_scheduled_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+
+        var prefer_scheduled_radio = new Gtk.CheckButton () {
+            halign = Gtk.Align.START,
+            hexpand = true,
+            group = prefer_default_radio
+        };
+        prefer_scheduled_radio.add_css_class ("image-button");
+
+        var prefer_scheduled_grid = new Gtk.Grid ();
+        prefer_scheduled_grid.attach (prefer_scheduled_card, 0, 0);
+        prefer_scheduled_grid.attach (new Gtk.Label (_("Sunset to Sunrise")), 0, 1);
+        prefer_scheduled_grid.set_parent (prefer_scheduled_radio);
+
         var blueberry_button = new PrefersAccentColorButton (pantheon_act, AccentColor.BLUE);
         blueberry_button.tooltip_text = _("Blueberry");
 
@@ -208,23 +226,31 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         custom_bin.row_spacing = 12;
         custom_bin.attach (prefer_default_radio, 0, 0);
         custom_bin.attach (prefer_dark_radio, 1, 0);
-        custom_bin.attach (accent_box, 0, 1, 2);
+        custom_bin.attach (prefer_scheduled_radio, 2, 0);
+        custom_bin.attach (accent_box, 0, 1, 3);
 
-        switch (pantheon_act.prefers_color_scheme) {
-            case Granite.Settings.ColorScheme.DARK:
-                prefer_dark_radio.active = true;
-                break;
-            default:
-                prefer_default_radio.active = true;
-                break;
+        var settings = new GLib.Settings ("io.elementary.settings-daemon.prefers-color-scheme");
+
+        if (settings.get_string ("prefer-dark-schedule") == "sunset-to-sunrise") {
+            prefer_scheduled_radio.active = true;
+        } else if (pantheon_act.prefers_color_scheme == Granite.Settings.ColorScheme.DARK) {
+            prefer_dark_radio.active = true;
+        } else {
+            prefer_default_radio.active = true;
         }
 
         prefer_default_radio.toggled.connect (() => {
             pantheon_act.prefers_color_scheme = Granite.Settings.ColorScheme.NO_PREFERENCE;
+            settings.set_string ("prefer-dark-schedule", "disabled");
         });
 
         prefer_dark_radio.toggled.connect (() => {
             pantheon_act.prefers_color_scheme = Granite.Settings.ColorScheme.DARK;
+            settings.set_string ("prefer-dark-schedule", "disabled");
+        });
+
+        prefer_scheduled_radio.toggled.connect (() => {
+            settings.set_string ("prefer-dark-schedule", "sunset-to-sunrise");
         });
     }
 
@@ -243,8 +269,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         static construct {
             interface_settings = new GLib.Settings (INTERFACE_SCHEMA);
-
-            var current_stylesheet = interface_settings.get_string (STYLESHEET_KEY);
         }
 
         construct {

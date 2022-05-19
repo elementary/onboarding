@@ -6,7 +6,6 @@ project(
 
 add_global_arguments(
     '-DGETTEXT_PACKAGE="' + meson.project_name() + '"',
-    '-DHANDY_USE_UNSTABLE_API',
     language:'c'
 )
 
@@ -21,7 +20,7 @@ gobject_dep = dependency('gobject-2.0')
 granite_dep = dependency('granite-7')
 gtk_dep = dependency('gtk4')
 posix_dep = meson.get_compiler('vala').find_library('posix')
-handy_dep = dependency('libadwaita-1')
+adw_dep = dependency('libadwaita-1')
 m_dep = cc.find_library('m', required : false)
 
 dependencies = [
@@ -31,7 +30,7 @@ dependencies = [
     granite_dep,
     gtk_dep,
     posix_dep,
-    handy_dep,
+    adw_dep,
     m_dep
 ]
 

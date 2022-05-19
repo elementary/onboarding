@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-10 09:53-0700\n"
-"PO-Revision-Date: 2021-11-21 05:58+0000\n"
+"POT-Creation-Date: 2022-05-18 10:49-0700\n"
+"PO-Revision-Date: 2022-05-18 14:38+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -187,47 +187,51 @@ msgstr "デフォルト"
 msgid "Dark"
 msgstr "ダーク"
 
-#: src/Views/StyleView.vala:141
+#: src/Views/StyleView.vala:155
+msgid "Sunset to Sunrise"
+msgstr ""
+
+#: src/Views/StyleView.vala:159
 msgid "Blueberry"
 msgstr "ブルーベリー"
 
-#: src/Views/StyleView.vala:145
+#: src/Views/StyleView.vala:163
 msgid "Mint"
 msgstr "ミント"
 
-#: src/Views/StyleView.vala:150
+#: src/Views/StyleView.vala:168
 msgid "Lime"
 msgstr "ライム"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:173
 msgid "Banana"
 msgstr "バナナ"
 
-#: src/Views/StyleView.vala:160
+#: src/Views/StyleView.vala:178
 msgid "Orange"
 msgstr "オレンジ"
 
-#: src/Views/StyleView.vala:165
+#: src/Views/StyleView.vala:183
 msgid "Strawberry"
 msgstr "ストロベリー"
 
-#: src/Views/StyleView.vala:170
+#: src/Views/StyleView.vala:188
 msgid "Bubblegum"
 msgstr "ピンク"
 
-#: src/Views/StyleView.vala:175
+#: src/Views/StyleView.vala:193
 msgid "Grape"
 msgstr "グレープ"
 
-#: src/Views/StyleView.vala:180
+#: src/Views/StyleView.vala:198
 msgid "Cocoa"
 msgstr "ココア"
 
-#: src/Views/StyleView.vala:185
+#: src/Views/StyleView.vala:203
 msgid "Slate"
 msgstr "スレート"
 
-#: src/Views/StyleView.vala:190
+#: src/Views/StyleView.vala:208
 msgid "Automatic based on wallpaper"
 msgstr "壁紙に基づいて自動的に設定"
 
@@ -236,16 +240,16 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"お使いのデバイスがインターネットに接続している際に、アップデートを自動的にイ"
+"ンストールするよう設定できます。"
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "以下のファイルを自動的に削除:"
+msgstr "自動アップデート"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "無料アプリと購入済みアプリ:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format

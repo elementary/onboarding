@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-10 09:53-0700\n"
-"PO-Revision-Date: 2021-11-23 20:58+0000\n"
+"POT-Creation-Date: 2022-05-18 10:49-0700\n"
+"PO-Revision-Date: 2022-05-18 21:46+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding/tr/>\n"
@@ -184,47 +184,51 @@ msgstr "Varsayılan"
 msgid "Dark"
 msgstr "Karanlık"
 
-#: src/Views/StyleView.vala:141
+#: src/Views/StyleView.vala:155
+msgid "Sunset to Sunrise"
+msgstr "Otomatik"
+
+#: src/Views/StyleView.vala:159
 msgid "Blueberry"
 msgstr "Yaban Mersini"
 
-#: src/Views/StyleView.vala:145
+#: src/Views/StyleView.vala:163
 msgid "Mint"
 msgstr "Nane"
 
-#: src/Views/StyleView.vala:150
+#: src/Views/StyleView.vala:168
 msgid "Lime"
 msgstr "Misket Limonu"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:173
 msgid "Banana"
 msgstr "Muz"
 
-#: src/Views/StyleView.vala:160
+#: src/Views/StyleView.vala:178
 msgid "Orange"
 msgstr "Portakal"
 
-#: src/Views/StyleView.vala:165
+#: src/Views/StyleView.vala:183
 msgid "Strawberry"
 msgstr "Çilek"
 
-#: src/Views/StyleView.vala:170
+#: src/Views/StyleView.vala:188
 msgid "Bubblegum"
 msgstr "Balonlu Sakız"
 
-#: src/Views/StyleView.vala:175
+#: src/Views/StyleView.vala:193
 msgid "Grape"
 msgstr "Üzüm"
 
-#: src/Views/StyleView.vala:180
+#: src/Views/StyleView.vala:198
 msgid "Cocoa"
 msgstr "Kakao"
 
-#: src/Views/StyleView.vala:185
+#: src/Views/StyleView.vala:203
 msgid "Slate"
 msgstr "Arduvaz"
 
-#: src/Views/StyleView.vala:190
+#: src/Views/StyleView.vala:208
 msgid "Automatic based on wallpaper"
 msgstr "Duvar kağıdına göre otomatik"
 
@@ -233,16 +237,15 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Cihazınız internete bağlandığında güncellemeler otomatik olarak yüklenebilir."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Otomatik Olarak Sil:"
+msgstr "Otomatik Güncellemeler"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Ücretsiz ve Ücretli Uygulamalar:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
