@@ -1,3 +1,28 @@
+io.elementary.onboarding (7.0.0) bionic; urgency=medium
+
+  * Release 7.0.0 (#168)
+  * MainWindow: show all views when launching from Terminal (#173)
+  * Meson: handy → adw (#169)
+  * Update translation files
+  * Update .pot
+  * Add Dark Schedule Preference (#170)
+  * StyleView: handle NO_PREFERENCE in switch (#172)
+  * Actions: bump release to Horus
+  * Add Updates View (#167)
+  * Update pot
+  * Update carousel to latest LibAdwaita API (#165)
+  * Port to GTK4 (#152)
+  * Prep for GTK4: Replace add with attach for Grids (#160)
+  * Switcher: Remove unused signal (#161)
+  * DesktopEntry: NotShowIn Installer → OnlyShowIn Pantheon (#155)
+  * Make Expand and Margin Properties more Specific for GTK4 Porting
+    (#156)
+  * MainWindow: Replace ButtonBox with Box (#158)
+  * Improve Code Style (#153)
+  * l10n: Correctly setup the locales (#147)
+
+ -- elementary, Inc. <builds@elementary.io>  Thu, 19 May 2022 20:27:42 +0000
+
 io.elementary.onboarding (6.1.0) bionic; urgency=medium
 
   * Release 6.1.0 (#145)
