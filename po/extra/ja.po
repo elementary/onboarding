@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2021-12-20 15:45+0000\n"
+"PO-Revision-Date: 2022-05-20 16:23+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ja/>\n"
@@ -29,15 +29,15 @@ msgstr "初回起動時に一般的な設定を変更します"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "自動アップデート画面を追加"
 
 #: data/onboarding.appdata.xml.in:17
 msgid "Add Sunset to Sunrise to Style View"
-msgstr ""
+msgstr "“日没から日の出まで”オプションをスタイル画面に追加"
 
 #: data/onboarding.appdata.xml.in:18
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "elementary OS 7 と Gtk 4 に向けたアップデート"
 
 #: data/onboarding.appdata.xml.in:19 data/onboarding.appdata.xml.in:27
 #: data/onboarding.appdata.xml.in:38 data/onboarding.appdata.xml.in:46
