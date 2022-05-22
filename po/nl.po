@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-01-16 10:11+0000\n"
+"PO-Revision-Date: 2022-05-22 06:09+0000\n"
 "Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding/nl/>\n"
@@ -103,7 +103,7 @@ msgstr "Open Systeeminstellingen…"
 
 #: src/Views/HouseKeepingView.vala:23
 msgid "Housekeeping"
-msgstr "Schoonmaken"
+msgstr "Opschonen"
 
 #: src/Views/HouseKeepingView.vala:28
 msgid "Automatically Delete:"
@@ -188,7 +188,7 @@ msgstr "Donker"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Zonsondergang tot zonsopgang"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
@@ -239,16 +239,16 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Updates kunnen automatisch worden geïnstalleerd wanneer uw apparaat is "
+"verbonden met het internet."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Automatisch verwijderen:"
+msgstr "Automatische updates"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Gratis en betaalde apps:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
