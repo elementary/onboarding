@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2021-11-24 07:57+0000\n"
+"PO-Revision-Date: 2022-06-02 19:46+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
 "onboarding/fi/>\n"
@@ -187,7 +187,7 @@ msgstr "Tumma"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Auringonnoususta auringonlaskuun"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
@@ -238,16 +238,16 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Päivitykset on mahdollista asentaa automaattisesti, kun laitteesi on "
+"yhteydessä internetiin."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Poista automaattisesti:"
+msgstr "Automaattiset päivitykset"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Ilmaiset ja maksulliset sovellukset:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
