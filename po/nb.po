@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2021-11-19 20:20+0000\n"
+"PO-Revision-Date: 2022-06-18 21:35+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding/nb/>\n"
@@ -187,7 +187,7 @@ msgstr "Mørk"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Solnedgang til soloppgang"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
@@ -238,16 +238,16 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Oppgraderinger kan installeres automatisk når enheten din er tilkoblet "
+"Internett."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Slett automatisk:"
+msgstr "Automatiske oppgraderinger"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Betalte og gratis-programmer:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
