@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-10 09:53-0700\n"
-"PO-Revision-Date: 2021-11-20 11:07+0000\n"
+"POT-Creation-Date: 2022-05-18 10:49-0700\n"
+"PO-Revision-Date: 2022-05-20 10:48+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/pl/>\n"
@@ -29,52 +29,64 @@ msgid "Change common settings on first-run"
 msgstr "Zmień popularne ustawienia przy pierwszym uruchomieniu"
 
 #: data/onboarding.appdata.xml.in:16
-msgid "Redesign Housekeeping and add Downloads option"
-msgstr "Przeprojektowano Porządki i dodano opcję Pobierania"
+msgid "Add Automatic Updates view"
+msgstr "Dodano widok „Automatyczne aktualizacje”"
 
-#: data/onboarding.appdata.xml.in:17 data/onboarding.appdata.xml.in:28
-#: data/onboarding.appdata.xml.in:36 data/onboarding.appdata.xml.in:44
-#: data/onboarding.appdata.xml.in:54
+#: data/onboarding.appdata.xml.in:17
+msgid "Add Sunset to Sunrise to Style View"
+msgstr "Dodano styl widoku „Od zmierzchu do świtu”"
+
+#: data/onboarding.appdata.xml.in:18
+msgid "Update for OS 7 and Gtk 4"
+msgstr "Aktualizacja do OS 7 i Gtk 4"
+
+#: data/onboarding.appdata.xml.in:19 data/onboarding.appdata.xml.in:27
+#: data/onboarding.appdata.xml.in:38 data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:54 data/onboarding.appdata.xml.in:64
 msgid "Updated translations"
 msgstr "Zaktualizowano tłumaczenia"
 
-#: data/onboarding.appdata.xml.in:24
+#: data/onboarding.appdata.xml.in:26
+msgid "Redesign Housekeeping and add Downloads option"
+msgstr "Przeprojektowano Porządki i dodano opcję Pobierania"
+
+#: data/onboarding.appdata.xml.in:34
 msgid "Add style view"
 msgstr "Dodano widok stylu"
 
-#: data/onboarding.appdata.xml.in:25
+#: data/onboarding.appdata.xml.in:35
 msgid "Add Online Accounts view"
 msgstr "Dodano widok kont online"
 
-#: data/onboarding.appdata.xml.in:26
+#: data/onboarding.appdata.xml.in:36
 msgid "Remove location services view"
 msgstr "Usunięto widok lokalizacji serwisów"
 
-#: data/onboarding.appdata.xml.in:27
+#: data/onboarding.appdata.xml.in:37
 msgid "Mention Sideload and Flathub"
 msgstr "Dodano informację o Sideload oraz Flathub"
 
-#: data/onboarding.appdata.xml.in:35
+#: data/onboarding.appdata.xml.in:45
 msgid "Fix blurry icon in AppCenter"
 msgstr "Naprawiono rozmytą ikonę w AppCenter"
 
-#: data/onboarding.appdata.xml.in:43
+#: data/onboarding.appdata.xml.in:53
 msgid "New app icon"
 msgstr "Nowa ikona aplikacji"
 
-#: data/onboarding.appdata.xml.in:51
+#: data/onboarding.appdata.xml.in:61
 msgid "Navigate with (multi-)touch gestures"
 msgstr "Nawigacja przy użyciu (wielo)dotykowych gestów"
 
-#: data/onboarding.appdata.xml.in:52
+#: data/onboarding.appdata.xml.in:62
 msgid "Use new blog URL"
 msgstr "Użyto nowego URL blogu"
 
-#: data/onboarding.appdata.xml.in:53
+#: data/onboarding.appdata.xml.in:63
 msgid "Fix errors when pressing the Skip button"
 msgstr "Naprawiono błędy przy naciskaniu przycisku Skip"
 
-#: data/onboarding.appdata.xml.in:65
+#: data/onboarding.appdata.xml.in:75
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
