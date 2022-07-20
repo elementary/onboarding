@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-07-20 05:00+0000\n"
-"Last-Translator: colindemian <colindemian@outlook.com>\n"
+"PO-Revision-Date: 2022-07-20 06:06+0000\n"
+"Last-Translator: CrxRuiXuan <huaweidu@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -231,14 +231,12 @@ msgid ""
 msgstr "在你的设备已连接到互联网时，更新会被自动下载并安装。"
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "自动删除："
+msgstr "自动更新"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "免费和付费应用："
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
