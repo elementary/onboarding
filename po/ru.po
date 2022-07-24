@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2021-12-18 17:42+0000\n"
-"Last-Translator: DartDeaDia <dartdeadia@protonmail.com>\n"
+"PO-Revision-Date: 2022-07-24 21:03+0000\n"
+"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
 "Language: ru\n"
@@ -239,6 +239,8 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Обновления могут быть автоматически установлены, когда ваше устройство "
+"подключено к Интернету."
 
 #: src/Views/UpdatesView.vala:12
 #, fuzzy
@@ -248,7 +250,7 @@ msgstr "Автоматически удалять:"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Бесплатные и платные приложения:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
