@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
 "PO-Revision-Date: 2022-07-24 21:03+0000\n"
-"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
 "Language: ru\n"
@@ -188,7 +188,7 @@ msgstr "Тёмный"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "От заката до рассвета"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
@@ -243,10 +243,8 @@ msgstr ""
 "подключено к Интернету."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Автоматически удалять:"
+msgstr "Автоматические обновления"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
