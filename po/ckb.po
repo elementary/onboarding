@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-08-04 14:23+0000\n"
+"Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
+"Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
+"installer/onboarding/ckb/>\n"
 "Language: ckb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -31,7 +34,7 @@ msgstr ""
 
 #: src/MainWindow.vala:125
 msgid "Next"
-msgstr ""
+msgstr "دواتر"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
@@ -161,7 +164,7 @@ msgstr ""
 
 #: src/Views/StyleView.vala:119
 msgid "Default"
-msgstr ""
+msgstr "بنەڕەتی"
 
 #: src/Views/StyleView.vala:137
 msgid "Dark"
