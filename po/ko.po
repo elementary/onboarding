@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-08-06 20:20+0000\n"
+"PO-Revision-Date: 2022-08-07 18:13+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/installer/"
 "onboarding/ko/>\n"
@@ -54,7 +54,7 @@ msgstr "앱센터 둘러보기…"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:35
 #, c-format
