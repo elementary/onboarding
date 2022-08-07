@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-08-07 19:07+0000\n"
+"PO-Revision-Date: 2022-08-08 00:07+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/installer/"
 "onboarding/ko/>\n"
@@ -59,7 +59,7 @@ msgstr "Flathub"
 #: src/Views/AppCenterView.vala:35
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
+msgstr "%s에서 Flatpak 앱을 사이드로드할 수도 있습니다"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -67,18 +67,19 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"이 %s의 시험판 버전은 프로덕션 환경에서 사용하면 안 됩니다. 이 설치로부터는 <b>안정적인 릴리스로 업그레이드할 수 없습니다</b>."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "개발자 버전 빌드"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "알려진 주요 이슈"
 
 #: src/Views/EarlyAccessView.vala:41
 msgid "Some features may be missing or incomplete"
-msgstr ""
+msgstr "일부 기능이 누락되었거나 불완전할 수 있습니다"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -142,31 +143,31 @@ msgstr "나이트 라이트:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "일정 및 온도 조정…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
-msgstr ""
+msgstr "온라인 계정을 이용해서 사용 중인 이메일, 이벤트, 작업을 이 컴퓨터의 메일, 달력, 작업과 동기화합니다."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "온라인 계정"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "온라인 계정 연결…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
-msgstr ""
+msgstr "비주얼 스타일과 강조색으로 나만의 스타일을 꾸며보세요. 앱들은 자신들만의 고유 디자인으로 바뀔 수 있습니다."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
-msgstr ""
+msgstr "디자인 선택"
 
 #: src/Views/StyleView.vala:119
 msgid "Default"
@@ -174,61 +175,61 @@ msgstr "기본"
 
 #: src/Views/StyleView.vala:137
 msgid "Dark"
-msgstr ""
+msgstr "다크"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "해 뜰 때부터 해 질 때까지"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
-msgstr ""
+msgstr "블루베리"
 
 #: src/Views/StyleView.vala:163
 msgid "Mint"
-msgstr ""
+msgstr "민트"
 
 #: src/Views/StyleView.vala:168
 msgid "Lime"
-msgstr ""
+msgstr "라임"
 
 #: src/Views/StyleView.vala:173
 msgid "Banana"
-msgstr ""
+msgstr "바나나"
 
 #: src/Views/StyleView.vala:178
 msgid "Orange"
-msgstr ""
+msgstr "오렌지"
 
 #: src/Views/StyleView.vala:183
 msgid "Strawberry"
-msgstr ""
+msgstr "딸기"
 
 #: src/Views/StyleView.vala:188
 msgid "Bubblegum"
-msgstr ""
+msgstr "풍선껌"
 
 #: src/Views/StyleView.vala:193
 msgid "Grape"
-msgstr ""
+msgstr "포도"
 
 #: src/Views/StyleView.vala:198
 msgid "Cocoa"
-msgstr ""
+msgstr "코코아"
 
 #: src/Views/StyleView.vala:203
 msgid "Slate"
-msgstr ""
+msgstr "슬레이트"
 
 #: src/Views/StyleView.vala:208
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "배경 화면에 따라 자동"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
-msgstr ""
+msgstr "컴퓨터가 인터넷에 연결되면 업데이트가 자동으로 설치될 수 있습니다."
 
 #: src/Views/UpdatesView.vala:12
 msgid "Automatic Updates"
@@ -236,7 +237,7 @@ msgstr "자동 업데이트"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "무료 & 유료 앱:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -265,14 +266,12 @@ msgid "Get Involved…"
 msgstr "참여하기…"
 
 #: src/Views/WhatsNewView.vala:10
-#, fuzzy
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
-"계속해서 유용한 새 기능들을 설정해 가세요. 업데이트에 관한 자세한 내용은 블로"
-"그를 참고해주세요 <a href='https://medium.com/elementaryos/tagged/"
-"updates'>our blog</a>."
+"계속해서 유용한 새 기능들을 설정해 가세요. 업데이트에 관한 자세한 내용은 블로그를 참고해주세요 <a href='https://"
+"blog.elementary.io'>our blog</a>."
 
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
