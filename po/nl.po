@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-05-22 06:09+0000\n"
+"PO-Revision-Date: 2022-08-14 01:53+0000\n"
 "Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding/nl/>\n"
@@ -47,7 +47,7 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr "Ik wil applicaties"
+msgstr "Ik wil apps"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
@@ -60,7 +60,7 @@ msgstr "Flathub"
 #: src/Views/AppCenterView.vala:35
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr "U kunt ook Flatpak-applicaties installeren bijvoorbeeld vanaf %s"
+msgstr "U kunt ook Flatpak-applicaties sideloaden vanaf bijvoorbeeld %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -90,8 +90,8 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"Veel plezier met %s! U kunt altijd hardware instellen of voorkeuren wijzigen "
-"in Systeem Instellingen."
+"Veel plezier met %s! U kunt altijd later nog hardware configureren of uw "
+"voorkeuren wijzigen in de Systeeminstellingen."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
@@ -171,8 +171,9 @@ msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
-"Personaliseer het door uw eigen visuele stijl en kleuraccent te kiezen. Apps "
-"kunnen deze overschrijven met hun eigen stijl."
+"Pas het systeem aan op uw voorkeuren door een eigen visuele stijl en "
+"kleuraccent te kiezen. Apps kunnen mogelijk deze instellingen overschrijven "
+"met hun eigen stijl."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
