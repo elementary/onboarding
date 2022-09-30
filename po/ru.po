@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-07-24 21:03+0000\n"
+"PO-Revision-Date: 2022-09-30 15:23+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
@@ -69,7 +69,7 @@ msgid ""
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
 "Эта предварительная версия %s не предназначена для широкого использования. "
-"<b>Обновление до стабильной версии будет невозможно</b> после этой установки."
+"<b>Обновление до стабильной версии невозможно</b> с этой установки."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
@@ -155,16 +155,16 @@ msgid ""
 "emails, events, and tasks with this device."
 msgstr ""
 "Пользуйтесь приложениями «Почта», «Календарь» и «Задачи» с существующим "
-"сетевыми учетными записями для синхронизации электронной почты, событий и "
+"сетевыми учётными записями для синхронизации электронной почты, событий и "
 "задач с этим устройством."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr "Сетевые учетные записи"
+msgstr "Сетевые учётные записи"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr "Подключить сетевые учетные записи…"
+msgstr "Подключить сетевые учётные записи…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
