@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-09-30 10:38+0000\n"
+"PO-Revision-Date: 2022-09-30 15:23+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ru/>\n"
@@ -60,7 +60,7 @@ msgstr "Добавлен просмотр онлайн аккаунтов"
 
 #: data/onboarding.appdata.xml.in:36
 msgid "Remove location services view"
-msgstr "Удален просмотр служб местоположения"
+msgstr "Удалён просмотр служб местоположения"
 
 #: data/onboarding.appdata.xml.in:37
 msgid "Mention Sideload and Flathub"
@@ -76,15 +76,15 @@ msgstr "Новая иконка приложения"
 
 #: data/onboarding.appdata.xml.in:61
 msgid "Navigate with (multi-)touch gestures"
-msgstr "Навигация с помощью мультитач жестов"
+msgstr "Навигация с помощью мультитач-жестов"
 
 #: data/onboarding.appdata.xml.in:62
 msgid "Use new blog URL"
-msgstr "Используйте новый URL-адрес блога"
+msgstr "Используется новый URL-адрес блога"
 
 #: data/onboarding.appdata.xml.in:63
 msgid "Fix errors when pressing the Skip button"
-msgstr "Исправлены ошибки при нажатии кнопки Пропустить"
+msgstr "Исправлены ошибки при нажатии кнопки «Пропустить»"
 
 #: data/onboarding.appdata.xml.in:75
 msgid "elementary, Inc."
