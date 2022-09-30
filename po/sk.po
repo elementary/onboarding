@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2021-11-30 21:42+0000\n"
+"PO-Revision-Date: 2022-09-30 22:21+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
 "onboarding/sk/>\n"
@@ -187,7 +187,7 @@ msgstr "Tmavý"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Od západu po východ slnka"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
@@ -238,16 +238,16 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Aktualizácie sa môžu automaticky nainštalovať, keď je vaše zariadenie "
+"pripojené na Internet."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Automaticky vymazávať:"
+msgstr "Automatické aktualizácie"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Platené a bezplatné aplikácie:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
