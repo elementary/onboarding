@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-07-24 21:03+0000\n"
+"PO-Revision-Date: 2022-09-30 10:38+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ru/>\n"
@@ -34,7 +34,7 @@ msgstr "Добавлен просмотр автоматических обно�
 
 #: data/onboarding.appdata.xml.in:17
 msgid "Add Sunset to Sunrise to Style View"
-msgstr "Добавлена настройка «От рассвета до заката» в параметры стиля"
+msgstr "Добавлена настройка «От заката до рассвета» в параметры стиля"
 
 #: data/onboarding.appdata.xml.in:18
 msgid "Update for OS 7 and Gtk 4"
