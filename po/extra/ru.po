@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-09-30 15:23+0000\n"
+"PO-Revision-Date: 2022-10-01 07:17+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ru/>\n"
@@ -68,7 +68,7 @@ msgstr "Упомянуты сторонние загрузки и Flathub"
 
 #: data/onboarding.appdata.xml.in:45
 msgid "Fix blurry icon in AppCenter"
-msgstr "Исправлено размытие иконки в Центре приложений"
+msgstr "Исправлено размытие иконки в AppCenter"
 
 #: data/onboarding.appdata.xml.in:53
 msgid "New app icon"
