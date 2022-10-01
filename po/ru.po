@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-10-01 05:03+0000\n"
+"PO-Revision-Date: 2022-10-01 05:04+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
@@ -42,8 +42,8 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"Загружайте нужные вам приложения в Центре приложений. Курированные "
-"приложения созданы для elementary OS и проверены командой elementary."
+"Загружайте нужные вам приложения в AppCenter. Курированные приложения "
+"созданы для elementary OS и проверены командой elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -51,7 +51,7 @@ msgstr "Загрузите несколько приложений"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr "Открыть Центр приложений…"
+msgstr "Открыть AppCenter…"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Flathub"
