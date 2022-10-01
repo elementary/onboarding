@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-10-01 05:04+0000\n"
+"PO-Revision-Date: 2022-10-01 05:08+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
@@ -118,7 +118,7 @@ msgstr "Загруженные файлы"
 
 #: src/Views/HouseKeepingView.vala:58
 msgid "Trashed files"
-msgstr "Файлы в корзине"
+msgstr "Файлы в Корзине"
 
 #: src/Views/HouseKeepingView.vala:70
 #, c-format
