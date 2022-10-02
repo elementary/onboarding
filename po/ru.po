@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-10-01 05:08+0000\n"
+"PO-Revision-Date: 2022-10-03 15:57+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr "Все готово"
+msgstr "Всё готово"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
@@ -172,7 +172,7 @@ msgid ""
 "override these with their own look."
 msgstr ""
 "Добавьте собственных черт, выбрав визуальный стиль и цветовой акцент. "
-"Приложения могут заменить их собственным оформлением."
+"Приложения могут заменять их собственным оформлением."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
@@ -266,7 +266,7 @@ msgstr "Добро пожаловать в %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr "Базовое руководство…"
+msgstr "Изучение основ…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
