@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 10:49-0700\n"
+"POT-Creation-Date: 2022-10-03 09:22-0700\n"
 "PO-Revision-Date: 2022-07-22 13:19+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/MainWindow.vala:107
+#: src/MainWindow.vala:109
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/MainWindow.vala:121
+#: src/MainWindow.vala:123
 msgid "Get Started"
 msgstr "始めましょう"
 
-#: src/MainWindow.vala:125
+#: src/MainWindow.vala:127
 msgid "Next"
 msgstr "次へ"
 
@@ -68,7 +68,9 @@ msgstr ""
 msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
-msgstr "これはプレリリース版の %s です。メイン環境での使用は推奨しません。また、<b>安定版へのアップグレードはできません</b>。"
+msgstr ""
+"これはプレリリース版の %s です。メイン環境での使用は推奨しません。また、<b>安"
+"定版へのアップグレードはできません</b>。"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
@@ -99,34 +101,40 @@ msgstr "準備が完了しました"
 msgid "Open System Settings…"
 msgstr "“システム設定”を開く…"
 
-#: src/Views/HouseKeepingView.vala:23
+#: src/Views/HouseKeepingView.vala:22
+#, fuzzy, c-format
+#| msgid ""
+#| "Old files can be automatically deleted after %u days to save space and "
+#| "help protect your privacy."
+msgid ""
+"Old files can be automatically deleted after %u day to save space and help "
+"protect your privacy."
+msgid_plural ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr[0] ""
+"古いファイルは%u日後に自動的に削除されます。これにより、空き領域を確保でき、"
+"プライバシーの保護に役立ちます。"
+
+#: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
 msgstr "自動削除"
 
-#: src/Views/HouseKeepingView.vala:28
+#: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
 msgstr "以下のファイルを自動的に削除:"
 
-#: src/Views/HouseKeepingView.vala:37
+#: src/Views/HouseKeepingView.vala:47
 msgid "Old temporary files"
 msgstr "不要な一時ファイル"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:57
 msgid "Downloaded files"
 msgstr "ダウンロードしたファイル"
 
-#: src/Views/HouseKeepingView.vala:58
+#: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
 msgstr "ゴミ箱に移動したファイル"
-
-#: src/Views/HouseKeepingView.vala:70
-#, c-format
-msgid ""
-"Old files can be automatically deleted after %u days to save space and help "
-"protect your privacy."
-msgstr ""
-"古いファイルは%u日後に自動的に削除されます。これにより、空き領域を確保でき、"
-"プライバシーの保護に役立ちます。"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
