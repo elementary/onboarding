@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-03 09:22-0700\n"
-"PO-Revision-Date: 2022-05-19 13:19+0000\n"
+"PO-Revision-Date: 2022-10-07 03:06+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
@@ -101,10 +101,7 @@ msgid "Open System Settings…"
 msgstr "Rendszerbeállítások megnyitása…"
 
 #: src/Views/HouseKeepingView.vala:22
-#, fuzzy, c-format
-#| msgid ""
-#| "Old files can be automatically deleted after %u days to save space and "
-#| "help protect your privacy."
+#, c-format
 msgid ""
 "Old files can be automatically deleted after %u day to save space and help "
 "protect your privacy."
