@@ -76,13 +76,13 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
                 xalign = 0
             };
 
-            var grid = new Gtk.Grid ();
-            grid.attach (image, 0, 0);
-            grid.attach (left_label, 1, 0);
+            var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
+            box.append (image);
+            box.append (left_label);
 
             link_button_widget = new Gtk.LinkButton.with_label (uri, label_string) {
                 icon_name = icon_name,
-                child = grid
+                child = box
             };
             link_button_widget.set_parent (this);
         }
