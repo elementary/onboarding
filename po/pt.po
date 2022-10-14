@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-05-19 15:12+0000\n"
+"POT-Creation-Date: 2022-10-03 09:22-0700\n"
+"PO-Revision-Date: 2022-10-09 17:26+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Configurar %s"
 
-#: src/MainWindow.vala:107
+#: src/MainWindow.vala:109
 msgid "Skip All"
 msgstr "Ignorar tudo"
 
-#: src/MainWindow.vala:121
+#: src/MainWindow.vala:123
 msgid "Get Started"
 msgstr "Iniciar"
 
-#: src/MainWindow.vala:125
+#: src/MainWindow.vala:127
 msgid "Next"
 msgstr "Seguinte"
 
@@ -100,34 +100,40 @@ msgstr "Pronto para ir"
 msgid "Open System Settings…"
 msgstr "Abrir as Definições do Sistema…"
 
-#: src/Views/HouseKeepingView.vala:23
+#: src/Views/HouseKeepingView.vala:22
+#, c-format
+msgid ""
+"Old files can be automatically deleted after %u day to save space and help "
+"protect your privacy."
+msgid_plural ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr[0] ""
+"Os ficheiros antigos podem ser eliminados automaticamente depois de %u dia "
+"para poupar espaço e ajudar a proteger a sua privacidade."
+msgstr[1] ""
+"Os ficheiros antigos podem ser eliminados automaticamente depois de %u dias "
+"para poupar espaço e ajudar a proteger a sua privacidade."
+
+#: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
 msgstr "Limpeza"
 
-#: src/Views/HouseKeepingView.vala:28
+#: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
 msgstr "Eliminar automaticamente:"
 
-#: src/Views/HouseKeepingView.vala:37
+#: src/Views/HouseKeepingView.vala:47
 msgid "Old temporary files"
 msgstr "Ficheiros temporários antigos"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:57
 msgid "Downloaded files"
 msgstr "Ficheiros transferidos"
 
-#: src/Views/HouseKeepingView.vala:58
+#: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
 msgstr "Ficheiros no lixo"
-
-#: src/Views/HouseKeepingView.vala:70
-#, c-format
-msgid ""
-"Old files can be automatically deleted after %u days to save space and help "
-"protect your privacy."
-msgstr ""
-"Os ficheiros antigos podem ser eliminados automaticamente depois de %u dias "
-"para poupar espaço e ajudar a proteger a sua privacidade."
 
 #: src/Views/NightLightView.vala:22
 msgid ""
