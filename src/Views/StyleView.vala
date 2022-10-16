@@ -208,7 +208,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             tooltip_text = _("Automatic based on wallpaper")
         };
 
-        var accent_box= new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
+        var accent_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0) {
             halign = Gtk.Align.CENTER
         };
         accent_box.append (blueberry_button);
