@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-03 09:23-0700\n"
+"POT-Creation-Date: 2022-10-20 18:27+0000\n"
 "PO-Revision-Date: 2022-09-30 22:21+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
@@ -27,65 +27,66 @@ msgstr "Vitajte"
 msgid "Change common settings on first-run"
 msgstr "Zmeňte bežné nastavenia pri prvom spustení"
 
-#: data/onboarding.appdata.xml.in:16
-msgid "Add Automatic Updates view"
-msgstr "Pridané zobrazenie Automatických aktualizácií"
-
-#: data/onboarding.appdata.xml.in:17
-msgid "Add Sunset to Sunrise to Style View"
-msgstr "Pridaná možnosť Od západu po východ slnka do zobrazenia Štýlov"
-
-#: data/onboarding.appdata.xml.in:18
-msgid "Update for OS 7 and Gtk 4"
-msgstr "Aktualizácia pre OS 7 a Gtk 4"
-
-#: data/onboarding.appdata.xml.in:19 data/onboarding.appdata.xml.in:27
-#: data/onboarding.appdata.xml.in:38 data/onboarding.appdata.xml.in:46
-#: data/onboarding.appdata.xml.in:54 data/onboarding.appdata.xml.in:64
+#: data/onboarding.appdata.xml.in:16 data/onboarding.appdata.xml.in:27
+#: data/onboarding.appdata.xml.in:35 data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:54 data/onboarding.appdata.xml.in:62
+#: data/onboarding.appdata.xml.in:72
 msgid "Updated translations"
 msgstr "Aktualizované preklady"
 
+#: data/onboarding.appdata.xml.in:24
+msgid "Add Automatic Updates view"
+msgstr "Pridané zobrazenie Automatických aktualizácií"
+
+#: data/onboarding.appdata.xml.in:25
+msgid "Add Sunset to Sunrise to Style View"
+msgstr "Pridaná možnosť Od západu po východ slnka do zobrazenia Štýlov"
+
 #: data/onboarding.appdata.xml.in:26
+msgid "Update for OS 7 and Gtk 4"
+msgstr "Aktualizácia pre OS 7 a Gtk 4"
+
+#: data/onboarding.appdata.xml.in:34
 msgid "Redesign Housekeeping and add Downloads option"
 msgstr "Prerobený vzhľad sekcie Upratovanie a pridaná možnosť Stiahnuté súbory"
 
-#: data/onboarding.appdata.xml.in:34
+#: data/onboarding.appdata.xml.in:42
 msgid "Add style view"
 msgstr "Pridané zobrazenie štýlov"
 
-#: data/onboarding.appdata.xml.in:35
+#: data/onboarding.appdata.xml.in:43
 msgid "Add Online Accounts view"
 msgstr "Pridané zobrazenie Online účtov"
 
-#: data/onboarding.appdata.xml.in:36
+#: data/onboarding.appdata.xml.in:44
 msgid "Remove location services view"
 msgstr "Odstránené zobrazenie Služby určovania polohy"
 
-#: data/onboarding.appdata.xml.in:37
+#: data/onboarding.appdata.xml.in:45
 msgid "Mention Sideload and Flathub"
 msgstr "Spomenutie inštalácie aplikácií z iných zdrojov a Flathubu"
 
-#: data/onboarding.appdata.xml.in:45
+#: data/onboarding.appdata.xml.in:53
 msgid "Fix blurry icon in AppCenter"
 msgstr "Opravená rozmazaná ikonka v AppCentre"
 
-#: data/onboarding.appdata.xml.in:53
+#: data/onboarding.appdata.xml.in:61
 msgid "New app icon"
 msgstr "Nová ikonka aplikácie"
 
-#: data/onboarding.appdata.xml.in:61
+#: data/onboarding.appdata.xml.in:69
 msgid "Navigate with (multi-)touch gestures"
 msgstr "Ovládanie pomocou (multi)dotykových gest"
 
-#: data/onboarding.appdata.xml.in:62
+#: data/onboarding.appdata.xml.in:70
 msgid "Use new blog URL"
 msgstr "Použitá nová URL adresa blogu"
 
-#: data/onboarding.appdata.xml.in:63
+#: data/onboarding.appdata.xml.in:71
 msgid "Fix errors when pressing the Skip button"
 msgstr "Opravené chyby pri stlačení tlačidla Preskočiť"
 
-#: data/onboarding.appdata.xml.in:75
+#: data/onboarding.appdata.xml.in:83
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
