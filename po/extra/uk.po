@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-03 09:23-0700\n"
+"POT-Creation-Date: 2022-10-20 18:27+0000\n"
 "PO-Revision-Date: 2022-05-18 21:46+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -28,65 +28,66 @@ msgstr "Вітаємо"
 msgid "Change common settings on first-run"
 msgstr "Налаштуйте загальні налаштування під час першого запуску"
 
-#: data/onboarding.appdata.xml.in:16
-msgid "Add Automatic Updates view"
-msgstr "Додано перегляд автооновлень"
-
-#: data/onboarding.appdata.xml.in:17
-msgid "Add Sunset to Sunrise to Style View"
-msgstr "Додано світанок і захід сонця до стилів перегляду"
-
-#: data/onboarding.appdata.xml.in:18
-msgid "Update for OS 7 and Gtk 4"
-msgstr "Оновлення до OS 7 і Gtk 4"
-
-#: data/onboarding.appdata.xml.in:19 data/onboarding.appdata.xml.in:27
-#: data/onboarding.appdata.xml.in:38 data/onboarding.appdata.xml.in:46
-#: data/onboarding.appdata.xml.in:54 data/onboarding.appdata.xml.in:64
+#: data/onboarding.appdata.xml.in:16 data/onboarding.appdata.xml.in:27
+#: data/onboarding.appdata.xml.in:35 data/onboarding.appdata.xml.in:46
+#: data/onboarding.appdata.xml.in:54 data/onboarding.appdata.xml.in:62
+#: data/onboarding.appdata.xml.in:72
 msgid "Updated translations"
 msgstr "Оновлено переклади"
 
+#: data/onboarding.appdata.xml.in:24
+msgid "Add Automatic Updates view"
+msgstr "Додано перегляд автооновлень"
+
+#: data/onboarding.appdata.xml.in:25
+msgid "Add Sunset to Sunrise to Style View"
+msgstr "Додано світанок і захід сонця до стилів перегляду"
+
 #: data/onboarding.appdata.xml.in:26
+msgid "Update for OS 7 and Gtk 4"
+msgstr "Оновлення до OS 7 і Gtk 4"
+
+#: data/onboarding.appdata.xml.in:34
 msgid "Redesign Housekeeping and add Downloads option"
 msgstr "Перероблено розділ Домоведення та додано опцію Завантаження"
 
-#: data/onboarding.appdata.xml.in:34
+#: data/onboarding.appdata.xml.in:42
 msgid "Add style view"
 msgstr "Додано перегляд стилів"
 
-#: data/onboarding.appdata.xml.in:35
+#: data/onboarding.appdata.xml.in:43
 msgid "Add Online Accounts view"
 msgstr "Додано перегляд мережних облікових записів"
 
-#: data/onboarding.appdata.xml.in:36
+#: data/onboarding.appdata.xml.in:44
 msgid "Remove location services view"
 msgstr "Вилучено перегляд служб розташування"
 
-#: data/onboarding.appdata.xml.in:37
+#: data/onboarding.appdata.xml.in:45
 msgid "Mention Sideload and Flathub"
 msgstr "Згадано сторонні завантаження та Flathub"
 
-#: data/onboarding.appdata.xml.in:45
+#: data/onboarding.appdata.xml.in:53
 msgid "Fix blurry icon in AppCenter"
 msgstr "Виправлено розмиття піктограми в Центрі застосунків"
 
-#: data/onboarding.appdata.xml.in:53
+#: data/onboarding.appdata.xml.in:61
 msgid "New app icon"
 msgstr "Нова піктограма застосунку"
 
-#: data/onboarding.appdata.xml.in:61
+#: data/onboarding.appdata.xml.in:69
 msgid "Navigate with (multi-)touch gestures"
 msgstr "Переходи за допомогою (багато-)дотикових жестів"
 
-#: data/onboarding.appdata.xml.in:62
+#: data/onboarding.appdata.xml.in:70
 msgid "Use new blog URL"
 msgstr "Додано нову URL-адресу блогу"
 
-#: data/onboarding.appdata.xml.in:63
+#: data/onboarding.appdata.xml.in:71
 msgid "Fix errors when pressing the Skip button"
 msgstr "Виправлено помилки під час натискання кнопки Пропустити"
 
-#: data/onboarding.appdata.xml.in:75
+#: data/onboarding.appdata.xml.in:83
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
