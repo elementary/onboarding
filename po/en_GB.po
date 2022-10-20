@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 10:49-0700\n"
+"POT-Creation-Date: 2022-10-03 09:22-0700\n"
 "PO-Revision-Date: 2021-11-30 07:44+0000\n"
 "Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Set up %s"
 
-#: src/MainWindow.vala:107
+#: src/MainWindow.vala:109
 msgid "Skip All"
 msgstr "Skip All"
 
-#: src/MainWindow.vala:121
+#: src/MainWindow.vala:123
 msgid "Get Started"
 msgstr "Get Started"
 
-#: src/MainWindow.vala:125
+#: src/MainWindow.vala:127
 msgid "Next"
 msgstr "Next"
 
@@ -99,34 +99,43 @@ msgstr "Ready to Go"
 msgid "Open System Settings…"
 msgstr "Open System Settings…"
 
-#: src/Views/HouseKeepingView.vala:23
+#: src/Views/HouseKeepingView.vala:22
+#, fuzzy, c-format
+#| msgid ""
+#| "Old files can be automatically deleted after %u days to save space and "
+#| "help protect your privacy."
+msgid ""
+"Old files can be automatically deleted after %u day to save space and help "
+"protect your privacy."
+msgid_plural ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr[0] ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr[1] ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+
+#: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
 msgstr "Housekeeping"
 
-#: src/Views/HouseKeepingView.vala:28
+#: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
 msgstr "Automatically Delete:"
 
-#: src/Views/HouseKeepingView.vala:37
+#: src/Views/HouseKeepingView.vala:47
 msgid "Old temporary files"
 msgstr "Old temporary files"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:57
 msgid "Downloaded files"
 msgstr "Downloaded files"
 
-#: src/Views/HouseKeepingView.vala:58
+#: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
 msgstr "Trashed files"
-
-#: src/Views/HouseKeepingView.vala:70
-#, c-format
-msgid ""
-"Old files can be automatically deleted after %u days to save space and help "
-"protect your privacy."
-msgstr ""
-"Old files can be automatically deleted after %u days to save space and help "
-"protect your privacy."
 
 #: src/Views/NightLightView.vala:22
 msgid ""

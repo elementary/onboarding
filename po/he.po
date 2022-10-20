@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-05-18 21:46+0000\n"
+"POT-Creation-Date: 2022-10-03 09:22-0700\n"
+"PO-Revision-Date: 2022-10-04 15:33+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "הגדרת %s"
 
-#: src/MainWindow.vala:107
+#: src/MainWindow.vala:109
 msgid "Skip All"
 msgstr "לדלג על הכול"
 
-#: src/MainWindow.vala:121
+#: src/MainWindow.vala:123
 msgid "Get Started"
 msgstr "מאיפה מתחילים"
 
-#: src/MainWindow.vala:125
+#: src/MainWindow.vala:127
 msgid "Next"
 msgstr "הבא"
 
@@ -99,34 +99,40 @@ msgstr "יצאנו לדרך"
 msgid "Open System Settings…"
 msgstr "פתיחת הגדרות המערכת…"
 
-#: src/Views/HouseKeepingView.vala:23
+#: src/Views/HouseKeepingView.vala:22
+#, c-format
+msgid ""
+"Old files can be automatically deleted after %u day to save space and help "
+"protect your privacy."
+msgid_plural ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr[0] ""
+"ניתן למחוק אוטומטית קבצים ישנים לאחר יום כדי לחסוך במקום ולסייע להגן על "
+"הפרטיות שלך."
+msgstr[1] ""
+"ניתן למחוק אוטומטית קבצים ישנים לאחר %u ימים כדי לחסוך במקום ולסייע להגן על "
+"הפרטיות שלך."
+
+#: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
 msgstr "טיפול שוטף"
 
-#: src/Views/HouseKeepingView.vala:28
+#: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
 msgstr "למחיקה אוטומטית:"
 
-#: src/Views/HouseKeepingView.vala:37
+#: src/Views/HouseKeepingView.vala:47
 msgid "Old temporary files"
 msgstr "קבצים זמניים ישנים"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:57
 msgid "Downloaded files"
 msgstr "קבצים שהתקבלו"
 
-#: src/Views/HouseKeepingView.vala:58
+#: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
 msgstr "קבצים באשפה"
-
-#: src/Views/HouseKeepingView.vala:70
-#, c-format
-msgid ""
-"Old files can be automatically deleted after %u days to save space and help "
-"protect your privacy."
-msgstr ""
-"ניתן למחוק אוטומטית קבצים ישנים לאחר %u ימים כדי לחסוך במקום ולסייע להגן על "
-"הפרטיות שלך."
 
 #: src/Views/NightLightView.vala:22
 msgid ""

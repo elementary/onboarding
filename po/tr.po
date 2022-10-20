@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-05-18 21:46+0000\n"
+"POT-Creation-Date: 2022-10-03 09:22-0700\n"
+"PO-Revision-Date: 2022-10-11 22:20+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding/tr/>\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s Kurulumu"
 
-#: src/MainWindow.vala:107
+#: src/MainWindow.vala:109
 msgid "Skip All"
 msgstr "Tümünü Atla"
 
-#: src/MainWindow.vala:121
+#: src/MainWindow.vala:123
 msgid "Get Started"
 msgstr "Hemen Başlayın"
 
-#: src/MainWindow.vala:125
+#: src/MainWindow.vala:127
 msgid "Next"
 msgstr "İleri"
 
@@ -99,34 +99,40 @@ msgstr "Başlamaya Hazırsınız"
 msgid "Open System Settings…"
 msgstr "Sistem Ayarlarını Aç…"
 
-#: src/Views/HouseKeepingView.vala:23
+#: src/Views/HouseKeepingView.vala:22
+#, c-format
+msgid ""
+"Old files can be automatically deleted after %u day to save space and help "
+"protect your privacy."
+msgid_plural ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr[0] ""
+"Yerden tasarruf etmek ve gizliliğinizi korumak için eski dosyalar %u gün "
+"sonra otomatik olarak silinebilir."
+msgstr[1] ""
+"Yerden tasarruf etmek ve gizliliğinizi korumak için eski dosyalar %u gün "
+"sonra otomatik olarak silinebilir."
+
+#: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
 msgstr "Bakım ve Temizlik"
 
-#: src/Views/HouseKeepingView.vala:28
+#: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
 msgstr "Otomatik Olarak Sil:"
 
-#: src/Views/HouseKeepingView.vala:37
+#: src/Views/HouseKeepingView.vala:47
 msgid "Old temporary files"
 msgstr "Eski geçici dosyalar"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:57
 msgid "Downloaded files"
 msgstr "İndirilen dosyalar"
 
-#: src/Views/HouseKeepingView.vala:58
+#: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
 msgstr "Çöp kutusundaki dosyalar"
-
-#: src/Views/HouseKeepingView.vala:70
-#, c-format
-msgid ""
-"Old files can be automatically deleted after %u days to save space and help "
-"protect your privacy."
-msgstr ""
-"Yerden tasarruf etmek ve gizliliğinizi korumak için eski dosyalar %u gün "
-"sonra otomatik olarak silinebilir."
 
 #: src/Views/NightLightView.vala:22
 msgid ""

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2019-07-07 22:28+0000\n"
+"POT-Creation-Date: 2022-10-03 09:22-0700\n"
+"PO-Revision-Date: 2022-08-08 00:07+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/installer/"
 "onboarding/ko/>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.4.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "%s 설정"
 
-#: src/MainWindow.vala:107
+#: src/MainWindow.vala:109
 msgid "Skip All"
 msgstr "모두 넘기기"
 
-#: src/MainWindow.vala:121
+#: src/MainWindow.vala:123
 msgid "Get Started"
 msgstr "시작"
 
-#: src/MainWindow.vala:125
+#: src/MainWindow.vala:127
 msgid "Next"
 msgstr "다음"
 
@@ -54,12 +54,12 @@ msgstr "앱센터 둘러보기…"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Flathub"
-msgstr ""
+msgstr "Flathub"
 
 #: src/Views/AppCenterView.vala:35
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr ""
+msgstr "%s에서 Flatpak 앱을 사이드로드할 수도 있습니다"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -67,18 +67,20 @@ msgid ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
+"이 %s의 시험판 버전은 프로덕션 환경에서 사용하면 안 됩니다. 이 설치로부터는 "
+"<b>안정적인 릴리스로 업그레이드할 수 없습니다</b>."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "개발자 버전 빌드"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "알려진 주요 이슈"
 
 #: src/Views/EarlyAccessView.vala:41
 msgid "Some features may be missing or incomplete"
-msgstr ""
+msgstr "일부 기능이 누락되었거나 불완전할 수 있습니다"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -97,38 +99,40 @@ msgstr "준비 끝"
 msgid "Open System Settings…"
 msgstr "시스템 설정 열기…"
 
-#: src/Views/HouseKeepingView.vala:23
+#: src/Views/HouseKeepingView.vala:22
+#, fuzzy, c-format
+#| msgid ""
+#| "Old files can be automatically deleted after %u days to save space and "
+#| "help protect your privacy."
+msgid ""
+"Old files can be automatically deleted after %u day to save space and help "
+"protect your privacy."
+msgid_plural ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr[0] ""
+"공간을 절약하고 개인 정보를 보호하기 위해 %u일 후에 오래된 파일을 자동으로 삭"
+"제할 수 있습니다."
+
+#: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
 msgstr "관리"
 
-#: src/Views/HouseKeepingView.vala:28
+#: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
 msgstr "자동 삭제:"
 
-#: src/Views/HouseKeepingView.vala:37
-#, fuzzy
-#| msgid "Temporary files"
-msgid "Old temporary files"
-msgstr "임시 파일"
-
 #: src/Views/HouseKeepingView.vala:47
-#, fuzzy
-#| msgid "Trashed files"
+msgid "Old temporary files"
+msgstr "오래된 임시 파일"
+
+#: src/Views/HouseKeepingView.vala:57
 msgid "Downloaded files"
-msgstr "지운 파일"
+msgstr "다운로드 파일"
 
-#: src/Views/HouseKeepingView.vala:58
+#: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
-msgstr "지운 파일"
-
-#: src/Views/HouseKeepingView.vala:70
-#, c-format
-msgid ""
-"Old files can be automatically deleted after %u days to save space and help "
-"protect your privacy."
-msgstr ""
-"저장장치 공간을 확보하고 프라이버시를 보호하기 위해서 오래된 파일은 %u일 후"
-"에 자동으로 지워집니다."
+msgstr "휴지통에 보낸 파일"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -148,103 +152,105 @@ msgstr "나이트 라이트:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "일정 및 온도 조정…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"온라인 계정을 이용해서 사용 중인 이메일, 이벤트, 작업을 이 컴퓨터의 메일, 달"
+"력, 작업과 동기화합니다."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "온라인 계정"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "온라인 계정 연결…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"비주얼 스타일과 강조색으로 나만의 스타일을 꾸며보세요. 앱들은 자신들만의 고"
+"유 디자인으로 바뀔 수 있습니다."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
-msgstr ""
+msgstr "디자인 선택"
 
 #: src/Views/StyleView.vala:119
 msgid "Default"
-msgstr ""
+msgstr "기본"
 
 #: src/Views/StyleView.vala:137
 msgid "Dark"
-msgstr ""
+msgstr "다크"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "해 뜰 때부터 해 질 때까지"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
-msgstr ""
+msgstr "블루베리"
 
 #: src/Views/StyleView.vala:163
 msgid "Mint"
-msgstr ""
+msgstr "민트"
 
 #: src/Views/StyleView.vala:168
 msgid "Lime"
-msgstr ""
+msgstr "라임"
 
 #: src/Views/StyleView.vala:173
 msgid "Banana"
-msgstr ""
+msgstr "바나나"
 
 #: src/Views/StyleView.vala:178
 msgid "Orange"
-msgstr ""
+msgstr "오렌지"
 
 #: src/Views/StyleView.vala:183
 msgid "Strawberry"
-msgstr ""
+msgstr "딸기"
 
 #: src/Views/StyleView.vala:188
 msgid "Bubblegum"
-msgstr ""
+msgstr "풍선껌"
 
 #: src/Views/StyleView.vala:193
 msgid "Grape"
-msgstr ""
+msgstr "포도"
 
 #: src/Views/StyleView.vala:198
 msgid "Cocoa"
-msgstr ""
+msgstr "코코아"
 
 #: src/Views/StyleView.vala:203
 msgid "Slate"
-msgstr ""
+msgstr "슬레이트"
 
 #: src/Views/StyleView.vala:208
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "배경 화면에 따라 자동"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
-msgstr ""
+msgstr "컴퓨터가 인터넷에 연결되면 업데이트가 자동으로 설치될 수 있습니다."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "자동 삭제:"
+msgstr "자동 업데이트"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "무료 & 유료 앱:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -273,14 +279,12 @@ msgid "Get Involved…"
 msgstr "참여하기…"
 
 #: src/Views/WhatsNewView.vala:10
-#, fuzzy
 msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
 "계속해서 유용한 새 기능들을 설정해 가세요. 업데이트에 관한 자세한 내용은 블로"
-"그를 참고해주세요 <a href='https://medium.com/elementaryos/tagged/"
-"updates'>our blog</a>."
+"그를 참고해주세요 <a href='https://blog.elementary.io'>our blog</a>."
 
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"

@@ -16,6 +16,16 @@
  */
 
 public class Onboarding.HouseKeepingView : AbstractOnboardingView {
+    public uint old_files_age {
+        set {
+            description = dngettext (Onboarding.GETTEXT_PACKAGE,
+                "Old files can be automatically deleted after %u day to save space and help protect your privacy.",
+                "Old files can be automatically deleted after %u days to save space and help protect your privacy.",
+                value
+            ).printf (value);
+        }
+    }
+
     public HouseKeepingView () {
         Object (
             view_name: "housekeeping",
@@ -67,9 +77,8 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         privacy_settings.bind ("remove-old-temp-files", temp_check, "active", GLib.SettingsBindFlags.DEFAULT);
         privacy_settings.bind ("remove-old-trash-files", trash_check, "active", GLib.SettingsBindFlags.DEFAULT);
 
-        description = _("Old files can be automatically deleted after %u days to save space and help protect your privacy.").printf (privacy_settings.get_uint ("old-files-age"));
-
         var housekeeping_settings = new Settings ("io.elementary.settings-daemon.housekeeping");
         housekeeping_settings.bind ("cleanup-downloads-folder", download_check, "active", GLib.SettingsBindFlags.DEFAULT);
+        housekeeping_settings.bind ("old-files-age", this, "old_files_age", GLib.SettingsBindFlags.GET);
     }
 }

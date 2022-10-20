@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2022-06-02 19:46+0000\n"
+"POT-Creation-Date: 2022-10-03 09:22-0700\n"
+"PO-Revision-Date: 2022-10-09 22:35+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
 "onboarding/fi/>\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Määritä %s"
 
-#: src/MainWindow.vala:107
+#: src/MainWindow.vala:109
 msgid "Skip All"
 msgstr "Ohita kaikki"
 
-#: src/MainWindow.vala:121
+#: src/MainWindow.vala:123
 msgid "Get Started"
 msgstr "Aloita"
 
-#: src/MainWindow.vala:125
+#: src/MainWindow.vala:127
 msgid "Next"
 msgstr "Seuraava"
 
@@ -99,34 +99,40 @@ msgstr "Kaikki valmiina"
 msgid "Open System Settings…"
 msgstr "Avaa järjestelmän asetukset…"
 
-#: src/Views/HouseKeepingView.vala:23
+#: src/Views/HouseKeepingView.vala:22
+#, c-format
+msgid ""
+"Old files can be automatically deleted after %u day to save space and help "
+"protect your privacy."
+msgid_plural ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr[0] ""
+"Vanhat tiedostot on mahdollista poistaa automaattisesti %u päivän jälkeen, "
+"jolloin säästyy tilaa ja yksityisyytesi paranee."
+msgstr[1] ""
+"Vanhat tiedostot on mahdollista poistaa automaattisesti %u päivän jälkeen, "
+"jolloin säästyy tilaa ja yksityisyytesi paranee."
+
+#: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
 msgstr "Kodinhoitoa"
 
-#: src/Views/HouseKeepingView.vala:28
+#: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
 msgstr "Poista automaattisesti:"
 
-#: src/Views/HouseKeepingView.vala:37
+#: src/Views/HouseKeepingView.vala:47
 msgid "Old temporary files"
 msgstr "Vanhat väliaikaiset tiedostot"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:57
 msgid "Downloaded files"
 msgstr "Ladatut tiedostot"
 
-#: src/Views/HouseKeepingView.vala:58
+#: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
 msgstr "Roskakorissa olevat tiedostot"
-
-#: src/Views/HouseKeepingView.vala:70
-#, c-format
-msgid ""
-"Old files can be automatically deleted after %u days to save space and help "
-"protect your privacy."
-msgstr ""
-"Vanhat tiedostot on mahdollista poistaa automaattisesti %u päivän jälkeen, "
-"jolloin säästyy tilaa ja yksityisyytesi paranee."
 
 #: src/Views/NightLightView.vala:22
 msgid ""

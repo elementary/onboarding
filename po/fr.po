@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 10:49-0700\n"
+"POT-Creation-Date: 2022-10-03 09:22-0700\n"
 "PO-Revision-Date: 2022-06-08 10:06+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Configurer %s"
 
-#: src/MainWindow.vala:107
+#: src/MainWindow.vala:109
 msgid "Skip All"
 msgstr "Ignorer tout"
 
-#: src/MainWindow.vala:121
+#: src/MainWindow.vala:123
 msgid "Get Started"
 msgstr "Commencer"
 
-#: src/MainWindow.vala:125
+#: src/MainWindow.vala:127
 msgid "Next"
 msgstr "Suivant"
 
@@ -102,34 +102,43 @@ msgstr "Vous êtes fin prêt"
 msgid "Open System Settings…"
 msgstr "Ouvrir les paramètres du système…"
 
-#: src/Views/HouseKeepingView.vala:23
+#: src/Views/HouseKeepingView.vala:22
+#, fuzzy, c-format
+#| msgid ""
+#| "Old files can be automatically deleted after %u days to save space and "
+#| "help protect your privacy."
+msgid ""
+"Old files can be automatically deleted after %u day to save space and help "
+"protect your privacy."
+msgid_plural ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr[0] ""
+"Les anciens fichiers peuvent être automatiquement supprimés après %u jours "
+"pour libérer de l'espace disque et protéger votre vie privée."
+msgstr[1] ""
+"Les anciens fichiers peuvent être automatiquement supprimés après %u jours "
+"pour libérer de l'espace disque et protéger votre vie privée."
+
+#: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
 msgstr "Nettoyage"
 
-#: src/Views/HouseKeepingView.vala:28
+#: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
 msgstr "Suppression automatique :"
 
-#: src/Views/HouseKeepingView.vala:37
+#: src/Views/HouseKeepingView.vala:47
 msgid "Old temporary files"
 msgstr "Anciens fichiers temporaires"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:57
 msgid "Downloaded files"
 msgstr "Fichiers téléchargés"
 
-#: src/Views/HouseKeepingView.vala:58
+#: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
 msgstr "Fichiers supprimés"
-
-#: src/Views/HouseKeepingView.vala:70
-#, c-format
-msgid ""
-"Old files can be automatically deleted after %u days to save space and help "
-"protect your privacy."
-msgstr ""
-"Les anciens fichiers peuvent être automatiquement supprimés après %u jours "
-"pour libérer de l'espace disque et protéger votre vie privée."
 
 #: src/Views/NightLightView.vala:22
 msgid ""

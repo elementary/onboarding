@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2021-12-18 17:42+0000\n"
-"Last-Translator: DartDeaDia <dartdeadia@protonmail.com>\n"
+"POT-Creation-Date: 2022-10-03 09:22-0700\n"
+"PO-Revision-Date: 2022-10-17 17:16+0000\n"
+"Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
 "Language: ru\n"
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Настройка %s"
 
-#: src/MainWindow.vala:107
+#: src/MainWindow.vala:109
 msgid "Skip All"
-msgstr "Пропустить все"
+msgstr "Пропустить всё"
 
-#: src/MainWindow.vala:121
+#: src/MainWindow.vala:123
 msgid "Get Started"
-msgstr "Приступить к работе"
+msgstr "Начать"
 
-#: src/MainWindow.vala:125
+#: src/MainWindow.vala:127
 msgid "Next"
 msgstr "Далее"
 
@@ -42,8 +42,8 @@ msgid ""
 "Get the apps you need on AppCenter. Curated apps are made for elementary OS "
 "and reviewed by elementary."
 msgstr ""
-"Загружайте нужные вам приложения в Центре приложений. Курированные "
-"приложения созданы для elementary OS и проверены командой elementary."
+"Загружайте нужные вам приложения в AppCenter. Курированные приложения "
+"созданы для elementary OS и проверены командой elementary."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -51,7 +51,7 @@ msgstr "Загрузите несколько приложений"
 
 #: src/Views/AppCenterView.vala:29
 msgid "Browse AppCenter…"
-msgstr "Открыть Центр приложений…"
+msgstr "Открыть AppCenter…"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Flathub"
@@ -60,7 +60,7 @@ msgstr "Flathub"
 #: src/Views/AppCenterView.vala:35
 #, c-format
 msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr "Вы также можете загрузить приложения Flatpak, например с %s"
+msgstr "Вы также можете загружать приложения Flatpak, например из %s"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -69,7 +69,7 @@ msgid ""
 "not be possible to upgrade to the stable release</b> from this installation."
 msgstr ""
 "Эта предварительная версия %s не предназначена для широкого использования. "
-"<b>Обновление до стабильной версии будет невозможно</b> после этой установки."
+"<b>Обновление до стабильной версии невозможно</b> с этой установки."
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
@@ -94,40 +94,49 @@ msgstr ""
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr "Все готово"
+msgstr "Всё готово"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Открыть Параметры системы…"
 
-#: src/Views/HouseKeepingView.vala:23
+#: src/Views/HouseKeepingView.vala:22
+#, c-format
+msgid ""
+"Old files can be automatically deleted after %u day to save space and help "
+"protect your privacy."
+msgid_plural ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr[0] ""
+"Старые файлы могут быть автоматически удалены через %u день, чтобы "
+"сэкономить место на диске и помочь защитить вашу приватность."
+msgstr[1] ""
+"Старые файлы могут быть автоматически удалены через %u дня, чтобы сэкономить "
+"место на диске и помочь защитить вашу приватность."
+msgstr[2] ""
+"Старые файлы могут быть автоматически удалены через %u дней, чтобы "
+"сэкономить место на диске и помочь защитить вашу приватность."
+
+#: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
 msgstr "Домоводство"
 
-#: src/Views/HouseKeepingView.vala:28
+#: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
 msgstr "Автоматически удалять:"
 
-#: src/Views/HouseKeepingView.vala:37
+#: src/Views/HouseKeepingView.vala:47
 msgid "Old temporary files"
 msgstr "Старые временные файлы"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:57
 msgid "Downloaded files"
-msgstr "Загруженные файлы"
+msgstr "Загрузки"
 
-#: src/Views/HouseKeepingView.vala:58
+#: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
-msgstr "Файлы в корзине"
-
-#: src/Views/HouseKeepingView.vala:70
-#, c-format
-msgid ""
-"Old files can be automatically deleted after %u days to save space and help "
-"protect your privacy."
-msgstr ""
-"Старые файлы могут быть автоматически удалены через %u дней, чтобы "
-"сэкономить место на диске и помочь защитить Вашу приватность."
+msgstr "Файлы в Корзине"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -155,16 +164,16 @@ msgid ""
 "emails, events, and tasks with this device."
 msgstr ""
 "Пользуйтесь приложениями «Почта», «Календарь» и «Задачи» с существующим "
-"сетевыми учетными записями для синхронизации электронной почты, событий и "
+"сетевыми учётными записями для синхронизации электронной почты, событий и "
 "задач с этим устройством."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr "Сетевые учетные записи"
+msgstr "Сетевые учётные записи"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr "Подключить сетевые учетные записи…"
+msgstr "Подключить сетевые учётные записи…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
@@ -172,7 +181,7 @@ msgid ""
 "override these with their own look."
 msgstr ""
 "Добавьте собственных черт, выбрав визуальный стиль и цветовой акцент. "
-"Приложения могут заменить их собственным оформлением."
+"Приложения могут заменять их собственным оформлением."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
@@ -188,7 +197,7 @@ msgstr "Тёмный"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "От заката до рассвета"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
@@ -239,16 +248,16 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Обновления могут быть автоматически установлены, когда ваше устройство "
+"подключено к Интернету."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Автоматически удалять:"
+msgstr "Автоматические обновления"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Бесплатные и платные приложения:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -266,7 +275,7 @@ msgstr "Добро пожаловать в %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr "Базовое руководство…"
+msgstr "Изучение основ…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"

@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 10:49-0700\n"
-"PO-Revision-Date: 2021-11-01 08:19+0000\n"
-"Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
+"POT-Creation-Date: 2022-10-03 09:23-0700\n"
+"PO-Revision-Date: 2022-07-20 06:06+0000\n"
+"Last-Translator: CrxRuiXuan <huaweidu@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/zh_Hans/>\n"
 "Language: zh_CN\n"
@@ -29,15 +29,15 @@ msgstr "在首次运行时配置常用设置"
 
 #: data/onboarding.appdata.xml.in:16
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "添加自动更新视图"
 
 #: data/onboarding.appdata.xml.in:17
 msgid "Add Sunset to Sunrise to Style View"
-msgstr ""
+msgstr "添加从日落到日出到样式视图"
 
 #: data/onboarding.appdata.xml.in:18
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "OS 7 和 Gtk 4 的更新"
 
 #: data/onboarding.appdata.xml.in:19 data/onboarding.appdata.xml.in:27
 #: data/onboarding.appdata.xml.in:38 data/onboarding.appdata.xml.in:46
@@ -47,7 +47,7 @@ msgstr "翻译更新"
 
 #: data/onboarding.appdata.xml.in:26
 msgid "Redesign Housekeeping and add Downloads option"
-msgstr ""
+msgstr "重新设计内务管理并添加下载选项"
 
 #: data/onboarding.appdata.xml.in:34
 msgid "Add style view"

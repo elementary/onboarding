@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-18 10:49-0700\n"
+"POT-Creation-Date: 2022-10-03 09:22-0700\n"
 "PO-Revision-Date: 2021-08-27 17:59+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/installer/"
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "قم بإعداد %s"
 
-#: src/MainWindow.vala:107
+#: src/MainWindow.vala:109
 msgid "Skip All"
 msgstr "تخط الكل"
 
-#: src/MainWindow.vala:121
+#: src/MainWindow.vala:123
 msgid "Get Started"
 msgstr "ابدأ"
 
-#: src/MainWindow.vala:125
+#: src/MainWindow.vala:127
 msgid "Next"
 msgstr "التالي"
 
@@ -102,36 +102,57 @@ msgstr "جاهز للبدء"
 msgid "Open System Settings…"
 msgstr "افتح إعدادات النظام…"
 
-#: src/Views/HouseKeepingView.vala:23
+#: src/Views/HouseKeepingView.vala:22
+#, fuzzy, c-format
+#| msgid ""
+#| "Old files can be automatically deleted after %u days to save space and "
+#| "help protect your privacy."
+msgid ""
+"Old files can be automatically deleted after %u day to save space and help "
+"protect your privacy."
+msgid_plural ""
+"Old files can be automatically deleted after %u days to save space and help "
+"protect your privacy."
+msgstr[0] ""
+"يمكن حذف الملفات القديمة تلقائياً بعد عدد محدد من الأيام لتوفير مساحة التخزين "
+"والمساعدة في حماية خصوصيتك."
+msgstr[1] ""
+"يمكن حذف الملفات القديمة تلقائياً بعد عدد محدد من الأيام لتوفير مساحة التخزين "
+"والمساعدة في حماية خصوصيتك."
+msgstr[2] ""
+"يمكن حذف الملفات القديمة تلقائياً بعد عدد محدد من الأيام لتوفير مساحة التخزين "
+"والمساعدة في حماية خصوصيتك."
+msgstr[3] ""
+"يمكن حذف الملفات القديمة تلقائياً بعد عدد محدد من الأيام لتوفير مساحة التخزين "
+"والمساعدة في حماية خصوصيتك."
+msgstr[4] ""
+"يمكن حذف الملفات القديمة تلقائياً بعد عدد محدد من الأيام لتوفير مساحة التخزين "
+"والمساعدة في حماية خصوصيتك."
+msgstr[5] ""
+"يمكن حذف الملفات القديمة تلقائياً بعد عدد محدد من الأيام لتوفير مساحة التخزين "
+"والمساعدة في حماية خصوصيتك."
+
+#: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
 msgstr "التنظيف"
 
-#: src/Views/HouseKeepingView.vala:28
+#: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
 msgstr "احذف تلقائياً:"
 
-#: src/Views/HouseKeepingView.vala:37
+#: src/Views/HouseKeepingView.vala:47
 msgid "Old temporary files"
 msgstr "الملفات المؤقتة القديمة"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:57
 #, fuzzy
 #| msgid "Trashed files"
 msgid "Downloaded files"
 msgstr "ملفات سلة المهملات"
 
-#: src/Views/HouseKeepingView.vala:58
+#: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
 msgstr "ملفات سلة المهملات"
-
-#: src/Views/HouseKeepingView.vala:70
-#, c-format
-msgid ""
-"Old files can be automatically deleted after %u days to save space and help "
-"protect your privacy."
-msgstr ""
-"يمكن حذف الملفات القديمة تلقائياً بعد عدد محدد من الأيام لتوفير مساحة التخزين "
-"والمساعدة في حماية خصوصيتك."
 
 #: src/Views/NightLightView.vala:22
 msgid ""
