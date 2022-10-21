@@ -1,3 +1,17 @@
+io.elementary.onboarding (7.0.1) bionic; urgency=medium
+
+  * Release 7.0.1 (#183)
+  * StyleView: use prefs-desktop-theme (#171)
+  * Update translation files
+  * Update translation template
+  * Use Gtk.Box for ImageLinkButton (#181)
+  * Update main.yml (#179)
+  * ci: Use gettext action for Horus (#178)
+  * Update pot files
+  * Bind number of days to setting (#176)
+
+ -- elementary, Inc. <builds@elementary.io>  Fri, 21 Oct 2022 22:10:28 +0000
+
 io.elementary.onboarding (7.0.0) bionic; urgency=medium
 
   * Release 7.0.0 (#168)
