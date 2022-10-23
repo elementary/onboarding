@@ -26,9 +26,11 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
     }
 
     construct {
-        var appcenter_button = new Gtk.Button.with_label (_("Browse AppCenter…"));
-        appcenter_button.add_css_class (Granite.STYLE_CLASS_FLAT);
-        appcenter_button.add_css_class ("link");
+        var appcenter_button = new Gtk.LinkButton.with_label ("", _("Browse AppCenter…")) {
+            hexpand = false,
+            halign = Gtk.Align.CENTER,
+            has_tooltip = false
+        };
 
         var flathub_link = "<a href='https://flathub.org'>%s</a>".printf (_("Flathub"));
 
@@ -46,13 +48,15 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
         custom_bin.attach (appcenter_button, 0, 0);
         custom_bin.attach (flatpak_note, 0, 1);
 
-        appcenter_button.clicked.connect (() => {
+        appcenter_button.activate_link.connect (() => {
             try {
                 var appcenter = new DesktopAppInfo ("io.elementary.appcenter.desktop");
                 appcenter.launch (null, null);
             } catch (Error e) {
                 critical (e.message);
             }
+
+            return Gdk.EVENT_STOP;
         });
     }
 }
