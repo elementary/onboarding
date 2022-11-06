@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2022-11-06 18:05+0000\n"
+"PO-Revision-Date: 2022-11-07 18:58+0000\n"
 "Last-Translator: Ali Karatel <karatelali@hotmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/tr/>\n"
@@ -44,7 +44,7 @@ msgstr ""
 
 #: data/onboarding.appdata.xml.in:26
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "OS 7 ve Gtk 4 için güncelleme"
 
 #: data/onboarding.appdata.xml.in:34
 msgid "Redesign Housekeeping and add Downloads option"
