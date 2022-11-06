@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
 "PO-Revision-Date: 2022-11-07 18:58+0000\n"
-"Last-Translator: Ali Karatel <karatelali@hotmail.com>\n"
+"Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/tr/>\n"
 "Language: tr\n"
@@ -36,7 +36,7 @@ msgstr "Çeviriler güncellendi"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Add Automatic Updates view"
-msgstr "Otomatik Güncelleştirmeler görünümü ekle"
+msgstr "Otomatik Güncellemeler görünümü eklendi"
 
 #: data/onboarding.appdata.xml.in:25
 msgid "Add Sunset to Sunrise to Style View"
