@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2021-02-18 03:09+0000\n"
+"PO-Revision-Date: 2022-11-11 14:29+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -87,8 +87,9 @@ msgid "Fix errors when pressing the Skip button"
 msgstr "Fikset feil ved trykking på «Hopp over»-knapp"
 
 #: data/onboarding.appdata.xml.in:83
+#, fuzzy
 msgid "elementary, Inc."
-msgstr "elementary, Inc"
+msgstr "elementary, Inc."
 
 #, fuzzy
 #~ msgid "io.elementary.onboarding"
