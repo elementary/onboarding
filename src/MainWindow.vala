@@ -50,9 +50,17 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         }
 
         // Always show Early Access view on pre-release builds
-        if (Environment.get_os_info (GLib.OsInfoKey.VERSION).contains ("Early Access")) {
-            var early_access_view = new EarlyAccessView ();
-            carousel.append (early_access_view);
+        var apt_sources = File.new_for_path ("/etc/apt/sources.list.d/elementary.list");
+        try {
+            var @is = apt_sources.read ();
+            var dis = new DataInputStream (@is);
+
+            if ("daily" in dis.read_line ()) {
+                var early_access_view = new EarlyAccessView ();
+                carousel.append (early_access_view);
+            }
+        } catch (Error e) {
+            critical ("Couldn't read apt sources: %s", e.message);
         }
 
         if ("finish" in viewed) {
