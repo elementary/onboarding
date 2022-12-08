@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2022-05-18 21:46+0000\n"
+"PO-Revision-Date: 2022-12-09 15:25+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -32,7 +32,7 @@ msgstr "עריכת הגדרות נפוצות בהפעלה הראשונה"
 #: data/onboarding.appdata.xml.in:54 data/onboarding.appdata.xml.in:62
 #: data/onboarding.appdata.xml.in:72
 msgid "Updated translations"
-msgstr "עודכנו תרגומים"
+msgstr "עודכנו התרגומים"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Add Automatic Updates view"
