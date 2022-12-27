@@ -23,8 +23,7 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
         Object (
             view_name: "early-access",
             description: _("This pre-release version of %s should not be used in production. <b>It will not be possible to upgrade to the stable release</b> from this installation.").printf (Utils.os_name),
-            icon_name: Utils.logo_icon_name,
-            badge_name: "dialog-warning",
+            icon_name: "applications-development",
             title: _("Early Access Build")
         );
     }
