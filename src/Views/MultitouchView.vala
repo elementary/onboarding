@@ -22,7 +22,7 @@ public class Onboarding.MultitouchView : AbstractOnboardingView {
     public MultitouchView () {
         Object (
             view_name: "multitouch",
-            description: _("Navigate efficiently through your windows and virtual desktops with modern 3-finger multitouch gestures."),
+            description: _("Navigate efficiently through your windows and workspaces with modern 3-finger multitouch gestures."),
             icon_name: "input-touchpad", // Change to better one
             title: _("Multitouch Gestures")
         );
