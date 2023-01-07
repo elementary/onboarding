@@ -17,6 +17,7 @@ vala_files = [
     'Views/UpdatesView.vala',
     'Views/WelcomeView.vala',
     'Views/WhatsNewView.vala',
+    'Views/MultitouchView.vala',
 ]
 
 config_data = configuration_data()

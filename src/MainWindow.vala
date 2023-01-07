@@ -79,6 +79,11 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             }
         }
 
+        if (!("multitouch" in viewed)) {
+            var multitouch_view = new MultitouchView ();
+            carousel.append (multitouch_view);
+        }
+
         if (!("night-light" in viewed)) {
             var night_light_view = new NightLightView ();
             carousel.append (night_light_view);
