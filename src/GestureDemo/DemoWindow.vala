@@ -1,4 +1,4 @@
-public class DemoWindow : Gtk.Window {
+public class Onboarding.DemoWindow : Gtk.Window {
     public Adw.Carousel carousel { get; set; }
     public DemoWindow (Onboarding.MultitouchView view) {
         Object (
@@ -20,12 +20,12 @@ public class DemoWindow : Gtk.Window {
             valign = Gtk.Align.CENTER
         };
 
-        var show_workspace = new ShowWorkspace () {
+        var show_workspace = new Onboarding.ShowWorkspace () {
             hexpand = true,
             vexpand = true
         };
 
-        var switch_workspace = new SwitchWorkspace () {
+        var switch_workspace = new Onboarding.SwitchWorkspace () {
             hexpand = true,
             vexpand = true
         };

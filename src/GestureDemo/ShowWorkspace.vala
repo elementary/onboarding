@@ -1,4 +1,4 @@
-public class ShowWorkspace : Gtk.Box {
+public class Onboarding.ShowWorkspace : Gtk.Box {
     construct {
         orientation = Gtk.Orientation.VERTICAL;
 

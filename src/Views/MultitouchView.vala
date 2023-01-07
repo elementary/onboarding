@@ -49,7 +49,7 @@ public class Onboarding.MultitouchView : AbstractOnboardingView {
         custom_bin.attach (demo_button, 0, 0);
         custom_bin.attach (settings_label, 0, 1);
 
-        var demo_window = new DemoWindow (this);
+        var demo_window = new Onboarding.DemoWindow (this);
         demo_button.activate_link.connect (() => {
             demo_window.carousel.scroll_to (demo_window.carousel.get_nth_page (0), false);
             demo_window.present ();

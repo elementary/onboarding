@@ -1,4 +1,4 @@
-public class SwitchWorkspace : Gtk.Box {
+public class Onboarding.SwitchWorkspace : Gtk.Box {
     construct {
         orientation = Gtk.Orientation.VERTICAL;
 
