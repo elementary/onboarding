@@ -35,7 +35,7 @@ public class Onboarding.MultitouchView : AbstractOnboardingView {
             has_tooltip = false
         };
 
-        var settings_button = new Gtk.Label (_("You can change these gestures later in System Settings")) {
+        var settings_label = new Gtk.Label (_("You can change these gestures later in System Settings")) {
             justify = Gtk.Justification.CENTER,
             max_width_chars = 45,
             use_markup = true,
@@ -43,10 +43,16 @@ public class Onboarding.MultitouchView : AbstractOnboardingView {
             vexpand = true,
             wrap = true
         };
-        settings_button.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
-        settings_button.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+        settings_label.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
+        settings_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
         custom_bin.attach (demo_button, 0, 0);
-        custom_bin.attach (settings_button, 0, 1);
+        custom_bin.attach (settings_label, 0, 1);
+
+        var demo_window = new DemoWindow (this);
+        demo_button.activate_link.connect (() => {
+            demo_window.carousel.scroll_to (demo_window.carousel.get_nth_page (0), false);
+            demo_window.present ();
+        });
     }
 }
