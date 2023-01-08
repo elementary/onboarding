@@ -13,7 +13,7 @@ public class Onboarding.DemoWindow : Gtk.Window {
 
         var front_page = new Granite.Placeholder ("Try Multitouch Gestures!") {
             description = "This is a demo of multitouch gestures used throughout the system",
-            icon = new ThemedIcon ("media-playback-start"),
+            icon = new ThemedIcon ("preferences-desktop-workspaces"),
             hexpand = true,
             vexpand = true,
             halign = Gtk.Align.CENTER,
@@ -30,14 +30,6 @@ public class Onboarding.DemoWindow : Gtk.Window {
             vexpand = true
         };
 
-        var last_page = new Granite.Placeholder ("Try them now!") {
-            icon = new ThemedIcon ("media-playback-start"),
-            hexpand = true,
-            vexpand = true,
-            halign = Gtk.Align.CENTER,
-            valign = Gtk.Align.CENTER
-        };
-
         carousel = new Adw.Carousel () {
             hexpand = true,
             vexpand = true
@@ -45,7 +37,6 @@ public class Onboarding.DemoWindow : Gtk.Window {
         carousel.append (front_page);
         carousel.append (show_workspace);
         carousel.append (switch_workspace);
-        carousel.append (last_page);
 
         var skip_button = new Gtk.Button.with_label (_("Skip All"));
 
@@ -57,7 +48,6 @@ public class Onboarding.DemoWindow : Gtk.Window {
         buttons_group.add_widget (next_button);
 
         var action_area = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
-            // vexpand = true,
             valign = Gtk.Align.END
         };
         action_area.add_css_class ("dialog-action-area");
@@ -91,7 +81,7 @@ public class Onboarding.DemoWindow : Gtk.Window {
 
         next_button.clicked.connect (() => {
             if (carousel.position < carousel.n_pages - 1) {
-                if (carousel.position == 2) {
+                if (carousel.position == 1) {
                     next_button.label = "Done";
                 }
 
