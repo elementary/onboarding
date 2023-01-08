@@ -88,7 +88,7 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
                 }
             } else if (val <= 500 && val > 250) { // We stop for another second
                 finger_x = LEFTMOST_FINGER_POSITION;
-            } else if (val <= 750 && val > 500){ // We hide workspace for 1 second
+            } else if (val <= 750 && val > 500) { // We hide workspace for 1 second
                 finger_x = RIGHTMOST_FINGER_POSITION - (((750 - val) / 1000) * (LEFTMOST_FINGER_POSITION * 4));
                 scale = 1.0f - ((750 - val) / 250);
 
