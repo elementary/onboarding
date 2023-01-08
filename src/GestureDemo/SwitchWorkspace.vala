@@ -2,20 +2,17 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
     construct {
         orientation = Gtk.Orientation.VERTICAL;
 
-        var label = new Gtk.Label ("Switch Workspaces") {
+        var label = new Granite.Placeholder ("Switch to Workspace") {
+            description = "Swipe horizontally with your 3 fingers to switch between workspaces",
+            icon = new ThemedIcon ("preferences-desktop-wallpaper"),
             halign = Gtk.Align.START,
-            valign = Gtk.Align.START,
-            hexpand = true,
-            margin_top = 20,
-            margin_start = 20
+            valign = Gtk.Align.START
         };
-        label.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
 
         var animated_child = new AnimatedChild () {
             hexpand = true,
             vexpand = true,
             margin_start = 10,
-            margin_top = 10,
             margin_bottom = 10,
             margin_end = 10
         };
