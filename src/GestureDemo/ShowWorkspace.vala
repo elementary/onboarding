@@ -26,8 +26,8 @@ public class Onboarding.ShowWorkspace : Gtk.Box {
         private Gdk.Texture background;
         private Gdk.Texture touchpad;
         private Gdk.Texture fingers;
+        private Gdk.Texture multitasking;
         private Gdk.Texture workspace;
-        private Gdk.Texture desktop;
         private Gdk.Texture dock;
 
         private float finger_y = 135;
@@ -50,8 +50,8 @@ public class Onboarding.ShowWorkspace : Gtk.Box {
             background = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-background.svg");
             touchpad = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-touchpad.svg");
             fingers = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-fingers.png");
+            multitasking = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-multitasking.svg");
             workspace = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-workspace.svg");
-            desktop = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-desktop.svg");
             dock = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-dock.png");
 
             animation = new Adw.TimedAnimation (this, 0, 1000, 4000, new Adw.CallbackAnimationTarget ((value) => {
@@ -111,7 +111,7 @@ public class Onboarding.ShowWorkspace : Gtk.Box {
             });
 
             snapshot.append_texture (touchpad, {{30, 30}, { 410, 300 }});
-            snapshot.append_texture (workspace, {{475, 100}, { 410, 300 }});
+            snapshot.append_texture (multitasking, {{475, 100}, { 410, 300 }});
 
             snapshot.save ();
             snapshot.translate ({110, finger_y}); // 70 to 135
@@ -124,7 +124,7 @@ public class Onboarding.ShowWorkspace : Gtk.Box {
                 100 + ((300 - (scale * 300)) / 2)
             });
             snapshot.scale (scale, scale);
-            desktop.snapshot (snapshot, 410, 300);
+            workspace.snapshot (snapshot, 410, 300);
             snapshot.restore ();
 
             snapshot.save ();

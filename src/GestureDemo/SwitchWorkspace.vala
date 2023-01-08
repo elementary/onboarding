@@ -26,9 +26,9 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
         private Gdk.Texture background;
         private Gdk.Texture touchpad;
         private Gdk.Texture fingers;
+        private Gdk.Texture multitasking;
         private Gdk.Texture workspace;
-        private Gdk.Texture desktop;
-        private Gdk.Texture desktop_two;
+        private Gdk.Texture workspace_two;
         private Gdk.Texture dock;
 
         private float finger_x = 140;
@@ -51,9 +51,9 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
             background = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-background.svg");
             touchpad = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-touchpad.svg");
             fingers = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-fingers.png");
+            multitasking = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-multitasking.svg");
             workspace = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-workspace.svg");
-            desktop = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-desktop.svg");
-            desktop_two = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-desktop-two.svg");
+            workspace_two = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-workspace-two.svg");
             dock = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-dock.png");
 
             animation = new Adw.TimedAnimation (this, 0, 1000, 4000, new Adw.CallbackAnimationTarget ((value) => {
@@ -113,7 +113,7 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
             });
 
             snapshot.append_texture (touchpad, {{30, 100}, { 410, 300 }});
-            snapshot.append_texture (workspace, {{475, 100}, { 410, 300 }});
+            snapshot.append_texture (multitasking, {{475, 100}, { 410, 300 }});
 
             snapshot.save ();
             snapshot.translate ({finger_x, 145 }); // 70 to 160
@@ -122,22 +122,22 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
 
             snapshot.save ();
             snapshot.translate ({ 475, 100});
-            desktop.snapshot (snapshot, 410 - (scale * 410), 300);
+            workspace.snapshot (snapshot, 410 - (scale * 410), 300); // we subtract width until w1 disappears
             snapshot.restore ();
 
             snapshot.save ();
-            snapshot.translate ({ 475 + (410 - (scale * 410)), 100});
-            desktop_two.snapshot (snapshot, 410 * scale, 300);
+            snapshot.translate ({ 475 + (410 - (scale * 410)), 100}); // we add desired xpos to w1 width
+            workspace_two.snapshot (snapshot, 410 * scale, 300); // which diminishes slowly so w2 will replace it.
             snapshot.restore ();
 
             snapshot.save ();
-            snapshot.translate ({ 560, 330 });
-            dock.snapshot (snapshot, 250 - (scale * 250), 30);
+            snapshot.translate ({ 560 - ((560 - 475) * scale), 330 }); // we subtract width until dock1 disappers
+            dock.snapshot (snapshot, 250 - (scale * 250), 30); // at the origin of w1.
             snapshot.restore ();
 
             snapshot.save ();
-            snapshot.translate ({ 560 + (250 - (scale * 250)), 330 });
-            dock.snapshot (snapshot, 250 * scale, 30);
+            snapshot.translate ({ 885 - ((885 - 560) * scale), 330 }); // we subtract from the highest x of w2
+            dock.snapshot (snapshot, 250 * scale, 30); // to get origin and end at 560 where dock starts.
             snapshot.restore ();
         }
 
