@@ -33,7 +33,6 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
 
         private float finger_x = 140;
         private float scale = 1;
-        private float dock_height = 30;
 
         private Adw.TimedAnimation animation;
 
@@ -74,28 +73,16 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
         }
 
         private void set_progress (float val) {
-            if (val <= 250) { // We show workspace for 1 second
-                finger_x = RIGHTMOST_FINGER_POSITION - ((val / 1000) * (LEFTMOST_FINGER_POSITION * 4));
+            if (val <= 250) { // We switch for 1 second
+                finger_x = LEFTMOST_FINGER_POSITION + ((val / 1000) * (LEFTMOST_FINGER_POSITION * 4));
                 scale = 1.0f - (val / 250);
-
-                if (val < 64.5) { // we hide the dock faster
-                    dock_height = DOCK_MAX_HEIGHT - ((val / 1000) * (DOCK_MAX_HEIGHT * 16));
-                } else {
-                    dock_height = 0;
-                }
             } else if (val <= 500 && val > 250) { // We stop for another second
-                finger_x = LEFTMOST_FINGER_POSITION;
-            } else if (val <= 750 && val > 500) { // We hide workspace for 1 second
-                finger_x = RIGHTMOST_FINGER_POSITION - (((750 - val) / 1000) * (LEFTMOST_FINGER_POSITION * 4));
-                scale = 1.0f - ((750 - val) / 250);
-
-                if (val < 564.5) {
-                    dock_height = 0;
-                } else {
-                    dock_height = DOCK_MAX_HEIGHT - (((750 - val) / 1000) * (DOCK_MAX_HEIGHT * 16));
-                }
-            } else { // We pause
                 finger_x = RIGHTMOST_FINGER_POSITION;
+            } else if (val <= 750 && val > 500) { // We hide workspace for 1 second
+                finger_x = LEFTMOST_FINGER_POSITION + (((750 - val) / 1000) * (LEFTMOST_FINGER_POSITION * 4));
+                scale = 1.0f - ((750 - val) / 250);
+            } else { // We pause
+                finger_x = LEFTMOST_FINGER_POSITION;
             }
 
             queue_draw ();
