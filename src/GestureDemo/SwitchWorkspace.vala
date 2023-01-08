@@ -25,22 +25,23 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
         vexpand = true;
     }
 
-    public class AnimatedChild : Gtk.Widget {
+    private class AnimatedChild : Gtk.Widget {
         private Gdk.Texture background;
         private Gdk.Texture touchpad;
         private Gdk.Texture fingers;
         private Gdk.Texture workspace;
         private Gdk.Texture desktop;
+        private Gdk.Texture desktop_two;
         private Gdk.Texture dock;
 
-        private float finger_y = 140;
+        private float finger_x = 140;
         private float scale = 1;
         private float dock_height = 30;
 
         private Adw.TimedAnimation animation;
 
-        private const float LOWEST_FINGER_POSITION = 140;
-        private const float HIGHEST_FINGER_POSITION = 70;
+        private const float LEFTMOST_FINGER_POSITION = 75;
+        private const float RIGHTMOST_FINGER_POSITION = 150;
         private const float DOCK_MAX_HEIGHT = 30;
         private const float BACKGROUND_WIDTH = 440;
         private const float BACKGROUND_HEIGHT = 500;
@@ -55,6 +56,7 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
             fingers = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-fingers.png");
             workspace = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-workspace.svg");
             desktop = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-desktop.svg");
+            desktop_two = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-desktop-two.svg");
             dock = Gdk.Texture.from_resource ("/io/elementary/onboarding/gesture-demo-dock.png");
 
             animation = new Adw.TimedAnimation (this, 0, 1000, 4000, new Adw.CallbackAnimationTarget ((value) => {
@@ -76,8 +78,8 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
 
         private void set_progress (float val) {
             if (val <= 250) { // We show workspace for 1 second
-                finger_y = LOWEST_FINGER_POSITION - ((val / 1000) * (HIGHEST_FINGER_POSITION * 4));
-                scale = 1.0f - (val / 1000);
+                finger_x = RIGHTMOST_FINGER_POSITION - ((val / 1000) * (LEFTMOST_FINGER_POSITION * 4));
+                scale = 1.0f - (val / 250);
 
                 if (val < 64.5) { // we hide the dock faster
                     dock_height = DOCK_MAX_HEIGHT - ((val / 1000) * (DOCK_MAX_HEIGHT * 16));
@@ -85,10 +87,10 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
                     dock_height = 0;
                 }
             } else if (val <= 500 && val > 250) { // We stop for another second
-                finger_y = HIGHEST_FINGER_POSITION;
+                finger_x = LEFTMOST_FINGER_POSITION;
             } else if (val <= 750 && val > 500){ // We hide workspace for 1 second
-                finger_y = LOWEST_FINGER_POSITION - (((750 - val) / 1000) * (HIGHEST_FINGER_POSITION * 4));
-                scale = 1.0f - ((750 - val) / 1000);
+                finger_x = RIGHTMOST_FINGER_POSITION - (((750 - val) / 1000) * (LEFTMOST_FINGER_POSITION * 4));
+                scale = 1.0f - ((750 - val) / 250);
 
                 if (val < 564.5) {
                     dock_height = 0;
@@ -96,7 +98,7 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
                     dock_height = DOCK_MAX_HEIGHT - (((750 - val) / 1000) * (DOCK_MAX_HEIGHT * 16));
                 }
             } else { // We pause
-                finger_y = LOWEST_FINGER_POSITION;
+                finger_x = RIGHTMOST_FINGER_POSITION;
             }
 
             queue_draw ();
@@ -113,26 +115,32 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
                 { BACKGROUND_WIDTH, BACKGROUND_HEIGHT }
             });
 
-            snapshot.append_texture (touchpad, {{30, 30}, { 410, 300 }});
+            snapshot.append_texture (touchpad, {{30, 100}, { 410, 300 }});
             snapshot.append_texture (workspace, {{475, 100}, { 410, 300 }});
 
             snapshot.save ();
-            snapshot.translate ({110, finger_y}); // 70 to 135
+            snapshot.translate ({finger_x, 145 }); // 70 to 160
             fingers.snapshot (snapshot, 250, 300);
             snapshot.restore ();
 
             snapshot.save ();
-            snapshot.translate ({
-                475 + ((410 - (scale * 410)) / 2),
-                100 + ((300 - (scale * 300)) / 2)
-            });
-            snapshot.scale (scale, scale);
-            desktop.snapshot (snapshot, 410, 300);
+            snapshot.translate ({ 475, 100});
+            desktop.snapshot (snapshot, 410 - (scale * 410), 300);
             snapshot.restore ();
 
             snapshot.save ();
-            snapshot.translate ({ 560, 330 + (30 - dock_height) });
-            dock.snapshot (snapshot, 250, dock_height);
+            snapshot.translate ({ 475 + (410 - (scale * 410)), 100});
+            desktop_two.snapshot (snapshot, 410 * scale, 300);
+            snapshot.restore ();
+
+            snapshot.save ();
+            snapshot.translate ({ 560, 330 });
+            dock.snapshot (snapshot, 250 - (scale * 250), 30);
+            snapshot.restore ();
+
+            snapshot.save ();
+            snapshot.translate ({ 560 + (250 - (scale * 250)), 330 });
+            dock.snapshot (snapshot, 250 * scale, 30);
             snapshot.restore ();
         }
 
