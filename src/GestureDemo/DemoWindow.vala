@@ -20,12 +20,12 @@ public class Onboarding.DemoWindow : Gtk.Window {
             valign = Gtk.Align.CENTER
         };
 
-        var show_workspace = new Onboarding.ShowWorkspace () {
+        var multitasking_demo = new Onboarding.MultitaskingDemo () {
             hexpand = true,
             vexpand = true
         };
 
-        var switch_workspace = new Onboarding.SwitchWorkspace () {
+        var switch_workspace_demo = new Onboarding.SwitchWorkspaceDemo () {
             hexpand = true,
             vexpand = true
         };
@@ -35,8 +35,8 @@ public class Onboarding.DemoWindow : Gtk.Window {
             vexpand = true
         };
         carousel.append (front_page);
-        carousel.append (show_workspace);
-        carousel.append (switch_workspace);
+        carousel.append (multitasking_demo);
+        carousel.append (switch_workspace_demo);
 
         var skip_button = new Gtk.Button.with_label (_("Skip All"));
 

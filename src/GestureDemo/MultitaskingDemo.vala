@@ -1,4 +1,4 @@
-public class Onboarding.ShowWorkspace : Gtk.Box {
+public class Onboarding.MultitaskingDemo : Gtk.Box {
     construct {
         orientation = Gtk.Orientation.VERTICAL;
 
@@ -9,7 +9,7 @@ public class Onboarding.ShowWorkspace : Gtk.Box {
             valign = Gtk.Align.START,
         };
 
-        var animated_child = new AnimatedChild () {
+        var animated_child = new MultitaskingAnimatedChild () {
             hexpand = true,
             vexpand = true,
             margin_start = 10,
@@ -22,7 +22,7 @@ public class Onboarding.ShowWorkspace : Gtk.Box {
         vexpand = true;
     }
 
-    private class AnimatedChild : Gtk.Widget {
+    private class MultitaskingAnimatedChild : Gtk.Widget {
         private Gdk.Texture background;
         private Gdk.Texture touchpad;
         private Gdk.Texture fingers;
@@ -32,13 +32,16 @@ public class Onboarding.ShowWorkspace : Gtk.Box {
 
         private float finger_y = 135;
         private float scale = 1;
-        private float dock_height = 30;
+        private float dock_height = 25;
 
         private const float LOWEST_FINGER_POSITION = 140;
         private const float HIGHEST_FINGER_POSITION = 70;
-        private const float DOCK_MAX_HEIGHT = 30;
+        private const float DOCK_MAX_HEIGHT = 25;
         private const float BACKGROUND_WIDTH = 440;
         private const float BACKGROUND_HEIGHT = 500;
+        private const float MULTITASKING_WIDTH = 410;
+        private const float MULTITASKING_HEIGHT = 300;
+        private const float DOCK_STARTING_POSX = 560;
 
         private Adw.TimedAnimation animation;
 
@@ -110,33 +113,35 @@ public class Onboarding.ShowWorkspace : Gtk.Box {
                 { BACKGROUND_WIDTH, BACKGROUND_HEIGHT }
             });
 
-            snapshot.append_texture (touchpad, {{30, 30}, { 410, 300 }});
-            snapshot.append_texture (multitasking, {{475, 100}, { 410, 300 }});
+            // 30 because 15 margin from background with posx 15
+            snapshot.append_texture (touchpad, {
+                {30, 30},
+                { MULTITASKING_WIDTH, MULTITASKING_HEIGHT }
+            });
+            snapshot.append_texture (multitasking, {
+                {475, 100},
+                { MULTITASKING_WIDTH, MULTITASKING_HEIGHT }
+            });
+            // 475 because 15 margin, 10 bg separator and 15 margin from col2 bg.
 
-            snapshot.save ();
-            snapshot.translate ({110, finger_y}); // 70 to 135
+            snapshot.save (); // Finger Animation
+            snapshot.translate ({110, finger_y}); // finger posy from 70 to 140 to simulate swipe up
             fingers.snapshot (snapshot, 250, 300);
             snapshot.restore ();
 
-            snapshot.save ();
-            snapshot.translate ({
+            snapshot.save (); // workspace zooming out animation
+            snapshot.translate ({ // Position coordinates are increased by a fraction of the size per interval.
                 475 + ((410 - (scale * 410)) / 2),
                 100 + ((300 - (scale * 300)) / 2)
-            });
+            }); // divide by 2 so we will be in the center.
             snapshot.scale (scale, scale);
             workspace.snapshot (snapshot, 410, 300);
             snapshot.restore ();
 
-            snapshot.save ();
-            snapshot.translate ({ 560, 330 + (30 - dock_height) });
+            snapshot.save (); // hide dock animation
+            snapshot.translate ({ DOCK_STARTING_POSX, 340 + (25 - dock_height) });
             dock.snapshot (snapshot, 250, dock_height);
             snapshot.restore ();
-        }
-
-        ~AnimatedChild () {
-            while (get_last_child () != null) {
-                get_last_child ().unparent ();
-            }
         }
     }
 }

@@ -1,4 +1,4 @@
-public class Onboarding.SwitchWorkspace : Gtk.Box {
+public class Onboarding.SwitchWorkspaceDemo : Gtk.Box {
     construct {
         orientation = Gtk.Orientation.VERTICAL;
 
@@ -9,7 +9,7 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
             valign = Gtk.Align.START
         };
 
-        var animated_child = new AnimatedChild () {
+        var animated_child = new SwitchingAnimatedChild () {
             hexpand = true,
             vexpand = true,
             margin_start = 10,
@@ -22,7 +22,7 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
         vexpand = true;
     }
 
-    private class AnimatedChild : Gtk.Widget {
+    private class SwitchingAnimatedChild : Gtk.Widget {
         private Gdk.Texture background;
         private Gdk.Texture touchpad;
         private Gdk.Texture fingers;
@@ -38,9 +38,11 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
 
         private const float LEFTMOST_FINGER_POSITION = 75;
         private const float RIGHTMOST_FINGER_POSITION = 150;
-        private const float DOCK_MAX_HEIGHT = 30;
+        private const float DOCK_MAX_HEIGHT = 25;
         private const float BACKGROUND_WIDTH = 440;
         private const float BACKGROUND_HEIGHT = 500;
+        private const float MULTITASKING_WIDTH = 410;
+        private const float MULTITASKING_HEIGHT = 300;
 
         static construct {
             set_layout_manager_type (typeof (Gtk.BinLayout));
@@ -99,39 +101,41 @@ public class Onboarding.SwitchWorkspace : Gtk.Box {
                 { BACKGROUND_WIDTH, BACKGROUND_HEIGHT }
             });
 
-            snapshot.append_texture (touchpad, {{30, 100}, { 410, 300 }});
-            snapshot.append_texture (multitasking, {{475, 100}, { 410, 300 }});
+            // 30 because 15 margin from background with posx 15
+            snapshot.append_texture (touchpad, {
+                {30, 100},
+                { MULTITASKING_WIDTH, MULTITASKING_HEIGHT }
+            });
+            snapshot.append_texture (multitasking, {
+                {475, 100},
+                { MULTITASKING_WIDTH, MULTITASKING_HEIGHT }
+            });
+            // 475 because 15 margin, 10 bg separator and 15 margin from col2 bg.
 
-            snapshot.save ();
-            snapshot.translate ({finger_x, 145 }); // 70 to 160
+            snapshot.save (); // Finger Animation
+            snapshot.translate ({finger_x, 145 }); // finger posy from 70 to 160 to simulate swipe up
             fingers.snapshot (snapshot, 250, 300);
             snapshot.restore ();
 
-            snapshot.save ();
+            snapshot.save (); // Switching FROM workspace animation
             snapshot.translate ({ 475, 100});
-            workspace.snapshot (snapshot, 410 - (scale * 410), 300); // we subtract width until w1 disappears
+            workspace.snapshot (snapshot, 410 - (scale * 410), 300); // we subtract width until workspace1 disappears
             snapshot.restore ();
 
-            snapshot.save ();
+            snapshot.save (); // Switching TO workspace animation
             snapshot.translate ({ 475 + (410 - (scale * 410)), 100}); // we add desired xpos to w1 width
             workspace_two.snapshot (snapshot, 410 * scale, 300); // which diminishes slowly so w2 will replace it.
             snapshot.restore ();
 
-            snapshot.save ();
-            snapshot.translate ({ 560 - ((560 - 475) * scale), 330 }); // we subtract width until dock1 disappers
-            dock.snapshot (snapshot, 250 - (scale * 250), 30); // at the origin of w1.
+            snapshot.save (); // Switching FROM dock animation
+            snapshot.translate ({ 560 - ((560 - 475) * scale), 340 }); // we subtract width until dock1 disappers
+            dock.snapshot (snapshot, 250 - (scale * 250), DOCK_MAX_HEIGHT); // at the origin of w1.
             snapshot.restore ();
 
-            snapshot.save ();
-            snapshot.translate ({ 885 - ((885 - 560) * scale), 330 }); // we subtract from the highest x of w2
-            dock.snapshot (snapshot, 250 * scale, 30); // to get origin and end at 560 where dock starts.
+            snapshot.save (); // Switching TO dock animation
+            snapshot.translate ({ 885 - ((885 - 560) * scale), 340 }); // we subtract from the highest x of w2
+            dock.snapshot (snapshot, 250 * scale, DOCK_MAX_HEIGHT); // to get origin and end at 560 where dock starts.
             snapshot.restore ();
-        }
-
-        ~AnimatedChild () {
-            while (get_last_child () != null) {
-                get_last_child ().unparent ();
-            }
         }
     }
 }
