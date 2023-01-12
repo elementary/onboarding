@@ -14,15 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * Authored by: Marius Meisenzahl <mariusmeisenzahl@gmail.com>
- *              Cassidy James Blaede <cassidy@elementary.io>
+ * Authored by: Owen David Malicsi <owendavidmalicsi@gmail.com>
  */
 
 public class Onboarding.MultitouchView : AbstractOnboardingView {
     public MultitouchView () {
         Object (
             view_name: "multitouch",
-            description: _("Navigate efficiently through your windows and workspaces with modern 3-finger multitouch gestures."),
+            description: _("Navigate efficiently through your windows and workspaces with modern multitouch gestures."),
             icon_name: "input-touchpad", // Change to better one
             title: _("Multitouch Gestures")
         );
