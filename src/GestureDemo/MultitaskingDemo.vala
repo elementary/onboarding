@@ -18,6 +18,7 @@
  */
 
 public class Onboarding.MultitaskingDemo : Gtk.Box {
+    public MultitaskingAnimatedChild animated_child { get; set; }
     construct {
         orientation = Gtk.Orientation.VERTICAL;
 
@@ -28,7 +29,7 @@ public class Onboarding.MultitaskingDemo : Gtk.Box {
             valign = Gtk.Align.START,
         };
 
-        var animated_child = new MultitaskingAnimatedChild () {
+        animated_child = new MultitaskingAnimatedChild () {
             hexpand = true,
             vexpand = true,
             margin_start = 10,
@@ -41,7 +42,7 @@ public class Onboarding.MultitaskingDemo : Gtk.Box {
         vexpand = true;
     }
 
-    private class MultitaskingAnimatedChild : Gtk.Widget {
+    public class MultitaskingAnimatedChild : Gtk.Widget {
         private Gdk.Texture background;
         private Gdk.Texture touchpad;
         private Gdk.Texture fingers;
@@ -82,14 +83,13 @@ public class Onboarding.MultitaskingDemo : Gtk.Box {
                 easing = Adw.Easing.LINEAR
             };
 
-            this.map.connect (play_animation);
             animation.done.connect (play_animation);
             this.unmap.connect (() => {
                 animation.done.disconnect (play_animation);
             });
         }
 
-        private void play_animation () {
+        public void play_animation () {
             animation.play ();
         }
 

@@ -85,6 +85,14 @@ public class Onboarding.DemoWindow : Gtk.Window {
 
         add_css_class ("dialog");
 
+        carousel.page_changed.connect ((page) => {
+            if (page == 1) {
+                multitasking_demo.animated_child.play_animation ();
+            } else if (page == 2) {
+                switch_workspace_demo.animated_child.play_animation ();
+            }
+        });
+
         skip_button.clicked.connect (() => {
             if (carousel.position == 0) {
                 this.hide ();
