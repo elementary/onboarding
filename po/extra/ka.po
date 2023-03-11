@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2023-03-11 12:25+0000\n"
+"PO-Revision-Date: 2023-03-12 13:25+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ka/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
-msgstr ""
+msgstr "კეთილი იყოს თქვენი მობრძანება"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
@@ -36,7 +36,7 @@ msgstr "განახლებული თარგმანები"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "ავტომატური განახლებების ხედის დამატება"
 
 #: data/onboarding.appdata.xml.in:25
 msgid "Add Sunset to Sunrise to Style View"
@@ -52,15 +52,15 @@ msgstr ""
 
 #: data/onboarding.appdata.xml.in:42
 msgid "Add style view"
-msgstr ""
+msgstr "სტილს ხედის დამატება"
 
 #: data/onboarding.appdata.xml.in:43
 msgid "Add Online Accounts view"
-msgstr ""
+msgstr "ონლაინ-ანგარიშების ხედის დამატება"
 
 #: data/onboarding.appdata.xml.in:44
 msgid "Remove location services view"
-msgstr ""
+msgstr "მდებარეობის სერვისის ხედის წაშლა"
 
 #: data/onboarding.appdata.xml.in:45
 msgid "Mention Sideload and Flathub"
@@ -68,11 +68,11 @@ msgstr ""
 
 #: data/onboarding.appdata.xml.in:53
 msgid "Fix blurry icon in AppCenter"
-msgstr ""
+msgstr "AppCenter-ში მღვრიე ხატულის გასწორება"
 
 #: data/onboarding.appdata.xml.in:61
 msgid "New app icon"
-msgstr ""
+msgstr "ახალი აპის ხატულა"
 
 #: data/onboarding.appdata.xml.in:69
 msgid "Navigate with (multi-)touch gestures"
@@ -80,7 +80,7 @@ msgstr ""
 
 #: data/onboarding.appdata.xml.in:70
 msgid "Use new blog URL"
-msgstr ""
+msgstr "ახალი ბლობის ბმულის გამოყენება"
 
 #: data/onboarding.appdata.xml.in:71
 msgid "Fix errors when pressing the Skip button"
