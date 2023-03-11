@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2019-04-11 16:54-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-03-11 12:25+0000\n"
+"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://l10n.elementary.io/projects/installer/"
+"onboarding-extra/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ASCII\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -29,7 +32,7 @@ msgstr ""
 #: data/onboarding.appdata.xml.in:54 data/onboarding.appdata.xml.in:62
 #: data/onboarding.appdata.xml.in:72
 msgid "Updated translations"
-msgstr ""
+msgstr "განახლებული თარგმანები"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Add Automatic Updates view"
@@ -85,4 +88,4 @@ msgstr ""
 
 #: data/onboarding.appdata.xml.in:83
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
