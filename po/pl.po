@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-13 00:27+0000\n"
-"PO-Revision-Date: 2022-10-04 15:33+0000\n"
+"PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -38,34 +38,26 @@ msgid "Next"
 msgstr "Dalej"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"Pobieraj potrzebne programy poprzez AppCenter. Wyselekcjonowane programy są "
-"tworzone dla systemu operacyjnego elementary i sprawdzone przez elementary."
+"Zdobądź potrzebne Ci aplikacje poprzez AppCenter lub załaduj aplikacje "
+"Flatpak z alternatywnych źródeł."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Pozyskaj programy"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"Pobieraj potrzebne programy poprzez AppCenter. Wyselekcjonowane programy są "
-"tworzone dla systemu operacyjnego elementary i sprawdzone przez elementary."
+"Pobieraj programy tworzone dla systemu operacyjnego elementary i sprawdzone "
+"przez elementary z AppCenter"
 
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "Pobieraj aplikacje z alternatywnych źródeł takich jak Flathub"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
