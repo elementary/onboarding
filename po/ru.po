@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-13 00:27+0000\n"
-"PO-Revision-Date: 2023-02-01 19:25+0000\n"
-"Last-Translator: lenemter <lenemter@gmail.com>\n"
+"PO-Revision-Date: 2023-03-15 13:25+0000\n"
+"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
 "Language: ru\n"
@@ -38,34 +38,26 @@ msgid "Next"
 msgstr "Далее"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"Загружайте нужные вам приложения из AppCenter. Курируемые приложения созданы "
-"для elementary OS и проверены командой elementary."
+"Получайте нужные вам проверенные приложения из AppCenter, или загружайте "
+"приложения Flatpak из альтернативных источников."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Загружайте приложения"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"Загружайте нужные вам приложения из AppCenter. Курируемые приложения созданы "
-"для elementary OS и проверены командой elementary."
+"Загружайте приложения, созданные специально для elementary OS и проверенные "
+"командой elementary"
 
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "Загружайте приложения из альтернативных источников, например, Flathub"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
