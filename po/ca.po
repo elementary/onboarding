@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-13 00:27+0000\n"
-"PO-Revision-Date: 2022-10-04 14:55+0000\n"
+"PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
 "onboarding/ca/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -37,36 +37,27 @@ msgid "Next"
 msgstr "Següent"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"Obtingueu les aplicacions que us calen al Centre d'aplicacions. Es fan "
-"aplicacions ajustades a l'elementary OS i revisades per l'equip de "
-"l'elementary."
+"Obtingueu les aplicacions que necessiteu al Centre d'aplicacions o carregueu "
+"les aplicacions de Flatpak de botigues alternatives."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Obtingueu algunes aplicacions"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"Obtingueu les aplicacions que us calen al Centre d'aplicacions. Es fan "
-"aplicacions ajustades a l'elementary OS i revisades per l'equip de "
-"l'elementary."
+"Obtingueu aplicacions creades per a l'elementary i revisades per l'equip "
+"d'elementary al Centre d'aplicacions"
 
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
+"Carregueu aplicacions de botigues d'aplicacions alternatives com ara Flathub"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
