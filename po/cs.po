@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
 "PO-Revision-Date: 2022-01-11 17:05+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
@@ -24,22 +24,26 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Nastavit %s"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "Přeskočit vše"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "Začít"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "Další"
 
 #: src/Views/AppCenterView.vala:22
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
 "Potřebné aplikace je možné získat Centru aplikací. Prověřené aplikace jsou "
 "vytvořeny pro elementary OS a zkontrolované týmem elementary."
@@ -48,19 +52,19 @@ msgstr ""
 msgid "Get Some Apps"
 msgstr "Získat aplikace"
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "Prohlížet Centrum aplikací…"
-
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
-msgstr "Flathub"
-
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"Je také možné nahrát bokem aplikace z Flatpak balíčků, např. z repozitáře %s"
+"Potřebné aplikace je možné získat Centru aplikací. Prověřené aplikace jsou "
+"vytvořeny pro elementary OS a zkontrolované týmem elementary."
+
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
+msgstr ""
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -299,6 +303,18 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "Co je nového"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "Prohlížet Centrum aplikací…"
+
+#~ msgid "Flathub"
+#~ msgstr "Flathub"
+
+#, c-format
+#~ msgid "You can also sideload Flatpak apps e.g. from %s"
+#~ msgstr ""
+#~ "Je také možné nahrát bokem aplikace z Flatpak balíčků, např. z repozitáře "
+#~ "%s"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

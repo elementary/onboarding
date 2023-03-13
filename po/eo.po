@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
 "PO-Revision-Date: 2020-03-17 14:09+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/installer/"
@@ -24,22 +24,26 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Agordi %s"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "Preterlasi ĉion"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "Komenci"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "Sekva"
 
 #: src/Views/AppCenterView.vala:22
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
 "Akiri aplikaĵojn bezonataj en la Aplikaĵa Centro. Kontrolitaj aplikaĵoj "
 "estas tajloritaj por la operaciumo elementary kaj inspektitaj de elementary."
@@ -48,17 +52,18 @@ msgstr ""
 msgid "Get Some Apps"
 msgstr "Akiri aplikaĵojn"
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "Foliumi la Aplikaĵan Centron…"
-
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
+"Akiri aplikaĵojn bezonataj en la Aplikaĵa Centro. Kontrolitaj aplikaĵoj "
+"estas tajloritaj por la operaciumo elementary kaj inspektitaj de elementary."
 
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
 #: src/Views/EarlyAccessView.vala:25
@@ -292,6 +297,9 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "Kio novas"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "Foliumi la Aplikaĵan Centron…"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

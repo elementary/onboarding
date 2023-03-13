@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
 "PO-Revision-Date: 2020-11-22 20:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
@@ -24,22 +24,26 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s चे सेटअप करा"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "सर्व वगळा"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "सुरु करूया"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "पुढे"
 
 #: src/Views/AppCenterView.vala:22
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
 "आपल्याला AppCenter वर आवश्यक अॅप्स मिळवा. पएलिमेंटरी OS साठी Curated अॅप्स तयार केले "
 "जातात आणि एलिमेंटरी द्वारे पुनरावलोकन केले जातात."
@@ -48,22 +52,19 @@ msgstr ""
 msgid "Get Some Apps"
 msgstr "काही अॅप्स मिळवा"
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "AppCenter ब्राउझ करा…"
-
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
-msgstr ""
-
-#: src/Views/AppCenterView.vala:35
-#, fuzzy, c-format
+#, fuzzy
 #| msgid ""
-#| "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-#| "org'>Flathub</a>"
-msgid "You can also sideload Flatpak apps e.g. from %s"
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"आपण फ्लॅटपॅक अ‍ॅप्स बाजूला करू शकता उदा.<a href='https://flathub.org'> फ्लॅट हब</a> कडून"
+"आपल्याला AppCenter वर आवश्यक अॅप्स मिळवा. पएलिमेंटरी OS साठी Curated अॅप्स तयार केले "
+"जातात आणि एलिमेंटरी द्वारे पुनरावलोकन केले जातात."
+
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
+msgstr ""
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -297,6 +298,18 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "नवीन काय आहे"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "AppCenter ब्राउझ करा…"
+
+#, fuzzy, c-format
+#~| msgid ""
+#~| "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
+#~| "org'>Flathub</a>"
+#~ msgid "You can also sideload Flatpak apps e.g. from %s"
+#~ msgstr ""
+#~ "आपण फ्लॅटपॅक अ‍ॅप्स बाजूला करू शकता उदा.<a href='https://flathub.org'> फ्लॅट हब</a> "
+#~ "कडून"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "अ‍ॅप सेंटरमध्ये क्युरेट केलेले अ‍ॅप्स उपलब्ध नाहीत"

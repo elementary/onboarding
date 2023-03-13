@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
 "PO-Revision-Date: 2021-08-27 17:59+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/installer/"
@@ -25,22 +25,26 @@ msgstr ""
 msgid "Set up %s"
 msgstr "قم بإعداد %s"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "تخط الكل"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "ابدأ"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "التالي"
 
 #: src/Views/AppCenterView.vala:22
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
 "احصل على التطبيقات التي تريد من آب سنتر. التطبيقات المختارة تم صنعها خصيصاً ل "
 "elementary OS و تمت مراجعتها من قبل elementary."
@@ -49,18 +53,19 @@ msgstr ""
 msgid "Get Some Apps"
 msgstr "احصل على بعض التطبيقات"
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "تصفح آب سنتر…"
-
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
-msgstr "Flathub"
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
+msgstr ""
+"احصل على التطبيقات التي تريد من آب سنتر. التطبيقات المختارة تم صنعها خصيصاً ل "
+"elementary OS و تمت مراجعتها من قبل elementary."
 
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr "بإمكانك أيضاً تحميل تطبيقات Flatpak بشكل متوازي، على سبيل مثال من %s"
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
+msgstr ""
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -309,6 +314,16 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "ما هو الجديد"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "تصفح آب سنتر…"
+
+#~ msgid "Flathub"
+#~ msgstr "Flathub"
+
+#, c-format
+#~ msgid "You can also sideload Flatpak apps e.g. from %s"
+#~ msgstr "بإمكانك أيضاً تحميل تطبيقات Flatpak بشكل متوازي، على سبيل مثال من %s"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "التطبيقات المختارة لن تكون متوفرة في آب سنتر"
