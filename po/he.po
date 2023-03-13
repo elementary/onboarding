@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-13 00:27+0000\n"
-"PO-Revision-Date: 2022-10-04 15:33+0000\n"
+"PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -37,34 +37,26 @@ msgid "Next"
 msgstr "הבא"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"ניתן לקבל את היישומים שמעניין אותך במרכז היישומים. היישומים שנאספו נוצרו "
-"עבור elementary OS ונסקרים על ידי צוות elementary."
+"ניתן לקבל את היישומים שמעניין אותך במרכז היישומים או לטעון יישומי Flatpak "
+"מהצד דרך חנויות חלופיות."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "התקנת יישומים"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"ניתן לקבל את היישומים שמעניין אותך במרכז היישומים. היישומים שנאספו נוצרו "
-"עבור elementary OS ונסקרים על ידי צוות elementary."
+"קבלת יישומים שנוצרו עבור elementary OS ונבדקו על ידי elementary בחנות "
+"היישומים"
 
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "טעינה של יישומים מהצד דרך חנויות יישומים חלופיות כגון Flathub"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
