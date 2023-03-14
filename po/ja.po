@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-13 00:27+0000\n"
-"PO-Revision-Date: 2023-02-16 12:25+0000\n"
+"PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -37,34 +37,25 @@ msgid "Next"
 msgstr "次へ"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
-msgstr ""
-"必要なアプリを AppCenter で入手しましょう。elementary OS 向けに開発され、"
-"elementary による安全性確認を行なったアプリを集めました。"
+msgstr "AppCenter から必要なアプリを入手したり、代替ストアから Flatpak "
+"アプリをインストールしたりできます。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "アプリを入手"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"必要なアプリを AppCenter で入手しましょう。elementary OS 向けに開発され、"
-"elementary による安全性確認を行なったアプリを集めました。"
+"AppCenter から入手可能なアプリは、elementary OS "
+"向けに開発されています。また、elementary による安全性確認が行われています"
 
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "Flathub などの代替アプリストアからアプリをインストールすることもできます"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
