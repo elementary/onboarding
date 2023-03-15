@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2021-11-30 07:44+0000\n"
-"Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"PO-Revision-Date: 2023-03-15 13:25+0000\n"
+"Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "installer/onboarding/en_GB/>\n"
 "Language: en_GB\n"
@@ -17,49 +17,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Set up %s"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "Skip All"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "Get Started"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "Next"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Get Some Apps"
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "Browse AppCenter…"
-
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
-msgstr "Flathub"
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
+msgstr "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr "You can also sideload Flatpak apps e.g. from %s"
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
+msgstr "Sideload apps from alternative app stores like Flathub"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -100,10 +95,7 @@ msgid "Open System Settings…"
 msgstr "Open System Settings…"
 
 #: src/Views/HouseKeepingView.vala:22
-#, fuzzy, c-format
-#| msgid ""
-#| "Old files can be automatically deleted after %u days to save space and "
-#| "help protect your privacy."
+#, c-format
 msgid ""
 "Old files can be automatically deleted after %u day to save space and help "
 "protect your privacy."
@@ -111,7 +103,7 @@ msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr[0] ""
-"Old files can be automatically deleted after %u days to save space and help "
+"Old files can be automatically deleted after %u day to save space and help "
 "protect your privacy."
 msgstr[1] ""
 "Old files can be automatically deleted after %u days to save space and help "
@@ -195,7 +187,7 @@ msgstr "Dark"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Sunset to Sunrise"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
@@ -246,16 +238,16 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Updates can be automatically installed when your device is connected to the "
+"Internet."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Automatically Delete:"
+msgstr "Automatic Updates"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Free & Paid Apps:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -294,6 +286,16 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "What’s New"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "Browse AppCenter…"
+
+#~ msgid "Flathub"
+#~ msgstr "Flathub"
+
+#, c-format
+#~ msgid "You can also sideload Flatpak apps e.g. from %s"
+#~ msgstr "You can also sideload Flatpak apps e.g. from %s"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "Curated apps are not available in AppCenter"

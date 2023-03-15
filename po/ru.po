@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2022-10-17 17:16+0000\n"
-"Last-Translator: lenemter <lenemter@gmail.com>\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"PO-Revision-Date: 2023-03-15 13:25+0000\n"
+"Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
 "Language: ru\n"
@@ -18,49 +18,46 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Настройка %s"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "Пропустить всё"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "Начать"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "Далее"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
-"Загружайте нужные вам приложения в AppCenter. Курированные приложения "
-"созданы для elementary OS и проверены командой elementary."
+"Получайте нужные вам проверенные приложения из AppCenter, или загружайте "
+"приложения Flatpak из альтернативных источников."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr "Загрузите несколько приложений"
-
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "Открыть AppCenter…"
+msgstr "Загружайте приложения"
 
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
-msgstr "Flathub"
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
+msgstr ""
+"Загружайте приложения, созданные специально для elementary OS и проверенные "
+"командой elementary"
 
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr "Вы также можете загружать приложения Flatpak, например из %s"
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
+msgstr "Загружайте приложения из альтернативных источников, например, Flathub"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -81,7 +78,7 @@ msgstr "Основные известные проблемы"
 
 #: src/Views/EarlyAccessView.vala:41
 msgid "Some features may be missing or incomplete"
-msgstr "Некоторые функции могут отсутствовать или быть неполными"
+msgstr "Некоторые функции могут отсутствовать или быть недоделанными"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -89,8 +86,8 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"Наслаждайтесь использованием %s! Вы всегда можете посетить Параметры "
-"системы, чтобы настроить оборудование или изменить свои настройки."
+"Наслаждайтесь использованием %s! Вы всегда можете открыть Параметры системы, "
+"чтобы настроить оборудование или изменить свои настройки."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
@@ -136,7 +133,7 @@ msgstr "Загрузки"
 
 #: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
-msgstr "Файлы в Корзине"
+msgstr "Файлы в корзине"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -290,13 +287,22 @@ msgid ""
 "Continue to set up some useful new features. For more detailed information "
 "about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
 msgstr ""
-"Продолжайте настраивать некоторых полезных новых функций. Чтобы узнать "
-"больше информации об обновлениях, посетите <a href='https://blog.elementary."
-"io'>наш блог</a>."
+"Продолжайте настраивать полезные новые функции. Чтобы узнать больше об "
+"обновлениях, посетите <a href='https://blog.elementary.io'>наш блог</a>."
 
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "Что нового"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "Открыть AppCenter…"
+
+#~ msgid "Flathub"
+#~ msgstr "Flathub"
+
+#, c-format
+#~ msgid "You can also sideload Flatpak apps e.g. from %s"
+#~ msgstr "Вы также можете загружать приложения Flatpak, например из %s"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "Курируемые приложения не доступны в Центре приложений"

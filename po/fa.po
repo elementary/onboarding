@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
 "PO-Revision-Date: 2022-04-14 23:02+0000\n"
 "Last-Translator: Pikhosh <pikhosh@gmail.com>\n"
 "Language-Team: Persian <https://l10n.elementary.io/projects/installer/"
@@ -24,39 +24,34 @@ msgstr ""
 msgid "Set up %s"
 msgstr ""
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr ""
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr ""
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "بعدی"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr ""
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
+#: src/Views/AppCenterView.vala:33
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
 
-#: src/Views/AppCenterView.vala:33
-msgid "Flathub"
-msgstr "فلت هاب"
-
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
 #: src/Views/EarlyAccessView.vala:25
@@ -269,3 +264,6 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "موارد جدید"
+
+#~ msgid "Flathub"
+#~ msgstr "فلت هاب"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
 "PO-Revision-Date: 2022-06-18 21:35+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -24,22 +24,26 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Sett opp %s"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "Hopp over alle"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "Begynn"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "Neste"
 
 #: src/Views/AppCenterView.vala:22
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
 "Hent programmene du trenger i AppSenter. Vurderte programmer er laget for "
 "elementary OS, og vurdert av elementary."
@@ -48,18 +52,19 @@ msgstr ""
 msgid "Get Some Apps"
 msgstr "Hent noen programmer"
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "Utforsk AppSenter…"
-
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
-msgstr "Flathub"
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
+msgstr ""
+"Hent programmene du trenger i AppSenter. Vurderte programmer er laget for "
+"elementary OS, og vurdert av elementary."
 
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
-msgstr "Du kan også sideinnlaste Flatpak-programmer, f.eks. fra %s"
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
+msgstr ""
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -295,6 +300,16 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "Hva er nytt"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "Utforsk AppSenter…"
+
+#~ msgid "Flathub"
+#~ msgstr "Flathub"
+
+#, c-format
+#~ msgid "You can also sideload Flatpak apps e.g. from %s"
+#~ msgstr "Du kan også sideinnlaste Flatpak-programmer, f.eks. fra %s"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "Gjennomgåtte programmer er ikke tilgjengelige i AppSenter"

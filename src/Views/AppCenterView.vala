@@ -1,5 +1,5 @@
 /*-
- * Copyright (c) 2019 elementary, Inc. (https://elementary.io)
+ * Copyright 2019-2023 elementary, Inc. (https://elementary.io)
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,44 +19,66 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
     public AppCenterView () {
         Object (
             view_name: "appcenter",
-            description: _("Get the apps you need on AppCenter. Curated apps are made for elementary OS and reviewed by elementary."),
+            description: _("Get the apps you need on AppCenter or sideload Flatpak apps from alternative stores."),
             icon_name: "system-software-install",
             title: _("Get Some Apps")
         );
     }
 
     construct {
-        var appcenter_button = new Gtk.LinkButton.with_label ("", _("Browse AppCenter…")) {
-            hexpand = false,
-            halign = Gtk.Align.CENTER,
-            has_tooltip = false
+        var appcenter_image = new Gtk.Image.from_icon_name ("io.elementary.appcenter") {
+            icon_size = Gtk.IconSize.LARGE
         };
 
-        var flathub_link = "<a href='https://flathub.org'>%s</a>".printf (_("Flathub"));
-
-        var flatpak_note = new Gtk.Label (_("You can also sideload Flatpak apps e.g. from %s").printf (flathub_link)) {
-            justify = Gtk.Justification.CENTER,
-            max_width_chars = 45,
-            use_markup = true,
-            valign = Gtk.Align.END,
-            vexpand = true,
+        var appcenter_label = new Gtk.Label (_("Get apps made for elementary OS and reviewed by elementary on AppCenter")) {
+            max_width_chars = 35,
             wrap = true
         };
-        flatpak_note.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
-        flatpak_note.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
+        var appcenter_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        appcenter_box.append (appcenter_image);
+        appcenter_box.append (appcenter_label);
+
+        var appcenter_button = new Gtk.Button () {
+            child = appcenter_box
+        };
+
+        var sideload_image = new Gtk.Image.from_icon_name ("io.elementary.sideload") {
+            icon_size = Gtk.IconSize.LARGE
+        };
+
+        var sideload_label = new Gtk.Label (_("Sideload apps from alternative app stores like Flathub")) {
+            max_width_chars = 35,
+            wrap = true
+        };
+
+        var sideload_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        sideload_box.append (sideload_image);
+        sideload_box.append (sideload_label);
+
+        var sideload_button = new Gtk.Button () {
+            child = sideload_box
+        };
+
+        custom_bin.row_spacing = 12;
         custom_bin.attach (appcenter_button, 0, 0);
-        custom_bin.attach (flatpak_note, 0, 1);
+        custom_bin.attach (sideload_button, 0, 1);
 
-        appcenter_button.activate_link.connect (() => {
+        appcenter_button.clicked.connect (() => {
             try {
                 var appcenter = new DesktopAppInfo ("io.elementary.appcenter.desktop");
                 appcenter.launch (null, null);
             } catch (Error e) {
                 critical (e.message);
             }
+        });
 
-            return Gdk.EVENT_STOP;
+        sideload_button.clicked.connect (() => {
+            try {
+                AppInfo.launch_default_for_uri ("https://flathub.org", null);
+            } catch (Error e) {
+                critical (e.message);
+            }
         });
     }
 }

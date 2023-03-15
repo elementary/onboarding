@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2022-11-11 14:29+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"PO-Revision-Date: 2023-03-02 10:25+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/nb/>\n"
@@ -36,7 +36,7 @@ msgstr "Oppdaterte oversettelser"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "Legg til visning av automatiske oppgraderinger"
 
 #: data/onboarding.appdata.xml.in:25
 msgid "Add Sunset to Sunrise to Style View"

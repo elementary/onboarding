@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2022-10-09 17:26+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -17,51 +17,45 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "始めましょう"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "次へ"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
-msgstr ""
-"必要なアプリを AppCenter で入手しましょう。アプリは elementary OS 向けに作ら"
-"れており、elementary が厳選・審査しています。"
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
+msgstr "AppCenter から必要なアプリを入手したり、代替ストアから Flatpak "
+"アプリをインストールしたりできます。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "アプリを入手"
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "AppCenter を閲覧…"
-
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
-msgstr "Flathub"
-
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"%s などから、AppCenter を経由せずに Flatpak アプリをインストールすることもで"
-"きます"
+"AppCenter から入手可能なアプリは、elementary OS "
+"向けに開発されています。また、elementary による安全性確認が行われています"
+
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
+msgstr "Flathub などの代替アプリストアからアプリをインストールすることもできます"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -291,6 +285,18 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "最新情報"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "AppCenter を閲覧…"
+
+#~ msgid "Flathub"
+#~ msgstr "Flathub"
+
+#, c-format
+#~ msgid "You can also sideload Flatpak apps e.g. from %s"
+#~ msgstr ""
+#~ "%s などから、AppCenter を経由せずに Flatpak アプリをインストールすることも"
+#~ "できます"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "AppCenter のキュレーションされたアプリは利用できません"

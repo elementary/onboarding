@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2021-11-30 07:44+0000\n"
-"Last-Translator: Ciarán Ainsworth <ciaranainsworth@outlook.com>\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"PO-Revision-Date: 2023-02-18 09:25+0000\n"
+"Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/en_GB/>\n"
 "Language: en_GB\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -36,15 +36,15 @@ msgstr "Updated translations"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "Add Automatic Updates view"
 
 #: data/onboarding.appdata.xml.in:25
 msgid "Add Sunset to Sunrise to Style View"
-msgstr ""
+msgstr "Add Sunset to Sunrise to Style View"
 
 #: data/onboarding.appdata.xml.in:26
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "Update for OS 7 and Gtk 4"
 
 #: data/onboarding.appdata.xml.in:34
 msgid "Redesign Housekeeping and add Downloads option"

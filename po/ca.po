@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2022-10-04 14:55+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
 "onboarding/ca/>\n"
@@ -17,52 +17,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Configureu %s"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "Omet-ho tot"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "Comenceu"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "Següent"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
-"Obtingueu les aplicacions que us calen al Centre d'aplicacions. Es fan "
-"aplicacions ajustades a l'elementary OS i revisades per l'equip de "
-"l'elementary."
+"Obtingueu les aplicacions que necessiteu al Centre d'aplicacions o carregueu "
+"les aplicacions de Flatpak de botigues alternatives."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Obtingueu algunes aplicacions"
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "Navegueu pel Centre d'aplicacions…"
-
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
-msgstr "Flathub"
-
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"També podeu carregar lateralent aplicacions de Flatpak, per exemple, des de "
-"%s"
+"Obtingueu aplicacions creades per a l'elementary i revisades per l'equip "
+"d'elementary al Centre d'aplicacions"
+
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
+msgstr ""
+"Carregueu aplicacions de botigues d'aplicacions alternatives com ara Flathub"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -297,6 +292,18 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "Què hi ha de nou?"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "Navegueu pel Centre d'aplicacions…"
+
+#~ msgid "Flathub"
+#~ msgstr "Flathub"
+
+#, c-format
+#~ msgid "You can also sideload Flatpak apps e.g. from %s"
+#~ msgstr ""
+#~ "També podeu carregar lateralent aplicacions de Flatpak, per exemple, des "
+#~ "de %s"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr ""

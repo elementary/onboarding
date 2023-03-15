@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
 "PO-Revision-Date: 2022-09-10 12:23+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -24,22 +24,26 @@ msgstr ""
 msgid "Set up %s"
 msgstr "دامەزراندن %s"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "هەمووی تێپەڕێنە"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "دەستپێکردن"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "دواتر"
 
 #: src/Views/AppCenterView.vala:22
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
 "ئەو ئەپانەی کە پێویستت پێیانە لە کۆگای ئەپ بەدەستیان بهێنە. ئەپە "
 "چارەکراوەکان بۆ سیستەمی کارپێکردنی ئێلیمێنتری دروست دەکرێن و لەلایەن "
@@ -49,19 +53,20 @@ msgstr ""
 msgid "Get Some Apps"
 msgstr "هەنێک ئەپ دامەزرێنە"
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "کردنەوەی کۆگای ئەپ…"
-
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
-msgstr "فلاتهەپ"
-
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"هەروەها دەتوانیت ئەپەکانی Flatpak بە لایەکدا بار بکەیت بۆ نموونە لە %s ەوە"
+"ئەو ئەپانەی کە پێویستت پێیانە لە کۆگای ئەپ بەدەستیان بهێنە. ئەپە "
+"چارەکراوەکان بۆ سیستەمی کارپێکردنی ئێلیمێنتری دروست دەکرێن و لەلایەن "
+"ئێلیمێنترییەوە پێداچوونەوەیان بۆ دەکرێت."
+
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
+msgstr ""
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -297,3 +302,14 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "چی نوێیە"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "کردنەوەی کۆگای ئەپ…"
+
+#~ msgid "Flathub"
+#~ msgstr "فلاتهەپ"
+
+#, c-format
+#~ msgid "You can also sideload Flatpak apps e.g. from %s"
+#~ msgstr ""
+#~ "هەروەها دەتوانیت ئەپەکانی Flatpak بە لایەکدا بار بکەیت بۆ نموونە لە %s ەوە"

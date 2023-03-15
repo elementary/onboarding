@@ -7,53 +7,51 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"PO-Revision-Date: 2023-03-11 12:25+0000\n"
+"Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://l10n.elementary.io/projects/installer/"
+"onboarding/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "%s-ის მორგება"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
-msgstr ""
+msgstr "ყველას გამოტოვება"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
-msgstr ""
+msgstr "დაწყება"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
-msgstr ""
+msgstr "შემდეგი"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
-
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr ""
+msgstr "დააყენეთ რამდენიმე აპი"
 
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
 
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
 #: src/Views/EarlyAccessView.vala:25
@@ -65,11 +63,11 @@ msgstr ""
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Early Access Build"
-msgstr ""
+msgstr "ადრეული წვდომის აგება"
 
 #: src/Views/EarlyAccessView.vala:33
 msgid "Major Known Issues"
-msgstr ""
+msgstr "დიდი შეცდომების მქონე"
 
 #: src/Views/EarlyAccessView.vala:41
 msgid "Some features may be missing or incomplete"
@@ -84,11 +82,11 @@ msgstr ""
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "მზად ვართ"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "სისტემის პარამეტრების ფანჯრის გახსნა…"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -103,23 +101,23 @@ msgstr[1] ""
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
-msgstr ""
+msgstr "გასუფთავება"
 
 #: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "ავტომატურად წაშლა:"
 
 #: src/Views/HouseKeepingView.vala:47
 msgid "Old temporary files"
-msgstr ""
+msgstr "ძველი დროებითი ფაილები"
 
 #: src/Views/HouseKeepingView.vala:57
 msgid "Downloaded files"
-msgstr ""
+msgstr "გადმოწერილი ფაილები"
 
 #: src/Views/HouseKeepingView.vala:68
 msgid "Trashed files"
-msgstr ""
+msgstr "სანაგვე ყუთში გადატანილი ფაილები"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
@@ -129,15 +127,15 @@ msgstr ""
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "ღამის სინათლე"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr ""
+msgstr "ღამის სინათლე:"
 
 #: src/Views/NightLightView.vala:37
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "მოირგეთ გეგმა და ტემპერატურა…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
@@ -147,11 +145,11 @@ msgstr ""
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "ონლაინ ანგარიშები"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "ონლაინ ანგარიშების მორგება…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
@@ -161,63 +159,63 @@ msgstr ""
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
-msgstr ""
+msgstr "აირჩიეთ თქვენი ხედი"
 
 #: src/Views/StyleView.vala:119
 msgid "Default"
-msgstr ""
+msgstr "ნაგულისხმები"
 
 #: src/Views/StyleView.vala:137
 msgid "Dark"
-msgstr ""
+msgstr "ბნელი"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "დაისიდან აისამდე"
 
 #: src/Views/StyleView.vala:159
 msgid "Blueberry"
-msgstr ""
+msgstr "მოცვი"
 
 #: src/Views/StyleView.vala:163
 msgid "Mint"
-msgstr ""
+msgstr "პიტნა"
 
 #: src/Views/StyleView.vala:168
 msgid "Lime"
-msgstr ""
+msgstr "ლიმონის ფერი"
 
 #: src/Views/StyleView.vala:173
 msgid "Banana"
-msgstr ""
+msgstr "ბანანი"
 
 #: src/Views/StyleView.vala:178
 msgid "Orange"
-msgstr ""
+msgstr "ნარინჯისფერი"
 
 #: src/Views/StyleView.vala:183
 msgid "Strawberry"
-msgstr ""
+msgstr "მარწყვი"
 
 #: src/Views/StyleView.vala:188
 msgid "Bubblegum"
-msgstr ""
+msgstr "საღეჭი რეზინი"
 
 #: src/Views/StyleView.vala:193
 msgid "Grape"
-msgstr ""
+msgstr "ყურძენი"
 
 #: src/Views/StyleView.vala:198
 msgid "Cocoa"
-msgstr ""
+msgstr "კოკო"
 
 #: src/Views/StyleView.vala:203
 msgid "Slate"
-msgstr ""
+msgstr "ფიქალი"
 
 #: src/Views/StyleView.vala:208
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "ავტომატური, ფონის სურათზე დაყრდნობით"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
@@ -227,11 +225,11 @@ msgstr ""
 
 #: src/Views/UpdatesView.vala:12
 msgid "Automatic Updates"
-msgstr ""
+msgstr "ავტომატური განახლებები"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "უფასო და ფასიანი აპები:"
 
 #: src/Views/WelcomeView.vala:22
 #, c-format
@@ -243,19 +241,19 @@ msgstr ""
 #: src/Views/WelcomeView.vala:24
 #, c-format
 msgid "Welcome to %s!"
-msgstr ""
+msgstr "მოგესალმებით %s!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
-msgstr ""
+msgstr "დამწყების სახელმძღვანელო…"
 
 #: src/Views/WelcomeView.vala:37
 msgid "Community Support…"
-msgstr ""
+msgstr "საზგადოების მხარდაჭერა…"
 
 #: src/Views/WelcomeView.vala:43
 msgid "Get Involved…"
-msgstr ""
+msgstr "შემოგვიერთდით…"
 
 #: src/Views/WhatsNewView.vala:10
 msgid ""
@@ -265,4 +263,10 @@ msgstr ""
 
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
-msgstr ""
+msgstr "რა არის ახალი"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "AppCenter-ში ძებნა…"
+
+#~ msgid "Flathub"
+#~ msgstr "Flathub"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
 "PO-Revision-Date: 2021-10-05 13:59+0000\n"
 "Last-Translator: Tommy Chiang <ty1208chiang@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -24,22 +24,26 @@ msgstr ""
 msgid "Set up %s"
 msgstr "設定 %s"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "全部略過"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "開始"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "繼續"
 
 #: src/Views/AppCenterView.vala:22
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
 "在 AppCenter 上獲得您需要的應用程式。精選的應用程式是專為 elementary OS 製作"
 "的，並已由 elementary 團隊審查過。"
@@ -48,17 +52,18 @@ msgstr ""
 msgid "Get Some Apps"
 msgstr "取得應用程式"
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "瀏覽 AppCenter…"
-
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
-msgstr "Flathub"
+#, fuzzy
+#| msgid ""
+#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
+#| "OS and reviewed by elementary."
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
+msgstr ""
+"在 AppCenter 上獲得您需要的應用程式。精選的應用程式是專為 elementary OS 製作"
+"的，並已由 elementary 團隊審查過。"
 
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
 #: src/Views/EarlyAccessView.vala:25
@@ -270,6 +275,12 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr ""
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "瀏覽 AppCenter…"
+
+#~ msgid "Flathub"
+#~ msgstr "Flathub"
 
 #~ msgid "Curated apps are not available in AppCenter"
 #~ msgstr "無法於 AppCenter 取得精選應用程式"

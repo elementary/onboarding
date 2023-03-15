@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2020-05-08 10:10+0000\n"
-"Last-Translator: Jaimie85 <alsemgeest@gmail.com>\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"PO-Revision-Date: 2023-02-10 17:25+0000\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/nl/>\n"
 "Language: nl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
@@ -36,35 +36,35 @@ msgstr "Bijgewerkte vertalingen"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "Voeg automatische updateweergave toe"
 
 #: data/onboarding.appdata.xml.in:25
 msgid "Add Sunset to Sunrise to Style View"
-msgstr ""
+msgstr "Voeg zonsopgang tot zonsondergang toe aan stijlweergave"
 
 #: data/onboarding.appdata.xml.in:26
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "Update voor OS 7 en Gtk 4"
 
 #: data/onboarding.appdata.xml.in:34
 msgid "Redesign Housekeeping and add Downloads option"
-msgstr ""
+msgstr "Visuele aanpassingen aan Opschonen en voeg download optie toe"
 
 #: data/onboarding.appdata.xml.in:42
 msgid "Add style view"
-msgstr ""
+msgstr "Voeg stijlweergave toe"
 
 #: data/onboarding.appdata.xml.in:43
 msgid "Add Online Accounts view"
-msgstr ""
+msgstr "Voeg online accounts-weergave toe"
 
 #: data/onboarding.appdata.xml.in:44
 msgid "Remove location services view"
-msgstr ""
+msgstr "Verwijder locatieservices-weergave"
 
 #: data/onboarding.appdata.xml.in:45
 msgid "Mention Sideload and Flathub"
-msgstr ""
+msgstr "Noem Sideload en Flathub"
 
 #: data/onboarding.appdata.xml.in:53
 msgid "Fix blurry icon in AppCenter"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
 "PO-Revision-Date: 2020-02-03 21:08+0000\n"
 "Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/installer/"
@@ -25,23 +25,23 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Nastavite %s"
 
-#: src/MainWindow.vala:109
+#: src/MainWindow.vala:117
 msgid "Skip All"
 msgstr "Preskoči vse"
 
-#: src/MainWindow.vala:123
+#: src/MainWindow.vala:131
 msgid "Get Started"
 msgstr "Pričnite"
 
-#: src/MainWindow.vala:127
+#: src/MainWindow.vala:135
 msgid "Next"
 msgstr "Naprej"
 
 #: src/Views/AppCenterView.vala:22
 #, fuzzy
 msgid ""
-"Get the apps you need on AppCenter. Curated apps are made for elementary OS "
-"and reviewed by elementary."
+"Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
+"stores."
 msgstr ""
 "Pridobite aplikacije, ki jih potrebujete v AppCentru. Kurirane aplikacije so "
 "narejene za elementary OS in pregledane."
@@ -50,17 +50,15 @@ msgstr ""
 msgid "Get Some Apps"
 msgstr "Pridobite nekaj aplikacij"
 
-#: src/Views/AppCenterView.vala:29
-msgid "Browse AppCenter…"
-msgstr "Prebrskajte AppCenter…"
-
 #: src/Views/AppCenterView.vala:33
-msgid "Flathub"
+#, fuzzy
+msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
+"Pridobite aplikacije, ki jih potrebujete v AppCentru. Kurirane aplikacije so "
+"narejene za elementary OS in pregledane."
 
-#: src/Views/AppCenterView.vala:35
-#, c-format
-msgid "You can also sideload Flatpak apps e.g. from %s"
+#: src/Views/AppCenterView.vala:50
+msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
 #: src/Views/EarlyAccessView.vala:25
@@ -301,6 +299,9 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "Kaj je novega"
+
+#~ msgid "Browse AppCenter…"
+#~ msgstr "Prebrskajte AppCenter…"
 
 #~ msgid ""
 #~ "Receive a prompt when an app requests this device’s location. If "

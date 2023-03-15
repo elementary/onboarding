@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-20 18:27+0000\n"
-"PO-Revision-Date: 2020-07-04 18:12+0000\n"
+"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"PO-Revision-Date: 2023-02-07 09:25+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/nn/>\n"
@@ -17,46 +17,46 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
 msgid "Welcome"
-msgstr ""
+msgstr "Velkommen"
 
 #: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
 msgid "Change common settings on first-run"
-msgstr ""
+msgstr "Endra innstillingar når du startar for fyrste gong"
 
 #: data/onboarding.appdata.xml.in:16 data/onboarding.appdata.xml.in:27
 #: data/onboarding.appdata.xml.in:35 data/onboarding.appdata.xml.in:46
 #: data/onboarding.appdata.xml.in:54 data/onboarding.appdata.xml.in:62
 #: data/onboarding.appdata.xml.in:72
 msgid "Updated translations"
-msgstr ""
+msgstr "Oppdaterte oversetningar"
 
 #: data/onboarding.appdata.xml.in:24
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "Ny visning for automatiske oppdateringar"
 
 #: data/onboarding.appdata.xml.in:25
 msgid "Add Sunset to Sunrise to Style View"
-msgstr ""
+msgstr "Ny visning for soloppgang til solnedgang"
 
 #: data/onboarding.appdata.xml.in:26
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "Oppdatert for OS 7 og Gtk 4"
 
 #: data/onboarding.appdata.xml.in:34
 msgid "Redesign Housekeeping and add Downloads option"
-msgstr ""
+msgstr "Nytt design for Husarbeid og nytt val for nedlastningar"
 
 #: data/onboarding.appdata.xml.in:42
 msgid "Add style view"
-msgstr ""
+msgstr "Ny visning for å leggja til stil"
 
 #: data/onboarding.appdata.xml.in:43
 msgid "Add Online Accounts view"
-msgstr ""
+msgstr "Ny visning for nettkontoar"
 
 #: data/onboarding.appdata.xml.in:44
 msgid "Remove location services view"
