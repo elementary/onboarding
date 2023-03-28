@@ -1,18 +1,6 @@
 /*
- * Copyright 2020-2021 elementary, Inc. (https://elementary.io)
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-FileCopyrightText: 2020-2023 elementary, Inc. (https://elementary.io)
  *
  * Authored by: Marius Meisenzahl <mariusmeisenzahl@gmail.com>
  *              Cassidy James Blaede <cassidy@elementary.io>
@@ -22,36 +10,68 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
     public EarlyAccessView () {
         Object (
             view_name: "early-access",
-            description: _("This pre-release version of %s should not be used in production. <b>It will not be possible to upgrade to the stable release</b> from this installation.").printf (Utils.os_name),
+            description: _("Only use this pre-release version of %s on devices dedicated for development.").printf (Utils.os_name),
             icon_name: "applications-development",
             title: _("Early Access Build")
         );
     }
 
     construct {
-        var title_label = new Granite.HeaderLabel (_("Major Known Issues"));
+        var upgrades_item = new ListItem (
+            "software-update-available-symbolic",
+            _("You will not be able to upgrade to a stable release"),
+            "orange"
+        );
 
-        var feature_icon = new Gtk.Image.from_icon_name ("preferences-other-symbolic") {
-            pixel_size = 16
+        var features_item = new ListItem (
+            "dialog-warning-symbolic",
+            _("Some features may be missing or incomplete"),
+            "yellow"
+        );
+
+        var bugs_item = new ListItem (
+            "bug-symbolic",
+            _("Report issues using the Feedback app"),
+            "green"
+        );
+
+        var list_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 12) {
+            halign = Gtk.Align.CENTER
         };
-        feature_icon.add_css_class (Granite.STYLE_CLASS_ACCENT);
-        feature_icon.add_css_class ("slate");
+        list_box.append (upgrades_item);
+        list_box.append (features_item);
+        list_box.append (bugs_item);
 
-        var feature_label = new Gtk.Label (_("Some features may be missing or incomplete")) {
-            xalign = 0
-        };
+        custom_bin.attach (list_box, 0, 0);
+    }
 
-        var list_grid = new Gtk.Grid () {
-            column_spacing = 6,
-            row_spacing = 6,
-            halign = Gtk.Align.CENTER,
-            margin_bottom = 12
-        };
-        list_grid.attach (title_label, 0, 0, 2);
-        list_grid.attach (feature_icon, 0, 3);
-        list_grid.attach (feature_label, 1, 3);
+    private class ListItem : Gtk.Box {
+        public string color { get; construct; }
+        public string icon_name { get; construct; }
+        public string label { get; construct; }
 
-        custom_bin.orientation = Gtk.Orientation.VERTICAL;
-        custom_bin.attach (list_grid, 0, 0);
+        public ListItem (string icon_name, string label, string color) {
+            Object (
+                icon_name: icon_name,
+                label: label,
+                color: color
+            );
+        }
+
+        construct {
+            var image = new Gtk.Image.from_icon_name (icon_name);
+            image.add_css_class (Granite.STYLE_CLASS_ACCENT);
+            image.add_css_class (color);
+
+            var description_label = new Gtk.Label (label) {
+                max_width_chars = 40,
+                wrap = true,
+                xalign = 0
+            };
+
+            spacing = 6;
+            append (image);
+            append (description_label);
+        }
     }
 }

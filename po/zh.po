@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 18:05+0000\n"
+"POT-Creation-Date: 2023-03-28 19:50+0000\n"
 "PO-Revision-Date: 2021-11-01 08:19+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese <https://l10n.elementary.io/projects/installer/"
@@ -66,28 +66,29 @@ msgstr ""
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
-#: src/Views/EarlyAccessView.vala:25
+#: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
-"This pre-release version of %s should not be used in production. <b>It will "
-"not be possible to upgrade to the stable release</b> from this installation."
+"Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
-"此预发布版本的 %s 不能用于生产用途， 届时您将无法从此版本升级到<b>正式发行版"
-"</b>。"
 
-#: src/Views/EarlyAccessView.vala:27
+#: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
 msgstr "预览版"
 
-#: src/Views/EarlyAccessView.vala:32
-msgid "Major Known Issues"
-msgstr "主要已知问题"
+#: src/Views/EarlyAccessView.vala:22
+msgid "You will not be able to upgrade to a stable release"
+msgstr ""
 
-#: src/Views/EarlyAccessView.vala:40
+#: src/Views/EarlyAccessView.vala:28
 #, fuzzy
 #| msgid "Some features are missing or incomplete"
 msgid "Some features may be missing or incomplete"
 msgstr "某些功能暂时缺失或未完成"
+
+#: src/Views/EarlyAccessView.vala:34
+msgid "Report issues using the Feedback app"
+msgstr ""
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -286,6 +287,18 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr ""
+
+#, c-format
+#~ msgid ""
+#~ "This pre-release version of %s should not be used in production. <b>It "
+#~ "will not be possible to upgrade to the stable release</b> from this "
+#~ "installation."
+#~ msgstr ""
+#~ "此预发布版本的 %s 不能用于生产用途， 届时您将无法从此版本升级到<b>正式发行"
+#~ "版</b>。"
+
+#~ msgid "Major Known Issues"
+#~ msgstr "主要已知问题"
 
 #~ msgid "Browse AppCenter…"
 #~ msgstr "浏览应用中心…"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 18:05+0000\n"
+"POT-Creation-Date: 2023-03-28 19:50+0000\n"
 "PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -60,26 +60,27 @@ msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 "Завантажуйте застосунки з альтернативних крамниць застосунків, як-от Flathub"
 
-#: src/Views/EarlyAccessView.vala:25
+#: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
-"This pre-release version of %s should not be used in production. <b>It will "
-"not be possible to upgrade to the stable release</b> from this installation."
+"Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
-"Ця попередня версія %s не повинна використовуватися основною. <b>Неможливо "
-"буде перейти на стабільний випуск</b> з цієї версії."
 
-#: src/Views/EarlyAccessView.vala:27
+#: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
 msgstr "Побудовано для раннього доступу"
 
-#: src/Views/EarlyAccessView.vala:32
-msgid "Major Known Issues"
-msgstr "Основні відомі вади"
+#: src/Views/EarlyAccessView.vala:22
+msgid "You will not be able to upgrade to a stable release"
+msgstr ""
 
-#: src/Views/EarlyAccessView.vala:40
+#: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
 msgstr "Деякі функції можуть відсутні або незавершені"
+
+#: src/Views/EarlyAccessView.vala:34
+msgid "Report issues using the Feedback app"
+msgstr ""
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -295,6 +296,18 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "Що нового"
+
+#, c-format
+#~ msgid ""
+#~ "This pre-release version of %s should not be used in production. <b>It "
+#~ "will not be possible to upgrade to the stable release</b> from this "
+#~ "installation."
+#~ msgstr ""
+#~ "Ця попередня версія %s не повинна використовуватися основною. "
+#~ "<b>Неможливо буде перейти на стабільний випуск</b> з цієї версії."
+
+#~ msgid "Major Known Issues"
+#~ msgstr "Основні відомі вади"
 
 #~ msgid "Browse AppCenter…"
 #~ msgstr "Відкрити центр застосунків…"
