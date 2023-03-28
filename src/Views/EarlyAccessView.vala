@@ -35,14 +35,9 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
             "green"
         );
 
-        var list_box = new Gtk.Box (Gtk.Orientation.VERTICAL, 12) {
-            halign = Gtk.Align.CENTER
-        };
-        list_box.append (upgrades_item);
-        list_box.append (features_item);
-        list_box.append (bugs_item);
-
-        custom_bin.attach (list_box, 0, 0);
+        custom_bin.append (upgrades_item);
+        custom_bin.append (features_item);
+        custom_bin.append (bugs_item);
     }
 
     private class ListItem : Gtk.Box {
@@ -64,6 +59,7 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
             image.add_css_class (color);
 
             var description_label = new Gtk.Label (label) {
+                hexpand = true,
                 max_width_chars = 40,
                 wrap = true,
                 xalign = 0
