@@ -26,6 +26,40 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
     }
 
     construct {
+        if (Gtk.IconTheme.get_for_display (Gdk.Display.get_default ()).has_icon (icon_name + "-symbolic")) {
+            foreach (unowned var path in Environment.get_system_data_dirs ()) {
+                var file_path = Path.build_path (Path.DIR_SEPARATOR_S, path, "backgrounds", "elementaryos-default");
+                var file = File.new_for_path (file_path);
+
+                if (file.query_exists ()) {
+                    var style_provider = new Gtk.CssProvider ();
+                    style_provider.load_from_resource ("io/elementary/onboarding/WelcomeView.css");
+
+                    var background_provider = new Gtk.CssProvider ();
+                    background_provider.load_from_data (
+                    """
+                    image.logo {
+                        background-image:
+                            linear-gradient(
+                                to bottom,
+                                alpha(@accent_color_500, 0.25),
+                                alpha(@accent_color_700, 0.75)
+                            ),
+                            url("file://%s");
+                    }
+                    """.printf (file_path).data
+                    );
+
+                    image.pixel_size = 48;
+                    image.add_css_class ("logo");
+                    image.get_style_context ().add_provider (style_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+                    image.get_style_context ().add_provider (background_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+
+                    break;
+                }
+            }
+        }
+
         var thebasics_link = new ImageLinkButton (
             Utils.documentation_url,
             _("Basics Guide…"),
@@ -44,9 +78,9 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             "applications-development-symbolic"
         );
 
-        custom_bin.attach (thebasics_link, 0, 0);
-        custom_bin.attach (support_link, 0, 1);
-        custom_bin.attach (getinvolved_link, 0, 2);
+        custom_bin.attach (thebasics_link, 0, 1);
+        custom_bin.attach (support_link, 0, 2);
+        custom_bin.attach (getinvolved_link, 0, 3);
     }
 
     private class ImageLinkButton : Gtk.Widget {

@@ -22,10 +22,11 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
     public string? badge_name { get; construct; }
     public string title { get; construct; }
 
+    protected Gtk.Image image { get; private set; }
     public Gtk.Grid custom_bin { get; private set; }
 
     construct {
-        var image = new Gtk.Image () {
+        image = new Gtk.Image () {
             icon_name = icon_name,
             pixel_size = 64
         };
