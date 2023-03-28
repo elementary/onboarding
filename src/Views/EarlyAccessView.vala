@@ -17,8 +17,6 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
     }
 
     construct {
-        var title_label = new Granite.HeaderLabel (_("Major Known Issues"));
-
         var upgrades_item = new ListItem (
             "software-update-available-symbolic",
             _("You will not be able to upgrade to a stable release"),
