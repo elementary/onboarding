@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019-2023 elementary, Inc. <contact@elementary.io> -->
+<component type="desktop-application">
+  <id>io.elementary.onboarding</id>
+  <launchable type="desktop-id">io.elementary.onboarding.desktop</launchable>
+  <translation type="gettext">io.elementary.onboarding</translation>
+  <compulsory_for_desktop>Pantheon</compulsory_for_desktop>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+
+  <name>Welcome</name>
+  <summary>Change common settings on first-run</summary>
+  <description>
+    <p></p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/elementary/onboarding/7.0.2/data/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+
+  <branding>
+    <color type="primary">#68b723</color>
+  </branding>
+
+  <content_rating type="oars-1.1" />
+
+  <provides>
+    <binary>io.elementary.onboarding</binary>
+  </provides>
+
+  <recommends>
+    <display_length compare="ge">503</display_length>
+  </recommends>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+
+  <url type="homepage">https://elementary.io/</url>
+  <url type="bugtracker">https://github.com/elementary/onboarding/issues</url>
+  <url type="donation">https://elementary.io/get-involved#funding</url>
+  <url type="help">https://github.com/elementary/onboarding/discussions</url>
+  <url type="translate">https://l10n.elementary.io/engage/installer/</url>
+
+  <developer_name>elementary, Inc.</developer_name>
+  <project_group>elementary</project_group>
+  <update_contact>contact_at_elementary.io</update_contact>
+
+  <releases>
+    <release version="7.0.2" date="2023-03-28" urgency="medium">
+      <description>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="7.0.1" date="2022-10-20" urgency="medium">
+      <description>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="7.0.0" date="2022-05-12" urgency="medium">
+      <description>
+        <ul>
+          <li>Add Automatic Updates view</li>
+          <li>Add Sunset to Sunrise to Style View</li>
+          <li>Update for OS 7 and Gtk 4</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.1.0" date="2020-11-22" urgency="medium">
+      <description>
+        <ul>
+          <li>Redesign Housekeeping and add Downloads option</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="6.0.0" date="2020-07-14" urgency="medium">
+      <description>
+        <ul>
+          <li>Add style view</li>
+          <li>Add Online Accounts view</li>
+          <li>Remove location services view</li>
+          <li>Mention Sideload and Flathub</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+    </release>
+
+    <release version="1.2.1" date="2020-05-28" urgency="medium"/>
+    <release version="1.2.0" date="2020-04-01" urgency="medium"/>
+    <release version="1.1.0" date="2019-11-15" urgency="medium"/>
+  </releases>
+</component>
