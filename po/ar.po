@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"POT-Creation-Date: 2023-03-28 18:05+0000\n"
 "PO-Revision-Date: 2021-08-27 17:59+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/installer/"
@@ -76,15 +76,15 @@ msgstr ""
 "هذه نسخة ما قبل الإصدار من %s لا ينبغي أن تستعمل للأغراض الجدية. <b>لن تكون "
 "هناك إمكانية لترقيته للإصدار المستقر.</b>"
 
-#: src/Views/EarlyAccessView.vala:28
+#: src/Views/EarlyAccessView.vala:27
 msgid "Early Access Build"
 msgstr "نسخة وصول مبكر"
 
-#: src/Views/EarlyAccessView.vala:33
+#: src/Views/EarlyAccessView.vala:32
 msgid "Major Known Issues"
 msgstr "المشاكل الرئيسية المعروفة"
 
-#: src/Views/EarlyAccessView.vala:41
+#: src/Views/EarlyAccessView.vala:40
 #, fuzzy
 #| msgid "Some features are missing or incomplete"
 msgid "Some features may be missing or incomplete"

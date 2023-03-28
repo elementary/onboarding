@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"POT-Creation-Date: 2023-03-28 18:05+0000\n"
 "PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -69,15 +69,15 @@ msgstr ""
 "Ця попередня версія %s не повинна використовуватися основною. <b>Неможливо "
 "буде перейти на стабільний випуск</b> з цієї версії."
 
-#: src/Views/EarlyAccessView.vala:28
+#: src/Views/EarlyAccessView.vala:27
 msgid "Early Access Build"
 msgstr "Побудовано для раннього доступу"
 
-#: src/Views/EarlyAccessView.vala:33
+#: src/Views/EarlyAccessView.vala:32
 msgid "Major Known Issues"
 msgstr "Основні відомі вади"
 
-#: src/Views/EarlyAccessView.vala:41
+#: src/Views/EarlyAccessView.vala:40
 msgid "Some features may be missing or incomplete"
 msgstr "Деякі функції можуть відсутні або незавершені"
 

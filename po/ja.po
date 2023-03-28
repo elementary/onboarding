@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"POT-Creation-Date: 2023-03-28 18:05+0000\n"
 "PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
@@ -40,8 +40,9 @@ msgstr "次へ"
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
-msgstr "AppCenter から必要なアプリを入手したり、代替ストアから Flatpak "
-"アプリをインストールしたりできます。"
+msgstr ""
+"AppCenter から必要なアプリを入手したり、代替ストアから Flatpak アプリをインス"
+"トールしたりできます。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -50,12 +51,13 @@ msgstr "アプリを入手"
 #: src/Views/AppCenterView.vala:33
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"AppCenter から入手可能なアプリは、elementary OS "
-"向けに開発されています。また、elementary による安全性確認が行われています"
+"AppCenter から入手可能なアプリは、elementary OS 向けに開発されています。ま"
+"た、elementary による安全性確認が行われています"
 
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr "Flathub などの代替アプリストアからアプリをインストールすることもできます"
+msgstr ""
+"Flathub などの代替アプリストアからアプリをインストールすることもできます"
 
 #: src/Views/EarlyAccessView.vala:25
 #, c-format
@@ -66,15 +68,15 @@ msgstr ""
 "これはプレリリース版の %s です。メイン環境での使用は推奨しません。また、<b>安"
 "定版へのアップグレードはできません</b>。"
 
-#: src/Views/EarlyAccessView.vala:28
+#: src/Views/EarlyAccessView.vala:27
 msgid "Early Access Build"
 msgstr "早期アクセスビルド"
 
-#: src/Views/EarlyAccessView.vala:33
+#: src/Views/EarlyAccessView.vala:32
 msgid "Major Known Issues"
 msgstr "主な既知の不具合"
 
-#: src/Views/EarlyAccessView.vala:41
+#: src/Views/EarlyAccessView.vala:40
 msgid "Some features may be missing or incomplete"
 msgstr "機能が不足または完成していないことがあります"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"POT-Creation-Date: 2023-03-28 18:05+0000\n"
 "PO-Revision-Date: 2023-02-04 10:25+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
@@ -76,15 +76,15 @@ msgstr ""
 "ikkje vera mogleg å oppgradera til ein stabil versjon</b> frå denne "
 "utgjevinga."
 
-#: src/Views/EarlyAccessView.vala:28
+#: src/Views/EarlyAccessView.vala:27
 msgid "Early Access Build"
 msgstr "Forhandsutgjeving"
 
-#: src/Views/EarlyAccessView.vala:33
+#: src/Views/EarlyAccessView.vala:32
 msgid "Major Known Issues"
 msgstr "Større kjente feil"
 
-#: src/Views/EarlyAccessView.vala:41
+#: src/Views/EarlyAccessView.vala:40
 msgid "Some features may be missing or incomplete"
 msgstr "Nokre funksjonar kan mangla eller ikkje vera ferdige"
 

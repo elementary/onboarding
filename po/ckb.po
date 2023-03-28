@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"POT-Creation-Date: 2023-03-28 18:05+0000\n"
 "PO-Revision-Date: 2022-09-10 12:23+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -77,15 +77,15 @@ msgstr ""
 "ئەم وەشانی پێش بڵاوکردنەوەیەی %s نابێت لە پرۆدەکشندا بەکاربێت. <b>دواتر "
 "ناتوانیت بەرزکردنەوە بۆ وەشانی جێگیر بکەیت</b> لەم دامەزراندنەوە."
 
-#: src/Views/EarlyAccessView.vala:28
+#: src/Views/EarlyAccessView.vala:27
 msgid "Early Access Build"
 msgstr "دروستکراوی دەستگەیشتنی سەرەتایی"
 
-#: src/Views/EarlyAccessView.vala:33
+#: src/Views/EarlyAccessView.vala:32
 msgid "Major Known Issues"
 msgstr "کێشە سەرەکییە ناسراوەکان"
 
-#: src/Views/EarlyAccessView.vala:41
+#: src/Views/EarlyAccessView.vala:40
 msgid "Some features may be missing or incomplete"
 msgstr "دەکرێت هەندێک لە تایبەتمەندییەکان ونبن یان تەواو نەبن"
 

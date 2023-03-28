@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"POT-Creation-Date: 2023-03-28 18:05+0000\n"
 "PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
@@ -50,7 +50,8 @@ msgstr "Get Some Apps"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
-msgstr "Get apps made for elementary OS and reviewed by elementary on AppCenter"
+msgstr ""
+"Get apps made for elementary OS and reviewed by elementary on AppCenter"
 
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
@@ -65,15 +66,15 @@ msgstr ""
 "This pre-release version of %s should not be used in production. <b>It will "
 "not be possible to upgrade to the stable release</b> from this installation."
 
-#: src/Views/EarlyAccessView.vala:28
+#: src/Views/EarlyAccessView.vala:27
 msgid "Early Access Build"
 msgstr "Early Access Build"
 
-#: src/Views/EarlyAccessView.vala:33
+#: src/Views/EarlyAccessView.vala:32
 msgid "Major Known Issues"
 msgstr "Major Known Issues"
 
-#: src/Views/EarlyAccessView.vala:41
+#: src/Views/EarlyAccessView.vala:40
 msgid "Some features may be missing or incomplete"
 msgstr "Some features may be missing or incomplete"
 
