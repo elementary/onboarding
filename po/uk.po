@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-28 19:50+0000\n"
-"PO-Revision-Date: 2023-03-15 13:25+0000\n"
+"PO-Revision-Date: 2023-03-29 04:52+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding/uk/>\n"
@@ -16,9 +16,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -65,6 +65,8 @@ msgstr ""
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Використовуйте цю попередню версію %s лише на пристроях, призначених для "
+"розробки."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -72,7 +74,7 @@ msgstr "Побудовано для раннього доступу"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Ви не зможете оновитися до стабільної версії"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
@@ -80,7 +82,7 @@ msgstr "Деякі функції можуть відсутні або неза�
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Повідомляйте про проблеми через застосунок Відгуків"
 
 #: src/Views/FinishView.vala:22
 #, c-format
