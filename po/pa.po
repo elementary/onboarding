@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"POT-Creation-Date: 2023-03-28 18:05+0000\n"
 "PO-Revision-Date: 2021-08-03 09:06+0000\n"
 "Last-Translator: elSolus <tumbleweed@tuta.io>\n"
 "Language-Team: Punjabi <https://l10n.elementary.io/projects/installer/"
@@ -75,15 +75,15 @@ msgstr ""
 "%s ਦਾ ਇਹ ਪ੍ਰੀ-ਰਿਲੀਜ਼ ਦਾ ਵਰਜਨ ਹੈ, ਇਸਨੂੰ ਪ੍ਰੋਡਕਸ਼ਨ ਵਿੱਚ ਨਹੀਂ ਵਰਤਣਾ ਚਾਹੀਦਾ। <b>ਇਸਦੇ ਇਸ "
 "ਸਥਾਪਨ ਨੂੰ ਸਟੇਬਲ ਰਿਲੀਜ਼ ’ਤੇ ਅਪਡੇਟ ਕਰਨਾ ਮੁਮਕਿਨ ਨਹੀਂ ਹੋਵੇਗਾ।</b>"
 
-#: src/Views/EarlyAccessView.vala:28
+#: src/Views/EarlyAccessView.vala:27
 msgid "Early Access Build"
 msgstr "ਰਿਲੀਜ਼ ਤੋਂ ਪਹਿਲਾਂ ਦਾ ਵਰਜਨ"
 
-#: src/Views/EarlyAccessView.vala:33
+#: src/Views/EarlyAccessView.vala:32
 msgid "Major Known Issues"
 msgstr "ਜਾਣਕਾਰੀ ਵਿਚਲੇ ਵੱਡੇ ਮਸਲੇ"
 
-#: src/Views/EarlyAccessView.vala:41
+#: src/Views/EarlyAccessView.vala:40
 msgid "Some features may be missing or incomplete"
 msgstr ""
 
