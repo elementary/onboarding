@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 18:05+0000\n"
+"POT-Creation-Date: 2023-03-28 19:50+0000\n"
 "PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
@@ -60,27 +60,27 @@ msgstr ""
 "Sie können Anwendungen aus alternativen Stores wie Flathub per Sideload "
 "installieren"
 
-#: src/Views/EarlyAccessView.vala:25
+#: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
-"This pre-release version of %s should not be used in production. <b>It will "
-"not be possible to upgrade to the stable release</b> from this installation."
+"Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
-"Diese Vorabversion von %s ist nicht für den Produktiveinsatz geeignet. "
-"<b>Eine Aktualisierung dieser Installation auf eine stabile Version ist "
-"nicht möglich.</b>"
 
-#: src/Views/EarlyAccessView.vala:27
+#: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
 msgstr "Vorschauversion"
 
-#: src/Views/EarlyAccessView.vala:32
-msgid "Major Known Issues"
-msgstr "Wichtige bekannte Probleme"
+#: src/Views/EarlyAccessView.vala:22
+msgid "You will not be able to upgrade to a stable release"
+msgstr ""
 
-#: src/Views/EarlyAccessView.vala:40
+#: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
 msgstr "Möglicherweise fehlen einige Funktionen oder sind unvollständig"
+
+#: src/Views/EarlyAccessView.vala:34
+msgid "Report issues using the Feedback app"
+msgstr ""
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -293,6 +293,19 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "Das ist neu"
+
+#, c-format
+#~ msgid ""
+#~ "This pre-release version of %s should not be used in production. <b>It "
+#~ "will not be possible to upgrade to the stable release</b> from this "
+#~ "installation."
+#~ msgstr ""
+#~ "Diese Vorabversion von %s ist nicht für den Produktiveinsatz geeignet. "
+#~ "<b>Eine Aktualisierung dieser Installation auf eine stabile Version ist "
+#~ "nicht möglich.</b>"
+
+#~ msgid "Major Known Issues"
+#~ msgstr "Wichtige bekannte Probleme"
 
 #~ msgid "Browse AppCenter…"
 #~ msgstr "AppCenter durchsuchen …"

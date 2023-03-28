@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 18:05+0000\n"
+"POT-Creation-Date: 2023-03-28 19:50+0000\n"
 "PO-Revision-Date: 2022-11-09 10:29+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
@@ -68,27 +68,27 @@ msgstr ""
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
-#: src/Views/EarlyAccessView.vala:25
+#: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
-"This pre-release version of %s should not be used in production. <b>It will "
-"not be possible to upgrade to the stable release</b> from this installation."
+"Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
-"Cette préversion de %s ne doit pas être utilisée en production. <b>Il ne "
-"sera pas possible d'effectuer la mise à jour vers la version stable</b> à "
-"partir de cette installation."
 
-#: src/Views/EarlyAccessView.vala:27
+#: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
 msgstr "Version à accès anticipé"
 
-#: src/Views/EarlyAccessView.vala:32
-msgid "Major Known Issues"
-msgstr "Problèmes majeurs connus"
+#: src/Views/EarlyAccessView.vala:22
+msgid "You will not be able to upgrade to a stable release"
+msgstr ""
 
-#: src/Views/EarlyAccessView.vala:40
+#: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
 msgstr "Certaines fonctionnalités peuvent être manquantes ou incomplètes"
+
+#: src/Views/EarlyAccessView.vala:34
+msgid "Report issues using the Feedback app"
+msgstr ""
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -300,6 +300,19 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "Quoi de neuf"
+
+#, c-format
+#~ msgid ""
+#~ "This pre-release version of %s should not be used in production. <b>It "
+#~ "will not be possible to upgrade to the stable release</b> from this "
+#~ "installation."
+#~ msgstr ""
+#~ "Cette préversion de %s ne doit pas être utilisée en production. <b>Il ne "
+#~ "sera pas possible d'effectuer la mise à jour vers la version stable</b> à "
+#~ "partir de cette installation."
+
+#~ msgid "Major Known Issues"
+#~ msgstr "Problèmes majeurs connus"
 
 #~ msgid "Browse AppCenter…"
 #~ msgstr "Parcourir le Centre d'Applications…"

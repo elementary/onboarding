@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 18:05+0000\n"
+"POT-Creation-Date: 2023-03-28 19:50+0000\n"
 "PO-Revision-Date: 2020-11-22 20:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
@@ -66,28 +66,29 @@ msgstr ""
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
-#: src/Views/EarlyAccessView.vala:25
+#: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
-"This pre-release version of %s should not be used in production. <b>It will "
-"not be possible to upgrade to the stable release</b> from this installation."
+"Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
-"%s ची ही पूर्व-आवृत्ती आवृत्ती उत्पादनामध्ये वापरली जाऊ नये. या स्थापनेपासून <b> स्थिर "
-"रीलीझ वर श्रेणीसुधारित करणे शक्य होणार नाही </b>."
 
-#: src/Views/EarlyAccessView.vala:27
+#: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
 msgstr "लवकर प्रवेश बिल्ड"
 
-#: src/Views/EarlyAccessView.vala:32
-msgid "Major Known Issues"
-msgstr "मुख्य ज्ञात समस्या"
+#: src/Views/EarlyAccessView.vala:22
+msgid "You will not be able to upgrade to a stable release"
+msgstr ""
 
-#: src/Views/EarlyAccessView.vala:40
+#: src/Views/EarlyAccessView.vala:28
 #, fuzzy
 #| msgid "Some features are missing or incomplete"
 msgid "Some features may be missing or incomplete"
 msgstr "काही वैशिष्ट्ये गहाळ किंवा अपूर्ण आहेत"
+
+#: src/Views/EarlyAccessView.vala:34
+msgid "Report issues using the Feedback app"
+msgstr ""
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -298,6 +299,18 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "नवीन काय आहे"
+
+#, c-format
+#~ msgid ""
+#~ "This pre-release version of %s should not be used in production. <b>It "
+#~ "will not be possible to upgrade to the stable release</b> from this "
+#~ "installation."
+#~ msgstr ""
+#~ "%s ची ही पूर्व-आवृत्ती आवृत्ती उत्पादनामध्ये वापरली जाऊ नये. या स्थापनेपासून <b> स्थिर "
+#~ "रीलीझ वर श्रेणीसुधारित करणे शक्य होणार नाही </b>."
+
+#~ msgid "Major Known Issues"
+#~ msgstr "मुख्य ज्ञात समस्या"
 
 #~ msgid "Browse AppCenter…"
 #~ msgstr "AppCenter ब्राउझ करा…"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 18:05+0000\n"
+"POT-Creation-Date: 2023-03-28 19:50+0000\n"
 "PO-Revision-Date: 2021-06-05 23:54+0000\n"
 "Last-Translator: Rantyrant <diseasemonger@gmail.com>\n"
 "Language-Team: Danish <https://l10n.elementary.io/projects/installer/"
@@ -66,23 +66,26 @@ msgstr ""
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
-#: src/Views/EarlyAccessView.vala:25
+#: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
-"This pre-release version of %s should not be used in production. <b>It will "
-"not be possible to upgrade to the stable release</b> from this installation."
+"Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
 
-#: src/Views/EarlyAccessView.vala:27
+#: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
 msgstr ""
 
-#: src/Views/EarlyAccessView.vala:32
-msgid "Major Known Issues"
+#: src/Views/EarlyAccessView.vala:22
+msgid "You will not be able to upgrade to a stable release"
 msgstr ""
 
-#: src/Views/EarlyAccessView.vala:40
+#: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
+msgstr ""
+
+#: src/Views/EarlyAccessView.vala:34
+msgid "Report issues using the Feedback app"
 msgstr ""
 
 #: src/Views/FinishView.vala:22
