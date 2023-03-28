@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 18:05+0000\n"
+"POT-Creation-Date: 2023-03-28 19:50+0000\n"
 "PO-Revision-Date: 2023-02-04 10:25+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
@@ -66,26 +66,27 @@ msgstr ""
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
-#: src/Views/EarlyAccessView.vala:25
+#: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
-"This pre-release version of %s should not be used in production. <b>It will "
-"not be possible to upgrade to the stable release</b> from this installation."
+"Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
-"Tämä on %sn esijulkaisu. Älä käytä tätä julkaisua tuotantoympäristöissä. "
-"<b>Päivitys vakaaseen versioon ei ole mahdollista</b> tästä asennuksesta."
 
-#: src/Views/EarlyAccessView.vala:27
+#: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
 msgstr "Varhaisen käytön julkaisu"
 
-#: src/Views/EarlyAccessView.vala:32
-msgid "Major Known Issues"
-msgstr "Suurimmat tunnistetut ongelmat"
+#: src/Views/EarlyAccessView.vala:22
+msgid "You will not be able to upgrade to a stable release"
+msgstr ""
 
-#: src/Views/EarlyAccessView.vala:40
+#: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
 msgstr "Jotkin ominaisuudet saattavat puuttua tai olla puutteellisia"
+
+#: src/Views/EarlyAccessView.vala:34
+msgid "Report issues using the Feedback app"
+msgstr ""
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -298,6 +299,18 @@ msgstr ""
 #: src/Views/WhatsNewView.vala:13
 msgid "What’s New"
 msgstr "Mitä uutta"
+
+#, c-format
+#~ msgid ""
+#~ "This pre-release version of %s should not be used in production. <b>It "
+#~ "will not be possible to upgrade to the stable release</b> from this "
+#~ "installation."
+#~ msgstr ""
+#~ "Tämä on %sn esijulkaisu. Älä käytä tätä julkaisua tuotantoympäristöissä. "
+#~ "<b>Päivitys vakaaseen versioon ei ole mahdollista</b> tästä asennuksesta."
+
+#~ msgid "Major Known Issues"
+#~ msgstr "Suurimmat tunnistetut ongelmat"
 
 #~ msgid "Browse AppCenter…"
 #~ msgstr "Selaa sovelluskeskusta…"
