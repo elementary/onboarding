@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-13 00:27+0000\n"
+"POT-Creation-Date: 2023-03-28 18:05+0000\n"
 "PO-Revision-Date: 2022-07-20 06:06+0000\n"
 "Last-Translator: CrxRuiXuan <huaweidu@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -19,76 +19,80 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: data/io.elementary.onboarding.desktop.in:3 data/onboarding.appdata.xml.in:7
+#: data/io.elementary.onboarding.desktop.in:3
+#: data/onboarding.metainfo.xml.in:11
 msgid "Welcome"
 msgstr "欢迎"
 
-#: data/io.elementary.onboarding.desktop.in:4 data/onboarding.appdata.xml.in:8
+#: data/io.elementary.onboarding.desktop.in:4
+#: data/onboarding.metainfo.xml.in:12
 msgid "Change common settings on first-run"
 msgstr "在首次运行时配置常用设置"
 
-#: data/onboarding.appdata.xml.in:16 data/onboarding.appdata.xml.in:27
-#: data/onboarding.appdata.xml.in:35 data/onboarding.appdata.xml.in:46
-#: data/onboarding.appdata.xml.in:54 data/onboarding.appdata.xml.in:62
-#: data/onboarding.appdata.xml.in:72
+#: data/onboarding.metainfo.xml.in:48
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
+#: data/onboarding.metainfo.xml.in:56
+msgid "Redesign app page to better explain sideloading and alt stores"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:57
+msgid "Always warn about Early Access builds"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:66
+#: data/onboarding.metainfo.xml.in:77 data/onboarding.metainfo.xml.in:86
+#: data/onboarding.metainfo.xml.in:98
 msgid "Updated translations"
 msgstr "翻译更新"
 
-#: data/onboarding.appdata.xml.in:24
+#: data/onboarding.metainfo.xml.in:74
 msgid "Add Automatic Updates view"
 msgstr "添加自动更新视图"
 
-#: data/onboarding.appdata.xml.in:25
+#: data/onboarding.metainfo.xml.in:75
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "添加从日落到日出到样式视图"
 
-#: data/onboarding.appdata.xml.in:26
+#: data/onboarding.metainfo.xml.in:76
 msgid "Update for OS 7 and Gtk 4"
 msgstr "OS 7 和 Gtk 4 的更新"
 
-#: data/onboarding.appdata.xml.in:34
+#: data/onboarding.metainfo.xml.in:85
 msgid "Redesign Housekeeping and add Downloads option"
 msgstr "重新设计内务管理并添加下载选项"
 
-#: data/onboarding.appdata.xml.in:42
+#: data/onboarding.metainfo.xml.in:94
 msgid "Add style view"
 msgstr "添加样式视图"
 
-#: data/onboarding.appdata.xml.in:43
+#: data/onboarding.metainfo.xml.in:95
 msgid "Add Online Accounts view"
 msgstr "添加在线账户视图"
 
-#: data/onboarding.appdata.xml.in:44
+#: data/onboarding.metainfo.xml.in:96
 msgid "Remove location services view"
 msgstr "删除位置服务视图"
 
-#: data/onboarding.appdata.xml.in:45
+#: data/onboarding.metainfo.xml.in:97
 msgid "Mention Sideload and Flathub"
 msgstr "涉及 Sideload 和 Flathub"
 
-#: data/onboarding.appdata.xml.in:53
-msgid "Fix blurry icon in AppCenter"
-msgstr "修复应用中心图标模糊的问题"
+#~ msgid "Fix blurry icon in AppCenter"
+#~ msgstr "修复应用中心图标模糊的问题"
 
-#: data/onboarding.appdata.xml.in:61
-msgid "New app icon"
-msgstr "新应用图标"
+#~ msgid "New app icon"
+#~ msgstr "新应用图标"
 
-#: data/onboarding.appdata.xml.in:69
-msgid "Navigate with (multi-)touch gestures"
-msgstr "用（多点）触摸手势导航"
+#~ msgid "Navigate with (multi-)touch gestures"
+#~ msgstr "用（多点）触摸手势导航"
 
-#: data/onboarding.appdata.xml.in:70
-msgid "Use new blog URL"
-msgstr "新的博客链接"
+#~ msgid "Use new blog URL"
+#~ msgstr "新的博客链接"
 
-#: data/onboarding.appdata.xml.in:71
-msgid "Fix errors when pressing the Skip button"
-msgstr "修复点击“跳过”按钮时出错"
-
-#: data/onboarding.appdata.xml.in:83
-msgid "elementary, Inc."
-msgstr "elementary, Inc."
+#~ msgid "Fix errors when pressing the Skip button"
+#~ msgstr "修复点击“跳过”按钮时出错"
 
 #~ msgid "io.elementary.onboarding"
 #~ msgstr "io.elementary.onboarding"
