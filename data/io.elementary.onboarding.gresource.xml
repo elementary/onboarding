@@ -6,4 +6,8 @@
     <file compressed="true" preprocess="xml-stripblanks">appearance-dark.svg</file>
     <file compressed="true" preprocess="xml-stripblanks">appearance-scheduled.svg</file>
   </gresource>
+  <gresource prefix="io/elementary/onboarding/icons">
+    <file alias ="64x64/categories/preferences-desktop-display-scale.svg" compressed="true">icons/preferences-desktop-display.svg</file>
+    <file alias ="64x64@2/categories/preferences-desktop-display-scale.svg" compressed="true">icons/preferences-desktop-display.svg</file>
+  </gresource>
 </gresources>
