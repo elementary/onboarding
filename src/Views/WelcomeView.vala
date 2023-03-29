@@ -78,9 +78,9 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             "applications-development-symbolic"
         );
 
-        custom_bin.attach (thebasics_link, 0, 0);
-        custom_bin.attach (support_link, 0, 1);
-        custom_bin.attach (getinvolved_link, 0, 2);
+        custom_bin.append (thebasics_link);
+        custom_bin.append (support_link);
+        custom_bin.append (getinvolved_link);
     }
 
     private class ImageLinkButton : Gtk.Widget {

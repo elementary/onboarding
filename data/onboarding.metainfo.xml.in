@@ -31,7 +31,7 @@
   </provides>
 
   <recommends>
-    <display_length compare="ge">503</display_length>
+    <display_length compare="ge">491</display_length>
   </recommends>
   <supports>
     <control>pointing</control>

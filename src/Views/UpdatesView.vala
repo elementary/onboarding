@@ -25,7 +25,10 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
         var settings = new GLib.Settings ("io.elementary.appcenter.settings");
         settings.bind ("automatic-updates", switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
-        custom_bin.attach (switch_label, 0, 0);
-        custom_bin.attach (switch, 1, 0);
+        var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        box.append (switch_label);
+        box.append (switch);
+
+        custom_bin.append (box);
     }
 }

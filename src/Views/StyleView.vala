@@ -108,10 +108,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_default_card.add_css_class ("prefer-default");
         prefer_default_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        var prefer_default_radio = new Gtk.CheckButton () {
-            halign = Gtk.Align.END,
-            hexpand = true
-        };
+        var prefer_default_radio = new Gtk.CheckButton ();
         prefer_default_radio.add_css_class ("image-button");
 
         var prefer_default_grid = new Gtk.Grid ();
@@ -126,8 +123,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_dark_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_dark_radio = new Gtk.CheckButton () {
-            halign = Gtk.Align.START,
-            hexpand = true,
             group = prefer_default_radio
         };
         prefer_dark_radio.add_css_class ("image-button");
@@ -144,8 +139,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_scheduled_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_scheduled_radio = new Gtk.CheckButton () {
-            halign = Gtk.Align.START,
-            hexpand = true,
             group = prefer_default_radio
         };
         prefer_scheduled_radio.add_css_class ("image-button");
@@ -155,8 +148,14 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_scheduled_grid.attach (new Gtk.Label (_("Sunset to Sunrise")), 0, 1);
         prefer_scheduled_grid.set_parent (prefer_scheduled_radio);
 
-        var blueberry_button = new PrefersAccentColorButton (pantheon_act, AccentColor.BLUE);
-        blueberry_button.tooltip_text = _("Blueberry");
+        var color_scheme_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        color_scheme_box.append (prefer_default_radio);
+        color_scheme_box.append (prefer_dark_radio);
+        color_scheme_box.append (prefer_scheduled_radio);
+
+        var blueberry_button = new PrefersAccentColorButton (pantheon_act, AccentColor.BLUE) {
+            tooltip_text = _("Blueberry")
+        };
 
         var mint_button = new PrefersAccentColorButton (pantheon_act, AccentColor.MINT) {
             group = blueberry_button,
@@ -223,11 +222,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         accent_box.append (slate_button);
         accent_box.append (auto_button);
 
-        custom_bin.row_spacing = 12;
-        custom_bin.attach (prefer_default_radio, 0, 0);
-        custom_bin.attach (prefer_dark_radio, 1, 0);
-        custom_bin.attach (prefer_scheduled_radio, 2, 0);
-        custom_bin.attach (accent_box, 0, 1, 3);
+        custom_bin.append (color_scheme_box);
+        custom_bin.append (accent_box);
 
         var settings = new GLib.Settings ("io.elementary.settings-daemon.prefers-color-scheme");
 

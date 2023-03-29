@@ -15,15 +15,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public abstract class AbstractOnboardingView : Gtk.Grid {
+public abstract class AbstractOnboardingView : Gtk.Box {
     public string view_name { get; construct; }
     public string description { get; set; }
     public string icon_name { get; construct; }
     public string? badge_name { get; construct; }
     public string title { get; construct; }
 
+    protected Gtk.Box custom_bin { get; private set; }
     protected Gtk.Image image { get; private set; }
-    public Gtk.Grid custom_bin { get; private set; }
 
     construct {
         image = new Gtk.Image () {
@@ -40,14 +40,19 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
 
         var overlay = new Gtk.Overlay () {
             halign = Gtk.Align.CENTER,
-            child = image
+            child = image,
+            margin_bottom = 6
         };
         overlay.add_overlay (badge);
 
         var title_label = new Gtk.Label (title) {
-            halign = Gtk.Align.CENTER
+            halign = Gtk.Align.CENTER,
+            justify = Gtk.Justification.CENTER,
+            wrap = true,
+            max_width_chars = 50,
+            use_markup = true
         };
-        title_label.add_css_class (Granite.STYLE_CLASS_H2_LABEL);
+        title_label.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
 
         var description_label = new Gtk.Label (description) {
             halign = Gtk.Align.CENTER,
@@ -56,34 +61,29 @@ public abstract class AbstractOnboardingView : Gtk.Grid {
             max_width_chars = 50,
             use_markup = true
         };
+        description_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
-        var header_area = new Gtk.Grid () {
-            column_spacing = 12,
+        var header_area = new Gtk.Box (Gtk.Orientation.VERTICAL, 3);
+        header_area.append (overlay);
+        header_area.append (title_label);
+        header_area.append (description_label);
+
+        custom_bin = new Gtk.Box (Gtk.Orientation.VERTICAL, 12) {
+            hexpand = true,
+            vexpand = true,
             halign = Gtk.Align.CENTER,
-            vexpand = true,
-            hexpand = true,
-            row_spacing = 6
-        };
-        header_area.attach (overlay, 0, 0);
-        header_area.attach (title_label, 0, 1);
-        header_area.attach (description_label, 0, 2);
-
-        custom_bin = new Gtk.Grid () {
-            column_spacing = 12,
-            hexpand = true,
-            row_spacing = 6,
-            vexpand = true,
-            halign = Gtk.Align.CENTER
+            valign = Gtk.Align.CENTER
         };
 
         margin_start = 10;
         margin_end = 10;
         margin_top = 22;
-        row_spacing = 24;
+        orientation = Gtk.Orientation.VERTICAL;
+        spacing = 24;
         hexpand = true;
         vexpand = true;
-        attach (header_area, 0, 0);
-        attach (custom_bin, 0, 1);
+        append (header_area);
+        append (custom_bin);
 
         bind_property ("description", description_label, "label");
     }
