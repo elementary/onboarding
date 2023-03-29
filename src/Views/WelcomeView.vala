@@ -21,7 +21,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             view_name: "welcome",
             description: _("Continue to set up some useful features. Visit the links below for more information about %s.").printf (Utils.os_name),
             icon_name: Utils.logo_icon_name,
-            title: _("Welcome to %s!").printf (Utils.os_name)
+            title: _("Welcome!")
         );
     }
 
@@ -44,6 +44,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             "applications-development-symbolic"
         );
 
+        custom_bin.spacing = 3;
         custom_bin.append (thebasics_link);
         custom_bin.append (support_link);
         custom_bin.append (getinvolved_link);
@@ -76,7 +77,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
                 xalign = 0
             };
 
-            var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 0);
+            var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 3);
             box.append (image);
             box.append (left_label);
 
