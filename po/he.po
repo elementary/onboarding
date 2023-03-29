@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 19:50+0000\n"
-"PO-Revision-Date: 2023-03-15 13:25+0000\n"
+"POT-Creation-Date: 2023-03-29 04:52+0000\n"
+"PO-Revision-Date: 2023-03-29 04:52+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
-#: src/MainWindow.vala:32
+#: src/MainWindow.vala:31
 #, c-format
 msgid "Set up %s"
 msgstr "הגדרת %s"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:115
 msgid "Skip All"
 msgstr "לדלג על הכול"
 
-#: src/MainWindow.vala:131
+#: src/MainWindow.vala:129
 msgid "Get Started"
 msgstr "מאיפה מתחילים"
 
-#: src/MainWindow.vala:135
+#: src/MainWindow.vala:133
 msgid "Next"
 msgstr "הבא"
 
@@ -62,7 +62,7 @@ msgstr "טעינה של יישומים מהצד דרך חנויות יישומי
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
-msgstr ""
+msgstr "יש להשתמש בגרסת טרום הפצה זו של %s על מכשירים שמיועדים לפיתוח."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -70,7 +70,7 @@ msgstr "מהדורת גישה מוקדמת"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "לא תהיה לך אפשרות לשדרג לגרסה יציבה"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
@@ -78,7 +78,7 @@ msgstr "חלק מהתכונות כנראה חסרות או חלקיות"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "אפשר לדווח על תקלות דרך יישום המשוב"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -128,7 +128,7 @@ msgstr "קבצים זמניים ישנים"
 msgid "Downloaded files"
 msgstr "קבצים שהתקבלו"
 
-#: src/Views/HouseKeepingView.vala:68
+#: src/Views/HouseKeepingView.vala:67
 msgid "Trashed files"
 msgstr "קבצים באשפה"
 
@@ -148,7 +148,7 @@ msgstr "תאורת לילה"
 msgid "Night Light:"
 msgstr "תאורת לילה:"
 
-#: src/Views/NightLightView.vala:37
+#: src/Views/NightLightView.vala:39
 msgid "Adjust schedule and temperature…"
 msgstr "התאמת לוח זמנים וטמפרטורה…"
 
@@ -180,59 +180,59 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "בחירת המראה שמתאים לך"
 
-#: src/Views/StyleView.vala:119
+#: src/Views/StyleView.vala:116
 msgid "Default"
 msgstr "בררת מחדל"
 
-#: src/Views/StyleView.vala:137
+#: src/Views/StyleView.vala:132
 msgid "Dark"
 msgstr "כהה"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:148
 msgid "Sunset to Sunrise"
 msgstr "שקיעה לזריחה"
 
-#: src/Views/StyleView.vala:159
+#: src/Views/StyleView.vala:157
 msgid "Blueberry"
 msgstr "אוכמניה"
 
-#: src/Views/StyleView.vala:163
+#: src/Views/StyleView.vala:162
 msgid "Mint"
 msgstr "נענע"
 
-#: src/Views/StyleView.vala:168
+#: src/Views/StyleView.vala:167
 msgid "Lime"
 msgstr "ליים"
 
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:172
 msgid "Banana"
 msgstr "בננה"
 
-#: src/Views/StyleView.vala:178
+#: src/Views/StyleView.vala:177
 msgid "Orange"
 msgstr "תפוז"
 
-#: src/Views/StyleView.vala:183
+#: src/Views/StyleView.vala:182
 msgid "Strawberry"
 msgstr "תות"
 
-#: src/Views/StyleView.vala:188
+#: src/Views/StyleView.vala:187
 msgid "Bubblegum"
 msgstr "מסטיק"
 
-#: src/Views/StyleView.vala:193
+#: src/Views/StyleView.vala:192
 msgid "Grape"
 msgstr "ענב"
 
-#: src/Views/StyleView.vala:198
+#: src/Views/StyleView.vala:197
 msgid "Cocoa"
 msgstr "קקאו"
 
-#: src/Views/StyleView.vala:203
+#: src/Views/StyleView.vala:202
 msgid "Slate"
 msgstr "צפחה"
 
-#: src/Views/StyleView.vala:208
+#: src/Views/StyleView.vala:207
 msgid "Automatic based on wallpaper"
 msgstr "אוטומטית לפי תמונת הרקע"
 
@@ -259,8 +259,9 @@ msgstr ""
 "ניתן להמשיך כדי להגדיר תכונות שימושיות. בקישורים שלהלן יש מידע נוסף על %s."
 
 #: src/Views/WelcomeView.vala:24
-#, c-format
-msgid "Welcome to %s!"
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
 msgstr "ברוך בואך אל %s!"
 
 #: src/Views/WelcomeView.vala:31
