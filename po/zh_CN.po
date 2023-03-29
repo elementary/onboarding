@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 19:50+0000\n"
+"POT-Creation-Date: 2023-03-29 04:52+0000\n"
 "PO-Revision-Date: 2022-10-14 02:38+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:32
+#: src/MainWindow.vala:31
 #, c-format
 msgid "Set up %s"
 msgstr "配置 %s"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:115
 msgid "Skip All"
 msgstr "跳过所有"
 
-#: src/MainWindow.vala:131
+#: src/MainWindow.vala:129
 msgid "Get Started"
 msgstr "开始"
 
-#: src/MainWindow.vala:135
+#: src/MainWindow.vala:133
 msgid "Next"
 msgstr "下一步"
 
@@ -129,7 +129,7 @@ msgstr "旧的临时文件"
 msgid "Downloaded files"
 msgstr "下载的文件"
 
-#: src/Views/HouseKeepingView.vala:68
+#: src/Views/HouseKeepingView.vala:67
 msgid "Trashed files"
 msgstr "回收站文件"
 
@@ -147,7 +147,7 @@ msgstr "夜灯"
 msgid "Night Light:"
 msgstr "夜灯："
 
-#: src/Views/NightLightView.vala:37
+#: src/Views/NightLightView.vala:39
 msgid "Adjust schedule and temperature…"
 msgstr "调节日程与色温…"
 
@@ -177,59 +177,59 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "选择系统外观"
 
-#: src/Views/StyleView.vala:119
+#: src/Views/StyleView.vala:116
 msgid "Default"
 msgstr "默认"
 
-#: src/Views/StyleView.vala:137
+#: src/Views/StyleView.vala:132
 msgid "Dark"
 msgstr "深色"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:148
 msgid "Sunset to Sunrise"
 msgstr "从日落到日出"
 
-#: src/Views/StyleView.vala:159
+#: src/Views/StyleView.vala:157
 msgid "Blueberry"
 msgstr "蓝莓色"
 
-#: src/Views/StyleView.vala:163
+#: src/Views/StyleView.vala:162
 msgid "Mint"
 msgstr "薄荷绿"
 
-#: src/Views/StyleView.vala:168
+#: src/Views/StyleView.vala:167
 msgid "Lime"
 msgstr "青柠色"
 
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:172
 msgid "Banana"
 msgstr "香蕉黄"
 
-#: src/Views/StyleView.vala:178
+#: src/Views/StyleView.vala:177
 msgid "Orange"
 msgstr "阳光橙"
 
-#: src/Views/StyleView.vala:183
+#: src/Views/StyleView.vala:182
 msgid "Strawberry"
 msgstr "草莓红"
 
-#: src/Views/StyleView.vala:188
+#: src/Views/StyleView.vala:187
 msgid "Bubblegum"
 msgstr "泡泡糖"
 
-#: src/Views/StyleView.vala:193
+#: src/Views/StyleView.vala:192
 msgid "Grape"
 msgstr "葡萄紫"
 
-#: src/Views/StyleView.vala:198
+#: src/Views/StyleView.vala:197
 msgid "Cocoa"
 msgstr "可可色"
 
-#: src/Views/StyleView.vala:203
+#: src/Views/StyleView.vala:202
 msgid "Slate"
 msgstr "石头灰"
 
-#: src/Views/StyleView.vala:208
+#: src/Views/StyleView.vala:207
 msgid "Automatic based on wallpaper"
 msgstr "根据壁纸自动设定"
 
@@ -255,8 +255,9 @@ msgid ""
 msgstr "想了解更多实用功能？请访问 %s。"
 
 #: src/Views/WelcomeView.vala:24
-#, c-format
-msgid "Welcome to %s!"
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
 msgstr "欢迎使用 %s ！"
 
 #: src/Views/WelcomeView.vala:31

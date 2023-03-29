@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 19:50+0000\n"
+"POT-Creation-Date: 2023-03-29 04:52+0000\n"
 "PO-Revision-Date: 2023-03-29 04:52+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -16,24 +16,24 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.16.4\n"
 
-#: src/MainWindow.vala:32
+#: src/MainWindow.vala:31
 #, c-format
 msgid "Set up %s"
 msgstr "Налаштування %s"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:115
 msgid "Skip All"
 msgstr "Пропустити все"
 
-#: src/MainWindow.vala:131
+#: src/MainWindow.vala:129
 msgid "Get Started"
 msgstr "Почати користуватися"
 
-#: src/MainWindow.vala:135
+#: src/MainWindow.vala:133
 msgid "Next"
 msgstr "Далі"
 
@@ -135,7 +135,7 @@ msgstr "Старі тимчасові файли"
 msgid "Downloaded files"
 msgstr "Завантажені файли"
 
-#: src/Views/HouseKeepingView.vala:68
+#: src/Views/HouseKeepingView.vala:67
 msgid "Trashed files"
 msgstr "Файли зі смітника"
 
@@ -155,7 +155,7 @@ msgstr "Нічне світло"
 msgid "Night Light:"
 msgstr "Нічне світло:"
 
-#: src/Views/NightLightView.vala:37
+#: src/Views/NightLightView.vala:39
 msgid "Adjust schedule and temperature…"
 msgstr "Налаштувати розклад і температуру…"
 
@@ -188,59 +188,59 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "Виберіть свій стиль"
 
-#: src/Views/StyleView.vala:119
+#: src/Views/StyleView.vala:116
 msgid "Default"
 msgstr "Типовий"
 
-#: src/Views/StyleView.vala:137
+#: src/Views/StyleView.vala:132
 msgid "Dark"
 msgstr "Темний"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:148
 msgid "Sunset to Sunrise"
 msgstr "Від світанку до заходу"
 
-#: src/Views/StyleView.vala:159
+#: src/Views/StyleView.vala:157
 msgid "Blueberry"
 msgstr "Чорничний"
 
-#: src/Views/StyleView.vala:163
+#: src/Views/StyleView.vala:162
 msgid "Mint"
 msgstr "М'ятний"
 
-#: src/Views/StyleView.vala:168
+#: src/Views/StyleView.vala:167
 msgid "Lime"
 msgstr "Лаймовий"
 
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:172
 msgid "Banana"
 msgstr "Банановий"
 
-#: src/Views/StyleView.vala:178
+#: src/Views/StyleView.vala:177
 msgid "Orange"
 msgstr "Апельсиновий"
 
-#: src/Views/StyleView.vala:183
+#: src/Views/StyleView.vala:182
 msgid "Strawberry"
 msgstr "Полуничний"
 
-#: src/Views/StyleView.vala:188
+#: src/Views/StyleView.vala:187
 msgid "Bubblegum"
 msgstr "Жуйковий"
 
-#: src/Views/StyleView.vala:193
+#: src/Views/StyleView.vala:192
 msgid "Grape"
 msgstr "Виноградний"
 
-#: src/Views/StyleView.vala:198
+#: src/Views/StyleView.vala:197
 msgid "Cocoa"
 msgstr "Какаовий"
 
-#: src/Views/StyleView.vala:203
+#: src/Views/StyleView.vala:202
 msgid "Slate"
 msgstr "Кам'яно-сірий"
 
-#: src/Views/StyleView.vala:208
+#: src/Views/StyleView.vala:207
 msgid "Automatic based on wallpaper"
 msgstr "Автоматично пристосовувати до тла"
 
@@ -270,8 +270,9 @@ msgstr ""
 "посиланнями, щоб отримати додаткові відомості про %s."
 
 #: src/Views/WelcomeView.vala:24
-#, c-format
-msgid "Welcome to %s!"
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
 msgstr "Ласкаво просимо до %s!"
 
 #: src/Views/WelcomeView.vala:31

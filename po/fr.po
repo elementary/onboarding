@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 19:50+0000\n"
+"POT-Creation-Date: 2023-03-29 04:52+0000\n"
 "PO-Revision-Date: 2022-11-09 10:29+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
@@ -19,20 +19,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: src/MainWindow.vala:32
+#: src/MainWindow.vala:31
 #, c-format
 msgid "Set up %s"
 msgstr "Configurer %s"
 
-#: src/MainWindow.vala:117
+#: src/MainWindow.vala:115
 msgid "Skip All"
 msgstr "Ignorer tout"
 
-#: src/MainWindow.vala:131
+#: src/MainWindow.vala:129
 msgid "Get Started"
 msgstr "Commencer"
 
-#: src/MainWindow.vala:135
+#: src/MainWindow.vala:133
 msgid "Next"
 msgstr "Suivant"
 
@@ -138,7 +138,7 @@ msgstr "Anciens fichiers temporaires"
 msgid "Downloaded files"
 msgstr "Fichiers téléchargés"
 
-#: src/Views/HouseKeepingView.vala:68
+#: src/Views/HouseKeepingView.vala:67
 msgid "Trashed files"
 msgstr "Fichiers supprimés"
 
@@ -158,7 +158,7 @@ msgstr "Mode nuit"
 msgid "Night Light:"
 msgstr "Mode nuit :"
 
-#: src/Views/NightLightView.vala:37
+#: src/Views/NightLightView.vala:39
 msgid "Adjust schedule and temperature…"
 msgstr "Ajuster les horaires et la température…"
 
@@ -190,59 +190,59 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "Sélectionnez votre apparence"
 
-#: src/Views/StyleView.vala:119
+#: src/Views/StyleView.vala:116
 msgid "Default"
 msgstr "Par défaut"
 
-#: src/Views/StyleView.vala:137
+#: src/Views/StyleView.vala:132
 msgid "Dark"
 msgstr "Sombre"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:148
 msgid "Sunset to Sunrise"
 msgstr "Du coucher au lever du soleil"
 
-#: src/Views/StyleView.vala:159
+#: src/Views/StyleView.vala:157
 msgid "Blueberry"
 msgstr "Myrtille"
 
-#: src/Views/StyleView.vala:163
+#: src/Views/StyleView.vala:162
 msgid "Mint"
 msgstr "Menthe"
 
-#: src/Views/StyleView.vala:168
+#: src/Views/StyleView.vala:167
 msgid "Lime"
 msgstr "Citron Vert"
 
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:172
 msgid "Banana"
 msgstr "Banane"
 
-#: src/Views/StyleView.vala:178
+#: src/Views/StyleView.vala:177
 msgid "Orange"
 msgstr "Orange"
 
-#: src/Views/StyleView.vala:183
+#: src/Views/StyleView.vala:182
 msgid "Strawberry"
 msgstr "Fraise"
 
-#: src/Views/StyleView.vala:188
+#: src/Views/StyleView.vala:187
 msgid "Bubblegum"
 msgstr "Chewing-gum"
 
-#: src/Views/StyleView.vala:193
+#: src/Views/StyleView.vala:192
 msgid "Grape"
 msgstr "Raisin"
 
-#: src/Views/StyleView.vala:198
+#: src/Views/StyleView.vala:197
 msgid "Cocoa"
 msgstr "Cacao"
 
-#: src/Views/StyleView.vala:203
+#: src/Views/StyleView.vala:202
 msgid "Slate"
 msgstr "Ardoise"
 
-#: src/Views/StyleView.vala:208
+#: src/Views/StyleView.vala:207
 msgid "Automatic based on wallpaper"
 msgstr "Automatique à partir du fond d'écran"
 
@@ -272,8 +272,9 @@ msgstr ""
 "liens ci-dessous pour plus d'informations sur %s."
 
 #: src/Views/WelcomeView.vala:24
-#, c-format
-msgid "Welcome to %s!"
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
 msgstr "Bienvenue sur %s !"
 
 #: src/Views/WelcomeView.vala:31
