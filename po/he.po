@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-29 04:52+0000\n"
-"PO-Revision-Date: 2023-03-29 04:52+0000\n"
+"PO-Revision-Date: 2023-03-30 17:25+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -259,10 +259,8 @@ msgstr ""
 "ניתן להמשיך כדי להגדיר תכונות שימושיות. בקישורים שלהלן יש מידע נוסף על %s."
 
 #: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
 msgid "Welcome!"
-msgstr "ברוך בואך אל %s!"
+msgstr "ברוך בואך!"
 
 #: src/Views/WelcomeView.vala:31
 msgid "Basics Guide…"
