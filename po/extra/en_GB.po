@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 19:50+0000\n"
-"PO-Revision-Date: 2023-02-18 09:25+0000\n"
+"POT-Creation-Date: 2023-03-29 04:52+0000\n"
+"PO-Revision-Date: 2023-03-29 04:52+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/en_GB/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -35,11 +35,11 @@ msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:56
 msgid "Redesign app page to better explain sideloading and alt stores"
-msgstr ""
+msgstr "Redesign app page to better explain sideloading and alt stores"
 
 #: data/onboarding.metainfo.xml.in:57
 msgid "Always warn about Early Access builds"
-msgstr ""
+msgstr "Always warn about Early Access builds"
 
 #: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:66
 #: data/onboarding.metainfo.xml.in:77 data/onboarding.metainfo.xml.in:86

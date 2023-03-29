@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-28 19:50+0000\n"
-"PO-Revision-Date: 2022-05-18 21:46+0000\n"
+"POT-Creation-Date: 2023-03-29 04:52+0000\n"
+"PO-Revision-Date: 2023-03-29 04:52+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -37,10 +37,12 @@ msgstr "elementary, Inc."
 #: data/onboarding.metainfo.xml.in:56
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
+"Перероблено сторінку застосунку для кращого пояснення про сторонні "
+"завантаження та альтернативні магазини"
 
 #: data/onboarding.metainfo.xml.in:57
 msgid "Always warn about Early Access builds"
-msgstr ""
+msgstr "Попередження про збірки з раннім доступом"
 
 #: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:66
 #: data/onboarding.metainfo.xml.in:77 data/onboarding.metainfo.xml.in:86
