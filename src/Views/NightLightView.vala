@@ -27,23 +27,25 @@ public class Onboarding.NightLightView : AbstractOnboardingView {
 
     construct {
         var switch_label = new Gtk.Label (_("Night Light:")) {
-            halign = Gtk.Align.END
+            halign = Gtk.Align.END,
+            hexpand = true
         };
 
         var service_switch = new Gtk.Switch () {
-            halign = Gtk.Align.START
+            halign = Gtk.Align.START,
+            hexpand = true
         };
 
-        var settings_link = new Gtk.LinkButton.with_label ("settings://display/night-light", _("Adjust schedule and temperature…")) {
-            valign = Gtk.Align.END,
-            vexpand = true
-        };
+        var settings_link = new Gtk.LinkButton.with_label ("settings://display/night-light", _("Adjust schedule and temperature…"));
 
         var settings = new GLib.Settings ("org.gnome.settings-daemon.plugins.color");
         settings.bind ("night-light-enabled", service_switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
-        custom_bin.attach (switch_label, 0, 0);
-        custom_bin.attach (service_switch, 1, 0);
-        custom_bin.attach (settings_link, 0, 1, 2);
+        var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12);
+        box.append (switch_label);
+        box.append (service_switch);
+
+        custom_bin.append (box);
+        custom_bin.append (settings_link);
     }
 }
