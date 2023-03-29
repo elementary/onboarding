@@ -39,39 +39,38 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
 
         var temp_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
-            margin_start = 12,
+            margin_start = 6
         };
 
-        var temp_grid = new Gtk.Grid ();
-        temp_grid.attach (new Gtk.Image.from_icon_name ("folder") { pixel_size = 24 }, 0, 0);
-        temp_grid.attach (new Gtk.Label (_("Old temporary files")), 1, 0);
-        temp_grid.set_parent (temp_check);
+        var temp_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        temp_box.append (new Gtk.Image.from_icon_name ("folder") { pixel_size = 24 });
+        temp_box.append (new Gtk.Label (_("Old temporary files")));
+        temp_box.set_parent (temp_check);
 
         var download_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
-            margin_start = 12
+            margin_start = 6
         };
 
-        var download_grid = new Gtk.Grid ();
-        download_grid.attach (new Gtk.Image.from_icon_name ("folder-download") { pixel_size = 24 }, 0, 0);
-        download_grid.attach (new Gtk.Label (_("Downloaded files")), 1, 0);
-        download_grid.set_parent (download_check);
+        var download_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        download_box.append (new Gtk.Image.from_icon_name ("folder-download") { pixel_size = 24 });
+        download_box.append (new Gtk.Label (_("Downloaded files")));
+        download_box.set_parent (download_check);
 
         var trash_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
-            margin_start = 12,
-            margin_bottom = 18
+            margin_start = 6
         };
 
-        var trash_grid = new Gtk.Grid ();
-        trash_grid.attach (new Gtk.Image.from_icon_name ("user-trash-full") { pixel_size = 24 }, 0, 0);
-        trash_grid.attach (new Gtk.Label (_("Trashed files")), 1, 0);
-        trash_grid.set_parent (trash_check);
+        var trash_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        trash_box.append (new Gtk.Image.from_icon_name ("user-trash-full") { pixel_size = 24 });
+        trash_box.append (new Gtk.Label (_("Trashed files")));
+        trash_box.set_parent (trash_check);
 
-        custom_bin.attach (header_label, 0, 0);
-        custom_bin.attach (download_check, 0, 1);
-        custom_bin.attach (temp_check, 0, 2);
-        custom_bin.attach (trash_check, 0, 3);
+        custom_bin.append (header_label);
+        custom_bin.append (download_check);
+        custom_bin.append (temp_check);
+        custom_bin.append (trash_check);
 
         var privacy_settings = new GLib.Settings ("org.gnome.desktop.privacy");
         privacy_settings.bind ("remove-old-temp-files", temp_check, "active", GLib.SettingsBindFlags.DEFAULT);

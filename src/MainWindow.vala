@@ -27,10 +27,8 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
     public MainWindow () {
         Object (
             deletable: false,
-            resizable: false,
             icon_name: "io.elementary.onboarding",
-            title: _("Set up %s").printf (Utils.os_name),
-            width_request: 486
+            title: _("Set up %s").printf (Utils.os_name)
         );
     }
 
@@ -157,17 +155,12 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         action_area.append (switcher);
         action_area.append (next_button);
 
-        var grid = new Gtk.Grid () {
-            row_spacing = 12
-        };
-        grid.attach (carousel, 0, 0);
-        grid.attach (action_area, 0, 1);
+        var box = new Gtk.Box (Gtk.Orientation.VERTICAL, 24);
+        box.append (carousel);
+        box.append (action_area);
 
-        child = grid;
-        var fake_title = new Gtk.Label ("") {
-            visible = false
-        };
-        set_titlebar (fake_title);
+        child = box;
+        titlebar = new Gtk.Grid () { visible = false };
         add_css_class ("dialog");
 
         next_button.grab_focus ();

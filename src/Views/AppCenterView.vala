@@ -60,9 +60,8 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
             child = sideload_box
         };
 
-        custom_bin.row_spacing = 12;
-        custom_bin.attach (appcenter_button, 0, 0);
-        custom_bin.attach (sideload_button, 0, 1);
+        custom_bin.append (appcenter_button);
+        custom_bin.append (sideload_button);
 
         appcenter_button.clicked.connect (() => {
             try {

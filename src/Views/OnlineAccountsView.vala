@@ -30,6 +30,6 @@ public class Onboarding.OnlineAccountsView : AbstractOnboardingView {
     construct {
         var settings_link = new Gtk.LinkButton.with_label ("settings://accounts/online", _("Connect Online Accounts…"));
 
-        custom_bin.attach (settings_link, 0, 0);
+        custom_bin.append (settings_link);
     }
 }
