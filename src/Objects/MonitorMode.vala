@@ -25,7 +25,6 @@ public class Display.MonitorMode : GLib.Object {
     public int height { get; set; }
     public double frequency { get; set; }
     public double preferred_scale { get; set; }
-    public bool is_preferred { get; set; }
     public bool is_current { get; set; }
     public double[] supported_scales;
 }

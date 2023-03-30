@@ -24,9 +24,6 @@ public class Display.MonitorManager : GLib.Object {
     public Gee.LinkedList<Display.Monitor> monitors { get; construct; }
 
     public bool global_scale_required { get; private set; }
-    public bool mirroring_supported { get; private set; }
-    public int max_width { get; private set; }
-    public int max_height { get; private set; }
 
     public int virtual_monitor_number {
         get {
@@ -71,17 +68,6 @@ public class Display.MonitorManager : GLib.Object {
             critical (e.message);
         }
 
-        //TODO: make use of the "global-scale-required" property to differenciate between X and Wayland
-        var supports_mirroring_variant = properties.lookup ("supports-mirroring");
-        if (supports_mirroring_variant != null) {
-            mirroring_supported = supports_mirroring_variant.get_boolean ();
-        } else {
-            /*
-             * Absence of "supports-mirroring" means true according to the documentation.
-             */
-            mirroring_supported = true;
-        }
-
         var global_scale_required_variant = properties.lookup ("global-scale-required");
         if (global_scale_required_variant != null) {
             global_scale_required = global_scale_required_variant.get_boolean ();
@@ -90,18 +76,6 @@ public class Display.MonitorManager : GLib.Object {
              * Absence of "global-scale-required" means false according to the documentation.
              */
             global_scale_required = false;
-        }
-
-        var max_screen_size_variant = properties.lookup ("max-screen-size");
-        if (max_screen_size_variant != null) {
-            max_width = max_screen_size_variant.get_child_value (0).get_int32 ();
-            max_height = max_screen_size_variant.get_child_value (1).get_int32 ();
-        } else {
-            /*
-             * Absence of "supports-mirroring" means true according to the documentation.
-             */
-            max_width = int.MAX;
-            max_height = int.MAX;
         }
 
         var monitors_with_changed_modes = new Gee.LinkedList<Display.Monitor> ();
@@ -132,12 +106,6 @@ public class Display.MonitorManager : GLib.Object {
                 mode.frequency = mutter_mode.frequency;
                 mode.preferred_scale = mutter_mode.preferred_scale;
                 mode.supported_scales = mutter_mode.supported_scales;
-                var is_preferred_variant = mutter_mode.properties.lookup ("is-preferred");
-                if (is_preferred_variant != null) {
-                    mode.is_preferred = is_preferred_variant.get_boolean ();
-                } else {
-                    mode.is_preferred = false;
-                }
 
                 var is_current_variant = mutter_mode.properties.lookup ("is-current");
                 if (is_current_variant != null) {
