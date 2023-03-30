@@ -48,25 +48,6 @@ public class Display.VirtualMonitor : GLib.Object {
         }
     }
 
-    public bool is_mirror {
-        get {
-            return monitors.size > 1;
-        }
-    }
-
-    /*
-     * Get the first monitor of the list, handy in non-mirror context.
-     */
-    public Display.Monitor monitor {
-        owned get {
-            if (is_mirror) {
-                critical ("Do not use Display.VirtualMonitor.monitor in a mirror context!");
-            }
-
-            return monitors[0];
-        }
-    }
-
     construct {
         monitors = new Gee.LinkedList<Display.Monitor> ();
     }
