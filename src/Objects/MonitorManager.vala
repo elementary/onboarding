@@ -27,21 +27,10 @@ public class Display.MonitorManager : GLib.Object {
     public bool mirroring_supported { get; private set; }
     public int max_width { get; private set; }
     public int max_height { get; private set; }
-    public int monitor_number {
-        get {
-            return monitors.size;
-        }
-    }
 
     public int virtual_monitor_number {
         get {
             return virtual_monitors.size;
-        }
-    }
-
-    public bool is_mirrored {
-        get {
-            return virtual_monitors.size == 1 && monitors.size > 1;
         }
     }
 
@@ -72,7 +61,7 @@ public class Display.MonitorManager : GLib.Object {
         }
     }
 
-    public void get_monitor_config () {
+    private void get_monitor_config () {
         MutterReadMonitor[] mutter_monitors;
         MutterReadLogicalMonitor[] mutter_logical_monitors;
         GLib.HashTable<string, GLib.Variant> properties;
@@ -210,7 +199,7 @@ public class Display.MonitorManager : GLib.Object {
         }
     }
 
-    public void set_monitor_config () {
+    private void set_monitor_config () {
         MutterWriteLogicalMonitor[] logical_monitors = {};
         foreach (var virtual_monitor in virtual_monitors) {
             if (virtual_monitor.is_active) {
@@ -244,7 +233,7 @@ public class Display.MonitorManager : GLib.Object {
         }
     }
 
-    public static MutterWriteLogicalMonitor get_mutter_logical_monitor (Display.VirtualMonitor virtual_monitor) {
+    private static MutterWriteLogicalMonitor get_mutter_logical_monitor (Display.VirtualMonitor virtual_monitor) {
         var logical_monitor = MutterWriteLogicalMonitor () {
             x = virtual_monitor.x,
             y = virtual_monitor.y,
@@ -268,7 +257,6 @@ public class Display.MonitorManager : GLib.Object {
         logical_monitor.monitors = mutter_monitors;
         return logical_monitor;
     }
-
 
     public void set_scale_on_all_monitors (double new_scale) {
         if (new_scale <= 0.0) {
