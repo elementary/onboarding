@@ -101,9 +101,6 @@ public class Display.MonitorManager : GLib.Object {
                 }
 
                 mode.id = mutter_mode.id;
-                mode.width = mutter_mode.width;
-                mode.height = mutter_mode.height;
-                mode.frequency = mutter_mode.frequency;
                 mode.preferred_scale = mutter_mode.preferred_scale;
                 mode.supported_scales = mutter_mode.supported_scales;
 
