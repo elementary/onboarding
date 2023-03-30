@@ -6,6 +6,9 @@ vala_files = [
     'PantheonAccountsServicePlugin.vala',
     'Switcher.vala',
     'Utils.vala',
+    'GestureDemo/DemoWindow.vala',
+    'GestureDemo/MultitaskingDemo.vala',
+    'GestureDemo/SwitchWorkspaceDemo.vala',
     'Views/AbstractOnboardingView.vala',
     'Views/AppCenterView.vala',
     'Views/EarlyAccessView.vala',
@@ -17,6 +20,7 @@ vala_files = [
     'Views/UpdatesView.vala',
     'Views/WelcomeView.vala',
     'Views/WhatsNewView.vala',
+    'Views/MultitouchView.vala',
 ]
 
 config_data = configuration_data()

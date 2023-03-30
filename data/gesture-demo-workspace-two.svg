@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg
+	version="1.1"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	x="0%" y="0%"
+	width="100%" height="100%"
+	viewBox="0 0 512.0 512.0"
+	enable-background="new 0 0 512.0 512.0"
+	xml:space="preserve">
+<defs>
+<filter id="glow0" x="-200%" y="-200%" width="600%" height="600%" >
+	<feOffset result="offOut" in="SourceGraphic" dx="0.0" dy="0.0" />
+	<feGaussianBlur result="blurOut" in="offOut" stdDeviation="6.496425" />
+	<feFlood flood-color="#000000" flood-opacity="1.000" result="flood"/>
+	<feComposite in="flood" in2="blurOut" operator="in" result="blendOut0"/>
+	<feBlend in="SourceGraphic" in2="blendOut0" mode="normal" />
+</filter>
+
+</defs>
+	<path
+		fill="#FFF394"
+		stroke="#FFF394"
+		fill-opacity="1.000"
+		stroke-opacity="1.000"
+		fill-rule="nonzero"
+		stroke-width="5.12"
+		filter="url(#glow0)"
+		stroke-linejoin="miter"
+		stroke-linecap="square"
+		d="M49.73,52.43L465.53,52.43A23.50 23.50 0 0 1 489.04,75.93L489.04,434.21A23.50 23.50 0 0 1 465.53,457.72L49.73,457.72A23.50 23.50 0 0 1 26.23,434.21L26.23,75.93A23.50 23.50 0 0 1 49.73,52.43z"/>
+</svg>

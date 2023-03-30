@@ -6,5 +6,12 @@
     <file compressed="true" preprocess="xml-stripblanks">appearance-default.svg</file>
     <file compressed="true" preprocess="xml-stripblanks">appearance-dark.svg</file>
     <file compressed="true" preprocess="xml-stripblanks">appearance-scheduled.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">gesture-demo-background.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">gesture-demo-workspace.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">gesture-demo-workspace-two.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">gesture-demo-touchpad.svg</file>
+    <file compressed="true" preprocess="xml-stripblanks">gesture-demo-multitasking.svg</file>
+    <file compressed="true">gesture-demo-fingers.png</file>
+    <file compressed="true">gesture-demo-dock.png</file>
   </gresource>
 </gresources>
