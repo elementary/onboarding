@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 04:52+0000\n"
-"PO-Revision-Date: 2023-03-15 13:25+0000\n"
+"POT-Creation-Date: 2023-03-30 17:25+0000\n"
+"PO-Revision-Date: 2023-03-30 17:25+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
 "onboarding/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -65,6 +65,8 @@ msgstr ""
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Verwenden Sie diese Vorabversion von %s nur auf Geräten, die allein der "
+"Software-Entwicklung dienen."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -72,7 +74,7 @@ msgstr "Vorschauversion"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Die Aktualisierung auf eine stabile Version ist nicht möglich"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
@@ -80,7 +82,7 @@ msgstr "Möglicherweise fehlen einige Funktionen oder sind unvollständig"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Melden Sie Problem mit Hilfe der Anwendung »Rückmeldung«"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -265,20 +267,18 @@ msgstr ""
 "Informationen zu %s finden Sie in den Verweisen unten."
 
 #: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
 msgid "Welcome!"
-msgstr "Willkommen bei %s!"
+msgstr "Willkommen!"
 
-#: src/Views/WelcomeView.vala:31
+#: src/Views/WelcomeView.vala:65
 msgid "Basics Guide…"
 msgstr "Grundlagen …"
 
-#: src/Views/WelcomeView.vala:37
+#: src/Views/WelcomeView.vala:71
 msgid "Community Support…"
 msgstr "Community-Hilfe …"
 
-#: src/Views/WelcomeView.vala:43
+#: src/Views/WelcomeView.vala:77
 msgid "Get Involved…"
 msgstr "Mitmachen …"
 
