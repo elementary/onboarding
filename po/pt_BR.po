@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 04:52+0000\n"
+"POT-Creation-Date: 2023-03-30 17:25+0000\n"
 "PO-Revision-Date: 2021-07-16 10:41+0000\n"
 "Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -287,15 +287,15 @@ msgstr ""
 msgid "Welcome!"
 msgstr "Bem-Vindo ao %s!"
 
-#: src/Views/WelcomeView.vala:31
+#: src/Views/WelcomeView.vala:65
 msgid "Basics Guide…"
 msgstr "Guia Básico…"
 
-#: src/Views/WelcomeView.vala:37
+#: src/Views/WelcomeView.vala:71
 msgid "Community Support…"
 msgstr "Suporte da Comunidade…"
 
-#: src/Views/WelcomeView.vala:43
+#: src/Views/WelcomeView.vala:77
 msgid "Get Involved…"
 msgstr "Envolva-se…"
 
