@@ -23,9 +23,10 @@ public abstract class AbstractOnboardingView : Gtk.Box {
     public string title { get; construct; }
 
     protected Gtk.Box custom_bin { get; private set; }
+    protected Gtk.Image image { get; private set; }
 
     construct {
-        var image = new Gtk.Image () {
+        image = new Gtk.Image () {
             icon_name = icon_name,
             pixel_size = 64
         };
