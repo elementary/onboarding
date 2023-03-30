@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 04:52+0000\n"
+"POT-Creation-Date: 2023-03-30 17:25+0000\n"
 "PO-Revision-Date: 2022-10-14 02:38+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -260,15 +260,15 @@ msgstr "想了解更多实用功能？请访问 %s。"
 msgid "Welcome!"
 msgstr "欢迎使用 %s ！"
 
-#: src/Views/WelcomeView.vala:31
+#: src/Views/WelcomeView.vala:65
 msgid "Basics Guide…"
 msgstr "基础引导…"
 
-#: src/Views/WelcomeView.vala:37
+#: src/Views/WelcomeView.vala:71
 msgid "Community Support…"
 msgstr "社区支持…"
 
-#: src/Views/WelcomeView.vala:43
+#: src/Views/WelcomeView.vala:77
 msgid "Get Involved…"
 msgstr "参与项目…"
 

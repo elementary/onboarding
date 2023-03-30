@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 04:52+0000\n"
+"POT-Creation-Date: 2023-03-30 17:25+0000\n"
 "PO-Revision-Date: 2022-10-11 22:20+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
@@ -274,15 +274,15 @@ msgstr ""
 msgid "Welcome!"
 msgstr "%s 'e Hoş geldiniz!"
 
-#: src/Views/WelcomeView.vala:31
+#: src/Views/WelcomeView.vala:65
 msgid "Basics Guide…"
 msgstr "Temel Bilgiler…"
 
-#: src/Views/WelcomeView.vala:37
+#: src/Views/WelcomeView.vala:71
 msgid "Community Support…"
 msgstr "Topluluk Desteği…"
 
-#: src/Views/WelcomeView.vala:43
+#: src/Views/WelcomeView.vala:77
 msgid "Get Involved…"
 msgstr "Dahil Olun…"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 04:52+0000\n"
+"POT-Creation-Date: 2023-03-30 17:25+0000\n"
 "PO-Revision-Date: 2023-03-30 17:25+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
@@ -262,15 +262,15 @@ msgstr ""
 msgid "Welcome!"
 msgstr "ברוך בואך!"
 
-#: src/Views/WelcomeView.vala:31
+#: src/Views/WelcomeView.vala:65
 msgid "Basics Guide…"
 msgstr "מדריך יסודות…"
 
-#: src/Views/WelcomeView.vala:37
+#: src/Views/WelcomeView.vala:71
 msgid "Community Support…"
 msgstr "תמיכה קהילתית…"
 
-#: src/Views/WelcomeView.vala:43
+#: src/Views/WelcomeView.vala:77
 msgid "Get Involved…"
 msgstr "השתתפות במיזם…"
 
