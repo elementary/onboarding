@@ -16,12 +16,23 @@
  */
 
 public class Onboarding.WelcomeView : AbstractOnboardingView {
-    public WelcomeView () {
+    public WelcomeView (bool updates) {
+        string _title= "";
+        string _badge_icon = "";
+
+        if (updates) {
+            _title = _("What’s New");
+            _badge_icon = "system-software-update";
+        } else {
+            _title = _("Welcome!");
+        }
+
         Object (
             view_name: "welcome",
+            title: _title,
             description: _("Continue to set up some useful features. Visit the links below for more information about %s.").printf (Utils.os_name),
             icon_name: Utils.logo_icon_name,
-            title: _("Welcome!")
+            badge_name: _badge_icon
         );
     }
 
@@ -66,6 +77,12 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             "text-x-generic-symbolic"
         );
 
+        var blog_link = new ImageLinkButton (
+            "https://blog.elementary.io",
+            _("Our Blog…"),
+            "application-rss+xml-symbolic"
+        );
+
         var support_link = new ImageLinkButton (
             Utils.support_url,
             _("Community Support…"),
@@ -80,6 +97,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
 
         custom_bin.spacing = 3;
         custom_bin.append (thebasics_link);
+        custom_bin.append (blog_link);
         custom_bin.append (support_link);
         custom_bin.append (getinvolved_link);
     }
