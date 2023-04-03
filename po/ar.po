@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-03 18:28+0000\n"
 "PO-Revision-Date: 2021-08-27 17:59+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/installer/"
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "قم بإعداد %s"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:110
 msgid "Skip All"
 msgstr "تخط الكل"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:124
 msgid "Get Started"
 msgstr "ابدأ"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:128
 msgid "Next"
 msgstr "التالي"
 
@@ -278,7 +278,17 @@ msgstr "احذف تلقائياً:"
 msgid "Free & Paid Apps:"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "ما هو الجديد"
+
+#: src/Views/WelcomeView.vala:27
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
+msgstr "مرحباً بك إلى %s!"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -287,35 +297,29 @@ msgstr ""
 "أكمل إعداد بعض الميزات المفيدة الأخرى. قم بزيارة الروابط أدناه لمزيد من "
 "المعلومات عن %s."
 
-#: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
-msgid "Welcome!"
-msgstr "مرحباً بك إلى %s!"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "دليل الأساسيات…"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "دعم المجتمع…"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "شارك معنا…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"أكمل إعداد بعض الميزات المفيدة الأخرى. لمزيد من المعلومات حول التحديثات، "
-"اطلع على <a href='https://blog.elementary.io'>مدونتنا</a>."
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "ما هو الجديد"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "أكمل إعداد بعض الميزات المفيدة الأخرى. لمزيد من المعلومات حول التحديثات، "
+#~ "اطلع على <a href='https://blog.elementary.io'>مدونتنا</a>."
 
 #, c-format
 #~ msgid ""

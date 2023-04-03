@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-03 18:28+0000\n"
 "PO-Revision-Date: 2020-02-03 21:08+0000\n"
 "Last-Translator: Marko <marko.dolar@gmail.com>\n"
 "Language-Team: Slovenian <https://l10n.elementary.io/projects/installer/"
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Nastavite %s"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:110
 msgid "Skip All"
 msgstr "Preskoči vse"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:124
 msgid "Get Started"
 msgstr "Pričnite"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:128
 msgid "Next"
 msgstr "Naprej"
 
@@ -264,7 +264,17 @@ msgstr "Samodejno izbriši:"
 msgid "Free & Paid Apps:"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "Kaj je novega"
+
+#: src/Views/WelcomeView.vala:27
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
+msgstr "Dobrodošli v %s!"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -273,36 +283,30 @@ msgstr ""
 "Nadaljujte za nastavitev nekaterih uporabnih sposobnosti. Za več informacij "
 "o %s obiščite spodnje povezave."
 
-#: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
-msgid "Welcome!"
-msgstr "Dobrodošli v %s!"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "Vodič po osnovah…"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "Pomoč od skupnosti…"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "Sodelujte z nami…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"Nadaljujte za nastavitev nekaterih novih uporabnih sposobnosti. Za podrobne "
-"informacije o posodobitvah preverite <a href='https://blog.elementary."
-"io'>naš blog</a>."
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "Kaj je novega"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "Nadaljujte za nastavitev nekaterih novih uporabnih sposobnosti. Za "
+#~ "podrobne informacije o posodobitvah preverite <a href='https://blog."
+#~ "elementary.io'>naš blog</a>."
 
 #~ msgid "Browse AppCenter…"
 #~ msgstr "Prebrskajte AppCenter…"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-03 18:28+0000\n"
 "PO-Revision-Date: 2022-10-14 02:38+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "配置 %s"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:110
 msgid "Skip All"
 msgstr "跳过所有"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:124
 msgid "Get Started"
 msgstr "开始"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:128
 msgid "Next"
 msgstr "下一步"
 
@@ -247,42 +247,46 @@ msgstr "自动更新"
 msgid "Free & Paid Apps:"
 msgstr "免费和付费应用："
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "新特性"
+
+#: src/Views/WelcomeView.vala:27
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
+msgstr "欢迎使用 %s ！"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr "想了解更多实用功能？请访问 %s。"
 
-#: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
-msgid "Welcome!"
-msgstr "欢迎使用 %s ！"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "基础引导…"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "社区支持…"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "参与项目…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"想了解更多实用功能？请访问我们的 <a href='https://blog.elementary.io'>博客</"
-"a>。"
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "新特性"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "想了解更多实用功能？请访问我们的 <a href='https://blog.elementary.io'>博客"
+#~ "</a>。"
 
 #, c-format
 #~ msgid ""

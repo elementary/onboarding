@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-03 18:28+0000\n"
 "PO-Revision-Date: 2023-03-30 17:25+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:110
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:124
 msgid "Get Started"
 msgstr "始めましょう"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:128
 msgid "Next"
 msgstr "次へ"
 
@@ -253,7 +253,15 @@ msgstr "自動アップデート"
 msgid "Free & Paid Apps:"
 msgstr "無料アプリと購入済みアプリ:"
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "最新情報"
+
+#: src/Views/WelcomeView.vala:27
+msgid "Welcome!"
+msgstr "ようこそ！"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -262,33 +270,29 @@ msgstr ""
 "続行して、便利な機能をセットアップしましょう。%s についての詳細な情報を知るに"
 "は、以下のリンクにアクセスしてください。"
 
-#: src/Views/WelcomeView.vala:24
-msgid "Welcome!"
-msgstr "ようこそ！"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "基本操作ガイド…"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "コミュニティーサポート…"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "開発に参加…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な情"
-"報は、<a href='https://blog.elementary.io'>ブログ</a>で確認できます。"
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "最新情報"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な"
+#~ "情報は、<a href='https://blog.elementary.io'>ブログ</a>で確認できます。"
 
 #, c-format
 #~ msgid ""

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-03 18:28+0000\n"
 "PO-Revision-Date: 2023-02-04 10:25+0000\n"
 "Last-Translator: Martin Myrvold <myrvold.martin@gmail.com>\n"
 "Language-Team: Norwegian Nynorsk <https://l10n.elementary.io/projects/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Sett opp %s"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:110
 msgid "Skip All"
 msgstr "Hopp over alt"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:124
 msgid "Get Started"
 msgstr "Kom i gong"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:128
 msgid "Next"
 msgstr "Neste"
 
@@ -260,7 +260,17 @@ msgstr "Automatiske oppdateringar"
 msgid "Free & Paid Apps:"
 msgstr "Gratis og betalte appar:"
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "Dette er nytt"
+
+#: src/Views/WelcomeView.vala:27
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
+msgstr "Velkommen til %s!"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -269,36 +279,30 @@ msgstr ""
 "Gå vidare for å setta opp nokre nyttige funksjonar. Gå til linken nedanfor "
 "for å sjå meir informasjon om %s."
 
-#: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
-msgid "Welcome!"
-msgstr "Velkommen til %s!"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "Grunnleggande guide…"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "Brukarstøtte…"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "Involver deg…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"Gå vidare for å setta opp nokre nyttige nye funksjonar. For meir detaljert "
-"informasjon om oppdateringar kan du gå til <a href='https://blog.elementary."
-"io'>bloggen vår</a>."
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "Dette er nytt"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "Gå vidare for å setta opp nokre nyttige nye funksjonar. For meir "
+#~ "detaljert informasjon om oppdateringar kan du gå til <a href='https://"
+#~ "blog.elementary.io'>bloggen vår</a>."
 
 #, c-format
 #~ msgid ""
