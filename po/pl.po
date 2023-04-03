@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-30 17:25+0000\n"
-"PO-Revision-Date: 2023-03-15 13:25+0000\n"
+"PO-Revision-Date: 2023-03-31 19:59+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -64,6 +64,8 @@ msgstr "Pobieraj aplikacje z alternatywnych źródeł takich jak Flathub"
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Korzystaj z wersji przedpremierowej %s tylko na urządzeniach przeznaczonych "
+"do ich rozwijania."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -71,7 +73,7 @@ msgstr "Kompilacja wczesnego dostępu"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Nie będziesz w stanie zaktualizować do wersji stabilnej"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
@@ -79,7 +81,7 @@ msgstr "Niektóre funkcje mogą być niedostępne lub niekompletne"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Zgłaszaj uwagi przy użyciu aplikacji Feedback"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -266,10 +268,8 @@ msgstr ""
 "aby uzyskać więcej informacji na temat %s."
 
 #: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
 msgid "Welcome!"
-msgstr "Witaj w %s!"
+msgstr "Witaj!"
 
 #: src/Views/WelcomeView.vala:65
 msgid "Basics Guide…"

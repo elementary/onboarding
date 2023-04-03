@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-30 17:25+0000\n"
-"PO-Revision-Date: 2022-05-20 10:48+0000\n"
+"PO-Revision-Date: 2023-03-31 19:59+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/pl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -37,18 +37,22 @@ msgstr "elementary, Inc."
 #: data/onboarding.metainfo.xml.in:56
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
+"Generowanie ikony strony głównej na podstawie domyślnej tapety i koloru "
+"akcentu"
 
 #: data/onboarding.metainfo.xml.in:57
 msgid "Use bolder typography"
-msgstr ""
+msgstr "Wykorzystanie odważniejszej typografii"
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
+"Przeprojektowano aplikacje by lepiej wyjaśnić instalowanie z nieoficjalnych "
+"źródeł"
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Always warn about Early Access builds"
-msgstr ""
+msgstr "Zawsze ostrzegaj o wersjach wczesnego dostępu"
 
 #: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:68
 #: data/onboarding.metainfo.xml.in:79 data/onboarding.metainfo.xml.in:88

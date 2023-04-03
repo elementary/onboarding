@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-30 17:25+0000\n"
-"PO-Revision-Date: 2023-03-29 04:52+0000\n"
+"PO-Revision-Date: 2023-03-31 19:59+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/he/>\n"
@@ -35,11 +35,11 @@ msgstr "elementary בע״מ"
 
 #: data/onboarding.metainfo.xml.in:56
 msgid "Generate a main page icon using the default wallpaper and accent color"
-msgstr ""
+msgstr "יצירת סמל עמוד ראשי בעזרת טפט ברירת המחדל והצבע המשני"
 
 #: data/onboarding.metainfo.xml.in:57
 msgid "Use bolder typography"
-msgstr ""
+msgstr "שימוש בטיפוגרפיה מודגשת יותר"
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "Redesign app page to better explain sideloading and alt stores"
