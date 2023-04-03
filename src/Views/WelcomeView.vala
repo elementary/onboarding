@@ -80,7 +80,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         var blog_link = new ImageLinkButton (
             "https://blog.elementary.io",
             _("Our Blog…"),
-            "application-rss+xml-symbolic"
+            "view-reader-symbolic"
         );
 
         var support_link = new ImageLinkButton (
