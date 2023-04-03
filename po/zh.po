@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 04:52+0000\n"
+"POT-Creation-Date: 2023-04-03 18:28+0000\n"
 "PO-Revision-Date: 2021-11-01 08:19+0000\n"
 "Last-Translator: Yuchen Deng <loaden@gmail.com>\n"
 "Language-Team: Chinese <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "配置 %s"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:110
 msgid "Skip All"
 msgstr "忽略全部"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:124
 msgid "Get Started"
 msgstr "开始"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:128
 msgid "Next"
 msgstr "下一步"
 
@@ -254,37 +254,35 @@ msgstr "自动删除："
 msgid "Free & Paid Apps:"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:27
+msgid "Welcome!"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
 
-#: src/Views/WelcomeView.vala:24
-msgid "Welcome!"
-msgstr ""
-
-#: src/Views/WelcomeView.vala:31
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:37
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:43
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
-msgstr ""
-
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
 msgstr ""
 
 #, c-format

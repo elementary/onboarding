@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 04:52+0000\n"
+"POT-Creation-Date: 2023-04-03 18:28+0000\n"
 "PO-Revision-Date: 2023-03-15 13:25+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s beállítása"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:110
 msgid "Skip All"
 msgstr "Összes kihagyása"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:124
 msgid "Get Started"
 msgstr "Kezdjen hozzá"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:128
 msgid "Next"
 msgstr "Következő"
 
@@ -252,7 +252,17 @@ msgstr "Automatikus frissítések"
 msgid "Free & Paid Apps:"
 msgstr "Ingyenes és fizetős alkalmazások:"
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "Újdonságok"
+
+#: src/Views/WelcomeView.vala:27
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
+msgstr "Üdvözli a(z) %s!"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -261,35 +271,29 @@ msgstr ""
 "Állítson be további hasznos funkciókat. További információkért (erről: %s) "
 "kattintson az alábbi linkekre."
 
-#: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
-msgid "Welcome!"
-msgstr "Üdvözli a(z) %s!"
-
-#: src/Views/WelcomeView.vala:31
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "Bevezetés…"
 
-#: src/Views/WelcomeView.vala:37
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "Közösségi támogatás…"
 
-#: src/Views/WelcomeView.vala:43
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "Vegyen részt…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"Állítson be további új, hasznos funkciókat. További részletes információkat "
-"talál a <a href='https://blog.elementary.io'>blogunkon</a>."
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "Újdonságok"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "Állítson be további új, hasznos funkciókat. További részletes "
+#~ "információkat talál a <a href='https://blog.elementary.io'>blogunkon</a>."
 
 #, c-format
 #~ msgid ""

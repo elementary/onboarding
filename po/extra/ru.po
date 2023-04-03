@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 04:52+0000\n"
-"PO-Revision-Date: 2023-02-08 12:25+0000\n"
+"POT-Creation-Date: 2023-04-03 18:28+0000\n"
+"PO-Revision-Date: 2023-03-31 19:59+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -35,48 +35,60 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:56
-msgid "Redesign app page to better explain sideloading and alt stores"
+msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
+"Значок на главной странице теперь создаётся из обоев по умолчанию и "
+"акцентного цвета"
 
 #: data/onboarding.metainfo.xml.in:57
-msgid "Always warn about Early Access builds"
-msgstr ""
+msgid "Use bolder typography"
+msgstr "Более жирная типографика"
 
-#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:66
-#: data/onboarding.metainfo.xml.in:77 data/onboarding.metainfo.xml.in:86
-#: data/onboarding.metainfo.xml.in:98
+#: data/onboarding.metainfo.xml.in:58
+msgid "Redesign app page to better explain sideloading and alt stores"
+msgstr ""
+"Переработана страница о приложениях, чтобы лучше объяснять загрузку из "
+"сторонних источников и альтернативные магазины"
+
+#: data/onboarding.metainfo.xml.in:59
+msgid "Always warn about Early Access builds"
+msgstr "Всегда предупреждать о сборках раннего доступа"
+
+#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:68
+#: data/onboarding.metainfo.xml.in:79 data/onboarding.metainfo.xml.in:88
+#: data/onboarding.metainfo.xml.in:100
 msgid "Updated translations"
 msgstr "Обновлены переводы"
 
-#: data/onboarding.metainfo.xml.in:74
+#: data/onboarding.metainfo.xml.in:76
 msgid "Add Automatic Updates view"
 msgstr "Добавлен просмотр автоматических обновлений"
 
-#: data/onboarding.metainfo.xml.in:75
+#: data/onboarding.metainfo.xml.in:77
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "Добавлена настройка «От заката до рассвета» в параметры стиля"
 
-#: data/onboarding.metainfo.xml.in:76
+#: data/onboarding.metainfo.xml.in:78
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Обновлено до OS 7 и GTK4"
 
-#: data/onboarding.metainfo.xml.in:85
+#: data/onboarding.metainfo.xml.in:87
 msgid "Redesign Housekeeping and add Downloads option"
 msgstr "Переработан раздел Домоводства и добавлена опция Загрузки"
 
-#: data/onboarding.metainfo.xml.in:94
+#: data/onboarding.metainfo.xml.in:96
 msgid "Add style view"
 msgstr "Добавлен просмотр стилей"
 
-#: data/onboarding.metainfo.xml.in:95
+#: data/onboarding.metainfo.xml.in:97
 msgid "Add Online Accounts view"
 msgstr "Добавлен просмотр онлайн-аккаунтов"
 
-#: data/onboarding.metainfo.xml.in:96
+#: data/onboarding.metainfo.xml.in:98
 msgid "Remove location services view"
 msgstr "Удалён просмотр служб местоположения"
 
-#: data/onboarding.metainfo.xml.in:97
+#: data/onboarding.metainfo.xml.in:99
 msgid "Mention Sideload and Flathub"
 msgstr "Упомянуты сторонние загрузки и Flathub"
 

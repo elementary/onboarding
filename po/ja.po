@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 04:52+0000\n"
-"PO-Revision-Date: 2023-03-15 13:25+0000\n"
+"POT-Creation-Date: 2023-04-03 18:28+0000\n"
+"PO-Revision-Date: 2023-03-30 17:25+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:31
 #, c-format
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:110
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:124
 msgid "Get Started"
 msgstr "始めましょう"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:128
 msgid "Next"
 msgstr "次へ"
 
@@ -64,6 +64,8 @@ msgstr ""
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"このプレリリース版の %s は、開発専用に用意したデバイス上でのみ使用してくださ"
+"い。"
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -71,7 +73,7 @@ msgstr "早期アクセスビルド"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "安定版へのアップグレードはできません"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
@@ -79,7 +81,7 @@ msgstr "機能が不足または完成していないことがあります"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "“フィードバック”アプリを使用して不具合を報告してください"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -251,7 +253,15 @@ msgstr "自動アップデート"
 msgid "Free & Paid Apps:"
 msgstr "無料アプリと購入済みアプリ:"
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "最新情報"
+
+#: src/Views/WelcomeView.vala:27
+msgid "Welcome!"
+msgstr "ようこそ！"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -260,35 +270,29 @@ msgstr ""
 "続行して、便利な機能をセットアップしましょう。%s についての詳細な情報を知るに"
 "は、以下のリンクにアクセスしてください。"
 
-#: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
-msgid "Welcome!"
-msgstr "%s へようこそ！"
-
-#: src/Views/WelcomeView.vala:31
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "基本操作ガイド…"
 
-#: src/Views/WelcomeView.vala:37
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "コミュニティーサポート…"
 
-#: src/Views/WelcomeView.vala:43
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "開発に参加…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な情"
-"報は、<a href='https://blog.elementary.io'>ブログ</a>で確認できます。"
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "最新情報"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な"
+#~ "情報は、<a href='https://blog.elementary.io'>ブログ</a>で確認できます。"
 
 #, c-format
 #~ msgid ""

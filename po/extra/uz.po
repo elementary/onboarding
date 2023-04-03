@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-29 04:52+0000\n"
+"POT-Creation-Date: 2023-04-03 18:28+0000\n"
 "PO-Revision-Date: 2021-03-21 22:19+0000\n"
 "Last-Translator: Shukrullo Turgunov <shookrullo@gmail.com>\n"
 "Language-Team: Uzbek <https://l10n.elementary.io/projects/installer/"
@@ -34,48 +34,56 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:56
-msgid "Redesign app page to better explain sideloading and alt stores"
+msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 
 #: data/onboarding.metainfo.xml.in:57
+msgid "Use bolder typography"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:58
+msgid "Redesign app page to better explain sideloading and alt stores"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:59
 msgid "Always warn about Early Access builds"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:66
-#: data/onboarding.metainfo.xml.in:77 data/onboarding.metainfo.xml.in:86
-#: data/onboarding.metainfo.xml.in:98
+#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:68
+#: data/onboarding.metainfo.xml.in:79 data/onboarding.metainfo.xml.in:88
+#: data/onboarding.metainfo.xml.in:100
 msgid "Updated translations"
 msgstr "Yangilangan tarjimalar"
 
-#: data/onboarding.metainfo.xml.in:74
+#: data/onboarding.metainfo.xml.in:76
 msgid "Add Automatic Updates view"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:75
+#: data/onboarding.metainfo.xml.in:77
 msgid "Add Sunset to Sunrise to Style View"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:76
+#: data/onboarding.metainfo.xml.in:78
 msgid "Update for OS 7 and Gtk 4"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:85
+#: data/onboarding.metainfo.xml.in:87
 msgid "Redesign Housekeeping and add Downloads option"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:94
+#: data/onboarding.metainfo.xml.in:96
 msgid "Add style view"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:95
+#: data/onboarding.metainfo.xml.in:97
 msgid "Add Online Accounts view"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:96
+#: data/onboarding.metainfo.xml.in:98
 msgid "Remove location services view"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:97
+#: data/onboarding.metainfo.xml.in:99
 msgid "Mention Sideload and Flathub"
 msgstr ""
 

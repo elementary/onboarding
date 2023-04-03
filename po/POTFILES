@@ -11,4 +11,3 @@ src/Views/OnlineAccountsView.vala
 src/Views/StyleView.vala
 src/Views/UpdatesView.vala
 src/Views/WelcomeView.vala
-src/Views/WhatsNewView.vala
