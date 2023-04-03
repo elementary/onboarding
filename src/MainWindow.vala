@@ -47,6 +47,9 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             viewed = settings.get_strv ("viewed");
         }
 
+        var welcome_view = new WelcomeView ("finish" in viewed);
+        carousel.append (welcome_view);
+
         // Always show Early Access view on pre-release builds
         var apt_sources = File.new_for_path ("/etc/apt/sources.list.d/elementary.list");
         try {
@@ -59,14 +62,6 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             }
         } catch (Error e) {
             critical ("Couldn't read apt sources: %s", e.message);
-        }
-
-        if ("finish" in viewed) {
-            var whats_new_view = new WhatsNewView ();
-            carousel.append (whats_new_view);
-        } else {
-            var welcome_view = new WelcomeView ();
-            carousel.append (welcome_view);
         }
 
         if (!("style" in viewed)) {
