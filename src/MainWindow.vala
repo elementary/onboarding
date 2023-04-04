@@ -51,17 +51,22 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         carousel.append (welcome_view);
 
         // Always show Early Access view on pre-release builds
+        var early_access = false;
         var apt_sources = File.new_for_path ("/etc/apt/sources.list.d/elementary.list");
         try {
             var @is = apt_sources.read ();
             var dis = new DataInputStream (@is);
 
             if ("daily" in dis.read_line ()) {
-                var early_access_view = new EarlyAccessView ();
-                carousel.append (early_access_view);
+                early_access = true;
             }
         } catch (Error e) {
             critical ("Couldn't read apt sources: %s", e.message);
+        }
+
+        if (early_access) {
+            var early_access_view = new EarlyAccessView ();
+            carousel.append (early_access_view);
         }
 
         if (!("style" in viewed)) {
@@ -100,8 +105,13 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         }
 
         // Bail if there are no feature views
-        if (carousel.get_n_pages () < 2) {
+        if (carousel.get_n_pages () == 1) {
             GLib.Application.get_default ().quit ();
+        }
+
+        // Only show What's New view if there's something other than the Early Access warning
+        if (early_access && "welcome" in viewed && carousel.get_n_pages () == 2) {
+            carousel.remove (welcome_view);
         }
 
         var finish_view = new FinishView ();
