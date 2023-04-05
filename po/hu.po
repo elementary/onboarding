@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-03 18:28+0000\n"
-"PO-Revision-Date: 2023-03-15 13:25+0000\n"
+"PO-Revision-Date: 2023-04-05 23:00+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -63,6 +63,8 @@ msgstr "Telepítsen alkalmazásokat alternatív forrásokból mint a Flathub"
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Csak a kifejezetten fejlesztésre használt készülékein használja a(z) %s ezen "
+"előzetes verzióját."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -70,7 +72,7 @@ msgstr "Tesztelői verzió"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Nem lesz lehetősége a stabil kiadásra frissíteni"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
@@ -78,7 +80,7 @@ msgstr "Egyes funkciók hiányozhatnak vagy befejezetlenek lehetnek"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Jelezze a problémákat a Visszajelzés alkalmazásban"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -257,10 +259,8 @@ msgid "What’s New"
 msgstr "Újdonságok"
 
 #: src/Views/WelcomeView.vala:27
-#, fuzzy
-#| msgid "Welcome to %s!"
 msgid "Welcome!"
-msgstr "Üdvözli a(z) %s!"
+msgstr "Üdvözöljük!"
 
 #: src/Views/WelcomeView.vala:33
 #, c-format
@@ -277,7 +277,7 @@ msgstr "Bevezetés…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "A blogunk…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
