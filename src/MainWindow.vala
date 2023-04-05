@@ -93,7 +93,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             carousel.append (housekeeping_view);
         }
 
-        if (!("onlineaccounts" in viewed)) {
+        if (!("onlineaccounts" in viewed || guest_session)) {
             var onlineaccounts_view = new OnlineAccountsView ();
             carousel.append (onlineaccounts_view);
         }
