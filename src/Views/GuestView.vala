@@ -22,7 +22,7 @@ public class Onboarding.GuestView : AbstractOnboardingView {
 
         var features_item = new ListItem (
             "preferences-system-symbolic",
-            _("settings will be reset to defaults"),
+            _("Settings will be reset to defaults"),
             "yellow"
         );
 
