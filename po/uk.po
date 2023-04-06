@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-03 18:28+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
 "PO-Revision-Date: 2023-04-05 23:00+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:31
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Налаштування %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:126
 msgid "Skip All"
 msgstr "Пропустити все"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:140
 msgid "Get Started"
 msgstr "Почати користуватися"
 
-#: src/MainWindow.vala:128
+#: src/MainWindow.vala:144
 msgid "Next"
 msgstr "Далі"
 
@@ -100,6 +100,26 @@ msgstr "Все готово"
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Відкрити налаштування системи…"
+
+#: src/Views/GuestView.vala:10
+msgid "This temporary session will be reset when you log out."
+msgstr ""
+
+#: src/Views/GuestView.vala:12
+msgid "Guest Session"
+msgstr ""
+
+#: src/Views/GuestView.vala:19
+msgid "All data created during this session will be deleted"
+msgstr ""
+
+#: src/Views/GuestView.vala:25
+msgid "Settings will be reset to defaults"
+msgstr ""
+
+#: src/Views/GuestView.vala:31
+msgid "Save files on an external device to access them later"
+msgstr ""
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
