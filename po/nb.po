@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-03 18:28+0000\n"
-"PO-Revision-Date: 2022-06-18 21:35+0000\n"
+"PO-Revision-Date: 2023-04-05 23:00+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -45,48 +45,48 @@ msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"Hent programmene du trenger i AppSenter. Vurderte programmer er laget for "
-"elementary OS, og vurdert av elementary."
+"Hent programmene du trenger i AppSenter eller sideinnlast Flatpak-programmer "
+"fra alternative kilder."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Hent noen programmer"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"Hent programmene du trenger i AppSenter. Vurderte programmer er laget for "
-"elementary OS, og vurdert av elementary."
+"Hent programmer laget for elementary OS vurdert av elementary på AppSenter."
 
 #: src/Views/AppCenterView.vala:50
+#, fuzzy
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "Sideinnlast programmet fra alternative kilder, som f.eks. Flathub"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Kun bruk denne forhåndsutgivelsesversjonen av %s på enheter avsatt til "
+"utvikling."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
 msgstr "Forhåndstilgangsbygg"
 
 #: src/Views/EarlyAccessView.vala:22
+#, fuzzy
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Du vil ikke kunne oppgradere til neste vanlige utgivelse"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
 msgstr "Noen funksjoner kan mangle eller være ufullstendige"
 
 #: src/Views/EarlyAccessView.vala:34
+#, fuzzy
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Rapporter problemer med Tilbakemeldingsprogrammet"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -106,10 +106,7 @@ msgid "Open System Settings…"
 msgstr "Åpne systeminnstillinger…"
 
 #: src/Views/HouseKeepingView.vala:22
-#, fuzzy, c-format
-#| msgid ""
-#| "Old files can be automatically deleted after %u days to save space and "
-#| "help protect your privacy."
+#, c-format
 msgid ""
 "Old files can be automatically deleted after %u day to save space and help "
 "protect your privacy."
@@ -117,8 +114,8 @@ msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr[0] ""
-"Gamle filer kan slettes automatisk etter %u dager for å spare plass og som "
-"en ekstra omtanke for personvernet."
+"Gamle filer kan slettes automatisk etter %u dag for å spare plass og som en "
+"ekstra omtanke for personvernet."
 msgstr[1] ""
 "Gamle filer kan slettes automatisk etter %u dager for å spare plass og som "
 "en ekstra omtanke for personvernet."
@@ -268,10 +265,8 @@ msgid "What’s New"
 msgstr "Hva er nytt"
 
 #: src/Views/WelcomeView.vala:27
-#, fuzzy
-#| msgid "Welcome to %s!"
 msgid "Welcome!"
-msgstr "Velkommen til %s!"
+msgstr "Velkommen."
 
 #: src/Views/WelcomeView.vala:33
 #, c-format
@@ -288,7 +283,7 @@ msgstr "Grunnleggende guide…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "Bloggen …"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-03 18:28+0000\n"
-"PO-Revision-Date: 2022-05-20 16:23+0000\n"
+"PO-Revision-Date: 2023-04-05 23:00+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -35,19 +35,21 @@ msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:56
 msgid "Generate a main page icon using the default wallpaper and accent color"
-msgstr ""
+msgstr "デフォルトの壁紙とアクセントカラーを使ってメインページのアイコンを表示するよ"
+"うに修正"
 
 #: data/onboarding.metainfo.xml.in:57
 msgid "Use bolder typography"
-msgstr ""
+msgstr "太字のフォントを使うように修正"
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "Redesign app page to better explain sideloading and alt stores"
-msgstr ""
+msgstr "サイドロードとサードパーティーのリモートリポジトリについての説明がわかりやす"
+"くなるよう、アプリページのデザインを変更"
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Always warn about Early Access builds"
-msgstr ""
+msgstr "早期アクセスビルド使用時は、常に警告を表示するように修正"
 
 #: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:68
 #: data/onboarding.metainfo.xml.in:79 data/onboarding.metainfo.xml.in:88
