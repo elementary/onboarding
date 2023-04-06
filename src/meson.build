@@ -10,6 +10,7 @@ vala_files = [
     'Views/AppCenterView.vala',
     'Views/EarlyAccessView.vala',
     'Views/FinishView.vala',
+    'Views/GuestView.vala',
     'Views/HouseKeepingView.vala',
     'Views/NightLightView.vala',
     'Views/OnlineAccountsView.vala',

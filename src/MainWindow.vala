@@ -64,6 +64,12 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             critical ("Couldn't read apt sources: %s", e.message);
         }
 
+        var guest_session = Environment.get_user_name ().has_prefix ("guest-");
+        if (guest_session || Posix.isatty (Posix.STDIN_FILENO)) {
+            var guest_view = new GuestView ();
+            carousel.append (guest_view);
+        }
+
         if (early_access) {
             var early_access_view = new EarlyAccessView ();
             carousel.append (early_access_view);
@@ -82,12 +88,12 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             carousel.append (night_light_view);
         }
 
-        if (!("housekeeping" in viewed)) {
+        if (!("housekeeping" in viewed || guest_session)) {
             var housekeeping_view = new HouseKeepingView ();
             carousel.append (housekeeping_view);
         }
 
-        if (!("onlineaccounts" in viewed)) {
+        if (!("onlineaccounts" in viewed || guest_session)) {
             var onlineaccounts_view = new OnlineAccountsView ();
             carousel.append (onlineaccounts_view);
         }
@@ -98,7 +104,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
               carousel.append (appcenter_view);
           }
 
-          if (!("updates" in viewed)) {
+          if (!("updates" in viewed || guest_session)) {
               var updates_view = new UpdatesView ();
               carousel.append (updates_view);
           }

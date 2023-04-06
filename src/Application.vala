@@ -27,7 +27,7 @@ public class Onboarding.App : Gtk.Application {
     }
 
     public override void activate () {
-        if (Posix.getuid () < MIN_UID) {
+        if (Posix.getuid () < MIN_UID && !(Environment.get_user_name ().has_prefix ("guest-"))) {
             quit ();
         }
 

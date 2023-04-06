@@ -40,3 +40,9 @@ install_data(
     'io.elementary.onboarding.gschema.xml',
     install_dir: join_paths(get_option('datadir'), 'glib-2.0', 'schemas')
 )
+
+# Stop the default guest session dialog from showing
+install_data(
+    'prefs.sh',
+    install_dir: get_option('sysconfdir') / 'guest-session'
+)
