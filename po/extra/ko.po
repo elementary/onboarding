@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-03 18:28+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
 "PO-Revision-Date: 2022-08-08 00:07+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/installer/"
@@ -49,41 +49,41 @@ msgstr ""
 msgid "Always warn about Early Access builds"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:68
-#: data/onboarding.metainfo.xml.in:79 data/onboarding.metainfo.xml.in:88
-#: data/onboarding.metainfo.xml.in:100
+#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:71
+#: data/onboarding.metainfo.xml.in:82 data/onboarding.metainfo.xml.in:91
+#: data/onboarding.metainfo.xml.in:103
 msgid "Updated translations"
 msgstr "최신 번역"
 
-#: data/onboarding.metainfo.xml.in:76
+#: data/onboarding.metainfo.xml.in:79
 msgid "Add Automatic Updates view"
 msgstr "자동 업데이트 보기 추가"
 
-#: data/onboarding.metainfo.xml.in:77
+#: data/onboarding.metainfo.xml.in:80
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "스타일 보기에 해 뜰 때부터 해질 때까지 추가"
 
-#: data/onboarding.metainfo.xml.in:78
+#: data/onboarding.metainfo.xml.in:81
 msgid "Update for OS 7 and Gtk 4"
 msgstr "OS 7 및 Gtk 4용 업데이트"
 
-#: data/onboarding.metainfo.xml.in:87
+#: data/onboarding.metainfo.xml.in:90
 msgid "Redesign Housekeeping and add Downloads option"
 msgstr "하우스키핑 재설계 및 다운로드 옵션 추가"
 
-#: data/onboarding.metainfo.xml.in:96
+#: data/onboarding.metainfo.xml.in:99
 msgid "Add style view"
 msgstr "스타일 보기 추가"
 
-#: data/onboarding.metainfo.xml.in:97
+#: data/onboarding.metainfo.xml.in:100
 msgid "Add Online Accounts view"
 msgstr "온라인 계정 보기 추가"
 
-#: data/onboarding.metainfo.xml.in:98
+#: data/onboarding.metainfo.xml.in:101
 msgid "Remove location services view"
 msgstr "위치 서비스 보기 제거"
 
-#: data/onboarding.metainfo.xml.in:99
+#: data/onboarding.metainfo.xml.in:102
 msgid "Mention Sideload and Flathub"
 msgstr "사이드로드 및 Flathub 언급"
 
