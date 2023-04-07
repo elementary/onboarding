@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-06 09:07+0000\n"
-"PO-Revision-Date: 2023-04-05 23:00+0000\n"
+"PO-Revision-Date: 2023-04-08 10:59+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -103,23 +103,23 @@ msgstr "“システム設定”を開く…"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "このセッションは一時的で、ログアウト時にリセットされます。"
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "ゲストセッション"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "セッション中に作成されたすべてのデータは削除されます"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "設定はデフォルトにリセットされます"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "後でアクセスしたいファイルは、外部デバイスに保存してください"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
