@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-06 09:07+0000\n"
-"PO-Revision-Date: 2023-04-08 10:59+0000\n"
+"PO-Revision-Date: 2023-04-10 12:59+0000\n"
 "Last-Translator: lenemter <lenemter@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ru/>\n"
@@ -110,7 +110,7 @@ msgstr "Гостевой сеанс"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr "Все данные, созданые в этой сессии, будут удалены"
+msgstr "Все данные, созданные в этой сессии, будут удалены"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
