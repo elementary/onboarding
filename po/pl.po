@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-06 09:07+0000\n"
-"PO-Revision-Date: 2023-04-05 23:00+0000\n"
+"PO-Revision-Date: 2023-04-10 12:59+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
@@ -102,23 +102,23 @@ msgstr "Otwórz Ustawienia systemu…"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "Ta tymczasowa sesja zostanie zresetowana po wylogowaniu."
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "Sesja gościa"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "Wszystkie dane stworzone podczas tej sesji zostaną usunięte"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "Ustawienie zostaną przywrócone do domyślnych"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "Zapisz pliki na urządzeniu zewnętrznym by mieć do nich dostęp później"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
