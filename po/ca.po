@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-06 09:07+0000\n"
-"PO-Revision-Date: 2023-03-30 17:25+0000\n"
+"PO-Revision-Date: 2023-04-10 12:59+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
 "onboarding/ca/>\n"
@@ -102,23 +102,23 @@ msgstr "Obre la Configuració del sistema…"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "Aquesta sessió temporal es restablirà quan tanqueu la sessió."
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "Sessió de convidat"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "Totes les dades creades durant aquesta sessió se suprimiran."
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "La configuració es restablirà als valors predeterminats."
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "Deseu els fitxers en un dispositiu extern per accedir-hi més tard."
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -299,7 +299,7 @@ msgstr "Guia bàsica…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "El nostre blog…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
