@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-06 09:07+0000\n"
-"PO-Revision-Date: 2022-10-09 17:26+0000\n"
+"PO-Revision-Date: 2023-04-15 14:59+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -37,16 +37,12 @@ msgid "Next"
 msgstr "Seguinte"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"Obtenha as aplicações de que precisa no Centro de Aplicações. As aplicações "
-"categorizadas são feitas para o elementary OS e revistas pelo elementary."
+"Obtenha as aplicações de que necessita no centro de Aplicações ou no "
+"sideload de aplicações Flatpak a partir de lojas alternativas."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
