@@ -20,7 +20,7 @@ public class Onboarding.FinishView : AbstractOnboardingView {
         Object (
             view_name: "finish",
             description: _("Enjoy using %s! You can always visit System Settings to set up hardware or change your preferences.").printf (Utils.os_name),
-            icon_name: "io.elementary.onboarding",
+            icon_name: "process-completed",
             title: _("Ready to Go")
         );
     }
