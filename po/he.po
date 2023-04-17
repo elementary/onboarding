@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-03 18:28+0000\n"
-"PO-Revision-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
+"PO-Revision-Date: 2023-04-08 10:59+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "הגדרת %s"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:126
 msgid "Skip All"
 msgstr "לדלג על הכול"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:140
 msgid "Get Started"
 msgstr "מאיפה מתחילים"
 
-#: src/MainWindow.vala:128
+#: src/MainWindow.vala:144
 msgid "Next"
 msgstr "הבא"
 
@@ -96,6 +96,26 @@ msgstr "יצאנו לדרך"
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "פתיחת הגדרות המערכת…"
+
+#: src/Views/GuestView.vala:10
+msgid "This temporary session will be reset when you log out."
+msgstr "ההפעלה הזמנית הזאת תתאפס עם היציאה מהמערכת."
+
+#: src/Views/GuestView.vala:12
+msgid "Guest Session"
+msgstr "הפעלת אורח"
+
+#: src/Views/GuestView.vala:19
+msgid "All data created during this session will be deleted"
+msgstr "כי הנתונים שנוצרים במהלך הפעלה זו נמחקים"
+
+#: src/Views/GuestView.vala:25
+msgid "Settings will be reset to defaults"
+msgstr "ההגדרות תתאפסנה לברירות המחדל"
+
+#: src/Views/GuestView.vala:31
+msgid "Save files on an external device to access them later"
+msgstr "יש לשמור קבצים על התקן חיצוני כדי לגשת אליהם מאוחר יותר"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -272,7 +292,7 @@ msgstr "מדריך יסודות…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "הבלוג שלנו…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"

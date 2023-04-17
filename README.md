@@ -22,6 +22,6 @@ To install, use `ninja install`
 
     ninja install
 
-To test, reset the `viewed` key, then launch Onboarding:
+Launch Onboarding with:
 
-    gsettings reset io.elementary.onboarding viewed; io.elementary.onboarding
+    io.elementary.onboarding

@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-03 18:28+0000\n"
-"PO-Revision-Date: 2023-03-15 13:25+0000\n"
-"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
+"PO-Revision-Date: 2023-04-10 12:59+0000\n"
+"Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding/nl/>\n"
 "Language: nl\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:31
 #, c-format
 msgid "Set up %s"
 msgstr "%s instellen"
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:126
 msgid "Skip All"
 msgstr "Alles overslaan"
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:140
 msgid "Get Started"
 msgstr "Aan de slag"
 
-#: src/MainWindow.vala:128
+#: src/MainWindow.vala:144
 msgid "Next"
 msgstr "Volgende"
 
@@ -50,7 +50,7 @@ msgstr "Ik wil apps"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
-msgstr "Download apps gemaakt voor en door elementary OS in de AppCenter."
+msgstr "Download apps gemaakt voor en door elementary OS in de AppCenter"
 
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
@@ -61,6 +61,8 @@ msgstr "Sideload apps uit alternatieve bronnen zoals Flathub"
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Gebruik deze pre-release versie exclusief van %s exclusief op apparaten "
+"weggezet voor ontwikkelen."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -68,7 +70,7 @@ msgstr "Vroegtijdige toegang"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "U kunt niet upgraden naar de stabiele uitgave"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
@@ -76,7 +78,7 @@ msgstr "Sommige functionaliteit zou kunnen missen of is misschien incompleet"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Meld problemen met de Feedback app"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -95,6 +97,26 @@ msgstr "Klaar om te starten"
 msgid "Open System Settings…"
 msgstr "Open Systeeminstellingen…"
 
+#: src/Views/GuestView.vala:10
+msgid "This temporary session will be reset when you log out."
+msgstr "Deze tijdelijke sessie zal zich resetten wanneer u uitlogt."
+
+#: src/Views/GuestView.vala:12
+msgid "Guest Session"
+msgstr "Gastsessie"
+
+#: src/Views/GuestView.vala:19
+msgid "All data created during this session will be deleted"
+msgstr "Alle data aangemaakt tijdens deze sessie zal worden verwijdert"
+
+#: src/Views/GuestView.vala:25
+msgid "Settings will be reset to defaults"
+msgstr "Instellingen zullen worden hersteld naar standaard"
+
+#: src/Views/GuestView.vala:31
+msgid "Save files on an external device to access them later"
+msgstr "Slaat bestanden op naar een extern opslagapparaat om ze te behouden"
+
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
 msgid ""
@@ -104,10 +126,10 @@ msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr[0] ""
-"Oude bestanden kunnen automatisch na %u dag verwijderd worden om "
+"Oude bestanden kunnen na %u dag automatisch verwijderd worden om "
 "opslagruimte te besparen en uw privacy te helpen beschermen."
 msgstr[1] ""
-"Oude bestanden kunnen automatisch na %u dagen verwijderd worden om "
+"Oude bestanden kunnen na %u dagen automatisch verwijderd worden om "
 "opslagruimte te besparen en uw privacy te helpen beschermen."
 
 #: src/Views/HouseKeepingView.vala:33
@@ -256,10 +278,8 @@ msgid "What’s New"
 msgstr "Wat is er nieuw"
 
 #: src/Views/WelcomeView.vala:27
-#, fuzzy
-#| msgid "Welcome to %s!"
 msgid "Welcome!"
-msgstr "Welkom bij %s!"
+msgstr "Welkom!"
 
 #: src/Views/WelcomeView.vala:33
 #, c-format
@@ -276,7 +296,7 @@ msgstr "Basishandleiding…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "Onze blog…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"

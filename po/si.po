@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-03 18:28+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
 "PO-Revision-Date: 2021-03-04 15:31+0000\n"
 "Last-Translator: HelaBasa <R45XvezA@pm.me>\n"
 "Language-Team: Sinhala <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr ""
 
-#: src/MainWindow.vala:110
+#: src/MainWindow.vala:126
 msgid "Skip All"
 msgstr ""
 
-#: src/MainWindow.vala:124
+#: src/MainWindow.vala:140
 msgid "Get Started"
 msgstr ""
 
-#: src/MainWindow.vala:128
+#: src/MainWindow.vala:144
 msgid "Next"
 msgstr "ඊළඟ"
 
@@ -89,6 +89,26 @@ msgstr ""
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
+msgstr ""
+
+#: src/Views/GuestView.vala:10
+msgid "This temporary session will be reset when you log out."
+msgstr ""
+
+#: src/Views/GuestView.vala:12
+msgid "Guest Session"
+msgstr ""
+
+#: src/Views/GuestView.vala:19
+msgid "All data created during this session will be deleted"
+msgstr ""
+
+#: src/Views/GuestView.vala:25
+msgid "Settings will be reset to defaults"
+msgstr ""
+
+#: src/Views/GuestView.vala:31
+msgid "Save files on an external device to access them later"
 msgstr ""
 
 #: src/Views/HouseKeepingView.vala:22
