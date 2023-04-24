@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-06 09:07+0000\n"
+"POT-Creation-Date: 2023-04-24 21:35+0000\n"
 "PO-Revision-Date: 2022-05-19 08:51+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
@@ -34,66 +34,69 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:56
+#, fuzzy
+#| msgid "New app icon"
+msgid "Redesigned app icon"
+msgstr "Nouvelle icône d'application"
+
+#: data/onboarding.metainfo.xml.in:57
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:57
+#: data/onboarding.metainfo.xml.in:58
 msgid "Use bolder typography"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:58
+#: data/onboarding.metainfo.xml.in:59
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:59
+#: data/onboarding.metainfo.xml.in:60
 msgid "Always warn about Early Access builds"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:71
-#: data/onboarding.metainfo.xml.in:82 data/onboarding.metainfo.xml.in:91
-#: data/onboarding.metainfo.xml.in:103
+#: data/onboarding.metainfo.xml.in:61 data/onboarding.metainfo.xml.in:72
+#: data/onboarding.metainfo.xml.in:83 data/onboarding.metainfo.xml.in:92
+#: data/onboarding.metainfo.xml.in:104
 msgid "Updated translations"
 msgstr "Mise à jour des traductions"
 
-#: data/onboarding.metainfo.xml.in:79
+#: data/onboarding.metainfo.xml.in:80
 msgid "Add Automatic Updates view"
 msgstr "Ajout d'une page « Mises à jour automatiques »"
 
-#: data/onboarding.metainfo.xml.in:80
+#: data/onboarding.metainfo.xml.in:81
 msgid "Add Sunset to Sunrise to Style View"
 msgstr ""
 "Ajout de l'option « Du coucher au lever du soleil » sur la page « Apparence »"
 
-#: data/onboarding.metainfo.xml.in:81
+#: data/onboarding.metainfo.xml.in:82
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Mise à jour pour OS 7 et Gtk 4"
 
-#: data/onboarding.metainfo.xml.in:90
+#: data/onboarding.metainfo.xml.in:91
 msgid "Redesign Housekeeping and add Downloads option"
 msgstr ""
 "Reconception du nettoyage automatique et ajout de l'option Téléchargements"
 
-#: data/onboarding.metainfo.xml.in:99
+#: data/onboarding.metainfo.xml.in:100
 msgid "Add style view"
 msgstr "Ajout d'une vue Apparence"
 
-#: data/onboarding.metainfo.xml.in:100
+#: data/onboarding.metainfo.xml.in:101
 msgid "Add Online Accounts view"
 msgstr "Ajout d'une vue Comptes en ligne"
 
-#: data/onboarding.metainfo.xml.in:101
+#: data/onboarding.metainfo.xml.in:102
 msgid "Remove location services view"
 msgstr "Suppression de la vue des services de localisation"
 
-#: data/onboarding.metainfo.xml.in:102
+#: data/onboarding.metainfo.xml.in:103
 msgid "Mention Sideload and Flathub"
 msgstr "Mention de Sideload et Flathub"
 
 #~ msgid "Fix blurry icon in AppCenter"
 #~ msgstr "Correction de l'icône floue dans le Centre d'Applications"
-
-#~ msgid "New app icon"
-#~ msgstr "Nouvelle icône d'application"
 
 #~ msgid "Navigate with (multi-)touch gestures"
 #~ msgstr "Naviguez avec des gestes multi-touch"
