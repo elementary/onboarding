@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
-"PO-Revision-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
+"PO-Revision-Date: 2023-04-08 10:59+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding/uk/>\n"
@@ -16,8 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:31
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Налаштування %s"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:126
 msgid "Skip All"
 msgstr "Пропустити все"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:140
 msgid "Get Started"
 msgstr "Почати користуватися"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:144
 msgid "Next"
 msgstr "Далі"
 
@@ -100,6 +100,27 @@ msgstr "Все готово"
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Відкрити налаштування системи…"
+
+#: src/Views/GuestView.vala:10
+msgid "This temporary session will be reset when you log out."
+msgstr "Цей тимчасовий сеанс буде скинуто, коли ви вийдете з системи."
+
+#: src/Views/GuestView.vala:12
+msgid "Guest Session"
+msgstr "Гостьовий сеанс"
+
+#: src/Views/GuestView.vala:19
+msgid "All data created during this session will be deleted"
+msgstr "Усі дані, створені у цьому сеансі, будуть видалені"
+
+#: src/Views/GuestView.vala:25
+msgid "Settings will be reset to defaults"
+msgstr "Налаштування буде скинуто до типових"
+
+#: src/Views/GuestView.vala:31
+msgid "Save files on an external device to access them later"
+msgstr ""
+"Зберігайте файли на зовнішньому пристрої, щоб потім отримати до них доступ"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -260,7 +281,15 @@ msgstr "Автооновлення"
 msgid "Free & Paid Apps:"
 msgstr "Безплатні й оплачувані застосунки:"
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "Що нового"
+
+#: src/Views/WelcomeView.vala:27
+msgid "Welcome!"
+msgstr "Ласкаво просимо!"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -269,34 +298,30 @@ msgstr ""
 "Продовжуйте налаштовувати корисні функції. Перейдіть за вказаними "
 "посиланнями, щоб отримати додаткові відомості про %s."
 
-#: src/Views/WelcomeView.vala:24
-msgid "Welcome!"
-msgstr "Ласкаво просимо!"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "Посібник з основ…"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr "Наш блог…"
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "Підтримка спільноти…"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "Долучитися…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"Продовжуйте налаштовувати корисні нові функції. Перегляньте докладніші "
-"відомості про оновлення у <a href='https://blog.elementary.io'>нашому блозі</"
-"a>."
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "Що нового"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "Продовжуйте налаштовувати корисні нові функції. Перегляньте докладніші "
+#~ "відомості про оновлення у <a href='https://blog.elementary.io'>нашому "
+#~ "блозі</a>."
 
 #, c-format
 #~ msgid ""

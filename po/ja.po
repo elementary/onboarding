@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
-"PO-Revision-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
+"PO-Revision-Date: 2023-04-08 10:59+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:126
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:140
 msgid "Get Started"
 msgstr "始めましょう"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:144
 msgid "Next"
 msgstr "次へ"
 
@@ -41,8 +41,8 @@ msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"AppCenter から必要なアプリを入手したり、代替ストアから Flatpak アプリをインス"
-"トールしたりできます。"
+"AppCenter から必要なアプリを入手したり、サードパーティーのリモートリポジトリ"
+"から Flatpak アプリをサイドロードしたりできます。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -57,7 +57,8 @@ msgstr ""
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
-"Flathub などの代替アプリストアからアプリをインストールすることもできます"
+"Flathub など、サードパーティーのリモートリポジトリからアプリをサイドロードす"
+"ることもできます"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
@@ -99,6 +100,26 @@ msgstr "準備が完了しました"
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "“システム設定”を開く…"
+
+#: src/Views/GuestView.vala:10
+msgid "This temporary session will be reset when you log out."
+msgstr "このセッションは一時的で、ログアウト時にリセットされます。"
+
+#: src/Views/GuestView.vala:12
+msgid "Guest Session"
+msgstr "ゲストセッション"
+
+#: src/Views/GuestView.vala:19
+msgid "All data created during this session will be deleted"
+msgstr "セッション中に作成されたすべてのデータは削除されます"
+
+#: src/Views/GuestView.vala:25
+msgid "Settings will be reset to defaults"
+msgstr "設定はデフォルトにリセットされます"
+
+#: src/Views/GuestView.vala:31
+msgid "Save files on an external device to access them later"
+msgstr "後でアクセスしたいファイルは、外部デバイスに保存してください"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -253,7 +274,15 @@ msgstr "自動アップデート"
 msgid "Free & Paid Apps:"
 msgstr "無料アプリと購入済みアプリ:"
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "最新情報"
+
+#: src/Views/WelcomeView.vala:27
+msgid "Welcome!"
+msgstr "ようこそ！"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -262,33 +291,29 @@ msgstr ""
 "続行して、便利な機能をセットアップしましょう。%s についての詳細な情報を知るに"
 "は、以下のリンクにアクセスしてください。"
 
-#: src/Views/WelcomeView.vala:24
-msgid "Welcome!"
-msgstr "ようこそ！"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "基本操作ガイド…"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr "公式ブログ…"
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "コミュニティーサポート…"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "開発に参加…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な情"
-"報は、<a href='https://blog.elementary.io'>ブログ</a>で確認できます。"
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "最新情報"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な"
+#~ "情報は、<a href='https://blog.elementary.io'>ブログ</a>で確認できます。"
 
 #, c-format
 #~ msgid ""

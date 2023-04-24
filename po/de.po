@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
-"PO-Revision-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
+"PO-Revision-Date: 2023-04-10 12:59+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
 "onboarding/de/>\n"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s einrichten"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:126
 msgid "Skip All"
 msgstr "Alles überspringen"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:140
 msgid "Get Started"
 msgstr "Beginnen"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:144
 msgid "Next"
 msgstr "Weiter"
 
@@ -100,6 +100,28 @@ msgstr "Fertig"
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Systemeinstellungen öffnen …"
+
+#: src/Views/GuestView.vala:10
+msgid "This temporary session will be reset when you log out."
+msgstr "Diese temporäre Sitzung wird zurückgesetzt, sobald Sie sich abmelden."
+
+#: src/Views/GuestView.vala:12
+msgid "Guest Session"
+msgstr "Gastsitzung"
+
+#: src/Views/GuestView.vala:19
+msgid "All data created during this session will be deleted"
+msgstr "Alle während dieser Sitzung erstellten Daten werden gelöscht"
+
+#: src/Views/GuestView.vala:25
+msgid "Settings will be reset to defaults"
+msgstr "Einstellungen werden auf ihre Standardwerte gesetzt"
+
+#: src/Views/GuestView.vala:31
+msgid "Save files on an external device to access them later"
+msgstr ""
+"Sichern Sie Dateien auf einem externen Gerät, wenn Sie später auf diese "
+"zugreifen wollen"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -257,7 +279,15 @@ msgstr "Automatische Aktualisierungen"
 msgid "Free & Paid Apps:"
 msgstr "Kostenlose & kostenpflichtige Anwendungen:"
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "Das ist neu"
+
+#: src/Views/WelcomeView.vala:27
+msgid "Welcome!"
+msgstr "Willkommen!"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -266,34 +296,30 @@ msgstr ""
 "Fahren Sie damit fort, nützliche Funktionen einzurichten. Weitere "
 "Informationen zu %s finden Sie in den Verweisen unten."
 
-#: src/Views/WelcomeView.vala:24
-msgid "Welcome!"
-msgstr "Willkommen!"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "Grundlagen …"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr "Unser Blog …"
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "Community-Hilfe …"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "Mitmachen …"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"Sie können weitere nützliche neue Funktionen einrichten. Weitere "
-"Informationen zu Aktualisierungen finden Sie in <a href='https://blog."
-"elementary.io'>unserem Blog</a>."
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "Das ist neu"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "Sie können weitere nützliche neue Funktionen einrichten. Weitere "
+#~ "Informationen zu Aktualisierungen finden Sie in <a href='https://blog."
+#~ "elementary.io'>unserem Blog</a>."
 
 #, c-format
 #~ msgid ""

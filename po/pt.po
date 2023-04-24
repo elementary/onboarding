@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
-"PO-Revision-Date: 2022-10-09 17:26+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
+"PO-Revision-Date: 2023-04-15 14:59+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/installer/"
 "onboarding/pt/>\n"
@@ -17,36 +17,32 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:31
 #, c-format
 msgid "Set up %s"
 msgstr "Configurar %s"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:126
 msgid "Skip All"
 msgstr "Ignorar tudo"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:140
 msgid "Get Started"
 msgstr "Iniciar"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:144
 msgid "Next"
 msgstr "Seguinte"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"Obtenha as aplicações de que precisa no Centro de Aplicações. As aplicações "
-"categorizadas são feitas para o elementary OS e revistas pelo elementary."
+"Obtenha as aplicações de que necessita no centro de Aplicações ou no "
+"sideload de aplicações Flatpak a partir de lojas alternativas."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -104,6 +100,26 @@ msgstr "Pronto para ir"
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Abrir as Definições do Sistema…"
+
+#: src/Views/GuestView.vala:10
+msgid "This temporary session will be reset when you log out."
+msgstr ""
+
+#: src/Views/GuestView.vala:12
+msgid "Guest Session"
+msgstr ""
+
+#: src/Views/GuestView.vala:19
+msgid "All data created during this session will be deleted"
+msgstr ""
+
+#: src/Views/GuestView.vala:25
+msgid "Settings will be reset to defaults"
+msgstr ""
+
+#: src/Views/GuestView.vala:31
+msgid "Save files on an external device to access them later"
+msgstr ""
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -260,7 +276,17 @@ msgstr "Atualizações automáticas"
 msgid "Free & Paid Apps:"
 msgstr "Aplicações pagas e gratuitas:"
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "O que há de novo"
+
+#: src/Views/WelcomeView.vala:27
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
+msgstr "Bem-vindo ao %s!"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -269,36 +295,30 @@ msgstr ""
 "Continuar a configurar algumas funcionalidades úteis. Visite as ligações "
 "abaixo para mais informação sobre o %s."
 
-#: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
-msgid "Welcome!"
-msgstr "Bem-vindo ao %s!"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "Guia Básico…"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "Suporte da Comunidade…"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "Participe…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"Continue a configurar algumas novas funcionalidades úteis. Para informações "
-"mais detalhadas sobre atualizações, confira o <a href='https://blog."
-"elementary.io'>nosso blog</a>."
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "O que há de novo"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "Continue a configurar algumas novas funcionalidades úteis. Para "
+#~ "informações mais detalhadas sobre atualizações, confira o <a "
+#~ "href='https://blog.elementary.io'>nosso blog</a>."
 
 #, c-format
 #~ msgid ""

@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
-"PO-Revision-Date: 2023-03-15 13:25+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
+"PO-Revision-Date: 2023-04-13 20:59+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: src/MainWindow.vala:31
 #, c-format
 msgid "Set up %s"
 msgstr "%s beállítása"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:126
 msgid "Skip All"
 msgstr "Összes kihagyása"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:140
 msgid "Get Started"
 msgstr "Kezdjen hozzá"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:144
 msgid "Next"
 msgstr "Következő"
 
@@ -63,6 +63,8 @@ msgstr "Telepítsen alkalmazásokat alternatív forrásokból mint a Flathub"
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Csak a kifejezetten fejlesztésre használt készülékein használja a(z) %s ezen "
+"előzetes verzióját."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -70,7 +72,7 @@ msgstr "Tesztelői verzió"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Nem lesz lehetősége a stabil kiadásra frissíteni"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
@@ -78,7 +80,7 @@ msgstr "Egyes funkciók hiányozhatnak vagy befejezetlenek lehetnek"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Jelezze a problémákat a Visszajelzés alkalmazásban"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -96,6 +98,27 @@ msgstr "Indulásra kész"
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Rendszerbeállítások megnyitása…"
+
+#: src/Views/GuestView.vala:10
+msgid "This temporary session will be reset when you log out."
+msgstr "Ez az átmeneti munkamenet törölve lesz, ha kijelentkezik."
+
+#: src/Views/GuestView.vala:12
+msgid "Guest Session"
+msgstr "Vendégmód"
+
+#: src/Views/GuestView.vala:19
+msgid "All data created during this session will be deleted"
+msgstr "A munkamenet alatt keletkezett adatok törölve lesznek"
+
+#: src/Views/GuestView.vala:25
+msgid "Settings will be reset to defaults"
+msgstr "A beállítások vissza lesznek állítva az alapértelmezettekre"
+
+#: src/Views/GuestView.vala:31
+msgid "Save files on an external device to access them later"
+msgstr ""
+"Mentse a fájlokat külső tárolóra, ha el szeretné azokat érni a későbbiekben"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -252,7 +275,15 @@ msgstr "Automatikus frissítések"
 msgid "Free & Paid Apps:"
 msgstr "Ingyenes és fizetős alkalmazások:"
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "Újdonságok"
+
+#: src/Views/WelcomeView.vala:27
+msgid "Welcome!"
+msgstr "Üdvözöljük!"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -261,35 +292,29 @@ msgstr ""
 "Állítson be további hasznos funkciókat. További információkért (erről: %s) "
 "kattintson az alábbi linkekre."
 
-#: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
-msgid "Welcome!"
-msgstr "Üdvözli a(z) %s!"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "Bevezetés…"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr "A blogunk…"
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "Közösségi támogatás…"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "Vegyen részt…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"Állítson be további új, hasznos funkciókat. További részletes információkat "
-"talál a <a href='https://blog.elementary.io'>blogunkon</a>."
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "Újdonságok"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "Állítson be további új, hasznos funkciókat. További részletes "
+#~ "információkat talál a <a href='https://blog.elementary.io'>blogunkon</a>."
 
 #, c-format
 #~ msgid ""

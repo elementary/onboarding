@@ -5,6 +5,7 @@ src/Views/AbstractOnboardingView.vala
 src/Views/AppCenterView.vala
 src/Views/EarlyAccessView.vala
 src/Views/FinishView.vala
+src/Views/GuestView.vala
 src/Views/HouseKeepingView.vala
 src/Views/NightLightView.vala
 src/Views/OnlineAccountsView.vala
@@ -12,4 +13,3 @@ src/Views/StyleView.vala
 src/Views/UIScaleView.vala
 src/Views/UpdatesView.vala
 src/Views/WelcomeView.vala
-src/Views/WhatsNewView.vala

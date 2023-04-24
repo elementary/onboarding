@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
 "PO-Revision-Date: 2020-03-17 14:09+0000\n"
 "Last-Translator: Shtonchjo <shtonchjo@gmail.com>\n"
 "Language-Team: Esperanto <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Agordi %s"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:126
 msgid "Skip All"
 msgstr "Preterlasi ĉion"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:140
 msgid "Get Started"
 msgstr "Komenci"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:144
 msgid "Next"
 msgstr "Sekva"
 
@@ -104,6 +104,26 @@ msgstr "Ek"
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Malfermi Sistemajn Agordojn…"
+
+#: src/Views/GuestView.vala:10
+msgid "This temporary session will be reset when you log out."
+msgstr ""
+
+#: src/Views/GuestView.vala:12
+msgid "Guest Session"
+msgstr ""
+
+#: src/Views/GuestView.vala:19
+msgid "All data created during this session will be deleted"
+msgstr ""
+
+#: src/Views/GuestView.vala:25
+msgid "Settings will be reset to defaults"
+msgstr ""
+
+#: src/Views/GuestView.vala:31
+msgid "Save files on an external device to access them later"
+msgstr ""
 
 #: src/Views/HouseKeepingView.vala:22
 #, fuzzy, c-format
@@ -263,7 +283,17 @@ msgstr "Aŭtomate forigi:"
 msgid "Free & Paid Apps:"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "Kio novas"
+
+#: src/Views/WelcomeView.vala:27
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
+msgstr "Bonvenon ĉe %s!"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -272,35 +302,29 @@ msgstr ""
 "Daŭrigi agordadon de utilaj funkcioj. Vizitu la ligilojn malsupre por pliaj "
 "informoj pri %s."
 
-#: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
-msgid "Welcome!"
-msgstr "Bonvenon ĉe %s!"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "Enkonduka Gvidilo…"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "Komunuma subteno…"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "Engaĝiĝu…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"Daŭrigi agordadon de utilaj novaj funkcioj. Pliajn detalajn informojn pri "
-"ĝisdatigoj ĉe <a href='https://blog.elementary.io'>nia blogo</a>."
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "Kio novas"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "Daŭrigi agordadon de utilaj novaj funkcioj. Pliajn detalajn informojn pri "
+#~ "ĝisdatigoj ĉe <a href='https://blog.elementary.io'>nia blogo</a>."
 
 #~ msgid "Browse AppCenter…"
 #~ msgstr "Foliumi la Aplikaĵan Centron…"

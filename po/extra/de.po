@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
 "PO-Revision-Date: 2023-02-18 09:25+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
@@ -49,41 +49,41 @@ msgstr ""
 msgid "Always warn about Early Access builds"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:68
-#: data/onboarding.metainfo.xml.in:79 data/onboarding.metainfo.xml.in:88
-#: data/onboarding.metainfo.xml.in:100
+#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:71
+#: data/onboarding.metainfo.xml.in:82 data/onboarding.metainfo.xml.in:91
+#: data/onboarding.metainfo.xml.in:103
 msgid "Updated translations"
 msgstr "Aktualisierte Übersetzungen"
 
-#: data/onboarding.metainfo.xml.in:76
+#: data/onboarding.metainfo.xml.in:79
 msgid "Add Automatic Updates view"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:77
+#: data/onboarding.metainfo.xml.in:80
 msgid "Add Sunset to Sunrise to Style View"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:78
+#: data/onboarding.metainfo.xml.in:81
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Aktualisierung für OS 7 und Gtk 4"
 
-#: data/onboarding.metainfo.xml.in:87
+#: data/onboarding.metainfo.xml.in:90
 msgid "Redesign Housekeeping and add Downloads option"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:96
+#: data/onboarding.metainfo.xml.in:99
 msgid "Add style view"
 msgstr "Style Ansicht hinzufügen"
 
-#: data/onboarding.metainfo.xml.in:97
+#: data/onboarding.metainfo.xml.in:100
 msgid "Add Online Accounts view"
 msgstr "Ansicht für Internet-Accounts hinzufügen"
 
-#: data/onboarding.metainfo.xml.in:98
+#: data/onboarding.metainfo.xml.in:101
 msgid "Remove location services view"
 msgstr "Ortungsdienst-Ansicht entfernen"
 
-#: data/onboarding.metainfo.xml.in:99
+#: data/onboarding.metainfo.xml.in:102
 msgid "Mention Sideload and Flathub"
 msgstr "Sideload und Flathub erwähnen"
 

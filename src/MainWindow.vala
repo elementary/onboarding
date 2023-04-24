@@ -47,26 +47,32 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             viewed = settings.get_strv ("viewed");
         }
 
+        var welcome_view = new WelcomeView ("finish" in viewed);
+        carousel.append (welcome_view);
+
         // Always show Early Access view on pre-release builds
+        var early_access = false;
         var apt_sources = File.new_for_path ("/etc/apt/sources.list.d/elementary.list");
         try {
             var @is = apt_sources.read ();
             var dis = new DataInputStream (@is);
 
             if ("daily" in dis.read_line ()) {
-                var early_access_view = new EarlyAccessView ();
-                carousel.append (early_access_view);
+                early_access = true;
             }
         } catch (Error e) {
             critical ("Couldn't read apt sources: %s", e.message);
         }
 
-        if ("finish" in viewed) {
-            var whats_new_view = new WhatsNewView ();
-            carousel.append (whats_new_view);
-        } else {
-            var welcome_view = new WelcomeView ();
-            carousel.append (welcome_view);
+        var guest_session = Environment.get_user_name ().has_prefix ("guest-");
+        if (guest_session || Posix.isatty (Posix.STDIN_FILENO)) {
+            var guest_view = new GuestView ();
+            carousel.append (guest_view);
+        }
+
+        if (early_access) {
+            var early_access_view = new EarlyAccessView ();
+            carousel.append (early_access_view);
         }
 
         if (!("ui-scale" in viewed)) {
@@ -87,12 +93,12 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             carousel.append (night_light_view);
         }
 
-        if (!("housekeeping" in viewed)) {
+        if (!("housekeeping" in viewed || guest_session)) {
             var housekeeping_view = new HouseKeepingView ();
             carousel.append (housekeeping_view);
         }
 
-        if (!("onlineaccounts" in viewed)) {
+        if (!("onlineaccounts" in viewed || guest_session)) {
             var onlineaccounts_view = new OnlineAccountsView ();
             carousel.append (onlineaccounts_view);
         }
@@ -103,15 +109,20 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
               carousel.append (appcenter_view);
           }
 
-          if (!("updates" in viewed)) {
+          if (!("updates" in viewed || guest_session)) {
               var updates_view = new UpdatesView ();
               carousel.append (updates_view);
           }
         }
 
         // Bail if there are no feature views
-        if (carousel.get_n_pages () < 2) {
+        if (carousel.get_n_pages () == 1) {
             GLib.Application.get_default ().quit ();
+        }
+
+        // Only show What's New view if there's something other than the Early Access warning
+        if (early_access && "welcome" in viewed && carousel.get_n_pages () == 2) {
+            carousel.remove (welcome_view);
         }
 
         var finish_view = new FinishView ();

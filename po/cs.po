@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-30 17:25+0000\n"
+"POT-Creation-Date: 2023-04-06 09:07+0000\n"
 "PO-Revision-Date: 2022-01-11 17:05+0000\n"
 "Last-Translator: p-bo <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Nastavit %s"
 
-#: src/MainWindow.vala:115
+#: src/MainWindow.vala:126
 msgid "Skip All"
 msgstr "Přeskočit vše"
 
-#: src/MainWindow.vala:129
+#: src/MainWindow.vala:140
 msgid "Get Started"
 msgstr "Začít"
 
-#: src/MainWindow.vala:133
+#: src/MainWindow.vala:144
 msgid "Next"
 msgstr "Další"
 
@@ -104,6 +104,26 @@ msgstr "Připraveno"
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
 msgstr "Otevřít Nastavení systému…"
+
+#: src/Views/GuestView.vala:10
+msgid "This temporary session will be reset when you log out."
+msgstr ""
+
+#: src/Views/GuestView.vala:12
+msgid "Guest Session"
+msgstr ""
+
+#: src/Views/GuestView.vala:19
+msgid "All data created during this session will be deleted"
+msgstr ""
+
+#: src/Views/GuestView.vala:25
+msgid "Settings will be reset to defaults"
+msgstr ""
+
+#: src/Views/GuestView.vala:31
+msgid "Save files on an external device to access them later"
+msgstr ""
 
 #: src/Views/HouseKeepingView.vala:22
 #, fuzzy, c-format
@@ -266,7 +286,17 @@ msgstr "Automaticky mazat:"
 msgid "Free & Paid Apps:"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:22
+#: src/Views/WelcomeView.vala:24
+msgid "What’s New"
+msgstr "Co je nového"
+
+#: src/Views/WelcomeView.vala:27
+#, fuzzy
+#| msgid "Welcome to %s!"
+msgid "Welcome!"
+msgstr "Vítejte v %s!"
+
+#: src/Views/WelcomeView.vala:33
 #, c-format
 msgid ""
 "Continue to set up some useful features. Visit the links below for more "
@@ -275,36 +305,30 @@ msgstr ""
 "Pokračujte nastavením užitečných funkcí. Další informace o %s obdržíte "
 "navštívením níže uvedených odkazů."
 
-#: src/Views/WelcomeView.vala:24
-#, fuzzy
-#| msgid "Welcome to %s!"
-msgid "Welcome!"
-msgstr "Vítejte v %s!"
-
-#: src/Views/WelcomeView.vala:65
+#: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
 msgstr "Průvodce základy…"
 
-#: src/Views/WelcomeView.vala:71
+#: src/Views/WelcomeView.vala:82
+msgid "Our Blog…"
+msgstr ""
+
+#: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
 msgstr "Komunitní podpora…"
 
-#: src/Views/WelcomeView.vala:77
+#: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
 msgstr "Zapojte se…"
 
-#: src/Views/WhatsNewView.vala:10
-msgid ""
-"Continue to set up some useful new features. For more detailed information "
-"about updates, check out <a href='https://blog.elementary.io'>our blog</a>."
-msgstr ""
-"Pokračujte nastavením užitečných nových funkcí. Podrobnější informace o "
-"aktualizacích jsou k dispozici na <a href='https://blog.elementary.io'>našem "
-"blogu</a>."
-
-#: src/Views/WhatsNewView.vala:13
-msgid "What’s New"
-msgstr "Co je nového"
+#~ msgid ""
+#~ "Continue to set up some useful new features. For more detailed "
+#~ "information about updates, check out <a href='https://blog.elementary."
+#~ "io'>our blog</a>."
+#~ msgstr ""
+#~ "Pokračujte nastavením užitečných nových funkcí. Podrobnější informace o "
+#~ "aktualizacích jsou k dispozici na <a href='https://blog.elementary."
+#~ "io'>našem blogu</a>."
 
 #, c-format
 #~ msgid ""
