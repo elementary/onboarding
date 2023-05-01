@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-24 21:35+0000\n"
-"PO-Revision-Date: 2023-04-28 15:06+0000\n"
+"PO-Revision-Date: 2023-05-02 22:06+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/uk/>\n"
@@ -86,7 +86,7 @@ msgstr "Додано перегляд стилів"
 
 #: data/onboarding.metainfo.xml.in:101
 msgid "Add Online Accounts view"
-msgstr "Додано перегляд мережних облікових записів"
+msgstr "Додано перегляд онлайнових облікових записів"
 
 #: data/onboarding.metainfo.xml.in:102
 msgid "Remove location services view"
