@@ -53,6 +53,7 @@
     <release version="7.1.0" date="2023-04-24" urgency="medium">
       <description>
         <ul>
+          <li>Redesigned app icon</li>
           <li>Generate a main page icon using the default wallpaper and accent color</li>
           <li>Use bolder typography</li>
           <li>Redesign app page to better explain sideloading and alt stores</li>
