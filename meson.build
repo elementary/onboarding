@@ -1,7 +1,7 @@
 project(
     'io.elementary.onboarding',
     'vala', 'c',
-    version: '7.0.1'
+    version: '7.1.0'
 )
 
 add_global_arguments(
