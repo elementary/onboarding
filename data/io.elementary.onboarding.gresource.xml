@@ -6,5 +6,7 @@
     <file compressed="true" preprocess="xml-stripblanks">appearance-default.svg</file>
     <file compressed="true" preprocess="xml-stripblanks">appearance-dark.svg</file>
     <file compressed="true" preprocess="xml-stripblanks">appearance-scheduled.svg</file>
+    <file alias="24x24@2/apps/folder-screenshots-icon.svg" compressed="true" preprocess="xml-stripblanks">folder-screenshots-icon/24.svg</file>
+        <file alias="24x24/apps/folder-screenshots-icon.svg" compressed="true" preprocess="xml-stripblanks">folder-screenshots-icon/24.svg</file>
   </gresource>
 </gresources>
