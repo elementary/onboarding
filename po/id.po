@@ -154,18 +154,20 @@ msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Buat warna layar anda lebih hangat saat malam untuk membantu mengurangi mata "
+"tegang dan sulit tidur."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Cahaya Malam"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr ""
+msgstr "Cahaya Malam:"
 
 #: src/Views/NightLightView.vala:39
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Sesuaikan jadwal dan suhu…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
