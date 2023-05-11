@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-24 21:35+0000\n"
 "PO-Revision-Date: 2023-05-11 15:37+0000\n"
-"Last-Translator: Deleted User <noreply+2670@weblate.org>\n"
+"Last-Translator: Faisal Rachmadin <frachmadin@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/installer/"
 "onboarding/id/>\n"
 "Language: id\n"
@@ -86,12 +86,12 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"Nikmati menggunakan %s! Anda dapat selalu mengunjungi Pengaturan Sistem "
+"Nikmati menggunakan %s! Anda selalu dapat mengunjungi Pengaturan Sistem "
 "untuk menset perangkat keras atau mengubah preferensi anda."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "Siap Beraksi"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
