@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-24 21:35+0000\n"
 "PO-Revision-Date: 2023-05-11 15:47+0000\n"
-"Last-Translator: Deleted User <noreply+2670@weblate.org>\n"
+"Last-Translator: Faisal Rachmadin <frachmadin@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/installer/"
 "onboarding/id/>\n"
 "Language: id\n"
@@ -190,8 +190,8 @@ msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
-"Jadikan itu milik anda dengan memilih gaya visual dan warna aksen. Aplikasi "
-"dapat menimpa tampilannya sendiri."
+"Buatlah sendiri dengan memilih gaya visual dan warna aksen. Aplikasi dapat "
+"menimpa ini dengan tampilan mereka sendiri."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
@@ -207,7 +207,7 @@ msgstr "Gelap"
 
 #: src/Views/StyleView.vala:148
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Matahari terbenam hingga matahari terbit"
 
 #: src/Views/StyleView.vala:157
 msgid "Blueberry"
@@ -258,14 +258,16 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Pembaruan dapat dipasang secara otomatis saat perangkat Anda terhubung ke "
+"Internet."
 
 #: src/Views/UpdatesView.vala:12
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Pembaruan Otomatis"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Aplikasi Gratis & Berbayar:"
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
@@ -273,7 +275,7 @@ msgstr "Apa yang Baru"
 
 #: src/Views/WelcomeView.vala:27
 msgid "Welcome!"
-msgstr ""
+msgstr "Selamat Datang!"
 
 #: src/Views/WelcomeView.vala:33
 #, c-format
@@ -281,6 +283,8 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Lanjutkan untuk menyiapkan beberapa fitur yang berguna. Kunjungi tautan di "
+"bawah untuk informasi selengkapnya tentang %s."
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
