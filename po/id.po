@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-24 21:35+0000\n"
-"PO-Revision-Date: 2023-05-11 15:43+0000\n"
-"Last-Translator: Faisal Rachmadin <frachmadin@gmail.com>\n"
+"PO-Revision-Date: 2023-05-11 15:47+0000\n"
+"Last-Translator: Rtr0ID <Albertong27@gmail.com>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/installer/"
 "onboarding/id/>\n"
 "Language: id\n"
@@ -211,7 +211,7 @@ msgstr ""
 
 #: src/Views/StyleView.vala:157
 msgid "Blueberry"
-msgstr ""
+msgstr "Blueberi"
 
 #: src/Views/StyleView.vala:162
 msgid "Mint"
@@ -247,11 +247,11 @@ msgstr ""
 
 #: src/Views/StyleView.vala:202
 msgid "Slate"
-msgstr ""
+msgstr "Papan Tulis"
 
 #: src/Views/StyleView.vala:207
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Otomatis berdasarkan wallpaper"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
@@ -269,7 +269,7 @@ msgstr ""
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
-msgstr ""
+msgstr "Apa yang Baru"
 
 #: src/Views/WelcomeView.vala:27
 msgid "Welcome!"
@@ -284,7 +284,7 @@ msgstr ""
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Panduan Dasar…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
