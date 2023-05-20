@@ -8,70 +8,78 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-24 21:35+0000\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-05-12 16:06+0000\n"
+"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
+"io>\n"
+"Language-Team: Indonesian <https://l10n.elementary.io/projects/installer/"
+"onboarding/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/MainWindow.vala:31
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "Mengatur %s"
 
 #: src/MainWindow.vala:126
 msgid "Skip All"
-msgstr ""
+msgstr "Lewati Semua"
 
 #: src/MainWindow.vala:140
 msgid "Get Started"
-msgstr ""
+msgstr "Mulai"
 
 #: src/MainWindow.vala:144
 msgid "Next"
-msgstr ""
+msgstr "Berikutnya"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
+"Dapatkan aplikasi yang Anda butuhkan di AppCenter atau muat samping aplikasi "
+"Flatpak dari toko alternatif."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Dapatkan Beberapa Aplikasi"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
+"Dapatkan aplikasi yang dibuat untuk elementary OS dan ditinjau oleh "
+"elementary di AppCenter"
 
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "Muat samping aplikasi dari toko aplikasi alternatif seperti Flathub"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
-msgstr ""
+msgstr "Hanya gunakan %s versi prarilis ini di perangkat khusus pengembangan."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
-msgstr ""
+msgstr "Akses Build Awal"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Anda tidak akan dapat meningkatkan ke rilis stabil"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
-msgstr ""
+msgstr "Beberapa fitur mungkin hilang atau tidak lengkap"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Laporkan masalah menggunakan aplikasi Umpan Balik"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -79,34 +87,36 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Nikmati menggunakan %s! Anda selalu dapat mengunjungi Pengaturan Sistem "
+"untuk menset perangkat keras atau mengubah preferensi anda."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "Siap Beraksi"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Buka Pengaturan Sistem…"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "Sesi sementara ini akan diatur ulang saat Anda keluar."
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "Sesi Tamu"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "Semua data yang dibuat selama sesi ini akan dihapus"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "Pengaturan akan diatur ulang ke konfigurasi awal"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "Simpan berkas di perangkat eksternal untuk mengaksesnya nanti"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -117,147 +127,156 @@ msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr[0] ""
-msgstr[1] ""
+"Berkas lama dapat dihapus secara otomatis setelah %u hari untuk menghemat "
+"ruang dan membantu melindungi privasi Anda."
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
-msgstr ""
+msgstr "Pembenahan"
 
 #: src/Views/HouseKeepingView.vala:38
 msgid "Automatically Delete:"
-msgstr ""
+msgstr "Otomatis Hapus:"
 
 #: src/Views/HouseKeepingView.vala:47
 msgid "Old temporary files"
-msgstr ""
+msgstr "Berkas sementara lama"
 
 #: src/Views/HouseKeepingView.vala:57
 msgid "Downloaded files"
-msgstr ""
+msgstr "Berkas unduhan"
 
 #: src/Views/HouseKeepingView.vala:67
 msgid "Trashed files"
-msgstr ""
+msgstr "Berkas yang dibuang"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Buat warna layar anda lebih hangat saat malam untuk membantu mengurangi mata "
+"tegang dan sulit tidur."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Cahaya Malam"
 
 #: src/Views/NightLightView.vala:29
 msgid "Night Light:"
-msgstr ""
+msgstr "Cahaya Malam:"
 
 #: src/Views/NightLightView.vala:39
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Sesuaikan jadwal dan suhu…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Gunakan Surat, Kalender, dan Tugas dengan akun daring yang sudah ada untuk "
+"sinkronisasi surel, acara, dan tugas dengan perangkat ini."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Akun Daring"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Hubungkan Akun Daring…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Buatlah sendiri dengan memilih gaya visual dan warna aksen. Aplikasi dapat "
+"menimpa ini dengan tampilan mereka sendiri."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Pilih Tampilan Anda"
 
 #: src/Views/StyleView.vala:116
 msgid "Default"
-msgstr ""
+msgstr "Konfigurasi Awal"
 
 #: src/Views/StyleView.vala:132
 msgid "Dark"
-msgstr ""
+msgstr "Gelap"
 
 #: src/Views/StyleView.vala:148
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Matahari terbenam hingga matahari terbit"
 
 #: src/Views/StyleView.vala:157
 msgid "Blueberry"
-msgstr ""
+msgstr "Blueberi"
 
 #: src/Views/StyleView.vala:162
 msgid "Mint"
-msgstr ""
+msgstr "Mint"
 
 #: src/Views/StyleView.vala:167
 msgid "Lime"
-msgstr ""
+msgstr "Jeruk Nipis"
 
 #: src/Views/StyleView.vala:172
 msgid "Banana"
-msgstr ""
+msgstr "Pisang"
 
 #: src/Views/StyleView.vala:177
 msgid "Orange"
-msgstr ""
+msgstr "Jeruk"
 
 #: src/Views/StyleView.vala:182
 msgid "Strawberry"
-msgstr ""
+msgstr "Stroberi"
 
 #: src/Views/StyleView.vala:187
 msgid "Bubblegum"
-msgstr ""
+msgstr "Permen Karet"
 
 #: src/Views/StyleView.vala:192
 msgid "Grape"
-msgstr ""
+msgstr "Anggur"
 
 #: src/Views/StyleView.vala:197
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakao"
 
 #: src/Views/StyleView.vala:202
 msgid "Slate"
-msgstr ""
+msgstr "Papan Tulis"
 
 #: src/Views/StyleView.vala:207
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Otomatis berdasarkan wallpaper"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Pembaruan dapat dipasang secara otomatis saat perangkat Anda terhubung ke "
+"Internet."
 
 #: src/Views/UpdatesView.vala:12
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Pembaruan Otomatis"
 
 #: src/Views/UpdatesView.vala:17
 msgid "Free & Paid Apps:"
-msgstr ""
+msgstr "Aplikasi Gratis & Berbayar:"
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
-msgstr ""
+msgstr "Apa yang Baru"
 
 #: src/Views/WelcomeView.vala:27
 msgid "Welcome!"
-msgstr ""
+msgstr "Selamat Datang!"
 
 #: src/Views/WelcomeView.vala:33
 #, c-format
@@ -265,19 +284,21 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more "
 "information about %s."
 msgstr ""
+"Lanjutkan untuk menyiapkan beberapa fitur yang berguna. Kunjungi tautan di "
+"bawah untuk informasi selengkapnya tentang %s."
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
-msgstr ""
+msgstr "Panduan Dasar…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "Blog Kami…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
-msgstr ""
+msgstr "Dukungan Komunitas…"
 
 #: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
-msgstr ""
+msgstr "Ikut Terlibat…"

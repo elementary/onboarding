@@ -8,8 +8,9 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-24 21:35+0000\n"
-"PO-Revision-Date: 2019-06-18 04:44+0000\n"
-"Last-Translator: Corentin Noël <corentin@elementary.io>\n"
+"PO-Revision-Date: 2023-05-12 16:06+0000\n"
+"Last-Translator: Faisal Rachmadin <frachmadin@users.noreply.l10n.elementary."
+"io>\n"
 "Language-Team: Indonesian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/id/>\n"
 "Language: id\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -31,65 +32,67 @@ msgstr "Ubah pengaturan umum saat pertama kali dijalankan"
 
 #: data/onboarding.metainfo.xml.in:48
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:56
 msgid "Redesigned app icon"
-msgstr ""
+msgstr "Ikon aplikasi yang didesain ulang"
 
 #: data/onboarding.metainfo.xml.in:57
 msgid "Generate a main page icon using the default wallpaper and accent color"
-msgstr ""
+msgstr "Buat ikon halaman utama menggunakan wallpaper bawaan dan warna aksen"
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "Use bolder typography"
-msgstr ""
+msgstr "Gunakan tipografi yang lebih tebal"
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
+"Mendesain ulang halaman aplikasi untuk menjelaskan pemuatan ulang dan toko "
+"alternatif dengan lebih baik"
 
 #: data/onboarding.metainfo.xml.in:60
 msgid "Always warn about Early Access builds"
-msgstr ""
+msgstr "Selalu peringatkan tentang build Akses Awal"
 
 #: data/onboarding.metainfo.xml.in:61 data/onboarding.metainfo.xml.in:72
 #: data/onboarding.metainfo.xml.in:83 data/onboarding.metainfo.xml.in:92
 #: data/onboarding.metainfo.xml.in:104
 msgid "Updated translations"
-msgstr ""
+msgstr "Terjemahan yang diperbarui"
 
 #: data/onboarding.metainfo.xml.in:80
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "Menambahkan tampilan Pembaruan Otomatis"
 
 #: data/onboarding.metainfo.xml.in:81
 msgid "Add Sunset to Sunrise to Style View"
-msgstr ""
+msgstr "Tambahkan Matahari Terbenam ke Matahari Terbit ke Tampilan Gaya"
 
 #: data/onboarding.metainfo.xml.in:82
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "Pembaruan untuk OS 7 dan Gtk 4"
 
 #: data/onboarding.metainfo.xml.in:91
 msgid "Redesign Housekeeping and add Downloads option"
-msgstr ""
+msgstr "Desain Ulang Housekeeping dan tambahkan opsi Unduhan"
 
 #: data/onboarding.metainfo.xml.in:100
 msgid "Add style view"
-msgstr ""
+msgstr "Menambahkan tampilan gaya"
 
 #: data/onboarding.metainfo.xml.in:101
 msgid "Add Online Accounts view"
-msgstr ""
+msgstr "Tambahkan tampilan Akun Daring"
 
 #: data/onboarding.metainfo.xml.in:102
 msgid "Remove location services view"
-msgstr ""
+msgstr "Menghapus tampilan layanan lokasi"
 
 #: data/onboarding.metainfo.xml.in:103
 msgid "Mention Sideload and Flathub"
-msgstr ""
+msgstr "Sebutkan Pemuatan Ulang dan Flathub"
 
 #~ msgid "system-os-installer"
 #~ msgstr "system-os-installer"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-24 21:35+0000\n"
-"PO-Revision-Date: 2022-10-11 22:20+0000\n"
+"PO-Revision-Date: 2023-05-18 21:06+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
 "onboarding/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -37,40 +37,33 @@ msgid "Next"
 msgstr "İleri"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"İhtiyacınız olan uygulamaları Uygulama Merkezinden edinin. Bazı uygulamalar "
-"elementary OS için yapılmış ve elementary tarafından gözden geçirilmiştir."
+"İhtiyacınız olan uygulamaları Uygulama Merkezinden edinin veya Flatpak "
+"uygulamalarını alternatif mağazalardan yükleyin."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Biraz Uygulama Edinin"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"İhtiyacınız olan uygulamaları Uygulama Merkezinden edinin. Bazı uygulamalar "
-"elementary OS için yapılmış ve elementary tarafından gözden geçirilmiştir."
+"Uygulama Merkezinden elementary OS için yapılan ve elementary tarafından "
+"incelenen uygulamaları edinin"
 
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "Uygulamaları Flathub gibi alternatif uygulama mağazalarından yükleyin"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"%s yayın öncesi sürümünü yalnızca geliştirmeye ayrılmış cihazlarda kullanın."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -78,7 +71,7 @@ msgstr "Erken Erişim Derlemesi"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Kararlı bir sürüme yükseltme yapamayacaksınız"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
@@ -86,7 +79,7 @@ msgstr "Bazı özellikler eksik veya tamamlanmamış olabilir"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Geri Bildirim uygulamasını kullanarak sorunları bildirin"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -107,23 +100,23 @@ msgstr "Sistem Ayarlarını Aç…"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "Oturumu kapattığınızda bu geçici oturum sıfırlanacak."
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "Konuk Oturumu"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "Bu oturum sırasında oluşturulan tüm veriler silinecek"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "Ayarlar varsayılanlara sıfırlanacak"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "Dosyalara daha sonra erişmek için harici bir cihaza kaydedin"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -284,10 +277,8 @@ msgid "What’s New"
 msgstr "Neler Yeni"
 
 #: src/Views/WelcomeView.vala:27
-#, fuzzy
-#| msgid "Welcome to %s!"
 msgid "Welcome!"
-msgstr "%s 'e Hoş geldiniz!"
+msgstr "Hoş geldiniz!"
 
 #: src/Views/WelcomeView.vala:33
 #, c-format
@@ -304,7 +295,7 @@ msgstr "Temel Bilgiler…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "Blog Sayfamız…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
