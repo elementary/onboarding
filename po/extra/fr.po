@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-24 21:35+0000\n"
-"PO-Revision-Date: 2022-05-19 08:51+0000\n"
+"PO-Revision-Date: 2023-05-22 18:29+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -34,26 +34,28 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:56
-#, fuzzy
-#| msgid "New app icon"
 msgid "Redesigned app icon"
 msgstr "Nouvelle icône d'application"
 
 #: data/onboarding.metainfo.xml.in:57
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
+"Création d'une icône sur la page principale à l'aide du fond d'écran et de "
+"la couleur d'accentuation par défaut"
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "Use bolder typography"
-msgstr ""
+msgstr "Utilisation d'une typographie plus grasse"
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
+"Refonte de la page des applications pour mieux expliquer le sideloading et "
+"les boutiques alternatives"
 
 #: data/onboarding.metainfo.xml.in:60
 msgid "Always warn about Early Access builds"
-msgstr ""
+msgstr "Toujours mettre en garde contre les versions Early Access"
 
 #: data/onboarding.metainfo.xml.in:61 data/onboarding.metainfo.xml.in:72
 #: data/onboarding.metainfo.xml.in:83 data/onboarding.metainfo.xml.in:92
