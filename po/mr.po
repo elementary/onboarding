@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-24 21:35+0000\n"
+"POT-Creation-Date: 2023-05-22 18:29+0000\n"
 "PO-Revision-Date: 2020-11-22 20:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
@@ -294,10 +294,13 @@ msgid "Welcome!"
 msgstr "%s वर आपले स्वागत आहे!"
 
 #: src/Views/WelcomeView.vala:33
-#, c-format
+#, fuzzy
+#| msgid ""
+#| "Continue to set up some useful features. Visit the links below for more "
+#| "information about %s."
 msgid ""
-"Continue to set up some useful features. Visit the links below for more "
-"information about %s."
+"Continue to set up some useful features. Visit the links below for more help "
+"with getting started."
 msgstr ""
 "काही उपयुक्त वैशिष्ट्ये सेट करणे सुरू ठेवा. %s बद्दल अधिक माहितीसाठी खालील दुव्यांवर भेट द्या."
 
