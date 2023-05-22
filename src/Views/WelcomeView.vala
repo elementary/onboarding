@@ -30,7 +30,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         Object (
             view_name: "welcome",
             title: _title,
-            description: _("Continue to set up some useful features. Visit the links below for more information about elementary OS."),
+            description: _("Continue to set up some useful features. Visit the links below for more help with getting started."),
             icon_name: Utils.logo_icon_name,
             badge_name: _badge_icon
         );
