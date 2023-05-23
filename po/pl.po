@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-22 18:29+0000\n"
-"PO-Revision-Date: 2023-04-10 12:59+0000\n"
+"PO-Revision-Date: 2023-05-25 17:06+0000\n"
 "Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -287,16 +287,12 @@ msgid "Welcome!"
 msgstr "Witaj!"
 
 #: src/Views/WelcomeView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Continue to set up some useful features. Visit the links below for more "
-#| "information about %s."
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
 msgstr ""
 "Kontynuuj konfigurowanie nowych przydatnych funkcji. Odwiedź linki poniżej, "
-"aby uzyskać więcej informacji na temat %s."
+"aby uzyskać więcej informacji wstępnych."
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
