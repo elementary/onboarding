@@ -10,5 +10,6 @@ src/Views/HouseKeepingView.vala
 src/Views/NightLightView.vala
 src/Views/OnlineAccountsView.vala
 src/Views/StyleView.vala
+src/Views/UIScaleView.vala
 src/Views/UpdatesView.vala
 src/Views/WelcomeView.vala

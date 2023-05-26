@@ -75,6 +75,11 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             carousel.append (early_access_view);
         }
 
+        if (!("ui-scale" in viewed)) {
+            var uiscale_view = new UIScaleView ();
+            carousel.append (uiscale_view);
+        }
+
         if (!("style" in viewed)) {
             var interface_settings = new GLib.Settings ("org.gnome.desktop.interface");
             if (interface_settings.get_string ("gtk-theme").has_prefix ("io.elementary.stylesheet.")) {

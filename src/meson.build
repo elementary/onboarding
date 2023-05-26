@@ -15,8 +15,14 @@ vala_files = [
     'Views/NightLightView.vala',
     'Views/OnlineAccountsView.vala',
     'Views/StyleView.vala',
+    'Views/UIScaleView.vala',
     'Views/UpdatesView.vala',
-    'Views/WelcomeView.vala'
+    'Views/WelcomeView.vala',
+    'Interfaces/MutterDisplayConfig.vala',
+    'Objects/VirtualMonitor.vala',
+    'Objects/MonitorMode.vala',
+    'Objects/MonitorManager.vala',
+    'Objects/Monitor.vala',
 ]
 
 config_data = configuration_data()
