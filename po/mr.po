@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-22 18:29+0000\n"
+"POT-Creation-Date: 2023-06-02 18:20+0000\n"
 "PO-Revision-Date: 2020-11-22 20:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
@@ -164,6 +164,12 @@ msgid "Downloaded files"
 msgstr "ट्रॅश केलेल्या फायली"
 
 #: src/Views/HouseKeepingView.vala:67
+#, fuzzy
+#| msgid "Trashed files"
+msgid "Screenshot files"
+msgstr "ट्रॅश केलेल्या फायली"
+
+#: src/Views/HouseKeepingView.vala:77
 msgid "Trashed files"
 msgstr "ट्रॅश केलेल्या फायली"
 

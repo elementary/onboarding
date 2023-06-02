@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-22 18:29+0000\n"
+"POT-Creation-Date: 2023-06-02 18:20+0000\n"
 "PO-Revision-Date: 2020-10-23 19:15+0000\n"
 "Last-Translator: Fabio Zaramella <fabiozaramella@hotmail.it>\n"
 "Language-Team: Italian <https://l10n.elementary.io/projects/installer/"
@@ -162,6 +162,12 @@ msgid "Downloaded files"
 msgstr "File nel cestino"
 
 #: src/Views/HouseKeepingView.vala:67
+#, fuzzy
+#| msgid "Trashed files"
+msgid "Screenshot files"
+msgstr "File nel cestino"
+
+#: src/Views/HouseKeepingView.vala:77
 msgid "Trashed files"
 msgstr "File nel cestino"
 

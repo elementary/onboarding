@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-22 18:29+0000\n"
+"POT-Creation-Date: 2023-06-02 18:20+0000\n"
 "PO-Revision-Date: 2023-05-25 17:06+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
@@ -150,6 +150,12 @@ msgid "Downloaded files"
 msgstr "ダウンロードしたファイル"
 
 #: src/Views/HouseKeepingView.vala:67
+#, fuzzy
+#| msgid "Trashed files"
+msgid "Screenshot files"
+msgstr "ゴミ箱に移動したファイル"
+
+#: src/Views/HouseKeepingView.vala:77
 msgid "Trashed files"
 msgstr "ゴミ箱に移動したファイル"
 
@@ -286,7 +292,8 @@ msgstr "ようこそ！"
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
-msgstr "続行して、便利な機能をセットアップしましょう。初期設定に関する詳細情報を得る"
+msgstr ""
+"続行して、便利な機能をセットアップしましょう。初期設定に関する詳細情報を得る"
 "には、以下のリンクにアクセスしてください。"
 
 #: src/Views/WelcomeView.vala:76
