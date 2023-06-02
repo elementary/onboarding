@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-24 21:35+0000\n"
-"PO-Revision-Date: 2023-05-02 22:06+0000\n"
+"POT-Creation-Date: 2023-05-22 18:29+0000\n"
+"PO-Revision-Date: 2023-05-25 17:06+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding/uk/>\n"
@@ -290,13 +290,12 @@ msgid "Welcome!"
 msgstr "Ласкаво просимо!"
 
 #: src/Views/WelcomeView.vala:33
-#, c-format
 msgid ""
-"Continue to set up some useful features. Visit the links below for more "
-"information about %s."
+"Continue to set up some useful features. Visit the links below for more help "
+"with getting started."
 msgstr ""
-"Продовжуйте налаштовувати корисні функції. Перейдіть за вказаними "
-"посиланнями, щоб отримати додаткові відомості про %s."
+"Продовжуйте налаштовувати корисні функції. Перейдіть за посиланнями нижче, "
+"щоб отримати додаткову довідку для початку роботи."
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
