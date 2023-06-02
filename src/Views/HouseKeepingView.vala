@@ -57,6 +57,16 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         download_box.append (new Gtk.Label (_("Downloaded files")));
         download_box.set_parent (download_check);
 
+        var screenshots_check = new Gtk.CheckButton () {
+            halign = Gtk.Align.START,
+            margin_start = 6
+        };
+
+        var screenshots_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        screenshots_box.append (new Gtk.Image.from_icon_name ("folder-screenshots-icon") { pixel_size = 24 });
+        screenshots_box.append (new Gtk.Label (_("Screenshot files")));
+        screenshots_box.set_parent (screenshots_check);
+
         var trash_check = new Gtk.CheckButton () {
             halign = Gtk.Align.START,
             margin_start = 6
@@ -70,6 +80,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         custom_bin.append (header_label);
         custom_bin.append (download_check);
         custom_bin.append (temp_check);
+        custom_bin.append (screenshots_check);
         custom_bin.append (trash_check);
 
         var privacy_settings = new GLib.Settings ("org.gnome.desktop.privacy");
@@ -78,6 +89,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
 
         var housekeeping_settings = new Settings ("io.elementary.settings-daemon.housekeeping");
         housekeeping_settings.bind ("cleanup-downloads-folder", download_check, "active", GLib.SettingsBindFlags.DEFAULT);
+        housekeeping_settings.bind ("cleanup-screenshots-folder", screenshots_check, "active", GLib.SettingsBindFlags.DEFAULT);
         housekeeping_settings.bind ("old-files-age", this, "old_files_age", GLib.SettingsBindFlags.GET);
     }
 }
