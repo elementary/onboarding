@@ -5,7 +5,7 @@
 
 public class Onboarding.App : Gtk.Application {
     construct {
-        application_id = "io.elementary.installer";
+        application_id = "io.elementary.onboarding";
         flags = ApplicationFlags.FLAGS_NONE;
         Intl.setlocale (LocaleCategory.ALL, "");
         Intl.bindtextdomain (Onboarding.GETTEXT_PACKAGE, Onboarding.LOCALEDIR);
