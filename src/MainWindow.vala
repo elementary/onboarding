@@ -75,7 +75,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             carousel.append (early_access_view);
         }
 
-        if (FileUtils.test ("/run/ostree-booted", FileTest.EXISTS)) {
+        if (FileUtils.test ("/run/ostree-booted", FileTest.EXISTS) && !("immutable" in viewed || guest_session)) {
             var immutable_view = new ImmutableView ();
             carousel.append (immutable_view);
         }
