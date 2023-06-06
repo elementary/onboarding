@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-02 18:20+0000\n"
-"PO-Revision-Date: 2023-05-25 17:06+0000\n"
+"PO-Revision-Date: 2023-06-08 00:07+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
@@ -152,10 +152,8 @@ msgid "Downloaded files"
 msgstr "Letöltött fájlok"
 
 #: src/Views/HouseKeepingView.vala:67
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Screenshot files"
-msgstr "Kukába helyezett fájlok"
+msgstr "Képernyőképek"
 
 #: src/Views/HouseKeepingView.vala:77
 msgid "Trashed files"
