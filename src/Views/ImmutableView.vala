@@ -10,7 +10,8 @@ public class Onboarding.ImmutableView : AbstractOnboardingView {
         Object (
             view_name: "immutable",
             description: _("You are using an immutable filesystem."),
-            icon_name: "security-high",
+            icon_name: "package-x-generic",
+            badge_name: "network-workgroup",
             title: _("Immutable")
         );
     }
