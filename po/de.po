@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-02 18:20+0000\n"
-"PO-Revision-Date: 2023-04-10 12:59+0000\n"
+"PO-Revision-Date: 2023-06-14 11:07+0000\n"
 "Last-Translator: Uwe S <saabisto@gmx.de>\n"
 "Language-Team: German <https://l10n.elementary.io/projects/installer/"
 "onboarding/de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -155,10 +155,8 @@ msgid "Downloaded files"
 msgstr "Heruntergeladene Dateien"
 
 #: src/Views/HouseKeepingView.vala:67
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Screenshot files"
-msgstr "Gelöschte Dateien"
+msgstr "Bildschirmfotos"
 
 #: src/Views/HouseKeepingView.vala:77
 msgid "Trashed files"
@@ -294,16 +292,12 @@ msgid "Welcome!"
 msgstr "Willkommen!"
 
 #: src/Views/WelcomeView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Continue to set up some useful features. Visit the links below for more "
-#| "information about %s."
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
 msgstr ""
-"Fahren Sie damit fort, nützliche Funktionen einzurichten. Weitere "
-"Informationen zu %s finden Sie in den Verweisen unten."
+"Fahren Sie damit fort, nützliche Funktionen einzurichten. Weitere Hilfe zum "
+"Einstieg finden Sie in den Verweisen unten."
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
