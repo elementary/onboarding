@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-02 18:20+0000\n"
-"PO-Revision-Date: 2023-03-30 17:25+0000\n"
+"PO-Revision-Date: 2023-06-14 11:07+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
 "onboarding/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 4.17\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -37,40 +37,34 @@ msgid "Next"
 msgstr "Seuraava"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"Hanki tarvitsemasi sovellukset sovelluskeskuksesta. Valikoidut sovellukset "
-"on tehty elementary OS:lle ja ne katselmoidaan elementaryn toimesta."
+"Hanki tarvitsemasi sovellukset sovelluskeskuksesta tai lataa Flatpak-"
+"sovelluksia vaihtoehtoisista sovelluslähteistä."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Hanki sovelluksia"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"Hanki tarvitsemasi sovellukset sovelluskeskuksesta. Valikoidut sovellukset "
-"on tehty elementary OS:lle ja ne katselmoidaan elementaryn toimesta."
+"Hanki elementary OS:lle tehdyt ja elementaryn katselmoimat sovellukset "
+"sovelluskeskuksesta."
 
 #: src/Views/AppCenterView.vala:50
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "Lataa sovelluksia vaihtoehtoisista sovelluslähteistä kuten Flathubista"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Käytä tätä %s:n esijulkaisuversiota vain kehitykseen tarkoitetuilla "
+"laitteilla."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -78,7 +72,7 @@ msgstr "Varhaisen käytön julkaisu"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Et voi päivittää vakaaseen julkaisuun"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
@@ -86,7 +80,7 @@ msgstr "Jotkin ominaisuudet saattavat puuttua tai olla puutteellisia"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Ilmoita ongelmista käyttäen palautesovellusta"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -107,23 +101,23 @@ msgstr "Avaa järjestelmän asetukset…"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "Tämä väliaikainen istunto nollautuu, kun kirjaudut ulos."
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "Vierasistunto"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "Kaikki tämän istunnon aikana luodut tiedot poistetaan"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "Asetukset palautetaan oletusarvoihin"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "Tallenna tiedostot erillisille laitteille käyttääksesi niitä myöhemmin"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -296,16 +290,12 @@ msgid "Welcome!"
 msgstr "Tervetuloa!"
 
 #: src/Views/WelcomeView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Continue to set up some useful features. Visit the links below for more "
-#| "information about %s."
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
 msgstr ""
 "Jatka hyödyllisten ominaisuuksien käyttöönottoa. Tutustu alla oleviin "
-"linkkeihin, niin saat lisätietoa siitä mikä %s on."
+"linkkeihin, niin saat apua käyttöönottoon."
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
@@ -313,7 +303,7 @@ msgstr "Perusopas…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "Blogi…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
