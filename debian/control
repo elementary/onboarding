@@ -12,6 +12,6 @@ Standards-Version: 4.1.1
 
 Package: io.elementary.onboarding
 Architecture: any
-Depends: io.elementary.settings-daemon, ${misc:Depends}, ${shlibs:Depends}
+Depends: io.elementary.settings-daemon (>=1.3.0), ${misc:Depends}, ${shlibs:Depends}
 Description: Change common settings on first-run
  Onboarding assists users during their first log in to elementary OS.
