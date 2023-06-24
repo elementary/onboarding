@@ -225,6 +225,61 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         custom_bin.append (color_scheme_box);
         custom_bin.append (accent_box);
 
+        var background_settings = new Settings ("org.gnome.desktop.background");
+
+        var background_uri = background_settings.get_string ("picture-uri");
+        var file = File.new_for_uri (background_uri);
+        if (file.query_exists ()) {
+            var background_provider = new Gtk.CssProvider ();
+            background_provider.load_from_data (
+                """
+                .prefer-default {
+                    background-image:
+                        url("resource:///io/elementary/onboarding/appearance-default.svg"),
+                        url("%s");
+                }
+
+                .prefer-dark {
+                    background-size: 86px 64px, cover, cover;
+                    background-image:
+                        url("resource:///io/elementary/onboarding/appearance-dark.svg"),
+                        linear-gradient(
+                            to bottom,
+                            alpha(black, 0.45),
+                            alpha(black, 0.45)
+                        ),
+                        url("%s");
+                }
+
+                .prefer-scheduled {
+                    background-image:
+                        url("resource:///io/elementary/onboarding/appearance-scheduled.svg"),
+                        linear-gradient(
+                            120deg,
+                            transparent 50%,
+                            alpha(black, 0.45) 51%
+                        ),
+                        url("%s");
+                }
+                """.printf (background_uri, background_uri, background_uri).data
+            );
+
+            prefer_default_card.get_style_context ().add_provider (
+                background_provider,
+                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+            );
+
+            prefer_dark_card.get_style_context ().add_provider (
+                background_provider,
+                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+            );
+
+            prefer_scheduled_card.get_style_context ().add_provider (
+                background_provider,
+                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+            );
+        }
+
         var settings = new GLib.Settings ("io.elementary.settings-daemon.prefers-color-scheme");
 
         if (settings.get_string ("prefer-dark-schedule") == "sunset-to-sunrise") {
