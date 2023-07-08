@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-02 18:20+0000\n"
-"PO-Revision-Date: 2023-03-02 10:25+0000\n"
+"PO-Revision-Date: 2023-07-09 13:07+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.17\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -46,7 +46,7 @@ msgstr ""
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "Use bolder typography"
-msgstr ""
+msgstr "Fetere typografi"
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Redesign app page to better explain sideloading and alt stores"
@@ -71,8 +71,9 @@ msgid "Add Sunset to Sunrise to Style View"
 msgstr ""
 
 #: data/onboarding.metainfo.xml.in:82
+#, fuzzy
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "Oppdatering for OS 7 og GTK 4"
 
 #: data/onboarding.metainfo.xml.in:91
 msgid "Redesign Housekeeping and add Downloads option"
@@ -92,7 +93,7 @@ msgstr ""
 
 #: data/onboarding.metainfo.xml.in:103
 msgid "Mention Sideload and Flathub"
-msgstr ""
+msgstr "Sideinnlasting og Flathub nevnt"
 
 #~ msgid "Fix blurry icon in AppCenter"
 #~ msgstr "Fikset utydelig ikon i AppSenter"
