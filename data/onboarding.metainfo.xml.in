@@ -50,6 +50,19 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="7.2.0" date="2023-08-08" urgency="medium">
+      <description>
+        <ul>
+          <li>Use the current wallpaper in the "Choose your look" view</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/onboarding/issues/189">Allow to automatically delete old screenshots using housekeeping</issue>
+        <issue url="https://github.com/elementary/onboarding/issues/209">Welcome view references distro name for Pantheon links</issue>
+      </issues>
+    </release>
+
     <release version="7.1.0" date="2023-05-01" urgency="medium">
       <description>
         <ul>
@@ -94,18 +107,7 @@
       </description>
     </release>
 
-    <release version="6.0.0" date="2020-07-14" urgency="medium">
-      <description>
-        <ul>
-          <li>Add style view</li>
-          <li>Add Online Accounts view</li>
-          <li>Remove location services view</li>
-          <li>Mention Sideload and Flathub</li>
-          <li>Updated translations</li>
-        </ul>
-      </description>
-    </release>
-
+    <release version="6.0.0" date="2020-07-14" urgency="medium"/>
     <release version="1.2.1" date="2020-05-28" urgency="medium"/>
     <release version="1.2.0" date="2020-04-01" urgency="medium"/>
     <release version="1.1.0" date="2019-11-15" urgency="medium"/>
