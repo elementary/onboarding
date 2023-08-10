@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-02 18:20+0000\n"
+"POT-Creation-Date: 2023-08-09 17:03+0000\n"
 "PO-Revision-Date: 2022-11-07 18:58+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
@@ -34,65 +34,65 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:56
+msgid "Use the current wallpaper in the \"Choose your look\" view"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:57 data/onboarding.metainfo.xml.in:74
+#: data/onboarding.metainfo.xml.in:85 data/onboarding.metainfo.xml.in:96
+#: data/onboarding.metainfo.xml.in:105
+msgid "Updated translations"
+msgstr "Çeviriler güncellendi"
+
+#: data/onboarding.metainfo.xml.in:69
 #, fuzzy
 #| msgid "New app icon"
 msgid "Redesigned app icon"
 msgstr "Yeni uygulama simgesi"
 
-#: data/onboarding.metainfo.xml.in:57
+#: data/onboarding.metainfo.xml.in:70
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:58
+#: data/onboarding.metainfo.xml.in:71
 msgid "Use bolder typography"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:59
+#: data/onboarding.metainfo.xml.in:72
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:60
+#: data/onboarding.metainfo.xml.in:73
 msgid "Always warn about Early Access builds"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:61 data/onboarding.metainfo.xml.in:72
-#: data/onboarding.metainfo.xml.in:83 data/onboarding.metainfo.xml.in:92
-#: data/onboarding.metainfo.xml.in:104
-msgid "Updated translations"
-msgstr "Çeviriler güncellendi"
-
-#: data/onboarding.metainfo.xml.in:80
+#: data/onboarding.metainfo.xml.in:93
 msgid "Add Automatic Updates view"
 msgstr "Otomatik Güncellemeler görünümü eklendi"
 
-#: data/onboarding.metainfo.xml.in:81
+#: data/onboarding.metainfo.xml.in:94
 msgid "Add Sunset to Sunrise to Style View"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:82
+#: data/onboarding.metainfo.xml.in:95
 msgid "Update for OS 7 and Gtk 4"
 msgstr "OS 7 ve Gtk 4 için güncelleme"
 
-#: data/onboarding.metainfo.xml.in:91
+#: data/onboarding.metainfo.xml.in:104
 msgid "Redesign Housekeeping and add Downloads option"
 msgstr ""
 "Bakım ve Temizlik yeniden tasarlandı ve İndirilenler seçeneğini eklendi"
 
-#: data/onboarding.metainfo.xml.in:100
-msgid "Add style view"
-msgstr "Stil görünümü eklendi"
+#~ msgid "Add style view"
+#~ msgstr "Stil görünümü eklendi"
 
-#: data/onboarding.metainfo.xml.in:101
-msgid "Add Online Accounts view"
-msgstr "Çevrimiçi Hesaplar görünümü eklendi"
+#~ msgid "Add Online Accounts view"
+#~ msgstr "Çevrimiçi Hesaplar görünümü eklendi"
 
-#: data/onboarding.metainfo.xml.in:102
-msgid "Remove location services view"
-msgstr "Konum hizmetleri görünümü kaldırıldı"
+#~ msgid "Remove location services view"
+#~ msgstr "Konum hizmetleri görünümü kaldırıldı"
 
-#: data/onboarding.metainfo.xml.in:103
-msgid "Mention Sideload and Flathub"
-msgstr "Dışarıdan yükleme ve Flathub'dan bahsedildi"
+#~ msgid "Mention Sideload and Flathub"
+#~ msgstr "Dışarıdan yükleme ve Flathub'dan bahsedildi"
 
 #~ msgid "Fix blurry icon in AppCenter"
 #~ msgstr "Uygulama Merkezindeki bulanık olan simge düzeltildi"
