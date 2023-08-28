@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-09 17:03+0000\n"
-"PO-Revision-Date: 2023-05-22 18:29+0000\n"
+"PO-Revision-Date: 2023-08-12 02:38+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/fr/>\n"
@@ -36,6 +36,8 @@ msgstr "elementary, Inc."
 #: data/onboarding.metainfo.xml.in:56
 msgid "Use the current wallpaper in the \"Choose your look\" view"
 msgstr ""
+"Utilisation du fond d'écran actuel dans la vue « Sélectionnez votre "
+"apparence »"
 
 #: data/onboarding.metainfo.xml.in:57 data/onboarding.metainfo.xml.in:74
 #: data/onboarding.metainfo.xml.in:85 data/onboarding.metainfo.xml.in:96
