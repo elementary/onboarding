@@ -26,8 +26,11 @@ public class Onboarding.Switcher : Gtk.Box {
         }
     }
 
-    construct {
+    public Switcher (Adw.Carousel carousel) {
+        Object (carousel: carousel);
+    }
 
+    construct {
         for (var child_index = 0; child_index < carousel.get_n_pages (); child_index++) {
             var child = carousel.get_nth_page (child_index);
             add_child (child);
@@ -39,15 +42,7 @@ public class Onboarding.Switcher : Gtk.Box {
         });
     }
 
-    public Switcher (Adw.Carousel carousel) {
-        Object (
-            carousel: carousel,
-            halign: Gtk.Align.CENTER,
-            can_focus: false,
-            orientation: Gtk.Orientation.HORIZONTAL,
-            spacing: 0
-        );
-    }
+
 
     private void add_child (Gtk.Widget widget) {
         assert (widget is AbstractOnboardingView);
