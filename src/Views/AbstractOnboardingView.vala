@@ -86,6 +86,15 @@ public abstract class AbstractOnboardingView : Gtk.Box {
         append (custom_bin);
 
         bind_property ("description", description_label, "label");
+
+        var focus_controller = new Gtk.EventControllerFocus ();
+        add_controller (focus_controller);
+
+        // FIXME: workaround for https://gitlab.gnome.org/GNOME/libadwaita/-/issues/724
+        focus_controller.notify["contains-focus"].connect (() => {
+            var carousel = (Adw.Carousel) get_ancestor (typeof (Adw.Carousel));
+            carousel.scroll_to (this, true);
+        });
     }
 
     public class ListItem : Gtk.Box {
