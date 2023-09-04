@@ -30,13 +30,6 @@ public class Onboarding.PageChecker : Gtk.Button {
     public PageChecker (Adw.Carousel carousel, AbstractOnboardingView page) {
         Object (carousel: carousel, page: page);
     }
-
-    private void update_opacity () {
-        double progress = double.max (1 - (carousel.position - page_number).abs (), 0);
-
-        opacity = MIN_OPACITY + (1 - MIN_OPACITY) * progress;
-    }
-
     construct {
         icon_name = "pager-checked-symbolic";
 
@@ -61,5 +54,11 @@ public class Onboarding.PageChecker : Gtk.Button {
         page.destroy.connect (() => {
             destroy ();
         });
+    }
+
+    private void update_opacity () {
+        double progress = double.max (1 - (carousel.position - page_number).abs (), 0);
+
+        child.opacity = MIN_OPACITY + (1 - MIN_OPACITY) * progress;
     }
 }
