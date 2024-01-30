@@ -16,8 +16,8 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
     construct {
         var appcenter_check = new Gtk.CheckButton ();
 
-        var appcenter_label = new Granite.HeaderLabel (_("Free & Paid Apps")) {
-            secondary_text = _("Unpaid apps will not update automatically")
+        var appcenter_label = new Granite.HeaderLabel (_("Free & Purchased Apps")) {
+            secondary_text = _("Apps being tried for free will not update automatically")
         };
 
         var appcenter_box = new Gtk.Box (HORIZONTAL, 0);
