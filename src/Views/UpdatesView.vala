@@ -14,9 +14,7 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
     }
 
     construct {
-        var appcenter_check = new Gtk.CheckButton () {
-            halign = START
-        };
+        var appcenter_check = new Gtk.CheckButton ();
 
         var appcenter_label = new Granite.HeaderLabel (_("Free & Paid Apps")) {
             secondary_text = _("Unpaid apps will not update automatically")
@@ -27,9 +25,7 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
         appcenter_box.append (appcenter_label);
         appcenter_box.set_parent (appcenter_check);
 
-        var system_check = new Gtk.CheckButton () {
-            halign = START
-        };
+        var system_check = new Gtk.CheckButton ();
 
         var system_label = new Granite.HeaderLabel (_("Operating System")) {
             secondary_text = _("Will be installed when you choose to restart this device")
