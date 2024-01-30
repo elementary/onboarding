@@ -44,7 +44,11 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
 
         var temp_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
         temp_box.append (new Gtk.Image.from_icon_name ("folder") { pixel_size = 24 });
-        temp_box.append (new Gtk.Label (_("Old temporary files")));
+        temp_box.append (
+            new Gtk.Label (_("Old temporary files")) {
+                mnemonic_widget = temp_check
+            }
+        );
         temp_box.set_parent (temp_check);
 
         var download_check = new Gtk.CheckButton () {
@@ -54,7 +58,11 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
 
         var download_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
         download_box.append (new Gtk.Image.from_icon_name ("folder-download") { pixel_size = 24 });
-        download_box.append (new Gtk.Label (_("Downloaded files")));
+        download_box.append (
+            new Gtk.Label (_("Downloaded files")) {
+                mnemonic_widget = download_check
+            }
+        );
         download_box.set_parent (download_check);
 
         var screenshots_check = new Gtk.CheckButton () {
@@ -64,7 +72,11 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
 
         var screenshots_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
         screenshots_box.append (new Gtk.Image.from_icon_name ("folder-screenshots-icon") { pixel_size = 24 });
-        screenshots_box.append (new Gtk.Label (_("Screenshot files")));
+        screenshots_box.append (
+            new Gtk.Label (_("Screenshot files")) {
+                mnemonic_widget = screenshots_check
+            }
+        );
         screenshots_box.set_parent (screenshots_check);
 
         var trash_check = new Gtk.CheckButton () {
@@ -74,7 +86,11 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
 
         var trash_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
         trash_box.append (new Gtk.Image.from_icon_name ("user-trash-full") { pixel_size = 24 });
-        trash_box.append (new Gtk.Label (_("Trashed files")));
+        trash_box.append (
+            new Gtk.Label (_("Trashed files")) {
+                mnemonic_widget = trash_check
+            }
+        );
         trash_box.set_parent (trash_check);
 
         custom_bin.append (header_label);
