@@ -42,7 +42,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
             margin_start = 6
         };
 
-        var temp_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        var temp_box = new Gtk.Box (HORIZONTAL, 0);
         temp_box.append (new Gtk.Image.from_icon_name ("folder") { pixel_size = 24 });
         temp_box.append (new Gtk.Label (_("Old temporary files")));
         temp_box.set_parent (temp_check);
@@ -52,7 +52,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
             margin_start = 6
         };
 
-        var download_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        var download_box = new Gtk.Box (HORIZONTAL, 0);
         download_box.append (new Gtk.Image.from_icon_name ("folder-download") { pixel_size = 24 });
         download_box.append (new Gtk.Label (_("Downloaded files")));
         download_box.set_parent (download_check);
@@ -62,7 +62,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
             margin_start = 6
         };
 
-        var screenshots_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        var screenshots_box = new Gtk.Box (HORIZONTAL, 0);
         screenshots_box.append (new Gtk.Image.from_icon_name ("folder-screenshots-icon") { pixel_size = 24 });
         screenshots_box.append (new Gtk.Label (_("Screenshot files")));
         screenshots_box.set_parent (screenshots_check);
@@ -72,7 +72,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
             margin_start = 6
         };
 
-        var trash_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        var trash_box = new Gtk.Box (HORIZONTAL, 0);
         trash_box.append (new Gtk.Image.from_icon_name ("user-trash-full") { pixel_size = 24 });
         trash_box.append (new Gtk.Label (_("Trashed files")));
         trash_box.set_parent (trash_check);
