@@ -17,6 +17,7 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
         var appcenter_check = new Gtk.CheckButton ();
 
         var appcenter_label = new Granite.HeaderLabel (_("Free & Purchased Apps")) {
+            mnemonic_widget = appcenter_check,
             secondary_text = _("Apps being tried for free will not update automatically")
         };
 
@@ -28,6 +29,7 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
         var system_check = new Gtk.CheckButton ();
 
         var system_label = new Granite.HeaderLabel (_("Operating System")) {
+            mnemonic_widget = system_check,
             secondary_text = _("Will be installed when you choose to restart this device")
         };
 
