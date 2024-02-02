@@ -153,6 +153,8 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         };
         next_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
 
+        next_label.mnemonic_widget = next_button;
+
         buttons_group = new Gtk.SizeGroup (Gtk.SizeGroupMode.BOTH);
         buttons_group.add_widget (skip_revealer);
         buttons_group.add_widget (next_button);
@@ -192,6 +194,11 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             next_label.opacity = opacity;
 
             finish_label.opacity = 1 - opacity;
+
+            if (opacity == 0) {
+                next_label.mnemonic_widget = null;
+                finish_label.mnemonic_widget = next_button;
+            }
         });
 
         next_button.clicked.connect (() => {

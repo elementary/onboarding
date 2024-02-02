@@ -113,7 +113,11 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         var prefer_default_grid = new Gtk.Grid ();
         prefer_default_grid.attach (prefer_default_card, 0, 0);
-        prefer_default_grid.attach (new Gtk.Label (_("Default")), 0, 1);
+        prefer_default_grid.attach (
+            new Gtk.Label (_("Default")) {
+                mnemonic_widget = prefer_default_radio
+            }, 0, 1
+        );
         prefer_default_grid.set_parent (prefer_default_radio);
 
         var prefer_dark_card = new Gtk.Grid ();
@@ -129,7 +133,11 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         var prefer_dark_grid = new Gtk.Grid ();
         prefer_dark_grid.attach (prefer_dark_card, 0, 0);
-        prefer_dark_grid.attach (new Gtk.Label (_("Dark")), 0, 1);
+        prefer_dark_grid.attach (
+            new Gtk.Label (_("Dark")) {
+                mnemonic_widget = prefer_dark_radio
+            }, 0, 1
+        );
         prefer_dark_grid.set_parent (prefer_dark_radio);
 
         var prefer_scheduled_card = new Gtk.Grid ();
@@ -145,7 +153,11 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         var prefer_scheduled_grid = new Gtk.Grid ();
         prefer_scheduled_grid.attach (prefer_scheduled_card, 0, 0);
-        prefer_scheduled_grid.attach (new Gtk.Label (_("Sunset to Sunrise")), 0, 1);
+        prefer_scheduled_grid.attach (
+            new Gtk.Label (_("Sunset to Sunrise")) {
+                mnemonic_widget = prefer_scheduled_radio
+            }, 0, 1
+        );
         prefer_scheduled_grid.set_parent (prefer_scheduled_radio);
 
         var color_scheme_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
