@@ -26,14 +26,15 @@ public class Onboarding.NightLightView : AbstractOnboardingView {
     }
 
     construct {
-        var switch_label = new Gtk.Label (_("Night Light:")) {
-            halign = Gtk.Align.END,
-            hexpand = true
-        };
-
         var service_switch = new Gtk.Switch () {
             halign = Gtk.Align.START,
             hexpand = true
+        };
+
+        var switch_label = new Gtk.Label (_("Night Light:")) {
+            halign = Gtk.Align.END,
+            hexpand = true,
+            mnemonic_widget = service_switch
         };
 
         var settings_link = new Gtk.LinkButton.with_label ("settings://display/night-light", _("Adjust schedule and temperature…"));
