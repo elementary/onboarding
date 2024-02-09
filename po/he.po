@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-09 12:32+0000\n"
-"PO-Revision-Date: 2023-06-04 16:07+0000\n"
+"PO-Revision-Date: 2024-02-10 15:11+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -271,22 +271,20 @@ msgid "Automatic Updates"
 msgstr "עדכונים אוטומטיים"
 
 #: src/Views/UpdatesView.vala:19
-#, fuzzy
-#| msgid "Free & Paid Apps:"
 msgid "Free & Purchased Apps"
-msgstr "יישומונים בחינם ובתשלום:"
+msgstr "יישומונים בחינם ובתשלום"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr ""
+msgstr "יישומים לניסוי בחינם לא יתעדכנו אוטומטית"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "מערכת הפעלה"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
-msgstr ""
+msgstr "יותקן לאחר הפעלת המכשיר הזה מחדש"
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
