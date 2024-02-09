@@ -14,21 +14,37 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
     }
 
     construct {
-        var switch_label = new Gtk.Label (_("Free & Paid Apps:")) {
-            halign = Gtk.Align.END
+        var appcenter_check = new Gtk.CheckButton ();
+
+        var appcenter_label = new Granite.HeaderLabel (_("Free & Purchased Apps")) {
+            mnemonic_widget = appcenter_check,
+            secondary_text = _("Apps being tried for free will not update automatically")
         };
 
-        var switch = new Gtk.Switch () {
-            halign = Gtk.Align.START
+        var appcenter_box = new Gtk.Box (HORIZONTAL, 0);
+        appcenter_box.append (new Gtk.Image.from_icon_name ("io.elementary.appcenter") { icon_size = LARGE });
+        appcenter_box.append (appcenter_label);
+        appcenter_box.set_parent (appcenter_check);
+
+        var system_check = new Gtk.CheckButton ();
+
+        var system_label = new Granite.HeaderLabel (_("Operating System")) {
+            mnemonic_widget = system_check,
+            secondary_text = _("Will be installed when you choose to restart this device")
         };
 
-        var settings = new GLib.Settings ("io.elementary.appcenter.settings");
-        settings.bind ("automatic-updates", switch, "active", GLib.SettingsBindFlags.DEFAULT);
+        var system_box = new Gtk.Box (HORIZONTAL, 0);
+        system_box.append (new Gtk.Image.from_icon_name ("io.elementary.settings") { icon_size = LARGE });
+        system_box.append (system_label);
+        system_box.set_parent (system_check);
 
-        var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
-        box.append (switch_label);
-        box.append (switch);
+        custom_bin.append (appcenter_check);
+        custom_bin.append (system_check);
 
-        custom_bin.append (box);
+        var appcenter_settings = new Settings ("io.elementary.appcenter.settings");
+        appcenter_settings.bind ("automatic-updates", appcenter_check, "active", DEFAULT);
+
+        var system_settings = new Settings ("io.elementary.settings-daemon.system-update");
+        system_settings.bind ("automatic-updates", system_check, "active", DEFAULT);
     }
 }
