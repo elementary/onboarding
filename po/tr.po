@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-09 17:03+0000\n"
+"POT-Creation-Date: 2024-02-09 12:32+0000\n"
 "PO-Revision-Date: 2023-05-18 21:06+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
@@ -54,7 +54,7 @@ msgstr ""
 "Uygulama Merkezinden elementary OS için yapılan ve elementary tarafından "
 "incelenen uygulamaları edinin"
 
-#: src/Views/AppCenterView.vala:50
+#: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "Uygulamaları Flathub gibi alternatif uygulama mağazalarından yükleyin"
 
@@ -141,21 +141,21 @@ msgstr "Bakım ve Temizlik"
 msgid "Automatically Delete:"
 msgstr "Otomatik Olarak Sil:"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:48
 msgid "Old temporary files"
 msgstr "Eski geçici dosyalar"
 
-#: src/Views/HouseKeepingView.vala:57
+#: src/Views/HouseKeepingView.vala:62
 msgid "Downloaded files"
 msgstr "İndirilen dosyalar"
 
-#: src/Views/HouseKeepingView.vala:67
+#: src/Views/HouseKeepingView.vala:76
 #, fuzzy
 #| msgid "Trashed files"
 msgid "Screenshot files"
 msgstr "Çöp kutusundaki dosyalar"
 
-#: src/Views/HouseKeepingView.vala:77
+#: src/Views/HouseKeepingView.vala:90
 msgid "Trashed files"
 msgstr "Çöp kutusundaki dosyalar"
 
@@ -171,11 +171,11 @@ msgstr ""
 msgid "Night Light"
 msgstr "Gece Işığı"
 
-#: src/Views/NightLightView.vala:29
+#: src/Views/NightLightView.vala:34
 msgid "Night Light:"
 msgstr "Gece Işığı:"
 
-#: src/Views/NightLightView.vala:39
+#: src/Views/NightLightView.vala:40
 msgid "Adjust schedule and temperature…"
 msgstr "Zamanlama ve renk sıcaklığını ayarlayın…"
 
@@ -207,59 +207,59 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "Görünümünüzü Seçin"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:117
 msgid "Default"
 msgstr "Varsayılan"
 
-#: src/Views/StyleView.vala:132
+#: src/Views/StyleView.vala:137
 msgid "Dark"
 msgstr "Karanlık"
 
-#: src/Views/StyleView.vala:148
+#: src/Views/StyleView.vala:157
 msgid "Sunset to Sunrise"
 msgstr "Otomatik"
 
-#: src/Views/StyleView.vala:157
+#: src/Views/StyleView.vala:169
 msgid "Blueberry"
 msgstr "Yaban Mersini"
 
-#: src/Views/StyleView.vala:162
+#: src/Views/StyleView.vala:174
 msgid "Mint"
 msgstr "Nane"
 
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:179
 msgid "Lime"
 msgstr "Misket Limonu"
 
-#: src/Views/StyleView.vala:172
+#: src/Views/StyleView.vala:184
 msgid "Banana"
 msgstr "Muz"
 
-#: src/Views/StyleView.vala:177
+#: src/Views/StyleView.vala:189
 msgid "Orange"
 msgstr "Portakal"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:194
 msgid "Strawberry"
 msgstr "Çilek"
 
-#: src/Views/StyleView.vala:187
+#: src/Views/StyleView.vala:199
 msgid "Bubblegum"
 msgstr "Balonlu Sakız"
 
-#: src/Views/StyleView.vala:192
+#: src/Views/StyleView.vala:204
 msgid "Grape"
 msgstr "Üzüm"
 
-#: src/Views/StyleView.vala:197
+#: src/Views/StyleView.vala:209
 msgid "Cocoa"
 msgstr "Kakao"
 
-#: src/Views/StyleView.vala:202
+#: src/Views/StyleView.vala:214
 msgid "Slate"
 msgstr "Arduvaz"
 
-#: src/Views/StyleView.vala:207
+#: src/Views/StyleView.vala:219
 msgid "Automatic based on wallpaper"
 msgstr "Duvar kağıdına göre otomatik"
 
@@ -274,9 +274,23 @@ msgstr ""
 msgid "Automatic Updates"
 msgstr "Otomatik Güncellemeler"
 
-#: src/Views/UpdatesView.vala:17
-msgid "Free & Paid Apps:"
+#: src/Views/UpdatesView.vala:19
+#, fuzzy
+#| msgid "Free & Paid Apps:"
+msgid "Free & Purchased Apps"
 msgstr "Ücretsiz ve Ücretli Uygulamalar:"
+
+#: src/Views/UpdatesView.vala:21
+msgid "Apps being tried for free will not update automatically"
+msgstr ""
+
+#: src/Views/UpdatesView.vala:31
+msgid "Operating System"
+msgstr ""
+
+#: src/Views/UpdatesView.vala:33
+msgid "Will be installed when you choose to restart this device"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"

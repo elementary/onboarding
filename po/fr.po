@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-09 17:03+0000\n"
+"POT-Creation-Date: 2024-02-09 12:32+0000\n"
 "PO-Revision-Date: 2023-06-24 08:07+0000\n"
 "Last-Translator: Corentin Noël <tintou@noel.tf>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
@@ -54,7 +54,7 @@ msgstr ""
 "Obtenez des applications conçues pour elementary OS et vérifiées par "
 "elementary dans le Centre d'Applications"
 
-#: src/Views/AppCenterView.vala:50
+#: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 "Installez des applications manuellement depuis des dépôts alternatifs comme "
@@ -146,19 +146,19 @@ msgstr "Nettoyage"
 msgid "Automatically Delete:"
 msgstr "Suppression automatique :"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:48
 msgid "Old temporary files"
 msgstr "Anciens fichiers temporaires"
 
-#: src/Views/HouseKeepingView.vala:57
+#: src/Views/HouseKeepingView.vala:62
 msgid "Downloaded files"
 msgstr "Fichiers téléchargés"
 
-#: src/Views/HouseKeepingView.vala:67
+#: src/Views/HouseKeepingView.vala:76
 msgid "Screenshot files"
 msgstr "Fichiers de capture d'écran"
 
-#: src/Views/HouseKeepingView.vala:77
+#: src/Views/HouseKeepingView.vala:90
 msgid "Trashed files"
 msgstr "Fichiers supprimés"
 
@@ -174,11 +174,11 @@ msgstr ""
 msgid "Night Light"
 msgstr "Mode nuit"
 
-#: src/Views/NightLightView.vala:29
+#: src/Views/NightLightView.vala:34
 msgid "Night Light:"
 msgstr "Mode nuit :"
 
-#: src/Views/NightLightView.vala:39
+#: src/Views/NightLightView.vala:40
 msgid "Adjust schedule and temperature…"
 msgstr "Ajuster les horaires et la température…"
 
@@ -210,59 +210,59 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "Sélectionnez votre apparence"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:117
 msgid "Default"
 msgstr "Par défaut"
 
-#: src/Views/StyleView.vala:132
+#: src/Views/StyleView.vala:137
 msgid "Dark"
 msgstr "Sombre"
 
-#: src/Views/StyleView.vala:148
+#: src/Views/StyleView.vala:157
 msgid "Sunset to Sunrise"
 msgstr "Du coucher au lever du soleil"
 
-#: src/Views/StyleView.vala:157
+#: src/Views/StyleView.vala:169
 msgid "Blueberry"
 msgstr "Myrtille"
 
-#: src/Views/StyleView.vala:162
+#: src/Views/StyleView.vala:174
 msgid "Mint"
 msgstr "Menthe"
 
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:179
 msgid "Lime"
 msgstr "Citron Vert"
 
-#: src/Views/StyleView.vala:172
+#: src/Views/StyleView.vala:184
 msgid "Banana"
 msgstr "Banane"
 
-#: src/Views/StyleView.vala:177
+#: src/Views/StyleView.vala:189
 msgid "Orange"
 msgstr "Orange"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:194
 msgid "Strawberry"
 msgstr "Fraise"
 
-#: src/Views/StyleView.vala:187
+#: src/Views/StyleView.vala:199
 msgid "Bubblegum"
 msgstr "Chewing-gum"
 
-#: src/Views/StyleView.vala:192
+#: src/Views/StyleView.vala:204
 msgid "Grape"
 msgstr "Raisin"
 
-#: src/Views/StyleView.vala:197
+#: src/Views/StyleView.vala:209
 msgid "Cocoa"
 msgstr "Cacao"
 
-#: src/Views/StyleView.vala:202
+#: src/Views/StyleView.vala:214
 msgid "Slate"
 msgstr "Ardoise"
 
-#: src/Views/StyleView.vala:207
+#: src/Views/StyleView.vala:219
 msgid "Automatic based on wallpaper"
 msgstr "Automatique à partir du fond d'écran"
 
@@ -278,9 +278,23 @@ msgstr ""
 msgid "Automatic Updates"
 msgstr "Mises à jour automatiques"
 
-#: src/Views/UpdatesView.vala:17
-msgid "Free & Paid Apps:"
+#: src/Views/UpdatesView.vala:19
+#, fuzzy
+#| msgid "Free & Paid Apps:"
+msgid "Free & Purchased Apps"
 msgstr "Applications gratuites et payantes :"
+
+#: src/Views/UpdatesView.vala:21
+msgid "Apps being tried for free will not update automatically"
+msgstr ""
+
+#: src/Views/UpdatesView.vala:31
+msgid "Operating System"
+msgstr ""
+
+#: src/Views/UpdatesView.vala:33
+msgid "Will be installed when you choose to restart this device"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"

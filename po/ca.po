@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-09 17:03+0000\n"
+"POT-Creation-Date: 2024-02-09 12:32+0000\n"
 "PO-Revision-Date: 2023-06-14 11:07+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
@@ -54,7 +54,7 @@ msgstr ""
 "Obtingueu aplicacions creades per a l'elementary i revisades per l'equip "
 "d'elementary al Centre d'aplicacions"
 
-#: src/Views/AppCenterView.vala:50
+#: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 "Carregueu aplicacions de botigues d'aplicacions alternatives com ara Flathub"
@@ -143,19 +143,19 @@ msgstr "Manteniment"
 msgid "Automatically Delete:"
 msgstr "Supressió automàtica:"
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:48
 msgid "Old temporary files"
 msgstr "Fitxers temporals antics"
 
-#: src/Views/HouseKeepingView.vala:57
+#: src/Views/HouseKeepingView.vala:62
 msgid "Downloaded files"
 msgstr "Fitxers baixats"
 
-#: src/Views/HouseKeepingView.vala:67
+#: src/Views/HouseKeepingView.vala:76
 msgid "Screenshot files"
 msgstr "Fitxers de captura de pantalla"
 
-#: src/Views/HouseKeepingView.vala:77
+#: src/Views/HouseKeepingView.vala:90
 msgid "Trashed files"
 msgstr "Fitxers enviats a la paperera"
 
@@ -171,11 +171,11 @@ msgstr ""
 msgid "Night Light"
 msgstr "Llum de nit"
 
-#: src/Views/NightLightView.vala:29
+#: src/Views/NightLightView.vala:34
 msgid "Night Light:"
 msgstr "Llum de nit:"
 
-#: src/Views/NightLightView.vala:39
+#: src/Views/NightLightView.vala:40
 msgid "Adjust schedule and temperature…"
 msgstr "Ajusta'n la programació i la temperatura…"
 
@@ -208,59 +208,59 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "Trieu la vostra aparença"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:117
 msgid "Default"
 msgstr "Per defecte"
 
-#: src/Views/StyleView.vala:132
+#: src/Views/StyleView.vala:137
 msgid "Dark"
 msgstr "Fosca"
 
-#: src/Views/StyleView.vala:148
+#: src/Views/StyleView.vala:157
 msgid "Sunset to Sunrise"
 msgstr "De la posta de sol a l'alba"
 
-#: src/Views/StyleView.vala:157
+#: src/Views/StyleView.vala:169
 msgid "Blueberry"
 msgstr "Nabiu"
 
-#: src/Views/StyleView.vala:162
+#: src/Views/StyleView.vala:174
 msgid "Mint"
 msgstr "Menta"
 
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:179
 msgid "Lime"
 msgstr "Verd llimona"
 
-#: src/Views/StyleView.vala:172
+#: src/Views/StyleView.vala:184
 msgid "Banana"
 msgstr "Plàtan"
 
-#: src/Views/StyleView.vala:177
+#: src/Views/StyleView.vala:189
 msgid "Orange"
 msgstr "Taronja"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:194
 msgid "Strawberry"
 msgstr "Maduixa"
 
-#: src/Views/StyleView.vala:187
+#: src/Views/StyleView.vala:199
 msgid "Bubblegum"
 msgstr "Xiclet"
 
-#: src/Views/StyleView.vala:192
+#: src/Views/StyleView.vala:204
 msgid "Grape"
 msgstr "Raïm"
 
-#: src/Views/StyleView.vala:197
+#: src/Views/StyleView.vala:209
 msgid "Cocoa"
 msgstr "Cacau"
 
-#: src/Views/StyleView.vala:202
+#: src/Views/StyleView.vala:214
 msgid "Slate"
 msgstr "Pissarra"
 
-#: src/Views/StyleView.vala:207
+#: src/Views/StyleView.vala:219
 msgid "Automatic based on wallpaper"
 msgstr "Automàtic segons el fons"
 
@@ -276,9 +276,23 @@ msgstr ""
 msgid "Automatic Updates"
 msgstr "Actualitzacions automàtiques"
 
-#: src/Views/UpdatesView.vala:17
-msgid "Free & Paid Apps:"
+#: src/Views/UpdatesView.vala:19
+#, fuzzy
+#| msgid "Free & Paid Apps:"
+msgid "Free & Purchased Apps"
 msgstr "Aplicacions gratuïtes i de pagament:"
+
+#: src/Views/UpdatesView.vala:21
+msgid "Apps being tried for free will not update automatically"
+msgstr ""
+
+#: src/Views/UpdatesView.vala:31
+msgid "Operating System"
+msgstr ""
+
+#: src/Views/UpdatesView.vala:33
+msgid "Will be installed when you choose to restart this device"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"

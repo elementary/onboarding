@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-09 17:03+0000\n"
+"POT-Creation-Date: 2024-02-09 12:32+0000\n"
 "PO-Revision-Date: 2022-10-14 02:38+0000\n"
 "Last-Translator: colindemian <colindemian@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -62,7 +62,7 @@ msgstr ""
 "从应用中心中获取应用。受信任的应用是为 elementary OS 量身定制并由 elementary "
 "审核过的。"
 
-#: src/Views/AppCenterView.vala:50
+#: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
@@ -141,21 +141,21 @@ msgstr "自动清理"
 msgid "Automatically Delete:"
 msgstr "自动删除："
 
-#: src/Views/HouseKeepingView.vala:47
+#: src/Views/HouseKeepingView.vala:48
 msgid "Old temporary files"
 msgstr "旧的临时文件"
 
-#: src/Views/HouseKeepingView.vala:57
+#: src/Views/HouseKeepingView.vala:62
 msgid "Downloaded files"
 msgstr "下载的文件"
 
-#: src/Views/HouseKeepingView.vala:67
+#: src/Views/HouseKeepingView.vala:76
 #, fuzzy
 #| msgid "Trashed files"
 msgid "Screenshot files"
 msgstr "回收站文件"
 
-#: src/Views/HouseKeepingView.vala:77
+#: src/Views/HouseKeepingView.vala:90
 msgid "Trashed files"
 msgstr "回收站文件"
 
@@ -169,11 +169,11 @@ msgstr "在夜间将您的显示器色温调暖以缓解眼部疲劳和失眠。
 msgid "Night Light"
 msgstr "夜灯"
 
-#: src/Views/NightLightView.vala:29
+#: src/Views/NightLightView.vala:34
 msgid "Night Light:"
 msgstr "夜灯："
 
-#: src/Views/NightLightView.vala:39
+#: src/Views/NightLightView.vala:40
 msgid "Adjust schedule and temperature…"
 msgstr "调节日程与色温…"
 
@@ -203,59 +203,59 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "选择系统外观"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:117
 msgid "Default"
 msgstr "默认"
 
-#: src/Views/StyleView.vala:132
+#: src/Views/StyleView.vala:137
 msgid "Dark"
 msgstr "深色"
 
-#: src/Views/StyleView.vala:148
+#: src/Views/StyleView.vala:157
 msgid "Sunset to Sunrise"
 msgstr "从日落到日出"
 
-#: src/Views/StyleView.vala:157
+#: src/Views/StyleView.vala:169
 msgid "Blueberry"
 msgstr "蓝莓色"
 
-#: src/Views/StyleView.vala:162
+#: src/Views/StyleView.vala:174
 msgid "Mint"
 msgstr "薄荷绿"
 
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:179
 msgid "Lime"
 msgstr "青柠色"
 
-#: src/Views/StyleView.vala:172
+#: src/Views/StyleView.vala:184
 msgid "Banana"
 msgstr "香蕉黄"
 
-#: src/Views/StyleView.vala:177
+#: src/Views/StyleView.vala:189
 msgid "Orange"
 msgstr "阳光橙"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:194
 msgid "Strawberry"
 msgstr "草莓红"
 
-#: src/Views/StyleView.vala:187
+#: src/Views/StyleView.vala:199
 msgid "Bubblegum"
 msgstr "泡泡糖"
 
-#: src/Views/StyleView.vala:192
+#: src/Views/StyleView.vala:204
 msgid "Grape"
 msgstr "葡萄紫"
 
-#: src/Views/StyleView.vala:197
+#: src/Views/StyleView.vala:209
 msgid "Cocoa"
 msgstr "可可色"
 
-#: src/Views/StyleView.vala:202
+#: src/Views/StyleView.vala:214
 msgid "Slate"
 msgstr "石头灰"
 
-#: src/Views/StyleView.vala:207
+#: src/Views/StyleView.vala:219
 msgid "Automatic based on wallpaper"
 msgstr "根据壁纸自动设定"
 
@@ -269,9 +269,23 @@ msgstr "当您的设备接入互联网时，更新会被自动下载并安装。
 msgid "Automatic Updates"
 msgstr "自动更新"
 
-#: src/Views/UpdatesView.vala:17
-msgid "Free & Paid Apps:"
+#: src/Views/UpdatesView.vala:19
+#, fuzzy
+#| msgid "Free & Paid Apps:"
+msgid "Free & Purchased Apps"
 msgstr "免费和付费应用："
+
+#: src/Views/UpdatesView.vala:21
+msgid "Apps being tried for free will not update automatically"
+msgstr ""
+
+#: src/Views/UpdatesView.vala:31
+msgid "Operating System"
+msgstr ""
+
+#: src/Views/UpdatesView.vala:33
+msgid "Will be installed when you choose to restart this device"
+msgstr ""
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
