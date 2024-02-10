@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-09 12:32+0000\n"
-"PO-Revision-Date: 2023-06-24 08:07+0000\n"
-"Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
+"PO-Revision-Date: 2024-02-13 00:12+0000\n"
+"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding/nl/>\n"
 "Language: nl\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -274,22 +274,20 @@ msgid "Automatic Updates"
 msgstr "Automatische updates"
 
 #: src/Views/UpdatesView.vala:19
-#, fuzzy
-#| msgid "Free & Paid Apps:"
 msgid "Free & Purchased Apps"
-msgstr "Gratis en betaalde apps:"
+msgstr "Gratis & betaalde apps"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr ""
+msgstr "Apps die gratis worden gebruikt zullen niet automatisch updaten"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "Besturingssysteem"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
-msgstr ""
+msgstr "Zal worden geïnstalleerd wanneer het apparaat opnieuw wordt opgestart"
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
