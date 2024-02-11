@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-09 12:32+0000\n"
-"PO-Revision-Date: 2024-02-10 15:11+0000\n"
+"PO-Revision-Date: 2024-02-13 00:12+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -89,9 +89,8 @@ msgstr "“フィードバック”アプリを使用して不具合を報告し
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
-msgstr ""
-"どうぞ %s をご利用ください！　“システム設定”を開くと、ハードウェアをセット"
-"アップしたり、設定を変更したりできます。"
+msgstr "どうぞ %s をご利用ください! “システム設定”を開くと、ハードウェアをセットアッ"
+"プしたり、設定を変更したりできます。"
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
@@ -296,7 +295,7 @@ msgstr "最新情報"
 
 #: src/Views/WelcomeView.vala:27
 msgid "Welcome!"
-msgstr "ようこそ！"
+msgstr "ようこそ!"
 
 #: src/Views/WelcomeView.vala:33
 msgid ""
