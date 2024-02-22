@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-09 12:32+0000\n"
 "PO-Revision-Date: 2024-02-23 10:12+0000\n"
-"Last-Translator: Sebastian Bernat <srakap330@gmail.com>\n"
+"Last-Translator: Marcin Serwin <marcin.serwin0@protonmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
 "Language: pl\n"
@@ -280,7 +280,7 @@ msgstr "Automatyczne aktualizacje"
 
 #: src/Views/UpdatesView.vala:19
 msgid "Free & Purchased Apps"
-msgstr "Darmowe i płatne aplikacje"
+msgstr "Darmowe i kupione aplikacje"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
