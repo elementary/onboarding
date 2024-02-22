@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-09 12:32+0000\n"
-"PO-Revision-Date: 2024-02-22 09:37+0000\n"
+"PO-Revision-Date: 2024-02-23 10:12+0000\n"
 "Last-Translator: Sebastian Bernat <srakap330@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
@@ -285,14 +285,15 @@ msgstr "Darmowe i płatne aplikacje"
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
 msgstr ""
+"Aplikacje które są aktualnie próbowane nie będą automatycznie aktualizowane"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "System Operacyjny"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
-msgstr ""
+msgstr "Zostanie zainstalowany gdy uruchomisz ponownie to urządzenie"
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
