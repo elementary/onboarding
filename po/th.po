@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-09 12:32+0000\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-03-01 20:12+0000\n"
+"Last-Translator: Aefgh Threenine <aefgh39622@gmail.com>\n"
+"Language-Team: Thai <https://l10n.elementary.io/projects/installer/"
+"onboarding/th/>\n"
 "Language: th\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.0.2\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -31,7 +34,7 @@ msgstr ""
 
 #: src/MainWindow.vala:144
 msgid "Next"
-msgstr ""
+msgstr "ถัดไป"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
@@ -187,7 +190,7 @@ msgstr ""
 
 #: src/Views/StyleView.vala:117
 msgid "Default"
-msgstr ""
+msgstr "ค่าเริ่มต้น"
 
 #: src/Views/StyleView.vala:137
 msgid "Dark"
