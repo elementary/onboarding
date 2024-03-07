@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-09 12:32+0000\n"
-"PO-Revision-Date: 2024-02-16 14:40+0000\n"
+"PO-Revision-Date: 2024-03-08 08:13+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ka/>\n"
@@ -52,7 +52,7 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "აპების დაყენება სხვა მაღაზიებიდან, როგორიცაა, მაგ: Flathub"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
@@ -66,15 +66,15 @@ msgstr "ადრეული წვდომის აგება"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "სტაბილურ ვერსიამდე ვერ განახლდებით"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
-msgstr ""
+msgstr "ზოგიერთი ფუნქცია შეიძლება აკლდეს, ან დაუსრულებელი იყოს"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "მოგვწერეთ შეცდომების შესახებ უკუკავშირის აპით"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -93,23 +93,24 @@ msgstr "სისტემის პარამეტრების ფან�
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "ეს დროებითი სესია დაიკარგება, როცა გახვალთ."
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "სტუმრის სესია"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "ამ სესიისას შექმნილი მონაცემები წაიშლება"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "პარამეტრები ჩამოიყრება"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
 msgstr ""
+"შეინახეთ ფაილები გარე მოწყობილობაზე, რათა მათზე წვდომა მოგვიანებითაც გქონდეთ"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -139,10 +140,8 @@ msgid "Downloaded files"
 msgstr "გადმოწერილი ფაილები"
 
 #: src/Views/HouseKeepingView.vala:76
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Screenshot files"
-msgstr "სანაგვე ყუთში გადატანილი ფაილები"
+msgstr "ეკრანის ანაბეჭდის ფაილები"
 
 #: src/Views/HouseKeepingView.vala:90
 msgid "Trashed files"
@@ -262,15 +261,15 @@ msgstr "უფასო და შეძენილი აპები"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr ""
+msgstr "აპები, რომლებიც საცდელად დააყენეთ, ავტომატურად არ განახლდება"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "ოპერაციული სისტემა"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
-msgstr ""
+msgstr "დადგება, როცა ამ მოწყობილობის გადატვირთვას აირჩევთ"
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
@@ -294,7 +293,7 @@ msgstr "დამწყების სახელმძღვანელო�
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "ჩვენი ბლოგი…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
