@@ -99,13 +99,11 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
         custom_bin.append (screenshots_check);
         custom_bin.append (trash_check);
 
-        var privacy_settings = new GLib.Settings ("org.gnome.desktop.privacy");
-        privacy_settings.bind ("remove-old-temp-files", temp_check, "active", GLib.SettingsBindFlags.DEFAULT);
-        privacy_settings.bind ("remove-old-trash-files", trash_check, "active", GLib.SettingsBindFlags.DEFAULT);
-
         var housekeeping_settings = new Settings ("io.elementary.settings-daemon.housekeeping");
-        housekeeping_settings.bind ("cleanup-downloads-folder", download_check, "active", GLib.SettingsBindFlags.DEFAULT);
-        housekeeping_settings.bind ("cleanup-screenshots-folder", screenshots_check, "active", GLib.SettingsBindFlags.DEFAULT);
-        housekeeping_settings.bind ("old-files-age", this, "old_files_age", GLib.SettingsBindFlags.GET);
+        housekeeping_settings.bind ("cleanup-downloads-folder", download_check, "active", DEFAULT);
+        housekeeping_settings.bind ("cleanup-screenshots-folder", screenshots_check, "active", DEFAULT);
+        housekeeping_settings.bind ("cleanup-temp-folder", temp_check, "active", DEFAULT);
+        housekeeping_settings.bind ("cleanup-trash-folder", trash_check, "active", DEFAULT);
+        housekeeping_settings.bind ("old-files-age", this, "old_files_age", GET);
     }
 }
