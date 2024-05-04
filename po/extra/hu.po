@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 12:32+0000\n"
+"POT-Creation-Date: 2024-05-04 04:47+0000\n"
 "PO-Revision-Date: 2023-12-23 23:10+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
@@ -29,59 +29,58 @@ msgstr "Üdvözöljük"
 msgid "Change common settings on first-run"
 msgstr "Általános beállítások megváltoztatása első indításkor"
 
-#: data/onboarding.metainfo.xml.in:48
-msgid "elementary, Inc."
-msgstr "elementary, Inc."
-
-#: data/onboarding.metainfo.xml.in:56
+#: data/onboarding.metainfo.xml.in:58
 msgid "Use the current wallpaper in the \"Choose your look\" view"
 msgstr "A jelenlegi háttérkép használata a \"Válasszon kinézetet\" nézetben"
 
-#: data/onboarding.metainfo.xml.in:57 data/onboarding.metainfo.xml.in:74
-#: data/onboarding.metainfo.xml.in:85 data/onboarding.metainfo.xml.in:96
-#: data/onboarding.metainfo.xml.in:105
+#: data/onboarding.metainfo.xml.in:59 data/onboarding.metainfo.xml.in:76
+#: data/onboarding.metainfo.xml.in:87 data/onboarding.metainfo.xml.in:98
+#: data/onboarding.metainfo.xml.in:107
 msgid "Updated translations"
 msgstr "Frissített fordítások"
 
-#: data/onboarding.metainfo.xml.in:69
+#: data/onboarding.metainfo.xml.in:71
 msgid "Redesigned app icon"
 msgstr "Újratervezett alkalmazásikon"
 
-#: data/onboarding.metainfo.xml.in:70
+#: data/onboarding.metainfo.xml.in:72
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 "Főoldali ikon generálása az alapértelmezett háttérkép és témaszín "
 "használatával"
 
-#: data/onboarding.metainfo.xml.in:71
+#: data/onboarding.metainfo.xml.in:73
 msgid "Use bolder typography"
 msgstr "Vastagabb tipográfia használata"
 
-#: data/onboarding.metainfo.xml.in:72
+#: data/onboarding.metainfo.xml.in:74
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
 "Az alkalmazásnézet újratervezése az alkalmazások más forrásokból és "
 "alternatív áruházakból való beszerzésének jobb ismertetése érdekében"
 
-#: data/onboarding.metainfo.xml.in:73
+#: data/onboarding.metainfo.xml.in:75
 msgid "Always warn about Early Access builds"
 msgstr "Mindig figyelmeztessen a Korai hozzáférésű kiadásokra"
 
-#: data/onboarding.metainfo.xml.in:93
+#: data/onboarding.metainfo.xml.in:95
 msgid "Add Automatic Updates view"
 msgstr "Automatikus frissítések nézet hozzáadása"
 
-#: data/onboarding.metainfo.xml.in:94
+#: data/onboarding.metainfo.xml.in:96
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "Napnyugtától napkeltéig lehetőség a témaválasztásnál"
 
-#: data/onboarding.metainfo.xml.in:95
+#: data/onboarding.metainfo.xml.in:97
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Frissítés OS 7-hez és Gtk 4-re"
 
-#: data/onboarding.metainfo.xml.in:104
+#: data/onboarding.metainfo.xml.in:106
 msgid "Redesign Housekeeping and add Downloads option"
 msgstr "Takarítás újratervezése és Letöltések opció hozzáadva"
+
+#~ msgid "elementary, Inc."
+#~ msgstr "elementary, Inc."
 
 #~ msgid "system-os-installer"
 #~ msgstr "system-os-installer"
