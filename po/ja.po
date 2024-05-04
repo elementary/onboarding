@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 12:32+0000\n"
+"POT-Creation-Date: 2024-05-04 04:47+0000\n"
 "PO-Revision-Date: 2024-03-21 04:13+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
@@ -50,7 +50,8 @@ msgstr "アプリを入手"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
-msgstr "AppCenter から入手可能なアプリは、elementary OS 向けに開発されており、"
+msgstr ""
+"AppCenter から入手可能なアプリは、elementary OS 向けに開発されており、"
 "elementary によって審査済みです"
 
 #: src/Views/AppCenterView.vala:51
@@ -88,7 +89,8 @@ msgstr "“フィードバック”アプリを使用して不具合を報告し
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
-msgstr "どうぞ %s をご利用ください! “システム設定”を開くと、ハードウェアをセットアッ"
+msgstr ""
+"どうぞ %s をご利用ください! “システム設定”を開くと、ハードウェアをセットアッ"
 "プしたり、設定を変更したりできます。"
 
 #: src/Views/FinishView.vala:24

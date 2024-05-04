@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 12:32+0000\n"
+"POT-Creation-Date: 2024-05-04 04:47+0000\n"
 "PO-Revision-Date: 2024-02-16 14:40+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
@@ -281,7 +281,8 @@ msgstr "Ingyenes és megvásárolt alkalmazások"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr "Az ingyenesen kipróbált alkalmazások nem fognak automatikusan frissülni"
+msgstr ""
+"Az ingyenesen kipróbált alkalmazások nem fognak automatikusan frissülni"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
