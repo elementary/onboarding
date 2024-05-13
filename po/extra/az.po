@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 04:47+0000\n"
+"POT-Creation-Date: 2024-05-13 16:52+0000\n"
 "PO-Revision-Date: 2019-09-07 18:23+0000\n"
 "Last-Translator: Daniel Foré <daniel@elementary.io>\n"
 "Language-Team: Azerbaijani <https://l10n.elementary.io/projects/installer/"
@@ -30,49 +30,53 @@ msgid "Change common settings on first-run"
 msgstr ""
 
 #: data/onboarding.metainfo.xml.in:58
-msgid "Use the current wallpaper in the \"Choose your look\" view"
+msgid "UpdatesView: add OS updates"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:59 data/onboarding.metainfo.xml.in:76
-#: data/onboarding.metainfo.xml.in:87 data/onboarding.metainfo.xml.in:98
-#: data/onboarding.metainfo.xml.in:107
+#: data/onboarding.metainfo.xml.in:59
+msgid "Improve screenreader support"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:72
+#: data/onboarding.metainfo.xml.in:89 data/onboarding.metainfo.xml.in:100
+#: data/onboarding.metainfo.xml.in:111
 msgid "Updated translations"
 msgstr ""
 
 #: data/onboarding.metainfo.xml.in:71
+msgid "Use the current wallpaper in the \"Choose your look\" view"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:84
 msgid "Redesigned app icon"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:72
+#: data/onboarding.metainfo.xml.in:85
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:73
+#: data/onboarding.metainfo.xml.in:86
 msgid "Use bolder typography"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:74
+#: data/onboarding.metainfo.xml.in:87
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:75
+#: data/onboarding.metainfo.xml.in:88
 msgid "Always warn about Early Access builds"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:95
+#: data/onboarding.metainfo.xml.in:108
 msgid "Add Automatic Updates view"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:96
+#: data/onboarding.metainfo.xml.in:109
 msgid "Add Sunset to Sunrise to Style View"
 msgstr ""
 
-#: data/onboarding.metainfo.xml.in:97
+#: data/onboarding.metainfo.xml.in:110
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
-
-#: data/onboarding.metainfo.xml.in:106
-msgid "Redesign Housekeeping and add Downloads option"
 msgstr ""
 
 #~ msgid "system-os-installer"
