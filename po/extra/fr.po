@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 16:52+0000\n"
-"PO-Revision-Date: 2023-08-12 02:38+0000\n"
+"PO-Revision-Date: 2024-05-14 13:54+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.5\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -31,11 +31,11 @@ msgstr "Personnaliser les paramètres lors de la première utilisation"
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "UpdatesView: add OS updates"
-msgstr ""
+msgstr "UpdatesView : Ajout des mises à jour du système"
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Improve screenreader support"
-msgstr ""
+msgstr "Amélioration de la prise charge des lecteurs d'écran"
 
 #: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:72
 #: data/onboarding.metainfo.xml.in:89 data/onboarding.metainfo.xml.in:100
