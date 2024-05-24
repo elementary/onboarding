@@ -8,13 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 16:52+0000\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2024-05-25 13:13+0000\n"
+"Last-Translator: Arno <arnoant21@gmail.com>\n"
+"Language-Team: Luxembourgish <https://l10n.elementary.io/projects/installer/"
+"onboarding/lb/>\n"
 "Language: lb\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.5\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -31,7 +34,7 @@ msgstr ""
 
 #: src/MainWindow.vala:144
 msgid "Next"
-msgstr ""
+msgstr "Weider"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
@@ -187,7 +190,7 @@ msgstr ""
 
 #: src/Views/StyleView.vala:117
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 #: src/Views/StyleView.vala:137
 msgid "Dark"
