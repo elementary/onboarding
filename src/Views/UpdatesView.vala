@@ -7,7 +7,7 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
     public UpdatesView () {
         Object (
             view_name: "updates",
-            description: _("Updates can be automatically installed when your device is connected to the Internet."),
+            description: _("Updates can be automatically installed when %s is connected to the Internet.").printf (Environment.get_host_name ()),
             icon_name: "system-software-update",
             title: _("Automatic Updates")
         );
@@ -30,7 +30,7 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
 
         var system_label = new Granite.HeaderLabel (_("Operating System")) {
             mnemonic_widget = system_check,
-            secondary_text = _("Will be installed when you choose to restart this device")
+            secondary_text = _("Will be installed when you choose to restart %s").printf (Environment.get_host_name ())
         };
 
         var system_box = new Gtk.Box (HORIZONTAL, 0);
