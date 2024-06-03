@@ -21,7 +21,7 @@ public class Onboarding.OnlineAccountsView : AbstractOnboardingView {
     public OnlineAccountsView () {
         Object (
             view_name: "onlineaccounts",
-            description: _("Use Mail, Calendar, and Tasks with an existing online account to sync emails, events, and tasks with this device."),
+            description: _("Use Mail, Calendar, and Tasks with an existing online account to sync emails, events, and tasks with %s.").printf (Environment.get_host_name ()),
             icon_name: "preferences-desktop-online-accounts",
             title: _("Online Accounts")
         );
