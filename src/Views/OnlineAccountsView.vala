@@ -22,7 +22,7 @@ public class Onboarding.OnlineAccountsView : AbstractOnboardingView {
         Object (
             view_name: "onlineaccounts",
             description: _("Use Mail, Calendar, and Tasks with an existing online account to sync emails, events, and tasks with this device."),
-            icon_name: "preferences-desktop-online-accounts",
+            icon_name: "io.elementary.settings.onlineaccounts",
             title: _("Online Accounts")
         );
     }
