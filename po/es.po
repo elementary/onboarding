@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 16:52+0000\n"
-"PO-Revision-Date: 2021-06-16 00:39+0000\n"
-"Last-Translator: Alvaro <alvaroaraoz_92@hotmail.com>\n"
+"PO-Revision-Date: 2024-06-11 16:16+0000\n"
+"Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
 "onboarding/es/>\n"
 "Language: es\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: src/MainWindow.vala:31
 #, c-format
@@ -37,60 +37,50 @@ msgid "Next"
 msgstr "Siguiente"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"Consiga las aplicaciones que necesita en el Centro de aplicaciones. "
-"Encontrará aplicaciones hechas a medida para elementary y revisadas por el "
-"equipo."
+"Consiga las aplicaciones que necesita en el Centro de Aplicaciones, o haga "
+"instalaciones externas de Flatpak en tiendas alternativas."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Obtenga aplicaciones"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"Consiga las aplicaciones que necesita en el Centro de aplicaciones. "
-"Encontrará aplicaciones hechas a medida para elementary y revisadas por el "
-"equipo."
+"Consiga aplicaciones hechas a medida para elementary OS y verificadas por el "
+"equipo de elementary en el Centro de Aplicaciones"
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "Haga instalaciones externas desde tiendas alternativas como Flathub"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Use esta versión preliminar de %s solamente en equipos dedicados al "
+"desarrollo del sistema."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
-msgstr "Compilación preliminar"
+msgstr "Versión preliminar"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "No podrá actualizarse a una versión estable"
 
 #: src/Views/EarlyAccessView.vala:28
-#, fuzzy
-#| msgid "Some features are missing or incomplete"
 msgid "Some features may be missing or incomplete"
-msgstr "Determinadas funciones no están incluidas o están sin terminar"
+msgstr "Algunas características pueden no estar incluidas o sin terminar"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Reporte un problema utilizando la aplicación Retroalimentación"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -98,8 +88,8 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
-"¡Que disfrute %s! Visite Configuración del sistema en cualquier momento para "
-"instalar «hardware» o modificar sus preferencias."
+"¡Disfrute de %s! Visite Configuración del Sistema en cualquier momento para "
+"instalar hardware o modificar sus preferencias."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
@@ -107,33 +97,30 @@ msgstr "Todo listo"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr "Abrir Configuración del sistema…"
+msgstr "Abrir Configuración del Sistema…"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "Esta sesión temporal se restablecerá cuando termine la sesión."
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "Sesión de invitado"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "Todos los datos creados en esta sesión serán eliminados"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "Toda la configuración se restablecerá"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "Guarde archivos en unidades de disco externas para accederlos después"
 
 #: src/Views/HouseKeepingView.vala:22
-#, fuzzy, c-format
-#| msgid ""
-#| "Old files can be automatically deleted after %u days to save space and "
-#| "help protect your privacy."
+#, c-format
 msgid ""
 "Old files can be automatically deleted after %u day to save space and help "
 "protect your privacy."
@@ -141,11 +128,11 @@ msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr[0] ""
-"Para ahorrar espacio y ayudar a proteger su privacidad, es posible eliminar "
-"automáticamente los archivos antigos pasados %u días."
+"Para ahorrar espacio y proteger su privacidad, es posible eliminar "
+"automáticamente los archivos antiguos pasado %u día."
 msgstr[1] ""
-"Para ahorrar espacio y ayudar a proteger su privacidad, es posible eliminar "
-"automáticamente los archivos antigos pasados %u días."
+"Para ahorrar espacio y proteger su privacidad, es posible eliminar "
+"automáticamente los archivos antiguos pasados %u días."
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
@@ -160,16 +147,12 @@ msgid "Old temporary files"
 msgstr "Archivos temporales antiguos"
 
 #: src/Views/HouseKeepingView.vala:62
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Downloaded files"
-msgstr "Archivos enviados a la papelera"
+msgstr "Archivos descargados"
 
 #: src/Views/HouseKeepingView.vala:76
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Screenshot files"
-msgstr "Archivos enviados a la papelera"
+msgstr "Capturas de pantalla"
 
 #: src/Views/HouseKeepingView.vala:90
 msgid "Trashed files"
@@ -180,8 +163,8 @@ msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
-"Haga que la pantalla utilice colores cálidos durante la noche para ayudar a "
-"evitar la fatiga ocular y el insomnio."
+"Haga que la pantalla utilice colores cálidos durante la noche para evitar la "
+"fatiga ocular y el insomnio."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
@@ -200,16 +183,16 @@ msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
-"Use Mail, Calendar y Tasks con una cuenta en línea existente para "
-"sincronizar correos electrónicos, eventos y tareas con este dispositivo."
+"Use Correo, Calendario y Tareas con una cuenta en línea existente para "
+"sincronizar correos electrónicos, eventos y tareas en este equipo."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr "Cuentas online"
+msgstr "Cuentas en línea"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr "Conectar cuentas online …"
+msgstr "Conectar cuentas en línea…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
@@ -233,7 +216,7 @@ msgstr "Oscura"
 
 #: src/Views/StyleView.vala:157
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Del atardecer al amanecer"
 
 #: src/Views/StyleView.vala:169
 msgid "Blueberry"
@@ -284,66 +267,60 @@ msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Puede instalar actualizaciones automáticamente cuando esté conectado a "
+"Internet."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Eliminar automáticamente:"
+msgstr "Actualizaciones automáticas"
 
 #: src/Views/UpdatesView.vala:19
 msgid "Free & Purchased Apps"
-msgstr ""
+msgstr "Aplicaciones gratuitas y de pago"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr ""
+msgstr "Las aplicaciones en modo de prueba no se actualizarán automáticamente"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "Sistema operativo"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
-msgstr ""
+msgstr "Será instalado cuando reinicie el equipo"
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
 msgstr "Novedades"
 
 #: src/Views/WelcomeView.vala:27
-#, fuzzy
-#| msgid "Welcome to %s!"
 msgid "Welcome!"
-msgstr "Le damos la bienvenida a %s"
+msgstr "¡Sea bienvenido!"
 
 #: src/Views/WelcomeView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Continue to set up some useful features. Visit the links below for more "
-#| "information about %s."
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
 msgstr ""
-"Ahora configuraremos algunas funciones útiles. Visite estos enlaces para "
-"obtener más información sobre %s."
+"Ahora configuraremos algunas características útiles. Visite estos enlaces "
+"para obtener más información sobre sus primeros pasos."
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
-msgstr "Guía de nociones básicas…"
+msgstr "Aprenda los conceptos básicos…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "Nuestro blog…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
-msgstr "Asistencia comunitaria…"
+msgstr "Soporte de la comunidad…"
 
 #: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
-msgstr "Participe…"
+msgstr "Participar…"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "
