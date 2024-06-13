@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 16:52+0000\n"
-"PO-Revision-Date: 2024-06-11 16:16+0000\n"
+"PO-Revision-Date: 2024-06-13 18:31+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
 "onboarding/es/>\n"
@@ -199,7 +199,7 @@ msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
-"Elija el estilo visual y el color de realce que prefiera. Algunas "
+"Elija el estilo visual y el color de énfasis que prefiera. Algunas "
 "aplicaciones pueden utilizar su propia apariencia."
 
 #: src/Views/StyleView.vala:71
@@ -260,7 +260,7 @@ msgstr "Pizarra"
 
 #: src/Views/StyleView.vala:219
 msgid "Automatic based on wallpaper"
-msgstr "Automático basado en el fondo de pantalla"
+msgstr "Automático basado en el fondo de escritorio"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
