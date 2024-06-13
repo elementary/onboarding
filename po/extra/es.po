@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 16:52+0000\n"
-"PO-Revision-Date: 2024-06-11 16:16+0000\n"
+"PO-Revision-Date: 2024-06-13 18:31+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/es/>\n"
@@ -48,7 +48,7 @@ msgstr "Traducciones actualizadas"
 #: data/onboarding.metainfo.xml.in:71
 msgid "Use the current wallpaper in the \"Choose your look\" view"
 msgstr ""
-"Ahora se usa el fondo de pantalla que se elija en la sección de «Escoja "
+"Ahora se usa el fondo de escritorio que se elija en la sección de «Escoja "
 "apariencia»"
 
 #: data/onboarding.metainfo.xml.in:84
@@ -58,8 +58,8 @@ msgstr "Se ha rediseñado el icono de la aplicación"
 #: data/onboarding.metainfo.xml.in:85
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
-"Ahora se crea un icono de página inicial usando el fondo de pantalla "
-"predeterminado y el color de realce"
+"Ahora se crea un icono de página inicial usando el fondo de escritorio "
+"predeterminado y el color de énfasis"
 
 #: data/onboarding.metainfo.xml.in:86
 msgid "Use bolder typography"
