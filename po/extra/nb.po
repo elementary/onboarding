@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-13 16:52+0000\n"
-"PO-Revision-Date: 2023-07-11 23:07+0000\n"
+"PO-Revision-Date: 2024-06-16 02:16+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/nb/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -35,7 +35,7 @@ msgstr ""
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Improve screenreader support"
-msgstr ""
+msgstr "Forbedret skjermleser-støtte"
 
 #: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:72
 #: data/onboarding.metainfo.xml.in:89 data/onboarding.metainfo.xml.in:100
