@@ -87,6 +87,11 @@ public abstract class AbstractOnboardingView : Gtk.Box {
         append (header_area);
         append (custom_bin);
 
+        update_property_value (
+            {LABEL, DESCRIPTION},
+            {title, description}
+        );
+
         bind_property ("description", description_label, "label");
 
         var focus_controller = new Gtk.EventControllerFocus ();
