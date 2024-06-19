@@ -31,6 +31,8 @@ public class Onboarding.PageChecker : Gtk.Button {
         Object (carousel: carousel, page: page);
     }
     construct {
+        // Blind experience is worse with these buttons
+        can_focus = false;
         icon_name = "pager-checked-symbolic";
 
         tooltip_text = page.title;
