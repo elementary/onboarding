@@ -138,6 +138,8 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
                 child = box
             };
             link_button_widget.set_parent (this);
+
+            left_label.mnemonic_widget = link_button_widget;
         }
 
         ~ImageLinkButton () {

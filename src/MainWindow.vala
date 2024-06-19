@@ -173,10 +173,9 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         box.append (action_area);
 
         child = box;
+        default_widget = next_button;
         titlebar = new Gtk.Grid () { visible = false };
         add_css_class ("dialog");
-
-        next_button.grab_focus ();
 
         carousel.notify["position"].connect (() => {
             var visible_view = get_visible_view ();
@@ -201,6 +200,12 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
             }
         });
 
+
+        announce_visible_view ();
+        carousel.page_changed.connect (() => {
+            announce_visible_view ();
+        });
+
         next_button.clicked.connect (() => {
             int index = (int) Math.round (carousel.position);
             if (index < carousel.get_n_pages () - 1) {
@@ -222,6 +227,12 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
 
             carousel.scroll_to (finish_view, true);
         });
+    }
+
+    private void announce_visible_view () {
+        var visible_view = get_visible_view ();
+        visible_view.announce (visible_view.title, HIGH);
+        visible_view.announce (visible_view.description, HIGH);
     }
 
     private AbstractOnboardingView? get_visible_view () {

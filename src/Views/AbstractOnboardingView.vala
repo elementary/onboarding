@@ -50,7 +50,6 @@ public abstract class AbstractOnboardingView : Gtk.Box {
             justify = Gtk.Justification.CENTER,
             wrap = true,
             max_width_chars = 50,
-            mnemonic_widget = this,
             use_markup = true
         };
         title_label.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
@@ -60,7 +59,6 @@ public abstract class AbstractOnboardingView : Gtk.Box {
             justify = Gtk.Justification.CENTER,
             wrap = true,
             max_width_chars = 50,
-            mnemonic_widget = this,
             use_markup = true
         };
         description_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
@@ -86,6 +84,11 @@ public abstract class AbstractOnboardingView : Gtk.Box {
         vexpand = true;
         append (header_area);
         append (custom_bin);
+
+        update_property_value (
+            {LABEL, DESCRIPTION},
+            {title, description}
+        );
 
         bind_property ("description", description_label, "label");
 
