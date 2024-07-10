@@ -76,9 +76,12 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             valign = Gtk.Align.CENTER
         };
 
-        var skip_button = new Gtk.Button.with_label (_("Skip All"));
+        var skip_button = new Gtk.Button.with_label (_("Skip All")) {
+            action_name = "win.skip"
+        };
 
         var next_button = new Gtk.Button.with_label (_("Next")) {
+            action_name = "win.next",
             halign = END,
             hexpand = true,
             receives_default = true
@@ -117,31 +120,9 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         bind_property ("title", title_label, "label");
 
         shown.connect (mark_viewed);
-
-        // next_button.clicked.connect (() => {
-        //     int index = (int) Math.round (navigation_view.position);
-        //     if (index < navigation_view.navigation_stack.get_n_items () - 1) {
-        //         navigation_view.scroll_to (navigation_view.get_nth_page (index + 1), true);
-        //     } else {
-        //         destroy ();
-        //     }
-        // });
-
-        // skip_button.clicked.connect (() => {
-        //     for (var view_count = 0; view_count < navigation_view.navigation_stack.get_n_items (); view_count++) {
-        //         var view = navigation_view.get_nth_page (view_count);
-        //         assert (view is AbstractOnboardingView);
-
-        //         var view_name = ((AbstractOnboardingView) view).view_name;
-
-        //         mark_viewed (view_name);
-        //     }
-
-        //     navigation_view.scroll_to (finish_view, true);
-        // });
     }
 
-    private void mark_viewed () {
+    public void mark_viewed () {
         if (Posix.isatty (Posix.STDIN_FILENO)) {
             return;
         }
