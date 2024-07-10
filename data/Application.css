@@ -10,3 +10,12 @@ checkbutton > box {
 checkbutton header {
     margin-top: 0;
 }
+
+navigation-view-page > box {
+    margin: 12px;
+    margin-top: 22px;
+}
+
+.dialog-action-area {
+    margin: 0;
+}
