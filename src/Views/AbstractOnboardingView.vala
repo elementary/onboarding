@@ -123,10 +123,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         bind_property ("title", title_label, "label");
 
         // Grab focus early so we don't interupt the screen reader
-        showing.connect (() => {
-            next_button.grab_focus ();
-
-        });
+        showing.connect (() => next_button.grab_focus);
         shown.connect (mark_viewed);
 
         realize.connect (() => {
