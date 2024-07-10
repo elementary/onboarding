@@ -20,10 +20,10 @@
 public class Onboarding.MainWindow : Gtk.ApplicationWindow {
     public string[] viewed { get; set; }
     public static GLib.Settings settings;
+    public static ListStore pages;
 
     private Adw.NavigationView navigation_view;
     private FinishView finish_view;
-    private ListStore pages;
 
     public MainWindow () {
         Object (
@@ -34,12 +34,11 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
     }
 
     static construct {
+        pages = new ListStore (typeof (Adw.NavigationPage));
         settings = new GLib.Settings ("io.elementary.onboarding");
     }
 
     construct {
-        pages = new ListStore (typeof (Adw.NavigationPage));
-
         navigation_view = new Adw.NavigationView ();
 
         if (Posix.isatty (Posix.STDIN_FILENO) == false) {

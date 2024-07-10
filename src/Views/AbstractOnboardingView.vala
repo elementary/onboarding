@@ -76,14 +76,18 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             valign = Gtk.Align.CENTER
         };
 
+        var levelbar = new Gtk.LevelBar () {
+            min_value = 0,
+            hexpand = true,
+            valign = CENTER
+        };
+
         var skip_button = new Gtk.Button.with_label (_("Skip All")) {
             action_name = "win.skip"
         };
 
         var next_button = new Gtk.Button.with_label (_("Next")) {
-            action_name = "win.next",
-            halign = END,
-            hexpand = true
+            action_name = "win.next"
         };
         next_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
 
@@ -91,19 +95,19 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         buttons_group.add_widget (skip_button);
         buttons_group.add_widget (next_button);
 
-        var action_area = new Gtk.Box (HORIZONTAL, 0) {
+        var action_area = new Gtk.CenterBox () {
+            center_widget = levelbar,
+            end_widget = next_button,
             vexpand = true,
             valign = END
         };
         action_area.add_css_class ("dialog-action-area");
 
         if (!(this is FinishView)) {
-            action_area.append (skip_button);
+            action_area.start_widget = skip_button;
         } else {
             next_button.label = _("Get Started");
         }
-
-        action_area.append (next_button);
 
         var box = new Gtk.Box (VERTICAL, 0) {
             hexpand = true,
@@ -119,8 +123,22 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         bind_property ("title", title_label, "label");
 
         // Grab focus early so we don't interupt the screen reader
-        showing.connect (() => next_button.grab_focus ());
+        showing.connect (() => {
+            next_button.grab_focus ();
+
+        });
         shown.connect (mark_viewed);
+
+        realize.connect (() => {
+            uint pos = -1;
+            MainWindow.pages.find (this, out pos);
+
+            levelbar.max_value = MainWindow.pages.get_n_items ();
+            levelbar.value = pos + 1;
+
+            levelbar.add_offset_value (Gtk.LEVEL_BAR_OFFSET_HIGH, levelbar.max_value - 1);
+            levelbar.add_offset_value (Gtk.LEVEL_BAR_OFFSET_FULL, levelbar.max_value);
+        });
     }
 
     public void mark_viewed () {
