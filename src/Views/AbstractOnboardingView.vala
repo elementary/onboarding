@@ -83,8 +83,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         var next_button = new Gtk.Button.with_label (_("Next")) {
             action_name = "win.next",
             halign = END,
-            hexpand = true,
-            receives_default = true
+            hexpand = true
         };
         next_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
 
@@ -119,6 +118,8 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         bind_property ("description", description_label, "label");
         bind_property ("title", title_label, "label");
 
+        // Grab focus early so we don't interupt the screen reader
+        showing.connect (() => next_button.grab_focus ());
         shown.connect (mark_viewed);
     }
 
