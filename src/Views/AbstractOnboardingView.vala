@@ -25,28 +25,23 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
     protected Gtk.Image image { get; private set; }
 
     construct {
-        image = new Gtk.Image () {
-            icon_name = icon_name,
-            pixel_size = 64
+        image = new Gtk.Image.from_icon_name (icon_name) {
+            icon_size = LARGE
         };
 
-        var badge = new Gtk.Image () {
-            halign = Gtk.Align.END,
-            valign = Gtk.Align.END,
-            icon_name = badge_name,
-            pixel_size = 32
+        var badge = new Gtk.Image.from_icon_name (badge_name) {
+            icon_size = NORMAL
         };
 
         var overlay = new Gtk.Overlay () {
-            halign = Gtk.Align.CENTER,
-            child = image,
-            margin_bottom = 6
+            halign = CENTER,
+            child = image
         };
         overlay.add_overlay (badge);
 
         var title_label = new Gtk.Label (title) {
-            halign = Gtk.Align.CENTER,
-            justify = Gtk.Justification.CENTER,
+            halign = CENTER,
+            justify = CENTER,
             wrap = true,
             max_width_chars = 50,
             mnemonic_widget = this,
@@ -55,8 +50,8 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         title_label.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
 
         var description_label = new Gtk.Label (description) {
-            halign = Gtk.Align.CENTER,
-            justify = Gtk.Justification.CENTER,
+            halign = CENTER,
+            justify = CENTER,
             wrap = true,
             max_width_chars = 50,
             mnemonic_widget = this,
@@ -64,17 +59,19 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         };
         description_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
 
-        var header_area = new Gtk.Box (Gtk.Orientation.VERTICAL, 3);
+        var header_area = new Gtk.Box (VERTICAL, 0);
         header_area.append (overlay);
         header_area.append (title_label);
         header_area.append (description_label);
+        header_area.add_css_class ("header-area");
 
-        custom_bin = new Gtk.Box (Gtk.Orientation.VERTICAL, 12) {
+        custom_bin = new Gtk.Box (VERTICAL, 0) {
             hexpand = true,
             vexpand = true,
-            halign = Gtk.Align.CENTER,
-            valign = Gtk.Align.CENTER
+            halign = CENTER,
+            valign = CENTER
         };
+        custom_bin.add_css_class ("content-area");
 
         var levelbar = new Gtk.LevelBar () {
             min_value = 0,

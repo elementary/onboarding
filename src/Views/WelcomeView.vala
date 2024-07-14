@@ -95,7 +95,6 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             "applications-development-symbolic"
         );
 
-        custom_bin.spacing = 3;
         custom_bin.append (thebasics_link);
         custom_bin.append (blog_link);
         custom_bin.append (support_link);
