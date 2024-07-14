@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 16:52+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
 "PO-Revision-Date: 2020-04-27 00:10+0000\n"
 "Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -28,6 +28,10 @@ msgstr "Bem-Vindo"
 #: data/onboarding.metainfo.xml.in:12
 msgid "Change common settings on first-run"
 msgstr "Mudar as configurações comuns na primeira execução"
+
+#: data/onboarding.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "UpdatesView: add OS updates"
@@ -80,9 +84,6 @@ msgstr ""
 #: data/onboarding.metainfo.xml.in:110
 msgid "Update for OS 7 and Gtk 4"
 msgstr ""
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "Fix blurry icon in AppCenter"
 #~ msgstr "Corrigir ícone embaçado no Central de Aplicativos"

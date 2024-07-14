@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 16:52+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
 "PO-Revision-Date: 2024-05-15 16:13+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -29,6 +29,10 @@ msgstr "Вітаємо"
 #: data/onboarding.metainfo.xml.in:12
 msgid "Change common settings on first-run"
 msgstr "Налаштуйте загальні налаштування під час першого запуску"
+
+#: data/onboarding.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "UpdatesView: add OS updates"
@@ -86,9 +90,6 @@ msgstr "Оновлення до OS 7 і Gtk 4"
 
 #~ msgid "Redesign Housekeeping and add Downloads option"
 #~ msgstr "Перероблено розділ Домоведення та додано опцію Завантаження"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "Add style view"
 #~ msgstr "Додано перегляд стилів"

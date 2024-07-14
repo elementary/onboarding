@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 16:52+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
 "PO-Revision-Date: 2024-06-13 18:31+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
@@ -28,6 +28,10 @@ msgstr "Bienvenida"
 #: data/onboarding.metainfo.xml.in:12
 msgid "Change common settings on first-run"
 msgstr "Cambiar configuraciones habituales en la primera ejecución"
+
+#: data/onboarding.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "UpdatesView: add OS updates"
@@ -86,9 +90,6 @@ msgstr "Se agregó el estilo de colores «Del amanecer al atardecer»"
 #: data/onboarding.metainfo.xml.in:110
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Actualizado para OS 7 y Gtk 4"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "Add style view"
 #~ msgstr "Agregar estilo de vista"
