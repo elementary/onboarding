@@ -30,6 +30,8 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         };
 
         var badge = new Gtk.Image.from_icon_name (badge_name) {
+            halign = END,
+            valign = END,
             icon_size = NORMAL
         };
 
