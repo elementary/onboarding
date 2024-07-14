@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 16:52+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
 "PO-Revision-Date: 2022-11-07 18:58+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
@@ -28,6 +28,10 @@ msgstr "Hoş Geldiniz"
 #: data/onboarding.metainfo.xml.in:12
 msgid "Change common settings on first-run"
 msgstr "İlk çalıştırmada genel ayarları değiştirin"
+
+#: data/onboarding.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "UpdatesView: add OS updates"
@@ -84,9 +88,6 @@ msgstr "OS 7 ve Gtk 4 için güncelleme"
 #~ msgid "Redesign Housekeeping and add Downloads option"
 #~ msgstr ""
 #~ "Bakım ve Temizlik yeniden tasarlandı ve İndirilenler seçeneğini eklendi"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "Add style view"
 #~ msgstr "Stil görünümü eklendi"
