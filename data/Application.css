@@ -10,3 +10,25 @@ checkbutton > box {
 checkbutton header {
     margin-top: 0;
 }
+
+navigation-view-page {
+    padding: 1em;
+    padding-top: 2em;
+}
+
+.dialog-action-area levelbar block {
+    box-shadow: none;
+    border: none;
+}
+.dialog-action-area levelbar block.empty {
+    background: alpha(@text_color, 0.1);
+}
+
+.dialog-action-area levelbar block.filled {
+    background-image: none;
+}
+
+.dialog-action-area {
+    border-spacing: 2em;
+    margin: 0;
+}

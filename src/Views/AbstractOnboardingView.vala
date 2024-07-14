@@ -15,12 +15,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-public abstract class AbstractOnboardingView : Gtk.Box {
+public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
     public string view_name { get; construct; }
     public string description { get; set; }
     public string icon_name { get; construct; }
     public string? badge_name { get; construct; }
-    public string title { get; construct; }
 
     protected Gtk.Box custom_bin { get; private set; }
     protected Gtk.Image image { get; private set; }
@@ -75,15 +74,48 @@ public abstract class AbstractOnboardingView : Gtk.Box {
             valign = Gtk.Align.CENTER
         };
 
-        margin_start = 10;
-        margin_end = 10;
-        margin_top = 22;
-        orientation = Gtk.Orientation.VERTICAL;
-        spacing = 24;
-        hexpand = true;
-        vexpand = true;
-        append (header_area);
-        append (custom_bin);
+        var levelbar = new Gtk.LevelBar () {
+            min_value = 0,
+            hexpand = true,
+            valign = CENTER
+        };
+
+        var skip_button = new Gtk.Button.with_label (_("Skip All")) {
+            action_name = "win.skip"
+        };
+
+        var next_button = new Gtk.Button.with_label (_("Next")) {
+            action_name = "win.next"
+        };
+        next_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+
+        var buttons_group = new Gtk.SizeGroup (BOTH);
+        buttons_group.add_widget (skip_button);
+        buttons_group.add_widget (next_button);
+
+        var action_area = new Gtk.CenterBox () {
+            center_widget = levelbar,
+            end_widget = next_button,
+            vexpand = true,
+            valign = END
+        };
+        action_area.add_css_class ("dialog-action-area");
+
+        if (!(this is FinishView)) {
+            action_area.start_widget = skip_button;
+        } else {
+            next_button.label = _("Get Started");
+        }
+
+        var box = new Gtk.Box (VERTICAL, 0) {
+            hexpand = true,
+            vexpand = true
+        };
+        box.append (header_area);
+        box.append (custom_bin);
+        box.append (action_area);
+
+        child = box;
 
         update_property_value (
             {LABEL, DESCRIPTION},
@@ -91,15 +123,37 @@ public abstract class AbstractOnboardingView : Gtk.Box {
         );
 
         bind_property ("description", description_label, "label");
+        bind_property ("title", title_label, "label");
 
-        var focus_controller = new Gtk.EventControllerFocus ();
-        add_controller (focus_controller);
+        // Grab focus early so we don't interupt the screen reader
+        showing.connect (() => next_button.grab_focus ());
+        shown.connect (mark_viewed);
 
-        // FIXME: workaround for https://gitlab.gnome.org/GNOME/libadwaita/-/issues/724
-        focus_controller.notify["contains-focus"].connect (() => {
-            var carousel = (Adw.Carousel) get_ancestor (typeof (Adw.Carousel));
-            carousel.scroll_to (this, true);
+        realize.connect (() => {
+            uint pos = -1;
+            MainWindow.pages.find (this, out pos);
+
+            levelbar.max_value = MainWindow.pages.get_n_items ();
+            levelbar.value = pos + 1;
+
+            levelbar.add_offset_value (Gtk.LEVEL_BAR_OFFSET_HIGH, levelbar.max_value - 1);
+            levelbar.add_offset_value (Gtk.LEVEL_BAR_OFFSET_FULL, levelbar.max_value);
         });
+    }
+
+    public void mark_viewed () {
+        if (Posix.isatty (Posix.STDIN_FILENO)) {
+            return;
+        }
+
+        var viewed = MainWindow.settings.get_strv ("viewed");
+        if (!(view_name in viewed)) {
+            var viewed_copy = viewed;
+            viewed_copy += view_name;
+            viewed = viewed_copy;
+
+            MainWindow.settings.set_strv ("viewed", viewed);
+        }
     }
 
     public class ListItem : Gtk.Box {

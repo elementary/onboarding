@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 16:52+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
 "PO-Revision-Date: 2024-02-10 15:11+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -19,22 +19,22 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.0.2\n"
 
-#: src/MainWindow.vala:31
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Sett opp %s"
 
-#: src/MainWindow.vala:126
+#: src/Views/AbstractOnboardingView.vala:85
 msgid "Skip All"
 msgstr "Hopp over alle"
 
-#: src/MainWindow.vala:140
-msgid "Get Started"
-msgstr "Begynn"
-
-#: src/MainWindow.vala:144
+#: src/Views/AbstractOnboardingView.vala:89
 msgid "Next"
 msgstr "Neste"
+
+#: src/Views/AbstractOnboardingView.vala:109
+msgid "Get Started"
+msgstr "Begynn"
 
 #: src/Views/AppCenterView.vala:22
 #, fuzzy

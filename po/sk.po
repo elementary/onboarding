@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 16:52+0000\n"
-"PO-Revision-Date: 2023-05-09 19:06+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
+"PO-Revision-Date: 2024-07-11 09:16+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
 "onboarding/sk/>\n"
@@ -17,24 +17,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.6.2\n"
 
-#: src/MainWindow.vala:31
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Nastaviť %s"
 
-#: src/MainWindow.vala:126
+#: src/Views/AbstractOnboardingView.vala:85
 msgid "Skip All"
 msgstr "Preskočiť všetko"
 
-#: src/MainWindow.vala:140
-msgid "Get Started"
-msgstr "Začať"
-
-#: src/MainWindow.vala:144
+#: src/Views/AbstractOnboardingView.vala:89
 msgid "Next"
 msgstr "Ďalej"
+
+#: src/Views/AbstractOnboardingView.vala:109
+msgid "Get Started"
+msgstr "Začať"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
@@ -156,10 +156,8 @@ msgid "Downloaded files"
 msgstr "Stiahnuté súbory"
 
 #: src/Views/HouseKeepingView.vala:76
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Screenshot files"
-msgstr "Súbory v koši"
+msgstr "Súbory snímok obrazovky"
 
 #: src/Views/HouseKeepingView.vala:90
 msgid "Trashed files"
@@ -282,22 +280,22 @@ msgid "Automatic Updates"
 msgstr "Automatické aktualizácie"
 
 #: src/Views/UpdatesView.vala:19
-#, fuzzy
-#| msgid "Free & Paid Apps:"
 msgid "Free & Purchased Apps"
-msgstr "Platené a bezplatné aplikácie:"
+msgstr "Aplikácie zadarmo a zakúpené aplikácie"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
 msgstr ""
+"Aplikácie, ktorých používanie si skúšate zadarmo, sa nebudú automaticky "
+"aktualizovať"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "Operačný systém"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
-msgstr ""
+msgstr "Nainštaluje sa, keď sa rozhodnete reštartovať toto zariadenie"
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
@@ -308,16 +306,12 @@ msgid "Welcome!"
 msgstr "Vitajte!"
 
 #: src/Views/WelcomeView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Continue to set up some useful features. Visit the links below for more "
-#| "information about %s."
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
 msgstr ""
 "Pokračujte nastavením niektorých užitočných funkcií. Kliknutím na odkazy "
-"nižšie sa dozviete viac informácií o %s."
+"nižšie získate pomoc na začiatok."
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"

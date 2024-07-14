@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 16:52+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
 "PO-Revision-Date: 2022-07-20 06:06+0000\n"
 "Last-Translator: CrxRuiXuan <huaweidu@foxmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://l10n.elementary.io/projects/"
@@ -28,6 +28,10 @@ msgstr "欢迎"
 #: data/onboarding.metainfo.xml.in:12
 msgid "Change common settings on first-run"
 msgstr "在首次运行时配置常用设置"
+
+#: data/onboarding.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "UpdatesView: add OS updates"
@@ -83,9 +87,6 @@ msgstr "OS 7 和 Gtk 4 的更新"
 
 #~ msgid "Redesign Housekeeping and add Downloads option"
 #~ msgstr "重新设计内务管理并添加下载选项"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "Add style view"
 #~ msgstr "添加样式视图"

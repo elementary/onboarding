@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 16:52+0000\n"
-"PO-Revision-Date: 2022-09-30 22:21+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
+"PO-Revision-Date: 2024-07-11 09:16+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/sk/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -29,13 +29,17 @@ msgstr "Vitajte"
 msgid "Change common settings on first-run"
 msgstr "Zmeňte bežné nastavenia pri prvom spustení"
 
+#: data/onboarding.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
+
 #: data/onboarding.metainfo.xml.in:58
 msgid "UpdatesView: add OS updates"
-msgstr ""
+msgstr "Zobrazenie aktualizácií: pridanie aktualizácií OS"
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Improve screenreader support"
-msgstr ""
+msgstr "Zlepšenie podpory čítačky obrazovky"
 
 #: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:72
 #: data/onboarding.metainfo.xml.in:89 data/onboarding.metainfo.xml.in:100
@@ -45,29 +49,31 @@ msgstr "Aktualizované preklady"
 
 #: data/onboarding.metainfo.xml.in:71
 msgid "Use the current wallpaper in the \"Choose your look\" view"
-msgstr ""
+msgstr "Použiť aktuálnu tapetu v zobrazení „Vyberte si váš vzhľad“"
 
 #: data/onboarding.metainfo.xml.in:84
-#, fuzzy
-#| msgid "New app icon"
 msgid "Redesigned app icon"
-msgstr "Nová ikonka aplikácie"
+msgstr "Redizajnovaná ikonka aplikácie"
 
 #: data/onboarding.metainfo.xml.in:85
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
+"Vygenerovať ikonku hlavnej stránky použitím predvolenej tapety a farebného "
+"odtieňa"
 
 #: data/onboarding.metainfo.xml.in:86
 msgid "Use bolder typography"
-msgstr ""
+msgstr "Použiť hrubšiu typografiu"
 
 #: data/onboarding.metainfo.xml.in:87
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
+"Redizajn stránky aplikácie pre lepšie vysvetlenie ručnej inštalácie "
+"(sideloading) a alternatívnych obchodov"
 
 #: data/onboarding.metainfo.xml.in:88
 msgid "Always warn about Early Access builds"
-msgstr ""
+msgstr "Vždy upozorniť o zostavách Prednostný prístup"
 
 #: data/onboarding.metainfo.xml.in:108
 msgid "Add Automatic Updates view"
@@ -84,9 +90,6 @@ msgstr "Aktualizácia pre OS 7 a Gtk 4"
 #~ msgid "Redesign Housekeeping and add Downloads option"
 #~ msgstr ""
 #~ "Prerobený vzhľad sekcie Upratovanie a pridaná možnosť Stiahnuté súbory"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
 
 #~ msgid "Add style view"
 #~ msgstr "Pridané zobrazenie štýlov"
