@@ -302,7 +302,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             overlay.add_css_class (Granite.STYLE_CLASS_CARD);
             overlay.add_css_class (Granite.STYLE_CLASS_ROUNDED);
 
-            var frame = new Gtk.AspectFrame (0.5f, 0.5f, (float) 92 / 64, false) {
+            var frame = new Gtk.AspectFrame (0.5f, 0.5f, (float) 4 / 3, false) {
                 child = overlay
             };
             frame.set_parent (this);
