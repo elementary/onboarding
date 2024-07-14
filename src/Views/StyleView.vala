@@ -99,16 +99,13 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             }
         }
 
-        var prefer_default_card = new Gtk.Grid ();
-        prefer_default_card.add_css_class (Granite.STYLE_CLASS_CARD);
-        prefer_default_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
-        prefer_default_card.add_css_class ("prefer-default");
+        var default_preview = new DesktopPreview ("default");
 
         var prefer_default_radio = new Gtk.CheckButton ();
         prefer_default_radio.add_css_class ("image-button");
 
         var prefer_default_grid = new Gtk.Grid ();
-        prefer_default_grid.attach (prefer_default_card, 0, 0);
+        prefer_default_grid.attach (default_preview, 0, 0);
         prefer_default_grid.attach (
             new Gtk.Label (_("Default")) {
                 mnemonic_widget = prefer_default_radio
@@ -116,10 +113,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         );
         prefer_default_grid.set_parent (prefer_default_radio);
 
-        var prefer_dark_card = new Gtk.Grid ();
-        prefer_dark_card.add_css_class (Granite.STYLE_CLASS_CARD);
-        prefer_dark_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
-        prefer_dark_card.add_css_class ("prefer-dark");
+        var dark_preview = new DesktopPreview ("dark");
 
         var prefer_dark_radio = new Gtk.CheckButton () {
             group = prefer_default_radio
@@ -127,7 +121,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_dark_radio.add_css_class ("image-button");
 
         var prefer_dark_grid = new Gtk.Grid ();
-        prefer_dark_grid.attach (prefer_dark_card, 0, 0);
+        prefer_dark_grid.attach (dark_preview, 0, 0);
         prefer_dark_grid.attach (
             new Gtk.Label (_("Dark")) {
                 mnemonic_widget = prefer_dark_radio
@@ -135,10 +129,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         );
         prefer_dark_grid.set_parent (prefer_dark_radio);
 
-        var prefer_scheduled_card = new Gtk.Grid ();
-        prefer_scheduled_card.add_css_class (Granite.STYLE_CLASS_CARD);
-        prefer_scheduled_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
-        prefer_scheduled_card.add_css_class ("prefer-scheduled");
+        var scheduled_preview = new DesktopPreview ("scheduled");
 
         var prefer_scheduled_radio = new Gtk.CheckButton () {
             group = prefer_default_radio
@@ -146,7 +137,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_scheduled_radio.add_css_class ("image-button");
 
         var prefer_scheduled_grid = new Gtk.Grid ();
-        prefer_scheduled_grid.attach (prefer_scheduled_card, 0, 0);
+        prefer_scheduled_grid.attach (scheduled_preview, 0, 0);
         prefer_scheduled_grid.attach (
             new Gtk.Label (_("Sunset to Sunrise")) {
                 mnemonic_widget = prefer_scheduled_radio
@@ -231,61 +222,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         custom_bin.append (color_scheme_box);
         custom_bin.append (accent_box);
 
-        var background_settings = new Settings ("org.gnome.desktop.background");
-
-        var background_uri = background_settings.get_string ("picture-uri");
-        var file = File.new_for_uri (background_uri);
-        if (file.query_exists ()) {
-            var background_provider = new Gtk.CssProvider ();
-            background_provider.load_from_data (
-                """
-                .prefer-default {
-                    background-image:
-                        url("resource:///io/elementary/onboarding/appearance-default.svg"),
-                        url("%s");
-                }
-
-                .prefer-dark {
-                    background-size: 86px 64px, cover, cover;
-                    background-image:
-                        url("resource:///io/elementary/onboarding/appearance-dark.svg"),
-                        linear-gradient(
-                            to bottom,
-                            alpha(black, 0.45),
-                            alpha(black, 0.45)
-                        ),
-                        url("%s");
-                }
-
-                .prefer-scheduled {
-                    background-image:
-                        url("resource:///io/elementary/onboarding/appearance-scheduled.svg"),
-                        linear-gradient(
-                            120deg,
-                            transparent 50%,
-                            alpha(black, 0.45) 51%
-                        ),
-                        url("%s");
-                }
-                """.printf (background_uri, background_uri, background_uri).data
-            );
-
-            prefer_default_card.get_style_context ().add_provider (
-                background_provider,
-                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-            );
-
-            prefer_dark_card.get_style_context ().add_provider (
-                background_provider,
-                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-            );
-
-            prefer_scheduled_card.get_style_context ().add_provider (
-                background_provider,
-                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-            );
-        }
-
         var settings = new GLib.Settings ("io.elementary.settings-daemon.prefers-color-scheme");
 
         if (settings.get_string ("prefer-dark-schedule") == "sunset-to-sunrise") {
@@ -309,6 +245,139 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_scheduled_radio.toggled.connect (() => {
             settings.set_string ("prefer-dark-schedule", "sunset-to-sunrise");
         });
+    }
+
+    private class DesktopPreview : Gtk.Widget {
+        private static Settings pantheon_settings;
+        private static Settings gnome_settings;
+        private Gtk.Picture picture;
+
+        class construct {
+            set_css_name ("desktop-preview");
+        }
+
+        static construct {
+            set_layout_manager_type (typeof (Gtk.BinLayout));
+
+            pantheon_settings = new Settings ("io.elementary.desktop.background");
+            gnome_settings = new Settings ("org.gnome.desktop.background");
+        }
+
+        public DesktopPreview (string style_class) {
+            picture = new Gtk.Picture () {
+                content_fit = COVER
+            };
+
+            var dock = new Gtk.Box (HORIZONTAL, 0) {
+                halign = CENTER,
+                valign = END
+            };
+            dock.add_css_class ("dock");
+
+            var window_back = new Gtk.Box (HORIZONTAL, 0) {
+                halign = CENTER,
+                valign = CENTER
+            };
+            window_back.add_css_class ("window");
+            window_back.add_css_class ("back");
+
+            var window_front = new Gtk.Box (HORIZONTAL, 0) {
+                halign = CENTER,
+                valign = CENTER
+            };
+            window_front.add_css_class ("window");
+            window_front.add_css_class ("front");
+
+            var shell = new Gtk.Box (HORIZONTAL, 0);
+            shell.add_css_class ("shell");
+
+            var overlay = new Gtk.Overlay () {
+                child = picture,
+                overflow = HIDDEN
+            };
+            overlay.add_overlay (shell);
+            overlay.add_overlay (dock);
+            overlay.add_overlay (window_back);
+            overlay.add_overlay (window_front);
+            overlay.add_css_class (Granite.STYLE_CLASS_CARD);
+            overlay.add_css_class (Granite.STYLE_CLASS_ROUNDED);
+
+            var frame = new Gtk.AspectFrame (0.5f, 0.5f, (float) 92 / 64, false) {
+                child = overlay
+            };
+            frame.set_parent (this);
+
+            add_css_class (style_class);
+
+            update_picture ();
+            gnome_settings.changed.connect (update_picture);
+
+            if (has_css_class ("dark")) {
+                update_dim ();
+                pantheon_settings.changed.connect (update_dim);
+            }
+
+            realize.connect (() => {
+                var monitor = Gdk.Display.get_default ().get_monitor_at_surface (
+                    (((Gtk.Application) Application.get_default ()).active_window).get_surface ()
+                );
+
+                frame.ratio = (float) monitor.geometry.width / monitor.geometry.height;
+            });
+        }
+
+        private void update_dim () {
+            if (pantheon_settings.get_boolean ("dim-wallpaper-in-dark-style")) {
+                add_css_class ("dim");
+            } else {
+                remove_css_class ("dim");
+            }
+        }
+
+        private void update_picture () {
+            if (gnome_settings.get_string ("picture-options") == "none") {
+                Gdk.RGBA rgba = {};
+                rgba.parse (gnome_settings.get_string ("primary-color"));
+
+                var pixbuf = new Gdk.Pixbuf (RGB, false, 8, 500, 500);
+                pixbuf.fill (rgba_to_pixel (rgba));
+
+                picture.paintable = Gdk.Texture.for_pixbuf (pixbuf);
+                return;
+            }
+
+            if (has_css_class ("dark")) {
+                var dark_file = File.new_for_uri (
+                    gnome_settings.get_string ("picture-uri-dark")
+                );
+
+                if (dark_file.query_exists ()) {
+                    picture.file = dark_file;
+                    return;
+                }
+            }
+
+            picture.file = File.new_for_uri (
+                gnome_settings.get_string ("picture-uri")
+            );
+        }
+
+        // Borrowed from
+        // https://github.com/GNOME/california/blob/master/src/util/util-gfx.vala
+        private static uint32 rgba_to_pixel (Gdk.RGBA rgba) {
+            return (uint32) fp_to_uint8 (rgba.red) << 24
+                | (uint32) fp_to_uint8 (rgba.green) << 16
+                | (uint32) fp_to_uint8 (rgba.blue) << 8
+                | (uint32) fp_to_uint8 (rgba.alpha);
+        }
+
+        private static uint8 fp_to_uint8 (double value) {
+            return (uint8) (value * uint8.MAX);
+        }
+
+        ~DesktopPreview () {
+            get_first_child ().unparent ();
+        }
     }
 
     private class PrefersAccentColorButton : Gtk.CheckButton {

@@ -55,49 +55,114 @@ image.logo {
     margin: 4px;
 }
 
-checkbutton .card {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 86px 64px, cover;
-    min-width: 92px;
-    min-height: 64px;
-    margin: 6px 6px 12px 12px;
+desktop-preview {
+    min-width: 100px;
+    min-height: 56px;
+    margin: 0.5em 0.5em 1em;
 }
 
-checkbutton .card.prefer-default {
-    background-color: white;
+desktop-preview .shell {
+    transition: all 300ms ease-in-out;
+}
+
+desktop-preview.scheduled .shell {
+    background-size: cover;
     background-image:
-        url("resource:///io/elementary/onboarding/appearance-default.svg"),
         linear-gradient(
-            to bottom,
-            alpha(@accent_color_300, 0.1),
-            alpha(@accent_color_500, 0.1)
+            to right,
+            transparent 50%,
+            alpha(black, 0.3) 50%
         );
 }
 
-checkbutton .card.prefer-dark {
-    background-color: mix(@BLACK_300, @BLACK_500, 0.25);
-    background-image:
-        url("resource:///io/elementary/onboarding/appearance-dark.svg"),
-        linear-gradient(
-            to bottom,
-            alpha(@accent_color_300, 0.1),
-            alpha(@accent_color_500, 0.1)
-        );
+desktop-preview.dim .shell {
+    background-color: alpha(black, 0.3);
 }
 
-checkbutton .card.prefer-scheduled {
-    background-size: 86px 64px, cover, cover;
-    background-image:
-        url("resource:///io/elementary/onboarding/appearance-scheduled.svg"),
+desktop-preview .dock {
+    border-radius: 2px;
+    min-height: 0.6em;
+    min-width: 5em;
+    background: alpha(#fafafa, 0.6);
+    box-shadow:
+        inset 0 -1px 0 0 alpha(white, 0.1),
+        inset 0 1px 0 0 alpha(white, 0.15),
+        inset 1px 0 0 0 alpha(white, 0.035),
+        inset -1px 0 0 0 alpha(white, 0.035),
+        0 0 0 1px alpha(black, 0.1),
+        0 1px 3px alpha(black, 0.10),
+        0 3px 9px alpha(black, 0.15);
+    margin: 0.25em;
+}
+
+desktop-preview.dark .dock {
+    background: alpha(#444, 0.6);
+    box-shadow:
+        inset 0 -1px 0 0 alpha(white, 0.05),
+        inset 0 1px 0 0 alpha(white, 0.07),
+        inset 1px 0 0 0 alpha(white, 0.0175),
+        inset -1px 0 0 0 alpha(white, 0.0175),
+        0 0 0 1px alpha(black, 0.7),
+        0 1px 2px alpha(black, 0.1),
+        0 2px 4px alpha(black, 0.3);
+}
+
+desktop-preview.scheduled .dock {
+    background:
         linear-gradient(
-            to bottom,
-            alpha(@accent_color_300, 0.1),
-            alpha(@accent_color_500, 0.1)
-        ),
-        linear-gradient(
-            120deg,
-            white 50%,
-            mix(@BLACK_300, @BLACK_500, 0.25) 51%
+            to right,
+            alpha(#fafafa, 0.6) 50%,
+            alpha(#444, 0.6) 50%
         );
+    box-shadow:
+        inset 0 -1px 0 0 alpha(white, 0.05),
+        inset 0 1px 0 0 alpha(white, 0.07),
+        inset 1px 0 0 0 alpha(white, 0.0175),
+        inset -1px 0 0 0 alpha(white, 0.0175),
+        0 0 0 1px alpha(black, 0.7),
+        0 1px 2px alpha(black, 0.1),
+        0 2px 4px alpha(black, 0.3);
+}
+
+desktop-preview .window {
+    border-radius: 0.25em;
+    min-height: 1.75em;
+    min-width: 2.25em;
+}
+
+desktop-preview .window.back {
+    margin-right: 1.75em;
+    margin-bottom: 1.75em;
+}
+
+desktop-preview .window.front {
+    margin-left: 1.75em;
+    margin-top: 0;
+}
+
+desktop-preview .window.front,
+desktop-preview.scheduled .window.back {
+    background: #fafafa;
+    box-shadow:
+        inset 0 1px 0 0 white,
+        inset 0 -1px 0 0 alpha(white, 0.8),
+        inset 1px 0 0 0 alpha(white, 0.5),
+        inset -1px 0 0 0 alpha(white, 0.5),
+        0 0 0 1px alpha(black, 0.1),
+        0 1px 2px alpha(black, 0.1),
+        0 2px 4px alpha(black, 0.3);
+}
+
+desktop-preview .window.back,
+desktop-preview.dark .window.front,
+desktop-preview.scheduled .window.front {
+    background: #444;
+    box-shadow:
+        inset 0 1px 0 0 alpha(white, 0.15),
+        inset 0 -1px 0 0 alpha(white, 0.1),
+        inset 1px 0 0 0 alpha(white, 0.035),
+        inset -1px 0 0 0 alpha(white, 0.035),
+        0 0 0 1px alpha(black, 0.7),
+        0 1px 2px alpha(black, 0.1),
+        0 2px 4px alpha(black, 0.3);
 }

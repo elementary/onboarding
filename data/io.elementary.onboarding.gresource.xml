@@ -2,9 +2,6 @@
 <gresources>
   <gresource prefix="/io/elementary/onboarding">
     <file compressed="true">Application.css</file>
-    <file compressed="true" preprocess="xml-stripblanks">appearance-default.svg</file>
-    <file compressed="true" preprocess="xml-stripblanks">appearance-dark.svg</file>
-    <file compressed="true" preprocess="xml-stripblanks">appearance-scheduled.svg</file>
   </gresource>
   <gresource prefix="/io/elementary/onboarding/icons">
     <file alias="24x24@2/apps/folder-screenshots-icon.svg" compressed="true" preprocess="xml-stripblanks">folder-screenshots-icon/24.svg</file>
