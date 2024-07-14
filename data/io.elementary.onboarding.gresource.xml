@@ -2,8 +2,6 @@
 <gresources>
   <gresource prefix="/io/elementary/onboarding">
     <file compressed="true">Application.css</file>
-    <file compressed="true">StyleView.css</file>
-    <file compressed="true">WelcomeView.css</file>
     <file compressed="true" preprocess="xml-stripblanks">appearance-default.svg</file>
     <file compressed="true" preprocess="xml-stripblanks">appearance-dark.svg</file>
     <file compressed="true" preprocess="xml-stripblanks">appearance-scheduled.svg</file>

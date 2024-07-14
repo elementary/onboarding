@@ -73,9 +73,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
     }
 
     construct {
-        var css_provider = new Gtk.CssProvider ();
-        css_provider.load_from_resource ("/io/elementary/onboarding/StyleView.css");
-
         string? user_path = null;
         try {
             FDO.Accounts? accounts_service = GLib.Bus.get_proxy_sync (
@@ -106,7 +103,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_default_card.add_css_class (Granite.STYLE_CLASS_CARD);
         prefer_default_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
         prefer_default_card.add_css_class ("prefer-default");
-        prefer_default_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_default_radio = new Gtk.CheckButton ();
         prefer_default_radio.add_css_class ("image-button");
@@ -124,7 +120,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_dark_card.add_css_class (Granite.STYLE_CLASS_CARD);
         prefer_dark_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
         prefer_dark_card.add_css_class ("prefer-dark");
-        prefer_dark_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_dark_radio = new Gtk.CheckButton () {
             group = prefer_default_radio
@@ -144,7 +139,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_scheduled_card.add_css_class (Granite.STYLE_CLASS_CARD);
         prefer_scheduled_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
         prefer_scheduled_card.add_css_class ("prefer-scheduled");
-        prefer_scheduled_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_scheduled_radio = new Gtk.CheckButton () {
             group = prefer_default_radio

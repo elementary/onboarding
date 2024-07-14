@@ -43,9 +43,6 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
                 var file = File.new_for_path (file_path);
 
                 if (file.query_exists ()) {
-                    var style_provider = new Gtk.CssProvider ();
-                    style_provider.load_from_resource ("io/elementary/onboarding/WelcomeView.css");
-
                     var background_provider = new Gtk.CssProvider ();
                     background_provider.load_from_data (
                     """
@@ -63,7 +60,6 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
 
                     image.pixel_size = 48;
                     image.add_css_class ("logo");
-                    image.get_style_context ().add_provider (style_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
                     image.get_style_context ().add_provider (background_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
                     break;
