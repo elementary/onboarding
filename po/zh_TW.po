@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-13 16:52+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
 "PO-Revision-Date: 2021-10-05 13:59+0000\n"
 "Last-Translator: Tommy Chiang <ty1208chiang@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -19,22 +19,22 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.2\n"
 
-#: src/MainWindow.vala:31
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "設定 %s"
 
-#: src/MainWindow.vala:126
+#: src/Views/AbstractOnboardingView.vala:85
 msgid "Skip All"
 msgstr "全部略過"
 
-#: src/MainWindow.vala:140
-msgid "Get Started"
-msgstr "開始"
-
-#: src/MainWindow.vala:144
+#: src/Views/AbstractOnboardingView.vala:89
 msgid "Next"
 msgstr "繼續"
+
+#: src/Views/AbstractOnboardingView.vala:109
+msgid "Get Started"
+msgstr "開始"
 
 #: src/Views/AppCenterView.vala:22
 #, fuzzy
