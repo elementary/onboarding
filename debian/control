@@ -3,15 +3,17 @@ Section: x11
 Priority: extra
 Maintainer: elementary, Inc. <builds@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
+               libadwaita-1-dev (>= 1.4.0),
                libgranite-7-dev,
                libgtk-4-dev,
-               libadwaita-1-dev (>= 1.4.0),
                meson,
                valac
 Standards-Version: 4.1.1
 
 Package: io.elementary.onboarding
 Architecture: any
-Depends: io.elementary.settings-daemon (>=1.3.0), ${misc:Depends}, ${shlibs:Depends}
+Depends: io.elementary.settings-daemon (>=1.3.0),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Change common settings on first-run
  Onboarding assists users during their first log in to elementary OS.
