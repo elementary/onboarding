@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 04:47+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
 "PO-Revision-Date: 2023-12-22 19:36+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/installer/"
@@ -29,57 +29,65 @@ msgstr "კეთილი იყოს თქვენი მობრძან
 msgid "Change common settings on first-run"
 msgstr "შეცვალეთ სასურველი პარამეტრები პირველი გაშვებისას"
 
-#: data/onboarding.metainfo.xml.in:58
-msgid "Use the current wallpaper in the \"Choose your look\" view"
-msgstr ""
-"მიმდინარე ფონის სურათის გამოყენება \"აირჩიეთ სასურველი გარეგნობის\" ხედში"
+#: data/onboarding.metainfo.xml.in:49
+msgid "elementary, Inc."
+msgstr "elementary, Inc."
 
-#: data/onboarding.metainfo.xml.in:59 data/onboarding.metainfo.xml.in:76
-#: data/onboarding.metainfo.xml.in:87 data/onboarding.metainfo.xml.in:98
-#: data/onboarding.metainfo.xml.in:107
+#: data/onboarding.metainfo.xml.in:58
+msgid "UpdatesView: add OS updates"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:59
+msgid "Improve screenreader support"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:72
+#: data/onboarding.metainfo.xml.in:89 data/onboarding.metainfo.xml.in:100
+#: data/onboarding.metainfo.xml.in:111
 msgid "Updated translations"
 msgstr "განახლებული თარგმანები"
 
 #: data/onboarding.metainfo.xml.in:71
+msgid "Use the current wallpaper in the \"Choose your look\" view"
+msgstr ""
+"მიმდინარე ფონის სურათის გამოყენება \"აირჩიეთ სასურველი გარეგნობის\" ხედში"
+
+#: data/onboarding.metainfo.xml.in:84
 msgid "Redesigned app icon"
 msgstr "თავიდან დახატული აპის ხატულა"
 
-#: data/onboarding.metainfo.xml.in:72
+#: data/onboarding.metainfo.xml.in:85
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 "მთავარი გვერდის ხატულის გენერაცია ნაგულისხმევი ფონის სურათისა და აქცენტის "
 "ფერისგან"
 
-#: data/onboarding.metainfo.xml.in:73
+#: data/onboarding.metainfo.xml.in:86
 msgid "Use bolder typography"
 msgstr "საზღვრის ტიპოგრაფიის გამოყენება"
 
-#: data/onboarding.metainfo.xml.in:74
+#: data/onboarding.metainfo.xml.in:87
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr "აპის გვერდის შეცვლა შეტვირთვისა და ალტ. ჟურნალების უკეთ ახსნისთვის"
 
-#: data/onboarding.metainfo.xml.in:75
+#: data/onboarding.metainfo.xml.in:88
 msgid "Always warn about Early Access builds"
 msgstr "ყოველთვის გაფრთხილება ადრეული წვდომის ვერსიების შესახებ"
 
-#: data/onboarding.metainfo.xml.in:95
+#: data/onboarding.metainfo.xml.in:108
 msgid "Add Automatic Updates view"
 msgstr "ავტომატური განახლებების ხედის დამატება"
 
-#: data/onboarding.metainfo.xml.in:96
+#: data/onboarding.metainfo.xml.in:109
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "დაემატა დაისიდან აისამდე პარამეტრი სტილის ხედში"
 
-#: data/onboarding.metainfo.xml.in:97
+#: data/onboarding.metainfo.xml.in:110
 msgid "Update for OS 7 and Gtk 4"
 msgstr "განახლებები OS 7 და Gtk 4-სთვის"
 
-#: data/onboarding.metainfo.xml.in:106
-msgid "Redesign Housekeeping and add Downloads option"
-msgstr "გადამუშავდა დიასახლისობა და დაემატა გადმოწერის პარამეტრი"
-
-#~ msgid "elementary, Inc."
-#~ msgstr "elementary, Inc."
+#~ msgid "Redesign Housekeeping and add Downloads option"
+#~ msgstr "გადამუშავდა დიასახლისობა და დაემატა გადმოწერის პარამეტრი"
 
 #~ msgid "Add style view"
 #~ msgstr "სტილს ხედის დამატება"

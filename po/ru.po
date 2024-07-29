@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 04:47+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
 "PO-Revision-Date: 2024-02-13 00:12+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
@@ -20,22 +20,22 @@ msgstr ""
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.0.2\n"
 
-#: src/MainWindow.vala:31
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "Настройка %s"
 
-#: src/MainWindow.vala:126
+#: src/Views/AbstractOnboardingView.vala:85
 msgid "Skip All"
 msgstr "Пропустить всё"
 
-#: src/MainWindow.vala:140
-msgid "Get Started"
-msgstr "Начать"
-
-#: src/MainWindow.vala:144
+#: src/Views/AbstractOnboardingView.vala:89
 msgid "Next"
 msgstr "Далее"
+
+#: src/Views/AbstractOnboardingView.vala:109
+msgid "Get Started"
+msgstr "Начать"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""

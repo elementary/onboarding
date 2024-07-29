@@ -21,7 +21,7 @@ gobject_dep = dependency('gobject-2.0')
 granite_dep = dependency('granite-7')
 gtk_dep = dependency('gtk4')
 posix_dep = meson.get_compiler('vala').find_library('posix')
-adw_dep = dependency('libadwaita-1')
+adw_dep = dependency('libadwaita-1', version: '>= 1.4.0')
 m_dep = cc.find_library('m', required : false)
 
 dependencies = [

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 04:47+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
 "PO-Revision-Date: 2019-04-11 16:53-0700\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,21 +18,21 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: src/MainWindow.vala:31
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr ""
 
-#: src/MainWindow.vala:126
+#: src/Views/AbstractOnboardingView.vala:85
 msgid "Skip All"
 msgstr ""
 
-#: src/MainWindow.vala:140
-msgid "Get Started"
+#: src/Views/AbstractOnboardingView.vala:89
+msgid "Next"
 msgstr ""
 
-#: src/MainWindow.vala:144
-msgid "Next"
+#: src/Views/AbstractOnboardingView.vala:109
+msgid "Get Started"
 msgstr ""
 
 #: src/Views/AppCenterView.vala:22

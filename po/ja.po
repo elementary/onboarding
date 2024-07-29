@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-04 04:47+0000\n"
-"PO-Revision-Date: 2024-05-06 07:40+0000\n"
+"POT-Creation-Date: 2024-07-14 00:43+0000\n"
+"PO-Revision-Date: 2024-06-16 02:16+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -17,24 +17,24 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.5.5\n"
 
-#: src/MainWindow.vala:31
+#: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/MainWindow.vala:126
+#: src/Views/AbstractOnboardingView.vala:85
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/MainWindow.vala:140
-msgid "Get Started"
-msgstr "始めましょう"
-
-#: src/MainWindow.vala:144
+#: src/Views/AbstractOnboardingView.vala:89
 msgid "Next"
 msgstr "次へ"
+
+#: src/Views/AbstractOnboardingView.vala:109
+msgid "Get Started"
+msgstr "始めましょう"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
@@ -129,7 +129,8 @@ msgid ""
 msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
-msgstr[0] "古いファイルは %u 日後に自動的に削除されます。これにより、空き領域を確保でき"
+msgstr[0] ""
+"古いファイルは %u 日後に自動的に削除されます。これにより、空き領域を確保でき"
 "るほか、プライバシーの保護に役立ちます。"
 
 #: src/Views/HouseKeepingView.vala:33
@@ -279,7 +280,7 @@ msgstr "無料アプリと購入済みアプリ"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr "無料で試用中のアプリは自動的にアップデートされません"
+msgstr "無料試用中のアプリは自動的にアップデートされません"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"

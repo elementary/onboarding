@@ -95,7 +95,6 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             "applications-development-symbolic"
         );
 
-        custom_bin.spacing = 3;
         custom_bin.append (thebasics_link);
         custom_bin.append (blog_link);
         custom_bin.append (support_link);
@@ -138,6 +137,8 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
                 child = box
             };
             link_button_widget.set_parent (this);
+
+            left_label.mnemonic_widget = link_button_widget;
         }
 
         ~ImageLinkButton () {

@@ -108,17 +108,22 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_default_card.add_css_class ("prefer-default");
         prefer_default_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
-        var prefer_default_radio = new Gtk.CheckButton ();
+        var prefer_default_radio = new Gtk.CheckButton () {
+            accessible_role = RADIO
+        };
         prefer_default_radio.add_css_class ("image-button");
+
+        var default_label = new Gtk.Label (_("Default"));
 
         var prefer_default_grid = new Gtk.Grid ();
         prefer_default_grid.attach (prefer_default_card, 0, 0);
-        prefer_default_grid.attach (
-            new Gtk.Label (_("Default")) {
-                mnemonic_widget = prefer_default_radio
-            }, 0, 1
-        );
+        prefer_default_grid.attach (default_label, 0, 1);
         prefer_default_grid.set_parent (prefer_default_radio);
+
+        prefer_default_radio.update_property_value (
+            {LABEL, DESCRIPTION},
+            {_("Style"), default_label.label}
+        );
 
         var prefer_dark_card = new Gtk.Grid ();
         prefer_dark_card.add_css_class (Granite.STYLE_CLASS_CARD);
@@ -127,18 +132,22 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_dark_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_dark_radio = new Gtk.CheckButton () {
+            accessible_role = RADIO,
             group = prefer_default_radio
         };
         prefer_dark_radio.add_css_class ("image-button");
 
+        var dark_label = new Gtk.Label (_("Dark"));
+
         var prefer_dark_grid = new Gtk.Grid ();
         prefer_dark_grid.attach (prefer_dark_card, 0, 0);
-        prefer_dark_grid.attach (
-            new Gtk.Label (_("Dark")) {
-                mnemonic_widget = prefer_dark_radio
-            }, 0, 1
-        );
+        prefer_dark_grid.attach (dark_label, 0, 1);
         prefer_dark_grid.set_parent (prefer_dark_radio);
+
+        prefer_dark_radio.update_property_value (
+            {LABEL, DESCRIPTION},
+            {_("Style"), dark_label.label}
+        );
 
         var prefer_scheduled_card = new Gtk.Grid ();
         prefer_scheduled_card.add_css_class (Granite.STYLE_CLASS_CARD);
@@ -147,18 +156,22 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_scheduled_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_scheduled_radio = new Gtk.CheckButton () {
+            accessible_role = RADIO,
             group = prefer_default_radio
         };
         prefer_scheduled_radio.add_css_class ("image-button");
 
+        var prefer_scheduled_label = new Gtk.Label (_("Sunset to Sunrise"));
+
         var prefer_scheduled_grid = new Gtk.Grid ();
         prefer_scheduled_grid.attach (prefer_scheduled_card, 0, 0);
-        prefer_scheduled_grid.attach (
-            new Gtk.Label (_("Sunset to Sunrise")) {
-                mnemonic_widget = prefer_scheduled_radio
-            }, 0, 1
-        );
+        prefer_scheduled_grid.attach (prefer_scheduled_label, 0, 1);
         prefer_scheduled_grid.set_parent (prefer_scheduled_radio);
+
+        prefer_scheduled_radio.update_property_value (
+            {LABEL, DESCRIPTION},
+            {_("Style"), prefer_scheduled_label.label}
+        );
 
         var color_scheme_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
         color_scheme_box.append (prefer_default_radio);
@@ -335,8 +348,14 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         }
 
         construct {
+            accessible_role = Gtk.AccessibleRole.RADIO;
             add_css_class (Granite.STYLE_CLASS_COLOR_BUTTON);
             add_css_class (color.to_string ());
+
+            update_property_value (
+                {LABEL},
+                {_("accent color")}
+            );
 
             realize.connect (() => {
                 active = color == pantheon_act.prefers_accent_color;

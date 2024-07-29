@@ -10,3 +10,49 @@ checkbutton > box {
 checkbutton header {
     margin-top: 0;
 }
+
+navigation-view-page {
+    padding: 1em;
+    padding-top: 2em;
+}
+
+navigation-view-page > box {
+    border-spacing: 2em;
+}
+
+.header-area {
+    border-spacing: 0.25em;
+}
+
+.header-area image.large-icons {
+    -gtk-icon-size: 64px;
+}
+
+.header-area image.normal-icons {
+    -gtk-icon-size: 32px;
+}
+
+.header-area overlay {
+    margin-bottom: 0.5em;
+}
+
+.content-area {
+    border-spacing: 1em;
+}
+
+.dialog-action-area levelbar block {
+    box-shadow: none;
+    border: none;
+}
+.dialog-action-area levelbar block.empty {
+    background: alpha(@text_color, 0.1);
+}
+
+.dialog-action-area levelbar block.filled {
+    background-image: none;
+}
+
+.dialog-action-area {
+    border-spacing: 2em;
+    margin: 0;
+}
