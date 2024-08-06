@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-14 00:43+0000\n"
-"PO-Revision-Date: 2024-05-14 13:54+0000\n"
+"PO-Revision-Date: 2024-08-04 00:16+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -67,9 +67,8 @@ msgstr "太字のフォントを使うように修正"
 
 #: data/onboarding.metainfo.xml.in:87
 msgid "Redesign app page to better explain sideloading and alt stores"
-msgstr ""
-"サイドロードとサードパーティーのリモートリポジトリについての説明がわかりやす"
-"くなるよう、アプリページのデザインを変更"
+msgstr "サイドロードとサードパーティのリモートリポジトリについての説明がわかりやすく"
+"なるよう、アプリページのデザインを変更"
 
 #: data/onboarding.metainfo.xml.in:88
 msgid "Always warn about Early Access builds"

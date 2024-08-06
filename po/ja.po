@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-14 00:43+0000\n"
-"PO-Revision-Date: 2024-06-16 02:16+0000\n"
+"PO-Revision-Date: 2024-08-04 00:16+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -40,9 +40,9 @@ msgstr "始めましょう"
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
-msgstr ""
-"AppCenter から必要なアプリを入手したり、サードパーティーのリモートリポジトリ"
-"から Flatpak アプリをサイドロードしたりできます。"
+msgstr "AppCenter から必要なアプリを入手したり、"
+"サードパーティのリモートリポジトリから Flatpak "
+"アプリをサイドロードしたりできます。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -56,9 +56,8 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
-"Flathub など、サードパーティーのリモートリポジトリからアプリをサイドロードす"
-"ることもできます"
+msgstr "Flathub など、サードパーティのリモートリポジトリからアプリをサイドロードする"
+"こともできます"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
@@ -198,9 +197,8 @@ msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
-"視覚スタイルとアクセントカラーを選んで、オリジナリティーを出しましょう。アプ"
-"リによっては、独自の視覚スタイルとアクセントカラーが使用されることもありま"
-"す。"
+"視覚スタイルとアクセントカラーを選んで、オリジナリティを出しましょう。アプリ"
+"によっては、独自の視覚スタイルとアクセントカラーが使用されることもあります。"
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
@@ -316,7 +314,7 @@ msgstr "公式ブログ…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
-msgstr "コミュニティーサポート…"
+msgstr "コミュニティサポート…"
 
 #: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
