@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 00:43+0000\n"
+"POT-Creation-Date: 2024-08-06 23:57+0000\n"
 "PO-Revision-Date: 2024-08-04 00:16+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/Views/AbstractOnboardingView.vala:85
+#: src/Views/AbstractOnboardingView.vala:82
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/Views/AbstractOnboardingView.vala:89
+#: src/Views/AbstractOnboardingView.vala:86
 msgid "Next"
 msgstr "次へ"
 
-#: src/Views/AbstractOnboardingView.vala:109
+#: src/Views/AbstractOnboardingView.vala:106
 msgid "Get Started"
 msgstr "始めましょう"
 
@@ -40,9 +40,9 @@ msgstr "始めましょう"
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
-msgstr "AppCenter から必要なアプリを入手したり、"
-"サードパーティのリモートリポジトリから Flatpak "
-"アプリをサイドロードしたりできます。"
+msgstr ""
+"AppCenter から必要なアプリを入手したり、サードパーティのリモートリポジトリか"
+"ら Flatpak アプリをサイドロードしたりできます。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -56,7 +56,8 @@ msgstr ""
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr "Flathub など、サードパーティのリモートリポジトリからアプリをサイドロードする"
+msgstr ""
+"Flathub など、サードパーティのリモートリポジトリからアプリをサイドロードする"
 "こともできます"
 
 #: src/Views/EarlyAccessView.vala:13
@@ -136,23 +137,27 @@ msgstr[0] ""
 msgid "Housekeeping"
 msgstr "自動削除"
 
-#: src/Views/HouseKeepingView.vala:38
-msgid "Automatically Delete:"
+#: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
+#: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
+#: src/Views/HouseKeepingView.vala:96
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatically Delete"
 msgstr "以下のファイルを自動的に削除:"
 
-#: src/Views/HouseKeepingView.vala:48
+#: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
 msgstr "不要な一時ファイル"
 
-#: src/Views/HouseKeepingView.vala:62
+#: src/Views/HouseKeepingView.vala:56
 msgid "Downloaded files"
 msgstr "ダウンロードしたファイル"
 
-#: src/Views/HouseKeepingView.vala:76
+#: src/Views/HouseKeepingView.vala:72
 msgid "Screenshot files"
 msgstr "スクリーンショット"
 
-#: src/Views/HouseKeepingView.vala:90
+#: src/Views/HouseKeepingView.vala:88
 msgid "Trashed files"
 msgstr "ゴミ箱に移動したファイル"
 
@@ -204,61 +209,70 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "外観を選択"
 
-#: src/Views/StyleView.vala:117
+#: src/Views/StyleView.vala:116
 msgid "Default"
 msgstr "デフォルト"
 
-#: src/Views/StyleView.vala:137
+#: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
+#: src/Views/StyleView.vala:173
+msgid "Style"
+msgstr ""
+
+#: src/Views/StyleView.vala:140
 msgid "Dark"
 msgstr "ダーク"
 
-#: src/Views/StyleView.vala:157
+#: src/Views/StyleView.vala:164
 msgid "Sunset to Sunrise"
 msgstr "日没から日の出まで"
 
-#: src/Views/StyleView.vala:169
+#: src/Views/StyleView.vala:182
 msgid "Blueberry"
 msgstr "ブルーベリー"
 
-#: src/Views/StyleView.vala:174
+#: src/Views/StyleView.vala:187
 msgid "Mint"
 msgstr "ミント"
 
-#: src/Views/StyleView.vala:179
+#: src/Views/StyleView.vala:192
 msgid "Lime"
 msgstr "ライム"
 
-#: src/Views/StyleView.vala:184
+#: src/Views/StyleView.vala:197
 msgid "Banana"
 msgstr "バナナ"
 
-#: src/Views/StyleView.vala:189
+#: src/Views/StyleView.vala:202
 msgid "Orange"
 msgstr "オレンジ"
 
-#: src/Views/StyleView.vala:194
+#: src/Views/StyleView.vala:207
 msgid "Strawberry"
 msgstr "ストロベリー"
 
-#: src/Views/StyleView.vala:199
+#: src/Views/StyleView.vala:212
 msgid "Bubblegum"
 msgstr "ピンク"
 
-#: src/Views/StyleView.vala:204
+#: src/Views/StyleView.vala:217
 msgid "Grape"
 msgstr "グレープ"
 
-#: src/Views/StyleView.vala:209
+#: src/Views/StyleView.vala:222
 msgid "Cocoa"
 msgstr "ココア"
 
-#: src/Views/StyleView.vala:214
+#: src/Views/StyleView.vala:227
 msgid "Slate"
 msgstr "スレート"
 
-#: src/Views/StyleView.vala:219
+#: src/Views/StyleView.vala:232
 msgid "Automatic based on wallpaper"
 msgstr "壁紙に基づいて自動的に設定"
+
+#: src/Views/StyleView.vala:357
+msgid "accent color"
+msgstr ""
 
 #: src/Views/UpdatesView.vala:10
 msgid ""

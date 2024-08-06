@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 00:43+0000\n"
+"POT-Creation-Date: 2024-08-06 23:57+0000\n"
 "PO-Revision-Date: 2024-03-08 08:13+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s-ის მორგება"
 
-#: src/Views/AbstractOnboardingView.vala:85
+#: src/Views/AbstractOnboardingView.vala:82
 msgid "Skip All"
 msgstr "ყველას გამოტოვება"
 
-#: src/Views/AbstractOnboardingView.vala:89
+#: src/Views/AbstractOnboardingView.vala:86
 msgid "Next"
 msgstr "შემდეგი"
 
-#: src/Views/AbstractOnboardingView.vala:109
+#: src/Views/AbstractOnboardingView.vala:106
 msgid "Get Started"
 msgstr "დაწყება"
 
@@ -127,23 +127,27 @@ msgstr[1] ""
 msgid "Housekeeping"
 msgstr "გასუფთავება"
 
-#: src/Views/HouseKeepingView.vala:38
-msgid "Automatically Delete:"
+#: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
+#: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
+#: src/Views/HouseKeepingView.vala:96
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatically Delete"
 msgstr "ავტომატურად წაშლა:"
 
-#: src/Views/HouseKeepingView.vala:48
+#: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
 msgstr "ძველი დროებითი ფაილები"
 
-#: src/Views/HouseKeepingView.vala:62
+#: src/Views/HouseKeepingView.vala:56
 msgid "Downloaded files"
 msgstr "გადმოწერილი ფაილები"
 
-#: src/Views/HouseKeepingView.vala:76
+#: src/Views/HouseKeepingView.vala:72
 msgid "Screenshot files"
 msgstr "ეკრანის ანაბეჭდის ფაილები"
 
-#: src/Views/HouseKeepingView.vala:90
+#: src/Views/HouseKeepingView.vala:88
 msgid "Trashed files"
 msgstr "სანაგვე ყუთში გადატანილი ფაილები"
 
@@ -189,61 +193,70 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "აირჩიეთ თქვენი ხედი"
 
-#: src/Views/StyleView.vala:117
+#: src/Views/StyleView.vala:116
 msgid "Default"
 msgstr "ნაგულისხმები"
 
-#: src/Views/StyleView.vala:137
+#: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
+#: src/Views/StyleView.vala:173
+msgid "Style"
+msgstr ""
+
+#: src/Views/StyleView.vala:140
 msgid "Dark"
 msgstr "ბნელი"
 
-#: src/Views/StyleView.vala:157
+#: src/Views/StyleView.vala:164
 msgid "Sunset to Sunrise"
 msgstr "დაისიდან აისამდე"
 
-#: src/Views/StyleView.vala:169
+#: src/Views/StyleView.vala:182
 msgid "Blueberry"
 msgstr "მოცვი"
 
-#: src/Views/StyleView.vala:174
+#: src/Views/StyleView.vala:187
 msgid "Mint"
 msgstr "პიტნა"
 
-#: src/Views/StyleView.vala:179
+#: src/Views/StyleView.vala:192
 msgid "Lime"
 msgstr "ლიმონის ფერი"
 
-#: src/Views/StyleView.vala:184
+#: src/Views/StyleView.vala:197
 msgid "Banana"
 msgstr "ბანანი"
 
-#: src/Views/StyleView.vala:189
+#: src/Views/StyleView.vala:202
 msgid "Orange"
 msgstr "ნარინჯისფერი"
 
-#: src/Views/StyleView.vala:194
+#: src/Views/StyleView.vala:207
 msgid "Strawberry"
 msgstr "მარწყვი"
 
-#: src/Views/StyleView.vala:199
+#: src/Views/StyleView.vala:212
 msgid "Bubblegum"
 msgstr "საღეჭი რეზინი"
 
-#: src/Views/StyleView.vala:204
+#: src/Views/StyleView.vala:217
 msgid "Grape"
 msgstr "ყურძენი"
 
-#: src/Views/StyleView.vala:209
+#: src/Views/StyleView.vala:222
 msgid "Cocoa"
 msgstr "კოკო"
 
-#: src/Views/StyleView.vala:214
+#: src/Views/StyleView.vala:227
 msgid "Slate"
 msgstr "ფიქალი"
 
-#: src/Views/StyleView.vala:219
+#: src/Views/StyleView.vala:232
 msgid "Automatic based on wallpaper"
 msgstr "ავტომატური, ფონის სურათზე დაყრდნობით"
+
+#: src/Views/StyleView.vala:357
+msgid "accent color"
+msgstr ""
 
 #: src/Views/UpdatesView.vala:10
 msgid ""

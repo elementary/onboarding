@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 00:43+0000\n"
+"POT-Creation-Date: 2024-08-06 23:57+0000\n"
 "PO-Revision-Date: 2021-07-16 10:41+0000\n"
 "Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -24,15 +24,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Configurar %s"
 
-#: src/Views/AbstractOnboardingView.vala:85
+#: src/Views/AbstractOnboardingView.vala:82
 msgid "Skip All"
 msgstr "Pular Todos"
 
-#: src/Views/AbstractOnboardingView.vala:89
+#: src/Views/AbstractOnboardingView.vala:86
 msgid "Next"
 msgstr "Próximo"
 
-#: src/Views/AbstractOnboardingView.vala:109
+#: src/Views/AbstractOnboardingView.vala:106
 msgid "Get Started"
 msgstr "Iniciar"
 
@@ -149,27 +149,31 @@ msgstr[1] ""
 msgid "Housekeeping"
 msgstr "Serviço de Limpeza"
 
-#: src/Views/HouseKeepingView.vala:38
-msgid "Automatically Delete:"
+#: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
+#: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
+#: src/Views/HouseKeepingView.vala:96
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatically Delete"
 msgstr "Apagar automaticamente:"
 
-#: src/Views/HouseKeepingView.vala:48
+#: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
 msgstr "Arquivos temporários antigos"
 
-#: src/Views/HouseKeepingView.vala:62
+#: src/Views/HouseKeepingView.vala:56
 #, fuzzy
 #| msgid "Trashed files"
 msgid "Downloaded files"
 msgstr "Arquivos na lixeira"
 
-#: src/Views/HouseKeepingView.vala:76
+#: src/Views/HouseKeepingView.vala:72
 #, fuzzy
 #| msgid "Trashed files"
 msgid "Screenshot files"
 msgstr "Arquivos na lixeira"
 
-#: src/Views/HouseKeepingView.vala:90
+#: src/Views/HouseKeepingView.vala:88
 msgid "Trashed files"
 msgstr "Arquivos na lixeira"
 
@@ -221,66 +225,75 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "Escolha Sua Aparência"
 
-#: src/Views/StyleView.vala:117
+#: src/Views/StyleView.vala:116
 msgid "Default"
 msgstr "Padrão"
 
-#: src/Views/StyleView.vala:137
+#: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
+#: src/Views/StyleView.vala:173
+msgid "Style"
+msgstr ""
+
+#: src/Views/StyleView.vala:140
 msgid "Dark"
 msgstr "Noturno"
 
-#: src/Views/StyleView.vala:157
+#: src/Views/StyleView.vala:164
 msgid "Sunset to Sunrise"
 msgstr ""
 
-#: src/Views/StyleView.vala:169
+#: src/Views/StyleView.vala:182
 msgid "Blueberry"
 msgstr "Blueberry"
 
-#: src/Views/StyleView.vala:174
+#: src/Views/StyleView.vala:187
 msgid "Mint"
 msgstr "MInt"
 
-#: src/Views/StyleView.vala:179
+#: src/Views/StyleView.vala:192
 msgid "Lime"
 msgstr "Lime"
 
-#: src/Views/StyleView.vala:184
+#: src/Views/StyleView.vala:197
 msgid "Banana"
 msgstr "Banana"
 
-#: src/Views/StyleView.vala:189
+#: src/Views/StyleView.vala:202
 msgid "Orange"
 msgstr "Orange"
 
-#: src/Views/StyleView.vala:194
+#: src/Views/StyleView.vala:207
 #, fuzzy
 msgid "Strawberry"
 msgstr "Strawberry"
 
-#: src/Views/StyleView.vala:199
+#: src/Views/StyleView.vala:212
 #, fuzzy
 msgid "Bubblegum"
 msgstr "Bubblegum"
 
-#: src/Views/StyleView.vala:204
+#: src/Views/StyleView.vala:217
 #, fuzzy
 msgid "Grape"
 msgstr "Grape"
 
-#: src/Views/StyleView.vala:209
+#: src/Views/StyleView.vala:222
 #, fuzzy
 msgid "Cocoa"
 msgstr "Cocoa"
 
-#: src/Views/StyleView.vala:214
+#: src/Views/StyleView.vala:227
 #, fuzzy
 msgid "Slate"
 msgstr "Slate"
 
-#: src/Views/StyleView.vala:219
+#: src/Views/StyleView.vala:232
 msgid "Automatic based on wallpaper"
 msgstr "Automático baseado no papel de parede"
+
+#: src/Views/StyleView.vala:357
+msgid "accent color"
+msgstr ""
 
 #: src/Views/UpdatesView.vala:10
 msgid ""

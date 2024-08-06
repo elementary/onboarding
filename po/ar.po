@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-14 00:43+0000\n"
+"POT-Creation-Date: 2024-08-06 23:57+0000\n"
 "PO-Revision-Date: 2021-08-27 17:59+0000\n"
 "Last-Translator: Muhammad Al-Jayyousi <m7md.j99@protonmail.com>\n"
 "Language-Team: Arabic <https://l10n.elementary.io/projects/installer/"
@@ -25,15 +25,15 @@ msgstr ""
 msgid "Set up %s"
 msgstr "قم بإعداد %s"
 
-#: src/Views/AbstractOnboardingView.vala:85
+#: src/Views/AbstractOnboardingView.vala:82
 msgid "Skip All"
 msgstr "تخط الكل"
 
-#: src/Views/AbstractOnboardingView.vala:89
+#: src/Views/AbstractOnboardingView.vala:86
 msgid "Next"
 msgstr "التالي"
 
-#: src/Views/AbstractOnboardingView.vala:109
+#: src/Views/AbstractOnboardingView.vala:106
 msgid "Get Started"
 msgstr "ابدأ"
 
@@ -162,27 +162,31 @@ msgstr[5] ""
 msgid "Housekeeping"
 msgstr "التنظيف"
 
-#: src/Views/HouseKeepingView.vala:38
-msgid "Automatically Delete:"
+#: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
+#: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
+#: src/Views/HouseKeepingView.vala:96
+#, fuzzy
+#| msgid "Automatically Delete:"
+msgid "Automatically Delete"
 msgstr "احذف تلقائياً:"
 
-#: src/Views/HouseKeepingView.vala:48
+#: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
 msgstr "الملفات المؤقتة القديمة"
 
-#: src/Views/HouseKeepingView.vala:62
+#: src/Views/HouseKeepingView.vala:56
 #, fuzzy
 #| msgid "Trashed files"
 msgid "Downloaded files"
 msgstr "ملفات سلة المهملات"
 
-#: src/Views/HouseKeepingView.vala:76
+#: src/Views/HouseKeepingView.vala:72
 #, fuzzy
 #| msgid "Trashed files"
 msgid "Screenshot files"
 msgstr "ملفات سلة المهملات"
 
-#: src/Views/HouseKeepingView.vala:90
+#: src/Views/HouseKeepingView.vala:88
 msgid "Trashed files"
 msgstr "ملفات سلة المهملات"
 
@@ -232,61 +236,70 @@ msgstr ""
 msgid "Choose Your Look"
 msgstr "اختر مظهرك"
 
-#: src/Views/StyleView.vala:117
+#: src/Views/StyleView.vala:116
 msgid "Default"
 msgstr "الافتراضي"
 
-#: src/Views/StyleView.vala:137
+#: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
+#: src/Views/StyleView.vala:173
+msgid "Style"
+msgstr ""
+
+#: src/Views/StyleView.vala:140
 msgid "Dark"
 msgstr "مظلم"
 
-#: src/Views/StyleView.vala:157
+#: src/Views/StyleView.vala:164
 msgid "Sunset to Sunrise"
 msgstr ""
 
-#: src/Views/StyleView.vala:169
+#: src/Views/StyleView.vala:182
 msgid "Blueberry"
 msgstr "توت أزرق"
 
-#: src/Views/StyleView.vala:174
+#: src/Views/StyleView.vala:187
 msgid "Mint"
 msgstr "نعناع"
 
-#: src/Views/StyleView.vala:179
+#: src/Views/StyleView.vala:192
 msgid "Lime"
 msgstr "حامض الليمون"
 
-#: src/Views/StyleView.vala:184
+#: src/Views/StyleView.vala:197
 msgid "Banana"
 msgstr "موز"
 
-#: src/Views/StyleView.vala:189
+#: src/Views/StyleView.vala:202
 msgid "Orange"
 msgstr "برتقال"
 
-#: src/Views/StyleView.vala:194
+#: src/Views/StyleView.vala:207
 msgid "Strawberry"
 msgstr "فراولة"
 
-#: src/Views/StyleView.vala:199
+#: src/Views/StyleView.vala:212
 msgid "Bubblegum"
 msgstr "علكة"
 
-#: src/Views/StyleView.vala:204
+#: src/Views/StyleView.vala:217
 msgid "Grape"
 msgstr "عنب"
 
-#: src/Views/StyleView.vala:209
+#: src/Views/StyleView.vala:222
 msgid "Cocoa"
 msgstr "كاكاو"
 
-#: src/Views/StyleView.vala:214
+#: src/Views/StyleView.vala:227
 msgid "Slate"
 msgstr "أردواز"
 
-#: src/Views/StyleView.vala:219
+#: src/Views/StyleView.vala:232
 msgid "Automatic based on wallpaper"
 msgstr "تلقائياً اعتماداً على صورة الخلفية"
+
+#: src/Views/StyleView.vala:357
+msgid "accent color"
+msgstr ""
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
