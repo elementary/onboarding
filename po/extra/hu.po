@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-06 23:57+0000\n"
-"PO-Revision-Date: 2024-05-21 23:13+0000\n"
+"PO-Revision-Date: 2024-08-14 18:37+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -58,7 +58,7 @@ msgstr "Újratervezett alkalmazásikon"
 #: data/onboarding.metainfo.xml.in:85
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
-"Főoldali ikon generálása az alapértelmezett háttérkép és témaszín "
+"Főoldali ikon generálása az alapértelmezett háttérkép és kiemelőszín "
 "használatával"
 
 #: data/onboarding.metainfo.xml.in:86
