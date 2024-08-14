@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-06 23:57+0000\n"
-"PO-Revision-Date: 2024-02-16 14:40+0000\n"
+"PO-Revision-Date: 2024-08-14 18:37+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -142,10 +142,8 @@ msgstr "Takarítás"
 #: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
 #: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
 #: src/Views/HouseKeepingView.vala:96
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatically Delete"
-msgstr "Automatikus törlés:"
+msgstr "Automatikus törlés"
 
 #: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
@@ -204,8 +202,8 @@ msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
-"Tegye egyénivé, válasszon témát és színakcentust. Az alkalmazások továbbra "
-"is használhatják ehelyett a saját színüket."
+"Tegye egyénivé, válasszon témát és kiemelőszínt. Az alkalmazások továbbra is "
+"használhatják ehelyett a saját színüket."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
@@ -218,7 +216,7 @@ msgstr "Alapértelmezett"
 #: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
 #: src/Views/StyleView.vala:173
 msgid "Style"
-msgstr ""
+msgstr "Stílus"
 
 #: src/Views/StyleView.vala:140
 msgid "Dark"
@@ -274,7 +272,7 @@ msgstr "Automatikus a háttérkép alapján"
 
 #: src/Views/StyleView.vala:357
 msgid "accent color"
-msgstr ""
+msgstr "kiemelőszín"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
