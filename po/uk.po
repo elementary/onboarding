@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-06 23:57+0000\n"
-"PO-Revision-Date: 2024-02-13 00:12+0000\n"
+"PO-Revision-Date: 2024-08-14 18:37+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
 "onboarding/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -147,10 +147,8 @@ msgstr "Домоведення"
 #: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
 #: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
 #: src/Views/HouseKeepingView.vala:96
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatically Delete"
-msgstr "Автоматично видаляти:"
+msgstr "Видаляти автоматично"
 
 #: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
@@ -162,7 +160,7 @@ msgstr "Завантажені файли"
 
 #: src/Views/HouseKeepingView.vala:72
 msgid "Screenshot files"
-msgstr "Файли знімка екрана"
+msgstr "Файли знімків екрана"
 
 #: src/Views/HouseKeepingView.vala:88
 msgid "Trashed files"
@@ -224,7 +222,7 @@ msgstr "Типовий"
 #: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
 #: src/Views/StyleView.vala:173
 msgid "Style"
-msgstr ""
+msgstr "Стиль"
 
 #: src/Views/StyleView.vala:140
 msgid "Dark"
@@ -280,7 +278,7 @@ msgstr "Автоматично пристосовувати до тла"
 
 #: src/Views/StyleView.vala:357
 msgid "accent color"
-msgstr ""
+msgstr "основний колір"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
