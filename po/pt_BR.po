@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-06 23:57+0000\n"
-"PO-Revision-Date: 2021-07-16 10:41+0000\n"
-"Last-Translator: lucaspifonseca <lucaspifonseca@gmail.com>\n"
+"PO-Revision-Date: 2024-09-02 00:57+0000\n"
+"Last-Translator: Neylson Soares <neylsonsoarest+weblate@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -37,40 +37,35 @@ msgid "Get Started"
 msgstr "Iniciar"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"Baixe os aplicativos que você precisar no AppCenter. Aplicativos curados são "
-"feitos para o elementary OS e analisados pelo elementary."
+"Baixe os aplicativos que você precisa no AppCenter ou faça sideload de "
+"aplicativos Flatpak de lojas alternativas."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Baixe Alguns Apps"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"Baixe os aplicativos que você precisar no AppCenter. Aplicativos curados são "
-"feitos para o elementary OS e analisados pelo elementary."
+"Baixe aplicativos feitos para o elementary OS e revisados pela elementary no "
+"AppCenter"
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
+"Sideload de aplicativos de lojas de aplicativos alternativas como Flathub"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Use esta versão de pré-lançamento do %s somente em dispositivos dedicados ao "
+"desenvolvimento."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -78,7 +73,7 @@ msgstr "Versão de acesso antecipado"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Você não poderá atualizar para uma versão estável"
 
 #: src/Views/EarlyAccessView.vala:28
 #, fuzzy
@@ -88,7 +83,7 @@ msgstr "Algumas funcionalidades estão faltando ou incompletas"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Relate problemas usando o aplicativo Feedback"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -109,23 +104,23 @@ msgstr "Abrir Configurações do Sistema…"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "Esta sessão temporária será redefinida quando você sair."
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "Sessão de convidado"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "Todos os dados criados durante esta sessão serão excluídos"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "As configurações serão redefinidas para os padrões"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "Salve arquivos em um dispositivo externo para acessá-los mais tarde"
 
 #: src/Views/HouseKeepingView.vala:22
 #, fuzzy, c-format
@@ -168,10 +163,8 @@ msgid "Downloaded files"
 msgstr "Arquivos na lixeira"
 
 #: src/Views/HouseKeepingView.vala:72
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Screenshot files"
-msgstr "Arquivos na lixeira"
+msgstr "Arquivos de captura de tela"
 
 #: src/Views/HouseKeepingView.vala:88
 msgid "Trashed files"
