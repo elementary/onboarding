@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-06 23:57+0000\n"
-"PO-Revision-Date: 2020-04-27 00:10+0000\n"
-"Last-Translator: Rodrigo Oliveira <rod.oliveira@gmail.com>\n"
+"PO-Revision-Date: 2024-09-02 00:57+0000\n"
+"Last-Translator: José Rafael <jrafaeldesantana@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -35,11 +35,11 @@ msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "UpdatesView: add OS updates"
-msgstr ""
+msgstr "UpdatesView: adicionado atualizações do OS"
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Improve screenreader support"
-msgstr ""
+msgstr "Melhora o suporte ao leitor de tela"
 
 #: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:72
 #: data/onboarding.metainfo.xml.in:89 data/onboarding.metainfo.xml.in:100
@@ -49,41 +49,43 @@ msgstr "Traduções atualizadas"
 
 #: data/onboarding.metainfo.xml.in:71
 msgid "Use the current wallpaper in the \"Choose your look\" view"
-msgstr ""
+msgstr "Use o papel de parede atual na etapa \"Escolha seu visual\""
 
 #: data/onboarding.metainfo.xml.in:84
-#, fuzzy
-#| msgid "New app icon"
 msgid "Redesigned app icon"
-msgstr "Novo ícone do aplicativo"
+msgstr "Ícone do aplicativo redesenhado"
 
 #: data/onboarding.metainfo.xml.in:85
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
+"Gere um ícone de página principal usando o papel de parede padrão e a cor de "
+"destaque"
 
 #: data/onboarding.metainfo.xml.in:86
 msgid "Use bolder typography"
-msgstr ""
+msgstr "Use a tipografia em negrito"
 
 #: data/onboarding.metainfo.xml.in:87
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
+"Redesenhe a página do aplicativo para explicar melhor o sideloading e as "
+"lojas alternativas"
 
 #: data/onboarding.metainfo.xml.in:88
 msgid "Always warn about Early Access builds"
-msgstr ""
+msgstr "Sempre avise sobre compilações de acesso antecipado"
 
 #: data/onboarding.metainfo.xml.in:108
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "Adicionar visualização de atualizações automáticas"
 
 #: data/onboarding.metainfo.xml.in:109
 msgid "Add Sunset to Sunrise to Style View"
-msgstr ""
+msgstr "Adicione etapa de estilização \"do pôr do sol ao nascer do sol\""
 
 #: data/onboarding.metainfo.xml.in:110
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "Atualização para o OS 8 e Gtk 4"
 
 #~ msgid "Fix blurry icon in AppCenter"
 #~ msgstr "Corrigir ícone embaçado no Central de Aplicativos"
