@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-06 23:57+0000\n"
 "PO-Revision-Date: 2024-09-02 00:57+0000\n"
-"Last-Translator: Neylson Soares <neylsonsoarest+weblate@gmail.com>\n"
+"Last-Translator: José Rafael <jrafaeldesantana@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -76,10 +76,8 @@ msgid "You will not be able to upgrade to a stable release"
 msgstr "Você não poderá atualizar para uma versão estável"
 
 #: src/Views/EarlyAccessView.vala:28
-#, fuzzy
-#| msgid "Some features are missing or incomplete"
 msgid "Some features may be missing or incomplete"
-msgstr "Algumas funcionalidades estão faltando ou incompletas"
+msgstr "Alguns recursos podem estar faltando ou incompletos"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
@@ -123,10 +121,7 @@ msgid "Save files on an external device to access them later"
 msgstr "Salve arquivos em um dispositivo externo para acessá-los mais tarde"
 
 #: src/Views/HouseKeepingView.vala:22
-#, fuzzy, c-format
-#| msgid ""
-#| "Old files can be automatically deleted after %u days to save space and "
-#| "help protect your privacy."
+#, c-format
 msgid ""
 "Old files can be automatically deleted after %u day to save space and help "
 "protect your privacy."
@@ -134,8 +129,8 @@ msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr[0] ""
-"Arquivos antigos podem ser deletados automaticamente após %u dias para "
-"poupar espaço e ajudar a proteger a sua privacidade."
+"Arquivos antigos podem ser deletados automaticamente após %u dia para poupar "
+"espaço e ajudar a proteger a sua privacidade."
 msgstr[1] ""
 "Arquivos antigos podem ser deletados automaticamente após %u dias para "
 "poupar espaço e ajudar a proteger a sua privacidade."
@@ -147,20 +142,16 @@ msgstr "Serviço de Limpeza"
 #: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
 #: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
 #: src/Views/HouseKeepingView.vala:96
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatically Delete"
-msgstr "Apagar automaticamente:"
+msgstr "Apagar automaticamente"
 
 #: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
 msgstr "Arquivos temporários antigos"
 
 #: src/Views/HouseKeepingView.vala:56
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Downloaded files"
-msgstr "Arquivos na lixeira"
+msgstr "Arquivos baixados"
 
 #: src/Views/HouseKeepingView.vala:72
 msgid "Screenshot files"
@@ -225,7 +216,7 @@ msgstr "Padrão"
 #: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
 #: src/Views/StyleView.vala:173
 msgid "Style"
-msgstr ""
+msgstr "Estilo"
 
 #: src/Views/StyleView.vala:140
 msgid "Dark"
@@ -233,7 +224,7 @@ msgstr "Noturno"
 
 #: src/Views/StyleView.vala:164
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Do pôr do sol ao nascer do sol"
 
 #: src/Views/StyleView.vala:182
 msgid "Blueberry"
@@ -256,29 +247,24 @@ msgid "Orange"
 msgstr "Orange"
 
 #: src/Views/StyleView.vala:207
-#, fuzzy
 msgid "Strawberry"
-msgstr "Strawberry"
+msgstr "Morango"
 
 #: src/Views/StyleView.vala:212
-#, fuzzy
 msgid "Bubblegum"
-msgstr "Bubblegum"
+msgstr "Chiclete"
 
 #: src/Views/StyleView.vala:217
-#, fuzzy
 msgid "Grape"
-msgstr "Grape"
+msgstr "Uva"
 
 #: src/Views/StyleView.vala:222
-#, fuzzy
 msgid "Cocoa"
-msgstr "Cocoa"
+msgstr "Cacau"
 
 #: src/Views/StyleView.vala:227
-#, fuzzy
 msgid "Slate"
-msgstr "Slate"
+msgstr "Ardósia"
 
 #: src/Views/StyleView.vala:232
 msgid "Automatic based on wallpaper"
@@ -286,57 +272,52 @@ msgstr "Automático baseado no papel de parede"
 
 #: src/Views/StyleView.vala:357
 msgid "accent color"
-msgstr ""
+msgstr "cor de destaque"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"As atualizações podem ser instaladas automaticamente quando seu dispositivo "
+"estiver conectado à Internet."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Apagar automaticamente:"
+msgstr "Atualizações automáticas"
 
 #: src/Views/UpdatesView.vala:19
 msgid "Free & Purchased Apps"
-msgstr ""
+msgstr "Aplicações gratuitas e pagas"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
 msgstr ""
+"Os aplicativos testados gratuitamente não serão atualizados automaticamente"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "Sistema Operacional"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
-msgstr ""
+msgstr "Será instalado quando você reiniciar este dispositivo"
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
 msgstr "O que há de Novo"
 
 #: src/Views/WelcomeView.vala:27
-#, fuzzy
-#| msgid "Welcome to %s!"
 msgid "Welcome!"
-msgstr "Bem-Vindo ao %s!"
+msgstr "Bem-Vindo!"
 
 #: src/Views/WelcomeView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Continue to set up some useful features. Visit the links below for more "
-#| "information about %s."
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
 msgstr ""
 "Continue para configurar alguns recursos úteis. Visite os links abaixo para "
-"mais informação sobre %s."
+"obter mais ajuda para começar."
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
@@ -344,7 +325,7 @@ msgstr "Guia Básico…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "Nosso Blog…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
