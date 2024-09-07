@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-06 23:57+0000\n"
-"PO-Revision-Date: 2021-10-05 13:59+0000\n"
-"Last-Translator: Tommy Chiang <ty1208chiang@gmail.com>\n"
+"PO-Revision-Date: 2024-09-07 17:04+0000\n"
+"Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hant/>\n"
 "Language: zh_TW\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -37,91 +37,81 @@ msgid "Get Started"
 msgstr "開始"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
-msgstr ""
-"在 AppCenter 上獲得您需要的應用程式。精選的應用程式是專為 elementary OS 製作"
-"的，並已由 elementary 團隊審查過。"
+msgstr "在《應用程式中心》內取得您需要的應用程式，或是從替代商店側載 Flatpak "
+"應用程式。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "取得應用程式"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
-#| msgid ""
-#| "Get the apps you need on AppCenter. Curated apps are made for elementary "
-#| "OS and reviewed by elementary."
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
-msgstr ""
-"在 AppCenter 上獲得您需要的應用程式。精選的應用程式是專為 elementary OS 製作"
-"的，並已由 elementary 團隊審查過。"
+msgstr "在《應用程式中心》中取得為 elementary OS 量身定做並已由 elementary "
+"審查過的應用程式"
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "從 Flathub 等替代應用程式商店側載應用程式"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
-msgstr ""
+msgstr "請只在開發用的裝置上使用這個 %s 的早期發佈版本。"
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
-msgstr ""
+msgstr "搶先體驗版本"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "您將無法更新到穩定版"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
-msgstr ""
+msgstr "有些功能可能缺乏或是未完成"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "用《回饋》應用程式回報問題"
 
 #: src/Views/FinishView.vala:22
 #, c-format
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
-msgstr ""
+msgstr "請享受 %s！您可以隨時造訪《系統設定值》來設定硬體或變更您的偏好設定。"
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "準備就緒"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "開啟系統設定值…"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "這個暫時工作階段會在您登出時重設。"
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "訪客作業階段"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "在此作業階段建立的所有資料都會被刪除"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "設定值會被重設為預設"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "要之後能存取檔案的話請將它們存在外部裝置"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -131,75 +121,76 @@ msgid ""
 msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
-msgstr[0] ""
+msgstr[0] "舊檔案能在過了 %u 天之後自動刪除，來節省空間並保護您的隱私。"
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
-msgstr ""
+msgstr "自動清理"
 
 #: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
 #: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
 #: src/Views/HouseKeepingView.vala:96
 msgid "Automatically Delete"
-msgstr ""
+msgstr "自動刪除"
 
 #: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
-msgstr ""
+msgstr "舊的暫存檔"
 
 #: src/Views/HouseKeepingView.vala:56
 msgid "Downloaded files"
-msgstr ""
+msgstr "下載的檔案"
 
 #: src/Views/HouseKeepingView.vala:72
 msgid "Screenshot files"
-msgstr ""
+msgstr "畫面快照檔案"
 
 #: src/Views/HouseKeepingView.vala:88
 msgid "Trashed files"
-msgstr ""
+msgstr "移至垃圾桶內的檔案"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
-msgstr ""
+msgstr "讓您的顯示器的色彩在夜間趨於暖色，可能能夠幫助避免眼睛疲勞或失眠."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "夜光"
 
 #: src/Views/NightLightView.vala:34
 msgid "Night Light:"
-msgstr ""
+msgstr "夜光："
 
 #: src/Views/NightLightView.vala:40
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "調整排程和色溫…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
-msgstr ""
+msgstr "在《郵件》、《行事曆》與《待辦事項》中利用現存的線上帳號來與此裝置同步電子郵"
+"件、活動與待辦事項。"
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "線上帳號"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "連接線上帳號…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
-msgstr ""
+msgstr "選擇視覺風格和強調色來展現您的個性。應用程式可能會忽略這些偏好設定。"
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
-msgstr ""
+msgstr "選擇外觀"
 
 #: src/Views/StyleView.vala:116
 msgid "Default"
@@ -208,119 +199,119 @@ msgstr "預設"
 #: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
 #: src/Views/StyleView.vala:173
 msgid "Style"
-msgstr ""
+msgstr "風格"
 
 #: src/Views/StyleView.vala:140
 msgid "Dark"
-msgstr ""
+msgstr "深色"
 
 #: src/Views/StyleView.vala:164
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "日落到日出"
 
 #: src/Views/StyleView.vala:182
 msgid "Blueberry"
-msgstr ""
+msgstr "藍莓"
 
 #: src/Views/StyleView.vala:187
 msgid "Mint"
-msgstr ""
+msgstr "薄荷"
 
 #: src/Views/StyleView.vala:192
 msgid "Lime"
-msgstr ""
+msgstr "萊姆"
 
 #: src/Views/StyleView.vala:197
 msgid "Banana"
-msgstr ""
+msgstr "香蕉"
 
 #: src/Views/StyleView.vala:202
 msgid "Orange"
-msgstr ""
+msgstr "橘色"
 
 #: src/Views/StyleView.vala:207
 msgid "Strawberry"
-msgstr ""
+msgstr "草莓"
 
 #: src/Views/StyleView.vala:212
 msgid "Bubblegum"
-msgstr ""
+msgstr "粉色"
 
 #: src/Views/StyleView.vala:217
 msgid "Grape"
-msgstr ""
+msgstr "葡萄"
 
 #: src/Views/StyleView.vala:222
 msgid "Cocoa"
-msgstr ""
+msgstr "可可"
 
 #: src/Views/StyleView.vala:227
 msgid "Slate"
-msgstr ""
+msgstr "石板"
 
 #: src/Views/StyleView.vala:232
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "自動從桌布決定"
 
 #: src/Views/StyleView.vala:357
 msgid "accent color"
-msgstr ""
+msgstr "強調色"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
-msgstr ""
+msgstr "更新在您的裝置有連線到網際網路時可以自動安裝。"
 
 #: src/Views/UpdatesView.vala:12
 msgid "Automatic Updates"
-msgstr ""
+msgstr "自動更新"
 
 #: src/Views/UpdatesView.vala:19
 msgid "Free & Purchased Apps"
-msgstr ""
+msgstr "免費與已購買的應用程式"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr ""
+msgstr "免費嘗試中的應用程式不會自動更新"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "作業系統"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
-msgstr ""
+msgstr "會在您選擇重新啟動此裝置時安裝"
 
 #: src/Views/WelcomeView.vala:24
 msgid "What’s New"
-msgstr ""
+msgstr "新功能"
 
 #: src/Views/WelcomeView.vala:27
 msgid "Welcome!"
-msgstr ""
+msgstr "歡迎！"
 
 #: src/Views/WelcomeView.vala:33
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
-msgstr ""
+msgstr "繼續進行來設定一些有用的功能。造訪下方連結來取得初次使用的更多說明。"
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
-msgstr ""
+msgstr "基礎使用指南…"
 
 #: src/Views/WelcomeView.vala:82
 msgid "Our Blog…"
-msgstr ""
+msgstr "我們的部落格…"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Community Support…"
-msgstr ""
+msgstr "社群支援…"
 
 #: src/Views/WelcomeView.vala:94
 msgid "Get Involved…"
-msgstr ""
+msgstr "參與…"
 
 #~ msgid "Major Known Issues"
 #~ msgstr "主要已知問題"
