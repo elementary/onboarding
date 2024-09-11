@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-06 23:57+0000\n"
-"PO-Revision-Date: 2024-08-31 23:16+0000\n"
+"PO-Revision-Date: 2024-09-12 20:23+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ka/>\n"
@@ -39,7 +39,7 @@ msgstr "UpdatesView: ოს-ის განახლებების და�
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Improve screenreader support"
-msgstr ""
+msgstr "ეკრანის წამკითხველის გაუმჯობესება"
 
 #: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:72
 #: data/onboarding.metainfo.xml.in:89 data/onboarding.metainfo.xml.in:100
