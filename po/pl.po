@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-06 23:57+0000\n"
 "PO-Revision-Date: 2024-09-12 20:25+0000\n"
-"Last-Translator: Piotr Strebski <strebski@gmail.com>\n"
+"Last-Translator: Microwave <micro.mail88@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
 "Language: pl\n"
@@ -271,7 +271,7 @@ msgstr "Ciemnoszary"
 
 #: src/Views/StyleView.vala:232
 msgid "Automatic based on wallpaper"
-msgstr "Automatyczny, dostosowany do tapety"
+msgstr "Automatyczny, na podstawie tapety"
 
 #: src/Views/StyleView.vala:357
 msgid "accent color"
@@ -319,8 +319,8 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
 msgstr ""
-"Kontynuuj konfigurowanie nowych przydatnych funkcji. Odwiedź linki poniżej, "
-"aby uzyskać więcej informacji wstępnych."
+"Kontynuuj konfigurowanie przydatnych funkcji. Odwiedź linki poniżej, aby "
+"uzyskać więcej informacji."
 
 #: src/Views/WelcomeView.vala:76
 msgid "Basics Guide…"
