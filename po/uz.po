@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 23:57+0000\n"
+"POT-Creation-Date: 2024-09-13 18:50+0000\n"
 "PO-Revision-Date: 2021-03-21 22:19+0000\n"
 "Last-Translator: Shukrullo Turgunov <shookrullo@gmail.com>\n"
 "Language-Team: Uzbek <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s ni sozlash"
 
-#: src/Views/AbstractOnboardingView.vala:82
-msgid "Skip All"
-msgstr "Barchasini o'tkazib yuborish"
-
-#: src/Views/AbstractOnboardingView.vala:86
+#: src/Views/AbstractOnboardingView.vala:84
 msgid "Next"
 msgstr "Keyingi"
 
+#: src/Views/AbstractOnboardingView.vala:103
+msgid "Skip All"
+msgstr "Barchasini o'tkazib yuborish"
+
 #: src/Views/AbstractOnboardingView.vala:106
+msgid "Back"
+msgstr ""
+
+#: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
 msgstr "Ishni boshlash"
 
