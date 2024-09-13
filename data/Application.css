@@ -56,3 +56,8 @@ navigation-view-page > box {
     border-spacing: 2em;
     margin: 0;
 }
+
+row.link box {
+    padding: 0 6px;
+    border-spacing: 12px;
+}
