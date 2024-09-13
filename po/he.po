@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 18:57+0000\n"
-"PO-Revision-Date: 2024-08-08 10:16+0000\n"
+"PO-Revision-Date: 2024-09-14 21:16+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
 "onboarding/he/>\n"
@@ -34,7 +34,7 @@ msgstr "לדלג על הכול"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "חזרה"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
@@ -318,22 +318,20 @@ msgstr ""
 "להתחיל."
 
 #: src/Views/WelcomeView.vala:137
-#, fuzzy
-#| msgid "Basics Guide…"
 msgid "Basics Guide"
-msgstr "מדריך יסודות…"
+msgstr "מדריך יסודות"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "קבלת עזרה"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "האתר שלנו"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "השתתפות או מימון"
 
 #~ msgid "Our Blog…"
 #~ msgstr "הבלוג שלנו…"
