@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:50+0000\n"
+"POT-Creation-Date: 2024-09-13 18:57+0000\n"
 "PO-Revision-Date: 2024-09-13 00:01+0000\n"
 "Last-Translator: Microwave <micro.mail88@gmail.com>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
@@ -310,15 +310,15 @@ msgstr "System Operacyjny"
 msgid "Will be installed when you choose to restart this device"
 msgstr "Zostanie zainstalowany gdy uruchomisz ponownie to urządzenie"
 
-#: src/Views/WelcomeView.vala:24
+#: src/Views/WelcomeView.vala:85
 msgid "What’s New"
 msgstr "Co nowego"
 
-#: src/Views/WelcomeView.vala:27
+#: src/Views/WelcomeView.vala:88
 msgid "Welcome!"
 msgstr "Witaj!"
 
-#: src/Views/WelcomeView.vala:33
+#: src/Views/WelcomeView.vala:94
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
@@ -326,21 +326,32 @@ msgstr ""
 "Kontynuuj konfigurowanie przydatnych funkcji. Odwiedź poniższe odnośniki, "
 "aby uzyskać więcej informacji."
 
-#: src/Views/WelcomeView.vala:76
-msgid "Basics Guide…"
+#: src/Views/WelcomeView.vala:137
+#, fuzzy
+#| msgid "Basics Guide…"
+msgid "Basics Guide"
 msgstr "Przewodnik po podstawach…"
 
-#: src/Views/WelcomeView.vala:82
-msgid "Our Blog…"
-msgstr "Nasz blog…"
+#: src/Views/WelcomeView.vala:144
+msgid "Get Help"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:88
-msgid "Community Support…"
-msgstr "Wsparcie społeczności…"
+#: src/Views/WelcomeView.vala:151
+msgid "Our Website"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:94
-msgid "Get Involved…"
-msgstr "Zaangażuj się…"
+#: src/Views/WelcomeView.vala:158
+msgid "Get Involved or Sponsor Us"
+msgstr ""
+
+#~ msgid "Our Blog…"
+#~ msgstr "Nasz blog…"
+
+#~ msgid "Community Support…"
+#~ msgstr "Wsparcie społeczności…"
+
+#~ msgid "Get Involved…"
+#~ msgstr "Zaangażuj się…"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "

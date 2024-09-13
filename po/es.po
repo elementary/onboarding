@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:50+0000\n"
+"POT-Creation-Date: 2024-09-13 18:57+0000\n"
 "PO-Revision-Date: 2024-08-09 19:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
@@ -305,15 +305,15 @@ msgstr "Sistema operativo"
 msgid "Will be installed when you choose to restart this device"
 msgstr "Será instalado cuando reinicie el equipo"
 
-#: src/Views/WelcomeView.vala:24
+#: src/Views/WelcomeView.vala:85
 msgid "What’s New"
 msgstr "Novedades"
 
-#: src/Views/WelcomeView.vala:27
+#: src/Views/WelcomeView.vala:88
 msgid "Welcome!"
 msgstr "¡Sea bienvenido!"
 
-#: src/Views/WelcomeView.vala:33
+#: src/Views/WelcomeView.vala:94
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
@@ -321,21 +321,32 @@ msgstr ""
 "Ahora configuraremos algunas características útiles. Visite estos enlaces "
 "para obtener más información sobre sus primeros pasos."
 
-#: src/Views/WelcomeView.vala:76
-msgid "Basics Guide…"
+#: src/Views/WelcomeView.vala:137
+#, fuzzy
+#| msgid "Basics Guide…"
+msgid "Basics Guide"
 msgstr "Aprenda los conceptos básicos…"
 
-#: src/Views/WelcomeView.vala:82
-msgid "Our Blog…"
-msgstr "Nuestro blog…"
+#: src/Views/WelcomeView.vala:144
+msgid "Get Help"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:88
-msgid "Community Support…"
-msgstr "Soporte de la comunidad…"
+#: src/Views/WelcomeView.vala:151
+msgid "Our Website"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:94
-msgid "Get Involved…"
-msgstr "Participar…"
+#: src/Views/WelcomeView.vala:158
+msgid "Get Involved or Sponsor Us"
+msgstr ""
+
+#~ msgid "Our Blog…"
+#~ msgstr "Nuestro blog…"
+
+#~ msgid "Community Support…"
+#~ msgstr "Soporte de la comunidad…"
+
+#~ msgid "Get Involved…"
+#~ msgstr "Participar…"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "

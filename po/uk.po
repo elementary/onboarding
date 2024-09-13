@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:50+0000\n"
+"POT-Creation-Date: 2024-09-13 18:57+0000\n"
 "PO-Revision-Date: 2024-08-14 18:37+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -312,15 +312,15 @@ msgstr "Операційна система"
 msgid "Will be installed when you choose to restart this device"
 msgstr "Встановиться після перезапуску пристрою"
 
-#: src/Views/WelcomeView.vala:24
+#: src/Views/WelcomeView.vala:85
 msgid "What’s New"
 msgstr "Що нового"
 
-#: src/Views/WelcomeView.vala:27
+#: src/Views/WelcomeView.vala:88
 msgid "Welcome!"
 msgstr "Ласкаво просимо!"
 
-#: src/Views/WelcomeView.vala:33
+#: src/Views/WelcomeView.vala:94
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
@@ -328,21 +328,32 @@ msgstr ""
 "Продовжуйте налаштовувати корисні функції. Перейдіть за посиланнями нижче, "
 "щоб отримати додаткову довідку для початку роботи."
 
-#: src/Views/WelcomeView.vala:76
-msgid "Basics Guide…"
+#: src/Views/WelcomeView.vala:137
+#, fuzzy
+#| msgid "Basics Guide…"
+msgid "Basics Guide"
 msgstr "Посібник з основ…"
 
-#: src/Views/WelcomeView.vala:82
-msgid "Our Blog…"
-msgstr "Наш блог…"
+#: src/Views/WelcomeView.vala:144
+msgid "Get Help"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:88
-msgid "Community Support…"
-msgstr "Підтримка спільноти…"
+#: src/Views/WelcomeView.vala:151
+msgid "Our Website"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:94
-msgid "Get Involved…"
-msgstr "Долучитися…"
+#: src/Views/WelcomeView.vala:158
+msgid "Get Involved or Sponsor Us"
+msgstr ""
+
+#~ msgid "Our Blog…"
+#~ msgstr "Наш блог…"
+
+#~ msgid "Community Support…"
+#~ msgstr "Підтримка спільноти…"
+
+#~ msgid "Get Involved…"
+#~ msgstr "Долучитися…"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:50+0000\n"
+"POT-Creation-Date: 2024-09-13 18:57+0000\n"
 "PO-Revision-Date: 2022-09-10 12:23+0000\n"
 "Last-Translator: Aga Ismael <agaesmaeel@gmail.com>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -322,17 +322,17 @@ msgstr ""
 msgid "Will be installed when you choose to restart this device"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:24
+#: src/Views/WelcomeView.vala:85
 msgid "What’s New"
 msgstr "چی نوێیە"
 
-#: src/Views/WelcomeView.vala:27
+#: src/Views/WelcomeView.vala:88
 #, fuzzy
 #| msgid "Welcome to %s!"
 msgid "Welcome!"
 msgstr "بەخێربێت بۆ %s!"
 
-#: src/Views/WelcomeView.vala:33
+#: src/Views/WelcomeView.vala:94
 #, fuzzy
 #| msgid ""
 #| "Continue to set up some useful features. Visit the links below for more "
@@ -344,21 +344,29 @@ msgstr ""
 "بەردەوام بوون لە دامەزراندنی کۆمەڵێک تایبەتمەندی بەسوود. سەردانی ئەم "
 "بەستەرانەی خوارەوە بکە بۆ زانیاری زیاتر دەربارەی %s."
 
-#: src/Views/WelcomeView.vala:76
-msgid "Basics Guide…"
+#: src/Views/WelcomeView.vala:137
+#, fuzzy
+#| msgid "Basics Guide…"
+msgid "Basics Guide"
 msgstr "ڕێنماییە سەرەتاییەکان…"
 
-#: src/Views/WelcomeView.vala:82
-msgid "Our Blog…"
+#: src/Views/WelcomeView.vala:144
+msgid "Get Help"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:88
-msgid "Community Support…"
-msgstr "کۆمەڵگەی پاڵپشتی…"
+#: src/Views/WelcomeView.vala:151
+msgid "Our Website"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:94
-msgid "Get Involved…"
-msgstr "بەشداریکردن…"
+#: src/Views/WelcomeView.vala:158
+msgid "Get Involved or Sponsor Us"
+msgstr ""
+
+#~ msgid "Community Support…"
+#~ msgstr "کۆمەڵگەی پاڵپشتی…"
+
+#~ msgid "Get Involved…"
+#~ msgstr "بەشداریکردن…"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "

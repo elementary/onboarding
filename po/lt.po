@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:50+0000\n"
+"POT-Creation-Date: 2024-09-13 18:57+0000\n"
 "PO-Revision-Date: 2019-08-26 21:22+0000\n"
 "Last-Translator: Moo <hazap@hotmail.com>\n"
 "Language-Team: Lithuanian <https://l10n.elementary.io/projects/installer/"
@@ -323,17 +323,17 @@ msgstr ""
 msgid "Will be installed when you choose to restart this device"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:24
+#: src/Views/WelcomeView.vala:85
 msgid "What’s New"
 msgstr "Kas naujo"
 
-#: src/Views/WelcomeView.vala:27
+#: src/Views/WelcomeView.vala:88
 #, fuzzy
 #| msgid "Welcome to %s!"
 msgid "Welcome!"
 msgstr "Sveiki atvykę į %s!"
 
-#: src/Views/WelcomeView.vala:33
+#: src/Views/WelcomeView.vala:94
 #, fuzzy
 #| msgid ""
 #| "Continue to set up some useful features. Visit the links below for more "
@@ -345,21 +345,29 @@ msgstr ""
 "Tęskite naudingų ypatybių nustatymą. Išsamesnei informacijai apie %s, "
 "aplankykite žemiau esančias nuorodas."
 
-#: src/Views/WelcomeView.vala:76
-msgid "Basics Guide…"
+#: src/Views/WelcomeView.vala:137
+#, fuzzy
+#| msgid "Basics Guide…"
+msgid "Basics Guide"
 msgstr "Susipažinimas su pagrindais…"
 
-#: src/Views/WelcomeView.vala:82
-msgid "Our Blog…"
+#: src/Views/WelcomeView.vala:144
+msgid "Get Help"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:88
-msgid "Community Support…"
-msgstr "Bendruomenės palaikymas…"
+#: src/Views/WelcomeView.vala:151
+msgid "Our Website"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:94
-msgid "Get Involved…"
-msgstr "Įsitraukite…"
+#: src/Views/WelcomeView.vala:158
+msgid "Get Involved or Sponsor Us"
+msgstr ""
+
+#~ msgid "Community Support…"
+#~ msgstr "Bendruomenės palaikymas…"
+
+#~ msgid "Get Involved…"
+#~ msgstr "Įsitraukite…"
 
 #, fuzzy
 #~ msgid ""

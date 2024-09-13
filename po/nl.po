@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:50+0000\n"
+"POT-Creation-Date: 2024-09-13 18:57+0000\n"
 "PO-Revision-Date: 2024-08-18 16:16+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
@@ -304,15 +304,15 @@ msgstr "Besturingssysteem"
 msgid "Will be installed when you choose to restart this device"
 msgstr "Zal worden geïnstalleerd wanneer het apparaat opnieuw wordt opgestart"
 
-#: src/Views/WelcomeView.vala:24
+#: src/Views/WelcomeView.vala:85
 msgid "What’s New"
 msgstr "Wat is er nieuw"
 
-#: src/Views/WelcomeView.vala:27
+#: src/Views/WelcomeView.vala:88
 msgid "Welcome!"
 msgstr "Welkom!"
 
-#: src/Views/WelcomeView.vala:33
+#: src/Views/WelcomeView.vala:94
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
@@ -320,21 +320,32 @@ msgstr ""
 "Ga door met het instellen van handige functies. Bezoek de links beneden voor "
 "hulp om aan de slag te gaan."
 
-#: src/Views/WelcomeView.vala:76
-msgid "Basics Guide…"
+#: src/Views/WelcomeView.vala:137
+#, fuzzy
+#| msgid "Basics Guide…"
+msgid "Basics Guide"
 msgstr "Basishandleiding…"
 
-#: src/Views/WelcomeView.vala:82
-msgid "Our Blog…"
-msgstr "Onze blog…"
+#: src/Views/WelcomeView.vala:144
+msgid "Get Help"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:88
-msgid "Community Support…"
-msgstr "Hulp uit de gebruikersgemeenschap…"
+#: src/Views/WelcomeView.vala:151
+msgid "Our Website"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:94
-msgid "Get Involved…"
-msgstr "Betrokken worden…"
+#: src/Views/WelcomeView.vala:158
+msgid "Get Involved or Sponsor Us"
+msgstr ""
+
+#~ msgid "Our Blog…"
+#~ msgstr "Onze blog…"
+
+#~ msgid "Community Support…"
+#~ msgstr "Hulp uit de gebruikersgemeenschap…"
+
+#~ msgid "Get Involved…"
+#~ msgstr "Betrokken worden…"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "

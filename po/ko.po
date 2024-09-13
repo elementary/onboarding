@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:50+0000\n"
+"POT-Creation-Date: 2024-09-13 18:57+0000\n"
 "PO-Revision-Date: 2022-08-08 00:07+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/installer/"
@@ -315,17 +315,17 @@ msgstr ""
 msgid "Will be installed when you choose to restart this device"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:24
+#: src/Views/WelcomeView.vala:85
 msgid "What’s New"
 msgstr "새로워진 기능"
 
-#: src/Views/WelcomeView.vala:27
+#: src/Views/WelcomeView.vala:88
 #, fuzzy
 #| msgid "Welcome to %s!"
 msgid "Welcome!"
 msgstr "%s에 오신 걸 환영합니다!"
 
-#: src/Views/WelcomeView.vala:33
+#: src/Views/WelcomeView.vala:94
 #, fuzzy
 #| msgid ""
 #| "Continue to set up some useful features. Visit the links below for more "
@@ -337,21 +337,29 @@ msgstr ""
 "계속해서 유용한 기능들의 설정을 해보세요. 아래 링크에서 %s에 관한 더 많은 정"
 "보를 찾아보세요."
 
-#: src/Views/WelcomeView.vala:76
-msgid "Basics Guide…"
+#: src/Views/WelcomeView.vala:137
+#, fuzzy
+#| msgid "Basics Guide…"
+msgid "Basics Guide"
 msgstr "기본 가이드…"
 
-#: src/Views/WelcomeView.vala:82
-msgid "Our Blog…"
+#: src/Views/WelcomeView.vala:144
+msgid "Get Help"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:88
-msgid "Community Support…"
-msgstr "커뮤니티 지원…"
+#: src/Views/WelcomeView.vala:151
+msgid "Our Website"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:94
-msgid "Get Involved…"
-msgstr "참여하기…"
+#: src/Views/WelcomeView.vala:158
+msgid "Get Involved or Sponsor Us"
+msgstr ""
+
+#~ msgid "Community Support…"
+#~ msgstr "커뮤니티 지원…"
+
+#~ msgid "Get Involved…"
+#~ msgstr "참여하기…"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "

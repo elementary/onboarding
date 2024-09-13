@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:50+0000\n"
+"POT-Creation-Date: 2024-09-13 18:57+0000\n"
 "PO-Revision-Date: 2024-08-09 19:16+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
@@ -304,15 +304,15 @@ msgstr "オペレーティングシステム"
 msgid "Will be installed when you choose to restart this device"
 msgstr "このデバイスを再起動した時にインストールされます"
 
-#: src/Views/WelcomeView.vala:24
+#: src/Views/WelcomeView.vala:85
 msgid "What’s New"
 msgstr "最新情報"
 
-#: src/Views/WelcomeView.vala:27
+#: src/Views/WelcomeView.vala:88
 msgid "Welcome!"
 msgstr "ようこそ!"
 
-#: src/Views/WelcomeView.vala:33
+#: src/Views/WelcomeView.vala:94
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
@@ -320,21 +320,32 @@ msgstr ""
 "続行して、便利な機能をセットアップしましょう。初期設定に関する詳細情報を得る"
 "には、以下のリンクにアクセスしてください。"
 
-#: src/Views/WelcomeView.vala:76
-msgid "Basics Guide…"
+#: src/Views/WelcomeView.vala:137
+#, fuzzy
+#| msgid "Basics Guide…"
+msgid "Basics Guide"
 msgstr "基本操作ガイド…"
 
-#: src/Views/WelcomeView.vala:82
-msgid "Our Blog…"
-msgstr "公式ブログ…"
+#: src/Views/WelcomeView.vala:144
+msgid "Get Help"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:88
-msgid "Community Support…"
-msgstr "コミュニティサポート…"
+#: src/Views/WelcomeView.vala:151
+msgid "Our Website"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:94
-msgid "Get Involved…"
-msgstr "開発に参加…"
+#: src/Views/WelcomeView.vala:158
+msgid "Get Involved or Sponsor Us"
+msgstr ""
+
+#~ msgid "Our Blog…"
+#~ msgstr "公式ブログ…"
+
+#~ msgid "Community Support…"
+#~ msgstr "コミュニティサポート…"
+
+#~ msgid "Get Involved…"
+#~ msgstr "開発に参加…"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:50+0000\n"
+"POT-Creation-Date: 2024-09-13 18:57+0000\n"
 "PO-Revision-Date: 2024-02-10 15:11+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -319,15 +319,15 @@ msgstr "Operativsystem"
 msgid "Will be installed when you choose to restart this device"
 msgstr "Vil bli installert når du velger å starte enheten på ny"
 
-#: src/Views/WelcomeView.vala:24
+#: src/Views/WelcomeView.vala:85
 msgid "What’s New"
 msgstr "Hva er nytt"
 
-#: src/Views/WelcomeView.vala:27
+#: src/Views/WelcomeView.vala:88
 msgid "Welcome!"
 msgstr "Velkommen."
 
-#: src/Views/WelcomeView.vala:33
+#: src/Views/WelcomeView.vala:94
 #, fuzzy
 #| msgid ""
 #| "Continue to set up some useful features. Visit the links below for more "
@@ -339,21 +339,32 @@ msgstr ""
 "Fortsett å sette opp noen nyttige funksjoner. Besøk lenkene nedenfor for mer "
 "info om %s."
 
-#: src/Views/WelcomeView.vala:76
-msgid "Basics Guide…"
+#: src/Views/WelcomeView.vala:137
+#, fuzzy
+#| msgid "Basics Guide…"
+msgid "Basics Guide"
 msgstr "Grunnleggende guide…"
 
-#: src/Views/WelcomeView.vala:82
-msgid "Our Blog…"
-msgstr "Bloggen …"
+#: src/Views/WelcomeView.vala:144
+msgid "Get Help"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:88
-msgid "Community Support…"
-msgstr "Gemenskapsstøtte…"
+#: src/Views/WelcomeView.vala:151
+msgid "Our Website"
+msgstr ""
 
-#: src/Views/WelcomeView.vala:94
-msgid "Get Involved…"
-msgstr "Involver deg…"
+#: src/Views/WelcomeView.vala:158
+msgid "Get Involved or Sponsor Us"
+msgstr ""
+
+#~ msgid "Our Blog…"
+#~ msgstr "Bloggen …"
+
+#~ msgid "Community Support…"
+#~ msgstr "Gemenskapsstøtte…"
+
+#~ msgid "Get Involved…"
+#~ msgstr "Involver deg…"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "
