@@ -128,12 +128,16 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
 
         navigation_view.get_next_page.connect (get_next_page);
 
+        var back_action = new SimpleAction ("back", null);
+        back_action.activate.connect (() => navigation_view.pop ());
+
         var next_action = new SimpleAction ("next", null);
         next_action.activate.connect (action_next);
 
         var skip_action = new SimpleAction ("skip", null);
         skip_action.activate.connect (action_skip);
 
+        add_action (back_action);
         add_action (next_action);
         add_action (skip_action);
     }
