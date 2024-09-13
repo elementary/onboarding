@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 23:57+0000\n"
+"POT-Creation-Date: 2024-09-13 18:50+0000\n"
 "PO-Revision-Date: 2024-03-01 20:12+0000\n"
 "Last-Translator: Aefgh Threenine <aefgh39622@gmail.com>\n"
 "Language-Team: Thai <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr ""
 
-#: src/Views/AbstractOnboardingView.vala:82
-msgid "Skip All"
-msgstr ""
-
-#: src/Views/AbstractOnboardingView.vala:86
+#: src/Views/AbstractOnboardingView.vala:84
 msgid "Next"
 msgstr "ถัดไป"
 
+#: src/Views/AbstractOnboardingView.vala:103
+msgid "Skip All"
+msgstr ""
+
 #: src/Views/AbstractOnboardingView.vala:106
+msgid "Back"
+msgstr ""
+
+#: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
 msgstr ""
 

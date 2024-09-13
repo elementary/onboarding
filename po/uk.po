@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 23:57+0000\n"
+"POT-Creation-Date: 2024-09-13 18:50+0000\n"
 "PO-Revision-Date: 2024-08-14 18:37+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
@@ -25,15 +25,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Налаштування %s"
 
-#: src/Views/AbstractOnboardingView.vala:82
-msgid "Skip All"
-msgstr "Пропустити все"
-
-#: src/Views/AbstractOnboardingView.vala:86
+#: src/Views/AbstractOnboardingView.vala:84
 msgid "Next"
 msgstr "Далі"
 
+#: src/Views/AbstractOnboardingView.vala:103
+msgid "Skip All"
+msgstr "Пропустити все"
+
 #: src/Views/AbstractOnboardingView.vala:106
+msgid "Back"
+msgstr ""
+
+#: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
 msgstr "Почати користуватися"
 

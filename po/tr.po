@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 23:57+0000\n"
+"POT-Creation-Date: 2024-09-13 18:50+0000\n"
 "PO-Revision-Date: 2023-05-18 21:06+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
@@ -24,15 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s Kurulumu"
 
-#: src/Views/AbstractOnboardingView.vala:82
-msgid "Skip All"
-msgstr "Tümünü Atla"
-
-#: src/Views/AbstractOnboardingView.vala:86
+#: src/Views/AbstractOnboardingView.vala:84
 msgid "Next"
 msgstr "İleri"
 
+#: src/Views/AbstractOnboardingView.vala:103
+msgid "Skip All"
+msgstr "Tümünü Atla"
+
 #: src/Views/AbstractOnboardingView.vala:106
+msgid "Back"
+msgstr ""
+
+#: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
 msgstr "Hemen Başlayın"
 

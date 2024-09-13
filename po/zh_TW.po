@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-06 23:57+0000\n"
+"POT-Creation-Date: 2024-09-13 18:50+0000\n"
 "PO-Revision-Date: 2024-09-07 17:04+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -24,15 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "設定 %s"
 
-#: src/Views/AbstractOnboardingView.vala:82
-msgid "Skip All"
-msgstr "全部略過"
-
-#: src/Views/AbstractOnboardingView.vala:86
+#: src/Views/AbstractOnboardingView.vala:84
 msgid "Next"
 msgstr "繼續"
 
+#: src/Views/AbstractOnboardingView.vala:103
+msgid "Skip All"
+msgstr "全部略過"
+
 #: src/Views/AbstractOnboardingView.vala:106
+msgid "Back"
+msgstr ""
+
+#: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
 msgstr "開始"
 
@@ -40,8 +44,9 @@ msgstr "開始"
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
-msgstr "在《應用程式中心》內取得您需要的應用程式，或是從替代商店側載 Flatpak "
-"應用程式。"
+msgstr ""
+"在《應用程式中心》內取得您需要的應用程式，或是從替代商店側載 Flatpak 應用程"
+"式。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -49,8 +54,9 @@ msgstr "取得應用程式"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
-msgstr "在《應用程式中心》中取得為 elementary OS 量身定做並已由 elementary "
-"審查過的應用程式"
+msgstr ""
+"在《應用程式中心》中取得為 elementary OS 量身定做並已由 elementary 審查過的應"
+"用程式"
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
@@ -171,7 +177,8 @@ msgstr "調整排程和色溫…"
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
-msgstr "在《郵件》、《行事曆》與《待辦事項》中利用現存的線上帳號來與此裝置同步電子郵"
+msgstr ""
+"在《郵件》、《行事曆》與《待辦事項》中利用現存的線上帳號來與此裝置同步電子郵"
 "件、活動與待辦事項。"
 
 #: src/Views/OnlineAccountsView.vala:26
