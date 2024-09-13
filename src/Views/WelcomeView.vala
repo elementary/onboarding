@@ -16,6 +16,67 @@
  */
 
 public class Onboarding.WelcomeView : AbstractOnboardingView {
+    private static string _bug_url;
+    private static string bug_url {
+        get {
+            if (_bug_url == null) {
+                _bug_url = Environment.get_os_info (GLib.OsInfoKey.BUG_REPORT_URL);
+
+                if (_bug_url == null) {
+                    _bug_url = "https://docs.elementary.io/contributor-guide/feedback/reporting-issues";
+                }
+            }
+
+            return _bug_url;
+        }
+    }
+
+    private static string _documentation_url;
+    private static string documentation_url {
+        get {
+            if (_documentation_url == null) {
+                _documentation_url = Environment.get_os_info (GLib.OsInfoKey.DOCUMENTATION_URL);
+
+                if (_documentation_url == null) {
+                    _documentation_url = "https://elementary.io/docs/learning-the-basics";
+                }
+            }
+
+            return _documentation_url;
+        }
+    }
+
+    private static string _website_url;
+    private static string website_url {
+        get {
+            if (_website_url == null) {
+                _website_url = Environment.get_os_info (GLib.OsInfoKey.HOME_URL);
+
+                if (_website_url == null) {
+                    _website_url = "https://elementary.io";
+                }
+            }
+
+            return _website_url;
+        }
+    }
+
+
+    private static string _support_url;
+    private static string support_url {
+        get {
+            if (_support_url == null) {
+                _support_url = Environment.get_os_info (GLib.OsInfoKey.SUPPORT_URL);
+
+                if (_support_url == null) {
+                    _support_url = "https://elementary.io/support";
+                }
+            }
+
+            return _support_url;
+        }
+    }
+
     public WelcomeView (bool updates) {
         string _title= "";
         string _badge_icon = "";
@@ -71,80 +132,89 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             }
         }
 
-        var thebasics_link = new ImageLinkButton (
-            Utils.documentation_url,
-            _("Basics Guide…"),
-            "text-x-generic-symbolic"
+        var thebasics_link = new LinkRow (
+            documentation_url,
+            _("Basics Guide"),
+            "text-x-generic-symbolic",
+            "green"
         );
 
-        var blog_link = new ImageLinkButton (
-            "https://blog.elementary.io",
-            _("Our Blog…"),
-            "view-reader-symbolic"
+        var support_link = new LinkRow (
+            support_url,
+            _("Get Help"),
+            "help-contents-symbolic",
+            "blue"
         );
 
-        var support_link = new ImageLinkButton (
-            Utils.support_url,
-            _("Community Support…"),
-            "help-contents-symbolic"
+        var website_link = new LinkRow (
+            website_url,
+            _("Our Website"),
+            "view-reader-symbolic",
+            "slate"
         );
 
-        var getinvolved_link = new ImageLinkButton (
+        var getinvolved_link = new LinkRow (
             "https://elementary.io/get-involved",
-            _("Get Involved…"),
-            "applications-development-symbolic"
+            _("Get Involved or Sponsor Us"),
+            "face-heart-symbolic",
+            "pink"
         );
 
-        custom_bin.append (thebasics_link);
-        custom_bin.append (blog_link);
-        custom_bin.append (support_link);
-        custom_bin.append (getinvolved_link);
+        var links_list = new Gtk.ListBox () {
+            show_separators = true,
+            selection_mode = NONE
+        };
+        links_list.add_css_class ("boxed-list");
+        links_list.add_css_class (Granite.STYLE_CLASS_RICH_LIST);
+        links_list.append (thebasics_link);
+        links_list.append (support_link);
+        links_list.append (website_link);
+        links_list.append (getinvolved_link);
+
+        custom_bin.append (links_list);
     }
 
-    private class ImageLinkButton : Gtk.Widget {
+    private class LinkRow : Gtk.ListBoxRow {
         public string uri { get; construct; }
         public string icon_name { get; construct; }
         public string label_string { get; construct; }
-        public Gtk.LinkButton link_button_widget { get; set; }
+        public string color { get; construct; }
 
-        public ImageLinkButton (string uri, string label_string, string icon_name) {
+        public LinkRow (string uri, string label_string, string icon_name, string color) {
             Object (
                 uri: uri,
                 label_string: label_string,
-                icon_name: icon_name
+                icon_name: icon_name,
+                color: color
             );
         }
 
-        static construct {
-            set_layout_manager_type (typeof (Gtk.BinLayout));
+        class construct {
+            set_accessible_role (LINK);
         }
 
         construct {
+
             var image = new Gtk.Image.from_icon_name (icon_name) {
                 pixel_size = 16
             };
+            image.add_css_class (Granite.STYLE_CLASS_ACCENT);
+            image.add_css_class (color);
 
             var left_label = new Gtk.Label (label_string) {
+                hexpand = true,
                 xalign = 0
             };
 
-            var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 3);
+            var link_image = new Gtk.Image.from_icon_name ("adw-external-link-symbolic");
+
+            var box = new Gtk.Box (HORIZONTAL, 0);
             box.append (image);
             box.append (left_label);
+            box.append (link_image);
 
-            link_button_widget = new Gtk.LinkButton.with_label (uri, label_string) {
-                icon_name = icon_name,
-                child = box
-            };
-            link_button_widget.set_parent (this);
-
-            left_label.mnemonic_widget = link_button_widget;
-        }
-
-        ~ImageLinkButton () {
-            while (get_last_child () != null) {
-                get_last_child ().unparent ();
-            }
+            child = box;
+            add_css_class ("link");
         }
     }
 }
