@@ -79,9 +79,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             valign = CENTER
         };
 
-        var skip_button = new Gtk.Button.with_label (_("Skip All")) {
-            action_name = "win.skip"
-        };
+        var back_button = new Gtk.Button ();
 
         var next_button = new Gtk.Button.with_label (_("Next")) {
             action_name = "win.next"
@@ -89,10 +87,11 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         next_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
 
         var buttons_group = new Gtk.SizeGroup (BOTH);
-        buttons_group.add_widget (skip_button);
+        buttons_group.add_widget (back_button);
         buttons_group.add_widget (next_button);
 
         var action_area = new Gtk.CenterBox () {
+            start_widget = back_button,
             center_widget = levelbar,
             end_widget = next_button,
             vexpand = true,
@@ -100,9 +99,15 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         };
         action_area.add_css_class ("dialog-action-area");
 
-        if (!(this is FinishView)) {
-            action_area.start_widget = skip_button;
+        if (this is WelcomeView) {
+            back_button.label = _("Skip All");
+            back_button.action_name = "win.skip";
         } else {
+            back_button.label = _("Back");
+            back_button.action_name = "win.back";
+        }
+
+        if (this is FinishView) {
             next_button.label = _("Get Started");
         }
 
