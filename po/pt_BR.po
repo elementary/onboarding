@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 18:57+0000\n"
-"PO-Revision-Date: 2024-09-02 00:57+0000\n"
+"PO-Revision-Date: 2024-09-14 21:16+0000\n"
 "Last-Translator: José Rafael <jrafaeldesantana@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding/pt_BR/>\n"
@@ -34,7 +34,7 @@ msgstr "Pular Todos"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "Voltar"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
@@ -324,22 +324,20 @@ msgstr ""
 "obter mais ajuda para começar."
 
 #: src/Views/WelcomeView.vala:137
-#, fuzzy
-#| msgid "Basics Guide…"
 msgid "Basics Guide"
-msgstr "Guia Básico…"
+msgstr "Guia Básico"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "Obter ajuda"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "Nosso website"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "Participe ou Patrocine-nos"
 
 #~ msgid "Our Blog…"
 #~ msgstr "Nosso Blog…"
