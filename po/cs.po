@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 18:57+0000\n"
-"PO-Revision-Date: 2023-07-19 08:07+0000\n"
+"PO-Revision-Date: 2024-09-19 07:22+0000\n"
 "Last-Translator: hnklp <hynek.puta@seznam.cz>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
 "onboarding/cs/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -34,7 +34,7 @@ msgstr "Přeskočit vše"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "Zpět"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
@@ -223,7 +223,7 @@ msgstr "Výchozí"
 #: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
 #: src/Views/StyleView.vala:173
 msgid "Style"
-msgstr ""
+msgstr "Styl"
 
 #: src/Views/StyleView.vala:140
 msgid "Dark"
@@ -305,7 +305,7 @@ msgstr ""
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "Operační systém"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
@@ -335,11 +335,11 @@ msgstr "Průvodce základy…"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "Získejte nápovědu"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "Náš web"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
