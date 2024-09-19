@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 18:57+0000\n"
-"PO-Revision-Date: 2024-09-07 17:04+0000\n"
+"PO-Revision-Date: 2024-09-19 08:57+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "installer/onboarding/zh_Hant/>\n"
@@ -34,7 +34,7 @@ msgstr "全部略過"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "返回"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
@@ -305,22 +305,20 @@ msgid ""
 msgstr "繼續進行來設定一些有用的功能。造訪下方連結來取得初次使用的更多說明。"
 
 #: src/Views/WelcomeView.vala:137
-#, fuzzy
-#| msgid "Basics Guide…"
 msgid "Basics Guide"
-msgstr "基礎使用指南…"
+msgstr "基礎使用指南"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "取得幫助"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "我們的網站"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "參與或贊助"
 
 #~ msgid "Our Blog…"
 #~ msgstr "我們的部落格…"
