@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 18:57+0000\n"
-"PO-Revision-Date: 2024-09-12 20:23+0000\n"
+"PO-Revision-Date: 2024-09-20 07:26+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/installer/"
 "onboarding/ka/>\n"
@@ -34,7 +34,7 @@ msgstr "ყველას გამოტოვება"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "უკან"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
@@ -301,10 +301,8 @@ msgid ""
 msgstr ""
 
 #: src/Views/WelcomeView.vala:137
-#, fuzzy
-#| msgid "Basics Guide…"
 msgid "Basics Guide"
-msgstr "დამწყების სახელმძღვანელო…"
+msgstr "დამწყების სახელმძღვანელო"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
