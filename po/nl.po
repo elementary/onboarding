@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-09-13 18:57+0000\n"
-"PO-Revision-Date: 2024-08-18 16:16+0000\n"
+"PO-Revision-Date: 2024-09-22 04:32+0000\n"
 "Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
 "Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
 "onboarding/nl/>\n"
@@ -34,7 +34,7 @@ msgstr "Alles overslaan"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "Terug"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
@@ -321,22 +321,20 @@ msgstr ""
 "hulp om aan de slag te gaan."
 
 #: src/Views/WelcomeView.vala:137
-#, fuzzy
-#| msgid "Basics Guide…"
 msgid "Basics Guide"
-msgstr "Basishandleiding…"
+msgstr "Basishandleiding"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "Krijg hulp"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "Onze website"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "Doe mee of sponsor ons"
 
 #~ msgid "Our Blog…"
 #~ msgstr "Onze blog…"
