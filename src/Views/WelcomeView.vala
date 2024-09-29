@@ -172,6 +172,18 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         links_list.append (getinvolved_link);
 
         custom_bin.append (links_list);
+
+        links_list.row_activated.connect ((row) => {
+            launch_uri (((LinkRow) row).uri);
+        });
+    }
+
+    private void launch_uri (string uri) {
+        var uri_launcher = new Gtk.UriLauncher (uri);
+        uri_launcher.launch.begin (
+            ((Gtk.Application) GLib.Application.get_default ()).active_window,
+            null
+        );
     }
 
     private class LinkRow : Gtk.ListBoxRow {
