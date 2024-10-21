@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-21 17:29+0000\n"
-"PO-Revision-Date: 2024-08-04 00:16+0000\n"
+"PO-Revision-Date: 2024-10-22 00:17+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ja/>\n"
@@ -35,11 +35,11 @@ msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "Add back button"
-msgstr ""
+msgstr "戻るボタンを追加"
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Redesign links to match System Settings"
-msgstr ""
+msgstr "リンクのデザインを“システム設定”に合わせて変更"
 
 #: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:70
 #: data/onboarding.metainfo.xml.in:82 data/onboarding.metainfo.xml.in:99
