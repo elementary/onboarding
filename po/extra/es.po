@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-21 17:29+0000\n"
-"PO-Revision-Date: 2024-06-13 18:31+0000\n"
+"PO-Revision-Date: 2024-10-22 00:17+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -35,11 +35,12 @@ msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "Add back button"
-msgstr ""
+msgstr "Se agregó un botón de «Atrás»"
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Redesign links to match System Settings"
 msgstr ""
+"Se rediseñaron los enlaces para que coincidan con Configuración del Sistema"
 
 #: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:70
 #: data/onboarding.metainfo.xml.in:82 data/onboarding.metainfo.xml.in:99
