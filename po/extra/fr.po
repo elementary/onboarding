@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:57+0000\n"
+"POT-Creation-Date: 2024-10-21 17:29+0000\n"
 "PO-Revision-Date: 2024-05-14 13:54+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
@@ -34,59 +34,67 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:58
-msgid "UpdatesView: add OS updates"
-msgstr "UpdatesView : Ajout des mises à jour du système"
+msgid "Add back button"
+msgstr ""
 
 #: data/onboarding.metainfo.xml.in:59
-msgid "Improve screenreader support"
-msgstr "Amélioration de la prise charge des lecteurs d'écran"
+msgid "Redesign links to match System Settings"
+msgstr ""
 
-#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:72
-#: data/onboarding.metainfo.xml.in:89 data/onboarding.metainfo.xml.in:100
-#: data/onboarding.metainfo.xml.in:111
+#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:70
+#: data/onboarding.metainfo.xml.in:82 data/onboarding.metainfo.xml.in:99
+#: data/onboarding.metainfo.xml.in:110 data/onboarding.metainfo.xml.in:121
 msgid "Updated translations"
 msgstr "Mise à jour des traductions"
 
-#: data/onboarding.metainfo.xml.in:71
+#: data/onboarding.metainfo.xml.in:68
+msgid "UpdatesView: add OS updates"
+msgstr "UpdatesView : Ajout des mises à jour du système"
+
+#: data/onboarding.metainfo.xml.in:69
+msgid "Improve screenreader support"
+msgstr "Amélioration de la prise charge des lecteurs d'écran"
+
+#: data/onboarding.metainfo.xml.in:81
 msgid "Use the current wallpaper in the \"Choose your look\" view"
 msgstr ""
 "Utilisation du fond d'écran actuel dans la vue « Sélectionnez votre "
 "apparence »"
 
-#: data/onboarding.metainfo.xml.in:84
+#: data/onboarding.metainfo.xml.in:94
 msgid "Redesigned app icon"
 msgstr "Nouvelle icône d'application"
 
-#: data/onboarding.metainfo.xml.in:85
+#: data/onboarding.metainfo.xml.in:95
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 "Création d'une icône sur la page principale à l'aide du fond d'écran et de "
 "la couleur d'accentuation par défaut"
 
-#: data/onboarding.metainfo.xml.in:86
+#: data/onboarding.metainfo.xml.in:96
 msgid "Use bolder typography"
 msgstr "Utilisation d'une typographie plus grasse"
 
-#: data/onboarding.metainfo.xml.in:87
+#: data/onboarding.metainfo.xml.in:97
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
 "Refonte de la page des applications pour mieux expliquer le sideloading et "
 "les boutiques alternatives"
 
-#: data/onboarding.metainfo.xml.in:88
+#: data/onboarding.metainfo.xml.in:98
 msgid "Always warn about Early Access builds"
 msgstr "Toujours mettre en garde contre les versions Early Access"
 
-#: data/onboarding.metainfo.xml.in:108
+#: data/onboarding.metainfo.xml.in:118
 msgid "Add Automatic Updates view"
 msgstr "Ajout d'une page « Mises à jour automatiques »"
 
-#: data/onboarding.metainfo.xml.in:109
+#: data/onboarding.metainfo.xml.in:119
 msgid "Add Sunset to Sunrise to Style View"
 msgstr ""
 "Ajout de l'option « Du coucher au lever du soleil » sur la page « Apparence »"
 
-#: data/onboarding.metainfo.xml.in:110
+#: data/onboarding.metainfo.xml.in:120
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Mise à jour pour OS 7 et Gtk 4"
 

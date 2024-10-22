@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:57+0000\n"
-"PO-Revision-Date: 2024-09-13 00:01+0000\n"
-"Last-Translator: Microwave <micro.mail88@gmail.com>\n"
+"POT-Creation-Date: 2024-10-21 17:29+0000\n"
+"PO-Revision-Date: 2024-09-23 10:39+0000\n"
+"Last-Translator: Marcin Serwin <marcin@serwin.dev>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/installer/"
 "onboarding/pl/>\n"
 "Language: pl\n"
@@ -35,7 +35,7 @@ msgstr "Pomiń wszystko"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "Wróć"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
@@ -327,22 +327,20 @@ msgstr ""
 "aby uzyskać więcej informacji."
 
 #: src/Views/WelcomeView.vala:137
-#, fuzzy
-#| msgid "Basics Guide…"
 msgid "Basics Guide"
-msgstr "Przewodnik po podstawach…"
+msgstr "Przewodnik po podstawach"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "Uzyskaj pomoc"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "Nasza strona"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "Zaangażuj się lub Sponsoruj nas"
 
 #~ msgid "Our Blog…"
 #~ msgstr "Nasz blog…"

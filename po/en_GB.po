@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:57+0000\n"
-"PO-Revision-Date: 2024-02-21 07:12+0000\n"
+"POT-Creation-Date: 2024-10-21 17:29+0000\n"
+"PO-Revision-Date: 2024-09-29 02:16+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "installer/onboarding/en_GB/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -34,7 +34,7 @@ msgstr "Skip All"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "Back"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
@@ -143,10 +143,8 @@ msgstr "Housekeeping"
 #: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
 #: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
 #: src/Views/HouseKeepingView.vala:96
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatically Delete"
-msgstr "Automatically Delete:"
+msgstr "Automatically Delete"
 
 #: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
@@ -219,7 +217,7 @@ msgstr "Default"
 #: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
 #: src/Views/StyleView.vala:173
 msgid "Style"
-msgstr ""
+msgstr "Style"
 
 #: src/Views/StyleView.vala:140
 msgid "Dark"
@@ -275,7 +273,7 @@ msgstr "Automatic based on wallpaper"
 
 #: src/Views/StyleView.vala:357
 msgid "accent color"
-msgstr ""
+msgstr "accent colour"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
@@ -322,22 +320,20 @@ msgstr ""
 "with getting started."
 
 #: src/Views/WelcomeView.vala:137
-#, fuzzy
-#| msgid "Basics Guide…"
 msgid "Basics Guide"
-msgstr "Basics Guide…"
+msgstr "Basics Guide"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "Get Help"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "Our Website"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "Get Involved or Sponsor Us"
 
 #~ msgid "Our Blog…"
 #~ msgstr "Our Blog…"
