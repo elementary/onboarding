@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-21 17:29+0000\n"
-"PO-Revision-Date: 2024-09-12 20:23+0000\n"
+"PO-Revision-Date: 2024-10-22 11:22+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/ka/>\n"
@@ -35,11 +35,11 @@ msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:58
 msgid "Add back button"
-msgstr ""
+msgstr "უკან გადასვლის ღილაკის დამატება"
 
 #: data/onboarding.metainfo.xml.in:59
 msgid "Redesign links to match System Settings"
-msgstr ""
+msgstr "ბმულების რედიზაინი, რომ სისტემის პარამეტრებს დაემთხვეს"
 
 #: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:70
 #: data/onboarding.metainfo.xml.in:82 data/onboarding.metainfo.xml.in:99
