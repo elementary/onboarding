@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-13 18:57+0000\n"
+"POT-Creation-Date: 2024-10-21 17:29+0000\n"
 "PO-Revision-Date: 2024-09-07 17:04+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -34,52 +34,60 @@ msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
 #: data/onboarding.metainfo.xml.in:58
-msgid "UpdatesView: add OS updates"
-msgstr "UpdatesView：加入作業系統更新"
+msgid "Add back button"
+msgstr ""
 
 #: data/onboarding.metainfo.xml.in:59
-msgid "Improve screenreader support"
-msgstr "改善螢幕閱讀器支援"
+msgid "Redesign links to match System Settings"
+msgstr ""
 
-#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:72
-#: data/onboarding.metainfo.xml.in:89 data/onboarding.metainfo.xml.in:100
-#: data/onboarding.metainfo.xml.in:111
+#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:70
+#: data/onboarding.metainfo.xml.in:82 data/onboarding.metainfo.xml.in:99
+#: data/onboarding.metainfo.xml.in:110 data/onboarding.metainfo.xml.in:121
 msgid "Updated translations"
 msgstr "翻譯更新"
 
-#: data/onboarding.metainfo.xml.in:71
+#: data/onboarding.metainfo.xml.in:68
+msgid "UpdatesView: add OS updates"
+msgstr "UpdatesView：加入作業系統更新"
+
+#: data/onboarding.metainfo.xml.in:69
+msgid "Improve screenreader support"
+msgstr "改善螢幕閱讀器支援"
+
+#: data/onboarding.metainfo.xml.in:81
 msgid "Use the current wallpaper in the \"Choose your look\" view"
 msgstr "在「選擇外觀」畫面中使用目前的桌布"
 
-#: data/onboarding.metainfo.xml.in:84
+#: data/onboarding.metainfo.xml.in:94
 msgid "Redesigned app icon"
 msgstr "重新設計應用程式圖示"
 
-#: data/onboarding.metainfo.xml.in:85
+#: data/onboarding.metainfo.xml.in:95
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr "用預設桌布和強調色來生成主頁的圖示"
 
-#: data/onboarding.metainfo.xml.in:86
+#: data/onboarding.metainfo.xml.in:96
 msgid "Use bolder typography"
 msgstr "使用更粗的字體"
 
-#: data/onboarding.metainfo.xml.in:87
+#: data/onboarding.metainfo.xml.in:97
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr "重新設計應用程式頁面來改善側載和替代商店的解釋"
 
-#: data/onboarding.metainfo.xml.in:88
+#: data/onboarding.metainfo.xml.in:98
 msgid "Always warn about Early Access builds"
 msgstr "總是對搶先體驗版本提供警告"
 
-#: data/onboarding.metainfo.xml.in:108
+#: data/onboarding.metainfo.xml.in:118
 msgid "Add Automatic Updates view"
 msgstr "新增自動更新畫面"
 
-#: data/onboarding.metainfo.xml.in:109
+#: data/onboarding.metainfo.xml.in:119
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "將「日落到日出」選項加入風格畫面"
 
-#: data/onboarding.metainfo.xml.in:110
+#: data/onboarding.metainfo.xml.in:120
 msgid "Update for OS 7 and Gtk 4"
 msgstr "為 elementary OS 7 及 Gtk 4 進行更新"
 
