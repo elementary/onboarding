@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-21 17:29+0000\n"
+"POT-Creation-Date: 2024-10-23 17:36+0000\n"
 "PO-Revision-Date: 2024-09-21 10:16+0000\n"
 "Last-Translator: Sinan Decron <sinanveyasinan@gmail.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
@@ -33,65 +33,66 @@ msgstr "İlk çalıştırmada genel ayarları değiştirin"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/onboarding.metainfo.xml.in:58
-msgid "Add back button"
-msgstr ""
-
-#: data/onboarding.metainfo.xml.in:59
-msgid "Redesign links to match System Settings"
-msgstr ""
-
-#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:70
-#: data/onboarding.metainfo.xml.in:82 data/onboarding.metainfo.xml.in:99
+#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:71
+#: data/onboarding.metainfo.xml.in:81 data/onboarding.metainfo.xml.in:93
 #: data/onboarding.metainfo.xml.in:110 data/onboarding.metainfo.xml.in:121
+#: data/onboarding.metainfo.xml.in:132
 msgid "Updated translations"
 msgstr "Çeviriler güncellendi"
 
-#: data/onboarding.metainfo.xml.in:68
+#: data/onboarding.metainfo.xml.in:69
+msgid "Add back button"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:70
+msgid "Redesign links to match System Settings"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:79
 msgid "UpdatesView: add OS updates"
 msgstr "UpdatesView: İşletim sistemi güncellemelerini ekle"
 
-#: data/onboarding.metainfo.xml.in:69
+#: data/onboarding.metainfo.xml.in:80
 msgid "Improve screenreader support"
 msgstr "İyileştirilmiş ekran okuyucu desteği"
 
-#: data/onboarding.metainfo.xml.in:81
+#: data/onboarding.metainfo.xml.in:92
 msgid "Use the current wallpaper in the \"Choose your look\" view"
 msgstr "\"Görünümünüzü seçin\" görünümünde geçerli duvar kağıdını kullan"
 
-#: data/onboarding.metainfo.xml.in:94
+#: data/onboarding.metainfo.xml.in:105
 msgid "Redesigned app icon"
 msgstr "Yeniden tasarlanan uygulama simgesi"
 
-#: data/onboarding.metainfo.xml.in:95
+#: data/onboarding.metainfo.xml.in:106
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 "Varsayılan duvar kağıdı ve vurgu rengini kullanarak bir ana sayfa simgesi "
 "oluştur"
 
-#: data/onboarding.metainfo.xml.in:96
+#: data/onboarding.metainfo.xml.in:107
 msgid "Use bolder typography"
 msgstr "Daha kalın yazı tipi kullan"
 
-#: data/onboarding.metainfo.xml.in:97
+#: data/onboarding.metainfo.xml.in:108
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
 "Yan yüklemeyi ve alternatif mağazaları daha iyi açıklamak için uygulama "
 "sayfasını yeniden tasarlandı"
 
-#: data/onboarding.metainfo.xml.in:98
+#: data/onboarding.metainfo.xml.in:109
 msgid "Always warn about Early Access builds"
 msgstr "Erken Erişim sürümleri hakkında her zaman uyarıda bulun"
 
-#: data/onboarding.metainfo.xml.in:118
+#: data/onboarding.metainfo.xml.in:129
 msgid "Add Automatic Updates view"
 msgstr "Otomatik Güncellemeler görünümü eklendi"
 
-#: data/onboarding.metainfo.xml.in:119
+#: data/onboarding.metainfo.xml.in:130
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "Gün Batımından Gün Doğumuna Stil Görünümüne Ekle"
 
-#: data/onboarding.metainfo.xml.in:120
+#: data/onboarding.metainfo.xml.in:131
 msgid "Update for OS 7 and Gtk 4"
 msgstr "OS 7 ve Gtk 4 için güncelleme"
 

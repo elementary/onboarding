@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-21 17:29+0000\n"
+"POT-Creation-Date: 2024-10-23 17:36+0000\n"
 "PO-Revision-Date: 2024-05-15 16:13+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
@@ -33,62 +33,63 @@ msgstr "עריכת הגדרות נפוצות בהפעלה הראשונה"
 msgid "elementary, Inc."
 msgstr "elementary בע״מ"
 
-#: data/onboarding.metainfo.xml.in:58
-msgid "Add back button"
-msgstr ""
-
-#: data/onboarding.metainfo.xml.in:59
-msgid "Redesign links to match System Settings"
-msgstr ""
-
-#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:70
-#: data/onboarding.metainfo.xml.in:82 data/onboarding.metainfo.xml.in:99
+#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:71
+#: data/onboarding.metainfo.xml.in:81 data/onboarding.metainfo.xml.in:93
 #: data/onboarding.metainfo.xml.in:110 data/onboarding.metainfo.xml.in:121
+#: data/onboarding.metainfo.xml.in:132
 msgid "Updated translations"
 msgstr "עודכנו התרגומים"
 
-#: data/onboarding.metainfo.xml.in:68
+#: data/onboarding.metainfo.xml.in:69
+msgid "Add back button"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:70
+msgid "Redesign links to match System Settings"
+msgstr ""
+
+#: data/onboarding.metainfo.xml.in:79
 msgid "UpdatesView: add OS updates"
 msgstr "UpdatesView: הוספת עדכוני מערכת הפעלה"
 
-#: data/onboarding.metainfo.xml.in:69
+#: data/onboarding.metainfo.xml.in:80
 msgid "Improve screenreader support"
 msgstr "שיפור תמיכה במקריא מסך"
 
-#: data/onboarding.metainfo.xml.in:81
+#: data/onboarding.metainfo.xml.in:92
 msgid "Use the current wallpaper in the \"Choose your look\" view"
 msgstr "להשתמש בתמונת הרקע הנוכחית בתצוגת „בחירת המראה שלך”"
 
-#: data/onboarding.metainfo.xml.in:94
+#: data/onboarding.metainfo.xml.in:105
 msgid "Redesigned app icon"
 msgstr "סמל היישום עוצב מחדש"
 
-#: data/onboarding.metainfo.xml.in:95
+#: data/onboarding.metainfo.xml.in:106
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr "יצירת סמל עמוד ראשי בעזרת טפט ברירת המחדל והצבע המשני"
 
-#: data/onboarding.metainfo.xml.in:96
+#: data/onboarding.metainfo.xml.in:107
 msgid "Use bolder typography"
 msgstr "שימוש בטיפוגרפיה מודגשת יותר"
 
-#: data/onboarding.metainfo.xml.in:97
+#: data/onboarding.metainfo.xml.in:108
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
 "עמוד היישומים עוצב מחדש כדי להסביר טוב יותר על טעינה מהצד וחנויות חלופיות"
 
-#: data/onboarding.metainfo.xml.in:98
+#: data/onboarding.metainfo.xml.in:109
 msgid "Always warn about Early Access builds"
 msgstr "תמיד להזהיר ממהדורות עם גישה מוקדמת"
 
-#: data/onboarding.metainfo.xml.in:118
+#: data/onboarding.metainfo.xml.in:129
 msgid "Add Automatic Updates view"
 msgstr "נוספה תצוגת עדכונים אוטומטיים"
 
-#: data/onboarding.metainfo.xml.in:119
+#: data/onboarding.metainfo.xml.in:130
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "נוספה תצוגת שקיעה לזריחה"
 
-#: data/onboarding.metainfo.xml.in:120
+#: data/onboarding.metainfo.xml.in:131
 msgid "Update for OS 7 and Gtk 4"
 msgstr "עדכון ל־OS 7 ול־Gtk 4"
 
