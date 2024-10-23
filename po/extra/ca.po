@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-21 17:29+0000\n"
+"POT-Creation-Date: 2024-10-23 17:36+0000\n"
 "PO-Revision-Date: 2024-10-23 08:10+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementary.io/projects/installer/"
@@ -33,66 +33,67 @@ msgstr "Canvieu paràmetres usuals a la primera execució."
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/onboarding.metainfo.xml.in:58
+#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:71
+#: data/onboarding.metainfo.xml.in:81 data/onboarding.metainfo.xml.in:93
+#: data/onboarding.metainfo.xml.in:110 data/onboarding.metainfo.xml.in:121
+#: data/onboarding.metainfo.xml.in:132
+msgid "Updated translations"
+msgstr "Traduccions actualitzades"
+
+#: data/onboarding.metainfo.xml.in:69
 msgid "Add back button"
 msgstr "Addició del botó enrere"
 
-#: data/onboarding.metainfo.xml.in:59
+#: data/onboarding.metainfo.xml.in:70
 msgid "Redesign links to match System Settings"
 msgstr ""
 "Redisseny dels enllaços perquè coincideixin amb la configuració del sistema"
 
-#: data/onboarding.metainfo.xml.in:60 data/onboarding.metainfo.xml.in:70
-#: data/onboarding.metainfo.xml.in:82 data/onboarding.metainfo.xml.in:99
-#: data/onboarding.metainfo.xml.in:110 data/onboarding.metainfo.xml.in:121
-msgid "Updated translations"
-msgstr "Traduccions actualitzades"
-
-#: data/onboarding.metainfo.xml.in:68
+#: data/onboarding.metainfo.xml.in:79
 msgid "UpdatesView: add OS updates"
 msgstr "UpdatesView: afegeix actualitzacions del sistema operatiu"
 
-#: data/onboarding.metainfo.xml.in:69
+#: data/onboarding.metainfo.xml.in:80
 msgid "Improve screenreader support"
 msgstr "Millora del suport dels lectors de pantalla"
 
-#: data/onboarding.metainfo.xml.in:81
+#: data/onboarding.metainfo.xml.in:92
 msgid "Use the current wallpaper in the \"Choose your look\" view"
 msgstr "Usa el fons de pantalla actual a la vista de triar l'aspecte."
 
-#: data/onboarding.metainfo.xml.in:94
+#: data/onboarding.metainfo.xml.in:105
 msgid "Redesigned app icon"
 msgstr "Icona de l'aplicació redissenyada"
 
-#: data/onboarding.metainfo.xml.in:95
+#: data/onboarding.metainfo.xml.in:106
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 "Genera una icona de pàgina principal amb el fons de pantalla i el color "
 "d'accent predeterminats"
 
-#: data/onboarding.metainfo.xml.in:96
+#: data/onboarding.metainfo.xml.in:107
 msgid "Use bolder typography"
 msgstr "Usa una tipografia més negreta"
 
-#: data/onboarding.metainfo.xml.in:97
+#: data/onboarding.metainfo.xml.in:108
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
 "Redisseny de la pàgina de l'aplicació per explicar millor la càrrega lateral "
 "i les botigues alternatives"
 
-#: data/onboarding.metainfo.xml.in:98
+#: data/onboarding.metainfo.xml.in:109
 msgid "Always warn about Early Access builds"
 msgstr "Avís sempre sobre les compilacions d'accés anticipat"
 
-#: data/onboarding.metainfo.xml.in:118
+#: data/onboarding.metainfo.xml.in:129
 msgid "Add Automatic Updates view"
 msgstr "Addició de la vista d'actualitzacions automàtiques"
 
-#: data/onboarding.metainfo.xml.in:119
+#: data/onboarding.metainfo.xml.in:130
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "Addició de la Posta de sol a la sortida del sol a la vista d'estil"
 
-#: data/onboarding.metainfo.xml.in:120
+#: data/onboarding.metainfo.xml.in:131
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Actualització per a SO 7 i Gtk 4"
 
