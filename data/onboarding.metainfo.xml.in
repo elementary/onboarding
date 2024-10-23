@@ -52,6 +52,17 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="8.0.2" date="2024-10-22" urgency="medium">
+      <description>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/onboarding/issues/241">WelcomeView: Unable to open links</issue>
+      </issues>
+    </release>
+
     <release version="8.0.1" date="2024-10-22" urgency="medium">
       <description>
         <ul>
