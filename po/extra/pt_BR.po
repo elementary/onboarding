@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2024-09-02 00:57+0000\n"
-"Last-Translator: José Rafael <jrafaeldesantana@gmail.com>\n"
+"PO-Revision-Date: 2024-10-26 22:58+0000\n"
+"Last-Translator: Diogo Pessoa <diogopessoabr@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -42,11 +42,11 @@ msgstr "Traduções atualizadas"
 
 #: data/onboarding.metainfo.xml.in:69
 msgid "Add back button"
-msgstr ""
+msgstr "Adicionar botão voltar"
 
 #: data/onboarding.metainfo.xml.in:70
 msgid "Redesign links to match System Settings"
-msgstr ""
+msgstr "Redesenhar links para corresponder às Configurações do Sistema"
 
 #: data/onboarding.metainfo.xml.in:79
 msgid "UpdatesView: add OS updates"
