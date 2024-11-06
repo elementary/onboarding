@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2024-05-14 13:54+0000\n"
+"PO-Revision-Date: 2024-11-06 05:52+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/en_GB/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.5\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -42,11 +42,11 @@ msgstr "Updated translations"
 
 #: data/onboarding.metainfo.xml.in:69
 msgid "Add back button"
-msgstr ""
+msgstr "Add back button"
 
 #: data/onboarding.metainfo.xml.in:70
 msgid "Redesign links to match System Settings"
-msgstr ""
+msgstr "Redesign links to match System Settings"
 
 #: data/onboarding.metainfo.xml.in:79
 msgid "UpdatesView: add OS updates"
