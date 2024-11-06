@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2024-09-07 17:04+0000\n"
+"PO-Revision-Date: 2024-11-06 11:19+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
 "installer/onboarding-extra/zh_Hant/>\n"
@@ -42,11 +42,11 @@ msgstr "翻譯更新"
 
 #: data/onboarding.metainfo.xml.in:69
 msgid "Add back button"
-msgstr ""
+msgstr "新增返回按鈕"
 
 #: data/onboarding.metainfo.xml.in:70
 msgid "Redesign links to match System Settings"
-msgstr ""
+msgstr "修改連結設計來符合《系統設定值》"
 
 #: data/onboarding.metainfo.xml.in:79
 msgid "UpdatesView: add OS updates"
