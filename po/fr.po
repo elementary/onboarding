@@ -343,7 +343,7 @@ msgstr "Notre Site Web"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "S'Investir ou Nous Sponsoriser"
 
 #~ msgid "Our Blog…"
 #~ msgstr "Notre blog…"
