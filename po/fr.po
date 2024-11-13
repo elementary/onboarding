@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
 "PO-Revision-Date: 2024-11-13 13:41+0000\n"
-"Last-Translator: Stella Ménier <stella.menier@gmx.de>\n"
+"Last-Translator: Corentin Noël <tintou@noel.tf>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
 "onboarding/fr/>\n"
 "Language: fr\n"
@@ -339,7 +339,7 @@ msgstr "Obtenir de l'aide"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr "Notre Site Web"
+msgstr "Notre site web"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
