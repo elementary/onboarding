@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2024-08-14 18:37+0000\n"
+"PO-Revision-Date: 2024-11-14 02:14+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
 "onboarding-extra/hu/>\n"
@@ -42,11 +42,13 @@ msgstr "Frissített fordítások"
 
 #: data/onboarding.metainfo.xml.in:69
 msgid "Add back button"
-msgstr ""
+msgstr "Vissza gomb hozzáadva"
 
 #: data/onboarding.metainfo.xml.in:70
 msgid "Redesign links to match System Settings"
 msgstr ""
+"Hivatkozások újratervezése, hogy összhangban legyenek a "
+"Rendszerbeállításokkal"
 
 #: data/onboarding.metainfo.xml.in:79
 msgid "UpdatesView: add OS updates"
