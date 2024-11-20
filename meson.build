@@ -23,6 +23,7 @@ gtk_dep = dependency('gtk4', version: '>= 4.10')
 posix_dep = meson.get_compiler('vala').find_library('posix')
 adw_dep = dependency('libadwaita-1', version: '>= 1.4.0')
 m_dep = cc.find_library('m', required : false)
+pantheon_wayland_dep = dependency('pantheon-wayland-1')
 
 dependencies = [
     gee_dep,
@@ -32,7 +33,8 @@ dependencies = [
     gtk_dep,
     posix_dep,
     adw_dep,
-    m_dep
+    m_dep,
+    pantheon_wayland_dep
 ]
 
 asresources = gnome.compile_resources(
