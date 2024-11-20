@@ -9,6 +9,7 @@ You'll need the following dependencies:
 * libgtk-4-dev (>= 4.10)
 * libgranite-7-dev
 * libadwaita-1-dev (>= 1.4.0)
+* libpantheon-wayland-1-dev
 * meson
 * valac
 

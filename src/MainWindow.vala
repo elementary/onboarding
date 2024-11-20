@@ -17,7 +17,7 @@
  * Authored by: Corentin Noël <corentin@elementary.io>
  */
 
-public class Onboarding.MainWindow : Gtk.ApplicationWindow {
+public class Onboarding.MainWindow : Gtk.ApplicationWindow, PantheonWayland.ExtendedBehavior {
     public string[] viewed { get; set; }
     public static GLib.Settings settings;
     public static ListStore pages;
@@ -140,6 +140,11 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow {
         add_action (back_action);
         add_action (next_action);
         add_action (skip_action);
+
+        child.realize.connect (() => {
+            connect_to_shell ();
+            make_centered ();
+        });
     }
 
     private void action_next () {
