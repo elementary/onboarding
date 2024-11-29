@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2024-09-18 09:16+0000\n"
+"PO-Revision-Date: 2024-11-30 02:16+0000\n"
 "Last-Translator: Italo Felipe Capasso Ballesteros <edwood.grant@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.elementary.io/projects/installer/"
 "onboarding/es/>\n"
@@ -38,7 +38,7 @@ msgstr "Atrás"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
-msgstr "Primeros pasos"
+msgstr "Comenzar"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
