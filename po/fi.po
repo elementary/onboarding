@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2023-07-20 03:42+0000\n"
+"PO-Revision-Date: 2024-12-02 02:00+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
 "onboarding/fi/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -34,7 +34,7 @@ msgstr "Ohita kaikki"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "Takaisin"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
@@ -145,10 +145,8 @@ msgstr "Kodinhoitoa"
 #: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
 #: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
 #: src/Views/HouseKeepingView.vala:96
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatically Delete"
-msgstr "Poista automaattisesti:"
+msgstr "Poista automaattisesti"
 
 #: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
@@ -222,7 +220,7 @@ msgstr "Oletus"
 #: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
 #: src/Views/StyleView.vala:173
 msgid "Style"
-msgstr ""
+msgstr "Tyyli"
 
 #: src/Views/StyleView.vala:140
 msgid "Dark"
@@ -278,7 +276,7 @@ msgstr "Automaattinen taustakuvaan pohjautuen"
 
 #: src/Views/StyleView.vala:357
 msgid "accent color"
-msgstr ""
+msgstr "korostusväri"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
@@ -293,22 +291,20 @@ msgid "Automatic Updates"
 msgstr "Automaattiset päivitykset"
 
 #: src/Views/UpdatesView.vala:19
-#, fuzzy
-#| msgid "Free & Paid Apps:"
 msgid "Free & Purchased Apps"
-msgstr "Ilmaiset ja maksulliset sovellukset:"
+msgstr "Ilmaiset ja ostetut sovellukset"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr ""
+msgstr "Veloituksetta kokeiltavat sovellukset eivät päivity automaattisesti"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "Käyttöjärjestelmä"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
-msgstr ""
+msgstr "Asennetaan, kun päätät käynnistää tämän laitteen uudelleen"
 
 #: src/Views/WelcomeView.vala:85
 msgid "What’s New"
@@ -327,22 +323,20 @@ msgstr ""
 "linkkeihin, niin saat apua käyttöönottoon."
 
 #: src/Views/WelcomeView.vala:137
-#, fuzzy
-#| msgid "Basics Guide…"
 msgid "Basics Guide"
-msgstr "Perusopas…"
+msgstr "Perusopas"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "Tuki"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "Verkkosivusto"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "Osallistu tai sponsoroi"
 
 #~ msgid "Our Blog…"
 #~ msgstr "Blogi…"
