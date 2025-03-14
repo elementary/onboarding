@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2024-10-22 11:22+0000\n"
+"PO-Revision-Date: 2025-03-15 01:55+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
-"Language-Team: Georgian <https://l10n.elementary.io/projects/installer/"
+"Language-Team: Georgian <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.10.2\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -306,11 +306,11 @@ msgstr "დამწყების სახელმძღვანელო"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "დახმარების მიღება"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "ჩვენი ვებგვერდი"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
