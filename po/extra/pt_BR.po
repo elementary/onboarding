@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2024-10-26 22:58+0000\n"
-"Last-Translator: Diogo Pessoa <diogopessoabr@gmail.com>\n"
-"Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
+"PO-Revision-Date: 2025-05-17 18:55+0000\n"
+"Last-Translator: Leonardo Lemos <leonardolemos@live.com>\n"
+"Language-Team: Portuguese (Brazil) <https://l10n.elementaryos.org/projects/"
 "installer/onboarding-extra/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -42,7 +42,7 @@ msgstr "Traduções atualizadas"
 
 #: data/onboarding.metainfo.xml.in:69
 msgid "Add back button"
-msgstr "Adicionar botão voltar"
+msgstr "Adicionado botão voltar"
 
 #: data/onboarding.metainfo.xml.in:70
 msgid "Redesign links to match System Settings"
