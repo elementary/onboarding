@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2025-03-09 14:51+0000\n"
+"PO-Revision-Date: 2025-07-21 09:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.10.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -38,7 +38,7 @@ msgstr "戻る"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
-msgstr "始めましょう"
+msgstr "使い始める"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
@@ -91,9 +91,9 @@ msgstr "“フィードバック”アプリを使用して不具合を報告し
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
-msgstr ""
-"どうぞ %s をご利用ください! “システム設定”を開くと、ハードウェアをセットアッ"
-"プしたり、設定を変更したりできます。"
+msgstr "どうぞ %s "
+"をご利用ください。ハードウェアのセットアップや設定変更は、“システム設定”から"
+"いつでも可能です。"
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
