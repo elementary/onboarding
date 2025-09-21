@@ -161,7 +161,10 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         };
         prefer_scheduled_radio.add_css_class ("image-button");
 
-        var prefer_scheduled_label = new Gtk.Label (_("Sunset to Sunrise"));
+        var prefer_scheduled_label = new Gtk.Label (_("Sunset to Sunrise")) {
+            justify = CENTER,
+            wrap = true
+        };
 
         var prefer_scheduled_grid = new Gtk.Grid ();
         prefer_scheduled_grid.attach (prefer_scheduled_card, 0, 0);
