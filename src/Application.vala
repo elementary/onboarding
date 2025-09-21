@@ -4,6 +4,13 @@
  */
 
 public class Onboarding.App : Gtk.Application {
+    public const string ACTION_PREFIX = "app.";
+    public const string ACTION_QUIT = "action-quit";
+
+    private const ActionEntry[] ACTION_ENTRIES = {
+        { ACTION_QUIT, quit }
+    };
+
     construct {
         application_id = "io.elementary.onboarding";
         flags = ApplicationFlags.FLAGS_NONE;
@@ -17,6 +24,9 @@ public class Onboarding.App : Gtk.Application {
         base.startup ();
 
         Granite.init ();
+
+        add_action_entries (ACTION_ENTRIES, this);
+        set_accels_for_action (ACTION_PREFIX + ACTION_QUIT, {"<Ctrl>Q"});
 
         var granite_settings = Granite.Settings.get_default ();
         var gtk_settings = Gtk.Settings.get_default ();
