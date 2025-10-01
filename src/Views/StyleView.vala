@@ -33,7 +33,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         PURPLE,
         PINK,
         BROWN,
-        GRAY;
+        GRAY,
+        LATTE;
 
         public string to_string () {
             switch (this) {
@@ -57,6 +58,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
                     return "cocoa";
                 case GRAY:
                     return "slate";
+                case LATTE:
+                    return "latte";
                 default:
                     return "auto";
             }
@@ -230,6 +233,11 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             tooltip_text = _("Slate")
         };
 
+        var latte_button = new PrefersAccentColorButton (pantheon_act, AccentColor.LATTE) {
+            group = blueberry_button,
+            tooltip_text = _("Latte")
+        };
+
         var auto_button = new PrefersAccentColorButton (pantheon_act, AccentColor.NO_PREFERENCE) {
             group = blueberry_button,
             tooltip_text = _("Automatic based on wallpaper")
@@ -248,6 +256,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         accent_box.append (grape_button);
         accent_box.append (cocoa_button);
         accent_box.append (slate_button);
+        accent_box.append (latte_button);
         accent_box.append (auto_button);
 
         custom_bin.append (color_scheme_box);
