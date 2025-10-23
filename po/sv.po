@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2025-10-22 08:07+0000\n"
+"PO-Revision-Date: 2025-10-24 07:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/sv/>\n"
@@ -55,8 +55,7 @@ msgstr "Skaffa några appar"
 #: src/Views/AppCenterView.vala:33
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
-"Hämta appar gjorda för elementary OS och recenserade av elementary på "
-"AppCenter"
+"Hämta appar gjorda för elementary OS och granskade av elementary på AppCenter"
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
@@ -72,7 +71,7 @@ msgstr ""
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
-msgstr "Early Access Build"
+msgstr "Förutgåva"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
@@ -255,7 +254,7 @@ msgstr "Jordgubbar"
 
 #: src/Views/StyleView.vala:212
 msgid "Bubblegum"
-msgstr "Bubblegum"
+msgstr "Tuggummi"
 
 #: src/Views/StyleView.vala:217
 msgid "Grape"
@@ -291,11 +290,11 @@ msgstr "Automatiska uppdateringar"
 
 #: src/Views/UpdatesView.vala:19
 msgid "Free & Purchased Apps"
-msgstr "Gratis och köpta appar"
+msgstr "Kostnadsfria och köpta appar"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr "Appar som provas gratis uppdateras inte automatiskt"
+msgstr "Appar som provas kostnadsfritt uppdateras inte automatiskt"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
@@ -318,8 +317,8 @@ msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
 msgstr ""
-"Fortsätt att konfigurera några användbara funktioner. Besök länkarna nedan "
-"för att få mer hjälp med att komma igång."
+"Fortsätt för att konfigurera ett par användbara funktioner. Besök länkarna "
+"nedan för att få mer hjälp med att komma igång."
 
 #: src/Views/WelcomeView.vala:137
 msgid "Basics Guide"
