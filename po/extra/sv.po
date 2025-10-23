@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2025-10-22 08:07+0000\n"
+"PO-Revision-Date: 2025-10-24 07:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/installer/"
 "onboarding-extra/sv/>\n"
@@ -58,7 +58,7 @@ msgstr "Förbättra stödet för skärmläsare"
 
 #: data/onboarding.metainfo.xml.in:92
 msgid "Use the current wallpaper in the \"Choose your look\" view"
-msgstr "Använd den aktuella bakgrunden i vyn \"Välj ditt utseende\""
+msgstr "Använd den aktuella bakgrunden i vyn \"Välj din look\""
 
 #: data/onboarding.metainfo.xml.in:105
 msgid "Redesigned app icon"
@@ -71,15 +71,17 @@ msgstr ""
 
 #: data/onboarding.metainfo.xml.in:107
 msgid "Use bolder typography"
-msgstr "Använd djärvare typografi"
+msgstr "Använd fet typografi"
 
 #: data/onboarding.metainfo.xml.in:108
 msgid "Redesign app page to better explain sideloading and alt stores"
-msgstr "Omarbeta appsidan för att bättre förklara sidoladdning och alt stores"
+msgstr ""
+"Omarbeta appsidan för att bättre förklara sidoladdning och alternativa "
+"butiker"
 
 #: data/onboarding.metainfo.xml.in:109
 msgid "Always warn about Early Access builds"
-msgstr "Varna alltid för Early Access-versioner"
+msgstr "Varna alltid för förutgåvor"
 
 #: data/onboarding.metainfo.xml.in:129
 msgid "Add Automatic Updates view"
@@ -87,7 +89,7 @@ msgstr "Lägg till vyn Automatiska uppdateringar"
 
 #: data/onboarding.metainfo.xml.in:130
 msgid "Add Sunset to Sunrise to Style View"
-msgstr "Lägg till solnedgång till soluppgång till Style View"
+msgstr "Lägg till solnedgång till soluppgång till Stilvy"
 
 #: data/onboarding.metainfo.xml.in:131
 msgid "Update for OS 7 and Gtk 4"
