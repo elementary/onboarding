@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2025-10-24 07:55+0000\n"
+"PO-Revision-Date: 2025-10-30 19:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/installer/"
 "onboarding-extra/sv/>\n"
@@ -58,7 +58,7 @@ msgstr "Förbättra stödet för skärmläsare"
 
 #: data/onboarding.metainfo.xml.in:92
 msgid "Use the current wallpaper in the \"Choose your look\" view"
-msgstr "Använd den aktuella bakgrunden i vyn \"Välj din look\""
+msgstr "Använd den aktuella bakgrunden i vyn \"Välj utseende\""
 
 #: data/onboarding.metainfo.xml.in:105
 msgid "Redesigned app icon"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: data/onboarding.metainfo.xml.in:107
 msgid "Use bolder typography"
-msgstr "Använd fet typografi"
+msgstr "Använd fetare typografi"
 
 #: data/onboarding.metainfo.xml.in:108
 msgid "Redesign app page to better explain sideloading and alt stores"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: data/onboarding.metainfo.xml.in:109
 msgid "Always warn about Early Access builds"
-msgstr "Varna alltid för förutgåvor"
+msgstr "Varna alltid för förhandsversioner"
 
 #: data/onboarding.metainfo.xml.in:129
 msgid "Add Automatic Updates view"
