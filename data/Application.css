@@ -61,3 +61,50 @@ row.link box {
     padding: 0 6px;
     border-spacing: 12px;
 }
+
+desktop-preview {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 86px 64px, cover;
+    min-width: 92px;
+    min-height: 64px;
+    margin: 6px 6px 12px 12px;
+}
+
+desktop-preview.prefer-default {
+    background-color: white;
+    background-image:
+        url("resource:///io/elementary/onboarding/appearance-default.svg"),
+        linear-gradient(
+            to bottom,
+            alpha(@accent_color_300, 0.1),
+            alpha(@accent_color_500, 0.1)
+        );
+}
+
+desktop-preview.prefer-dark {
+    background-color: mix(@BLACK_300, @BLACK_500, 0.25);
+    background-image:
+        url("resource:///io/elementary/onboarding/appearance-dark.svg"),
+        linear-gradient(
+            to bottom,
+            alpha(@accent_color_300, 0.1),
+            alpha(@accent_color_500, 0.1)
+        );
+}
+
+desktop-preview.prefer-scheduled {
+    background-size: 86px 64px, cover, cover;
+    background-image:
+        url("resource:///io/elementary/onboarding/appearance-scheduled.svg"),
+        linear-gradient(
+            to bottom,
+            alpha(@accent_color_300, 0.1),
+            alpha(@accent_color_500, 0.1)
+        ),
+        linear-gradient(
+            120deg,
+            white 50%,
+            mix(@BLACK_300, @BLACK_500, 0.25) 51%
+        );
+}
