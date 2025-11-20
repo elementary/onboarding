@@ -57,7 +57,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             max_width_chars = 50,
             use_markup = true
         };
-        description_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+        description_label.add_css_class (Granite.CssClass.DIM);
 
         var header_area = new Gtk.Box (VERTICAL, 0);
         header_area.append (overlay);
@@ -84,7 +84,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         var next_button = new Gtk.Button.with_label (_("Next")) {
             action_name = "win.next"
         };
-        next_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+        next_button.add_css_class (Granite.CssClass.SUGGESTED);
 
         var buttons_group = new Gtk.SizeGroup (BOTH);
         buttons_group.add_widget (back_button);
@@ -175,7 +175,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
 
         construct {
             var image = new Gtk.Image.from_icon_name (icon_name);
-            image.add_css_class (Granite.STYLE_CLASS_ACCENT);
+            image.add_css_class (Granite.CssClass.ACCENT);
             image.add_css_class (color);
 
             var description_label = new Gtk.Label (label) {

@@ -208,7 +208,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             var image = new Gtk.Image.from_icon_name (icon_name) {
                 pixel_size = 16
             };
-            image.add_css_class (Granite.STYLE_CLASS_ACCENT);
+            image.add_css_class (Granite.CssClass.ACCENT);
             image.add_css_class (color);
 
             var left_label = new Gtk.Label (label_string) {
