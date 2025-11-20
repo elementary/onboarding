@@ -241,61 +241,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         custom_bin.append (color_scheme_box);
         custom_bin.append (accent_box);
 
-        var background_settings = new Settings ("org.gnome.desktop.background");
-
-        var background_uri = background_settings.get_string ("picture-uri");
-        var file = File.new_for_uri (background_uri);
-        if (file.query_exists ()) {
-            var background_provider = new Gtk.CssProvider ();
-            background_provider.load_from_data (
-                """
-                .prefer-default {
-                    background-image:
-                        url("resource:///io/elementary/onboarding/appearance-default.svg"),
-                        url("%s");
-                }
-
-                .prefer-dark {
-                    background-size: 86px 64px, cover, cover;
-                    background-image:
-                        url("resource:///io/elementary/onboarding/appearance-dark.svg"),
-                        linear-gradient(
-                            to bottom,
-                            alpha(black, 0.45),
-                            alpha(black, 0.45)
-                        ),
-                        url("%s");
-                }
-
-                .prefer-scheduled {
-                    background-image:
-                        url("resource:///io/elementary/onboarding/appearance-scheduled.svg"),
-                        linear-gradient(
-                            120deg,
-                            transparent 50%,
-                            alpha(black, 0.45) 51%
-                        ),
-                        url("%s");
-                }
-                """.printf (background_uri, background_uri, background_uri).data
-            );
-
-            prefer_default_card.get_style_context ().add_provider (
-                background_provider,
-                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-            );
-
-            prefer_dark_card.get_style_context ().add_provider (
-                background_provider,
-                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-            );
-
-            prefer_scheduled_card.get_style_context ().add_provider (
-                background_provider,
-                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-            );
-        }
-
         var settings = new GLib.Settings ("io.elementary.settings-daemon.prefers-color-scheme");
 
         if (settings.get_string ("prefer-dark-schedule") == "sunset-to-sunrise") {
@@ -322,12 +267,67 @@ public class Onboarding.StyleView : AbstractOnboardingView {
     }
 
     private class DesktopPreview : Granite.Bin {
+        private static Settings gnome_settings;
+        private static Gdk.Texture texture;
+
+        static construct {
+            gnome_settings = new Settings ("org.gnome.desktop.background");
+            gnome_settings.changed.connect (update_texture);
+
+            update_texture ();
+        }
+
         class construct {
             set_css_name ("desktop-preview");
         }
 
         construct {
-            add_css_class (Granite.CssClass.CARD);
+            var picture = new Gtk.Picture () {
+                content_fit = COVER,
+                paintable = texture
+            };
+
+            var shell = new Gtk.Box (HORIZONTAL, 0);
+            shell.add_css_class ("shell");
+
+            var overlay = new Gtk.Overlay () {
+                child = picture,
+                overflow = HIDDEN
+            };
+            overlay.add_overlay (shell);
+            overlay.add_css_class (Granite.CssClass.CARD);
+
+            child = overlay;
+        }
+
+        private static void update_texture () {
+            if (gnome_settings.get_string ("picture-options") == "none") {
+                Gdk.RGBA rgba = {};
+                rgba.parse (gnome_settings.get_string ("primary-color"));
+
+                var pixbuf = new Gdk.Pixbuf (RGB, false, 8, 500, 500);
+                pixbuf.fill (rgba_to_pixel (rgba));
+
+                texture = Gdk.Texture.for_pixbuf (pixbuf);
+                return;
+            }
+
+            texture = Gdk.Texture.from_file (File.new_for_uri (
+                gnome_settings.get_string ("picture-uri")
+            ));
+        }
+
+        // Borrowed from
+        // https://github.com/GNOME/california/blob/master/src/util/util-gfx.vala
+        private static uint32 rgba_to_pixel (Gdk.RGBA rgba) {
+            return (uint32) fp_to_uint8 (rgba.red) << 24
+                | (uint32) fp_to_uint8 (rgba.green) << 16
+                | (uint32) fp_to_uint8 (rgba.blue) << 8
+                | (uint32) fp_to_uint8 (rgba.alpha);
+        }
+
+        private static uint8 fp_to_uint8 (double value) {
+            return (uint8) (value * uint8.MAX);
         }
     }
 
