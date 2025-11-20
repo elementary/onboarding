@@ -41,28 +41,35 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         };
         overlay.add_overlay (badge);
 
-        var title_label = new Gtk.Label (title) {
+        var header_label = new Granite.HeaderLabel (title) {
             halign = CENTER,
-            justify = CENTER,
-            wrap = true,
-            max_width_chars = 50,
-            use_markup = true
+            // justify = CENTER,
+            //     max_width_chars = 50,
+            size = H1,
+            secondary_text = description
         };
-        title_label.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
 
-        var description_label = new Gtk.Label (description) {
-            halign = CENTER,
-            justify = CENTER,
-            wrap = true,
-            max_width_chars = 50,
-            use_markup = true
-        };
-        description_label.add_css_class (Granite.CssClass.DIM);
+        // var title_label = new Gtk.Label (title) {
+        //     halign = CENTER,
+        //     justify = CENTER,
+        //     wrap = true,
+        //     max_width_chars = 50,
+        //     use_markup = true
+        // };
+        // title_label.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
 
-        var header_area = new Gtk.Box (VERTICAL, 0);
+        // var description_label = new Gtk.Label (description) {
+        //     halign = CENTER,
+        //     justify = CENTER,
+        //     wrap = true,
+        //     max_width_chars = 50,
+        //     use_markup = true
+        // };
+        // description_label.add_css_class (Granite.CssClass.DIM);
+
+        var header_area = new Granite.Box (VERTICAL, HALF);
         header_area.append (overlay);
-        header_area.append (title_label);
-        header_area.append (description_label);
+        header_area.append (header_label);
         header_area.add_css_class ("header-area");
 
         custom_bin = new Gtk.Box (VERTICAL, 0) {
@@ -126,8 +133,8 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             {title, description}
         );
 
-        bind_property ("description", description_label, "label");
-        bind_property ("title", title_label, "label");
+        bind_property ("description", header_label, "secondary-text");
+        bind_property ("title", header_label, "label");
 
         // Grab focus early so we don't interupt the screen reader
         showing.connect (() => next_button.grab_focus ());
