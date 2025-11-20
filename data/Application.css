@@ -20,10 +20,6 @@ navigation-view-page > box {
     border-spacing: 2em;
 }
 
-.header-area {
-    border-spacing: 0.25em;
-}
-
 .header-area image.large-icons {
     -gtk-icon-size: 64px;
 }
@@ -31,11 +27,6 @@ navigation-view-page > box {
 .header-area image.normal-icons {
     -gtk-icon-size: 32px;
 }
-
-.header-area overlay {
-    margin-bottom: 0.5em;
-}
-
 .content-area {
     border-spacing: 1em;
 }
