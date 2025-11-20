@@ -57,9 +57,8 @@ navigation-view-page > box {
     margin: 0;
 }
 
-row.link box {
-    padding: 0 6px;
-    border-spacing: 12px;
+granite-listitem.link box {
+    padding: 0 0.5em;
 }
 
 desktop-preview {

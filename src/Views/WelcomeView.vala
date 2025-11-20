@@ -164,8 +164,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             show_separators = true,
             selection_mode = NONE
         };
-        links_list.add_css_class ("boxed-list");
-        links_list.add_css_class (Granite.STYLE_CLASS_RICH_LIST);
+        links_list.add_css_class (Granite.CssClass.CARD);
         links_list.append (thebasics_link);
         links_list.append (support_link);
         links_list.append (website_link);
@@ -174,7 +173,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         custom_bin.append (links_list);
 
         links_list.row_activated.connect ((row) => {
-            launch_uri (((LinkRow) row).uri);
+            launch_uri (((LinkRow) row.child).uri);
         });
     }
 
@@ -186,7 +185,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         );
     }
 
-    private class LinkRow : Gtk.ListBoxRow {
+    private class LinkRow : Granite.ListItem {
         public string uri { get; construct; }
         public string icon_name { get; construct; }
         public string label_string { get; construct; }
@@ -206,7 +205,6 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         }
 
         construct {
-
             var image = new Gtk.Image.from_icon_name (icon_name) {
                 pixel_size = 16
             };
@@ -220,7 +218,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
 
             var link_image = new Gtk.Image.from_icon_name ("adw-external-link-symbolic");
 
-            var box = new Gtk.Box (HORIZONTAL, 0);
+            var box = new Granite.Box (HORIZONTAL);
             box.append (image);
             box.append (left_label);
             box.append (link_image);
