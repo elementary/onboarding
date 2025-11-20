@@ -35,7 +35,7 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
             wrap = true
         };
 
-        var appcenter_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        var appcenter_box = new Granite.Box (HORIZONTAL, HALF);
         appcenter_box.append (appcenter_image);
         appcenter_box.append (appcenter_label);
 
@@ -53,7 +53,7 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
             wrap = true
         };
 
-        var sideload_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        var sideload_box = new Granite.Box (HORIZONTAL, HALF);
         sideload_box.append (sideload_image);
         sideload_box.append (sideload_label);
 

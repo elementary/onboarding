@@ -164,7 +164,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             {_("Style"), prefer_scheduled_label.label}
         );
 
-        var color_scheme_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        var color_scheme_box = new Granite.Box (HORIZONTAL, HALF);
         color_scheme_box.append (prefer_default_radio);
         color_scheme_box.append (prefer_dark_radio);
         color_scheme_box.append (prefer_scheduled_radio);
@@ -223,8 +223,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             tooltip_text = _("Automatic based on wallpaper")
         };
 
-        var accent_box= new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
-            halign = Gtk.Align.CENTER
+        var accent_box= new Granite.Box (HORIZONTAL, HALF) {
+            halign = CENTER
         };
         accent_box.append (blueberry_button);
         accent_box.append (mint_button);
