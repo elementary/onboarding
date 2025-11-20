@@ -321,7 +321,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         });
     }
 
-    private class DesktopPreview : Granite.Bin {
+    private class DesktopPreview : Gtk.Widget {
         class construct {
             set_css_name ("desktop-preview");
         }
