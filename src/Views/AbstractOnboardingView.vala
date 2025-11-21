@@ -21,7 +21,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
     public string icon_name { get; construct; }
     public string? badge_name { get; construct; }
 
-    protected Gtk.Box custom_bin { get; private set; }
+    protected Granite.Box custom_bin { get; private set; }
     protected Gtk.Image image { get; private set; }
 
     construct {
@@ -65,7 +65,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         header_area.append (description_label);
         header_area.add_css_class ("header-area");
 
-        custom_bin = new Gtk.Box (VERTICAL, 0) {
+        custom_bin = new Granite.Box (VERTICAL) {
             hexpand = true,
             vexpand = true,
             halign = CENTER,
@@ -111,7 +111,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             next_button.label = _("Get Started");
         }
 
-        var box = new Gtk.Box (VERTICAL, 0) {
+        var box = new Granite.Box (VERTICAL, DOUBLE) {
             hexpand = true,
             vexpand = true
         };
@@ -160,7 +160,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         }
     }
 
-    public class ListItem : Gtk.Box {
+    public class ListItem : Granite.Box {
         public string color { get; construct; }
         public string icon_name { get; construct; }
         public string label { get; construct; }
@@ -185,7 +185,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
                 xalign = 0
             };
 
-            spacing = 6;
+            child_spacing = HALF;
             append (image);
             append (description_label);
         }

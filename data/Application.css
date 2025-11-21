@@ -16,10 +16,6 @@ navigation-view-page {
     padding-top: 2em;
 }
 
-navigation-view-page > box {
-    border-spacing: 2em;
-}
-
 .header-area {
     border-spacing: 0.25em;
 }
@@ -34,10 +30,6 @@ navigation-view-page > box {
 
 .header-area overlay {
     margin-bottom: 0.5em;
-}
-
-.content-area {
-    border-spacing: 1em;
 }
 
 .dialog-action-area levelbar block {

@@ -42,7 +42,7 @@ public class Onboarding.NightLightView : AbstractOnboardingView {
         var settings = new GLib.Settings ("org.gnome.settings-daemon.plugins.color");
         settings.bind ("night-light-enabled", service_switch, "active", GLib.SettingsBindFlags.DEFAULT);
 
-        var box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 12);
+        var box = new Granite.Box (HORIZONTAL);
         box.append (switch_label);
         box.append (service_switch);
 
