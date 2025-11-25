@@ -21,7 +21,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
     public string icon_name { get; construct; }
     public string? badge_name { get; construct; }
 
-    protected Gtk.Box custom_bin { get; private set; }
+    protected Granite.Box custom_bin { get; private set; }
     protected Gtk.Image image { get; private set; }
 
     construct {
@@ -57,7 +57,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             max_width_chars = 50,
             use_markup = true
         };
-        description_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+        description_label.add_css_class (Granite.CssClass.DIM);
 
         var header_area = new Gtk.Box (VERTICAL, 0);
         header_area.append (overlay);
@@ -65,7 +65,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         header_area.append (description_label);
         header_area.add_css_class ("header-area");
 
-        custom_bin = new Gtk.Box (VERTICAL, 0) {
+        custom_bin = new Granite.Box (VERTICAL) {
             hexpand = true,
             vexpand = true,
             halign = CENTER,
@@ -84,7 +84,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         var next_button = new Gtk.Button.with_label (_("Next")) {
             action_name = "win.next"
         };
-        next_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+        next_button.add_css_class (Granite.CssClass.SUGGESTED);
 
         var buttons_group = new Gtk.SizeGroup (BOTH);
         buttons_group.add_widget (back_button);
@@ -111,7 +111,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             next_button.label = _("Get Started");
         }
 
-        var box = new Gtk.Box (VERTICAL, 0) {
+        var box = new Granite.Box (VERTICAL, DOUBLE) {
             hexpand = true,
             vexpand = true
         };
@@ -160,7 +160,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         }
     }
 
-    public class ListItem : Gtk.Box {
+    public class ListItem : Granite.Box {
         public string color { get; construct; }
         public string icon_name { get; construct; }
         public string label { get; construct; }
@@ -175,7 +175,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
 
         construct {
             var image = new Gtk.Image.from_icon_name (icon_name);
-            image.add_css_class (Granite.STYLE_CLASS_ACCENT);
+            image.add_css_class (Granite.CssClass.ACCENT);
             image.add_css_class (color);
 
             var description_label = new Gtk.Label (label) {
@@ -185,7 +185,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
                 xalign = 0
             };
 
-            spacing = 6;
+            child_spacing = HALF;
             append (image);
             append (description_label);
         }

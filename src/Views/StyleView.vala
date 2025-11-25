@@ -73,9 +73,6 @@ public class Onboarding.StyleView : AbstractOnboardingView {
     }
 
     construct {
-        var css_provider = new Gtk.CssProvider ();
-        css_provider.load_from_resource ("/io/elementary/onboarding/StyleView.css");
-
         string? user_path = null;
         try {
             FDO.Accounts? accounts_service = GLib.Bus.get_proxy_sync (
@@ -102,11 +99,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             }
         }
 
-        var prefer_default_card = new Gtk.Grid ();
-        prefer_default_card.add_css_class (Granite.STYLE_CLASS_CARD);
-        prefer_default_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
+        var prefer_default_card = new DesktopPreview ();
         prefer_default_card.add_css_class ("prefer-default");
-        prefer_default_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_default_radio = new Gtk.CheckButton () {
             accessible_role = RADIO
@@ -125,11 +119,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             {_("Style"), default_label.label}
         );
 
-        var prefer_dark_card = new Gtk.Grid ();
-        prefer_dark_card.add_css_class (Granite.STYLE_CLASS_CARD);
-        prefer_dark_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
+        var prefer_dark_card = new DesktopPreview ();
         prefer_dark_card.add_css_class ("prefer-dark");
-        prefer_dark_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_dark_radio = new Gtk.CheckButton () {
             accessible_role = RADIO,
@@ -149,11 +140,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             {_("Style"), dark_label.label}
         );
 
-        var prefer_scheduled_card = new Gtk.Grid ();
-        prefer_scheduled_card.add_css_class (Granite.STYLE_CLASS_CARD);
-        prefer_scheduled_card.add_css_class (Granite.STYLE_CLASS_ROUNDED);
+        var prefer_scheduled_card = new DesktopPreview ();
         prefer_scheduled_card.add_css_class ("prefer-scheduled");
-        prefer_scheduled_card.get_style_context ().add_provider (css_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
 
         var prefer_scheduled_radio = new Gtk.CheckButton () {
             accessible_role = RADIO,
@@ -176,7 +164,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             {_("Style"), prefer_scheduled_label.label}
         );
 
-        var color_scheme_box = new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6);
+        var color_scheme_box = new Granite.Box (HORIZONTAL, HALF);
         color_scheme_box.append (prefer_default_radio);
         color_scheme_box.append (prefer_dark_radio);
         color_scheme_box.append (prefer_scheduled_radio);
@@ -235,8 +223,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
             tooltip_text = _("Automatic based on wallpaper")
         };
 
-        var accent_box= new Gtk.Box (Gtk.Orientation.HORIZONTAL, 6) {
-            halign = Gtk.Align.CENTER
+        var accent_box= new Granite.Box (HORIZONTAL, HALF) {
+            halign = CENTER
         };
         accent_box.append (blueberry_button);
         accent_box.append (mint_button);
@@ -331,6 +319,16 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         prefer_scheduled_radio.toggled.connect (() => {
             settings.set_string ("prefer-dark-schedule", "sunset-to-sunrise");
         });
+    }
+
+    private class DesktopPreview : Gtk.Widget {
+        class construct {
+            set_css_name ("desktop-preview");
+        }
+
+        construct {
+            add_css_class (Granite.CssClass.CARD);
+        }
     }
 
     private class PrefersAccentColorButton : Gtk.CheckButton {
