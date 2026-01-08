@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-23 17:36+0000\n"
+"POT-Creation-Date: 2026-01-08 17:24+0000\n"
 "PO-Revision-Date: 2025-12-22 18:55+0000\n"
 "Last-Translator: Bas Ernst <ernstbas@users.noreply.l10n.elementaryos.org>\n"
 "Language-Team: Dutch <https://l10n.elementaryos.org/projects/installer/"
@@ -33,66 +33,67 @@ msgstr "Wijzig algemene instellingen bij het eerste gebruik"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:71
-#: data/onboarding.metainfo.xml.in:81 data/onboarding.metainfo.xml.in:93
-#: data/onboarding.metainfo.xml.in:110 data/onboarding.metainfo.xml.in:121
-#: data/onboarding.metainfo.xml.in:132
+#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:69
+#: data/onboarding.metainfo.xml.in:77 data/onboarding.metainfo.xml.in:90
+#: data/onboarding.metainfo.xml.in:100 data/onboarding.metainfo.xml.in:112
+#: data/onboarding.metainfo.xml.in:129 data/onboarding.metainfo.xml.in:140
+#: data/onboarding.metainfo.xml.in:151
 msgid "Updated translations"
 msgstr "Bijgewerkte vertalingen"
 
-#: data/onboarding.metainfo.xml.in:69
+#: data/onboarding.metainfo.xml.in:88
 msgid "Add back button"
 msgstr "Voeg een terugknop toe"
 
-#: data/onboarding.metainfo.xml.in:70
+#: data/onboarding.metainfo.xml.in:89
 msgid "Redesign links to match System Settings"
 msgstr "Werk links bij zodat ze overeenkomen met de Systeeminstellingen"
 
-#: data/onboarding.metainfo.xml.in:79
+#: data/onboarding.metainfo.xml.in:98
 msgid "UpdatesView: add OS updates"
 msgstr "UpdatesView: voeg OS-updates toe"
 
-#: data/onboarding.metainfo.xml.in:80
+#: data/onboarding.metainfo.xml.in:99
 msgid "Improve screenreader support"
 msgstr "Verbeter de ondersteuning voor schermlezers"
 
-#: data/onboarding.metainfo.xml.in:92
+#: data/onboarding.metainfo.xml.in:111
 msgid "Use the current wallpaper in the \"Choose your look\" view"
 msgstr "Gebruik de huidige achtergrond in de \"Kies je look\"-weergave"
 
-#: data/onboarding.metainfo.xml.in:105
+#: data/onboarding.metainfo.xml.in:124
 msgid "Redesigned app icon"
 msgstr "Herontworpen app-icoon"
 
-#: data/onboarding.metainfo.xml.in:106
+#: data/onboarding.metainfo.xml.in:125
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 "Genereer een pictogram voor de hoofdpagina gebruikmakend van de standaard "
 "achtergond en accentkleur"
 
-#: data/onboarding.metainfo.xml.in:107
+#: data/onboarding.metainfo.xml.in:126
 msgid "Use bolder typography"
 msgstr "Gebruik een vetgedrukte typografie"
 
-#: data/onboarding.metainfo.xml.in:108
+#: data/onboarding.metainfo.xml.in:127
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
 "Herontwerp app-pagina om sideloading en alternative webwinkels beter uit te "
 "leggen"
 
-#: data/onboarding.metainfo.xml.in:109
+#: data/onboarding.metainfo.xml.in:128
 msgid "Always warn about Early Access builds"
 msgstr "Waarschuw altijd voor Early Access builds"
 
-#: data/onboarding.metainfo.xml.in:129
+#: data/onboarding.metainfo.xml.in:148
 msgid "Add Automatic Updates view"
 msgstr "Voeg automatische updateweergave toe"
 
-#: data/onboarding.metainfo.xml.in:130
+#: data/onboarding.metainfo.xml.in:149
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "Voeg zonsopgang tot zonsondergang toe aan stijlweergave"
 
-#: data/onboarding.metainfo.xml.in:131
+#: data/onboarding.metainfo.xml.in:150
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Update voor OS 7 en Gtk 4"
 

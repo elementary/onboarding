@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-23 17:36+0000\n"
+"POT-Creation-Date: 2026-01-08 17:24+0000\n"
 "PO-Revision-Date: 2025-10-30 19:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/installer/"
@@ -33,65 +33,66 @@ msgstr "Ändra vanliga inställningar vid första körningen"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:71
-#: data/onboarding.metainfo.xml.in:81 data/onboarding.metainfo.xml.in:93
-#: data/onboarding.metainfo.xml.in:110 data/onboarding.metainfo.xml.in:121
-#: data/onboarding.metainfo.xml.in:132
+#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:69
+#: data/onboarding.metainfo.xml.in:77 data/onboarding.metainfo.xml.in:90
+#: data/onboarding.metainfo.xml.in:100 data/onboarding.metainfo.xml.in:112
+#: data/onboarding.metainfo.xml.in:129 data/onboarding.metainfo.xml.in:140
+#: data/onboarding.metainfo.xml.in:151
 msgid "Updated translations"
 msgstr "Uppdaterade översättningar"
 
-#: data/onboarding.metainfo.xml.in:69
+#: data/onboarding.metainfo.xml.in:88
 msgid "Add back button"
 msgstr "Lägg till tillbaka-knapp"
 
-#: data/onboarding.metainfo.xml.in:70
+#: data/onboarding.metainfo.xml.in:89
 msgid "Redesign links to match System Settings"
 msgstr "Omforma länkar för att matcha systeminställningar"
 
-#: data/onboarding.metainfo.xml.in:79
+#: data/onboarding.metainfo.xml.in:98
 msgid "UpdatesView: add OS updates"
 msgstr "UpdatesView: lägg till OS-uppdateringar"
 
-#: data/onboarding.metainfo.xml.in:80
+#: data/onboarding.metainfo.xml.in:99
 msgid "Improve screenreader support"
 msgstr "Förbättra stödet för skärmläsare"
 
-#: data/onboarding.metainfo.xml.in:92
+#: data/onboarding.metainfo.xml.in:111
 msgid "Use the current wallpaper in the \"Choose your look\" view"
 msgstr "Använd den aktuella bakgrunden i vyn \"Välj utseende\""
 
-#: data/onboarding.metainfo.xml.in:105
+#: data/onboarding.metainfo.xml.in:124
 msgid "Redesigned app icon"
 msgstr "Omdesignad app-ikon"
 
-#: data/onboarding.metainfo.xml.in:106
+#: data/onboarding.metainfo.xml.in:125
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 "Skapa en ikon för huvudsidan med hjälp av standardbakgrunden och accentfärgen"
 
-#: data/onboarding.metainfo.xml.in:107
+#: data/onboarding.metainfo.xml.in:126
 msgid "Use bolder typography"
 msgstr "Använd fetare typografi"
 
-#: data/onboarding.metainfo.xml.in:108
+#: data/onboarding.metainfo.xml.in:127
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
 "Omarbeta appsidan för att bättre förklara sidoladdning och alternativa "
 "butiker"
 
-#: data/onboarding.metainfo.xml.in:109
+#: data/onboarding.metainfo.xml.in:128
 msgid "Always warn about Early Access builds"
 msgstr "Varna alltid för förhandsversioner"
 
-#: data/onboarding.metainfo.xml.in:129
+#: data/onboarding.metainfo.xml.in:148
 msgid "Add Automatic Updates view"
 msgstr "Lägg till vyn Automatiska uppdateringar"
 
-#: data/onboarding.metainfo.xml.in:130
+#: data/onboarding.metainfo.xml.in:149
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "Lägg till solnedgång till soluppgång till Stilvy"
 
-#: data/onboarding.metainfo.xml.in:131
+#: data/onboarding.metainfo.xml.in:150
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Uppdatering för OS 7 och Gtk 4"
 

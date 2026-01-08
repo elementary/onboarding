@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-23 17:36+0000\n"
+"POT-Creation-Date: 2026-01-08 17:24+0000\n"
 "PO-Revision-Date: 2024-10-22 11:22+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementary.io/projects/installer/"
@@ -34,66 +34,67 @@ msgstr "Настройте общие параметры при первом з�
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:71
-#: data/onboarding.metainfo.xml.in:81 data/onboarding.metainfo.xml.in:93
-#: data/onboarding.metainfo.xml.in:110 data/onboarding.metainfo.xml.in:121
-#: data/onboarding.metainfo.xml.in:132
+#: data/onboarding.metainfo.xml.in:58 data/onboarding.metainfo.xml.in:69
+#: data/onboarding.metainfo.xml.in:77 data/onboarding.metainfo.xml.in:90
+#: data/onboarding.metainfo.xml.in:100 data/onboarding.metainfo.xml.in:112
+#: data/onboarding.metainfo.xml.in:129 data/onboarding.metainfo.xml.in:140
+#: data/onboarding.metainfo.xml.in:151
 msgid "Updated translations"
 msgstr "Обновлены переводы"
 
-#: data/onboarding.metainfo.xml.in:69
+#: data/onboarding.metainfo.xml.in:88
 msgid "Add back button"
 msgstr "Добавлена кнопка «Назад»"
 
-#: data/onboarding.metainfo.xml.in:70
+#: data/onboarding.metainfo.xml.in:89
 msgid "Redesign links to match System Settings"
 msgstr "Обновлены ссылки в соответствие Параметрам системы"
 
-#: data/onboarding.metainfo.xml.in:79
+#: data/onboarding.metainfo.xml.in:98
 msgid "UpdatesView: add OS updates"
 msgstr "UpdatesView: добавлены обновления ОС"
 
-#: data/onboarding.metainfo.xml.in:80
+#: data/onboarding.metainfo.xml.in:99
 msgid "Improve screenreader support"
 msgstr "Улучшена поддержка экранного диктора"
 
-#: data/onboarding.metainfo.xml.in:92
+#: data/onboarding.metainfo.xml.in:111
 msgid "Use the current wallpaper in the \"Choose your look\" view"
 msgstr "Использование текущих обоев в просмотре «Выберите свой стиль»"
 
-#: data/onboarding.metainfo.xml.in:105
+#: data/onboarding.metainfo.xml.in:124
 msgid "Redesigned app icon"
 msgstr "Новая иконка приложения"
 
-#: data/onboarding.metainfo.xml.in:106
+#: data/onboarding.metainfo.xml.in:125
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
 "Значок на главной странице теперь создаётся из обоев по умолчанию и "
 "акцентного цвета"
 
-#: data/onboarding.metainfo.xml.in:107
+#: data/onboarding.metainfo.xml.in:126
 msgid "Use bolder typography"
 msgstr "Более жирная типографика"
 
-#: data/onboarding.metainfo.xml.in:108
+#: data/onboarding.metainfo.xml.in:127
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
 "Переработана страница о приложениях, чтобы лучше объяснять загрузку из "
 "сторонних источников и альтернативные магазины"
 
-#: data/onboarding.metainfo.xml.in:109
+#: data/onboarding.metainfo.xml.in:128
 msgid "Always warn about Early Access builds"
 msgstr "Всегда предупреждать о сборках раннего доступа"
 
-#: data/onboarding.metainfo.xml.in:129
+#: data/onboarding.metainfo.xml.in:148
 msgid "Add Automatic Updates view"
 msgstr "Добавлен просмотр автоматических обновлений"
 
-#: data/onboarding.metainfo.xml.in:130
+#: data/onboarding.metainfo.xml.in:149
 msgid "Add Sunset to Sunrise to Style View"
 msgstr "Добавлена настройка «От заката до рассвета» в параметры стиля"
 
-#: data/onboarding.metainfo.xml.in:131
+#: data/onboarding.metainfo.xml.in:150
 msgid "Update for OS 7 and Gtk 4"
 msgstr "Обновлено до OS 7 и GTK4"
 
