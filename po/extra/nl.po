@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2023-02-10 17:25+0000\n"
-"Last-Translator: Dennis ten Hoove <dennistenhoove@protonmail.com>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/installer/"
+"PO-Revision-Date: 2025-12-22 18:55+0000\n"
+"Last-Translator: Bas Ernst <ernstbas@users.noreply.l10n.elementaryos.org>\n"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/installer/"
 "onboarding-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
@@ -42,45 +42,47 @@ msgstr "Bijgewerkte vertalingen"
 
 #: data/onboarding.metainfo.xml.in:69
 msgid "Add back button"
-msgstr ""
+msgstr "Voeg een terugknop toe"
 
 #: data/onboarding.metainfo.xml.in:70
 msgid "Redesign links to match System Settings"
-msgstr ""
+msgstr "Werk links bij zodat ze overeenkomen met de Systeeminstellingen"
 
 #: data/onboarding.metainfo.xml.in:79
 msgid "UpdatesView: add OS updates"
-msgstr ""
+msgstr "UpdatesView: voeg OS-updates toe"
 
 #: data/onboarding.metainfo.xml.in:80
 msgid "Improve screenreader support"
-msgstr ""
+msgstr "Verbeter de ondersteuning voor schermlezers"
 
 #: data/onboarding.metainfo.xml.in:92
 msgid "Use the current wallpaper in the \"Choose your look\" view"
-msgstr ""
+msgstr "Gebruik de huidige achtergrond in de \"Kies je look\"-weergave"
 
 #: data/onboarding.metainfo.xml.in:105
-#, fuzzy
-#| msgid "New app icon"
 msgid "Redesigned app icon"
-msgstr "Nieuw app icoon"
+msgstr "Herontworpen app-icoon"
 
 #: data/onboarding.metainfo.xml.in:106
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
+"Genereer een pictogram voor de hoofdpagina gebruikmakend van de standaard "
+"achtergond en accentkleur"
 
 #: data/onboarding.metainfo.xml.in:107
 msgid "Use bolder typography"
-msgstr ""
+msgstr "Gebruik een vetgedrukte typografie"
 
 #: data/onboarding.metainfo.xml.in:108
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
+"Herontwerp app-pagina om sideloading en alternative webwinkels beter uit te "
+"leggen"
 
 #: data/onboarding.metainfo.xml.in:109
 msgid "Always warn about Early Access builds"
-msgstr ""
+msgstr "Waarschuw altijd voor Early Access builds"
 
 #: data/onboarding.metainfo.xml.in:129
 msgid "Add Automatic Updates view"

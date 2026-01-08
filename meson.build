@@ -1,7 +1,7 @@
 project(
     'io.elementary.onboarding',
     'vala', 'c',
-    version: '8.0.3',
+    version: '8.0.4',
     meson_version: '>= 0.57'
 )
 
@@ -18,7 +18,7 @@ cc = meson.get_compiler('c')
 gee_dep = dependency('gee-0.8')
 glib_dep = dependency('glib-2.0', version: '>=2.64.0')
 gobject_dep = dependency('gobject-2.0')
-granite_dep = dependency('granite-7')
+granite_dep = dependency('granite-7', version: '>=7.7.0')
 gtk_dep = dependency('gtk4', version: '>= 4.10')
 posix_dep = meson.get_compiler('vala').find_library('posix')
 adw_dep = dependency('libadwaita-1', version: '>= 1.4.0')

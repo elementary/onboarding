@@ -8,75 +8,82 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-23 17:36+0000\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-10-30 19:55+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/installer/"
+"onboarding/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "Konfigurera %s"
 
 #: src/Views/AbstractOnboardingView.vala:84
 msgid "Next"
-msgstr ""
+msgstr "Nästa"
 
 #: src/Views/AbstractOnboardingView.vala:103
 msgid "Skip All"
-msgstr ""
+msgstr "Hoppa över alla"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "Tillbaka"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
-msgstr ""
+msgstr "Kom igång"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
+"Hämta de appar du behöver på AppCenter eller sidoladda Flatpak-appar från "
+"alternativa butiker."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Skaffa några appar"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
+"Hämta appar gjorda för elementary OS och granskade av elementary på AppCenter"
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "Sidoladda appar från alternativa appbutiker som Flathub"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Använd endast denna förhandsversion av %s på enheter som är avsedda för "
+"utveckling."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
-msgstr ""
+msgstr "Förhandsversion"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Du kommer inte att kunna uppgradera till en stabil utgåva"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
-msgstr ""
+msgstr "Vissa funktioner kan saknas eller vara ofullständiga"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Rapportera problem med hjälp av appen Återkoppling"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -84,34 +91,36 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Njut av att använda %s! Du kan alltid besöka Systeminställningar för att "
+"konfigurera maskinvara eller ändra dina inställningar."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "Redo att börja"
 
 #: src/Views/FinishView.vala:29
 msgid "Open System Settings…"
-msgstr ""
+msgstr "Öppna systeminställningar…"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "Denna tillfälliga session återställs när du loggar ut."
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "Gästsession"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "Alla data som skapats under denna session kommer att raderas"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "Inställningarna kommer att återställas till standard"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "Spara filer på en extern enhet för att komma åt dem senare"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -122,193 +131,207 @@ msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr[0] ""
+"Gamla filer kan raderas automatiskt efter %u dygn för att spara utrymme och "
+"hjälpa till att skydda din integritet."
 msgstr[1] ""
+"Gamla filer kan raderas automatiskt efter %u dygn för att spara utrymme och "
+"hjälpa till att skydda din integritet."
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
-msgstr ""
+msgstr "Hushållning"
 
 #: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
 #: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
 #: src/Views/HouseKeepingView.vala:96
 msgid "Automatically Delete"
-msgstr ""
+msgstr "Ta bort automatiskt"
 
 #: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
-msgstr ""
+msgstr "Gamla temporära filer"
 
 #: src/Views/HouseKeepingView.vala:56
 msgid "Downloaded files"
-msgstr ""
+msgstr "Hämtade filer"
 
 #: src/Views/HouseKeepingView.vala:72
 msgid "Screenshot files"
-msgstr ""
+msgstr "Skärmdumpsfiler"
 
 #: src/Views/HouseKeepingView.vala:88
 msgid "Trashed files"
-msgstr ""
+msgstr "Kastade filer"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Gör färgerna på din skärm varmare på natten för att förhindra ansträngda "
+"ögon och sömnlöshet."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Nattljus"
 
 #: src/Views/NightLightView.vala:34
 msgid "Night Light:"
-msgstr ""
+msgstr "Nattljus:"
 
 #: src/Views/NightLightView.vala:40
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Justera schema och temperatur…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Använd E-post, Kalender och Uppgifter med ett befintligt nätkonto för att "
+"synkronisera e-post, händelser och uppgifter med den här enheten."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Nätkonton"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Anslut nätkonton…"
 
 #: src/Views/StyleView.vala:69
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Gör den till din egen genom att välja en visuell stil och accentfärg. Appar "
+"kan åsidosätta dessa med sitt eget utseende."
 
 #: src/Views/StyleView.vala:71
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Välj utseende"
 
 #: src/Views/StyleView.vala:116
 msgid "Default"
-msgstr ""
+msgstr "Standard"
 
 #: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
 #: src/Views/StyleView.vala:173
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 #: src/Views/StyleView.vala:140
 msgid "Dark"
-msgstr ""
+msgstr "Mörk"
 
 #: src/Views/StyleView.vala:164
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Solnedgång till soluppgång"
 
 #: src/Views/StyleView.vala:182
 msgid "Blueberry"
-msgstr ""
+msgstr "Blåbär"
 
 #: src/Views/StyleView.vala:187
 msgid "Mint"
-msgstr ""
+msgstr "Mint"
 
 #: src/Views/StyleView.vala:192
 msgid "Lime"
-msgstr ""
+msgstr "Ljusgrön"
 
 #: src/Views/StyleView.vala:197
 msgid "Banana"
-msgstr ""
+msgstr "Banan"
 
 #: src/Views/StyleView.vala:202
 msgid "Orange"
-msgstr ""
+msgstr "Apelsin"
 
 #: src/Views/StyleView.vala:207
 msgid "Strawberry"
-msgstr ""
+msgstr "Jordgubbe"
 
 #: src/Views/StyleView.vala:212
 msgid "Bubblegum"
-msgstr ""
+msgstr "Tuggummi"
 
 #: src/Views/StyleView.vala:217
 msgid "Grape"
-msgstr ""
+msgstr "Druva"
 
 #: src/Views/StyleView.vala:222
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakao"
 
 #: src/Views/StyleView.vala:227
 msgid "Slate"
-msgstr ""
+msgstr "Skiffer"
 
 #: src/Views/StyleView.vala:232
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Automatiskt baserat på bakgrundsbild"
 
 #: src/Views/StyleView.vala:357
 msgid "accent color"
-msgstr ""
+msgstr "accentfärg"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Uppdateringar kan installeras automatiskt när din enhet är ansluten till "
+"internet."
 
 #: src/Views/UpdatesView.vala:12
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Automatiska uppdateringar"
 
 #: src/Views/UpdatesView.vala:19
 msgid "Free & Purchased Apps"
-msgstr ""
+msgstr "Kostnadsfria och köpta appar"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr ""
+msgstr "Appar som provas kostnadsfritt uppdateras inte automatiskt"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "Operativsystem"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
-msgstr ""
+msgstr "Kommer att installeras när du väljer att starta om den här enheten"
 
 #: src/Views/WelcomeView.vala:85
 msgid "What’s New"
-msgstr ""
+msgstr "Vad är nytt"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Welcome!"
-msgstr ""
+msgstr "Välkommen!"
 
 #: src/Views/WelcomeView.vala:94
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
 msgstr ""
+"Fortsätt för att konfigurera ett par användbara funktioner. Besök länkarna "
+"nedan för att få mer hjälp med att komma igång."
 
 #: src/Views/WelcomeView.vala:137
 msgid "Basics Guide"
-msgstr ""
+msgstr "Grundläggande guide"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "Få hjälp"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "Vår webbplats"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "Engagera dig eller sponsra oss"
