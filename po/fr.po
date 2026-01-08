@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-23 17:36+0000\n"
+"POT-Creation-Date: 2026-01-08 17:24+0000\n"
 "PO-Revision-Date: 2025-02-06 21:12+0000\n"
 "Last-Translator: Stella Ménier <stella.menier@gmx.de>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/installer/"
@@ -204,7 +204,7 @@ msgstr "Comptes en ligne"
 msgid "Connect Online Accounts…"
 msgstr "Se connecter à des comptes en ligne…"
 
-#: src/Views/StyleView.vala:69
+#: src/Views/StyleView.vala:72
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -212,72 +212,76 @@ msgstr ""
 "Appropriez-le vous en sélectionnant un style et une couleur d'accentuation. "
 "Les applications peuvent avoir leur apparence propre."
 
-#: src/Views/StyleView.vala:71
+#: src/Views/StyleView.vala:74
 msgid "Choose Your Look"
 msgstr "Sélectionnez votre apparence"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:113
 msgid "Default"
 msgstr "Par défaut"
 
-#: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
+#: src/Views/StyleView.vala:167
 msgid "Style"
 msgstr "Apparence"
 
-#: src/Views/StyleView.vala:140
+#: src/Views/StyleView.vala:134
 msgid "Dark"
 msgstr "Sombre"
 
-#: src/Views/StyleView.vala:164
+#: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
 msgstr "Du coucher au lever du soleil"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:176
 msgid "Blueberry"
 msgstr "Myrtille"
 
-#: src/Views/StyleView.vala:187
+#: src/Views/StyleView.vala:181
 msgid "Mint"
 msgstr "Menthe"
 
-#: src/Views/StyleView.vala:192
+#: src/Views/StyleView.vala:186
 msgid "Lime"
 msgstr "Citron Vert"
 
-#: src/Views/StyleView.vala:197
+#: src/Views/StyleView.vala:191
 msgid "Banana"
 msgstr "Banane"
 
-#: src/Views/StyleView.vala:202
+#: src/Views/StyleView.vala:196
 msgid "Orange"
 msgstr "Orange"
 
-#: src/Views/StyleView.vala:207
+#: src/Views/StyleView.vala:201
 msgid "Strawberry"
 msgstr "Fraise"
 
-#: src/Views/StyleView.vala:212
+#: src/Views/StyleView.vala:206
 msgid "Bubblegum"
 msgstr "Chewing-gum"
 
-#: src/Views/StyleView.vala:217
+#: src/Views/StyleView.vala:211
 msgid "Grape"
 msgstr "Raisin"
 
-#: src/Views/StyleView.vala:222
+#: src/Views/StyleView.vala:216
 msgid "Cocoa"
 msgstr "Cacao"
 
-#: src/Views/StyleView.vala:227
+#: src/Views/StyleView.vala:221
 msgid "Slate"
 msgstr "Ardoise"
 
-#: src/Views/StyleView.vala:232
+#: src/Views/StyleView.vala:226
+msgid "Latte"
+msgstr ""
+
+#: src/Views/StyleView.vala:231
 msgid "Automatic based on wallpaper"
 msgstr "Automatique à partir du fond d'écran"
 
-#: src/Views/StyleView.vala:357
+#: src/Views/StyleView.vala:367
 msgid "accent color"
 msgstr "couleur d'accentuation"
 
@@ -354,8 +358,8 @@ msgstr "S'investir ou nous soutenir"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "
-#~ "information about updates, check out <a href='https://blog.elementary."
-#~ "io'>our blog</a>."
+#~ "information about updates, check out <a href='https://"
+#~ "blog.elementary.io'>our blog</a>."
 #~ msgstr ""
 #~ "Nous continuons à mettre en place de nouvelles fonctionnalités utiles. "
 #~ "Pour plus d'informations sur les mises à jour, consultez <a href='https://"

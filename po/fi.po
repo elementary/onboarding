@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-23 17:36+0000\n"
+"POT-Creation-Date: 2026-01-08 17:24+0000\n"
 "PO-Revision-Date: 2024-12-02 02:00+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
@@ -201,7 +201,7 @@ msgstr "Verkkotilit"
 msgid "Connect Online Accounts…"
 msgstr "Yhdistä verkkotilit…"
 
-#: src/Views/StyleView.vala:69
+#: src/Views/StyleView.vala:72
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -209,72 +209,76 @@ msgstr ""
 "Tee siitä omasi valitsemalla visuaalisen tyylin ja korostevärin. Sovellukset "
 "saattavat ohittaa nämä valinnat omalla ulkoasullaan."
 
-#: src/Views/StyleView.vala:71
+#: src/Views/StyleView.vala:74
 msgid "Choose Your Look"
 msgstr "Valitse ulkoasu"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:113
 msgid "Default"
 msgstr "Oletus"
 
-#: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
+#: src/Views/StyleView.vala:167
 msgid "Style"
 msgstr "Tyyli"
 
-#: src/Views/StyleView.vala:140
+#: src/Views/StyleView.vala:134
 msgid "Dark"
 msgstr "Tumma"
 
-#: src/Views/StyleView.vala:164
+#: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
 msgstr "Auringonnoususta auringonlaskuun"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:176
 msgid "Blueberry"
 msgstr "Mustikka"
 
-#: src/Views/StyleView.vala:187
+#: src/Views/StyleView.vala:181
 msgid "Mint"
 msgstr "Minttu"
 
-#: src/Views/StyleView.vala:192
+#: src/Views/StyleView.vala:186
 msgid "Lime"
 msgstr "Lime"
 
-#: src/Views/StyleView.vala:197
+#: src/Views/StyleView.vala:191
 msgid "Banana"
 msgstr "Banaani"
 
-#: src/Views/StyleView.vala:202
+#: src/Views/StyleView.vala:196
 msgid "Orange"
 msgstr "Appelsiini"
 
-#: src/Views/StyleView.vala:207
+#: src/Views/StyleView.vala:201
 msgid "Strawberry"
 msgstr "Mansikka"
 
-#: src/Views/StyleView.vala:212
+#: src/Views/StyleView.vala:206
 msgid "Bubblegum"
 msgstr "Purukumi"
 
-#: src/Views/StyleView.vala:217
+#: src/Views/StyleView.vala:211
 msgid "Grape"
 msgstr "Rypäle"
 
-#: src/Views/StyleView.vala:222
+#: src/Views/StyleView.vala:216
 msgid "Cocoa"
 msgstr "Kaakao"
 
-#: src/Views/StyleView.vala:227
+#: src/Views/StyleView.vala:221
 msgid "Slate"
 msgstr "Liuskekivi"
 
-#: src/Views/StyleView.vala:232
+#: src/Views/StyleView.vala:226
+msgid "Latte"
+msgstr ""
+
+#: src/Views/StyleView.vala:231
 msgid "Automatic based on wallpaper"
 msgstr "Automaattinen taustakuvaan pohjautuen"
 
-#: src/Views/StyleView.vala:357
+#: src/Views/StyleView.vala:367
 msgid "accent color"
 msgstr "korostusväri"
 
@@ -349,12 +353,12 @@ msgstr "Osallistu tai sponsoroi"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "
-#~ "information about updates, check out <a href='https://blog.elementary."
-#~ "io'>our blog</a>."
+#~ "information about updates, check out <a href='https://"
+#~ "blog.elementary.io'>our blog</a>."
 #~ msgstr ""
 #~ "Jatka ottaaksesi käyttöön uusia hyödyllisiä ominaisuuksia. Lisätietoja "
-#~ "päivityksistä on tarjolla <a href='https://blog.elementary."
-#~ "io'>blogissamme</a>."
+#~ "päivityksistä on tarjolla <a href='https://"
+#~ "blog.elementary.io'>blogissamme</a>."
 
 #, c-format
 #~ msgid ""

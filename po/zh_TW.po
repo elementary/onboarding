@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-23 17:36+0000\n"
+"POT-Creation-Date: 2026-01-08 17:24+0000\n"
 "PO-Revision-Date: 2024-09-19 08:57+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional) <https://l10n.elementary.io/projects/"
@@ -189,78 +189,82 @@ msgstr "線上帳號"
 msgid "Connect Online Accounts…"
 msgstr "連接線上帳號…"
 
-#: src/Views/StyleView.vala:69
+#: src/Views/StyleView.vala:72
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr "選擇視覺風格和強調色來展現您的個性。應用程式可能會忽略這些偏好設定。"
 
-#: src/Views/StyleView.vala:71
+#: src/Views/StyleView.vala:74
 msgid "Choose Your Look"
 msgstr "選擇外觀"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:113
 msgid "Default"
 msgstr "預設"
 
-#: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
+#: src/Views/StyleView.vala:167
 msgid "Style"
 msgstr "風格"
 
-#: src/Views/StyleView.vala:140
+#: src/Views/StyleView.vala:134
 msgid "Dark"
 msgstr "深色"
 
-#: src/Views/StyleView.vala:164
+#: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
 msgstr "日落到日出"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:176
 msgid "Blueberry"
 msgstr "藍莓"
 
-#: src/Views/StyleView.vala:187
+#: src/Views/StyleView.vala:181
 msgid "Mint"
 msgstr "薄荷"
 
-#: src/Views/StyleView.vala:192
+#: src/Views/StyleView.vala:186
 msgid "Lime"
 msgstr "萊姆"
 
-#: src/Views/StyleView.vala:197
+#: src/Views/StyleView.vala:191
 msgid "Banana"
 msgstr "香蕉"
 
-#: src/Views/StyleView.vala:202
+#: src/Views/StyleView.vala:196
 msgid "Orange"
 msgstr "橘色"
 
-#: src/Views/StyleView.vala:207
+#: src/Views/StyleView.vala:201
 msgid "Strawberry"
 msgstr "草莓"
 
-#: src/Views/StyleView.vala:212
+#: src/Views/StyleView.vala:206
 msgid "Bubblegum"
 msgstr "粉色"
 
-#: src/Views/StyleView.vala:217
+#: src/Views/StyleView.vala:211
 msgid "Grape"
 msgstr "葡萄"
 
-#: src/Views/StyleView.vala:222
+#: src/Views/StyleView.vala:216
 msgid "Cocoa"
 msgstr "可可"
 
-#: src/Views/StyleView.vala:227
+#: src/Views/StyleView.vala:221
 msgid "Slate"
 msgstr "石板"
 
-#: src/Views/StyleView.vala:232
+#: src/Views/StyleView.vala:226
+msgid "Latte"
+msgstr ""
+
+#: src/Views/StyleView.vala:231
 msgid "Automatic based on wallpaper"
 msgstr "自動從桌布決定"
 
-#: src/Views/StyleView.vala:357
+#: src/Views/StyleView.vala:367
 msgid "accent color"
 msgstr "強調色"
 

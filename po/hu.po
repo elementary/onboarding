@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-23 17:36+0000\n"
+"POT-Creation-Date: 2026-01-08 17:24+0000\n"
 "PO-Revision-Date: 2024-12-11 17:16+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
@@ -201,7 +201,7 @@ msgstr "Online fiókok"
 msgid "Connect Online Accounts…"
 msgstr "Csatlakozás online fiókokhoz…"
 
-#: src/Views/StyleView.vala:69
+#: src/Views/StyleView.vala:72
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -209,72 +209,76 @@ msgstr ""
 "Tegye egyénivé, válasszon témát és kiemelőszínt. Az alkalmazások továbbra is "
 "használhatják ehelyett a saját színüket."
 
-#: src/Views/StyleView.vala:71
+#: src/Views/StyleView.vala:74
 msgid "Choose Your Look"
 msgstr "Válasszon kinézetet"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:113
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
+#: src/Views/StyleView.vala:167
 msgid "Style"
 msgstr "Stílus"
 
-#: src/Views/StyleView.vala:140
+#: src/Views/StyleView.vala:134
 msgid "Dark"
 msgstr "Sötét"
 
-#: src/Views/StyleView.vala:164
+#: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
 msgstr "Napnyugtától napkeltéig"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:176
 msgid "Blueberry"
 msgstr "Áfonya"
 
-#: src/Views/StyleView.vala:187
+#: src/Views/StyleView.vala:181
 msgid "Mint"
 msgstr "Menta"
 
-#: src/Views/StyleView.vala:192
+#: src/Views/StyleView.vala:186
 msgid "Lime"
 msgstr "Lime"
 
-#: src/Views/StyleView.vala:197
+#: src/Views/StyleView.vala:191
 msgid "Banana"
 msgstr "Banán"
 
-#: src/Views/StyleView.vala:202
+#: src/Views/StyleView.vala:196
 msgid "Orange"
 msgstr "Narancs"
 
-#: src/Views/StyleView.vala:207
+#: src/Views/StyleView.vala:201
 msgid "Strawberry"
 msgstr "Eper"
 
-#: src/Views/StyleView.vala:212
+#: src/Views/StyleView.vala:206
 msgid "Bubblegum"
 msgstr "Rágógumi"
 
-#: src/Views/StyleView.vala:217
+#: src/Views/StyleView.vala:211
 msgid "Grape"
 msgstr "Szőlő"
 
-#: src/Views/StyleView.vala:222
+#: src/Views/StyleView.vala:216
 msgid "Cocoa"
 msgstr "Kakaó"
 
-#: src/Views/StyleView.vala:227
+#: src/Views/StyleView.vala:221
 msgid "Slate"
 msgstr "Pala"
 
-#: src/Views/StyleView.vala:232
+#: src/Views/StyleView.vala:226
+msgid "Latte"
+msgstr ""
+
+#: src/Views/StyleView.vala:231
 msgid "Automatic based on wallpaper"
 msgstr "Automatikus a háttérkép alapján"
 
-#: src/Views/StyleView.vala:357
+#: src/Views/StyleView.vala:367
 msgid "accent color"
 msgstr "kiemelőszín"
 
@@ -350,8 +354,8 @@ msgstr "Csatlakozzon vagy támogasson minket"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "
-#~ "information about updates, check out <a href='https://blog.elementary."
-#~ "io'>our blog</a>."
+#~ "information about updates, check out <a href='https://"
+#~ "blog.elementary.io'>our blog</a>."
 #~ msgstr ""
 #~ "Állítson be további új, hasznos funkciókat. További részletes "
 #~ "információkat talál a <a href='https://blog.elementary.io'>blogunkon</a>."

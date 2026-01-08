@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-23 17:36+0000\n"
+"POT-Creation-Date: 2026-01-08 17:24+0000\n"
 "PO-Revision-Date: 2025-08-03 11:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -44,7 +44,8 @@ msgstr "开始"
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
-msgstr "在应用中心中获取您需要的应用程序，或是从替代商店侧载 Flatpak 应用程序。"
+msgstr ""
+"在应用中心中获取您需要的应用程序，或是从替代商店侧载 Flatpak 应用程序。"
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
@@ -52,7 +53,8 @@ msgstr "获取应用"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
-msgstr "从应用中心中获取为 elementary OS 量身定做并已由 elementary 审查过的应用程序"
+msgstr ""
+"从应用中心中获取为 elementary OS 量身定做并已由 elementary 审查过的应用程序"
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
@@ -183,7 +185,7 @@ msgstr "网络账户"
 msgid "Connect Online Accounts…"
 msgstr "连接网络账户…"
 
-#: src/Views/StyleView.vala:69
+#: src/Views/StyleView.vala:72
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -191,72 +193,76 @@ msgstr ""
 "选择视觉风格与强调色，个性化您的操作系统。应用程序可能会以其自带的外观来显"
 "示。"
 
-#: src/Views/StyleView.vala:71
+#: src/Views/StyleView.vala:74
 msgid "Choose Your Look"
 msgstr "选择系统外观"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:113
 msgid "Default"
 msgstr "默认"
 
-#: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
+#: src/Views/StyleView.vala:167
 msgid "Style"
 msgstr "风格"
 
-#: src/Views/StyleView.vala:140
+#: src/Views/StyleView.vala:134
 msgid "Dark"
 msgstr "深色"
 
-#: src/Views/StyleView.vala:164
+#: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
 msgstr "从日落到日出"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:176
 msgid "Blueberry"
 msgstr "蓝莓色"
 
-#: src/Views/StyleView.vala:187
+#: src/Views/StyleView.vala:181
 msgid "Mint"
 msgstr "薄荷绿"
 
-#: src/Views/StyleView.vala:192
+#: src/Views/StyleView.vala:186
 msgid "Lime"
 msgstr "青柠色"
 
-#: src/Views/StyleView.vala:197
+#: src/Views/StyleView.vala:191
 msgid "Banana"
 msgstr "香蕉黄"
 
-#: src/Views/StyleView.vala:202
+#: src/Views/StyleView.vala:196
 msgid "Orange"
 msgstr "阳光橙"
 
-#: src/Views/StyleView.vala:207
+#: src/Views/StyleView.vala:201
 msgid "Strawberry"
 msgstr "草莓红"
 
-#: src/Views/StyleView.vala:212
+#: src/Views/StyleView.vala:206
 msgid "Bubblegum"
 msgstr "泡泡糖"
 
-#: src/Views/StyleView.vala:217
+#: src/Views/StyleView.vala:211
 msgid "Grape"
 msgstr "葡萄紫"
 
-#: src/Views/StyleView.vala:222
+#: src/Views/StyleView.vala:216
 msgid "Cocoa"
 msgstr "可可色"
 
-#: src/Views/StyleView.vala:227
+#: src/Views/StyleView.vala:221
 msgid "Slate"
 msgstr "石头灰"
 
-#: src/Views/StyleView.vala:232
+#: src/Views/StyleView.vala:226
+msgid "Latte"
+msgstr ""
+
+#: src/Views/StyleView.vala:231
 msgid "Automatic based on wallpaper"
 msgstr "根据壁纸自动设定"
 
-#: src/Views/StyleView.vala:357
+#: src/Views/StyleView.vala:367
 msgid "accent color"
 msgstr "强调色"
 
@@ -324,8 +330,8 @@ msgstr "参与或赞助"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "
-#~ "information about updates, check out <a href='https://blog.elementary."
-#~ "io'>our blog</a>."
+#~ "information about updates, check out <a href='https://"
+#~ "blog.elementary.io'>our blog</a>."
 #~ msgstr ""
 #~ "想了解更多实用功能？请访问我们的 <a href='https://blog.elementary.io'>博客"
 #~ "</a>。"

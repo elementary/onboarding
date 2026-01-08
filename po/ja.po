@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-23 17:36+0000\n"
+"POT-Creation-Date: 2026-01-08 17:24+0000\n"
 "PO-Revision-Date: 2025-07-21 09:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/installer/"
@@ -68,7 +68,8 @@ msgstr ""
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
-msgstr "このプレリリース版の %s は、開発専用に用意したデバイスで使用してください。"
+msgstr ""
+"このプレリリース版の %s は、開発専用に用意したデバイスで使用してください。"
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
@@ -91,9 +92,9 @@ msgstr "“フィードバック”アプリを使用して不具合を報告し
 msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
-msgstr "どうぞ %s "
-"をご利用ください。ハードウェアのセットアップや設定変更は、“システム設定”から"
-"いつでも可能です。"
+msgstr ""
+"どうぞ %s をご利用ください。ハードウェアのセットアップや設定変更は、“システム"
+"設定”からいつでも可能です。"
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
@@ -131,9 +132,9 @@ msgid ""
 msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
-msgstr[0] "古いファイルは %u "
-"日後に自動的に削除されます。これにより、空き領域を確保できるほか、プライバシ"
-"ーの保護に役立ちます。"
+msgstr[0] ""
+"古いファイルは %u 日後に自動的に削除されます。これにより、空き領域を確保でき"
+"るほか、プライバシーの保護に役立ちます。"
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
@@ -197,7 +198,7 @@ msgstr "オンラインアカウント"
 msgid "Connect Online Accounts…"
 msgstr "オンラインアカウントを接続…"
 
-#: src/Views/StyleView.vala:69
+#: src/Views/StyleView.vala:72
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -205,72 +206,76 @@ msgstr ""
 "視覚スタイルとアクセントカラーを選んで、オリジナリティを出しましょう。アプリ"
 "によっては、独自の視覚スタイルとアクセントカラーが使用されることもあります。"
 
-#: src/Views/StyleView.vala:71
+#: src/Views/StyleView.vala:74
 msgid "Choose Your Look"
 msgstr "外観を選択"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:113
 msgid "Default"
 msgstr "デフォルト"
 
-#: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
+#: src/Views/StyleView.vala:167
 msgid "Style"
 msgstr "スタイル"
 
-#: src/Views/StyleView.vala:140
+#: src/Views/StyleView.vala:134
 msgid "Dark"
 msgstr "ダーク"
 
-#: src/Views/StyleView.vala:164
+#: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
 msgstr "日没から日の出まで"
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:176
 msgid "Blueberry"
 msgstr "ブルーベリー"
 
-#: src/Views/StyleView.vala:187
+#: src/Views/StyleView.vala:181
 msgid "Mint"
 msgstr "ミント"
 
-#: src/Views/StyleView.vala:192
+#: src/Views/StyleView.vala:186
 msgid "Lime"
 msgstr "ライム"
 
-#: src/Views/StyleView.vala:197
+#: src/Views/StyleView.vala:191
 msgid "Banana"
 msgstr "バナナ"
 
-#: src/Views/StyleView.vala:202
+#: src/Views/StyleView.vala:196
 msgid "Orange"
 msgstr "オレンジ"
 
-#: src/Views/StyleView.vala:207
+#: src/Views/StyleView.vala:201
 msgid "Strawberry"
 msgstr "ストロベリー"
 
-#: src/Views/StyleView.vala:212
+#: src/Views/StyleView.vala:206
 msgid "Bubblegum"
 msgstr "ピンク"
 
-#: src/Views/StyleView.vala:217
+#: src/Views/StyleView.vala:211
 msgid "Grape"
 msgstr "グレープ"
 
-#: src/Views/StyleView.vala:222
+#: src/Views/StyleView.vala:216
 msgid "Cocoa"
 msgstr "ココア"
 
-#: src/Views/StyleView.vala:227
+#: src/Views/StyleView.vala:221
 msgid "Slate"
 msgstr "スレート"
 
-#: src/Views/StyleView.vala:232
+#: src/Views/StyleView.vala:226
+msgid "Latte"
+msgstr ""
+
+#: src/Views/StyleView.vala:231
 msgid "Automatic based on wallpaper"
 msgstr "壁紙に基づいて自動的に設定"
 
-#: src/Views/StyleView.vala:357
+#: src/Views/StyleView.vala:367
 msgid "accent color"
 msgstr "アクセントカラー"
 
@@ -345,8 +350,8 @@ msgstr "開発に参加、またはスポンサーになる"
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "
-#~ "information about updates, check out <a href='https://blog.elementary."
-#~ "io'>our blog</a>."
+#~ "information about updates, check out <a href='https://"
+#~ "blog.elementary.io'>our blog</a>."
 #~ msgstr ""
 #~ "続行して、便利な新機能をセットアップしましょう。アップデートに関する詳細な"
 #~ "情報は、<a href='https://blog.elementary.io'>ブログ</a>で確認できます。"

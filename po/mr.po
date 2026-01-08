@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-23 17:36+0000\n"
+"POT-Creation-Date: 2026-01-08 17:24+0000\n"
 "PO-Revision-Date: 2020-11-22 20:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
@@ -213,7 +213,7 @@ msgstr ""
 msgid "Connect Online Accounts…"
 msgstr ""
 
-#: src/Views/StyleView.vala:69
+#: src/Views/StyleView.vala:72
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -221,72 +221,76 @@ msgstr ""
 "व्हिज्युअल शैली आणि उच्चारण रंग निवडून त्यास आपले स्वत: चे बनवा. अ‍ॅप कदाचित त्यांच्या स्वत: "
 "च्या देखाव्याने ते अधिलिखित करेल."
 
-#: src/Views/StyleView.vala:71
+#: src/Views/StyleView.vala:74
 msgid "Choose Your Look"
 msgstr "आपला देखावा निवडा"
 
-#: src/Views/StyleView.vala:116
+#: src/Views/StyleView.vala:113
 msgid "Default"
 msgstr "डीफॉल्ट"
 
-#: src/Views/StyleView.vala:125 src/Views/StyleView.vala:149
-#: src/Views/StyleView.vala:173
+#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
+#: src/Views/StyleView.vala:167
 msgid "Style"
 msgstr ""
 
-#: src/Views/StyleView.vala:140
+#: src/Views/StyleView.vala:134
 msgid "Dark"
 msgstr "गडद"
 
-#: src/Views/StyleView.vala:164
+#: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
 msgstr ""
 
-#: src/Views/StyleView.vala:182
+#: src/Views/StyleView.vala:176
 msgid "Blueberry"
 msgstr "ब्लूबेरी"
 
-#: src/Views/StyleView.vala:187
+#: src/Views/StyleView.vala:181
 msgid "Mint"
 msgstr "पुदीना"
 
-#: src/Views/StyleView.vala:192
+#: src/Views/StyleView.vala:186
 msgid "Lime"
 msgstr "लिंबू"
 
-#: src/Views/StyleView.vala:197
+#: src/Views/StyleView.vala:191
 msgid "Banana"
 msgstr "केळी"
 
-#: src/Views/StyleView.vala:202
+#: src/Views/StyleView.vala:196
 msgid "Orange"
 msgstr "संत्रे"
 
-#: src/Views/StyleView.vala:207
+#: src/Views/StyleView.vala:201
 msgid "Strawberry"
 msgstr "स्ट्रॉबेरी"
 
-#: src/Views/StyleView.vala:212
+#: src/Views/StyleView.vala:206
 msgid "Bubblegum"
 msgstr "बबलगम"
 
-#: src/Views/StyleView.vala:217
+#: src/Views/StyleView.vala:211
 msgid "Grape"
 msgstr "द्राक्ष"
 
-#: src/Views/StyleView.vala:222
+#: src/Views/StyleView.vala:216
 msgid "Cocoa"
 msgstr "कोकाआ"
 
-#: src/Views/StyleView.vala:227
+#: src/Views/StyleView.vala:221
 msgid "Slate"
 msgstr "स्लेट"
 
-#: src/Views/StyleView.vala:232
+#: src/Views/StyleView.vala:226
+msgid "Latte"
+msgstr ""
+
+#: src/Views/StyleView.vala:231
 msgid "Automatic based on wallpaper"
 msgstr ""
 
-#: src/Views/StyleView.vala:357
+#: src/Views/StyleView.vala:367
 msgid "accent color"
 msgstr ""
 
@@ -365,8 +369,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "Continue to set up some useful new features. For more detailed "
-#~ "information about updates, check out <a href='https://blog.elementary."
-#~ "io'>our blog</a>."
+#~ "information about updates, check out <a href='https://"
+#~ "blog.elementary.io'>our blog</a>."
 #~ msgstr ""
 #~ "काही उपयुक्त नवीन वैशिष्ट्ये सेट करणे सुरू ठेवा. अपडेट्सबद्दल अधिक तपशीलवार माहितीसाठी, "
 #~ "आमच्या  <a href='https://blog.elementary.io'>ब्लॉग </a> ला भेट द्या."
@@ -388,8 +392,8 @@ msgstr ""
 
 #, fuzzy, c-format
 #~| msgid ""
-#~| "You can also sideload Flatpak apps e.g. from <a href='https://flathub."
-#~| "org'>Flathub</a>"
+#~| "You can also sideload Flatpak apps e.g. from <a href='https://"
+#~| "flathub.org'>Flathub</a>"
 #~ msgid "You can also sideload Flatpak apps e.g. from %s"
 #~ msgstr ""
 #~ "आपण फ्लॅटपॅक अ‍ॅप्स बाजूला करू शकता उदा.<a href='https://flathub.org'> फ्लॅट हब</a> "
