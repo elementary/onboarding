@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-08 17:24+0000\n"
-"PO-Revision-Date: 2020-02-03 21:08+0000\n"
-"Last-Translator: Marko <marko.dolar@gmail.com>\n"
-"Language-Team: Slovenian <https://l10n.elementary.io/projects/installer/"
+"PO-Revision-Date: 2026-01-21 18:55+0000\n"
+"Last-Translator: Jernej Virag <jernej@virag.si>\n"
+"Language-Team: Slovenian <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 3.9.1\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -35,57 +35,54 @@ msgstr "Preskoči vse"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "Nazaj"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
 msgstr "Pričnite"
 
 #: src/Views/AppCenterView.vala:22
-#, fuzzy
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
-"Pridobite aplikacije, ki jih potrebujete v AppCentru. Kurirane aplikacije so "
-"narejene za elementary OS in pregledane."
+"Pridobite aplikacije, ki jih potrebujete v AppCentru oz. naložite Flatpak "
+"aplikacije z drugih trgovin."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
 msgstr "Pridobite nekaj aplikacij"
 
 #: src/Views/AppCenterView.vala:33
-#, fuzzy
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
-msgstr ""
-"Pridobite aplikacije, ki jih potrebujete v AppCentru. Kurirane aplikacije so "
-"narejene za elementary OS in pregledane."
+msgstr "Pridobite aplikacije narejene za elementary OS v AppCentru"
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "Naložite aplikacije z drugih trgovin kot npr. Flathub"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"To testno različico %s uporabljajte samo na napravah namenjenih razvoju."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
-msgstr ""
+msgstr "Zgodnja verzija"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Nadgradnja na stabilno različico ne bo možna"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
-msgstr ""
+msgstr "Nekatere funkcije bodo manjkale oz. ne bodo končane"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Napake javite preko aplikacije Feedback"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -106,23 +103,23 @@ msgstr "Odpri sistemske nastavitve…"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "Ta začasna seja bo pobrisana ob odjavi."
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "Seja za goste"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "Vsi podatki te seje bodo pobrisani"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "Nastavitve bodo povrnjene v izvorno stanje"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "Datoteke shranite na zunanjo napravo za kasnejši dostop"
 
 #: src/Views/HouseKeepingView.vala:22
 #, fuzzy, c-format
@@ -155,28 +152,20 @@ msgstr "Gospodinjenje"
 #: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
 #: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
 #: src/Views/HouseKeepingView.vala:96
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatically Delete"
-msgstr "Samodejno izbriši:"
+msgstr "Samodejno izbriši"
 
 #: src/Views/HouseKeepingView.vala:40
-#, fuzzy
-#| msgid "Temporary files"
 msgid "Old temporary files"
-msgstr "Začasne datoteke"
+msgstr "Stare začasne datoteke"
 
 #: src/Views/HouseKeepingView.vala:56
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Downloaded files"
-msgstr "Datoteke v košu"
+msgstr "Prenesene datoteke"
 
 #: src/Views/HouseKeepingView.vala:72
-#, fuzzy
-#| msgid "Trashed files"
 msgid "Screenshot files"
-msgstr "Datoteke v košu"
+msgstr "Posnetke zaslona"
 
 #: src/Views/HouseKeepingView.vala:88
 msgid "Trashed files"
@@ -200,168 +189,163 @@ msgstr "Nočna luč:"
 
 #: src/Views/NightLightView.vala:40
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Nastavi urnik in temperaturo…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Uporabite Pošto, Koledar in Opravila z obstoječim spletnim računom za "
+"sinhronizacijo pošte, dogodkov in opravil."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Spletni računi"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Poveži spletne račune…"
 
 #: src/Views/StyleView.vala:72
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Prilagodite sistem s svojim stilom in barvo. Aplikacije lahko izberejo svoj "
+"izgled."
 
 #: src/Views/StyleView.vala:74
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Izberite izgled"
 
 #: src/Views/StyleView.vala:113
 msgid "Default"
-msgstr ""
+msgstr "Privzeto"
 
 #: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
 #: src/Views/StyleView.vala:167
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 #: src/Views/StyleView.vala:134
 msgid "Dark"
-msgstr ""
+msgstr "Temen"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Od sončnega vzhoda do zahoda"
 
 #: src/Views/StyleView.vala:176
 msgid "Blueberry"
-msgstr ""
+msgstr "Borovnica"
 
 #: src/Views/StyleView.vala:181
 msgid "Mint"
-msgstr ""
+msgstr "Mentol"
 
 #: src/Views/StyleView.vala:186
 msgid "Lime"
-msgstr ""
+msgstr "Limeta"
 
 #: src/Views/StyleView.vala:191
 msgid "Banana"
-msgstr ""
+msgstr "Banana"
 
 #: src/Views/StyleView.vala:196
 msgid "Orange"
-msgstr ""
+msgstr "Pomaranča"
 
 #: src/Views/StyleView.vala:201
 msgid "Strawberry"
-msgstr ""
+msgstr "Jagoda"
 
 #: src/Views/StyleView.vala:206
 msgid "Bubblegum"
-msgstr ""
+msgstr "Žvečilni"
 
 #: src/Views/StyleView.vala:211
 msgid "Grape"
-msgstr ""
+msgstr "Grozdje"
 
 #: src/Views/StyleView.vala:216
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakav"
 
 #: src/Views/StyleView.vala:221
 msgid "Slate"
-msgstr ""
+msgstr "Skrilavec"
 
 #: src/Views/StyleView.vala:226
 msgid "Latte"
-msgstr ""
+msgstr "Kava"
 
 #: src/Views/StyleView.vala:231
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Samodejno, glede na ozadje"
 
 #: src/Views/StyleView.vala:367
 msgid "accent color"
-msgstr ""
+msgstr "barva poudarka"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Posodobitve se lahko samodejno namestijo, ko je naprava povezana na internet."
 
 #: src/Views/UpdatesView.vala:12
-#, fuzzy
-#| msgid "Automatically Delete:"
 msgid "Automatic Updates"
-msgstr "Samodejno izbriši:"
+msgstr "Samodejne posodobitve"
 
 #: src/Views/UpdatesView.vala:19
 msgid "Free & Purchased Apps"
-msgstr ""
+msgstr "Zastonj in kupljene aplikacije"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr ""
+msgstr "Preizkusne aplikacije se ne bodo samodejno posodobile"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "Operacijski sistem"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
-msgstr ""
+msgstr "bo nameščen ko ponovno zaženete to napravo"
 
 #: src/Views/WelcomeView.vala:85
 msgid "What’s New"
 msgstr "Kaj je novega"
 
 #: src/Views/WelcomeView.vala:88
-#, fuzzy
-#| msgid "Welcome to %s!"
 msgid "Welcome!"
-msgstr "Dobrodošli v %s!"
+msgstr "Dobrodošli!"
 
 #: src/Views/WelcomeView.vala:94
-#, fuzzy
-#| msgid ""
-#| "Continue to set up some useful features. Visit the links below for more "
-#| "information about %s."
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
 msgstr ""
 "Nadaljujte za nastavitev nekaterih uporabnih sposobnosti. Za več informacij "
-"o %s obiščite spodnje povezave."
+"obiščite spodnje povezave."
 
 #: src/Views/WelcomeView.vala:137
-#, fuzzy
-#| msgid "Basics Guide…"
 msgid "Basics Guide"
-msgstr "Vodič po osnovah…"
+msgstr "Vodič po osnovah"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "Pomoč"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "Naša spletna stran"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "Pomagajte ali nas sponzorirajte"
 
 #~ msgid "Community Support…"
 #~ msgstr "Pomoč od skupnosti…"
