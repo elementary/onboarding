@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-08 17:24+0000\n"
-"PO-Revision-Date: 2024-09-16 00:16+0000\n"
+"PO-Revision-Date: 2026-01-31 22:55+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
-"Language-Team: Ukrainian <https://l10n.elementary.io/projects/installer/"
+"Language-Team: Ukrainian <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -278,7 +278,7 @@ msgstr "Кам'яно-сірий"
 
 #: src/Views/StyleView.vala:226
 msgid "Latte"
-msgstr ""
+msgstr "Лате"
 
 #: src/Views/StyleView.vala:231
 msgid "Automatic based on wallpaper"
