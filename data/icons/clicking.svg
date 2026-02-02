@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="16"
+   height="16"
+   version="1.0"
+   id="svg26"
+   sodipodi:docname="clicking.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs26" />
+  <sodipodi:namedview
+     id="namedview26"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="70.625"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:window-width="2560"
+     inkscape:window-height="1373"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg26" />
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jakub Steiner</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://en.wikipedia.org/wiki/MIT_License" />
+        <dc:source>http://jimmac.musichall.cz/themes.php?skin=7</dc:source>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>negative</rdf:li>
+            <rdf:li>inverted</rdf:li>
+            <rdf:li>cursor</rdf:li>
+            <rdf:li>theme</rdf:li>
+            <rdf:li>X</rdf:li>
+            <rdf:li>xorg</rdf:li>
+            <rdf:li>xcursor</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Inverted variant of the DMZ cursor theme.</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m3.8711 0c-0.94726 0.0022791-1.8711 0.77195-1.8711 1.8398v10.016c0 0.72608 0.51825 1.3299 1.1016 1.5312 0.58331 0.20138 1.3387 0.05901 1.8047-0.48633a1.0001 1.0001 0 0 0 0.019531-0.023438l0.88086-1.0977 1.2988 2.9434c0.45631 1.0624 1.6965 1.549 2.7598 1.1211a1.0001 1.0001 0 0 0 0.0019531 0c1.0644-0.4295 1.6072-1.6841 1.1504-2.748a1.0001 1.0001 0 0 0-0.003906-0.009765l-1.373-3.1172 1.6484 0.013672c0.71359 0.0058789 1.3434-0.45176 1.5859-1.043 0.24233-0.59072 0.1022-1.3867-0.4375-1.8652l-7.3086-6.5938a1.0001 1.0001 0 0 0-0.0078124-0.0058594c-0.3575-0.31627-0.81674-0.47565-1.25-0.47461zm0.0019531 1c0.20341-4.8953e-4 0.41162 0.068439 0.58594 0.22266l7.3145 6.5996c0.46806 0.41409 0.16117 1.1654-0.47461 1.1602l-3.1973-0.025391 1.998 4.5332c0.23896 0.55652-0.033609 1.1942-0.60742 1.4258-0.57321 0.23067-1.2301-0.032197-1.4688-0.58789l-1.9668-4.4551-1.9102 2.3789c-0.38547 0.45107-1.1465 0.18752-1.1465-0.39648v-10.016c0-0.5013 0.42554-0.83877 0.87305-0.83984z"
+     fill="#555761"
+     fill-rule="evenodd"
+     stop-color="#000000"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path1" />
+  <g
+     transform="translate(-15,-160)"
+     display="none"
+     id="g26">
+    <rect
+       id="left_ptr"
+       x="15"
+       y="160"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       x="50"
+       y="160"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect1" />
+    <rect
+       x="190"
+       y="160"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect2" />
+    <rect
+       id="grabbing"
+       x="85"
+       y="160"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="plus"
+       x="120"
+       y="160"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="right_ptr"
+       x="155"
+       y="160"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="pencil"
+       x="224.94"
+       y="160"
+       width="24.062"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="xterm"
+       x="260"
+       y="160"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       x="14"
+       y="364"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect3" />
+    <rect
+       x="14"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect4" />
+    <rect
+       id="bottom_side"
+       x="85"
+       y="195"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="top_side"
+       x="120"
+       y="195"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="right_side"
+       x="155"
+       y="195"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="left_side"
+       x="189.94"
+       y="195"
+       width="24.062"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="bottom_left_corner"
+       x="225"
+       y="195"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="bottom_right_corner"
+       x="260"
+       y="195"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="top_left_corner"
+       x="295"
+       y="195"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="question_arrow"
+       x="15"
+       y="195"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="top_right_corner"
+       x="330"
+       y="195"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="X_cursor"
+       x="330"
+       y="160"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="lr_angle"
+       x="50"
+       y="230.06"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="ul_angle"
+       x="85"
+       y="230.06"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="ur_angle"
+       x="120"
+       y="230.06"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="top_tee"
+       x="155"
+       y="230.06"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="bottom_tee"
+       x="189.94"
+       y="230.06"
+       width="24.062"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="left_tee"
+       x="225"
+       y="230.06"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="right_tee"
+       x="260"
+       y="230.06"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="copy"
+       x="295"
+       y="230.06"
+       width="24"
+       height="23.939"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="ll_angle"
+       x="15"
+       y="230.06"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="move"
+       x="330"
+       y="230.06"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="circle"
+       x="50"
+       y="265.03"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="link"
+       x="15"
+       y="265.03"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="crossed_circle"
+       x="85"
+       y="265"
+       width="24"
+       height="24.033"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="cross"
+       x="120"
+       y="265"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="crosshair"
+       x="155"
+       y="265"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="dnd-ask"
+       x="224"
+       y="265.03"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="dnd-none"
+       x="189"
+       y="265.03"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="dnd-copy"
+       x="259"
+       y="265"
+       width="24"
+       height="24.033"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="dnd-link"
+       x="294"
+       y="265"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="dnd-move"
+       x="329"
+       y="265"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="bd_double_arrow"
+       x="50"
+       y="300"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="fd_double_arrow"
+       x="15"
+       y="300"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="sb_v_double_arrow"
+       x="85"
+       y="299.97"
+       width="24"
+       height="24.033"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="sb_h_double_arrow"
+       x="120"
+       y="299.97"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="sb_right_arrow"
+       x="155"
+       y="299.97"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="sb_up_arrow"
+       x="224"
+       y="300"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="sb_left_arrow"
+       x="189"
+       y="300"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="sb_down_arrow"
+       x="259"
+       y="299.97"
+       width="24"
+       height="24.033"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="tcross"
+       x="294"
+       y="299.97"
+       width="24"
+       height="24.033"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       id="dotbox"
+       x="329"
+       y="300"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3" />
+    <rect
+       x="42"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect5" />
+    <rect
+       x="70"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect6" />
+    <rect
+       x="98"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect7" />
+    <rect
+       x="126"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect8" />
+    <rect
+       x="154"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect9" />
+    <rect
+       x="182"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect10" />
+    <rect
+       x="210"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect11" />
+    <rect
+       x="42"
+       y="364"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect12" />
+    <rect
+       x="70"
+       y="364"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect13" />
+    <rect
+       x="98"
+       y="364"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect14" />
+    <rect
+       x="126"
+       y="364"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect15" />
+    <rect
+       x="154"
+       y="364"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect16" />
+    <rect
+       x="182"
+       y="364"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect17" />
+    <rect
+       x="210"
+       y="364"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect18" />
+    <rect
+       x="238"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect19" />
+    <rect
+       x="266"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect20" />
+    <rect
+       x="294"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect21" />
+    <rect
+       x="322"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect22" />
+    <rect
+       x="350"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect23" />
+    <rect
+       x="378"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect24" />
+    <rect
+       x="406"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect25" />
+    <rect
+       x="434"
+       y="337"
+       width="24"
+       height="24"
+       color="#000000"
+       display="block"
+       opacity=".3"
+       id="rect26" />
+  </g>
+</svg>
