@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-08 17:24+0000\n"
+"POT-Creation-Date: 2026-02-05 17:46+0000\n"
 "PO-Revision-Date: 2024-09-14 21:16+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
@@ -97,9 +97,17 @@ msgstr ""
 msgid "Ready to Go"
 msgstr "יצאנו לדרך"
 
-#: src/Views/FinishView.vala:29
-msgid "Open System Settings…"
-msgstr "פתיחת הגדרות המערכת…"
+#: src/Views/FinishView.vala:30
+msgid "From the Applications menu or by searching for specific settings"
+msgstr ""
+
+#: src/Views/FinishView.vala:35
+msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
+msgstr ""
+
+#: src/Views/FinishView.vala:40
+msgid "By secondary-clicking on the wallpaper"
+msgstr ""
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
@@ -336,6 +344,9 @@ msgstr "האתר שלנו"
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
 msgstr "השתתפות או מימון"
+
+#~ msgid "Open System Settings…"
+#~ msgstr "פתיחת הגדרות המערכת…"
 
 #~ msgid "Our Blog…"
 #~ msgstr "הבלוג שלנו…"

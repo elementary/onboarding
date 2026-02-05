@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-08 17:24+0000\n"
+"POT-Creation-Date: 2026-02-05 17:46+0000\n"
 "PO-Revision-Date: 2026-01-12 08:55+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
@@ -95,9 +95,17 @@ msgstr "請享受 %s！您可以隨時造訪《系統設定值》來設定硬體
 msgid "Ready to Go"
 msgstr "準備就緒"
 
-#: src/Views/FinishView.vala:29
-msgid "Open System Settings…"
-msgstr "開啟系統設定值…"
+#: src/Views/FinishView.vala:30
+msgid "From the Applications menu or by searching for specific settings"
+msgstr ""
+
+#: src/Views/FinishView.vala:35
+msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
+msgstr ""
+
+#: src/Views/FinishView.vala:40
+msgid "By secondary-clicking on the wallpaper"
+msgstr ""
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
@@ -323,6 +331,9 @@ msgstr "我們的網站"
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
 msgstr "參與或贊助"
+
+#~ msgid "Open System Settings…"
+#~ msgstr "開啟系統設定值…"
 
 #~ msgid "Our Blog…"
 #~ msgstr "我們的部落格…"

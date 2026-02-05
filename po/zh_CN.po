@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-08 17:24+0000\n"
+"POT-Creation-Date: 2026-02-05 17:46+0000\n"
 "PO-Revision-Date: 2025-08-03 11:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -93,9 +93,17 @@ msgstr "开始使用 %s！您随时可以访问系统设置应用更改硬件选
 msgid "Ready to Go"
 msgstr "系统已准备就绪"
 
-#: src/Views/FinishView.vala:29
-msgid "Open System Settings…"
-msgstr "打开系统设置…"
+#: src/Views/FinishView.vala:30
+msgid "From the Applications menu or by searching for specific settings"
+msgstr ""
+
+#: src/Views/FinishView.vala:35
+msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
+msgstr ""
+
+#: src/Views/FinishView.vala:40
+msgid "By secondary-clicking on the wallpaper"
+msgstr ""
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
@@ -321,6 +329,9 @@ msgstr "我们的网站"
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
 msgstr "参与或赞助"
+
+#~ msgid "Open System Settings…"
+#~ msgstr "打开系统设置…"
 
 #~ msgid "Community Support…"
 #~ msgstr "社区支持…"

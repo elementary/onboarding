@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-08 17:24+0000\n"
+"POT-Creation-Date: 2026-02-05 17:46+0000\n"
 "PO-Revision-Date: 2026-01-23 22:55+0000\n"
 "Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
 "Language-Team: Dutch <https://l10n.elementaryos.org/projects/installer/"
@@ -97,9 +97,17 @@ msgstr ""
 msgid "Ready to Go"
 msgstr "Klaar om te starten"
 
-#: src/Views/FinishView.vala:29
-msgid "Open System Settings…"
-msgstr "Open Systeeminstellingen…"
+#: src/Views/FinishView.vala:30
+msgid "From the Applications menu or by searching for specific settings"
+msgstr ""
+
+#: src/Views/FinishView.vala:35
+msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
+msgstr ""
+
+#: src/Views/FinishView.vala:40
+msgid "By secondary-clicking on the wallpaper"
+msgstr ""
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
@@ -339,6 +347,9 @@ msgstr "Onze website"
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
 msgstr "Doe mee of sponsor ons"
+
+#~ msgid "Open System Settings…"
+#~ msgstr "Open Systeeminstellingen…"
 
 #~ msgid "Our Blog…"
 #~ msgstr "Onze blog…"

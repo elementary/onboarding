@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-08 17:24+0000\n"
+"POT-Creation-Date: 2026-02-05 17:46+0000\n"
 "PO-Revision-Date: 2024-09-29 02:16+0000\n"
 "Last-Translator: David Hewitt <davidmhewitt@gmail.com>\n"
 "Language-Team: English (United Kingdom) <https://l10n.elementary.io/projects/"
@@ -97,9 +97,17 @@ msgstr ""
 msgid "Ready to Go"
 msgstr "Ready to Go"
 
-#: src/Views/FinishView.vala:29
-msgid "Open System Settings…"
-msgstr "Open System Settings…"
+#: src/Views/FinishView.vala:30
+msgid "From the Applications menu or by searching for specific settings"
+msgstr ""
+
+#: src/Views/FinishView.vala:35
+msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
+msgstr ""
+
+#: src/Views/FinishView.vala:40
+msgid "By secondary-clicking on the wallpaper"
+msgstr ""
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
@@ -338,6 +346,9 @@ msgstr "Our Website"
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
 msgstr "Get Involved or Sponsor Us"
+
+#~ msgid "Open System Settings…"
+#~ msgstr "Open System Settings…"
 
 #~ msgid "Our Blog…"
 #~ msgstr "Our Blog…"
