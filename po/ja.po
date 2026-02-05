@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2026-01-10 11:55+0000\n"
+"PO-Revision-Date: 2026-02-06 22:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/ja/>\n"
@@ -102,15 +102,15 @@ msgstr "準備が完了しました"
 
 #: src/Views/FinishView.vala:30
 msgid "From the Applications menu or by searching for specific settings"
-msgstr ""
+msgstr "“アプリケーション”メニューから (特定の設定を検索することも可能)"
 
 #: src/Views/FinishView.vala:35
 msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
-msgstr ""
+msgstr "“クイック設定”メニューから (インジケーターアイコンの中クリックでも可能)"
 
 #: src/Views/FinishView.vala:40
 msgid "By secondary-clicking on the wallpaper"
-msgstr ""
+msgstr "壁紙の副クリック"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
