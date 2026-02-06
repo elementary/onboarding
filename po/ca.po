@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2026-01-13 13:55+0000\n"
+"PO-Revision-Date: 2026-02-06 22:55+0000\n"
 "Last-Translator: David M <rbndavid@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/ca/>\n"
@@ -102,15 +102,17 @@ msgstr "A punt"
 
 #: src/Views/FinishView.vala:30
 msgid "From the Applications menu or by searching for specific settings"
-msgstr ""
+msgstr "Des del menú d'aplicacions o cercant configuracions específiques"
 
 #: src/Views/FinishView.vala:35
 msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
 msgstr ""
+"Des del menú de configuració ràpida o fent clic amb el botó central als "
+"botons de commutació"
 
 #: src/Views/FinishView.vala:40
 msgid "By secondary-clicking on the wallpaper"
-msgstr ""
+msgstr "Fent clic secundari al fons de la pantalla"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
