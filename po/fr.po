@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2026-01-19 14:18+0000\n"
+"PO-Revision-Date: 2026-02-12 08:55+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/fr/>\n"
@@ -103,15 +103,17 @@ msgstr "Vous êtes fin prêt"
 
 #: src/Views/FinishView.vala:30
 msgid "From the Applications menu or by searching for specific settings"
-msgstr ""
+msgstr "Depuis le menu Applications ou en recherchant un paramètre spécifique"
 
 #: src/Views/FinishView.vala:35
 msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
 msgstr ""
+"Depuis les paramètres rapides ou en effectuant un clic central sur les "
+"interrupteurs"
 
 #: src/Views/FinishView.vala:40
 msgid "By secondary-clicking on the wallpaper"
-msgstr ""
+msgstr "En effectuant un clic droit sur le fond d'écran"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
