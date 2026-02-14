@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2026-01-31 22:55+0000\n"
+"PO-Revision-Date: 2026-02-15 15:55+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/uk/>\n"
@@ -103,15 +103,15 @@ msgstr "Все готово"
 
 #: src/Views/FinishView.vala:30
 msgid "From the Applications menu or by searching for specific settings"
-msgstr ""
+msgstr "У меню «Застосунки» або шляхом пошуку конкретних налаштувань"
 
 #: src/Views/FinishView.vala:35
 msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
-msgstr ""
+msgstr "У меню швидких налаштувань або натисканням середньої кнопки миші"
 
 #: src/Views/FinishView.vala:40
 msgid "By secondary-clicking on the wallpaper"
-msgstr ""
+msgstr "Клацнувши правою кнопкою миші на шпалерах"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
