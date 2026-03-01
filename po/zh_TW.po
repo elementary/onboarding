@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2026-01-12 08:55+0000\n"
+"PO-Revision-Date: 2026-03-02 16:55+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
 "l10n.elementaryos.org/projects/installer/onboarding/zh_TW/>\n"
@@ -97,15 +97,15 @@ msgstr "準備就緒"
 
 #: src/Views/FinishView.vala:30
 msgid "From the Applications menu or by searching for specific settings"
-msgstr ""
+msgstr "從「應用程式」選單或是搜尋特定設定頁面"
 
 #: src/Views/FinishView.vala:35
 msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
-msgstr ""
+msgstr "從「快速設定」選單或是中鍵點擊指示器切換按鈕"
 
 #: src/Views/FinishView.vala:40
 msgid "By secondary-clicking on the wallpaper"
-msgstr ""
+msgstr "用次要按鍵點擊桌布"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
