@@ -8,31 +8,33 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-06-28 20:30+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://l10n.elementaryos.org/projects/installer/"
+"onboarding/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "Ρύθμιση του %s"
 
 #: src/Views/AbstractOnboardingView.vala:84
 msgid "Next"
-msgstr ""
+msgstr "Επόμενο"
 
 #: src/Views/AbstractOnboardingView.vala:103
 msgid "Skip All"
-msgstr ""
+msgstr "Παράλειψη όλων"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "Πίσω"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
@@ -140,7 +142,7 @@ msgstr ""
 #: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
 #: src/Views/HouseKeepingView.vala:96
 msgid "Automatically Delete"
-msgstr ""
+msgstr "Αυτόματη διαγραφή"
 
 #: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
@@ -184,11 +186,11 @@ msgstr ""
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Διαδικτυακοί λογαριασμοί"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Σύνδεση διαδικτυακών λογαριασμών…"
 
 #: src/Views/StyleView.vala:72
 msgid ""
@@ -202,7 +204,7 @@ msgstr ""
 
 #: src/Views/StyleView.vala:113
 msgid "Default"
-msgstr ""
+msgstr "Προεπιλογή"
 
 #: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
 #: src/Views/StyleView.vala:167
@@ -219,55 +221,55 @@ msgstr ""
 
 #: src/Views/StyleView.vala:176
 msgid "Blueberry"
-msgstr ""
+msgstr "Μύρτιλο"
 
 #: src/Views/StyleView.vala:181
 msgid "Mint"
-msgstr ""
+msgstr "Μέντα"
 
 #: src/Views/StyleView.vala:186
 msgid "Lime"
-msgstr ""
+msgstr "Μοσχολέμονο"
 
 #: src/Views/StyleView.vala:191
 msgid "Banana"
-msgstr ""
+msgstr "Μπανάνα"
 
 #: src/Views/StyleView.vala:196
 msgid "Orange"
-msgstr ""
+msgstr "Πορτοκάλι"
 
 #: src/Views/StyleView.vala:201
 msgid "Strawberry"
-msgstr ""
+msgstr "Φράουλα"
 
 #: src/Views/StyleView.vala:206
 msgid "Bubblegum"
-msgstr ""
+msgstr "Τσιχλόφουσκα"
 
 #: src/Views/StyleView.vala:211
 msgid "Grape"
-msgstr ""
+msgstr "Σταφύλι"
 
 #: src/Views/StyleView.vala:216
 msgid "Cocoa"
-msgstr ""
+msgstr "Κακάο"
 
 #: src/Views/StyleView.vala:221
 msgid "Slate"
-msgstr ""
+msgstr "Σχιστόλιθος"
 
 #: src/Views/StyleView.vala:226
 msgid "Latte"
-msgstr ""
+msgstr "Λάτε"
 
 #: src/Views/StyleView.vala:231
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Αυτόματα βάσει ταπετσαρίας"
 
 #: src/Views/StyleView.vala:367
 msgid "accent color"
-msgstr ""
+msgstr "Χρώμα έμφασης"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
@@ -277,11 +279,11 @@ msgstr ""
 
 #: src/Views/UpdatesView.vala:12
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Αυτόματες ενημερώσεις"
 
 #: src/Views/UpdatesView.vala:19
 msgid "Free & Purchased Apps"
-msgstr ""
+msgstr "Δωρεάν και επί πληρωμή εφαρμογές"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
@@ -289,7 +291,7 @@ msgstr ""
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "Λειτουργικό σύστημα"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
@@ -297,11 +299,11 @@ msgstr ""
 
 #: src/Views/WelcomeView.vala:85
 msgid "What’s New"
-msgstr ""
+msgstr "Τι νέο υπάρχει"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Welcome!"
-msgstr ""
+msgstr "Καλώς ορίσατε!"
 
 #: src/Views/WelcomeView.vala:94
 msgid ""
@@ -315,7 +317,7 @@ msgstr ""
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "Λήψη βοήθειας"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
