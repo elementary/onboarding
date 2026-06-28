@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2026-06-28 20:30+0000\n"
+"PO-Revision-Date: 2026-06-29 23:56+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/el/>\n"
@@ -136,7 +136,7 @@ msgstr[1] ""
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
-msgstr ""
+msgstr "Τακτοποίηση"
 
 #: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
 #: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
@@ -168,11 +168,11 @@ msgstr ""
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Νυχτερινός φωτισμός"
 
 #: src/Views/NightLightView.vala:34
 msgid "Night Light:"
-msgstr ""
+msgstr "Νυχτερινός φωτισμός:"
 
 #: src/Views/NightLightView.vala:40
 msgid "Adjust schedule and temperature…"
@@ -209,11 +209,11 @@ msgstr "Προεπιλογή"
 #: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
 #: src/Views/StyleView.vala:167
 msgid "Style"
-msgstr ""
+msgstr "Θέμα"
 
 #: src/Views/StyleView.vala:134
 msgid "Dark"
-msgstr ""
+msgstr "Σκουρόχρωμο"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
