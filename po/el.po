@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2026-06-29 23:56+0000\n"
+"PO-Revision-Date: 2026-07-10 15:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/el/>\n"
@@ -109,7 +109,7 @@ msgstr ""
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "Συνεδρία επισκέπτη"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
@@ -154,7 +154,7 @@ msgstr ""
 
 #: src/Views/HouseKeepingView.vala:72
 msgid "Screenshot files"
-msgstr ""
+msgstr "Αρχεία στιγμιότυπων οθόνης"
 
 #: src/Views/HouseKeepingView.vala:88
 msgid "Trashed files"
@@ -321,7 +321,7 @@ msgstr "Λήψη βοήθειας"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "Ο ιστότοπός μας"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
