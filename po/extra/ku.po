@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2026-08-17 10:01+0000\n"
+"PO-Revision-Date: 2026-08-26 02:06+0000\n"
 "Last-Translator: Cyax <fakecyax@gmail.com>\n"
 "Language-Team: Kurdish <https://l10n.elementaryos.org/projects/installer/"
 "onboarding-extra/ku/>\n"
@@ -27,7 +27,7 @@ msgstr "Bi xêr hatî"
 #: data/io.elementary.onboarding.desktop.in:4
 #: data/onboarding.metainfo.xml.in:12
 msgid "Change common settings on first-run"
-msgstr ""
+msgstr "Sazkariyên hevpar di xebitandina yekem de biguhêrîne"
 
 #: data/onboarding.metainfo.xml.in:49
 msgid "elementary, Inc."
@@ -47,19 +47,19 @@ msgstr "Bişkoka vegerê tevlî bike"
 
 #: data/onboarding.metainfo.xml.in:89
 msgid "Redesign links to match System Settings"
-msgstr ""
+msgstr "Girêdanan ji nû ve dîzayn bike da ku li gorî sazkariyên pergalê be"
 
 #: data/onboarding.metainfo.xml.in:98
 msgid "UpdatesView: add OS updates"
-msgstr ""
+msgstr "UpdatesView: rojanekirinên OS tevlî bike"
 
 #: data/onboarding.metainfo.xml.in:99
 msgid "Improve screenreader support"
-msgstr ""
+msgstr "Piştgiriya xwînera dîmenderê baştir bike"
 
 #: data/onboarding.metainfo.xml.in:111
 msgid "Use the current wallpaper in the \"Choose your look\" view"
-msgstr ""
+msgstr "Wêneya dîwarê heyî di dîtina \"Xuyanga xwe hilbijêre\" de bi kar bîne"
 
 #: data/onboarding.metainfo.xml.in:124
 msgid "Redesigned app icon"
@@ -68,6 +68,7 @@ msgstr ""
 #: data/onboarding.metainfo.xml.in:125
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
+"Bi karanîna rengê wêneya dîwarê berdest û rengê taybet rûpela sereke çê bike"
 
 #: data/onboarding.metainfo.xml.in:126
 msgid "Use bolder typography"
@@ -91,7 +92,7 @@ msgstr ""
 
 #: data/onboarding.metainfo.xml.in:150
 msgid "Update for OS 7 and Gtk 4"
-msgstr ""
+msgstr "Ji bo OS 7 û Gtk 4 rojane bike"
 
 #~ msgid "system-os-installer"
 #~ msgstr "system-os-installer"
