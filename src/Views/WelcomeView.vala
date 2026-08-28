@@ -121,7 +121,12 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
 
                     image.pixel_size = 48;
                     image.add_css_class ("logo");
-                    image.get_style_context ().add_provider (background_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+
+                    Gtk.StyleContext.add_provider_for_display (
+                        Gdk.Display.get_default (),
+                        background_provider,
+                        Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+                    );
 
                     break;
                 }

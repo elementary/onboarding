@@ -289,17 +289,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
                 """.printf (background_uri, background_uri, background_uri)
             );
 
-            prefer_default_card.get_style_context ().add_provider (
-                background_provider,
-                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-            );
-
-            prefer_dark_card.get_style_context ().add_provider (
-                background_provider,
-                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-            );
-
-            prefer_scheduled_card.get_style_context ().add_provider (
+            Gtk.StyleContext.add_provider_for_display (
+                Gdk.Display.get_default (),
                 background_provider,
                 Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
             );
