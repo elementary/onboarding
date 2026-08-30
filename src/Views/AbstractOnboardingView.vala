@@ -59,7 +59,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         };
         description_label.add_css_class (Granite.CssClass.DIM);
 
-        var header_area = new Gtk.Box (VERTICAL, 0);
+        var header_area = new Granite.Box (VERTICAL, NONE);
         header_area.append (overlay);
         header_area.append (title_label);
         header_area.append (description_label);

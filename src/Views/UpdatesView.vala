@@ -21,7 +21,7 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
             secondary_text = _("Apps being tried for free will not update automatically")
         };
 
-        var appcenter_box = new Gtk.Box (HORIZONTAL, 0);
+        var appcenter_box = new Granite.Box (HORIZONTAL, HALF);
         appcenter_box.append (new Gtk.Image.from_icon_name ("io.elementary.appcenter") { icon_size = LARGE });
         appcenter_box.append (appcenter_label);
         appcenter_box.set_parent (appcenter_check);
@@ -33,7 +33,7 @@ public class Onboarding.UpdatesView : AbstractOnboardingView {
             secondary_text = _("Will be installed when you choose to restart this device")
         };
 
-        var system_box = new Gtk.Box (HORIZONTAL, 0);
+        var system_box = new Granite.Box (HORIZONTAL, HALF);
         system_box.append (new Gtk.Image.from_icon_name ("io.elementary.settings") { icon_size = LARGE });
         system_box.append (system_label);
         system_box.set_parent (system_check);

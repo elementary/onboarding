@@ -48,7 +48,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
             {_("Automatically Delete"), temp_label.label}
         );
 
-        var temp_box = new Gtk.Box (HORIZONTAL, 0);
+        var temp_box = new Granite.Box (HORIZONTAL, HALF);
         temp_box.append (new Gtk.Image.from_icon_name ("folder") { pixel_size = 24 });
         temp_box.append (temp_label);
         temp_box.set_parent (temp_check);
@@ -64,7 +64,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
             {_("Automatically Delete"), download_label.label}
         );
 
-        var download_box = new Gtk.Box (HORIZONTAL, 0);
+        var download_box = new Granite.Box (HORIZONTAL, HALF);
         download_box.append (new Gtk.Image.from_icon_name ("folder-download") { pixel_size = 24 });
         download_box.append (download_label);
         download_box.set_parent (download_check);
@@ -80,7 +80,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
             {_("Automatically Delete"), screenshots_label.label}
         );
 
-        var screenshots_box = new Gtk.Box (HORIZONTAL, 0);
+        var screenshots_box = new Granite.Box (HORIZONTAL, HALF);
         screenshots_box.append (new Gtk.Image.from_icon_name ("folder-screenshots-icon") { pixel_size = 24 });
         screenshots_box.append (screenshots_label);
         screenshots_box.set_parent (screenshots_check);
@@ -96,7 +96,7 @@ public class Onboarding.HouseKeepingView : AbstractOnboardingView {
             {_("Automatically Delete"), trash_label.label}
         );
 
-        var trash_box = new Gtk.Box (HORIZONTAL, 0);
+        var trash_box = new Granite.Box (HORIZONTAL, HALF);
         trash_box.append (new Gtk.Image.from_icon_name ("user-trash-full") { pixel_size = 24 });
         trash_box.append (trash_label);
         trash_box.set_parent (trash_check);
