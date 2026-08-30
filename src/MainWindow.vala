@@ -69,6 +69,19 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow, PantheonWayland.Exte
             pages.append (guest_view);
         }
 
+        bool night_light_supported = false;
+        try {
+            var mutter_display_config = Bus.get_proxy_sync<MutterDisplayConfig> (
+                SESSION,
+                "org.gnome.Mutter.DisplayConfig",
+                "/org/gnome/Mutter/DisplayConfig",
+                NONE
+            );
+            night_light_supported = mutter_display_config.night_light_supported;
+        } catch (IOError e) {
+            warning (e.message);
+        }
+
         if (early_access) {
             var early_access_view = new EarlyAccessView ();
             pages.append (early_access_view);
@@ -82,7 +95,7 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow, PantheonWayland.Exte
             }
         }
 
-        if (!("night-light" in viewed)) {
+        if (!("night-light" in viewed || !night_light_supported)) {
             var night_light_view = new NightLightView ();
             pages.append (night_light_view);
         }
@@ -169,5 +182,10 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow, PantheonWayland.Exte
         }
 
         navigation_view.push (finish_view);
+    }
+
+    [DBus (name = "org.gnome.Mutter.DisplayConfig", timeout = 2)]
+    private interface MutterDisplayConfig : Object {
+        public abstract bool night_light_supported { get; }
     }
 }
