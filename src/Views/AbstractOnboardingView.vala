@@ -48,7 +48,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             max_width_chars = 50,
             use_markup = true
         };
-        title_label.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
+        // title_label.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
 
         var description_label = new Gtk.Label (description) {
             halign = CENTER,

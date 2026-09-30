@@ -300,19 +300,19 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         if (settings.get_string ("prefer-dark-schedule") == "sunset-to-sunrise") {
             prefer_scheduled_radio.active = true;
-        } else if (pantheon_act.prefers_color_scheme == Granite.Settings.ColorScheme.DARK) {
+        } else if (pantheon_act.prefers_color_scheme == 1) {
             prefer_dark_radio.active = true;
         } else {
             prefer_default_radio.active = true;
         }
 
         prefer_default_radio.toggled.connect (() => {
-            pantheon_act.prefers_color_scheme = Granite.Settings.ColorScheme.NO_PREFERENCE;
+            pantheon_act.prefers_color_scheme = 0;
             settings.set_string ("prefer-dark-schedule", "disabled");
         });
 
         prefer_dark_radio.toggled.connect (() => {
-            pantheon_act.prefers_color_scheme = Granite.Settings.ColorScheme.DARK;
+            pantheon_act.prefers_color_scheme = 1;
             settings.set_string ("prefer-dark-schedule", "disabled");
         });
 
