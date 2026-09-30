@@ -87,16 +87,16 @@ desktop-preview.prefer-scheduled {
 }
 
 image.logo {
-    --chromatic-black: hsl(from var(--accent-color) h 05 45);
+    --chromatic-black: hsl(from var(--accent-color) h 5 45);
 
     background-position: 50%;
     background-size: 100%, cover, 100%;
     border: 1px solid var(--chromatic-black);
     border-radius: 0.75rem;
     box-shadow:
-        0 3px 12px -3px color-mix(in srgb, hsl(from var(--accent-color) h 30 50) 50%, transparent),
-        0 1px 2px color-mix(in srgb, hsl(from var(--accent-color) h 10 45) 30%, transparent),
-        0 2px 2px color-mix(in srgb, hsl(from var(--accent-color) h 10 15) 10%, transparent),
+        0 3px 12px -3px color-mix(in srgb, hsl(from var(--chromatic-black) h 30 50) 50%, transparent),
+        0 1px 2px color-mix(in srgb, hsl(from var(--chromatic-black) h 10 l) 30%, transparent),
+        0 2px 2px color-mix(in srgb, hsl(from var(--chromatic-black) h 10 calc(l * 0.33)) 10%, transparent),
         inset 0 -1px 0 0 color-mix(in srgb, var(--highlight-color) 20%, transparent),
         inset 0 1px 0 0 color-mix(in srgb, var(--highlight-color) 30%, transparent),
         inset 1px 0 0 0 color-mix(in srgb, var(--highlight-color) 7%, transparent),
@@ -109,4 +109,10 @@ image.logo {
     min-height: 56px;
     min-width: 56px;
     margin: 4px;
+}
+
+@media(prefers-color-scheme: dark) {
+    image.logo {
+        --chromatic-black: hsl(from var(--accent-color) h 5 15);
+    }
 }
