@@ -307,8 +307,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         construct {
             insert_action_group ("interface", action_group);
 
-            action_name = "interface.accent-color";
             action_target = new Variant.string (color.to_string ());
+            action_name = "interface.accent-color";
 
             var css_color = color.to_string ();
             css_color = css_color.replace ("gray", "slate");
