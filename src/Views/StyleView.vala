@@ -96,70 +96,29 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         color_scheme_box.append (prefer_dark_radio);
         color_scheme_box.append (prefer_scheduled_radio);
 
-        var blueberry_button = new PrefersAccentColorButton (BLUE) {
-            tooltip_text = _("Blueberry")
-        };
-
-        var mint_button = new PrefersAccentColorButton (MINT) {
-            tooltip_text = _("Mint")
-        };
-
-        var lime_button = new PrefersAccentColorButton (GREEN) {
-            tooltip_text = _("Lime")
-        };
-
-        var banana_button = new PrefersAccentColorButton (YELLOW) {
-            tooltip_text = _("Banana")
-        };
-
-        var orange_button = new PrefersAccentColorButton (ORANGE) {
-            tooltip_text = _("Orange")
-        };
-
-        var strawberry_button = new PrefersAccentColorButton (RED) {
-            tooltip_text = _("Strawberry")
-        };
-
-        var bubblegum_button = new PrefersAccentColorButton (PINK) {
-            tooltip_text = _("Bubblegum")
-        };
-
-        var grape_button = new PrefersAccentColorButton (PURPLE) {
-            tooltip_text = _("Grape")
-        };
-
-        var cocoa_button = new PrefersAccentColorButton (BROWN) {
-            tooltip_text = _("Cocoa")
-        };
-
-        var slate_button = new PrefersAccentColorButton (GRAY) {
-            tooltip_text = _("Slate")
-        };
-
-        var latte_button = new PrefersAccentColorButton (LATTE) {
-            tooltip_text = _("Latte")
-        };
-
-        var auto_button = new PrefersAccentColorButton (NO_PREFERENCE) {
-            tooltip_text = _("Automatic based on wallpaper")
-        };
-
-        var accent_box= new Granite.Box (HORIZONTAL, HALF) {
+        var accent_box = new Granite.Box (HORIZONTAL, HALF) {
             halign = CENTER
         };
-        accent_box.append (blueberry_button);
-        accent_box.append (mint_button);
-        accent_box.append (lime_button);
-        accent_box.append (banana_button);
-        accent_box.append (orange_button);
-        accent_box.append (strawberry_button);
-        accent_box.append (bubblegum_button);
-        accent_box.append (grape_button);
-        accent_box.append (cocoa_button);
-        accent_box.append (slate_button);
-        accent_box.append (latte_button);
-        accent_box.append (auto_button);
 
+        Granite.AccentColor[] colors = {
+            BLUE,
+            TEAL,
+            GREEN,
+            YELLOW,
+            ORANGE,
+            RED,
+            PINK,
+            PURPLE,
+            BROWN,
+            GRAY,
+            LATTE,
+            AUTOMATIC
+        };
+        foreach (unowned var color in colors) {
+            accent_box.append (new PrefersAccentColorButton (color));
+        }
+
+        custom_bin.child_spacing = DOUBLE;
         custom_bin.append (color_scheme_box);
         custom_bin.append (accent_box);
 
@@ -183,8 +142,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
                         url("resource:///io/elementary/onboarding/appearance-dark.svg"),
                         linear-gradient(
                             to bottom,
-                            alpha(black, 0.45),
-                            alpha(black, 0.45)
+                            color-mix(in srgb, black 45%, transparent),
+                            color-mix(in srgb, black 45%, transparent)
                         ),
                         url("%s");
                 }
@@ -195,7 +154,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
                         linear-gradient(
                             120deg,
                             transparent 50%,
-                            alpha(black, 0.45) 51%
+                            color-mix(in srgb, black 45%, transparent) 51%
                         ),
                         url("%s");
                 }
@@ -246,55 +205,11 @@ public class Onboarding.StyleView : AbstractOnboardingView {
     }
 
     private class PrefersAccentColorButton : Gtk.CheckButton {
-        public enum AccentColor {
-            NO_PREFERENCE,
-            RED,
-            ORANGE,
-            YELLOW,
-            GREEN,
-            MINT,
-            BLUE,
-            PURPLE,
-            PINK,
-            BROWN,
-            GRAY,
-            LATTE;
-
-            public string to_string () {
-                switch (this) {
-                    case RED:
-                        return "red";
-                    case ORANGE:
-                        return "orange";
-                    case YELLOW:
-                        return "yellow";
-                    case GREEN:
-                        return "green";
-                    case MINT:
-                        return "mint";
-                    case BLUE:
-                        return "blue";
-                    case PURPLE:
-                        return "purple";
-                    case PINK:
-                        return "pink";
-                    case BROWN:
-                        return "brown";
-                    case GRAY:
-                        return "gray";
-                    case LATTE:
-                        return "latte";
-                    default:
-                        return "automatic";
-                }
-            }
-        }
-
-        public AccentColor color { get; construct; }
+        public Granite.AccentColor color { get; construct; }
 
         private static SimpleActionGroup action_group;
 
-        public PrefersAccentColorButton (AccentColor color) {
+        public PrefersAccentColorButton (Granite.AccentColor color) {
             Object (color: color);
         }
 
@@ -305,18 +220,22 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         }
 
         construct {
+            tooltip_text = color.to_name ();
+            if (tooltip_text == "") {
+                tooltip_text = _("Automatic based on wallpaper");
+            }
+
             insert_action_group ("interface", action_group);
 
-            action_target = new Variant.string (color.to_string ());
+            var action_target_string = color.to_css_class ();
+            action_target_string = action_target_string.replace ("teal", "mint");
+
+            action_target = new Variant.string (action_target_string);
             action_name = "interface.accent-color";
 
-            var css_color = color.to_string ();
-            css_color = css_color.replace ("gray", "slate");
-            css_color = css_color.replace ("automatic", "auto");
-
             accessible_role = Gtk.AccessibleRole.RADIO;
-            add_css_class (Granite.STYLE_CLASS_COLOR_BUTTON);
-            add_css_class (css_color);
+            add_css_class (Granite.CssClass.ACCENT);
+            add_css_class (color.to_css_class ());
 
             update_property_value (
                 {LABEL},

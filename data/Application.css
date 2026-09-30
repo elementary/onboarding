@@ -28,18 +28,6 @@ navigation-view-page {
     margin-bottom: 0.5em;
 }
 
-.dialog-action-area levelbar block {
-    box-shadow: none;
-    border: none;
-}
-.dialog-action-area levelbar block.empty {
-    background: alpha(@text_color, 0.1);
-}
-
-.dialog-action-area levelbar block.filled {
-    background-image: none;
-}
-
 .dialog-action-area {
     border-spacing: 2em;
     margin: 0;
@@ -50,6 +38,8 @@ granite-listitem.link box {
 }
 
 desktop-preview {
+    --accent-color-300: hsl(from var(--accent-color) h s calc(l + 10));
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: 86px 64px, cover;
@@ -64,19 +54,19 @@ desktop-preview.prefer-default {
         url("resource:///io/elementary/onboarding/appearance-default.svg"),
         linear-gradient(
             to bottom,
-            alpha(@accent_color_300, 0.1),
-            alpha(@accent_color_500, 0.1)
+            color-mix(in srgb, var(--accent-color-300) 10%, transparent),
+            color-mix(in srgb, var(--accent-color) 10%, transparent)
         );
 }
 
 desktop-preview.prefer-dark {
-    background-color: mix(@BLACK_300, @BLACK_500, 0.25);
+    background-color: var(--BLACK-400);
     background-image:
         url("resource:///io/elementary/onboarding/appearance-dark.svg"),
         linear-gradient(
             to bottom,
-            alpha(@accent_color_300, 0.1),
-            alpha(@accent_color_500, 0.1)
+            color-mix(in srgb, var(--accent-color-300) 10%, transparent),
+            color-mix(in srgb, var(--accent-color) 10%, transparent)
         );
 }
 
@@ -86,34 +76,43 @@ desktop-preview.prefer-scheduled {
         url("resource:///io/elementary/onboarding/appearance-scheduled.svg"),
         linear-gradient(
             to bottom,
-            alpha(@accent_color_300, 0.1),
-            alpha(@accent_color_500, 0.1)
+            color-mix(in srgb, var(--accent-color-300) 10%, transparent),
+            color-mix(in srgb, var(--accent-color) 10%, transparent)
         ),
         linear-gradient(
             120deg,
             white 50%,
-            mix(@BLACK_300, @BLACK_500, 0.25) 51%
+            var(--BLACK-400) 51%
         );
 }
 
 image.logo {
+    --chromatic-black: hsl(from var(--accent-color) h 5 45);
+
     background-position: 50%;
     background-size: 100%, cover, 100%;
-    border: 1px solid @accent_color_900;
-    border-radius: 6px;
+    border: 1px solid var(--chromatic-black);
+    border-radius: 0.75rem;
     box-shadow:
-        0 1px 2px alpha(black, 0.3),
-        0 2px 2px alpha(black, 0.1),
-        inset 0 -1px 0 0 alpha(@highlight_color, 0.2),
-        inset 0 1px 0 0 alpha(@highlight_color, 0.3),
-        inset 1px 0 0 0 alpha(@highlight_color, 0.07),
-        inset -1px 0 0 0 alpha(@highlight_color, 0.07);
+        0 3px 12px -3px color-mix(in srgb, hsl(from var(--chromatic-black) h 30 50) 50%, transparent),
+        0 1px 2px color-mix(in srgb, hsl(from var(--chromatic-black) h 10 l) 30%, transparent),
+        0 2px 2px color-mix(in srgb, hsl(from var(--chromatic-black) h 10 calc(l * 0.33)) 10%, transparent),
+        inset 0 -1px 0 0 color-mix(in srgb, var(--highlight-color) 20%, transparent),
+        inset 0 1px 0 0 color-mix(in srgb, var(--highlight-color) 30%, transparent),
+        inset 1px 0 0 0 color-mix(in srgb, var(--highlight-color) 7%, transparent),
+        inset -1px 0 0 0 color-mix(in srgb, var(--highlight-color) 7%, transparent);
     color: white;
     -gtk-icon-shadow:
-        0 1px 1px alpha(black, 0.3),
-        0 2px 4px alpha(@accent_color_900, 0.2);
+        0 1px 1px color-mix(in srgb, hsl(from var(--accent-color) h 20 30) 50%, transparent),
+        0 2px 4px color-mix(in srgb, var(--chromatic-black) 50%, transparent);
     -gtk-icon-style: symbolic;
     min-height: 56px;
     min-width: 56px;
     margin: 4px;
+}
+
+@media(prefers-color-scheme: dark) {
+    image.logo {
+        --chromatic-black: hsl(from var(--accent-color) h 5 15);
+    }
 }

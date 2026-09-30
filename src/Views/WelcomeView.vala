@@ -111,8 +111,8 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
                         background-image:
                             linear-gradient(
                                 to bottom,
-                                alpha(@accent_color_500, 0.25),
-                                alpha(@accent_color_700, 0.75)
+                                color-mix(in srgb, hsl(from var(--accent-color) h 10 60) 25%, transparent),
+                                color-mix(in srgb, hsl(from var(--accent-color) h 50 50) 50%, transparent)
                             ),
                             url("file://%s");
                     }
@@ -137,28 +137,28 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             documentation_url,
             _("Basics Guide"),
             "text-x-generic-symbolic",
-            "green"
+            GREEN
         );
 
         var support_link = new LinkRow (
             support_url,
             _("Get Help"),
             "help-contents-symbolic",
-            "blue"
+            BLUE
         );
 
         var website_link = new LinkRow (
             website_url,
             _("Our Website"),
             "view-reader-symbolic",
-            "slate"
+            GRAY
         );
 
         var getinvolved_link = new LinkRow (
             "https://elementary.io/get-involved",
             _("Get Involved or Sponsor Us"),
             "face-heart-symbolic",
-            "pink"
+            PINK
         );
 
         var links_list = new Gtk.ListBox () {
@@ -190,9 +190,9 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
         public string uri { get; construct; }
         public string icon_name { get; construct; }
         public string label_string { get; construct; }
-        public string color { get; construct; }
+        public Granite.AccentColor color { get; construct; }
 
-        public LinkRow (string uri, string label_string, string icon_name, string color) {
+        public LinkRow (string uri, string label_string, string icon_name, Granite.AccentColor color) {
             Object (
                 uri: uri,
                 label_string: label_string,
@@ -209,8 +209,7 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
             var image = new Gtk.Image.from_icon_name (icon_name) {
                 pixel_size = 16
             };
-            image.add_css_class (Granite.CssClass.ACCENT);
-            image.add_css_class (color);
+            image.add_css_class (color.to_css_class ());
 
             var left_label = new Gtk.Label (label_string) {
                 hexpand = true,

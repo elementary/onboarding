@@ -42,6 +42,7 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
         var appcenter_button = new Gtk.Button () {
             child = appcenter_box
         };
+        appcenter_button.add_css_class ("text-button");
         appcenter_label.mnemonic_widget = appcenter_button;
 
         var sideload_image = new Gtk.Image.from_icon_name ("io.elementary.sideload") {
@@ -60,6 +61,7 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
         var sideload_button = new Gtk.Button () {
             child = sideload_box
         };
+        sideload_button.add_css_class ("text-button");
         sideload_label.mnemonic_widget = sideload_button;
 
         custom_bin.append (appcenter_button);

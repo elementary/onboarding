@@ -20,19 +20,19 @@ public class Onboarding.EarlyAccessView : AbstractOnboardingView {
         var upgrades_item = new ListItem (
             "software-update-available-symbolic",
             _("You will not be able to upgrade to a stable release"),
-            "orange"
+            ORANGE
         );
 
         var features_item = new ListItem (
             "dialog-warning-symbolic",
             _("Some features may be missing or incomplete"),
-            "yellow"
+            YELLOW
         );
 
         var bugs_item = new ListItem (
             "bug-symbolic",
             _("Report issues using the Feedback app"),
-            "green"
+            GREEN
         );
 
         custom_bin.append (upgrades_item);

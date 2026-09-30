@@ -48,7 +48,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             max_width_chars = 50,
             use_markup = true
         };
-        title_label.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
+        title_label.add_css_class (Granite.HeaderLabel.Size.H1.to_string ());
 
         var description_label = new Gtk.Label (description) {
             halign = CENTER,
@@ -161,11 +161,11 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
     }
 
     public class ListItem : Granite.Box {
-        public string color { get; construct; }
+        public Granite.AccentColor color { get; construct; }
         public string icon_name { get; construct; }
         public string label { get; construct; }
 
-        public ListItem (string icon_name, string label, string color) {
+        public ListItem (string icon_name, string label, Granite.AccentColor color) {
             Object (
                 icon_name: icon_name,
                 label: label,
@@ -175,8 +175,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
 
         construct {
             var image = new Gtk.Image.from_icon_name (icon_name);
-            image.add_css_class (Granite.CssClass.ACCENT);
-            image.add_css_class (color);
+            image.add_css_class (color.to_css_class ());
 
             var description_label = new Gtk.Label (label) {
                 hexpand = true,

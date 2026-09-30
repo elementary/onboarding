@@ -17,19 +17,19 @@ public class Onboarding.GuestView : AbstractOnboardingView {
         var upgrades_item = new ListItem (
             "user-trash-symbolic",
             _("All data created during this session will be deleted"),
-            "orange"
+            ORANGE
         );
 
         var features_item = new ListItem (
             "preferences-system-symbolic",
             _("Settings will be reset to defaults"),
-            "yellow"
+            YELLOW
         );
 
         var bugs_item = new ListItem (
             "drive-removable-media-symbolic",
             _("Save files on an external device to access them later"),
-            "green"
+            GREEN
         );
 
         custom_bin.append (upgrades_item);
