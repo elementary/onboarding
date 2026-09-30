@@ -2,7 +2,6 @@
 vala_files = [
     'Application.vala',
     'MainWindow.vala',
-    'PantheonAccountsServicePlugin.vala',
     'Utils.vala',
     'Views/AbstractOnboardingView.vala',
     'Views/AppCenterView.vala',
