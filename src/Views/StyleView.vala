@@ -213,8 +213,8 @@ public class Onboarding.StyleView : AbstractOnboardingView {
                         url("resource:///io/elementary/onboarding/appearance-dark.svg"),
                         linear-gradient(
                             to bottom,
-                            alpha(black, 0.45),
-                            alpha(black, 0.45)
+                            color-mix(in srgb, black 45%, transparent),
+                            color-mix(in srgb, black 45%, transparent)
                         ),
                         url("%s");
                 }
@@ -225,7 +225,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
                         linear-gradient(
                             120deg,
                             transparent 50%,
-                            alpha(black, 0.45) 51%
+                            color-mix(in srgb, black 45%, transparent) 51%
                         ),
                         url("%s");
                 }

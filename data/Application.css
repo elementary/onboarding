@@ -38,6 +38,8 @@ granite-listitem.link box {
 }
 
 desktop-preview {
+    --accent-color-300: hsl(from var(--accent-color) h s calc(l + 10));
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: 86px 64px, cover;
@@ -52,8 +54,8 @@ desktop-preview.prefer-default {
         url("resource:///io/elementary/onboarding/appearance-default.svg"),
         linear-gradient(
             to bottom,
-            alpha(@accent_color_300, 0.1),
-            alpha(@accent_color_500, 0.1)
+            color-mix(in srgb, var(--accent-color-300) 10%, transparent),
+            color-mix(in srgb, var(--accent-color) 10%, transparent)
         );
 }
 
@@ -63,8 +65,8 @@ desktop-preview.prefer-dark {
         url("resource:///io/elementary/onboarding/appearance-dark.svg"),
         linear-gradient(
             to bottom,
-            alpha(@accent_color_300, 0.1),
-            alpha(@accent_color_500, 0.1)
+            color-mix(in srgb, var(--accent-color-300) 10%, transparent),
+            color-mix(in srgb, var(--accent-color) 10%, transparent)
         );
 }
 
@@ -74,13 +76,13 @@ desktop-preview.prefer-scheduled {
         url("resource:///io/elementary/onboarding/appearance-scheduled.svg"),
         linear-gradient(
             to bottom,
-            alpha(@accent_color_300, 0.1),
-            alpha(@accent_color_500, 0.1)
+            color-mix(in srgb, var(--accent-color-300) 10%, transparent),
+            color-mix(in srgb, var(--accent-color) 10%, transparent)
         ),
         linear-gradient(
             120deg,
             white 50%,
-            mix(@BLACK_300, @BLACK_500, 0.25) 51%
+            var(--BLACK_400) 51%
         );
 }
 
