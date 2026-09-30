@@ -60,7 +60,7 @@ desktop-preview.prefer-default {
 }
 
 desktop-preview.prefer-dark {
-    background-color: mix(@BLACK_300, @BLACK_500, 0.25);
+    background-color: var(--BLACK-400);
     background-image:
         url("resource:///io/elementary/onboarding/appearance-dark.svg"),
         linear-gradient(
@@ -82,7 +82,7 @@ desktop-preview.prefer-scheduled {
         linear-gradient(
             120deg,
             white 50%,
-            var(--BLACK_400) 51%
+            var(--BLACK-400) 51%
         );
 }
 
