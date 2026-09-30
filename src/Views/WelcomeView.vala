@@ -104,11 +104,8 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
                 var file = File.new_for_path (file_path);
 
                 if (file.query_exists ()) {
-                    var style_provider = new Gtk.CssProvider ();
-                    style_provider.load_from_resource ("io/elementary/onboarding/WelcomeView.css");
-
                     var background_provider = new Gtk.CssProvider ();
-                    background_provider.load_from_data (
+                    background_provider.load_from_string (
                     """
                     image.logo {
                         background-image:
@@ -119,13 +116,17 @@ public class Onboarding.WelcomeView : AbstractOnboardingView {
                             ),
                             url("file://%s");
                     }
-                    """.printf (file_path).data
+                    """.printf (file_path)
                     );
 
                     image.pixel_size = 48;
                     image.add_css_class ("logo");
-                    image.get_style_context ().add_provider (style_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
-                    image.get_style_context ().add_provider (background_provider, Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION);
+
+                    Gtk.StyleContext.add_provider_for_display (
+                        Gdk.Display.get_default (),
+                        background_provider,
+                        Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
+                    );
 
                     break;
                 }

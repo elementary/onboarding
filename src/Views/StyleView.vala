@@ -256,7 +256,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
         var file = File.new_for_uri (background_uri);
         if (file.query_exists ()) {
             var background_provider = new Gtk.CssProvider ();
-            background_provider.load_from_data (
+            background_provider.load_from_string (
                 """
                 .prefer-default {
                     background-image:
@@ -286,20 +286,11 @@ public class Onboarding.StyleView : AbstractOnboardingView {
                         ),
                         url("%s");
                 }
-                """.printf (background_uri, background_uri, background_uri).data
+                """.printf (background_uri, background_uri, background_uri)
             );
 
-            prefer_default_card.get_style_context ().add_provider (
-                background_provider,
-                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-            );
-
-            prefer_dark_card.get_style_context ().add_provider (
-                background_provider,
-                Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
-            );
-
-            prefer_scheduled_card.get_style_context ().add_provider (
+            Gtk.StyleContext.add_provider_for_display (
+                Gdk.Display.get_default (),
                 background_provider,
                 Gtk.STYLE_PROVIDER_PRIORITY_APPLICATION
             );

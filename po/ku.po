@@ -8,74 +8,83 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2019-04-11 16:53-0700\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-09-10 14:01+0000\n"
+"Last-Translator: Cyax <fakecyax@gmail.com>\n"
+"Language-Team: Kurdish <https://l10n.elementaryos.org/projects/installer/"
+"onboarding/ku/>\n"
 "Language: ku\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/MainWindow.vala:32
 #, c-format
 msgid "Set up %s"
-msgstr ""
+msgstr "%s saz bike"
 
 #: src/Views/AbstractOnboardingView.vala:84
 msgid "Next"
-msgstr ""
+msgstr "Pêş"
 
 #: src/Views/AbstractOnboardingView.vala:103
 msgid "Skip All"
-msgstr ""
+msgstr "Hemûyan derbas bike"
 
 #: src/Views/AbstractOnboardingView.vala:106
 msgid "Back"
-msgstr ""
+msgstr "Vegere"
 
 #: src/Views/AbstractOnboardingView.vala:111
 msgid "Get Started"
-msgstr ""
+msgstr "Dest pê bike"
 
 #: src/Views/AppCenterView.vala:22
 msgid ""
 "Get the apps you need on AppCenter or sideload Flatpak apps from alternative "
 "stores."
 msgstr ""
+"Sepanên ku ji te re pêdivî ne ji Navenda sepanan bistîne yan jî sepanên "
+"Flatpak ji markêtên alternatîv bar bike."
 
 #: src/Views/AppCenterView.vala:24
 msgid "Get Some Apps"
-msgstr ""
+msgstr "Hinek sepanan bistîne"
 
 #: src/Views/AppCenterView.vala:33
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
+"Sepanên ku ji bo elementary OS hatine çêkirin û ji aliyê elementary ve "
+"hatine nirxandin ji Navenda sepanan bistîne"
 
 #: src/Views/AppCenterView.vala:51
 msgid "Sideload apps from alternative app stores like Flathub"
-msgstr ""
+msgstr "Sepanan ji markêtên alternatîv ên wekî Flathub bar bike"
 
 #: src/Views/EarlyAccessView.vala:13
 #, c-format
 msgid ""
 "Only use this pre-release version of %s on devices dedicated for development."
 msgstr ""
+"Vê guhertoya pêş-weşandî ya %s tenê li ser amûrên ji bo pêşvebirinê "
+"veqetandî bi kar bîne."
 
 #: src/Views/EarlyAccessView.vala:15
 msgid "Early Access Build"
-msgstr ""
+msgstr "Avakirina gihîştina zû"
 
 #: src/Views/EarlyAccessView.vala:22
 msgid "You will not be able to upgrade to a stable release"
-msgstr ""
+msgstr "Tu yê nikaribî rojanekirinê bikî ji bo weşaneke cîgir"
 
 #: src/Views/EarlyAccessView.vala:28
 msgid "Some features may be missing or incomplete"
-msgstr ""
+msgstr "Dibe ku hinek taybetmendî kêm an wendayî yan kêm bin"
 
 #: src/Views/EarlyAccessView.vala:34
 msgid "Report issues using the Feedback app"
-msgstr ""
+msgstr "Bi bikaranîna sepana paşragihandinê pirsgirêkan ragihîne"
 
 #: src/Views/FinishView.vala:22
 #, c-format
@@ -83,42 +92,45 @@ msgid ""
 "Enjoy using %s! You can always visit System Settings to set up hardware or "
 "change your preferences."
 msgstr ""
+"Ji bikaranîna %s şahiyê bigire! Tu dikarî her dem serdana Sazkariyên pergalê "
+"bikî ji bo sazkirina reqalavê yan jî guhertina vebijêrkên xwe."
 
 #: src/Views/FinishView.vala:24
 msgid "Ready to Go"
-msgstr ""
+msgstr "Amade ye"
 
 #: src/Views/FinishView.vala:30
 msgid "From the Applications menu or by searching for specific settings"
-msgstr ""
+msgstr "Ji menuya sepanan an jî bi lêgerîna li sazkariyên diyarkirî"
 
 #: src/Views/FinishView.vala:35
 msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
 msgstr ""
+"Ji menuya sazkariyên lezgîn an jî bi tikandina navîn a bişkokên guhertinê"
 
 #: src/Views/FinishView.vala:40
 msgid "By secondary-clicking on the wallpaper"
-msgstr ""
+msgstr "Bi tikandina duyemîn a li ser wêneya dîwêr"
 
 #: src/Views/GuestView.vala:10
 msgid "This temporary session will be reset when you log out."
-msgstr ""
+msgstr "Dema tu derkevî ev danişîna demkî wê were vegerandina rewşa bingehîn."
 
 #: src/Views/GuestView.vala:12
 msgid "Guest Session"
-msgstr ""
+msgstr "Danişîna mêvan"
 
 #: src/Views/GuestView.vala:19
 msgid "All data created during this session will be deleted"
-msgstr ""
+msgstr "Hemû daneyên ku di vê danişînê de hatine afirandin wê werin jêbirin"
 
 #: src/Views/GuestView.vala:25
 msgid "Settings will be reset to defaults"
-msgstr ""
+msgstr "Sazkarî wê li yên berdest werin vegerandin"
 
 #: src/Views/GuestView.vala:31
 msgid "Save files on an external device to access them later"
-msgstr ""
+msgstr "Ji bo ku paşê xwe bigihînî wan, pelan li ser amûreke derveyî tomar bike"
 
 #: src/Views/HouseKeepingView.vala:22
 #, c-format
@@ -129,197 +141,212 @@ msgid_plural ""
 "Old files can be automatically deleted after %u days to save space and help "
 "protect your privacy."
 msgstr[0] ""
+"Ji bo tomarkirina cîh û parastina taybetiya te, pelên kevn piştî %u roj "
+"xweber dikarin werin jêbirin."
 msgstr[1] ""
+"Ji bo tomarkirina cîh û parastina taybetiya te, pelên kevn piştî %u rojan "
+"xweber dikarin werin jêbirin."
 
 #: src/Views/HouseKeepingView.vala:33
 msgid "Housekeeping"
-msgstr ""
+msgstr "Rêkûpêkkirin"
 
 #: src/Views/HouseKeepingView.vala:38 src/Views/HouseKeepingView.vala:48
 #: src/Views/HouseKeepingView.vala:64 src/Views/HouseKeepingView.vala:80
 #: src/Views/HouseKeepingView.vala:96
 msgid "Automatically Delete"
-msgstr ""
+msgstr "Xweber jê bibe"
 
 #: src/Views/HouseKeepingView.vala:40
 msgid "Old temporary files"
-msgstr ""
+msgstr "Pelên demkî yên kevn"
 
 #: src/Views/HouseKeepingView.vala:56
 msgid "Downloaded files"
-msgstr ""
+msgstr "Pelên daxistî"
 
 #: src/Views/HouseKeepingView.vala:72
 msgid "Screenshot files"
-msgstr ""
+msgstr "Pelên wêneya dîmenderê"
 
 #: src/Views/HouseKeepingView.vala:88
 msgid "Trashed files"
-msgstr ""
+msgstr "Pelên jêbirdankê"
 
 #: src/Views/NightLightView.vala:22
 msgid ""
 "Make the colors of your display warmer at night to help prevent eye strain "
 "and sleeplessness."
 msgstr ""
+"Bi şev rengên dîmendera xwe germtir bike da ku pêşî li westandina çavan û "
+"bêxewiyê bigirî."
 
 #: src/Views/NightLightView.vala:24
 msgid "Night Light"
-msgstr ""
+msgstr "Ronahiya şevê"
 
 #: src/Views/NightLightView.vala:34
 msgid "Night Light:"
-msgstr ""
+msgstr "Ronahiya şevê:"
 
 #: src/Views/NightLightView.vala:40
 msgid "Adjust schedule and temperature…"
-msgstr ""
+msgstr "Bername û germahiyê saz bike…"
 
 #: src/Views/OnlineAccountsView.vala:24
 msgid ""
 "Use Mail, Calendar, and Tasks with an existing online account to sync "
 "emails, events, and tasks with this device."
 msgstr ""
+"Ename, salname û erkê bi jimarekî serhêl ê heyî re bi kar bîne da ku e-name, "
+"bûyer û erkan bi vê amûrê re hevdem bikî."
 
 #: src/Views/OnlineAccountsView.vala:26
 msgid "Online Accounts"
-msgstr ""
+msgstr "Jimarên serhêl"
 
 #: src/Views/OnlineAccountsView.vala:31
 msgid "Connect Online Accounts…"
-msgstr ""
+msgstr "Jimarên serhêl girê bide…"
 
 #: src/Views/StyleView.vala:72
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
+"Bi hilbijartina şêwazeke dîtbarî û rengê balkêşiyê, wê ji xwe re kesane "
+"bike. Sepan dikarin van bi xuyanga te ya taybet derbas bikin."
 
 #: src/Views/StyleView.vala:74
 msgid "Choose Your Look"
-msgstr ""
+msgstr "Xuyanga xwe hilbijêre"
 
 #: src/Views/StyleView.vala:113
 msgid "Default"
-msgstr ""
+msgstr "Berdest"
 
 #: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
 #: src/Views/StyleView.vala:167
 msgid "Style"
-msgstr ""
+msgstr "Şêwaz"
 
 #: src/Views/StyleView.vala:134
 msgid "Dark"
-msgstr ""
+msgstr "Tarî"
 
 #: src/Views/StyleView.vala:155
 msgid "Sunset to Sunrise"
-msgstr ""
+msgstr "Ji rojavabûnê heya rojhelatinê"
 
 #: src/Views/StyleView.vala:176
 msgid "Blueberry"
-msgstr ""
+msgstr "Şînberk"
 
 #: src/Views/StyleView.vala:181
 msgid "Mint"
-msgstr ""
+msgstr "Mint"
 
 #: src/Views/StyleView.vala:186
 msgid "Lime"
-msgstr ""
+msgstr "Leymon"
 
 #: src/Views/StyleView.vala:191
 msgid "Banana"
-msgstr ""
+msgstr "Muz"
 
 #: src/Views/StyleView.vala:196
 msgid "Orange"
-msgstr ""
+msgstr "Pirteqal"
 
 #: src/Views/StyleView.vala:201
 msgid "Strawberry"
-msgstr ""
+msgstr "Tûfrengî"
 
 #: src/Views/StyleView.vala:206
 msgid "Bubblegum"
-msgstr ""
+msgstr "Benîşt"
 
 #: src/Views/StyleView.vala:211
 msgid "Grape"
-msgstr ""
+msgstr "Tirî"
 
 #: src/Views/StyleView.vala:216
 msgid "Cocoa"
-msgstr ""
+msgstr "Kakao"
 
 #: src/Views/StyleView.vala:221
 msgid "Slate"
-msgstr ""
+msgstr "Slate"
 
 #: src/Views/StyleView.vala:226
 msgid "Latte"
-msgstr ""
+msgstr "Latte"
 
 #: src/Views/StyleView.vala:231
 msgid "Automatic based on wallpaper"
-msgstr ""
+msgstr "Li ser bingeha wêneya dîwêr xweber e"
 
 #: src/Views/StyleView.vala:367
 msgid "accent color"
-msgstr ""
+msgstr "rengê balkêşiyê"
 
 #: src/Views/UpdatesView.vala:10
 msgid ""
 "Updates can be automatically installed when your device is connected to the "
 "Internet."
 msgstr ""
+"Dema ku amûra te bi înternetê ve girêdayî be rojanekirin dikarin xweber "
+"werin sazkirin."
 
 #: src/Views/UpdatesView.vala:12
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Rojanekirinên xweber"
 
 #: src/Views/UpdatesView.vala:19
 msgid "Free & Purchased Apps"
-msgstr ""
+msgstr "Sepanên belaş & Kirî"
 
 #: src/Views/UpdatesView.vala:21
 msgid "Apps being tried for free will not update automatically"
-msgstr ""
+msgstr "Sepanên ku belaş tên testkriin wê xweber neyên rojanekirin"
 
 #: src/Views/UpdatesView.vala:31
 msgid "Operating System"
-msgstr ""
+msgstr "Pergala xebatê"
 
 #: src/Views/UpdatesView.vala:33
 msgid "Will be installed when you choose to restart this device"
 msgstr ""
+"Wê werin sazkirin dema ku tu hilbijêrî vê amûrê ji nû ve bidî destpêkirin"
 
 #: src/Views/WelcomeView.vala:85
 msgid "What’s New"
-msgstr ""
+msgstr "Çi nû ye"
 
 #: src/Views/WelcomeView.vala:88
 msgid "Welcome!"
-msgstr ""
+msgstr "Bi xêr hatî!"
 
 #: src/Views/WelcomeView.vala:94
 msgid ""
 "Continue to set up some useful features. Visit the links below for more help "
 "with getting started."
 msgstr ""
+"Ji bo sazkirina hinek taybetmendiyên bikêr bidomîne. Ji bo bêtir alîkarî "
+"derbarê destpêkirinê serdana girêdanên jêrîn bike."
 
 #: src/Views/WelcomeView.vala:137
 msgid "Basics Guide"
-msgstr ""
+msgstr "Rêbernameya bingehan"
 
 #: src/Views/WelcomeView.vala:144
 msgid "Get Help"
-msgstr ""
+msgstr "Alîkariyê bistîne"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr ""
+msgstr "Malpera me ya tevnê"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "Beşdar bibe yan jî bibe sponsorê me"

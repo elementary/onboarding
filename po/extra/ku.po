@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2026-08-26 02:06+0000\n"
+"PO-Revision-Date: 2026-09-10 14:01+0000\n"
 "Last-Translator: Cyax <fakecyax@gmail.com>\n"
 "Language-Team: Kurdish <https://l10n.elementaryos.org/projects/installer/"
 "onboarding-extra/ku/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: data/io.elementary.onboarding.desktop.in:3
 #: data/onboarding.metainfo.xml.in:11
 msgid "Welcome"
-msgstr "Bi xêr hatî"
+msgstr "Silav"
 
 #: data/io.elementary.onboarding.desktop.in:4
 #: data/onboarding.metainfo.xml.in:12
@@ -59,36 +59,39 @@ msgstr "Piştgiriya xwînera dîmenderê baştir bike"
 
 #: data/onboarding.metainfo.xml.in:111
 msgid "Use the current wallpaper in the \"Choose your look\" view"
-msgstr "Wêneya dîwarê heyî di dîtina \"Xuyanga xwe hilbijêre\" de bi kar bîne"
+msgstr "Wêneya dîwêr a heyî di dîtina \"Xuyanga xwe hilbijêre\" de bi kar bîne"
 
 #: data/onboarding.metainfo.xml.in:124
 msgid "Redesigned app icon"
-msgstr ""
+msgstr "Îkona sepanên rojanekirî"
 
 #: data/onboarding.metainfo.xml.in:125
 msgid "Generate a main page icon using the default wallpaper and accent color"
 msgstr ""
-"Bi karanîna rengê wêneya dîwarê berdest û rengê taybet rûpela sereke çê bike"
+"Bi riya bikaranîna wêneya dîwêr a berdest û rengê taybet îkoneke rûpela "
+"sereke biafirîne"
 
 #: data/onboarding.metainfo.xml.in:126
 msgid "Use bolder typography"
-msgstr ""
+msgstr "Tipografiya qalindtir bi kar bîne"
 
 #: data/onboarding.metainfo.xml.in:127
 msgid "Redesign app page to better explain sideloading and alt stores"
 msgstr ""
+"Rûpela sepanê ji nû ve dîzayn bike da ku barkirina alî û markêtên alternatîv "
+"çêtir werin fêmkirin"
 
 #: data/onboarding.metainfo.xml.in:128
 msgid "Always warn about Early Access builds"
-msgstr ""
+msgstr "Her dem derbarê avakirinên gihîştina zû de hişyar bike"
 
 #: data/onboarding.metainfo.xml.in:148
 msgid "Add Automatic Updates view"
-msgstr ""
+msgstr "Dîtina rojanekirinên xweber tevlî bike"
 
 #: data/onboarding.metainfo.xml.in:149
 msgid "Add Sunset to Sunrise to Style View"
-msgstr ""
+msgstr "Vebijêrka ji rojavabûnê heya rojhelatinê li dîtina şêwazê tevlî bike"
 
 #: data/onboarding.metainfo.xml.in:150
 msgid "Update for OS 7 and Gtk 4"
