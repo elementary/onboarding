@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-05 17:46+0000\n"
-"PO-Revision-Date: 2026-02-06 22:55+0000\n"
+"PO-Revision-Date: 2026-10-12 08:03+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/installer/"
 "onboarding/ja/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.11.4\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: src/MainWindow.vala:32
 #, c-format
@@ -341,7 +341,7 @@ msgstr "サポートを受ける"
 
 #: src/Views/WelcomeView.vala:151
 msgid "Our Website"
-msgstr "公式 Web サイト"
+msgstr "公式ウェブサイト"
 
 #: src/Views/WelcomeView.vala:158
 msgid "Get Involved or Sponsor Us"
