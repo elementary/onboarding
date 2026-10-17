@@ -39,6 +39,8 @@ public class Onboarding.MainWindow : Gtk.ApplicationWindow, PantheonWayland.Exte
     }
 
     construct {
+        default_width = 470;
+
         navigation_view = new Adw.NavigationView ();
 
         if (Posix.isatty (Posix.STDIN_FILENO) == false) {
