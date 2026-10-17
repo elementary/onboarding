@@ -221,7 +221,7 @@ public class Onboarding.StyleView : AbstractOnboardingView {
 
         construct {
             tooltip_text = color.to_name ();
-            if (tooltip_text == "") {
+            if (color == AUTOMATIC) {
                 tooltip_text = _("Automatic based on wallpaper");
             }
 
