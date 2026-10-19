@@ -41,24 +41,16 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         };
         overlay.add_overlay (badge);
 
-        var title_label = new Gtk.Label (title) {
+        var title_label = new Granite.HeaderLabel (title) {
+            secondary_text = description,
             justify = CENTER,
-            wrap = true,
-            use_markup = true
+            size = H1,
+            xalign = 0.5f
         };
-        title_label.add_css_class (Granite.HeaderLabel.Size.H1.to_string ());
 
-        var description_label = new Gtk.Label (description) {
-            justify = CENTER,
-            wrap = true,
-            use_markup = true
-        };
-        description_label.add_css_class (Granite.CssClass.DIM);
-
-        var header_area = new Granite.Box (VERTICAL, NONE);
+        var header_area = new Granite.Box (VERTICAL, SINGLE);
         header_area.append (overlay);
         header_area.append (title_label);
-        header_area.append (description_label);
         header_area.add_css_class ("header-area");
 
         custom_bin = new Granite.Box (VERTICAL) {
@@ -131,7 +123,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             {title, description}
         );
 
-        bind_property ("description", description_label, "label");
+        bind_property ("description", title_label, "secondary-text");
         bind_property ("title", title_label, "label");
 
         // Grab focus early so we don't interupt the screen reader
