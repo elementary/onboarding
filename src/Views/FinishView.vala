@@ -71,7 +71,6 @@ public class Onboarding.FinishView : AbstractOnboardingView {
 
             var left_label = new Gtk.Label (label_string) {
                 hexpand = true,
-                max_width_chars = 35,
                 wrap = true,
                 xalign = 0
             };

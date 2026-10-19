@@ -42,19 +42,15 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         overlay.add_overlay (badge);
 
         var title_label = new Gtk.Label (title) {
-            halign = CENTER,
             justify = CENTER,
             wrap = true,
-            max_width_chars = 50,
             use_markup = true
         };
         title_label.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
 
         var description_label = new Gtk.Label (description) {
-            halign = CENTER,
             justify = CENTER,
             wrap = true,
-            max_width_chars = 50,
             use_markup = true
         };
         description_label.add_css_class (Granite.CssClass.DIM);
@@ -111,12 +107,21 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             next_button.label = _("Get Started");
         }
 
-        var box = new Granite.Box (VERTICAL, DOUBLE) {
+        var content_box = new Granite.Box (VERTICAL, DOUBLE) {
             hexpand = true,
             vexpand = true
         };
-        box.append (header_area);
-        box.append (custom_bin);
+        content_box.append (header_area);
+        content_box.append (custom_bin);
+
+        var clamp = new Adw.Clamp () {
+            child = content_box,
+            unit = PT,
+            maximum_size = 275
+        };
+
+        var box = new Granite.Box (VERTICAL, DOUBLE);
+        box.append (clamp);
         box.append (action_area);
 
         child = box;
@@ -180,7 +185,6 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
 
             var description_label = new Gtk.Label (label) {
                 hexpand = true,
-                max_width_chars = 40,
                 wrap = true,
                 xalign = 0
             };

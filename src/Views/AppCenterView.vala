@@ -31,7 +31,8 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
         };
 
         var appcenter_label = new Gtk.Label (_("Get apps made for elementary OS and reviewed by elementary on AppCenter")) {
-            max_width_chars = 35,
+            hexpand = true,
+            xalign = 0,
             wrap = true
         };
 
@@ -49,7 +50,8 @@ public class Onboarding.AppCenterView : AbstractOnboardingView {
         };
 
         var sideload_label = new Gtk.Label (_("Sideload apps from alternative app stores like Flathub")) {
-            max_width_chars = 35,
+            hexpand = true,
+            xalign = 0,
             wrap = true
         };
 
