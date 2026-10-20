@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: elementary <builds@elementary.io>
 Build-Depends: debhelper (>= 10.5.1),
                libadwaita-1-dev (>= 1.4.0),
-               libgranite-7-dev,
+               libgranite-9-dev,
                libgtk-4-dev,
                libpantheon-wayland-1-dev,
                meson,
