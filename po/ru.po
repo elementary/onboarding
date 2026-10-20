@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2026-02-15 15:55+0000\n"
 "Last-Translator: кубик круглый <megarainbow29@gmail.com>\n"
 "Language-Team: Russian <https://l10n.elementaryos.org/projects/installer/"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Настройка %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Далее"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Пропустить всё"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "Назад"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Начать"
 
@@ -59,7 +59,7 @@ msgstr ""
 "Загрузить приложения, созданные специально для elementary OS и проверенные "
 "командой elementary"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "Загрузить приложения из альтернативных источников, например, Flathub"
 
@@ -216,7 +216,7 @@ msgstr "Онлайн-аккаунты"
 msgid "Connect Online Accounts…"
 msgstr "Подключить онлайн-аккаунты…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -224,76 +224,32 @@ msgstr ""
 "Добавьте собственных черт, выбрав визуальный стиль и цветовой акцент. "
 "Приложения могут заменять их собственным оформлением."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Выберите свой стиль"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "По умолчанию"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "Стиль"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Тёмный"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "От заката до рассвета"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Черничный"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "Мятный"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Лаймовый"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Банановый"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Апельсиновый"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Клубничный"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Бубль-гум"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Виноградный"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Какао"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Каменно-серый"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr "Латте"
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Автоматически на основе обоев"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "цветовой акцент"
 
@@ -341,21 +297,54 @@ msgstr ""
 "Продолжим настройку различных полезных функций. Перейдите по ссылкам ниже, "
 "чтобы узнать больше о системе."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "Изучение основ"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "Получить помощь"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "Наш веб-сайт"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "Приобщиться или поддержать нас"
+
+#~ msgid "Blueberry"
+#~ msgstr "Черничный"
+
+#~ msgid "Mint"
+#~ msgstr "Мятный"
+
+#~ msgid "Lime"
+#~ msgstr "Лаймовый"
+
+#~ msgid "Banana"
+#~ msgstr "Банановый"
+
+#~ msgid "Orange"
+#~ msgstr "Апельсиновый"
+
+#~ msgid "Strawberry"
+#~ msgstr "Клубничный"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Бубль-гум"
+
+#~ msgid "Grape"
+#~ msgstr "Виноградный"
+
+#~ msgid "Cocoa"
+#~ msgstr "Какао"
+
+#~ msgid "Slate"
+#~ msgstr "Каменно-серый"
+
+#~ msgid "Latte"
+#~ msgstr "Латте"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Открыть Параметры системы…"

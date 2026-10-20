@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2019-09-22 17:23+0000\n"
 "Last-Translator: Daniel R. <riesp@pm.me>\n"
 "Language-Team: Galician <https://l10n.elementary.io/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Configurar %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Seguinte"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Omitir todo"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr ""
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Primeiros pasos"
 
@@ -66,7 +66,7 @@ msgstr ""
 "Consiga as aplicacións que necesita no Centro de Aplicacións. Atopará "
 "aplicacións feitas a medida para elementary e revisadas polo equipo."
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
@@ -223,82 +223,38 @@ msgstr ""
 msgid "Connect Online Accounts…"
 msgstr ""
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr ""
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr ""
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr ""
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr ""
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr ""
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr ""
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr ""
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr ""
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr ""
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr ""
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr ""
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr ""
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr ""
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr ""
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr ""
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr ""
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr ""
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr ""
 
@@ -352,21 +308,21 @@ msgstr ""
 "Agora configuraremos algunhas funcións útiles. Visite estas ligazóns para "
 "obter máis información sobre %s."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 #, fuzzy
 #| msgid "Basics Guide…"
 msgid "Basics Guide"
 msgstr "Guía de nocións básicas…"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr ""
 

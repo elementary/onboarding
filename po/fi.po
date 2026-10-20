@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2024-12-02 02:00+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Määritä %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Seuraava"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Ohita kaikki"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "Takaisin"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Aloita"
 
@@ -58,7 +58,7 @@ msgstr ""
 "Hanki elementary OS:lle tehdyt ja elementaryn katselmoimat sovellukset "
 "sovelluskeskuksesta."
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "Lataa sovelluksia vaihtoehtoisista sovelluslähteistä kuten Flathubista"
 
@@ -209,7 +209,7 @@ msgstr "Verkkotilit"
 msgid "Connect Online Accounts…"
 msgstr "Yhdistä verkkotilit…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -217,76 +217,32 @@ msgstr ""
 "Tee siitä omasi valitsemalla visuaalisen tyylin ja korostevärin. Sovellukset "
 "saattavat ohittaa nämä valinnat omalla ulkoasullaan."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Valitse ulkoasu"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Oletus"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "Tyyli"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Tumma"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "Auringonnoususta auringonlaskuun"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Mustikka"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "Minttu"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Lime"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Banaani"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Appelsiini"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Mansikka"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Purukumi"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Rypäle"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Kaakao"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Liuskekivi"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr ""
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Automaattinen taustakuvaan pohjautuen"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "korostusväri"
 
@@ -334,21 +290,51 @@ msgstr ""
 "Jatka hyödyllisten ominaisuuksien käyttöönottoa. Tutustu alla oleviin "
 "linkkeihin, niin saat apua käyttöönottoon."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "Perusopas"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "Tuki"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "Verkkosivusto"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "Osallistu tai sponsoroi"
+
+#~ msgid "Blueberry"
+#~ msgstr "Mustikka"
+
+#~ msgid "Mint"
+#~ msgstr "Minttu"
+
+#~ msgid "Lime"
+#~ msgstr "Lime"
+
+#~ msgid "Banana"
+#~ msgstr "Banaani"
+
+#~ msgid "Orange"
+#~ msgstr "Appelsiini"
+
+#~ msgid "Strawberry"
+#~ msgstr "Mansikka"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Purukumi"
+
+#~ msgid "Grape"
+#~ msgstr "Rypäle"
+
+#~ msgid "Cocoa"
+#~ msgstr "Kaakao"
+
+#~ msgid "Slate"
+#~ msgstr "Liuskekivi"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Avaa järjestelmän asetukset…"

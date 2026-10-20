@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2026-04-19 04:55+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementaryos.org/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s-ის მორგება"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "შემდეგი"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "ყველას გამოტოვება"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "უკან"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "დაწყება"
 
@@ -54,7 +54,7 @@ msgstr "დააყენეთ რამდენიმე აპი"
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "აპების დაყენება სხვა მაღაზიებიდან, როგორიცაა, მაგ: Flathub"
 
@@ -193,82 +193,38 @@ msgstr "ონლაინ ანგარიშები"
 msgid "Connect Online Accounts…"
 msgstr "ონლაინ ანგარიშების მორგება…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "აირჩიეთ თქვენი ხედი"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "ნაგულისხმები"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "სტილი"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "ბნელი"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "დაისიდან აისამდე"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "მოცვი"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "პიტნა"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "ლიმონის ფერი"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "ბანანი"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "ნარინჯისფერი"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "მარწყვი"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "საღეჭი რეზინი"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "ყურძენი"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "კოკო"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "ფიქალი"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr "ლატე"
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "ავტომატური, ფონის სურათზე დაყრდნობით"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "აქცენტის ფერი"
 
@@ -312,21 +268,54 @@ msgid ""
 "with getting started."
 msgstr ""
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "დამწყების სახელმძღვანელო"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "დახმარების მიღება"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "ჩვენი ვებგვერდი"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "ჩაერთეთ ან დაგვასპონსორეთ"
+
+#~ msgid "Blueberry"
+#~ msgstr "მოცვი"
+
+#~ msgid "Mint"
+#~ msgstr "პიტნა"
+
+#~ msgid "Lime"
+#~ msgstr "ლიმონის ფერი"
+
+#~ msgid "Banana"
+#~ msgstr "ბანანი"
+
+#~ msgid "Orange"
+#~ msgstr "ნარინჯისფერი"
+
+#~ msgid "Strawberry"
+#~ msgstr "მარწყვი"
+
+#~ msgid "Bubblegum"
+#~ msgstr "საღეჭი რეზინი"
+
+#~ msgid "Grape"
+#~ msgstr "ყურძენი"
+
+#~ msgid "Cocoa"
+#~ msgstr "კოკო"
+
+#~ msgid "Slate"
+#~ msgstr "ფიქალი"
+
+#~ msgid "Latte"
+#~ msgstr "ლატე"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "სისტემის პარამეტრების ფანჯრის გახსნა…"

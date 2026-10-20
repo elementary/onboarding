@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2026-02-08 15:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Konfigurera %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Nästa"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Hoppa över alla"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "Tillbaka"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Kom igång"
 
@@ -57,7 +57,7 @@ msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
 "Hämta appar gjorda för elementary OS och granskade av elementary på AppCenter"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "Sidoladda appar från alternativa appbutiker som Flathub"
 
@@ -210,7 +210,7 @@ msgstr "Nätkonton"
 msgid "Connect Online Accounts…"
 msgstr "Anslut nätkonton…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -218,76 +218,32 @@ msgstr ""
 "Gör den till din egen genom att välja en visuell stil och accentfärg. Appar "
 "kan åsidosätta dessa med sitt eget utseende."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Välj utseende"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Standard"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "Stil"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Mörk"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "Solnedgång till soluppgång"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Blåbär"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "Mint"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Ljusgrön"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Banan"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Apelsin"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Jordgubbe"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Tuggummi"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Druva"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Kakao"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Skiffer"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr "Latte"
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Automatiskt baserat på bakgrundsbild"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "accentfärg"
 
@@ -335,21 +291,54 @@ msgstr ""
 "Fortsätt för att konfigurera ett par användbara funktioner. Besök länkarna "
 "nedan för att få mer hjälp med att komma igång."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "Grundläggande guide"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "Få hjälp"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "Vår webbplats"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "Engagera dig eller sponsra oss"
+
+#~ msgid "Blueberry"
+#~ msgstr "Blåbär"
+
+#~ msgid "Mint"
+#~ msgstr "Mint"
+
+#~ msgid "Lime"
+#~ msgstr "Ljusgrön"
+
+#~ msgid "Banana"
+#~ msgstr "Banan"
+
+#~ msgid "Orange"
+#~ msgstr "Apelsin"
+
+#~ msgid "Strawberry"
+#~ msgstr "Jordgubbe"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Tuggummi"
+
+#~ msgid "Grape"
+#~ msgstr "Druva"
+
+#~ msgid "Cocoa"
+#~ msgstr "Kakao"
+
+#~ msgid "Slate"
+#~ msgstr "Skiffer"
+
+#~ msgid "Latte"
+#~ msgstr "Latte"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Öppna systeminställningar…"

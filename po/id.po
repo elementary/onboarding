@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2023-06-04 16:07+0000\n"
 "Last-Translator: Faisal Rachmadin "
 "<frachmadin@users.noreply.l10n.elementary.io>\n"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Mengatur %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Berikutnya"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Lewati Semua"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr ""
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Mulai"
 
@@ -59,7 +59,7 @@ msgstr ""
 "Dapatkan aplikasi yang dibuat untuk elementary OS dan ditinjau oleh "
 "elementary di AppCenter"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "Muat samping aplikasi dari toko aplikasi alternatif seperti Flathub"
 
@@ -206,7 +206,7 @@ msgstr "Akun Daring"
 msgid "Connect Online Accounts…"
 msgstr "Hubungkan Akun Daring…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -214,76 +214,32 @@ msgstr ""
 "Buatlah sendiri dengan memilih gaya visual dan warna aksen. Aplikasi dapat "
 "menimpa ini dengan tampilan mereka sendiri."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Pilih Tampilan Anda"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Konfigurasi Awal"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr ""
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Gelap"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "Matahari terbenam hingga matahari terbit"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Blueberi"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "Mint"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Jeruk Nipis"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Pisang"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Jeruk"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Stroberi"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Permen Karet"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Anggur"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Kakao"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Papan Tulis"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr ""
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Otomatis berdasarkan wallpaper"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr ""
 
@@ -333,23 +289,53 @@ msgstr ""
 "Lanjutkan untuk menyiapkan beberapa fitur yang berguna. Kunjungi tautan di "
 "bawah ini untuk bantuan lebih lanjut tentang memulai."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 #, fuzzy
 #| msgid "Basics Guide…"
 msgid "Basics Guide"
 msgstr "Panduan Dasar…"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr ""
+
+#~ msgid "Blueberry"
+#~ msgstr "Blueberi"
+
+#~ msgid "Mint"
+#~ msgstr "Mint"
+
+#~ msgid "Lime"
+#~ msgstr "Jeruk Nipis"
+
+#~ msgid "Banana"
+#~ msgstr "Pisang"
+
+#~ msgid "Orange"
+#~ msgstr "Jeruk"
+
+#~ msgid "Strawberry"
+#~ msgstr "Stroberi"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Permen Karet"
+
+#~ msgid "Grape"
+#~ msgstr "Anggur"
+
+#~ msgid "Cocoa"
+#~ msgstr "Kakao"
+
+#~ msgid "Slate"
+#~ msgstr "Papan Tulis"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Buka Pengaturan Sistem…"

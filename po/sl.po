@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2026-01-21 18:55+0000\n"
 "Last-Translator: Jernej Virag <jernej@virag.si>\n"
 "Language-Team: Slovenian <https://l10n.elementaryos.org/projects/installer/"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Nastavite %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Naprej"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Preskoči vse"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "Nazaj"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Pričnite"
 
@@ -57,7 +57,7 @@ msgstr "Pridobite nekaj aplikacij"
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr "Pridobite aplikacije narejene za elementary OS v AppCentru"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "Naložite aplikacije z drugih trgovin kot npr. Flathub"
 
@@ -215,7 +215,7 @@ msgstr "Spletni računi"
 msgid "Connect Online Accounts…"
 msgstr "Poveži spletne račune…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -223,76 +223,32 @@ msgstr ""
 "Prilagodite sistem s svojim stilom in barvo. Aplikacije lahko izberejo svoj "
 "izgled."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Izberite izgled"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Privzeto"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "Stil"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Temen"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "Od sončnega vzhoda do zahoda"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Borovnica"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "Mentol"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Limeta"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Banana"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Pomaranča"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Jagoda"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Žvečilni"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Grozdje"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Kakav"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Skrilavec"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr "Kava"
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Samodejno, glede na ozadje"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "barva poudarka"
 
@@ -339,21 +295,54 @@ msgstr ""
 "Nadaljujte za nastavitev nekaterih uporabnih sposobnosti. Za več informacij "
 "obiščite spodnje povezave."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "Vodič po osnovah"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "Pomoč"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "Naša spletna stran"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "Pomagajte ali nas sponzorirajte"
+
+#~ msgid "Blueberry"
+#~ msgstr "Borovnica"
+
+#~ msgid "Mint"
+#~ msgstr "Mentol"
+
+#~ msgid "Lime"
+#~ msgstr "Limeta"
+
+#~ msgid "Banana"
+#~ msgstr "Banana"
+
+#~ msgid "Orange"
+#~ msgstr "Pomaranča"
+
+#~ msgid "Strawberry"
+#~ msgstr "Jagoda"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Žvečilni"
+
+#~ msgid "Grape"
+#~ msgstr "Grozdje"
+
+#~ msgid "Cocoa"
+#~ msgstr "Kakav"
+
+#~ msgid "Slate"
+#~ msgstr "Skrilavec"
+
+#~ msgid "Latte"
+#~ msgstr "Kava"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Odpri sistemske nastavitve…"

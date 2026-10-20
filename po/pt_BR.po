@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2024-09-14 21:16+0000\n"
 "Last-Translator: José Rafael <jrafaeldesantana@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://l10n.elementary.io/projects/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Configurar %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Próximo"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Pular Todos"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "Voltar"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Iniciar"
 
@@ -58,7 +58,7 @@ msgstr ""
 "Baixe aplicativos feitos para o elementary OS e revisados pela elementary no "
 "AppCenter"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 "Sideload de aplicativos de lojas de aplicativos alternativas como Flathub"
@@ -209,7 +209,7 @@ msgstr "Contas Online"
 msgid "Connect Online Accounts…"
 msgstr "Conecte Contas Online…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -217,76 +217,32 @@ msgstr ""
 "Deixe do seu jeito escolhendo um estilo e uma cor predominante. As "
 "aplicações podem usar visuais próprios."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Escolha Sua Aparência"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Padrão"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "Estilo"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Noturno"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "Do pôr do sol ao nascer do sol"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Blueberry"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "MInt"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Lime"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Banana"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Orange"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Morango"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Chiclete"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Uva"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Cacau"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Ardósia"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr ""
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Automático baseado no papel de parede"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "cor de destaque"
 
@@ -335,21 +291,51 @@ msgstr ""
 "Continue para configurar alguns recursos úteis. Visite os links abaixo para "
 "obter mais ajuda para começar."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "Guia Básico"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "Obter ajuda"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "Nosso website"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "Participe ou Patrocine-nos"
+
+#~ msgid "Blueberry"
+#~ msgstr "Blueberry"
+
+#~ msgid "Mint"
+#~ msgstr "MInt"
+
+#~ msgid "Lime"
+#~ msgstr "Lime"
+
+#~ msgid "Banana"
+#~ msgstr "Banana"
+
+#~ msgid "Orange"
+#~ msgstr "Orange"
+
+#~ msgid "Strawberry"
+#~ msgstr "Morango"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Chiclete"
+
+#~ msgid "Grape"
+#~ msgstr "Uva"
+
+#~ msgid "Cocoa"
+#~ msgstr "Cacau"
+
+#~ msgid "Slate"
+#~ msgstr "Ardósia"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Abrir Configurações do Sistema…"

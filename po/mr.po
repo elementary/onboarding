@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2020-11-22 20:15+0000\n"
 "Last-Translator: Prachi Joshi <josprachi@yahoo.com>\n"
 "Language-Team: Marathi <https://l10n.elementary.io/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s चे सेटअप करा"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "पुढे"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "सर्व वगळा"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr ""
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "सुरु करूया"
 
@@ -66,7 +66,7 @@ msgstr ""
 "आपल्याला AppCenter वर आवश्यक अॅप्स मिळवा. पएलिमेंटरी OS साठी Curated अॅप्स तयार केले "
 "जातात आणि एलिमेंटरी द्वारे पुनरावलोकन केले जातात."
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
@@ -221,7 +221,7 @@ msgstr ""
 msgid "Connect Online Accounts…"
 msgstr ""
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -229,76 +229,32 @@ msgstr ""
 "व्हिज्युअल शैली आणि उच्चारण रंग निवडून त्यास आपले स्वत: चे बनवा. अ‍ॅप कदाचित त्यांच्या स्वत: "
 "च्या देखाव्याने ते अधिलिखित करेल."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "आपला देखावा निवडा"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "डीफॉल्ट"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr ""
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "गडद"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr ""
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "ब्लूबेरी"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "पुदीना"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "लिंबू"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "केळी"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "संत्रे"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "स्ट्रॉबेरी"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "बबलगम"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "द्राक्ष"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "कोकाआ"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "स्लेट"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr ""
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr ""
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr ""
 
@@ -351,23 +307,53 @@ msgid ""
 msgstr ""
 "काही उपयुक्त वैशिष्ट्ये सेट करणे सुरू ठेवा. %s बद्दल अधिक माहितीसाठी खालील दुव्यांवर भेट द्या."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 #, fuzzy
 #| msgid "Basics Guide…"
 msgid "Basics Guide"
 msgstr "मूलभूत मार्गदर्शक…"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr ""
+
+#~ msgid "Blueberry"
+#~ msgstr "ब्लूबेरी"
+
+#~ msgid "Mint"
+#~ msgstr "पुदीना"
+
+#~ msgid "Lime"
+#~ msgstr "लिंबू"
+
+#~ msgid "Banana"
+#~ msgstr "केळी"
+
+#~ msgid "Orange"
+#~ msgstr "संत्रे"
+
+#~ msgid "Strawberry"
+#~ msgstr "स्ट्रॉबेरी"
+
+#~ msgid "Bubblegum"
+#~ msgstr "बबलगम"
+
+#~ msgid "Grape"
+#~ msgstr "द्राक्ष"
+
+#~ msgid "Cocoa"
+#~ msgstr "कोकाआ"
+
+#~ msgid "Slate"
+#~ msgstr "स्लेट"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "सिस्टम सेटिंग्ज उघडा…"

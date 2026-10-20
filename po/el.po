@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2026-07-10 15:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Ρύθμιση του %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Επόμενο"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Παράλειψη όλων"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "Πίσω"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr ""
 
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 
@@ -192,82 +192,38 @@ msgstr "Διαδικτυακοί λογαριασμοί"
 msgid "Connect Online Accounts…"
 msgstr "Σύνδεση διαδικτυακών λογαριασμών…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
 msgstr ""
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr ""
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Προεπιλογή"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "Θέμα"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Σκουρόχρωμο"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr ""
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Μύρτιλο"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "Μέντα"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Μοσχολέμονο"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Μπανάνα"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Πορτοκάλι"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Φράουλα"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Τσιχλόφουσκα"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Σταφύλι"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Κακάο"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Σχιστόλιθος"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr "Λάτε"
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Αυτόματα βάσει ταπετσαρίας"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "Χρώμα έμφασης"
 
@@ -311,18 +267,51 @@ msgid ""
 "with getting started."
 msgstr ""
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "Λήψη βοήθειας"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "Ο ιστότοπός μας"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr ""
+
+#~ msgid "Blueberry"
+#~ msgstr "Μύρτιλο"
+
+#~ msgid "Mint"
+#~ msgstr "Μέντα"
+
+#~ msgid "Lime"
+#~ msgstr "Μοσχολέμονο"
+
+#~ msgid "Banana"
+#~ msgstr "Μπανάνα"
+
+#~ msgid "Orange"
+#~ msgstr "Πορτοκάλι"
+
+#~ msgid "Strawberry"
+#~ msgstr "Φράουλα"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Τσιχλόφουσκα"
+
+#~ msgid "Grape"
+#~ msgstr "Σταφύλι"
+
+#~ msgid "Cocoa"
+#~ msgstr "Κακάο"
+
+#~ msgid "Slate"
+#~ msgstr "Σχιστόλιθος"
+
+#~ msgid "Latte"
+#~ msgstr "Λάτε"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2026-02-15 15:55+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://l10n.elementaryos.org/projects/installer/"
@@ -25,19 +25,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Налаштування %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Далі"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Пропустити все"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "Назад"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Почати користуватися"
 
@@ -59,7 +59,7 @@ msgstr ""
 "Отримуйте застосунки, створені для elementary OS і перевірені elementary в "
 "Центрі застосунків"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 "Завантажуйте застосунки з альтернативних крамниць застосунків, як-от Flathub"
@@ -215,7 +215,7 @@ msgstr "Онлайнові облікові записи"
 msgid "Connect Online Accounts…"
 msgstr "Під'єднати онлайнові облікові записи…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -223,76 +223,32 @@ msgstr ""
 "Додайте власних рис, вибравши візуальний стиль та основний колір. Застосунки "
 "можуть замінити їх власним оформленням."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Виберіть свій стиль"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Типовий"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "Стиль"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Темний"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "Від світанку до заходу"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Чорничний"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "М'ятний"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Лаймовий"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Банановий"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Апельсиновий"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Полуничний"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Жуйковий"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Виноградний"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Какаовий"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Кам'яно-сірий"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr "Лате"
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Автоматично пристосовувати до тла"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "основний колір"
 
@@ -340,21 +296,54 @@ msgstr ""
 "Продовжуйте налаштовувати корисні функції. Перейдіть за посиланнями нижче, "
 "щоб отримати додаткову довідку для початку роботи."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "Посібник з основ"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "Отримати допомогу"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "Наш вебсайт"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "Долучитися або підтримати нас"
+
+#~ msgid "Blueberry"
+#~ msgstr "Чорничний"
+
+#~ msgid "Mint"
+#~ msgstr "М'ятний"
+
+#~ msgid "Lime"
+#~ msgstr "Лаймовий"
+
+#~ msgid "Banana"
+#~ msgstr "Банановий"
+
+#~ msgid "Orange"
+#~ msgstr "Апельсиновий"
+
+#~ msgid "Strawberry"
+#~ msgstr "Полуничний"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Жуйковий"
+
+#~ msgid "Grape"
+#~ msgstr "Виноградний"
+
+#~ msgid "Cocoa"
+#~ msgstr "Какаовий"
+
+#~ msgid "Slate"
+#~ msgstr "Кам'яно-сірий"
+
+#~ msgid "Latte"
+#~ msgstr "Лате"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Відкрити налаштування системи…"

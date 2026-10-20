@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2025-08-03 11:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "配置 %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "下一步"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "跳过所有"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "返回"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "开始"
 
@@ -56,7 +56,7 @@ msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
 "从应用中心中获取为 elementary OS 量身定做并已由 elementary 审查过的应用程序"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "从 Flathub 等替代应用程序商店侧载应用程序"
 
@@ -193,7 +193,7 @@ msgstr "网络账户"
 msgid "Connect Online Accounts…"
 msgstr "连接网络账户…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -201,76 +201,32 @@ msgstr ""
 "选择视觉风格与强调色，个性化您的操作系统。应用程序可能会以其自带的外观来显"
 "示。"
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "选择系统外观"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "默认"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "风格"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "深色"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "从日落到日出"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "蓝莓色"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "薄荷绿"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "青柠色"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "香蕉黄"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "阳光橙"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "草莓红"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "泡泡糖"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "葡萄紫"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "可可色"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "石头灰"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr ""
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "根据壁纸自动设定"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "强调色"
 
@@ -314,21 +270,51 @@ msgid ""
 "with getting started."
 msgstr "继续进行来设置一些实用的功能。访问下方链接来获取初次使用的更多说明。"
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "基础使用指南"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "获取帮助"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "我们的网站"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "参与或赞助"
+
+#~ msgid "Blueberry"
+#~ msgstr "蓝莓色"
+
+#~ msgid "Mint"
+#~ msgstr "薄荷绿"
+
+#~ msgid "Lime"
+#~ msgstr "青柠色"
+
+#~ msgid "Banana"
+#~ msgstr "香蕉黄"
+
+#~ msgid "Orange"
+#~ msgstr "阳光橙"
+
+#~ msgid "Strawberry"
+#~ msgstr "草莓红"
+
+#~ msgid "Bubblegum"
+#~ msgstr "泡泡糖"
+
+#~ msgid "Grape"
+#~ msgstr "葡萄紫"
+
+#~ msgid "Cocoa"
+#~ msgstr "可可色"
+
+#~ msgid "Slate"
+#~ msgstr "石头灰"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "打开系统设置…"

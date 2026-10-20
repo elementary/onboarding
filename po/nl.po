@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2026-01-23 22:55+0000\n"
 "Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
 "Language-Team: Dutch <https://l10n.elementaryos.org/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s instellen"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Volgende"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Alles overslaan"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "Terug"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Aan de slag"
 
@@ -56,7 +56,7 @@ msgstr "Ik wil apps"
 msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr "Download apps gemaakt voor en door elementary OS in de AppCenter"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "Sideload apps uit alternatieve bronnen zoals Flathub"
 
@@ -206,7 +206,7 @@ msgstr "Online accounts"
 msgid "Connect Online Accounts…"
 msgstr "Verbind online accounts…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -215,76 +215,32 @@ msgstr ""
 "kleuraccent te kiezen. Apps kunnen mogelijk deze instellingen overschrijven "
 "met hun eigen stijl."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Kies uw stijl"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Standaard"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "Stijl"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Donker"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "Zonsondergang tot zonsopgang"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Bosbes"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "Munt"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Limoen"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Banaan"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Sinasappel"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Aardbei"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Kauwgom"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Druif"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Cacao"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Leisteen"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr "Melk"
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Automatisch gebaseerd op achtergrond"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "Accentkleur"
 
@@ -332,21 +288,54 @@ msgstr ""
 "Ga door met het instellen van handige functies. Bezoek de links beneden voor "
 "hulp om aan de slag te gaan."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "Basishandleiding"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "Krijg hulp"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "Onze website"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "Doe mee of sponsor ons"
+
+#~ msgid "Blueberry"
+#~ msgstr "Bosbes"
+
+#~ msgid "Mint"
+#~ msgstr "Munt"
+
+#~ msgid "Lime"
+#~ msgstr "Limoen"
+
+#~ msgid "Banana"
+#~ msgstr "Banaan"
+
+#~ msgid "Orange"
+#~ msgstr "Sinasappel"
+
+#~ msgid "Strawberry"
+#~ msgstr "Aardbei"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Kauwgom"
+
+#~ msgid "Grape"
+#~ msgstr "Druif"
+
+#~ msgid "Cocoa"
+#~ msgstr "Cacao"
+
+#~ msgid "Slate"
+#~ msgstr "Leisteen"
+
+#~ msgid "Latte"
+#~ msgstr "Melk"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Open Systeeminstellingen…"

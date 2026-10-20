@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2023-05-18 21:06+0000\n"
 "Last-Translator: Özgür Baskin <queeup@zoho.com>\n"
 "Language-Team: Turkish <https://l10n.elementary.io/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s Kurulumu"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "İleri"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Tümünü Atla"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr ""
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Hemen Başlayın"
 
@@ -58,7 +58,7 @@ msgstr ""
 "Uygulama Merkezinden elementary OS için yapılan ve elementary tarafından "
 "incelenen uygulamaları edinin"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "Uygulamaları Flathub gibi alternatif uygulama mağazalarından yükleyin"
 
@@ -211,7 +211,7 @@ msgstr "Çevrimiçi Hesaplar"
 msgid "Connect Online Accounts…"
 msgstr "Çevrimiçi Hesaplara Bağlanın…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -219,76 +219,32 @@ msgstr ""
 "Görsel bir stil ve vurgu rengi seçerek tarzınızı yansıtın. Uygulamalar kendi "
 "görünümleri için bu ayarları görmezden gelebilir."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Görünümünüzü Seçin"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Varsayılan"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr ""
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Karanlık"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "Otomatik"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Yaban Mersini"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "Nane"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Misket Limonu"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Muz"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Portakal"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Çilek"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Balonlu Sakız"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Üzüm"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Kakao"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Arduvaz"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr ""
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Duvar kağıdına göre otomatik"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr ""
 
@@ -341,23 +297,53 @@ msgstr ""
 "Bazı kullanışlı özellikleri ayarlamak için devam edin. %s hakkında daha "
 "fazla bilgi almak için aşağıdaki bağlantıları ziyaret edin."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 #, fuzzy
 #| msgid "Basics Guide…"
 msgid "Basics Guide"
 msgstr "Temel Bilgiler…"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr ""
+
+#~ msgid "Blueberry"
+#~ msgstr "Yaban Mersini"
+
+#~ msgid "Mint"
+#~ msgstr "Nane"
+
+#~ msgid "Lime"
+#~ msgstr "Misket Limonu"
+
+#~ msgid "Banana"
+#~ msgstr "Muz"
+
+#~ msgid "Orange"
+#~ msgstr "Portakal"
+
+#~ msgid "Strawberry"
+#~ msgstr "Çilek"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Balonlu Sakız"
+
+#~ msgid "Grape"
+#~ msgstr "Üzüm"
+
+#~ msgid "Cocoa"
+#~ msgstr "Kakao"
+
+#~ msgid "Slate"
+#~ msgstr "Arduvaz"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Sistem Ayarlarını Aç…"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2024-12-11 17:16+0000\n"
 "Last-Translator: TomiOhl <ohlslager.tom@gmail.com>\n"
 "Language-Team: Hungarian <https://l10n.elementary.io/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s beállítása"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Következő"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Összes kihagyása"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "Vissza"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Kezdjen hozzá"
 
@@ -58,7 +58,7 @@ msgstr ""
 "Szerezzen be az elementary OS rendszerhez készült és az elementary által "
 "jóváhagyott alkalmazásokat az Appközpontból"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "Telepítsen alkalmazásokat alternatív forrásokból mint a Flathub"
 
@@ -209,7 +209,7 @@ msgstr "Online fiókok"
 msgid "Connect Online Accounts…"
 msgstr "Csatlakozás online fiókokhoz…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -217,76 +217,32 @@ msgstr ""
 "Tegye egyénivé, válasszon témát és kiemelőszínt. Az alkalmazások továbbra is "
 "használhatják ehelyett a saját színüket."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Válasszon kinézetet"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Alapértelmezett"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "Stílus"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Sötét"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "Napnyugtától napkeltéig"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Áfonya"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "Menta"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Lime"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Banán"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Narancs"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Eper"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Rágógumi"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Szőlő"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Kakaó"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Pala"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr ""
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Automatikus a háttérkép alapján"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "kiemelőszín"
 
@@ -335,21 +291,51 @@ msgstr ""
 "Folytassa a további hasznos funkciók beállítását. Látogassa meg az alábbi "
 "hivatkozásokat további tippekért és útmutatókért."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "Bevezetés"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "Segítség"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "Weboldalunk"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "Csatlakozzon vagy támogasson minket"
+
+#~ msgid "Blueberry"
+#~ msgstr "Áfonya"
+
+#~ msgid "Mint"
+#~ msgstr "Menta"
+
+#~ msgid "Lime"
+#~ msgstr "Lime"
+
+#~ msgid "Banana"
+#~ msgstr "Banán"
+
+#~ msgid "Orange"
+#~ msgstr "Narancs"
+
+#~ msgid "Strawberry"
+#~ msgstr "Eper"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Rágógumi"
+
+#~ msgid "Grape"
+#~ msgstr "Szőlő"
+
+#~ msgid "Cocoa"
+#~ msgstr "Kakaó"
+
+#~ msgid "Slate"
+#~ msgstr "Pala"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Rendszerbeállítások megnyitása…"

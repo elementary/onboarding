@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2024-09-19 07:22+0000\n"
 "Last-Translator: hnklp <hynek.puta@seznam.cz>\n"
 "Language-Team: Czech <https://l10n.elementary.io/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Nastavit %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Další"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Přeskočit vše"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "Zpět"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Začít"
 
@@ -58,7 +58,7 @@ msgstr ""
 "Získejte aplikace dělané pro elementary OS a zkontrolované společností "
 "elementary v Centru aplikací"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "Instalujte bokem aplikace z alternativních obchodů, jako je Flathub"
 
@@ -212,7 +212,7 @@ msgstr "Online účty"
 msgid "Connect Online Accounts…"
 msgstr "Připojit online účty…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -220,76 +220,32 @@ msgstr ""
 "Přizpůsobte si zvolením vizuálního stylu a barvy zvýrazňování. Aplikace toto "
 "mohou přebít vlastním vzhledem."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Zvolte si vzhled"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Výchozí"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "Styl"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Tmavý"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "Od západu slunce po východ"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Borůvkový"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "Mátový"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Limetkový"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Banánový"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Pomerančový"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Jahodový"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Žvýkačkové bubliny"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Hroznový"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Kakaový"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Břidlicový"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr ""
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Automaticky podle pozadí plochy"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr ""
 
@@ -339,23 +295,53 @@ msgstr ""
 "Pokračujte nastavením užitečných funkcí. Další nápovědu pro začátek "
 "naleznete na níže uvedených odkazech."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 #, fuzzy
 #| msgid "Basics Guide…"
 msgid "Basics Guide"
 msgstr "Průvodce základy…"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "Získejte nápovědu"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "Náš web"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr ""
+
+#~ msgid "Blueberry"
+#~ msgstr "Borůvkový"
+
+#~ msgid "Mint"
+#~ msgstr "Mátový"
+
+#~ msgid "Lime"
+#~ msgstr "Limetkový"
+
+#~ msgid "Banana"
+#~ msgstr "Banánový"
+
+#~ msgid "Orange"
+#~ msgstr "Pomerančový"
+
+#~ msgid "Strawberry"
+#~ msgstr "Jahodový"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Žvýkačkové bubliny"
+
+#~ msgid "Grape"
+#~ msgstr "Hroznový"
+
+#~ msgid "Cocoa"
+#~ msgstr "Kakaový"
+
+#~ msgid "Slate"
+#~ msgstr "Břidlicový"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Otevřít Nastavení systému…"

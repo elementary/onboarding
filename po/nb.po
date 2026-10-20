@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2024-02-10 15:11+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "Sett opp %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "Neste"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "Hopp over alle"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr ""
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "Begynn"
 
@@ -61,7 +61,7 @@ msgid "Get apps made for elementary OS and reviewed by elementary on AppCenter"
 msgstr ""
 "Hent programmer laget for elementary OS vurdert av elementary på AppSenter."
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 #, fuzzy
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "Sideinnlast programmet fra alternative kilder, som f.eks. Flathub"
@@ -218,7 +218,7 @@ msgstr "Nettkontoer"
 msgid "Connect Online Accounts…"
 msgstr "Koble til nettkontoer …"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -226,76 +226,32 @@ msgstr ""
 "Gjør det til ditt eget ved å velge en visuell stil og kontrastfarge. "
 "Programmer kan overstyre disse med sitt eget utseende."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "Velg ditt utseende"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "Forvalg"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr ""
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "Mørk"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "Solnedgang til soloppgang"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "Blåbær"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "Mint"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "Lime"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "Banan"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "Appelsin"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "Jordbær"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "Tyggegummi"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "Vinrød"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "Kakao"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "Skifer"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr ""
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "Automatisk basert på bakgrunnsbilde"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr ""
 
@@ -351,23 +307,53 @@ msgstr ""
 "Fortsett å sette opp noen nyttige funksjoner. Besøk lenkene nedenfor for mer "
 "info om %s."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 #, fuzzy
 #| msgid "Basics Guide…"
 msgid "Basics Guide"
 msgstr "Grunnleggende guide…"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr ""
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr ""
+
+#~ msgid "Blueberry"
+#~ msgstr "Blåbær"
+
+#~ msgid "Mint"
+#~ msgstr "Mint"
+
+#~ msgid "Lime"
+#~ msgstr "Lime"
+
+#~ msgid "Banana"
+#~ msgstr "Banan"
+
+#~ msgid "Orange"
+#~ msgstr "Appelsin"
+
+#~ msgid "Strawberry"
+#~ msgstr "Jordbær"
+
+#~ msgid "Bubblegum"
+#~ msgstr "Tyggegummi"
+
+#~ msgid "Grape"
+#~ msgstr "Vinrød"
+
+#~ msgid "Cocoa"
+#~ msgstr "Kakao"
+
+#~ msgid "Slate"
+#~ msgstr "Skifer"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "Åpne systeminnstillinger…"

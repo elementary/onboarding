@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2024-09-14 21:16+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementary.io/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "הגדרת %s"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "הבא"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "לדלג על הכול"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "חזרה"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "מאיפה מתחילים"
 
@@ -58,7 +58,7 @@ msgstr ""
 "קבלת יישומים שנוצרו עבור elementary OS ונבדקו על ידי elementary בחנות "
 "היישומים"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr "טעינה של יישומים מהצד דרך חנויות יישומים חלופיות כגון Flathub"
 
@@ -206,7 +206,7 @@ msgstr "חשבונות מקוונים"
 msgid "Connect Online Accounts…"
 msgstr "חיבור חשבונות מקוונים…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -214,76 +214,32 @@ msgstr ""
 "התאמה לטעם שלך על ידי בחירה בסגנון חזותי וצבעי הדגשה. יישומים יכולים לדרוס "
 "את ההגדרות האלו בבחירות חזותיות עצמאיות."
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "בחירת המראה שמתאים לך"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "בררת מחדל"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "סגנון"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "כהה"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "שקיעה לזריחה"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "אוכמניה"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "נענע"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "ליים"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "בננה"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "תפוז"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "תות"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "מסטיק"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "ענב"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "קקאו"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "צפחה"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr ""
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "אוטומטית לפי תמונת הרקע"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "צבע משני"
 
@@ -329,21 +285,51 @@ msgstr ""
 "ניתן להמשיך כדי להגדיר תכונות שימושיות. בקישורים שלהלן יש עזרה נוספת איך "
 "להתחיל."
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "מדריך יסודות"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "קבלת עזרה"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "האתר שלנו"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "השתתפות או מימון"
+
+#~ msgid "Blueberry"
+#~ msgstr "אוכמניה"
+
+#~ msgid "Mint"
+#~ msgstr "נענע"
+
+#~ msgid "Lime"
+#~ msgstr "ליים"
+
+#~ msgid "Banana"
+#~ msgstr "בננה"
+
+#~ msgid "Orange"
+#~ msgstr "תפוז"
+
+#~ msgid "Strawberry"
+#~ msgstr "תות"
+
+#~ msgid "Bubblegum"
+#~ msgstr "מסטיק"
+
+#~ msgid "Grape"
+#~ msgstr "ענב"
+
+#~ msgid "Cocoa"
+#~ msgstr "קקאו"
+
+#~ msgid "Slate"
+#~ msgstr "צפחה"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "פתיחת הגדרות המערכת…"

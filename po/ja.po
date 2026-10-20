@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: io.elementary.onboarding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-05 17:46+0000\n"
+"POT-Creation-Date: 2026-10-20 19:02+0000\n"
 "PO-Revision-Date: 2026-10-12 08:03+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/installer/"
@@ -24,19 +24,19 @@ msgstr ""
 msgid "Set up %s"
 msgstr "%s をセットアップ"
 
-#: src/Views/AbstractOnboardingView.vala:84
+#: src/Views/AbstractOnboardingView.vala:72
 msgid "Next"
 msgstr "次へ"
 
-#: src/Views/AbstractOnboardingView.vala:103
+#: src/Views/AbstractOnboardingView.vala:91
 msgid "Skip All"
 msgstr "すべてスキップ"
 
-#: src/Views/AbstractOnboardingView.vala:106
+#: src/Views/AbstractOnboardingView.vala:94
 msgid "Back"
 msgstr "戻る"
 
-#: src/Views/AbstractOnboardingView.vala:111
+#: src/Views/AbstractOnboardingView.vala:99
 msgid "Get Started"
 msgstr "使い始める"
 
@@ -58,7 +58,7 @@ msgstr ""
 "AppCenter から入手可能なアプリは、elementary OS 向けに開発されており、"
 "elementary によって審査済みです"
 
-#: src/Views/AppCenterView.vala:51
+#: src/Views/AppCenterView.vala:53
 msgid "Sideload apps from alternative app stores like Flathub"
 msgstr ""
 "Flathub など、サードパーティのリモートリポジトリからアプリをサイドロードする"
@@ -106,7 +106,8 @@ msgstr "“アプリケーション”メニューから (特定の設定を検�
 
 #: src/Views/FinishView.vala:35
 msgid "From the Quick Settings menu or by middle-clicking toggle buttons"
-msgstr "“クイック設定”メニューから (インジケーターアイコンの中クリックでも可能)"
+msgstr ""
+"“クイック設定”メニューから (インジケーターアイコンの中クリックでも可能)"
 
 #: src/Views/FinishView.vala:40
 msgid "By secondary-clicking on the wallpaper"
@@ -206,7 +207,7 @@ msgstr "オンラインアカウント"
 msgid "Connect Online Accounts…"
 msgstr "オンラインアカウントを接続…"
 
-#: src/Views/StyleView.vala:72
+#: src/Views/StyleView.vala:22
 msgid ""
 "Make it your own by choosing a visual style and accent color. Apps may "
 "override these with their own look."
@@ -214,76 +215,32 @@ msgstr ""
 "視覚スタイルとアクセントカラーを選んで、オリジナリティを出しましょう。アプリ"
 "によっては、独自の視覚スタイルとアクセントカラーが使用されることもあります。"
 
-#: src/Views/StyleView.vala:74
+#: src/Views/StyleView.vala:24
 msgid "Choose Your Look"
 msgstr "外観を選択"
 
-#: src/Views/StyleView.vala:113
+#: src/Views/StyleView.vala:37
 msgid "Default"
 msgstr "デフォルト"
 
-#: src/Views/StyleView.vala:122 src/Views/StyleView.vala:143
-#: src/Views/StyleView.vala:167
+#: src/Views/StyleView.vala:46 src/Views/StyleView.vala:67
+#: src/Views/StyleView.vala:91
 msgid "Style"
 msgstr "スタイル"
 
-#: src/Views/StyleView.vala:134
+#: src/Views/StyleView.vala:58
 msgid "Dark"
 msgstr "ダーク"
 
-#: src/Views/StyleView.vala:155
+#: src/Views/StyleView.vala:79
 msgid "Sunset to Sunrise"
 msgstr "日没から日の出まで"
 
-#: src/Views/StyleView.vala:176
-msgid "Blueberry"
-msgstr "ブルーベリー"
-
-#: src/Views/StyleView.vala:181
-msgid "Mint"
-msgstr "ミント"
-
-#: src/Views/StyleView.vala:186
-msgid "Lime"
-msgstr "ライム"
-
-#: src/Views/StyleView.vala:191
-msgid "Banana"
-msgstr "バナナ"
-
-#: src/Views/StyleView.vala:196
-msgid "Orange"
-msgstr "オレンジ"
-
-#: src/Views/StyleView.vala:201
-msgid "Strawberry"
-msgstr "ストロベリー"
-
-#: src/Views/StyleView.vala:206
-msgid "Bubblegum"
-msgstr "ピンク"
-
-#: src/Views/StyleView.vala:211
-msgid "Grape"
-msgstr "グレープ"
-
-#: src/Views/StyleView.vala:216
-msgid "Cocoa"
-msgstr "ココア"
-
-#: src/Views/StyleView.vala:221
-msgid "Slate"
-msgstr "スレート"
-
-#: src/Views/StyleView.vala:226
-msgid "Latte"
-msgstr "ラテ"
-
-#: src/Views/StyleView.vala:231
+#: src/Views/StyleView.vala:225
 msgid "Automatic based on wallpaper"
 msgstr "壁紙に基づいて自動的に設定"
 
-#: src/Views/StyleView.vala:367
+#: src/Views/StyleView.vala:242
 msgid "accent color"
 msgstr "アクセントカラー"
 
@@ -331,21 +288,54 @@ msgstr ""
 "続行して、便利な機能をセットアップしましょう。初期設定に関する詳細情報を得る"
 "には、以下のリンクにアクセスしてください。"
 
-#: src/Views/WelcomeView.vala:137
+#: src/Views/WelcomeView.vala:138
 msgid "Basics Guide"
 msgstr "基本操作ガイド"
 
-#: src/Views/WelcomeView.vala:144
+#: src/Views/WelcomeView.vala:145
 msgid "Get Help"
 msgstr "サポートを受ける"
 
-#: src/Views/WelcomeView.vala:151
+#: src/Views/WelcomeView.vala:152
 msgid "Our Website"
 msgstr "公式ウェブサイト"
 
-#: src/Views/WelcomeView.vala:158
+#: src/Views/WelcomeView.vala:159
 msgid "Get Involved or Sponsor Us"
 msgstr "開発に参加、またはスポンサーになる"
+
+#~ msgid "Blueberry"
+#~ msgstr "ブルーベリー"
+
+#~ msgid "Mint"
+#~ msgstr "ミント"
+
+#~ msgid "Lime"
+#~ msgstr "ライム"
+
+#~ msgid "Banana"
+#~ msgstr "バナナ"
+
+#~ msgid "Orange"
+#~ msgstr "オレンジ"
+
+#~ msgid "Strawberry"
+#~ msgstr "ストロベリー"
+
+#~ msgid "Bubblegum"
+#~ msgstr "ピンク"
+
+#~ msgid "Grape"
+#~ msgstr "グレープ"
+
+#~ msgid "Cocoa"
+#~ msgstr "ココア"
+
+#~ msgid "Slate"
+#~ msgstr "スレート"
+
+#~ msgid "Latte"
+#~ msgstr "ラテ"
 
 #~ msgid "Open System Settings…"
 #~ msgstr "“システム設定”を開く…"
