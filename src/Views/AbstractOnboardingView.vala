@@ -41,24 +41,16 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
         };
         overlay.add_overlay (badge);
 
-        var title_label = new Gtk.Label (title) {
+        var title_label = new Granite.HeaderLabel (title) {
+            secondary_text = description,
             justify = CENTER,
-            wrap = true,
-            use_markup = true
+            size = H1,
+            xalign = 0.5f
         };
-        title_label.add_css_class (Granite.STYLE_CLASS_H1_LABEL);
 
-        var description_label = new Gtk.Label (description) {
-            justify = CENTER,
-            wrap = true,
-            use_markup = true
-        };
-        description_label.add_css_class (Granite.CssClass.DIM);
-
-        var header_area = new Granite.Box (VERTICAL, NONE);
+        var header_area = new Granite.Box (VERTICAL, SINGLE);
         header_area.append (overlay);
         header_area.append (title_label);
-        header_area.append (description_label);
         header_area.add_css_class ("header-area");
 
         custom_bin = new Granite.Box (VERTICAL) {
@@ -131,7 +123,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
             {title, description}
         );
 
-        bind_property ("description", description_label, "label");
+        bind_property ("description", title_label, "secondary-text");
         bind_property ("title", title_label, "label");
 
         // Grab focus early so we don't interupt the screen reader
@@ -166,11 +158,11 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
     }
 
     public class ListItem : Granite.Box {
-        public string color { get; construct; }
+        public Granite.AccentColor color { get; construct; }
         public string icon_name { get; construct; }
         public string label { get; construct; }
 
-        public ListItem (string icon_name, string label, string color) {
+        public ListItem (string icon_name, string label, Granite.AccentColor color) {
             Object (
                 icon_name: icon_name,
                 label: label,
@@ -180,8 +172,7 @@ public abstract class Onboarding.AbstractOnboardingView : Adw.NavigationPage {
 
         construct {
             var image = new Gtk.Image.from_icon_name (icon_name);
-            image.add_css_class (Granite.CssClass.ACCENT);
-            image.add_css_class (color);
+            image.add_css_class (color.to_css_class ());
 
             var description_label = new Gtk.Label (label) {
                 hexpand = true,
